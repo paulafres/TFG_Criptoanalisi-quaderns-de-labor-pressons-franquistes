@@ -1,0 +1,15 @@
+63p
+5 a(5)gl(xl-3v)a(5)g
+7 a(3)p(plxl-3v)pa(3)pl
+9 apg(2)lxl(2)l3l(2)lxl(2)applpl
+11 3(3)lxl(3)l3l(3)lxl(3)l3l(3)l
+13 3(5)gplxlpa(5)3lglplal
+15 a(3)p(2)lxl(2)a(3)(pl-2v)(3)lal
+17 apg(3)lxl(3)ap(gl-3v)p(la-2v)l
+19 3(4)lxl(4)3(lg-2v)l(3)l(al-2v)
+21 a(9)(pl-3v)(2)lpl(2)l(al-2v)
+23 a(7)(pl-3v)(3l-3v)(al-2v)
+25 a(5)(gl-3v)(2)pl(2)lpl(2)la(2)l(al-2v)
+27 a(3)(gl-3v)(2)g(l(3)-3v)la(2)(la-2v)l
+29 ap(gl-3v)(2)pl-2v)plpla(la(2)-2v)l(al-2v)
+31 l3(lg-2v)(l(2)g-2v)(2)lp l(2)(la(2)2v)(la-2v)l

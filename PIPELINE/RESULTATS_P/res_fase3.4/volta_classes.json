@@ -1,0 +1,7252 @@
+{
+  "metadades": {
+    "num_voltes_total": 774,
+    "num_voltes_validades": 774,
+    "num_voltes_descartades_buides": 0,
+    "dim_signatura": 10,
+    "classes_token_usades": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C_RARE"
+    ],
+    "k_provats": [
+      {
+        "k": 2,
+        "silhouette": 0.5633
+      },
+      {
+        "k": 3,
+        "silhouette": 0.6489
+      },
+      {
+        "k": 4,
+        "silhouette": 0.5476
+      },
+      {
+        "k": 5,
+        "silhouette": 0.5737
+      },
+      {
+        "k": 6,
+        "silhouette": 0.5821
+      },
+      {
+        "k": 7,
+        "silhouette": 0.5497
+      },
+      {
+        "k": 8,
+        "silhouette": 0.5584
+      },
+      {
+        "k": 9,
+        "silhouette": 0.4993
+      },
+      {
+        "k": 10,
+        "silhouette": 0.5109
+      },
+      {
+        "k": 11,
+        "silhouette": 0.4537
+      },
+      {
+        "k": 12,
+        "silhouette": 0.4852
+      },
+      {
+        "k": 13,
+        "silhouette": 0.4761
+      },
+      {
+        "k": 14,
+        "silhouette": 0.4794
+      },
+      {
+        "k": 15,
+        "silhouette": 0.4796
+      },
+      {
+        "k": 16,
+        "silhouette": 0.4179
+      },
+      {
+        "k": 17,
+        "silhouette": 0.4415
+      },
+      {
+        "k": 18,
+        "silhouette": 0.4353
+      }
+    ],
+    "k_optim": 3,
+    "silhouette_optim": 0.6489,
+    "outliers_detectats": 28
+  },
+  "tipus_voltes": {
+    "V0": {
+      "num_voltes": 528,
+      "composicio_classes_mitjana": {
+        "C0": 0.003,
+        "C1": 0.0138,
+        "C2": 0.74,
+        "C3": 0.0007,
+        "C4": 0.0006,
+        "C5": 0.0099,
+        "C6": 0.0164,
+        "C7": 0.0024,
+        "C8": 0.209,
+        "C_RARE": 0.0041
+      },
+      "top_classes": [
+        {
+          "classe": "C2",
+          "frac": 0.74
+        },
+        {
+          "classe": "C8",
+          "frac": 0.209
+        },
+        {
+          "classe": "C6",
+          "frac": 0.0164
+        }
+      ],
+      "long_mitjana": 40.73,
+      "num_macros_mitja": 3.93,
+      "prof_max_mitjana": 1.08,
+      "frac_voltes_amb_verticals": 0.5417,
+      "num_blocks_verticals_mitja": 1.1837,
+      "sum_n_voltes_verticals_mitja": 4.1307,
+      "max_n_voltes_verticals_max": 15,
+      "frac_verticals_mitja": 0.0502,
+      "teixits_presents": {
+        "P_Gentio": 77,
+        "P_Helga": 74,
+        "P_Primavera": 63,
+        "P_Pasión": 56,
+        "P_Rosa de los Vientos": 55,
+        "P_Conchita Romero": 49,
+        "P_Celia": 42,
+        "P_Ruth": 30,
+        "P_Jafisa - Grafico B": 29,
+        "P_Renacimiento": 19,
+        "P_Cori": 14,
+        "P_Jafisa - Grafico A": 12,
+        "P_Jafisa - Grafico C": 6,
+        "P_Puntilla del Cacus": 2
+      },
+      "centroide_L2": [
+        0.00432,
+        0.019212,
+        0.942888,
+        0.000906,
+        0.000941,
+        0.01471,
+        0.024209,
+        0.003596,
+        0.279312,
+        0.005672
+      ]
+    },
+    "V1": {
+      "num_voltes": 27,
+      "composicio_classes_mitjana": {
+        "C0": 0.0,
+        "C1": 0.2593,
+        "C2": 0.142,
+        "C3": 0.0,
+        "C4": 0.0,
+        "C5": 0.2901,
+        "C6": 0.1235,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C_RARE": 0.1852
+      },
+      "top_classes": [
+        {
+          "classe": "C5",
+          "frac": 0.2901
+        },
+        {
+          "classe": "C1",
+          "frac": 0.2593
+        },
+        {
+          "classe": "C_RARE",
+          "frac": 0.1852
+        }
+      ],
+      "long_mitjana": 1.81,
+      "num_macros_mitja": 1.33,
+      "prof_max_mitjana": 1.3,
+      "frac_voltes_amb_verticals": 0.9259,
+      "num_blocks_verticals_mitja": 1.3333,
+      "sum_n_voltes_verticals_mitja": 6.963,
+      "max_n_voltes_verticals_max": 10,
+      "frac_verticals_mitja": 0.784,
+      "teixits_presents": {
+        "P_Jafisa - Grafico B": 10,
+        "P_Conchita Romero": 5,
+        "P_Primavera": 3,
+        "P_Jafisa - Grafico A": 3,
+        "P_Ruth": 2,
+        "P_Celia": 2,
+        "P_Gentio": 1,
+        "P_Helga": 1
+      },
+      "centroide_L2": [
+        -0.0,
+        0.259259,
+        0.240023,
+        0.0,
+        0.0,
+        0.388171,
+        0.213833,
+        0.0,
+        0.0,
+        0.185185
+      ]
+    },
+    "V2": {
+      "num_voltes": 219,
+      "composicio_classes_mitjana": {
+        "C0": 0.0043,
+        "C1": 0.0167,
+        "C2": 0.4709,
+        "C3": 0.0034,
+        "C4": 0.0023,
+        "C5": 0.013,
+        "C6": 0.0199,
+        "C7": 0.0046,
+        "C8": 0.4588,
+        "C_RARE": 0.0061
+      },
+      "top_classes": [
+        {
+          "classe": "C2",
+          "frac": 0.4709
+        },
+        {
+          "classe": "C8",
+          "frac": 0.4588
+        },
+        {
+          "classe": "C6",
+          "frac": 0.0199
+        }
+      ],
+      "long_mitjana": 36.15,
+      "num_macros_mitja": 3.18,
+      "prof_max_mitjana": 1.07,
+      "frac_voltes_amb_verticals": 0.6073,
+      "num_blocks_verticals_mitja": 1.3014,
+      "sum_n_voltes_verticals_mitja": 4.2877,
+      "max_n_voltes_verticals_max": 21,
+      "frac_verticals_mitja": 0.0651,
+      "teixits_presents": {
+        "P_Conchita Romero": 35,
+        "P_Primavera": 31,
+        "P_Helga": 28,
+        "P_Ruth": 27,
+        "P_Gentio": 22,
+        "P_Pasión": 12,
+        "P_Renacimiento": 12,
+        "P_Rosa de los Vientos": 10,
+        "P_Jafisa - Grafico B": 9,
+        "P_Celia": 9,
+        "P_Cori": 7,
+        "P_Puntilla del Cacus": 6,
+        "P_Jafisa - Grafico A": 6,
+        "P_Jafisa - Grafico C": 5
+      },
+      "centroide_L2": [
+        0.008013,
+        0.026041,
+        0.693471,
+        0.005768,
+        0.004217,
+        0.021407,
+        0.03344,
+        0.008514,
+        0.66679,
+        0.009684
+      ]
+    }
+  },
+  "assignacions": [
+    {
+      "indice_global": 0,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.013593,
+      "z_intra_tipus": -0.104079,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 1,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.020029,
+      "z_intra_tipus": 0.17633,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 2,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.00377,
+      "z_intra_tipus": -0.532069,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 3,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 7,
+      "tipus": "V2",
+      "dist_centroide": 0.005504,
+      "z_intra_tipus": -0.474897,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 4,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 9,
+      "tipus": "V2",
+      "dist_centroide": 0.005504,
+      "z_intra_tipus": -0.474897,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 5,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 11,
+      "tipus": "V2",
+      "dist_centroide": 0.013947,
+      "z_intra_tipus": -0.34615,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 6,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 13,
+      "tipus": "V2",
+      "dist_centroide": 0.028933,
+      "z_intra_tipus": -0.117638,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 7,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.019365,
+      "z_intra_tipus": 0.1474,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 8,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.043763,
+      "z_intra_tipus": 0.108501,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 9,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.005504,
+      "z_intra_tipus": -0.474897,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 10,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 21,
+      "tipus": "V2",
+      "dist_centroide": 0.00191,
+      "z_intra_tipus": -0.529691,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 11,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.00377,
+      "z_intra_tipus": -0.532069,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 12,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.00377,
+      "z_intra_tipus": -0.532069,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 13,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.000686,
+      "z_intra_tipus": -0.666436,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 14,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.00304,
+      "z_intra_tipus": -0.563894,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 15,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 16,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 17,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.004046,
+      "z_intra_tipus": -0.520036,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 18,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 37,
+      "tipus": "V0",
+      "dist_centroide": 0.004046,
+      "z_intra_tipus": -0.520036,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 19,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 39,
+      "tipus": "V0",
+      "dist_centroide": 0.001652,
+      "z_intra_tipus": -0.624347,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 20,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 41,
+      "tipus": "V0",
+      "dist_centroide": 0.003285,
+      "z_intra_tipus": -0.553219,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 21,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.025247,
+      "z_intra_tipus": 0.403642,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 22,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.010423,
+      "z_intra_tipus": -0.242193,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 23,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.005932,
+      "z_intra_tipus": -0.437884,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 24,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.028518,
+      "z_intra_tipus": 0.54615,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 25,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.024218,
+      "z_intra_tipus": 0.358808,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 26,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.022265,
+      "z_intra_tipus": 0.273743,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 27,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.01814,
+      "z_intra_tipus": 0.094027,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 28,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.030443,
+      "z_intra_tipus": 0.630048,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 29,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 59,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 30,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 61,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 31,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 63,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 32,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 65,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 33,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 67,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 34,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.153433,
+      "z_intra_tipus": 5.988515,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 35,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 71,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 36,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.153433,
+      "z_intra_tipus": 5.988515,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 37,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 75,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 38,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.153433,
+      "z_intra_tipus": 5.988515,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 39,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 79,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 40,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.153433,
+      "z_intra_tipus": 5.988515,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 41,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 83,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 42,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.153433,
+      "z_intra_tipus": 5.988515,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 43,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 87,
+      "tipus": "V1",
+      "dist_centroide": 0.184672,
+      "z_intra_tipus": -1.083125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 44,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 89,
+      "tipus": "V2",
+      "dist_centroide": 0.150178,
+      "z_intra_tipus": 1.731145,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 45,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 91,
+      "tipus": "V2",
+      "dist_centroide": 0.18011,
+      "z_intra_tipus": 2.187567,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 46,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 47,
+      "teixit": "P_Jafisa - Grafico B",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 48,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.021562,
+      "z_intra_tipus": 0.243078,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 49,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.008083,
+      "z_intra_tipus": -0.344157,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 50,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 9,
+      "tipus": "V2",
+      "dist_centroide": 0.017108,
+      "z_intra_tipus": -0.297952,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 51,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.002862,
+      "z_intra_tipus": -0.571635,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 52,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 13,
+      "tipus": "V2",
+      "dist_centroide": 0.024887,
+      "z_intra_tipus": -0.179327,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 53,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.002785,
+      "z_intra_tipus": -0.574981,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 54,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.022414,
+      "z_intra_tipus": 0.28024,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 55,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.007373,
+      "z_intra_tipus": -0.375113,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 56,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 21,
+      "tipus": "V2",
+      "dist_centroide": 0.134546,
+      "z_intra_tipus": 1.492785,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 57,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 23,
+      "tipus": "V2",
+      "dist_centroide": 0.078641,
+      "z_intra_tipus": 0.640325,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 58,
+      "teixit": "P_Jafisa - Grafico C",
+      "volta": 25,
+      "tipus": "V2",
+      "dist_centroide": 0.056403,
+      "z_intra_tipus": 0.301232,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 59,
+      "teixit": "P_Conchita Romero",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 60,
+      "teixit": "P_Conchita Romero",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 61,
+      "teixit": "P_Conchita Romero",
+      "volta": 5,
+      "tipus": "V2",
+      "dist_centroide": 0.017108,
+      "z_intra_tipus": -0.297952,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 62,
+      "teixit": "P_Conchita Romero",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.004912,
+      "z_intra_tipus": -0.4823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 63,
+      "teixit": "P_Conchita Romero",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.000686,
+      "z_intra_tipus": -0.666436,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 64,
+      "teixit": "P_Conchita Romero",
+      "volta": 11,
+      "tipus": "V2",
+      "dist_centroide": 0.003887,
+      "z_intra_tipus": -0.499549,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 65,
+      "teixit": "P_Conchita Romero",
+      "volta": 13,
+      "tipus": "V2",
+      "dist_centroide": 0.008825,
+      "z_intra_tipus": -0.424254,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 66,
+      "teixit": "P_Conchita Romero",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.000694,
+      "z_intra_tipus": -0.666081,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 67,
+      "teixit": "P_Conchita Romero",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.009829,
+      "z_intra_tipus": -0.408942,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 68,
+      "teixit": "P_Conchita Romero",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.018073,
+      "z_intra_tipus": 0.091093,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 69,
+      "teixit": "P_Conchita Romero",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.009198,
+      "z_intra_tipus": -0.295594,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 70,
+      "teixit": "P_Conchita Romero",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.023892,
+      "z_intra_tipus": 0.344613,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 71,
+      "teixit": "P_Conchita Romero",
+      "volta": 25,
+      "tipus": "V2",
+      "dist_centroide": 0.022711,
+      "z_intra_tipus": -0.212503,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 72,
+      "teixit": "P_Conchita Romero",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.023892,
+      "z_intra_tipus": 0.344613,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 73,
+      "teixit": "P_Conchita Romero",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.023892,
+      "z_intra_tipus": 0.344613,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 74,
+      "teixit": "P_Conchita Romero",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.023892,
+      "z_intra_tipus": 0.344613,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 75,
+      "teixit": "P_Conchita Romero",
+      "volta": 33,
+      "tipus": "V2",
+      "dist_centroide": 0.022711,
+      "z_intra_tipus": -0.212503,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 76,
+      "teixit": "P_Conchita Romero",
+      "volta": 35,
+      "tipus": "V2",
+      "dist_centroide": 0.014685,
+      "z_intra_tipus": -0.334888,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 77,
+      "teixit": "P_Conchita Romero",
+      "volta": 37,
+      "tipus": "V2",
+      "dist_centroide": 0.01118,
+      "z_intra_tipus": -0.388341,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 78,
+      "teixit": "P_Conchita Romero",
+      "volta": 39,
+      "tipus": "V2",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.52055,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 79,
+      "teixit": "P_Conchita Romero",
+      "volta": 41,
+      "tipus": "V2",
+      "dist_centroide": 0.154493,
+      "z_intra_tipus": 1.796952,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 80,
+      "teixit": "P_Conchita Romero",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.032213,
+      "z_intra_tipus": 0.707146,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 81,
+      "teixit": "P_Conchita Romero",
+      "volta": 45,
+      "tipus": "V2",
+      "dist_centroide": 0.022711,
+      "z_intra_tipus": -0.212503,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 82,
+      "teixit": "P_Conchita Romero",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.024414,
+      "z_intra_tipus": 0.367375,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 83,
+      "teixit": "P_Conchita Romero",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.029549,
+      "z_intra_tipus": 0.591087,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 84,
+      "teixit": "P_Conchita Romero",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.012279,
+      "z_intra_tipus": -0.161361,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 85,
+      "teixit": "P_Conchita Romero",
+      "volta": 53,
+      "tipus": "V2",
+      "dist_centroide": 0.024495,
+      "z_intra_tipus": -0.185307,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 86,
+      "teixit": "P_Conchita Romero",
+      "volta": 55,
+      "tipus": "V2",
+      "dist_centroide": 0.021886,
+      "z_intra_tipus": -0.225088,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 87,
+      "teixit": "P_Conchita Romero",
+      "volta": 57,
+      "tipus": "V2",
+      "dist_centroide": 0.00509,
+      "z_intra_tipus": -0.481203,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 88,
+      "teixit": "P_Conchita Romero",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.003678,
+      "z_intra_tipus": -0.536087,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 89,
+      "teixit": "P_Conchita Romero",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.01268,
+      "z_intra_tipus": -0.143864,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 90,
+      "teixit": "P_Conchita Romero",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.002159,
+      "z_intra_tipus": -0.602243,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 91,
+      "teixit": "P_Conchita Romero",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.002829,
+      "z_intra_tipus": -0.573047,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 92,
+      "teixit": "P_Conchita Romero",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.013435,
+      "z_intra_tipus": -0.110992,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 93,
+      "teixit": "P_Conchita Romero",
+      "volta": 69,
+      "tipus": "V2",
+      "dist_centroide": 0.015395,
+      "z_intra_tipus": -0.324074,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 94,
+      "teixit": "P_Conchita Romero",
+      "volta": 71,
+      "tipus": "V2",
+      "dist_centroide": 0.008145,
+      "z_intra_tipus": -0.434621,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 95,
+      "teixit": "P_Conchita Romero",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.009717,
+      "z_intra_tipus": -0.272949,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 96,
+      "teixit": "P_Conchita Romero",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.008671,
+      "z_intra_tipus": -0.318551,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 97,
+      "teixit": "P_Conchita Romero",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.006473,
+      "z_intra_tipus": -0.414321,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 98,
+      "teixit": "P_Conchita Romero",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.004223,
+      "z_intra_tipus": -0.512313,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 99,
+      "teixit": "P_Conchita Romero",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.00315,
+      "z_intra_tipus": -0.559067,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 100,
+      "teixit": "P_Conchita Romero",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.002186,
+      "z_intra_tipus": -0.601068,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 101,
+      "teixit": "P_Conchita Romero",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.001431,
+      "z_intra_tipus": -0.633963,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 102,
+      "teixit": "P_Conchita Romero",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.001048,
+      "z_intra_tipus": -0.650661,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 103,
+      "teixit": "P_Conchita Romero",
+      "volta": 89,
+      "tipus": "V0",
+      "dist_centroide": 0.001306,
+      "z_intra_tipus": -0.639442,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 104,
+      "teixit": "P_Conchita Romero",
+      "volta": 91,
+      "tipus": "V2",
+      "dist_centroide": 0.02488,
+      "z_intra_tipus": -0.179437,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 105,
+      "teixit": "P_Conchita Romero",
+      "volta": 93,
+      "tipus": "V2",
+      "dist_centroide": 0.026562,
+      "z_intra_tipus": -0.153785,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 106,
+      "teixit": "P_Conchita Romero",
+      "volta": 95,
+      "tipus": "V2",
+      "dist_centroide": 0.00793,
+      "z_intra_tipus": -0.437891,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 107,
+      "teixit": "P_Conchita Romero",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.002643,
+      "z_intra_tipus": -0.58116,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 108,
+      "teixit": "P_Conchita Romero",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.011156,
+      "z_intra_tipus": -0.210292,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 109,
+      "teixit": "P_Conchita Romero",
+      "volta": 101,
+      "tipus": "V0",
+      "dist_centroide": 0.016612,
+      "z_intra_tipus": 0.027457,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 110,
+      "teixit": "P_Conchita Romero",
+      "volta": 103,
+      "tipus": "V2",
+      "dist_centroide": 0.030827,
+      "z_intra_tipus": -0.088759,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 111,
+      "teixit": "P_Conchita Romero",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.02799,
+      "z_intra_tipus": 0.523153,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 112,
+      "teixit": "P_Conchita Romero",
+      "volta": 107,
+      "tipus": "V2",
+      "dist_centroide": 0.028504,
+      "z_intra_tipus": -0.124176,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 113,
+      "teixit": "P_Conchita Romero",
+      "volta": 109,
+      "tipus": "V2",
+      "dist_centroide": 0.008454,
+      "z_intra_tipus": -0.429908,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 114,
+      "teixit": "P_Conchita Romero",
+      "volta": 111,
+      "tipus": "V2",
+      "dist_centroide": 0.060523,
+      "z_intra_tipus": 0.364057,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 115,
+      "teixit": "P_Conchita Romero",
+      "volta": 113,
+      "tipus": "V2",
+      "dist_centroide": 0.202591,
+      "z_intra_tipus": 2.530371,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 116,
+      "teixit": "P_Conchita Romero",
+      "volta": 115,
+      "tipus": "V2",
+      "dist_centroide": 0.018067,
+      "z_intra_tipus": -0.283317,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 117,
+      "teixit": "P_Conchita Romero",
+      "volta": 117,
+      "tipus": "V1",
+      "dist_centroide": 0.565188,
+      "z_intra_tipus": 0.7982,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 118,
+      "teixit": "P_Conchita Romero",
+      "volta": 119,
+      "tipus": "V1",
+      "dist_centroide": 0.565188,
+      "z_intra_tipus": 0.7982,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 119,
+      "teixit": "P_Conchita Romero",
+      "volta": 121,
+      "tipus": "V1",
+      "dist_centroide": 0.565188,
+      "z_intra_tipus": 0.7982,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 120,
+      "teixit": "P_Conchita Romero",
+      "volta": 123,
+      "tipus": "V1",
+      "dist_centroide": 0.565188,
+      "z_intra_tipus": 0.7982,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 121,
+      "teixit": "P_Conchita Romero",
+      "volta": 125,
+      "tipus": "V1",
+      "dist_centroide": 0.68942,
+      "z_intra_tipus": 1.41242,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 122,
+      "teixit": "P_Conchita Romero",
+      "volta": 127,
+      "tipus": "V2",
+      "dist_centroide": 0.008883,
+      "z_intra_tipus": -0.423358,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 123,
+      "teixit": "P_Conchita Romero",
+      "volta": 129,
+      "tipus": "V2",
+      "dist_centroide": 0.022897,
+      "z_intra_tipus": -0.209679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 124,
+      "teixit": "P_Conchita Romero",
+      "volta": 131,
+      "tipus": "V2",
+      "dist_centroide": 0.02481,
+      "z_intra_tipus": -0.180512,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 125,
+      "teixit": "P_Conchita Romero",
+      "volta": 133,
+      "tipus": "V0",
+      "dist_centroide": 0.003137,
+      "z_intra_tipus": -0.559656,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 126,
+      "teixit": "P_Conchita Romero",
+      "volta": 135,
+      "tipus": "V0",
+      "dist_centroide": 0.026916,
+      "z_intra_tipus": 0.476369,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 127,
+      "teixit": "P_Conchita Romero",
+      "volta": 137,
+      "tipus": "V0",
+      "dist_centroide": 0.002489,
+      "z_intra_tipus": -0.58788,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 128,
+      "teixit": "P_Conchita Romero",
+      "volta": 139,
+      "tipus": "V0",
+      "dist_centroide": 0.028758,
+      "z_intra_tipus": 0.556612,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 129,
+      "teixit": "P_Conchita Romero",
+      "volta": 141,
+      "tipus": "V0",
+      "dist_centroide": 0.001039,
+      "z_intra_tipus": -0.651038,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 130,
+      "teixit": "P_Conchita Romero",
+      "volta": 143,
+      "tipus": "V0",
+      "dist_centroide": 0.004189,
+      "z_intra_tipus": -0.513795,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 131,
+      "teixit": "P_Conchita Romero",
+      "volta": 145,
+      "tipus": "V0",
+      "dist_centroide": 0.004912,
+      "z_intra_tipus": -0.4823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 132,
+      "teixit": "P_Conchita Romero",
+      "volta": 147,
+      "tipus": "V0",
+      "dist_centroide": 0.000686,
+      "z_intra_tipus": -0.666436,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 133,
+      "teixit": "P_Conchita Romero",
+      "volta": 149,
+      "tipus": "V0",
+      "dist_centroide": 0.000645,
+      "z_intra_tipus": -0.668222,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 134,
+      "teixit": "P_Conchita Romero",
+      "volta": 151,
+      "tipus": "V0",
+      "dist_centroide": 0.009851,
+      "z_intra_tipus": -0.267116,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 135,
+      "teixit": "P_Conchita Romero",
+      "volta": 153,
+      "tipus": "V0",
+      "dist_centroide": 0.003943,
+      "z_intra_tipus": -0.524529,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 136,
+      "teixit": "P_Conchita Romero",
+      "volta": 155,
+      "tipus": "V0",
+      "dist_centroide": 0.023548,
+      "z_intra_tipus": 0.329621,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 137,
+      "teixit": "P_Conchita Romero",
+      "volta": 157,
+      "tipus": "V0",
+      "dist_centroide": 0.010325,
+      "z_intra_tipus": -0.246471,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 138,
+      "teixit": "P_Conchita Romero",
+      "volta": 159,
+      "tipus": "V2",
+      "dist_centroide": 0.013053,
+      "z_intra_tipus": -0.359779,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 139,
+      "teixit": "P_Conchita Romero",
+      "volta": 161,
+      "tipus": "V2",
+      "dist_centroide": 0.053788,
+      "z_intra_tipus": 0.261366,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 140,
+      "teixit": "P_Conchita Romero",
+      "volta": 163,
+      "tipus": "V2",
+      "dist_centroide": 0.199175,
+      "z_intra_tipus": 2.478278,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 141,
+      "teixit": "P_Conchita Romero",
+      "volta": 165,
+      "tipus": "V2",
+      "dist_centroide": 0.013349,
+      "z_intra_tipus": -0.355272,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 142,
+      "teixit": "P_Conchita Romero",
+      "volta": 169,
+      "tipus": "V0",
+      "dist_centroide": 0.013575,
+      "z_intra_tipus": -0.104888,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 143,
+      "teixit": "P_Conchita Romero",
+      "volta": 171,
+      "tipus": "V0",
+      "dist_centroide": 0.00109,
+      "z_intra_tipus": -0.648825,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 144,
+      "teixit": "P_Conchita Romero",
+      "volta": 173,
+      "tipus": "V2",
+      "dist_centroide": 0.004053,
+      "z_intra_tipus": -0.497008,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 145,
+      "teixit": "P_Conchita Romero",
+      "volta": 175,
+      "tipus": "V0",
+      "dist_centroide": 0.051135,
+      "z_intra_tipus": 1.531547,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 146,
+      "teixit": "P_Conchita Romero",
+      "volta": 177,
+      "tipus": "V2",
+      "dist_centroide": 0.07482,
+      "z_intra_tipus": 0.582074,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 147,
+      "teixit": "P_Conchita Romero",
+      "volta": 179,
+      "tipus": "V2",
+      "dist_centroide": 0.02532,
+      "z_intra_tipus": -0.172731,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 148,
+      "teixit": "P_Ruth",
+      "volta": 1,
+      "tipus": "V1",
+      "dist_centroide": 0.68942,
+      "z_intra_tipus": 1.41242,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 149,
+      "teixit": "P_Ruth",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.066781,
+      "z_intra_tipus": 2.213226,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 150,
+      "teixit": "P_Ruth",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.036468,
+      "z_intra_tipus": 0.89253,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 151,
+      "teixit": "P_Ruth",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.011129,
+      "z_intra_tipus": -0.211444,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 152,
+      "teixit": "P_Ruth",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.007025,
+      "z_intra_tipus": -0.390245,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 153,
+      "teixit": "P_Ruth",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.01396,
+      "z_intra_tipus": -0.088096,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 154,
+      "teixit": "P_Ruth",
+      "volta": 631,
+      "tipus": "V0",
+      "dist_centroide": 0.007025,
+      "z_intra_tipus": -0.390245,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 155,
+      "teixit": "P_Ruth",
+      "volta": 633,
+      "tipus": "V0",
+      "dist_centroide": 0.052377,
+      "z_intra_tipus": 1.585662,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 156,
+      "teixit": "P_Ruth",
+      "volta": 635,
+      "tipus": "V1",
+      "dist_centroide": 0.68942,
+      "z_intra_tipus": 1.41242,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 157,
+      "teixit": "P_Ruth",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.129398,
+      "z_intra_tipus": 4.941346,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 158,
+      "teixit": "P_Ruth",
+      "volta": 3,
+      "tipus": "V2",
+      "dist_centroide": 0.295453,
+      "z_intra_tipus": 3.946352,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 159,
+      "teixit": "P_Ruth",
+      "volta": 5,
+      "tipus": "V2",
+      "dist_centroide": 0.338054,
+      "z_intra_tipus": 4.59595,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 160,
+      "teixit": "P_Ruth",
+      "volta": 7,
+      "tipus": "V2",
+      "dist_centroide": 0.010242,
+      "z_intra_tipus": -0.402637,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 161,
+      "teixit": "P_Ruth",
+      "volta": 9,
+      "tipus": "V2",
+      "dist_centroide": 0.01364,
+      "z_intra_tipus": -0.350822,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 162,
+      "teixit": "P_Ruth",
+      "volta": 11,
+      "tipus": "V2",
+      "dist_centroide": 0.01394,
+      "z_intra_tipus": -0.346255,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 163,
+      "teixit": "P_Ruth",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.042124,
+      "z_intra_tipus": 1.138953,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 164,
+      "teixit": "P_Ruth",
+      "volta": 15,
+      "tipus": "V2",
+      "dist_centroide": 0.020555,
+      "z_intra_tipus": -0.245386,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 165,
+      "teixit": "P_Ruth",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.015326,
+      "z_intra_tipus": -0.028601,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 166,
+      "teixit": "P_Ruth",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.023129,
+      "z_intra_tipus": 0.311364,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 167,
+      "teixit": "P_Ruth",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.077245,
+      "z_intra_tipus": 2.669104,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 168,
+      "teixit": "P_Ruth",
+      "volta": 23,
+      "tipus": "V2",
+      "dist_centroide": 0.007595,
+      "z_intra_tipus": -0.442998,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 169,
+      "teixit": "P_Ruth",
+      "volta": 25,
+      "tipus": "V2",
+      "dist_centroide": 0.00667,
+      "z_intra_tipus": -0.457113,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 170,
+      "teixit": "P_Ruth",
+      "volta": 27,
+      "tipus": "V2",
+      "dist_centroide": 0.003606,
+      "z_intra_tipus": -0.503837,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 171,
+      "teixit": "P_Ruth",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.027894,
+      "z_intra_tipus": 0.518988,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 172,
+      "teixit": "P_Ruth",
+      "volta": 31,
+      "tipus": "V2",
+      "dist_centroide": 0.012761,
+      "z_intra_tipus": -0.364226,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 173,
+      "teixit": "P_Ruth",
+      "volta": 33,
+      "tipus": "V2",
+      "dist_centroide": 0.013265,
+      "z_intra_tipus": -0.356548,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 174,
+      "teixit": "P_Ruth",
+      "volta": 35,
+      "tipus": "V2",
+      "dist_centroide": 0.001372,
+      "z_intra_tipus": -0.53789,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 175,
+      "teixit": "P_Ruth",
+      "volta": 37,
+      "tipus": "V2",
+      "dist_centroide": 0.003506,
+      "z_intra_tipus": -0.505359,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 176,
+      "teixit": "P_Ruth",
+      "volta": 39,
+      "tipus": "V2",
+      "dist_centroide": 0.016431,
+      "z_intra_tipus": -0.308267,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 177,
+      "teixit": "P_Ruth",
+      "volta": 41,
+      "tipus": "V2",
+      "dist_centroide": 0.00598,
+      "z_intra_tipus": -0.467636,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 178,
+      "teixit": "P_Ruth",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.024531,
+      "z_intra_tipus": 0.372446,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 179,
+      "teixit": "P_Ruth",
+      "volta": 45,
+      "tipus": "V2",
+      "dist_centroide": 0.003815,
+      "z_intra_tipus": -0.500637,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 180,
+      "teixit": "P_Ruth",
+      "volta": 47,
+      "tipus": "V2",
+      "dist_centroide": 0.025153,
+      "z_intra_tipus": -0.175271,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 181,
+      "teixit": "P_Ruth",
+      "volta": 49,
+      "tipus": "V2",
+      "dist_centroide": 0.004685,
+      "z_intra_tipus": -0.487377,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 182,
+      "teixit": "P_Ruth",
+      "volta": 51,
+      "tipus": "V2",
+      "dist_centroide": 0.006932,
+      "z_intra_tipus": -0.453116,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 183,
+      "teixit": "P_Ruth",
+      "volta": 53,
+      "tipus": "V2",
+      "dist_centroide": 0.026546,
+      "z_intra_tipus": -0.154041,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 184,
+      "teixit": "P_Ruth",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.004297,
+      "z_intra_tipus": -0.509109,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 185,
+      "teixit": "P_Ruth",
+      "volta": 57,
+      "tipus": "V2",
+      "dist_centroide": 0.028338,
+      "z_intra_tipus": -0.126706,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 186,
+      "teixit": "P_Ruth",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.01544,
+      "z_intra_tipus": -0.023628,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 187,
+      "teixit": "P_Ruth",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.029829,
+      "z_intra_tipus": 0.603297,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 188,
+      "teixit": "P_Ruth",
+      "volta": 63,
+      "tipus": "V2",
+      "dist_centroide": 0.006246,
+      "z_intra_tipus": -0.463578,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 189,
+      "teixit": "P_Ruth",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.02555,
+      "z_intra_tipus": 0.416844,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 190,
+      "teixit": "P_Ruth",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.023424,
+      "z_intra_tipus": 0.324212,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 191,
+      "teixit": "P_Ruth",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.059526,
+      "z_intra_tipus": 1.897114,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 192,
+      "teixit": "P_Ruth",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.023424,
+      "z_intra_tipus": 0.324212,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 193,
+      "teixit": "P_Ruth",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.046076,
+      "z_intra_tipus": 1.311132,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 194,
+      "teixit": "P_Ruth",
+      "volta": 75,
+      "tipus": "V2",
+      "dist_centroide": 0.020317,
+      "z_intra_tipus": -0.249021,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 195,
+      "teixit": "P_Ruth",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.010367,
+      "z_intra_tipus": -0.244649,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 196,
+      "teixit": "P_Ruth",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.010894,
+      "z_intra_tipus": -0.221708,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 197,
+      "teixit": "P_Ruth",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.022568,
+      "z_intra_tipus": 0.286921,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 198,
+      "teixit": "P_Ruth",
+      "volta": 83,
+      "tipus": "V2",
+      "dist_centroide": 0.01914,
+      "z_intra_tipus": -0.266958,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 199,
+      "teixit": "P_Ruth",
+      "volta": 85,
+      "tipus": "V2",
+      "dist_centroide": 0.085731,
+      "z_intra_tipus": 0.748441,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 200,
+      "teixit": "P_Ruth",
+      "volta": 87,
+      "tipus": "V2",
+      "dist_centroide": 0.150178,
+      "z_intra_tipus": 1.731145,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 201,
+      "teixit": "P_Ruth",
+      "volta": 89,
+      "tipus": "V2",
+      "dist_centroide": 0.293054,
+      "z_intra_tipus": 3.909782,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 202,
+      "teixit": "P_Ruth",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.00304,
+      "z_intra_tipus": -0.563894,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 203,
+      "teixit": "P_Ruth",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 204,
+      "teixit": "P_Ruth",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 205,
+      "teixit": "P_Ruth",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 206,
+      "teixit": "P_Ruth",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.00304,
+      "z_intra_tipus": -0.563894,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 207,
+      "teixit": "P_Primavera",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 208,
+      "teixit": "P_Primavera",
+      "volta": 3,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 209,
+      "teixit": "P_Primavera",
+      "volta": 5,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 210,
+      "teixit": "P_Primavera",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 211,
+      "teixit": "P_Primavera",
+      "volta": 9,
+      "tipus": "V1",
+      "dist_centroide": 0.565188,
+      "z_intra_tipus": 0.7982,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 212,
+      "teixit": "P_Primavera",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.565188,
+      "z_intra_tipus": 0.7982,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 213,
+      "teixit": "P_Primavera",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.565188,
+      "z_intra_tipus": 0.7982,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 214,
+      "teixit": "P_Primavera",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.056652,
+      "z_intra_tipus": 1.771914,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 215,
+      "teixit": "P_Primavera",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.003593,
+      "z_intra_tipus": -0.539802,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 216,
+      "teixit": "P_Primavera",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.010227,
+      "z_intra_tipus": -0.25075,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 217,
+      "teixit": "P_Primavera",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.00377,
+      "z_intra_tipus": -0.532069,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 218,
+      "teixit": "P_Primavera",
+      "volta": 23,
+      "tipus": "V2",
+      "dist_centroide": 0.017108,
+      "z_intra_tipus": -0.297952,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 219,
+      "teixit": "P_Primavera",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.00075,
+      "z_intra_tipus": -0.663656,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 220,
+      "teixit": "P_Primavera",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.000784,
+      "z_intra_tipus": -0.662155,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 221,
+      "teixit": "P_Primavera",
+      "volta": 29,
+      "tipus": "V2",
+      "dist_centroide": 0.006338,
+      "z_intra_tipus": -0.462171,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 222,
+      "teixit": "P_Primavera",
+      "volta": 31,
+      "tipus": "V2",
+      "dist_centroide": 0.020226,
+      "z_intra_tipus": -0.250406,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 223,
+      "teixit": "P_Primavera",
+      "volta": 33,
+      "tipus": "V2",
+      "dist_centroide": 0.002701,
+      "z_intra_tipus": -0.517625,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 224,
+      "teixit": "P_Primavera",
+      "volta": 35,
+      "tipus": "V2",
+      "dist_centroide": 0.080244,
+      "z_intra_tipus": 0.664779,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 225,
+      "teixit": "P_Primavera",
+      "volta": 37,
+      "tipus": "V2",
+      "dist_centroide": 0.002701,
+      "z_intra_tipus": -0.517625,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 226,
+      "teixit": "P_Primavera",
+      "volta": 39,
+      "tipus": "V2",
+      "dist_centroide": 0.080244,
+      "z_intra_tipus": 0.664779,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 227,
+      "teixit": "P_Primavera",
+      "volta": 41,
+      "tipus": "V2",
+      "dist_centroide": 0.005504,
+      "z_intra_tipus": -0.474897,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 228,
+      "teixit": "P_Primavera",
+      "volta": 43,
+      "tipus": "V2",
+      "dist_centroide": 0.03612,
+      "z_intra_tipus": -0.008044,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 229,
+      "teixit": "P_Primavera",
+      "volta": 45,
+      "tipus": "V2",
+      "dist_centroide": 0.024839,
+      "z_intra_tipus": -0.180068,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 230,
+      "teixit": "P_Primavera",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.001731,
+      "z_intra_tipus": -0.620926,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 231,
+      "teixit": "P_Primavera",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.008083,
+      "z_intra_tipus": -0.344157,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 232,
+      "teixit": "P_Primavera",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.001563,
+      "z_intra_tipus": -0.628205,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 233,
+      "teixit": "P_Primavera",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.000735,
+      "z_intra_tipus": -0.66432,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 234,
+      "teixit": "P_Primavera",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.001567,
+      "z_intra_tipus": -0.628046,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 235,
+      "teixit": "P_Primavera",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.000949,
+      "z_intra_tipus": -0.65498,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 236,
+      "teixit": "P_Primavera",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.020951,
+      "z_intra_tipus": 0.216484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 237,
+      "teixit": "P_Primavera",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.01157,
+      "z_intra_tipus": -0.192225,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 238,
+      "teixit": "P_Primavera",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.020343,
+      "z_intra_tipus": 0.189979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 239,
+      "teixit": "P_Primavera",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.011731,
+      "z_intra_tipus": -0.185223,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 240,
+      "teixit": "P_Primavera",
+      "volta": 67,
+      "tipus": "V2",
+      "dist_centroide": 0.001022,
+      "z_intra_tipus": -0.543229,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 241,
+      "teixit": "P_Primavera",
+      "volta": 69,
+      "tipus": "V2",
+      "dist_centroide": 0.022748,
+      "z_intra_tipus": -0.211945,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 242,
+      "teixit": "P_Primavera",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.027308,
+      "z_intra_tipus": 0.493459,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 243,
+      "teixit": "P_Primavera",
+      "volta": 73,
+      "tipus": "V2",
+      "dist_centroide": 0.099412,
+      "z_intra_tipus": 0.957048,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 244,
+      "teixit": "P_Primavera",
+      "volta": 75,
+      "tipus": "V2",
+      "dist_centroide": 0.014458,
+      "z_intra_tipus": -0.338349,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 245,
+      "teixit": "P_Primavera",
+      "volta": 77,
+      "tipus": "V2",
+      "dist_centroide": 0.00987,
+      "z_intra_tipus": -0.408308,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 246,
+      "teixit": "P_Primavera",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.017519,
+      "z_intra_tipus": 0.066953,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 247,
+      "teixit": "P_Primavera",
+      "volta": 81,
+      "tipus": "V2",
+      "dist_centroide": 0.004548,
+      "z_intra_tipus": -0.489465,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 248,
+      "teixit": "P_Primavera",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.010728,
+      "z_intra_tipus": -0.228933,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 249,
+      "teixit": "P_Primavera",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.003697,
+      "z_intra_tipus": -0.53523,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 250,
+      "teixit": "P_Primavera",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.017094,
+      "z_intra_tipus": 0.04845,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 251,
+      "teixit": "P_Primavera",
+      "volta": 89,
+      "tipus": "V0",
+      "dist_centroide": 0.011974,
+      "z_intra_tipus": -0.174649,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 252,
+      "teixit": "P_Primavera",
+      "volta": 91,
+      "tipus": "V0",
+      "dist_centroide": 0.009226,
+      "z_intra_tipus": -0.29437,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 253,
+      "teixit": "P_Primavera",
+      "volta": 93,
+      "tipus": "V2",
+      "dist_centroide": 0.010476,
+      "z_intra_tipus": -0.399081,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 254,
+      "teixit": "P_Primavera",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.001909,
+      "z_intra_tipus": -0.613137,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 255,
+      "teixit": "P_Primavera",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.014186,
+      "z_intra_tipus": -0.078274,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 256,
+      "teixit": "P_Primavera",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.006125,
+      "z_intra_tipus": -0.429475,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 257,
+      "teixit": "P_Primavera",
+      "volta": 101,
+      "tipus": "V2",
+      "dist_centroide": 0.016118,
+      "z_intra_tipus": -0.31305,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 258,
+      "teixit": "P_Primavera",
+      "volta": 103,
+      "tipus": "V0",
+      "dist_centroide": 0.008561,
+      "z_intra_tipus": -0.323325,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 259,
+      "teixit": "P_Primavera",
+      "volta": 105,
+      "tipus": "V2",
+      "dist_centroide": 0.016118,
+      "z_intra_tipus": -0.31305,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 260,
+      "teixit": "P_Primavera",
+      "volta": 107,
+      "tipus": "V0",
+      "dist_centroide": 0.004869,
+      "z_intra_tipus": -0.484167,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 261,
+      "teixit": "P_Primavera",
+      "volta": 109,
+      "tipus": "V2",
+      "dist_centroide": 0.014774,
+      "z_intra_tipus": -0.333544,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 262,
+      "teixit": "P_Primavera",
+      "volta": 111,
+      "tipus": "V2",
+      "dist_centroide": 0.02961,
+      "z_intra_tipus": -0.107305,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 263,
+      "teixit": "P_Primavera",
+      "volta": 113,
+      "tipus": "V2",
+      "dist_centroide": 0.013235,
+      "z_intra_tipus": -0.357007,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 264,
+      "teixit": "P_Primavera",
+      "volta": 115,
+      "tipus": "V0",
+      "dist_centroide": 0.001824,
+      "z_intra_tipus": -0.616842,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 265,
+      "teixit": "P_Primavera",
+      "volta": 117,
+      "tipus": "V0",
+      "dist_centroide": 0.023723,
+      "z_intra_tipus": 0.337231,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 266,
+      "teixit": "P_Primavera",
+      "volta": 119,
+      "tipus": "V0",
+      "dist_centroide": 0.001338,
+      "z_intra_tipus": -0.638035,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 267,
+      "teixit": "P_Primavera",
+      "volta": 121,
+      "tipus": "V0",
+      "dist_centroide": 0.02918,
+      "z_intra_tipus": 0.575,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 268,
+      "teixit": "P_Primavera",
+      "volta": 123,
+      "tipus": "V2",
+      "dist_centroide": 0.022414,
+      "z_intra_tipus": -0.217038,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 269,
+      "teixit": "P_Primavera",
+      "volta": 125,
+      "tipus": "V0",
+      "dist_centroide": 0.002226,
+      "z_intra_tipus": -0.599348,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 270,
+      "teixit": "P_Primavera",
+      "volta": 127,
+      "tipus": "V2",
+      "dist_centroide": 0.026267,
+      "z_intra_tipus": -0.158286,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 271,
+      "teixit": "P_Primavera",
+      "volta": 129,
+      "tipus": "V0",
+      "dist_centroide": 0.004887,
+      "z_intra_tipus": -0.483387,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 272,
+      "teixit": "P_Primavera",
+      "volta": 131,
+      "tipus": "V0",
+      "dist_centroide": 0.010933,
+      "z_intra_tipus": -0.219997,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 273,
+      "teixit": "P_Primavera",
+      "volta": 133,
+      "tipus": "V0",
+      "dist_centroide": 0.003124,
+      "z_intra_tipus": -0.560216,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 274,
+      "teixit": "P_Primavera",
+      "volta": 135,
+      "tipus": "V0",
+      "dist_centroide": 0.004666,
+      "z_intra_tipus": -0.493015,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 275,
+      "teixit": "P_Primavera",
+      "volta": 137,
+      "tipus": "V2",
+      "dist_centroide": 0.015585,
+      "z_intra_tipus": -0.321174,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 276,
+      "teixit": "P_Primavera",
+      "volta": 139,
+      "tipus": "V0",
+      "dist_centroide": 0.012172,
+      "z_intra_tipus": -0.166005,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 277,
+      "teixit": "P_Primavera",
+      "volta": 141,
+      "tipus": "V0",
+      "dist_centroide": 0.02987,
+      "z_intra_tipus": 0.605067,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 278,
+      "teixit": "P_Primavera",
+      "volta": 143,
+      "tipus": "V2",
+      "dist_centroide": 0.173006,
+      "z_intra_tipus": 2.079245,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 279,
+      "teixit": "P_Primavera",
+      "volta": 145,
+      "tipus": "V2",
+      "dist_centroide": 0.007544,
+      "z_intra_tipus": -0.443782,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 280,
+      "teixit": "P_Primavera",
+      "volta": 147,
+      "tipus": "V0",
+      "dist_centroide": 0.002124,
+      "z_intra_tipus": -0.603798,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 281,
+      "teixit": "P_Primavera",
+      "volta": 149,
+      "tipus": "V0",
+      "dist_centroide": 0.004248,
+      "z_intra_tipus": -0.511245,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 282,
+      "teixit": "P_Primavera",
+      "volta": 151,
+      "tipus": "V0",
+      "dist_centroide": 0.025926,
+      "z_intra_tipus": 0.433215,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 283,
+      "teixit": "P_Primavera",
+      "volta": 153,
+      "tipus": "V0",
+      "dist_centroide": 0.008579,
+      "z_intra_tipus": -0.32255,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 284,
+      "teixit": "P_Primavera",
+      "volta": 155,
+      "tipus": "V0",
+      "dist_centroide": 0.003414,
+      "z_intra_tipus": -0.547579,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 285,
+      "teixit": "P_Primavera",
+      "volta": 157,
+      "tipus": "V0",
+      "dist_centroide": 0.000711,
+      "z_intra_tipus": -0.66533,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 286,
+      "teixit": "P_Primavera",
+      "volta": 159,
+      "tipus": "V0",
+      "dist_centroide": 0.002091,
+      "z_intra_tipus": -0.605224,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 287,
+      "teixit": "P_Primavera",
+      "volta": 161,
+      "tipus": "V0",
+      "dist_centroide": 0.002091,
+      "z_intra_tipus": -0.605224,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 288,
+      "teixit": "P_Primavera",
+      "volta": 163,
+      "tipus": "V0",
+      "dist_centroide": 0.002341,
+      "z_intra_tipus": -0.594322,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 289,
+      "teixit": "P_Primavera",
+      "volta": 165,
+      "tipus": "V0",
+      "dist_centroide": 0.003316,
+      "z_intra_tipus": -0.551842,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 290,
+      "teixit": "P_Primavera",
+      "volta": 167,
+      "tipus": "V0",
+      "dist_centroide": 0.005377,
+      "z_intra_tipus": -0.462039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 291,
+      "teixit": "P_Primavera",
+      "volta": 169,
+      "tipus": "V0",
+      "dist_centroide": 0.000412,
+      "z_intra_tipus": -0.678371,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 292,
+      "teixit": "P_Primavera",
+      "volta": 171,
+      "tipus": "V0",
+      "dist_centroide": 0.000422,
+      "z_intra_tipus": -0.677938,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 293,
+      "teixit": "P_Primavera",
+      "volta": 173,
+      "tipus": "V0",
+      "dist_centroide": 0.004912,
+      "z_intra_tipus": -0.4823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 294,
+      "teixit": "P_Primavera",
+      "volta": 175,
+      "tipus": "V0",
+      "dist_centroide": 0.00877,
+      "z_intra_tipus": -0.314218,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 295,
+      "teixit": "P_Primavera",
+      "volta": 177,
+      "tipus": "V0",
+      "dist_centroide": 0.01199,
+      "z_intra_tipus": -0.173935,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 296,
+      "teixit": "P_Primavera",
+      "volta": 179,
+      "tipus": "V0",
+      "dist_centroide": 0.005661,
+      "z_intra_tipus": -0.449684,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 297,
+      "teixit": "P_Primavera",
+      "volta": 181,
+      "tipus": "V0",
+      "dist_centroide": 0.009396,
+      "z_intra_tipus": -0.286971,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 298,
+      "teixit": "P_Primavera",
+      "volta": 183,
+      "tipus": "V0",
+      "dist_centroide": 0.005295,
+      "z_intra_tipus": -0.465643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 299,
+      "teixit": "P_Primavera",
+      "volta": 185,
+      "tipus": "V0",
+      "dist_centroide": 0.006259,
+      "z_intra_tipus": -0.423626,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 300,
+      "teixit": "P_Primavera",
+      "volta": 187,
+      "tipus": "V0",
+      "dist_centroide": 0.017807,
+      "z_intra_tipus": 0.079497,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 301,
+      "teixit": "P_Primavera",
+      "volta": 189,
+      "tipus": "V2",
+      "dist_centroide": 0.009246,
+      "z_intra_tipus": -0.417827,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 302,
+      "teixit": "P_Primavera",
+      "volta": 191,
+      "tipus": "V2",
+      "dist_centroide": 0.007953,
+      "z_intra_tipus": -0.437553,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 303,
+      "teixit": "P_Primavera",
+      "volta": 193,
+      "tipus": "V0",
+      "dist_centroide": 0.021469,
+      "z_intra_tipus": 0.239034,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 304,
+      "teixit": "P_Pasión",
+      "volta": 1,
+      "tipus": "V2",
+      "dist_centroide": 0.058989,
+      "z_intra_tipus": 0.340672,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 305,
+      "teixit": "P_Pasión",
+      "volta": 3,
+      "tipus": "V2",
+      "dist_centroide": 0.017108,
+      "z_intra_tipus": -0.297952,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 306,
+      "teixit": "P_Pasión",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.004912,
+      "z_intra_tipus": -0.4823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 307,
+      "teixit": "P_Pasión",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.000686,
+      "z_intra_tipus": -0.666436,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 308,
+      "teixit": "P_Pasión",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.00304,
+      "z_intra_tipus": -0.563894,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 309,
+      "teixit": "P_Pasión",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.006477,
+      "z_intra_tipus": -0.414136,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 310,
+      "teixit": "P_Pasión",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 311,
+      "teixit": "P_Pasión",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 312,
+      "teixit": "P_Pasión",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 313,
+      "teixit": "P_Pasión",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 314,
+      "teixit": "P_Pasión",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 315,
+      "teixit": "P_Pasión",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 316,
+      "teixit": "P_Pasión",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 317,
+      "teixit": "P_Pasión",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.011286,
+      "z_intra_tipus": -0.204631,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 318,
+      "teixit": "P_Pasión",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.001563,
+      "z_intra_tipus": -0.628205,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 319,
+      "teixit": "P_Pasión",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.005899,
+      "z_intra_tipus": -0.439305,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 320,
+      "teixit": "P_Pasión",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.007049,
+      "z_intra_tipus": -0.389207,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 321,
+      "teixit": "P_Pasión",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.007049,
+      "z_intra_tipus": -0.389207,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 322,
+      "teixit": "P_Pasión",
+      "volta": 37,
+      "tipus": "V0",
+      "dist_centroide": 0.007049,
+      "z_intra_tipus": -0.389207,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 323,
+      "teixit": "P_Pasión",
+      "volta": 39,
+      "tipus": "V0",
+      "dist_centroide": 0.007049,
+      "z_intra_tipus": -0.389207,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 324,
+      "teixit": "P_Pasión",
+      "volta": 41,
+      "tipus": "V0",
+      "dist_centroide": 0.007049,
+      "z_intra_tipus": -0.389207,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 325,
+      "teixit": "P_Pasión",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.007049,
+      "z_intra_tipus": -0.389207,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 326,
+      "teixit": "P_Pasión",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.001954,
+      "z_intra_tipus": -0.611206,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 327,
+      "teixit": "P_Pasión",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.006477,
+      "z_intra_tipus": -0.414136,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 328,
+      "teixit": "P_Pasión",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.000667,
+      "z_intra_tipus": -0.667276,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 329,
+      "teixit": "P_Pasión",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.006597,
+      "z_intra_tipus": -0.408918,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 330,
+      "teixit": "P_Pasión",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.016869,
+      "z_intra_tipus": 0.038613,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 331,
+      "teixit": "P_Pasión",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.016869,
+      "z_intra_tipus": 0.038613,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 332,
+      "teixit": "P_Pasión",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.013088,
+      "z_intra_tipus": -0.126113,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 333,
+      "teixit": "P_Pasión",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.013088,
+      "z_intra_tipus": -0.126113,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 334,
+      "teixit": "P_Pasión",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.009886,
+      "z_intra_tipus": -0.265611,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 335,
+      "teixit": "P_Pasión",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.009886,
+      "z_intra_tipus": -0.265611,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 336,
+      "teixit": "P_Pasión",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.01847,
+      "z_intra_tipus": 0.108399,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 337,
+      "teixit": "P_Pasión",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.01847,
+      "z_intra_tipus": 0.108399,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 338,
+      "teixit": "P_Pasión",
+      "volta": 69,
+      "tipus": "V2",
+      "dist_centroide": 0.076186,
+      "z_intra_tipus": 0.602895,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 339,
+      "teixit": "P_Pasión",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.052401,
+      "z_intra_tipus": 1.586695,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 340,
+      "teixit": "P_Pasión",
+      "volta": 73,
+      "tipus": "V2",
+      "dist_centroide": 0.144233,
+      "z_intra_tipus": 1.640496,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 341,
+      "teixit": "P_Pasión",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.007675,
+      "z_intra_tipus": -0.361937,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 342,
+      "teixit": "P_Pasión",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.002395,
+      "z_intra_tipus": -0.591969,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 343,
+      "teixit": "P_Pasión",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.026629,
+      "z_intra_tipus": 0.463857,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 344,
+      "teixit": "P_Pasión",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.023352,
+      "z_intra_tipus": 0.321103,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 345,
+      "teixit": "P_Pasión",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.001857,
+      "z_intra_tipus": -0.615397,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 346,
+      "teixit": "P_Pasión",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.000639,
+      "z_intra_tipus": -0.668462,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 347,
+      "teixit": "P_Pasión",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.006044,
+      "z_intra_tipus": -0.432996,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 348,
+      "teixit": "P_Pasión",
+      "volta": 89,
+      "tipus": "V0",
+      "dist_centroide": 0.014804,
+      "z_intra_tipus": -0.051356,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 349,
+      "teixit": "P_Pasión",
+      "volta": 91,
+      "tipus": "V2",
+      "dist_centroide": 0.01748,
+      "z_intra_tipus": -0.292271,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 350,
+      "teixit": "P_Pasión",
+      "volta": 93,
+      "tipus": "V2",
+      "dist_centroide": 0.012649,
+      "z_intra_tipus": -0.365942,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 351,
+      "teixit": "P_Pasión",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.025638,
+      "z_intra_tipus": 0.420676,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 352,
+      "teixit": "P_Pasión",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.07355,
+      "z_intra_tipus": 2.508153,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 353,
+      "teixit": "P_Pasión",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.073303,
+      "z_intra_tipus": 2.497385,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 354,
+      "teixit": "P_Pasión",
+      "volta": 101,
+      "tipus": "V2",
+      "dist_centroide": 0.086658,
+      "z_intra_tipus": 0.762578,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 355,
+      "teixit": "P_Pasión",
+      "volta": 103,
+      "tipus": "V2",
+      "dist_centroide": 0.001519,
+      "z_intra_tipus": -0.535659,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 356,
+      "teixit": "P_Pasión",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.001697,
+      "z_intra_tipus": -0.622397,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 357,
+      "teixit": "P_Pasión",
+      "volta": 107,
+      "tipus": "V0",
+      "dist_centroide": 0.027312,
+      "z_intra_tipus": 0.493605,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 358,
+      "teixit": "P_Pasión",
+      "volta": 109,
+      "tipus": "V0",
+      "dist_centroide": 0.042304,
+      "z_intra_tipus": 1.146811,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 359,
+      "teixit": "P_Pasión",
+      "volta": 111,
+      "tipus": "V0",
+      "dist_centroide": 0.027312,
+      "z_intra_tipus": 0.493605,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 360,
+      "teixit": "P_Pasión",
+      "volta": 113,
+      "tipus": "V0",
+      "dist_centroide": 0.001825,
+      "z_intra_tipus": -0.616811,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 361,
+      "teixit": "P_Pasión",
+      "volta": 115,
+      "tipus": "V0",
+      "dist_centroide": 0.027939,
+      "z_intra_tipus": 0.52093,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 362,
+      "teixit": "P_Pasión",
+      "volta": 117,
+      "tipus": "V2",
+      "dist_centroide": 0.030013,
+      "z_intra_tipus": -0.101161,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 363,
+      "teixit": "P_Pasión",
+      "volta": 119,
+      "tipus": "V0",
+      "dist_centroide": 0.004654,
+      "z_intra_tipus": -0.49357,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 364,
+      "teixit": "P_Pasión",
+      "volta": 121,
+      "tipus": "V2",
+      "dist_centroide": 0.06165,
+      "z_intra_tipus": 0.381244,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 365,
+      "teixit": "P_Pasión",
+      "volta": 123,
+      "tipus": "V2",
+      "dist_centroide": 0.044504,
+      "z_intra_tipus": 0.119794,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 366,
+      "teixit": "P_Pasión",
+      "volta": 125,
+      "tipus": "V2",
+      "dist_centroide": 0.007494,
+      "z_intra_tipus": -0.444547,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 367,
+      "teixit": "P_Pasión",
+      "volta": 127,
+      "tipus": "V0",
+      "dist_centroide": 0.006514,
+      "z_intra_tipus": -0.412511,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 368,
+      "teixit": "P_Pasión",
+      "volta": 129,
+      "tipus": "V0",
+      "dist_centroide": 0.027219,
+      "z_intra_tipus": 0.489544,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 369,
+      "teixit": "P_Pasión",
+      "volta": 131,
+      "tipus": "V0",
+      "dist_centroide": 0.004861,
+      "z_intra_tipus": -0.48454,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 370,
+      "teixit": "P_Pasión",
+      "volta": 133,
+      "tipus": "V0",
+      "dist_centroide": 0.005318,
+      "z_intra_tipus": -0.464604,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 371,
+      "teixit": "P_Pasión",
+      "volta": 135,
+      "tipus": "V0",
+      "dist_centroide": 0.016312,
+      "z_intra_tipus": 0.014371,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 372,
+      "teixit": "P_Celia",
+      "volta": 1,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 373,
+      "teixit": "P_Celia",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.348986,
+      "z_intra_tipus": -0.270731,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 374,
+      "teixit": "P_Celia",
+      "volta": 5,
+      "tipus": "V1",
+      "dist_centroide": 0.348986,
+      "z_intra_tipus": -0.270731,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 375,
+      "teixit": "P_Celia",
+      "volta": 9,
+      "tipus": "V2",
+      "dist_centroide": 0.099157,
+      "z_intra_tipus": 0.953168,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 376,
+      "teixit": "P_Celia",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.049083,
+      "z_intra_tipus": 1.442125,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 377,
+      "teixit": "P_Celia",
+      "volta": 13,
+      "tipus": "V2",
+      "dist_centroide": 0.418661,
+      "z_intra_tipus": 5.825084,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 378,
+      "teixit": "P_Celia",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.042375,
+      "z_intra_tipus": 1.14989,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 379,
+      "teixit": "P_Celia",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.095647,
+      "z_intra_tipus": 3.470863,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 380,
+      "teixit": "P_Celia",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 381,
+      "teixit": "P_Celia",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.191897,
+      "z_intra_tipus": 7.664321,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 382,
+      "teixit": "P_Celia",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.041734,
+      "z_intra_tipus": 1.121939,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 383,
+      "teixit": "P_Celia",
+      "volta": 25,
+      "tipus": "V2",
+      "dist_centroide": 0.296232,
+      "z_intra_tipus": 3.958233,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 384,
+      "teixit": "P_Celia",
+      "volta": 27,
+      "tipus": "V2",
+      "dist_centroide": 0.285985,
+      "z_intra_tipus": 3.801981,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 385,
+      "teixit": "P_Celia",
+      "volta": 29,
+      "tipus": "V2",
+      "dist_centroide": 0.19432,
+      "z_intra_tipus": 2.404249,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 386,
+      "teixit": "P_Celia",
+      "volta": 31,
+      "tipus": "V2",
+      "dist_centroide": 0.014161,
+      "z_intra_tipus": -0.342884,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 387,
+      "teixit": "P_Celia",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.020951,
+      "z_intra_tipus": 0.216484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 388,
+      "teixit": "P_Celia",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.009101,
+      "z_intra_tipus": -0.29979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 389,
+      "teixit": "P_Celia",
+      "volta": 37,
+      "tipus": "V0",
+      "dist_centroide": 0.002852,
+      "z_intra_tipus": -0.572055,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 390,
+      "teixit": "P_Celia",
+      "volta": 39,
+      "tipus": "V0",
+      "dist_centroide": 0.011148,
+      "z_intra_tipus": -0.21063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 391,
+      "teixit": "P_Celia",
+      "volta": 41,
+      "tipus": "V0",
+      "dist_centroide": 0.024531,
+      "z_intra_tipus": 0.372457,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 392,
+      "teixit": "P_Celia",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.024531,
+      "z_intra_tipus": 0.372457,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 393,
+      "teixit": "P_Celia",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.028528,
+      "z_intra_tipus": 0.546589,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 394,
+      "teixit": "P_Celia",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.002123,
+      "z_intra_tipus": -0.603828,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 395,
+      "teixit": "P_Celia",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.003703,
+      "z_intra_tipus": -0.534992,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 396,
+      "teixit": "P_Celia",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.025273,
+      "z_intra_tipus": 0.404772,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 397,
+      "teixit": "P_Celia",
+      "volta": 53,
+      "tipus": "V2",
+      "dist_centroide": 0.017108,
+      "z_intra_tipus": -0.297952,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 398,
+      "teixit": "P_Celia",
+      "volta": 55,
+      "tipus": "V2",
+      "dist_centroide": 0.011925,
+      "z_intra_tipus": -0.376986,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 399,
+      "teixit": "P_Celia",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.004297,
+      "z_intra_tipus": -0.509101,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 400,
+      "teixit": "P_Celia",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.0033,
+      "z_intra_tipus": -0.55254,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 401,
+      "teixit": "P_Celia",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.004483,
+      "z_intra_tipus": -0.501008,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 402,
+      "teixit": "P_Celia",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.003682,
+      "z_intra_tipus": -0.535924,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 403,
+      "teixit": "P_Celia",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.005351,
+      "z_intra_tipus": -0.463194,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 404,
+      "teixit": "P_Celia",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.050666,
+      "z_intra_tipus": 1.511133,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 405,
+      "teixit": "P_Celia",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.031399,
+      "z_intra_tipus": 0.671681,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 406,
+      "teixit": "P_Celia",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.035121,
+      "z_intra_tipus": 0.833847,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 407,
+      "teixit": "P_Celia",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.035121,
+      "z_intra_tipus": 0.833847,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 408,
+      "teixit": "P_Celia",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.035121,
+      "z_intra_tipus": 0.833847,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 409,
+      "teixit": "P_Celia",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.03523,
+      "z_intra_tipus": 0.83859,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 410,
+      "teixit": "P_Celia",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.034918,
+      "z_intra_tipus": 0.824987,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 411,
+      "teixit": "P_Celia",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.0416,
+      "z_intra_tipus": 1.116127,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 412,
+      "teixit": "P_Celia",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.030622,
+      "z_intra_tipus": 0.637825,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 413,
+      "teixit": "P_Celia",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.041598,
+      "z_intra_tipus": 1.116056,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 414,
+      "teixit": "P_Celia",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.031361,
+      "z_intra_tipus": 0.670033,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 415,
+      "teixit": "P_Celia",
+      "volta": 89,
+      "tipus": "V0",
+      "dist_centroide": 0.0416,
+      "z_intra_tipus": 1.116103,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 416,
+      "teixit": "P_Celia",
+      "volta": 91,
+      "tipus": "V0",
+      "dist_centroide": 0.032011,
+      "z_intra_tipus": 0.698346,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 417,
+      "teixit": "P_Celia",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.041602,
+      "z_intra_tipus": 1.116223,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 418,
+      "teixit": "P_Celia",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.032586,
+      "z_intra_tipus": 0.723402,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 419,
+      "teixit": "P_Celia",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.041606,
+      "z_intra_tipus": 1.116387,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 420,
+      "teixit": "P_Celia",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.033099,
+      "z_intra_tipus": 0.745728,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 421,
+      "teixit": "P_Celia",
+      "volta": 101,
+      "tipus": "V0",
+      "dist_centroide": 0.041612,
+      "z_intra_tipus": 1.116626,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 422,
+      "teixit": "P_Celia",
+      "volta": 103,
+      "tipus": "V0",
+      "dist_centroide": 0.023916,
+      "z_intra_tipus": 0.345641,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 423,
+      "teixit": "P_Celia",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.030372,
+      "z_intra_tipus": 0.62694,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 424,
+      "teixit": "P_Celia",
+      "volta": 107,
+      "tipus": "V0",
+      "dist_centroide": 0.024342,
+      "z_intra_tipus": 0.36424,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 425,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 426,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 3,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 427,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 428,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 429,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.001563,
+      "z_intra_tipus": -0.628205,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 430,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 431,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 432,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 433,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.027219,
+      "z_intra_tipus": 0.489544,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 434,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.022725,
+      "z_intra_tipus": -0.212301,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 435,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.010227,
+      "z_intra_tipus": -0.25075,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 436,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.00377,
+      "z_intra_tipus": -0.532069,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 437,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 438,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 439,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 440,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 441,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 442,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 443,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 37,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 444,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 39,
+      "tipus": "V0",
+      "dist_centroide": 0.027219,
+      "z_intra_tipus": 0.489544,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 445,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 41,
+      "tipus": "V2",
+      "dist_centroide": 0.022725,
+      "z_intra_tipus": -0.212301,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 446,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.010227,
+      "z_intra_tipus": -0.25075,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 447,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.00377,
+      "z_intra_tipus": -0.532069,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 448,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 449,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.007459,
+      "z_intra_tipus": -0.371334,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 450,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.000686,
+      "z_intra_tipus": -0.666436,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 451,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 452,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 453,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 73,
+      "tipus": "V2",
+      "dist_centroide": 0.047656,
+      "z_intra_tipus": 0.167867,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 454,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 75,
+      "tipus": "V2",
+      "dist_centroide": 0.003887,
+      "z_intra_tipus": -0.499549,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 455,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 77,
+      "tipus": "V2",
+      "dist_centroide": 0.010874,
+      "z_intra_tipus": -0.392998,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 456,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.070113,
+      "z_intra_tipus": 2.358368,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 457,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.018073,
+      "z_intra_tipus": 0.091093,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 458,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 83,
+      "tipus": "V2",
+      "dist_centroide": 0.007611,
+      "z_intra_tipus": -0.442757,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 459,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.025092,
+      "z_intra_tipus": 0.396905,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 460,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.052401,
+      "z_intra_tipus": 1.586695,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 461,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 89,
+      "tipus": "V2",
+      "dist_centroide": 0.045637,
+      "z_intra_tipus": 0.137074,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 462,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 91,
+      "tipus": "V0",
+      "dist_centroide": 0.052401,
+      "z_intra_tipus": 1.586695,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 463,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.025542,
+      "z_intra_tipus": 0.416501,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 464,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.005982,
+      "z_intra_tipus": -0.435683,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 465,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.028528,
+      "z_intra_tipus": 0.546589,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 466,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.001177,
+      "z_intra_tipus": -0.645046,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 467,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 101,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 468,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 103,
+      "tipus": "V0",
+      "dist_centroide": 0.000686,
+      "z_intra_tipus": -0.666436,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 469,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.002257,
+      "z_intra_tipus": -0.598007,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 470,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 107,
+      "tipus": "V0",
+      "dist_centroide": 0.003875,
+      "z_intra_tipus": -0.527486,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 471,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 109,
+      "tipus": "V0",
+      "dist_centroide": 0.000799,
+      "z_intra_tipus": -0.66152,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 472,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 111,
+      "tipus": "V0",
+      "dist_centroide": 0.012138,
+      "z_intra_tipus": -0.167474,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 473,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 113,
+      "tipus": "V0",
+      "dist_centroide": 0.006737,
+      "z_intra_tipus": -0.402803,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 474,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 115,
+      "tipus": "V0",
+      "dist_centroide": 0.006737,
+      "z_intra_tipus": -0.402803,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 475,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 117,
+      "tipus": "V2",
+      "dist_centroide": 0.276428,
+      "z_intra_tipus": 3.65626,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 476,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 119,
+      "tipus": "V0",
+      "dist_centroide": 0.000799,
+      "z_intra_tipus": -0.66152,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 477,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 121,
+      "tipus": "V0",
+      "dist_centroide": 0.012138,
+      "z_intra_tipus": -0.167474,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 478,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 123,
+      "tipus": "V0",
+      "dist_centroide": 0.006737,
+      "z_intra_tipus": -0.402803,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 479,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 125,
+      "tipus": "V0",
+      "dist_centroide": 0.006737,
+      "z_intra_tipus": -0.402803,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 480,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 127,
+      "tipus": "V2",
+      "dist_centroide": 0.276428,
+      "z_intra_tipus": 3.65626,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 481,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 129,
+      "tipus": "V0",
+      "dist_centroide": 0.000799,
+      "z_intra_tipus": -0.66152,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 482,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 141,
+      "tipus": "V0",
+      "dist_centroide": 0.004911,
+      "z_intra_tipus": -0.482363,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 483,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 143,
+      "tipus": "V0",
+      "dist_centroide": 0.002364,
+      "z_intra_tipus": -0.593329,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 484,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 145,
+      "tipus": "V0",
+      "dist_centroide": 0.001662,
+      "z_intra_tipus": -0.623915,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 485,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 147,
+      "tipus": "V0",
+      "dist_centroide": 0.001662,
+      "z_intra_tipus": -0.623915,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 486,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 149,
+      "tipus": "V0",
+      "dist_centroide": 0.031213,
+      "z_intra_tipus": 0.663586,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 487,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 151,
+      "tipus": "V0",
+      "dist_centroide": 0.029887,
+      "z_intra_tipus": 0.605809,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 488,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 153,
+      "tipus": "V0",
+      "dist_centroide": 0.0212,
+      "z_intra_tipus": 0.227312,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 489,
+      "teixit": "P_Rosa de los Vientos",
+      "volta": 155,
+      "tipus": "V0",
+      "dist_centroide": 0.022265,
+      "z_intra_tipus": 0.273743,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 490,
+      "teixit": "P_Renacimiento",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 491,
+      "teixit": "P_Renacimiento",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 492,
+      "teixit": "P_Renacimiento",
+      "volta": 5,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 493,
+      "teixit": "P_Renacimiento",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 494,
+      "teixit": "P_Renacimiento",
+      "volta": 9,
+      "tipus": "V2",
+      "dist_centroide": 0.03612,
+      "z_intra_tipus": -0.008044,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 495,
+      "teixit": "P_Renacimiento",
+      "volta": 11,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 496,
+      "teixit": "P_Renacimiento",
+      "volta": 13,
+      "tipus": "V2",
+      "dist_centroide": 0.011925,
+      "z_intra_tipus": -0.376986,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 497,
+      "teixit": "P_Renacimiento",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.024531,
+      "z_intra_tipus": 0.372457,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 498,
+      "teixit": "P_Renacimiento",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.010227,
+      "z_intra_tipus": -0.25075,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 499,
+      "teixit": "P_Renacimiento",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.00377,
+      "z_intra_tipus": -0.532069,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 500,
+      "teixit": "P_Renacimiento",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 501,
+      "teixit": "P_Renacimiento",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.027219,
+      "z_intra_tipus": 0.489544,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 502,
+      "teixit": "P_Renacimiento",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 503,
+      "teixit": "P_Renacimiento",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.009101,
+      "z_intra_tipus": -0.29979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 504,
+      "teixit": "P_Renacimiento",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.004912,
+      "z_intra_tipus": -0.4823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 505,
+      "teixit": "P_Renacimiento",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.002484,
+      "z_intra_tipus": -0.588093,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 506,
+      "teixit": "P_Renacimiento",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.027219,
+      "z_intra_tipus": 0.489544,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 507,
+      "teixit": "P_Renacimiento",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.000694,
+      "z_intra_tipus": -0.666081,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 508,
+      "teixit": "P_Renacimiento",
+      "volta": 37,
+      "tipus": "V0",
+      "dist_centroide": 0.013328,
+      "z_intra_tipus": -0.115646,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 509,
+      "teixit": "P_Renacimiento",
+      "volta": 39,
+      "tipus": "V0",
+      "dist_centroide": 0.001014,
+      "z_intra_tipus": -0.652148,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 510,
+      "teixit": "P_Renacimiento",
+      "volta": 41,
+      "tipus": "V2",
+      "dist_centroide": 0.002618,
+      "z_intra_tipus": -0.518904,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 511,
+      "teixit": "P_Renacimiento",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.00075,
+      "z_intra_tipus": -0.663656,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 512,
+      "teixit": "P_Renacimiento",
+      "volta": 45,
+      "tipus": "V2",
+      "dist_centroide": 0.032293,
+      "z_intra_tipus": -0.066403,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 513,
+      "teixit": "P_Renacimiento",
+      "volta": 47,
+      "tipus": "V2",
+      "dist_centroide": 0.005627,
+      "z_intra_tipus": -0.473013,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 514,
+      "teixit": "P_Renacimiento",
+      "volta": 49,
+      "tipus": "V2",
+      "dist_centroide": 0.002524,
+      "z_intra_tipus": -0.520333,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 515,
+      "teixit": "P_Renacimiento",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.022208,
+      "z_intra_tipus": 0.271259,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 516,
+      "teixit": "P_Renacimiento",
+      "volta": 53,
+      "tipus": "V2",
+      "dist_centroide": 0.001228,
+      "z_intra_tipus": -0.540096,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 517,
+      "teixit": "P_Renacimiento",
+      "volta": 55,
+      "tipus": "V2",
+      "dist_centroide": 0.002453,
+      "z_intra_tipus": -0.521419,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 518,
+      "teixit": "P_Renacimiento",
+      "volta": 57,
+      "tipus": "V2",
+      "dist_centroide": 0.003532,
+      "z_intra_tipus": -0.504962,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 519,
+      "teixit": "P_Renacimiento",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.023754,
+      "z_intra_tipus": 0.338581,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 520,
+      "teixit": "P_Renacimiento",
+      "volta": 61,
+      "tipus": "V2",
+      "dist_centroide": 0.001003,
+      "z_intra_tipus": -0.543515,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 521,
+      "teixit": "P_Puntilla del Cacus",
+      "volta": 5,
+      "tipus": "V2",
+      "dist_centroide": 0.005819,
+      "z_intra_tipus": -0.470081,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 522,
+      "teixit": "P_Puntilla del Cacus",
+      "volta": 7,
+      "tipus": "V2",
+      "dist_centroide": 0.001389,
+      "z_intra_tipus": -0.537635,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 523,
+      "teixit": "P_Puntilla del Cacus",
+      "volta": 9,
+      "tipus": "V2",
+      "dist_centroide": 0.006879,
+      "z_intra_tipus": -0.453916,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 524,
+      "teixit": "P_Puntilla del Cacus",
+      "volta": 11,
+      "tipus": "V2",
+      "dist_centroide": 0.050147,
+      "z_intra_tipus": 0.205848,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 525,
+      "teixit": "P_Puntilla del Cacus",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.000928,
+      "z_intra_tipus": -0.655895,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 526,
+      "teixit": "P_Puntilla del Cacus",
+      "volta": 15,
+      "tipus": "V2",
+      "dist_centroide": 0.0017,
+      "z_intra_tipus": -0.532895,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 527,
+      "teixit": "P_Puntilla del Cacus",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.003382,
+      "z_intra_tipus": -0.507248,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 528,
+      "teixit": "P_Puntilla del Cacus",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.008523,
+      "z_intra_tipus": -0.324984,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 529,
+      "teixit": "P_Gentio",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.140994,
+      "z_intra_tipus": 5.446544,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 530,
+      "teixit": "P_Gentio",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.140994,
+      "z_intra_tipus": 5.446544,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 531,
+      "teixit": "P_Gentio",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 532,
+      "teixit": "P_Gentio",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 533,
+      "teixit": "P_Gentio",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.001563,
+      "z_intra_tipus": -0.628205,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 534,
+      "teixit": "P_Gentio",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.004738,
+      "z_intra_tipus": -0.489911,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 535,
+      "teixit": "P_Gentio",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.00817,
+      "z_intra_tipus": -0.340355,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 536,
+      "teixit": "P_Gentio",
+      "volta": 15,
+      "tipus": "V2",
+      "dist_centroide": 0.03612,
+      "z_intra_tipus": -0.008044,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 537,
+      "teixit": "P_Gentio",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 538,
+      "teixit": "P_Gentio",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 539,
+      "teixit": "P_Gentio",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.004912,
+      "z_intra_tipus": -0.4823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 540,
+      "teixit": "P_Gentio",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 541,
+      "teixit": "P_Gentio",
+      "volta": 25,
+      "tipus": "V2",
+      "dist_centroide": 0.017108,
+      "z_intra_tipus": -0.297952,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 542,
+      "teixit": "P_Gentio",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.022876,
+      "z_intra_tipus": 0.300368,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 543,
+      "teixit": "P_Gentio",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.004738,
+      "z_intra_tipus": -0.489911,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 544,
+      "teixit": "P_Gentio",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.004738,
+      "z_intra_tipus": -0.489911,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 545,
+      "teixit": "P_Gentio",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.004738,
+      "z_intra_tipus": -0.489911,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 546,
+      "teixit": "P_Gentio",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.005899,
+      "z_intra_tipus": -0.439305,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 547,
+      "teixit": "P_Gentio",
+      "volta": 37,
+      "tipus": "V0",
+      "dist_centroide": 0.004738,
+      "z_intra_tipus": -0.489911,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 548,
+      "teixit": "P_Gentio",
+      "volta": 39,
+      "tipus": "V2",
+      "dist_centroide": 0.136874,
+      "z_intra_tipus": 1.528295,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 549,
+      "teixit": "P_Gentio",
+      "volta": 41,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 550,
+      "teixit": "P_Gentio",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.00817,
+      "z_intra_tipus": -0.340355,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 551,
+      "teixit": "P_Gentio",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.00817,
+      "z_intra_tipus": -0.340355,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 552,
+      "teixit": "P_Gentio",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.009778,
+      "z_intra_tipus": -0.270291,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 553,
+      "teixit": "P_Gentio",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.002484,
+      "z_intra_tipus": -0.588093,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 554,
+      "teixit": "P_Gentio",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.024531,
+      "z_intra_tipus": 0.372457,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 555,
+      "teixit": "P_Gentio",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.00251,
+      "z_intra_tipus": -0.586979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 556,
+      "teixit": "P_Gentio",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.020448,
+      "z_intra_tipus": 0.19457,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 557,
+      "teixit": "P_Gentio",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.011129,
+      "z_intra_tipus": -0.211444,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 558,
+      "teixit": "P_Gentio",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.028297,
+      "z_intra_tipus": 0.536532,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 559,
+      "teixit": "P_Gentio",
+      "volta": 61,
+      "tipus": "V2",
+      "dist_centroide": 0.032946,
+      "z_intra_tipus": -0.056447,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 560,
+      "teixit": "P_Gentio",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.018309,
+      "z_intra_tipus": 0.101361,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 561,
+      "teixit": "P_Gentio",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.012232,
+      "z_intra_tipus": -0.163385,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 562,
+      "teixit": "P_Gentio",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.013133,
+      "z_intra_tipus": -0.124137,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 563,
+      "teixit": "P_Gentio",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.004046,
+      "z_intra_tipus": -0.520036,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 564,
+      "teixit": "P_Gentio",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.006131,
+      "z_intra_tipus": -0.429214,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 565,
+      "teixit": "P_Gentio",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.00304,
+      "z_intra_tipus": -0.563894,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 566,
+      "teixit": "P_Gentio",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.002294,
+      "z_intra_tipus": -0.596372,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 567,
+      "teixit": "P_Gentio",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.003414,
+      "z_intra_tipus": -0.547579,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 568,
+      "teixit": "P_Gentio",
+      "volta": 89,
+      "tipus": "V0",
+      "dist_centroide": 0.011042,
+      "z_intra_tipus": -0.215256,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 569,
+      "teixit": "P_Gentio",
+      "volta": 91,
+      "tipus": "V0",
+      "dist_centroide": 0.000645,
+      "z_intra_tipus": -0.668222,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 570,
+      "teixit": "P_Gentio",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.006579,
+      "z_intra_tipus": -0.409682,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 571,
+      "teixit": "P_Gentio",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.001882,
+      "z_intra_tipus": -0.614322,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 572,
+      "teixit": "P_Gentio",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.001882,
+      "z_intra_tipus": -0.614322,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 573,
+      "teixit": "P_Gentio",
+      "volta": 99,
+      "tipus": "V2",
+      "dist_centroide": 0.024559,
+      "z_intra_tipus": -0.184337,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 574,
+      "teixit": "P_Gentio",
+      "volta": 101,
+      "tipus": "V2",
+      "dist_centroide": 0.023999,
+      "z_intra_tipus": -0.192868,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 575,
+      "teixit": "P_Gentio",
+      "volta": 103,
+      "tipus": "V2",
+      "dist_centroide": 0.002132,
+      "z_intra_tipus": -0.526302,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 576,
+      "teixit": "P_Gentio",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.020951,
+      "z_intra_tipus": 0.216484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 577,
+      "teixit": "P_Gentio",
+      "volta": 107,
+      "tipus": "V2",
+      "dist_centroide": 0.012157,
+      "z_intra_tipus": -0.373448,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 578,
+      "teixit": "P_Gentio",
+      "volta": 109,
+      "tipus": "V0",
+      "dist_centroide": 0.015927,
+      "z_intra_tipus": -0.002413,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 579,
+      "teixit": "P_Gentio",
+      "volta": 111,
+      "tipus": "V0",
+      "dist_centroide": 0.000972,
+      "z_intra_tipus": -0.653956,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 580,
+      "teixit": "P_Gentio",
+      "volta": 113,
+      "tipus": "V2",
+      "dist_centroide": 0.01713,
+      "z_intra_tipus": -0.297612,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 581,
+      "teixit": "P_Gentio",
+      "volta": 115,
+      "tipus": "V2",
+      "dist_centroide": 0.00317,
+      "z_intra_tipus": -0.510472,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 582,
+      "teixit": "P_Gentio",
+      "volta": 117,
+      "tipus": "V2",
+      "dist_centroide": 0.002517,
+      "z_intra_tipus": -0.520429,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 583,
+      "teixit": "P_Gentio",
+      "volta": 119,
+      "tipus": "V2",
+      "dist_centroide": 0.017925,
+      "z_intra_tipus": -0.285489,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 584,
+      "teixit": "P_Gentio",
+      "volta": 121,
+      "tipus": "V2",
+      "dist_centroide": 0.017925,
+      "z_intra_tipus": -0.285489,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 585,
+      "teixit": "P_Gentio",
+      "volta": 123,
+      "tipus": "V2",
+      "dist_centroide": 0.017592,
+      "z_intra_tipus": -0.290563,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 586,
+      "teixit": "P_Gentio",
+      "volta": 125,
+      "tipus": "V0",
+      "dist_centroide": 0.006551,
+      "z_intra_tipus": -0.410906,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 587,
+      "teixit": "P_Gentio",
+      "volta": 127,
+      "tipus": "V0",
+      "dist_centroide": 0.001414,
+      "z_intra_tipus": -0.634733,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 588,
+      "teixit": "P_Gentio",
+      "volta": 129,
+      "tipus": "V0",
+      "dist_centroide": 0.001076,
+      "z_intra_tipus": -0.649433,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 589,
+      "teixit": "P_Gentio",
+      "volta": 131,
+      "tipus": "V0",
+      "dist_centroide": 0.001048,
+      "z_intra_tipus": -0.650661,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 590,
+      "teixit": "P_Gentio",
+      "volta": 133,
+      "tipus": "V0",
+      "dist_centroide": 0.006316,
+      "z_intra_tipus": -0.421128,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 591,
+      "teixit": "P_Gentio",
+      "volta": 145,
+      "tipus": "V0",
+      "dist_centroide": 0.013351,
+      "z_intra_tipus": -0.114629,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 592,
+      "teixit": "P_Gentio",
+      "volta": 147,
+      "tipus": "V0",
+      "dist_centroide": 0.001058,
+      "z_intra_tipus": -0.650224,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 593,
+      "teixit": "P_Gentio",
+      "volta": 149,
+      "tipus": "V0",
+      "dist_centroide": 0.000822,
+      "z_intra_tipus": -0.660522,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 594,
+      "teixit": "P_Gentio",
+      "volta": 151,
+      "tipus": "V0",
+      "dist_centroide": 0.000898,
+      "z_intra_tipus": -0.657212,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 595,
+      "teixit": "P_Gentio",
+      "volta": 153,
+      "tipus": "V0",
+      "dist_centroide": 0.000607,
+      "z_intra_tipus": -0.669896,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 596,
+      "teixit": "P_Gentio",
+      "volta": 155,
+      "tipus": "V0",
+      "dist_centroide": 0.001811,
+      "z_intra_tipus": -0.617413,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 597,
+      "teixit": "P_Gentio",
+      "volta": 157,
+      "tipus": "V0",
+      "dist_centroide": 0.000645,
+      "z_intra_tipus": -0.668222,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 598,
+      "teixit": "P_Gentio",
+      "volta": 159,
+      "tipus": "V0",
+      "dist_centroide": 0.018691,
+      "z_intra_tipus": 0.117998,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 599,
+      "teixit": "P_Gentio",
+      "volta": 161,
+      "tipus": "V0",
+      "dist_centroide": 0.000645,
+      "z_intra_tipus": -0.668222,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 600,
+      "teixit": "P_Gentio",
+      "volta": 163,
+      "tipus": "V0",
+      "dist_centroide": 0.006477,
+      "z_intra_tipus": -0.414136,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 601,
+      "teixit": "P_Gentio",
+      "volta": 165,
+      "tipus": "V0",
+      "dist_centroide": 0.001896,
+      "z_intra_tipus": -0.613722,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 602,
+      "teixit": "P_Gentio",
+      "volta": 167,
+      "tipus": "V0",
+      "dist_centroide": 0.004243,
+      "z_intra_tipus": -0.511474,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 603,
+      "teixit": "P_Gentio",
+      "volta": 169,
+      "tipus": "V0",
+      "dist_centroide": 0.01137,
+      "z_intra_tipus": -0.200966,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 604,
+      "teixit": "P_Gentio",
+      "volta": 171,
+      "tipus": "V0",
+      "dist_centroide": 0.000928,
+      "z_intra_tipus": -0.655895,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 605,
+      "teixit": "P_Gentio",
+      "volta": 173,
+      "tipus": "V2",
+      "dist_centroide": 0.026027,
+      "z_intra_tipus": -0.161944,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 606,
+      "teixit": "P_Gentio",
+      "volta": 175,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 607,
+      "teixit": "P_Gentio",
+      "volta": 177,
+      "tipus": "V0",
+      "dist_centroide": 0.01932,
+      "z_intra_tipus": 0.14543,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 608,
+      "teixit": "P_Gentio",
+      "volta": 179,
+      "tipus": "V0",
+      "dist_centroide": 0.005078,
+      "z_intra_tipus": -0.475102,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 609,
+      "teixit": "P_Gentio",
+      "volta": 181,
+      "tipus": "V0",
+      "dist_centroide": 0.024732,
+      "z_intra_tipus": 0.381224,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 610,
+      "teixit": "P_Gentio",
+      "volta": 183,
+      "tipus": "V2",
+      "dist_centroide": 0.021087,
+      "z_intra_tipus": -0.237277,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 611,
+      "teixit": "P_Gentio",
+      "volta": 185,
+      "tipus": "V0",
+      "dist_centroide": 0.013328,
+      "z_intra_tipus": -0.115646,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 612,
+      "teixit": "P_Gentio",
+      "volta": 187,
+      "tipus": "V0",
+      "dist_centroide": 0.022268,
+      "z_intra_tipus": 0.273839,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 613,
+      "teixit": "P_Gentio",
+      "volta": 189,
+      "tipus": "V2",
+      "dist_centroide": 0.015322,
+      "z_intra_tipus": -0.325187,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 614,
+      "teixit": "P_Gentio",
+      "volta": 191,
+      "tipus": "V0",
+      "dist_centroide": 0.006928,
+      "z_intra_tipus": -0.394488,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 615,
+      "teixit": "P_Gentio",
+      "volta": 193,
+      "tipus": "V2",
+      "dist_centroide": 0.024789,
+      "z_intra_tipus": -0.180823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 616,
+      "teixit": "P_Gentio",
+      "volta": 195,
+      "tipus": "V1",
+      "dist_centroide": 0.68942,
+      "z_intra_tipus": 1.41242,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 617,
+      "teixit": "P_Gentio",
+      "volta": 207,
+      "tipus": "V0",
+      "dist_centroide": 0.000949,
+      "z_intra_tipus": -0.65498,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 618,
+      "teixit": "P_Gentio",
+      "volta": 209,
+      "tipus": "V0",
+      "dist_centroide": 0.005512,
+      "z_intra_tipus": -0.456162,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 619,
+      "teixit": "P_Gentio",
+      "volta": 211,
+      "tipus": "V0",
+      "dist_centroide": 0.005125,
+      "z_intra_tipus": -0.473045,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 620,
+      "teixit": "P_Gentio",
+      "volta": 213,
+      "tipus": "V0",
+      "dist_centroide": 0.007754,
+      "z_intra_tipus": -0.3585,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 621,
+      "teixit": "P_Gentio",
+      "volta": 215,
+      "tipus": "V0",
+      "dist_centroide": 0.00304,
+      "z_intra_tipus": -0.563894,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 622,
+      "teixit": "P_Gentio",
+      "volta": 217,
+      "tipus": "V0",
+      "dist_centroide": 0.007962,
+      "z_intra_tipus": -0.34942,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 623,
+      "teixit": "P_Gentio",
+      "volta": 219,
+      "tipus": "V0",
+      "dist_centroide": 0.00636,
+      "z_intra_tipus": -0.419235,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 624,
+      "teixit": "P_Gentio",
+      "volta": 221,
+      "tipus": "V0",
+      "dist_centroide": 0.030482,
+      "z_intra_tipus": 0.631744,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 625,
+      "teixit": "P_Gentio",
+      "volta": 223,
+      "tipus": "V2",
+      "dist_centroide": 0.026725,
+      "z_intra_tipus": -0.151303,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 626,
+      "teixit": "P_Gentio",
+      "volta": 225,
+      "tipus": "V0",
+      "dist_centroide": 0.015895,
+      "z_intra_tipus": -0.003784,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 627,
+      "teixit": "P_Gentio",
+      "volta": 227,
+      "tipus": "V2",
+      "dist_centroide": 0.051714,
+      "z_intra_tipus": 0.229731,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 628,
+      "teixit": "P_Gentio",
+      "volta": 229,
+      "tipus": "V2",
+      "dist_centroide": 0.04151,
+      "z_intra_tipus": 0.074141,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 629,
+      "teixit": "P_Helga",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.011286,
+      "z_intra_tipus": -0.204631,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 630,
+      "teixit": "P_Helga",
+      "volta": 7,
+      "tipus": "V1",
+      "dist_centroide": 0.255018,
+      "z_intra_tipus": -0.735322,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 631,
+      "teixit": "P_Helga",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.020836,
+      "z_intra_tipus": 0.211473,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 632,
+      "teixit": "P_Helga",
+      "volta": 11,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 633,
+      "teixit": "P_Helga",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.043182,
+      "z_intra_tipus": 1.185052,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 634,
+      "teixit": "P_Helga",
+      "volta": 15,
+      "tipus": "V2",
+      "dist_centroide": 0.008825,
+      "z_intra_tipus": -0.424254,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 635,
+      "teixit": "P_Helga",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.007433,
+      "z_intra_tipus": -0.445477,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 636,
+      "teixit": "P_Helga",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.012648,
+      "z_intra_tipus": -0.36596,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 637,
+      "teixit": "P_Helga",
+      "volta": 21,
+      "tipus": "V2",
+      "dist_centroide": 0.001758,
+      "z_intra_tipus": -0.53201,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 638,
+      "teixit": "P_Helga",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.007325,
+      "z_intra_tipus": -0.377176,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 639,
+      "teixit": "P_Helga",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.023892,
+      "z_intra_tipus": 0.344613,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 640,
+      "teixit": "P_Helga",
+      "volta": 27,
+      "tipus": "V2",
+      "dist_centroide": 0.022711,
+      "z_intra_tipus": -0.212503,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 641,
+      "teixit": "P_Helga",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.023892,
+      "z_intra_tipus": 0.344613,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 642,
+      "teixit": "P_Helga",
+      "volta": 31,
+      "tipus": "V2",
+      "dist_centroide": 0.025044,
+      "z_intra_tipus": -0.17694,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 643,
+      "teixit": "P_Helga",
+      "volta": 33,
+      "tipus": "V2",
+      "dist_centroide": 0.005258,
+      "z_intra_tipus": -0.478644,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 644,
+      "teixit": "P_Helga",
+      "volta": 35,
+      "tipus": "V2",
+      "dist_centroide": 0.018793,
+      "z_intra_tipus": -0.272255,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 645,
+      "teixit": "P_Helga",
+      "volta": 37,
+      "tipus": "V2",
+      "dist_centroide": 0.02787,
+      "z_intra_tipus": -0.133843,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 646,
+      "teixit": "P_Helga",
+      "volta": 39,
+      "tipus": "V2",
+      "dist_centroide": 0.007245,
+      "z_intra_tipus": -0.448341,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 647,
+      "teixit": "P_Helga",
+      "volta": 41,
+      "tipus": "V0",
+      "dist_centroide": 0.01819,
+      "z_intra_tipus": 0.096167,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 648,
+      "teixit": "P_Helga",
+      "volta": 43,
+      "tipus": "V2",
+      "dist_centroide": 0.013116,
+      "z_intra_tipus": -0.358816,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 649,
+      "teixit": "P_Helga",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.013656,
+      "z_intra_tipus": -0.10137,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 650,
+      "teixit": "P_Helga",
+      "volta": 47,
+      "tipus": "V2",
+      "dist_centroide": 0.008825,
+      "z_intra_tipus": -0.424254,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 651,
+      "teixit": "P_Helga",
+      "volta": 49,
+      "tipus": "V2",
+      "dist_centroide": 0.015483,
+      "z_intra_tipus": -0.322733,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 652,
+      "teixit": "P_Helga",
+      "volta": 51,
+      "tipus": "V2",
+      "dist_centroide": 0.002694,
+      "z_intra_tipus": -0.517743,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 653,
+      "teixit": "P_Helga",
+      "volta": 53,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 654,
+      "teixit": "P_Helga",
+      "volta": 55,
+      "tipus": "V2",
+      "dist_centroide": 0.002282,
+      "z_intra_tipus": -0.524017,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 655,
+      "teixit": "P_Helga",
+      "volta": 57,
+      "tipus": "V2",
+      "dist_centroide": 0.016344,
+      "z_intra_tipus": -0.309591,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 656,
+      "teixit": "P_Helga",
+      "volta": 59,
+      "tipus": "V2",
+      "dist_centroide": 0.009441,
+      "z_intra_tipus": -0.414864,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 657,
+      "teixit": "P_Helga",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.007781,
+      "z_intra_tipus": -0.357317,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 658,
+      "teixit": "P_Helga",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.023143,
+      "z_intra_tipus": 0.311997,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 659,
+      "teixit": "P_Helga",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.037941,
+      "z_intra_tipus": 0.956717,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 660,
+      "teixit": "P_Helga",
+      "volta": 67,
+      "tipus": "V2",
+      "dist_centroide": 0.011061,
+      "z_intra_tipus": -0.390148,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 661,
+      "teixit": "P_Helga",
+      "volta": 69,
+      "tipus": "V2",
+      "dist_centroide": 0.008344,
+      "z_intra_tipus": -0.431581,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 662,
+      "teixit": "P_Helga",
+      "volta": 71,
+      "tipus": "V2",
+      "dist_centroide": 0.003331,
+      "z_intra_tipus": -0.508021,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 663,
+      "teixit": "P_Helga",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.029302,
+      "z_intra_tipus": 0.580299,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 664,
+      "teixit": "P_Helga",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.01396,
+      "z_intra_tipus": -0.088102,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 665,
+      "teixit": "P_Helga",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.001081,
+      "z_intra_tipus": -0.649225,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 666,
+      "teixit": "P_Helga",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.003314,
+      "z_intra_tipus": -0.551947,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 667,
+      "teixit": "P_Helga",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 668,
+      "teixit": "P_Helga",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.004246,
+      "z_intra_tipus": -0.511314,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 669,
+      "teixit": "P_Helga",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.016016,
+      "z_intra_tipus": 0.001484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 670,
+      "teixit": "P_Helga",
+      "volta": 89,
+      "tipus": "V0",
+      "dist_centroide": 0.003658,
+      "z_intra_tipus": -0.536939,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 671,
+      "teixit": "P_Helga",
+      "volta": 91,
+      "tipus": "V0",
+      "dist_centroide": 0.012351,
+      "z_intra_tipus": -0.158211,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 672,
+      "teixit": "P_Helga",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.000688,
+      "z_intra_tipus": -0.66635,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 673,
+      "teixit": "P_Helga",
+      "volta": 95,
+      "tipus": "V2",
+      "dist_centroide": 0.01536,
+      "z_intra_tipus": -0.324602,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 674,
+      "teixit": "P_Helga",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.000688,
+      "z_intra_tipus": -0.66635,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 675,
+      "teixit": "P_Helga",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.01829,
+      "z_intra_tipus": 0.100551,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 676,
+      "teixit": "P_Helga",
+      "volta": 101,
+      "tipus": "V0",
+      "dist_centroide": 0.00721,
+      "z_intra_tipus": -0.382179,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 677,
+      "teixit": "P_Helga",
+      "volta": 103,
+      "tipus": "V2",
+      "dist_centroide": 0.025162,
+      "z_intra_tipus": -0.175144,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 678,
+      "teixit": "P_Helga",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.0115,
+      "z_intra_tipus": -0.195292,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 679,
+      "teixit": "P_Helga",
+      "volta": 107,
+      "tipus": "V0",
+      "dist_centroide": 0.007081,
+      "z_intra_tipus": -0.387805,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 680,
+      "teixit": "P_Helga",
+      "volta": 109,
+      "tipus": "V0",
+      "dist_centroide": 0.001813,
+      "z_intra_tipus": -0.617319,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 681,
+      "teixit": "P_Helga",
+      "volta": 111,
+      "tipus": "V0",
+      "dist_centroide": 0.003598,
+      "z_intra_tipus": -0.539567,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 682,
+      "teixit": "P_Helga",
+      "volta": 113,
+      "tipus": "V0",
+      "dist_centroide": 0.001813,
+      "z_intra_tipus": -0.617319,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 683,
+      "teixit": "P_Helga",
+      "volta": 115,
+      "tipus": "V0",
+      "dist_centroide": 0.003598,
+      "z_intra_tipus": -0.539567,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 684,
+      "teixit": "P_Helga",
+      "volta": 117,
+      "tipus": "V0",
+      "dist_centroide": 0.001813,
+      "z_intra_tipus": -0.617319,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 685,
+      "teixit": "P_Helga",
+      "volta": 119,
+      "tipus": "V0",
+      "dist_centroide": 0.002728,
+      "z_intra_tipus": -0.577469,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 686,
+      "teixit": "P_Helga",
+      "volta": 121,
+      "tipus": "V0",
+      "dist_centroide": 0.000422,
+      "z_intra_tipus": -0.677916,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 687,
+      "teixit": "P_Helga",
+      "volta": 123,
+      "tipus": "V0",
+      "dist_centroide": 0.001324,
+      "z_intra_tipus": -0.638619,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 688,
+      "teixit": "P_Helga",
+      "volta": 125,
+      "tipus": "V0",
+      "dist_centroide": 0.000395,
+      "z_intra_tipus": -0.679094,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 689,
+      "teixit": "P_Helga",
+      "volta": 127,
+      "tipus": "V0",
+      "dist_centroide": 0.001695,
+      "z_intra_tipus": -0.622487,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 690,
+      "teixit": "P_Helga",
+      "volta": 129,
+      "tipus": "V0",
+      "dist_centroide": 0.000401,
+      "z_intra_tipus": -0.67887,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 691,
+      "teixit": "P_Helga",
+      "volta": 131,
+      "tipus": "V0",
+      "dist_centroide": 0.001107,
+      "z_intra_tipus": -0.648076,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 692,
+      "teixit": "P_Helga",
+      "volta": 133,
+      "tipus": "V0",
+      "dist_centroide": 0.002043,
+      "z_intra_tipus": -0.607294,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 693,
+      "teixit": "P_Helga",
+      "volta": 135,
+      "tipus": "V2",
+      "dist_centroide": 0.001835,
+      "z_intra_tipus": -0.530831,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 694,
+      "teixit": "P_Helga",
+      "volta": 137,
+      "tipus": "V2",
+      "dist_centroide": 0.026641,
+      "z_intra_tipus": -0.152586,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 695,
+      "teixit": "P_Helga",
+      "volta": 139,
+      "tipus": "V2",
+      "dist_centroide": 0.021415,
+      "z_intra_tipus": -0.232279,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 696,
+      "teixit": "P_Helga",
+      "volta": 141,
+      "tipus": "V0",
+      "dist_centroide": 0.002637,
+      "z_intra_tipus": -0.581443,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 697,
+      "teixit": "P_Helga",
+      "volta": 143,
+      "tipus": "V2",
+      "dist_centroide": 0.009692,
+      "z_intra_tipus": -0.411034,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 698,
+      "teixit": "P_Helga",
+      "volta": 145,
+      "tipus": "V0",
+      "dist_centroide": 0.004476,
+      "z_intra_tipus": -0.501299,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 699,
+      "teixit": "P_Helga",
+      "volta": 147,
+      "tipus": "V0",
+      "dist_centroide": 0.003861,
+      "z_intra_tipus": -0.528085,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 700,
+      "teixit": "P_Helga",
+      "volta": 149,
+      "tipus": "V0",
+      "dist_centroide": 0.013069,
+      "z_intra_tipus": -0.126917,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 701,
+      "teixit": "P_Helga",
+      "volta": 151,
+      "tipus": "V0",
+      "dist_centroide": 0.008118,
+      "z_intra_tipus": -0.342645,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 702,
+      "teixit": "P_Helga",
+      "volta": 153,
+      "tipus": "V0",
+      "dist_centroide": 0.001941,
+      "z_intra_tipus": -0.611765,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 703,
+      "teixit": "P_Helga",
+      "volta": 155,
+      "tipus": "V0",
+      "dist_centroide": 0.000806,
+      "z_intra_tipus": -0.661208,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 704,
+      "teixit": "P_Helga",
+      "volta": 157,
+      "tipus": "V0",
+      "dist_centroide": 0.001385,
+      "z_intra_tipus": -0.636,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 705,
+      "teixit": "P_Helga",
+      "volta": 159,
+      "tipus": "V0",
+      "dist_centroide": 0.00069,
+      "z_intra_tipus": -0.666273,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 706,
+      "teixit": "P_Helga",
+      "volta": 161,
+      "tipus": "V0",
+      "dist_centroide": 0.009896,
+      "z_intra_tipus": -0.265148,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 707,
+      "teixit": "P_Helga",
+      "volta": 163,
+      "tipus": "V0",
+      "dist_centroide": 0.013174,
+      "z_intra_tipus": -0.122336,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 708,
+      "teixit": "P_Helga",
+      "volta": 165,
+      "tipus": "V0",
+      "dist_centroide": 0.001334,
+      "z_intra_tipus": -0.638219,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 709,
+      "teixit": "P_Helga",
+      "volta": 167,
+      "tipus": "V0",
+      "dist_centroide": 0.01439,
+      "z_intra_tipus": -0.069356,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 710,
+      "teixit": "P_Helga",
+      "volta": 169,
+      "tipus": "V0",
+      "dist_centroide": 0.014231,
+      "z_intra_tipus": -0.076305,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 711,
+      "teixit": "P_Helga",
+      "volta": 171,
+      "tipus": "V0",
+      "dist_centroide": 0.015849,
+      "z_intra_tipus": -0.005793,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 712,
+      "teixit": "P_Helga",
+      "volta": 173,
+      "tipus": "V0",
+      "dist_centroide": 0.020058,
+      "z_intra_tipus": 0.177565,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 713,
+      "teixit": "P_Helga",
+      "volta": 175,
+      "tipus": "V0",
+      "dist_centroide": 0.02801,
+      "z_intra_tipus": 0.524036,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 714,
+      "teixit": "P_Helga",
+      "volta": 177,
+      "tipus": "V0",
+      "dist_centroide": 0.014153,
+      "z_intra_tipus": -0.079696,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 715,
+      "teixit": "P_Helga",
+      "volta": 179,
+      "tipus": "V0",
+      "dist_centroide": 0.028628,
+      "z_intra_tipus": 0.550941,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 716,
+      "teixit": "P_Helga",
+      "volta": 181,
+      "tipus": "V0",
+      "dist_centroide": 0.006693,
+      "z_intra_tipus": -0.404732,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 717,
+      "teixit": "P_Helga",
+      "volta": 183,
+      "tipus": "V0",
+      "dist_centroide": 0.027091,
+      "z_intra_tipus": 0.484,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 718,
+      "teixit": "P_Helga",
+      "volta": 185,
+      "tipus": "V0",
+      "dist_centroide": 0.002043,
+      "z_intra_tipus": -0.607307,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 719,
+      "teixit": "P_Helga",
+      "volta": 187,
+      "tipus": "V0",
+      "dist_centroide": 0.017482,
+      "z_intra_tipus": 0.065348,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 720,
+      "teixit": "P_Helga",
+      "volta": 189,
+      "tipus": "V0",
+      "dist_centroide": 0.003998,
+      "z_intra_tipus": -0.52212,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 721,
+      "teixit": "P_Helga",
+      "volta": 191,
+      "tipus": "V0",
+      "dist_centroide": 0.016587,
+      "z_intra_tipus": 0.026349,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 722,
+      "teixit": "P_Helga",
+      "volta": 193,
+      "tipus": "V0",
+      "dist_centroide": 0.016034,
+      "z_intra_tipus": 0.002242,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 723,
+      "teixit": "P_Helga",
+      "volta": 195,
+      "tipus": "V0",
+      "dist_centroide": 0.004251,
+      "z_intra_tipus": -0.511094,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 724,
+      "teixit": "P_Helga",
+      "volta": 197,
+      "tipus": "V0",
+      "dist_centroide": 0.003147,
+      "z_intra_tipus": -0.559211,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 725,
+      "teixit": "P_Helga",
+      "volta": 199,
+      "tipus": "V0",
+      "dist_centroide": 0.015351,
+      "z_intra_tipus": -0.027507,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 726,
+      "teixit": "P_Helga",
+      "volta": 201,
+      "tipus": "V0",
+      "dist_centroide": 0.015351,
+      "z_intra_tipus": -0.027507,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 727,
+      "teixit": "P_Helga",
+      "volta": 203,
+      "tipus": "V0",
+      "dist_centroide": 0.015351,
+      "z_intra_tipus": -0.027507,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 728,
+      "teixit": "P_Helga",
+      "volta": 205,
+      "tipus": "V0",
+      "dist_centroide": 0.015351,
+      "z_intra_tipus": -0.027507,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 729,
+      "teixit": "P_Helga",
+      "volta": 207,
+      "tipus": "V0",
+      "dist_centroide": 0.036581,
+      "z_intra_tipus": 0.897468,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 730,
+      "teixit": "P_Helga",
+      "volta": 209,
+      "tipus": "V0",
+      "dist_centroide": 0.036581,
+      "z_intra_tipus": 0.897468,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 731,
+      "teixit": "P_Helga",
+      "volta": 211,
+      "tipus": "V0",
+      "dist_centroide": 0.034926,
+      "z_intra_tipus": 0.825332,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 732,
+      "teixit": "P_Cori",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 733,
+      "teixit": "P_Cori",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.041797,
+      "z_intra_tipus": 1.124721,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 734,
+      "teixit": "P_Cori",
+      "volta": 5,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 735,
+      "teixit": "P_Cori",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.001563,
+      "z_intra_tipus": -0.628205,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 736,
+      "teixit": "P_Cori",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.001208,
+      "z_intra_tipus": -0.643679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 737,
+      "teixit": "P_Cori",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.001563,
+      "z_intra_tipus": -0.628205,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 738,
+      "teixit": "P_Cori",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.004738,
+      "z_intra_tipus": -0.489911,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 739,
+      "teixit": "P_Cori",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.004912,
+      "z_intra_tipus": -0.4823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 740,
+      "teixit": "P_Cori",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.000694,
+      "z_intra_tipus": -0.666081,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 741,
+      "teixit": "P_Cori",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.002998,
+      "z_intra_tipus": -0.513097,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 742,
+      "teixit": "P_Cori",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.00075,
+      "z_intra_tipus": -0.663656,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 743,
+      "teixit": "P_Cori",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.005609,
+      "z_intra_tipus": -0.451945,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 744,
+      "teixit": "P_Cori",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.000686,
+      "z_intra_tipus": -0.666436,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 745,
+      "teixit": "P_Cori",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.005664,
+      "z_intra_tipus": -0.449549,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 746,
+      "teixit": "P_Cori",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.011972,
+      "z_intra_tipus": -0.174701,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 747,
+      "teixit": "P_Cori",
+      "volta": 31,
+      "tipus": "V2",
+      "dist_centroide": 0.009893,
+      "z_intra_tipus": -0.40797,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 748,
+      "teixit": "P_Cori",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.001773,
+      "z_intra_tipus": -0.619084,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 749,
+      "teixit": "P_Cori",
+      "volta": 35,
+      "tipus": "V2",
+      "dist_centroide": 0.00201,
+      "z_intra_tipus": -0.528162,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 750,
+      "teixit": "P_Cori",
+      "volta": 37,
+      "tipus": "V2",
+      "dist_centroide": 0.022725,
+      "z_intra_tipus": -0.212301,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 751,
+      "teixit": "P_Cori",
+      "volta": 39,
+      "tipus": "V2",
+      "dist_centroide": 0.022725,
+      "z_intra_tipus": -0.212301,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 752,
+      "teixit": "P_Cori",
+      "volta": 41,
+      "tipus": "V2",
+      "dist_centroide": 0.003783,
+      "z_intra_tipus": -0.501131,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 753,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 1,
+      "tipus": "V2",
+      "dist_centroide": 0.001559,
+      "z_intra_tipus": -0.535039,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 754,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.348986,
+      "z_intra_tipus": -0.270731,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 755,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 5,
+      "tipus": "V1",
+      "dist_centroide": 0.348986,
+      "z_intra_tipus": -0.270731,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 756,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.038472,
+      "z_intra_tipus": 0.979856,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 757,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.013365,
+      "z_intra_tipus": -0.114046,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 758,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 15,
+      "tipus": "V2",
+      "dist_centroide": 0.021988,
+      "z_intra_tipus": -0.223538,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 759,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.013365,
+      "z_intra_tipus": -0.114046,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 760,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.021988,
+      "z_intra_tipus": -0.223538,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 761,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.013365,
+      "z_intra_tipus": -0.114046,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 762,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 23,
+      "tipus": "V2",
+      "dist_centroide": 0.021988,
+      "z_intra_tipus": -0.223538,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 763,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.013365,
+      "z_intra_tipus": -0.114046,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 764,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.044105,
+      "z_intra_tipus": 1.225252,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 765,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.024728,
+      "z_intra_tipus": 0.381056,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 766,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.001563,
+      "z_intra_tipus": -0.628205,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 767,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.016944,
+      "z_intra_tipus": 0.041904,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 768,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 35,
+      "tipus": "V1",
+      "dist_centroide": 0.68942,
+      "z_intra_tipus": 1.41242,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 769,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 37,
+      "tipus": "V2",
+      "dist_centroide": 0.00873,
+      "z_intra_tipus": -0.425696,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 770,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 39,
+      "tipus": "V2",
+      "dist_centroide": 0.008553,
+      "z_intra_tipus": -0.428389,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 771,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 41,
+      "tipus": "V0",
+      "dist_centroide": 0.033729,
+      "z_intra_tipus": 0.7732,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 772,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.001863,
+      "z_intra_tipus": -0.615155,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 773,
+      "teixit": "P_Jafisa - Grafico A",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.015022,
+      "z_intra_tipus": -0.041855,
+      "es_outlier": false
+    }
+  ]
+}

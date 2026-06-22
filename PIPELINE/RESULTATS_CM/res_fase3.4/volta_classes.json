@@ -1,0 +1,6163 @@
+{
+  "metadades": {
+    "num_voltes_total": 656,
+    "num_voltes_validades": 656,
+    "num_voltes_descartades_buides": 0,
+    "dim_signatura": 8,
+    "classes_token_usades": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C_RARE"
+    ],
+    "k_provats": [
+      {
+        "k": 2,
+        "silhouette": 0.4379
+      },
+      {
+        "k": 3,
+        "silhouette": 0.5066
+      },
+      {
+        "k": 4,
+        "silhouette": 0.5028
+      },
+      {
+        "k": 5,
+        "silhouette": 0.4674
+      },
+      {
+        "k": 6,
+        "silhouette": 0.4737
+      },
+      {
+        "k": 7,
+        "silhouette": 0.4632
+      },
+      {
+        "k": 8,
+        "silhouette": 0.4649
+      },
+      {
+        "k": 9,
+        "silhouette": 0.4234
+      },
+      {
+        "k": 10,
+        "silhouette": 0.4274
+      },
+      {
+        "k": 11,
+        "silhouette": 0.4096
+      },
+      {
+        "k": 12,
+        "silhouette": 0.4448
+      },
+      {
+        "k": 13,
+        "silhouette": 0.4437
+      },
+      {
+        "k": 14,
+        "silhouette": 0.4353
+      },
+      {
+        "k": 15,
+        "silhouette": 0.436
+      },
+      {
+        "k": 16,
+        "silhouette": 0.4348
+      },
+      {
+        "k": 17,
+        "silhouette": 0.4269
+      },
+      {
+        "k": 18,
+        "silhouette": 0.4093
+      }
+    ],
+    "k_optim": 3,
+    "silhouette_optim": 0.5066,
+    "outliers_detectats": 22
+  },
+  "tipus_voltes": {
+    "V0": {
+      "num_voltes": 302,
+      "composicio_classes_mitjana": {
+        "C0": 0.1543,
+        "C1": 0.315,
+        "C2": 0.0086,
+        "C3": 0.479,
+        "C4": 0.0095,
+        "C5": 0.0207,
+        "C6": 0.0062,
+        "C_RARE": 0.0069
+      },
+      "top_classes": [
+        {
+          "classe": "C3",
+          "frac": 0.479
+        },
+        {
+          "classe": "C1",
+          "frac": 0.315
+        },
+        {
+          "classe": "C0",
+          "frac": 0.1543
+        }
+      ],
+      "long_mitjana": 24.88,
+      "num_macros_mitja": 4.2,
+      "prof_max_mitjana": 1.01,
+      "frac_voltes_amb_verticals": 0.6722,
+      "num_blocks_verticals_mitja": 1.4238,
+      "sum_n_voltes_verticals_mitja": 6.4768,
+      "max_n_voltes_verticals_max": 20,
+      "frac_verticals_mitja": 0.1221,
+      "teixits_presents": {
+        "CM_Gardenia": 81,
+        "CM_Hojas de Roble": 48,
+        "CM_Abouchete": 40,
+        "CM_Pasión": 36,
+        "CM_Pepita": 33,
+        "CM_Pelargonia": 17,
+        "CM_Copas de champán": 17,
+        "CM_Angelines": 13,
+        "CM_Hojas y cactus": 10,
+        "CM_Eterna": 7
+      },
+      "centroide_L2": [
+        0.256343,
+        0.509706,
+        0.015138,
+        0.750437,
+        0.016266,
+        0.035539,
+        0.011659,
+        0.011593
+      ]
+    },
+    "V1": {
+      "num_voltes": 327,
+      "composicio_classes_mitjana": {
+        "C0": 0.2439,
+        "C1": 0.531,
+        "C2": 0.0059,
+        "C3": 0.1628,
+        "C4": 0.0033,
+        "C5": 0.0384,
+        "C6": 0.0066,
+        "C_RARE": 0.008
+      },
+      "top_classes": [
+        {
+          "classe": "C1",
+          "frac": 0.531
+        },
+        {
+          "classe": "C0",
+          "frac": 0.2439
+        },
+        {
+          "classe": "C3",
+          "frac": 0.1628
+        }
+      ],
+      "long_mitjana": 114.99,
+      "num_macros_mitja": 3.86,
+      "prof_max_mitjana": 1.14,
+      "frac_voltes_amb_verticals": 0.4037,
+      "num_blocks_verticals_mitja": 0.5474,
+      "sum_n_voltes_verticals_mitja": 3.0061,
+      "max_n_voltes_verticals_max": 22,
+      "frac_verticals_mitja": 0.0918,
+      "teixits_presents": {
+        "CM_Abouchete": 91,
+        "CM_Copas de champán": 35,
+        "CM_Pasión": 32,
+        "CM_Pepita": 31,
+        "CM_Angelines": 30,
+        "CM_Gardenia": 30,
+        "CM_Hojas y cactus": 27,
+        "CM_Pelargonia": 22,
+        "CM_Hojas de Roble": 11,
+        "CM_Eterna": 10,
+        "CM_Punto Angelines": 8
+      },
+      "centroide_L2": [
+        0.389126,
+        0.785213,
+        0.008098,
+        0.269725,
+        0.005188,
+        0.064892,
+        0.01149,
+        0.013538
+      ]
+    },
+    "V2": {
+      "num_voltes": 27,
+      "composicio_classes_mitjana": {
+        "C0": 0.1438,
+        "C1": 0.1606,
+        "C2": 0.0056,
+        "C3": 0.1524,
+        "C4": 0.0,
+        "C5": 0.5376,
+        "C6": 0.0,
+        "C_RARE": 0.0
+      },
+      "top_classes": [
+        {
+          "classe": "C5",
+          "frac": 0.5376
+        },
+        {
+          "classe": "C1",
+          "frac": 0.1606
+        },
+        {
+          "classe": "C3",
+          "frac": 0.1524
+        }
+      ],
+      "long_mitjana": 24.26,
+      "num_macros_mitja": 6.67,
+      "prof_max_mitjana": 1.78,
+      "frac_voltes_amb_verticals": 0.9259,
+      "num_blocks_verticals_mitja": 1.037,
+      "sum_n_voltes_verticals_mitja": 2.7407,
+      "max_n_voltes_verticals_max": 5,
+      "frac_verticals_mitja": 0.0521,
+      "teixits_presents": {
+        "CM_Punto Angelines": 23,
+        "CM_Gardenia": 4
+      },
+      "centroide_L2": [
+        0.248134,
+        0.262142,
+        0.007828,
+        0.249583,
+        -0.0,
+        0.861665,
+        0.0,
+        -0.0
+      ]
+    }
+  },
+  "assignacions": [
+    {
+      "indice_global": 0,
+      "teixit": "CM_Pasión",
+      "volta": 1,
+      "tipus": "V1",
+      "dist_centroide": 0.204575,
+      "z_intra_tipus": 1.438964,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 1,
+      "teixit": "CM_Pasión",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.097296,
+      "z_intra_tipus": 0.75096,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 2,
+      "teixit": "CM_Pasión",
+      "volta": 5,
+      "tipus": "V1",
+      "dist_centroide": 0.124974,
+      "z_intra_tipus": 0.515262,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 3,
+      "teixit": "CM_Pasión",
+      "volta": 7,
+      "tipus": "V1",
+      "dist_centroide": 0.124974,
+      "z_intra_tipus": 0.515262,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 4,
+      "teixit": "CM_Pasión",
+      "volta": 9,
+      "tipus": "V1",
+      "dist_centroide": 0.124974,
+      "z_intra_tipus": 0.515262,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 5,
+      "teixit": "CM_Pasión",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.124974,
+      "z_intra_tipus": 0.515262,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 6,
+      "teixit": "CM_Pasión",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.070172,
+      "z_intra_tipus": -0.120686,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 7,
+      "teixit": "CM_Pasión",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.13817,
+      "z_intra_tipus": 1.498471,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 8,
+      "teixit": "CM_Pasión",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.025666,
+      "z_intra_tipus": -0.559021,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 9,
+      "teixit": "CM_Pasión",
+      "volta": 19,
+      "tipus": "V1",
+      "dist_centroide": 0.143216,
+      "z_intra_tipus": 0.726944,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 10,
+      "teixit": "CM_Pasión",
+      "volta": 21,
+      "tipus": "V1",
+      "dist_centroide": 0.143216,
+      "z_intra_tipus": 0.726944,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 11,
+      "teixit": "CM_Pasión",
+      "volta": 23,
+      "tipus": "V1",
+      "dist_centroide": 0.143216,
+      "z_intra_tipus": 0.726944,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 12,
+      "teixit": "CM_Pasión",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.046231,
+      "z_intra_tipus": -0.182917,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 13,
+      "teixit": "CM_Pasión",
+      "volta": 27,
+      "tipus": "V1",
+      "dist_centroide": 0.077109,
+      "z_intra_tipus": -0.040182,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 14,
+      "teixit": "CM_Pasión",
+      "volta": 29,
+      "tipus": "V1",
+      "dist_centroide": 0.101098,
+      "z_intra_tipus": 0.238195,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 15,
+      "teixit": "CM_Pasión",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.0799,
+      "z_intra_tipus": 0.432826,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 16,
+      "teixit": "CM_Pasión",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.126435,
+      "z_intra_tipus": 1.283858,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 17,
+      "teixit": "CM_Pasión",
+      "volta": 35,
+      "tipus": "V1",
+      "dist_centroide": 0.143216,
+      "z_intra_tipus": 0.726944,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 18,
+      "teixit": "CM_Pasión",
+      "volta": 37,
+      "tipus": "V1",
+      "dist_centroide": 0.143216,
+      "z_intra_tipus": 0.726944,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 19,
+      "teixit": "CM_Pasión",
+      "volta": 39,
+      "tipus": "V1",
+      "dist_centroide": 0.143216,
+      "z_intra_tipus": 0.726944,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 20,
+      "teixit": "CM_Pasión",
+      "volta": 41,
+      "tipus": "V1",
+      "dist_centroide": 0.143216,
+      "z_intra_tipus": 0.726944,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 21,
+      "teixit": "CM_Pasión",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.046231,
+      "z_intra_tipus": -0.182917,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 22,
+      "teixit": "CM_Pasión",
+      "volta": 45,
+      "tipus": "V1",
+      "dist_centroide": 0.056528,
+      "z_intra_tipus": -0.279009,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 23,
+      "teixit": "CM_Pasión",
+      "volta": 47,
+      "tipus": "V1",
+      "dist_centroide": 0.067203,
+      "z_intra_tipus": -0.15513,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 24,
+      "teixit": "CM_Pasión",
+      "volta": 49,
+      "tipus": "V1",
+      "dist_centroide": 0.021187,
+      "z_intra_tipus": -0.689118,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 25,
+      "teixit": "CM_Pasión",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.034504,
+      "z_intra_tipus": -0.397396,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 26,
+      "teixit": "CM_Pasión",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.051192,
+      "z_intra_tipus": -0.092187,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 27,
+      "teixit": "CM_Pasión",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.072088,
+      "z_intra_tipus": 0.289947,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 28,
+      "teixit": "CM_Pasión",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.118964,
+      "z_intra_tipus": 1.147238,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 29,
+      "teixit": "CM_Pasión",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.072088,
+      "z_intra_tipus": 0.289947,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 30,
+      "teixit": "CM_Pasión",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.059006,
+      "z_intra_tipus": 0.050708,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 31,
+      "teixit": "CM_Pasión",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.072933,
+      "z_intra_tipus": 0.305415,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 32,
+      "teixit": "CM_Pasión",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.059006,
+      "z_intra_tipus": 0.050708,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 33,
+      "teixit": "CM_Pasión",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.072933,
+      "z_intra_tipus": 0.305415,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 34,
+      "teixit": "CM_Pasión",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.114372,
+      "z_intra_tipus": 1.063252,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 35,
+      "teixit": "CM_Pasión",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.001185,
+      "z_intra_tipus": -1.006733,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 36,
+      "teixit": "CM_Pasión",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.101118,
+      "z_intra_tipus": 0.820861,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 37,
+      "teixit": "CM_Pasión",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.024284,
+      "z_intra_tipus": -0.5843,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 38,
+      "teixit": "CM_Pasión",
+      "volta": 77,
+      "tipus": "V1",
+      "dist_centroide": 0.079664,
+      "z_intra_tipus": -0.010532,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 39,
+      "teixit": "CM_Pasión",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.064876,
+      "z_intra_tipus": 0.158064,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 40,
+      "teixit": "CM_Pasión",
+      "volta": 81,
+      "tipus": "V1",
+      "dist_centroide": 0.067603,
+      "z_intra_tipus": -0.150496,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 41,
+      "teixit": "CM_Pasión",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.00323,
+      "z_intra_tipus": -0.969337,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 42,
+      "teixit": "CM_Pasión",
+      "volta": 85,
+      "tipus": "V1",
+      "dist_centroide": 0.03931,
+      "z_intra_tipus": -0.47881,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 43,
+      "teixit": "CM_Pasión",
+      "volta": 87,
+      "tipus": "V1",
+      "dist_centroide": 0.080577,
+      "z_intra_tipus": 6.6e-05,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 44,
+      "teixit": "CM_Pasión",
+      "volta": 89,
+      "tipus": "V1",
+      "dist_centroide": 0.16442,
+      "z_intra_tipus": 0.973,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 45,
+      "teixit": "CM_Pasión",
+      "volta": 91,
+      "tipus": "V1",
+      "dist_centroide": 0.155766,
+      "z_intra_tipus": 0.872573,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 46,
+      "teixit": "CM_Pasión",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.023951,
+      "z_intra_tipus": -0.590386,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 47,
+      "teixit": "CM_Pasión",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.049142,
+      "z_intra_tipus": -0.12968,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 48,
+      "teixit": "CM_Pasión",
+      "volta": 97,
+      "tipus": "V1",
+      "dist_centroide": 0.038853,
+      "z_intra_tipus": -0.484116,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 49,
+      "teixit": "CM_Pasión",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.176115,
+      "z_intra_tipus": 2.192409,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 50,
+      "teixit": "CM_Pasión",
+      "volta": 101,
+      "tipus": "V0",
+      "dist_centroide": 0.058546,
+      "z_intra_tipus": 0.04229,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 51,
+      "teixit": "CM_Pasión",
+      "volta": 103,
+      "tipus": "V1",
+      "dist_centroide": 0.152794,
+      "z_intra_tipus": 0.838089,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 52,
+      "teixit": "CM_Pasión",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.009617,
+      "z_intra_tipus": -0.852529,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 53,
+      "teixit": "CM_Pasión",
+      "volta": 107,
+      "tipus": "V0",
+      "dist_centroide": 0.007631,
+      "z_intra_tipus": -0.888839,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 54,
+      "teixit": "CM_Pasión",
+      "volta": 109,
+      "tipus": "V0",
+      "dist_centroide": 0.007631,
+      "z_intra_tipus": -0.888839,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 55,
+      "teixit": "CM_Pasión",
+      "volta": 111,
+      "tipus": "V0",
+      "dist_centroide": 0.007631,
+      "z_intra_tipus": -0.888839,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 56,
+      "teixit": "CM_Pasión",
+      "volta": 113,
+      "tipus": "V0",
+      "dist_centroide": 0.024756,
+      "z_intra_tipus": -0.575658,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 57,
+      "teixit": "CM_Pasión",
+      "volta": 115,
+      "tipus": "V0",
+      "dist_centroide": 0.007631,
+      "z_intra_tipus": -0.888839,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 58,
+      "teixit": "CM_Pasión",
+      "volta": 117,
+      "tipus": "V0",
+      "dist_centroide": 0.008036,
+      "z_intra_tipus": -0.881432,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 59,
+      "teixit": "CM_Pasión",
+      "volta": 119,
+      "tipus": "V0",
+      "dist_centroide": 0.076058,
+      "z_intra_tipus": 0.362558,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 60,
+      "teixit": "CM_Pasión",
+      "volta": 121,
+      "tipus": "V1",
+      "dist_centroide": 0.080869,
+      "z_intra_tipus": 0.003448,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 61,
+      "teixit": "CM_Pasión",
+      "volta": 123,
+      "tipus": "V0",
+      "dist_centroide": 0.028523,
+      "z_intra_tipus": -0.506763,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 62,
+      "teixit": "CM_Pasión",
+      "volta": 125,
+      "tipus": "V1",
+      "dist_centroide": 0.063461,
+      "z_intra_tipus": -0.198563,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 63,
+      "teixit": "CM_Pasión",
+      "volta": 127,
+      "tipus": "V0",
+      "dist_centroide": 0.011274,
+      "z_intra_tipus": -0.822229,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 64,
+      "teixit": "CM_Pasión",
+      "volta": 129,
+      "tipus": "V1",
+      "dist_centroide": 0.044404,
+      "z_intra_tipus": -0.419704,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 65,
+      "teixit": "CM_Pasión",
+      "volta": 131,
+      "tipus": "V1",
+      "dist_centroide": 0.047972,
+      "z_intra_tipus": -0.378293,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 66,
+      "teixit": "CM_Pasión",
+      "volta": 133,
+      "tipus": "V1",
+      "dist_centroide": 0.062548,
+      "z_intra_tipus": -0.209153,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 67,
+      "teixit": "CM_Pasión",
+      "volta": 135,
+      "tipus": "V1",
+      "dist_centroide": 0.167484,
+      "z_intra_tipus": 1.008551,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 68,
+      "teixit": "CM_Angelines",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.114903,
+      "z_intra_tipus": 1.072962,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 69,
+      "teixit": "CM_Angelines",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.114903,
+      "z_intra_tipus": 1.072962,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 70,
+      "teixit": "CM_Angelines",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 71,
+      "teixit": "CM_Angelines",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 72,
+      "teixit": "CM_Angelines",
+      "volta": 15,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 73,
+      "teixit": "CM_Angelines",
+      "volta": 17,
+      "tipus": "V1",
+      "dist_centroide": 0.049878,
+      "z_intra_tipus": -0.356184,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 74,
+      "teixit": "CM_Angelines",
+      "volta": 19,
+      "tipus": "V1",
+      "dist_centroide": 0.021735,
+      "z_intra_tipus": -0.682754,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 75,
+      "teixit": "CM_Angelines",
+      "volta": 21,
+      "tipus": "V1",
+      "dist_centroide": 0.039343,
+      "z_intra_tipus": -0.478429,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 76,
+      "teixit": "CM_Angelines",
+      "volta": 23,
+      "tipus": "V1",
+      "dist_centroide": 0.074392,
+      "z_intra_tipus": -0.071712,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 77,
+      "teixit": "CM_Angelines",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.039383,
+      "z_intra_tipus": -0.308163,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 78,
+      "teixit": "CM_Angelines",
+      "volta": 27,
+      "tipus": "V1",
+      "dist_centroide": 0.073577,
+      "z_intra_tipus": -0.081163,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 79,
+      "teixit": "CM_Angelines",
+      "volta": 29,
+      "tipus": "V1",
+      "dist_centroide": 0.01892,
+      "z_intra_tipus": -0.715421,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 80,
+      "teixit": "CM_Angelines",
+      "volta": 31,
+      "tipus": "V1",
+      "dist_centroide": 0.042561,
+      "z_intra_tipus": -0.441093,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 81,
+      "teixit": "CM_Angelines",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.00427,
+      "z_intra_tipus": -0.950305,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 82,
+      "teixit": "CM_Angelines",
+      "volta": 35,
+      "tipus": "V1",
+      "dist_centroide": 0.046107,
+      "z_intra_tipus": -0.39994,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 83,
+      "teixit": "CM_Angelines",
+      "volta": 37,
+      "tipus": "V1",
+      "dist_centroide": 0.024693,
+      "z_intra_tipus": -0.648432,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 84,
+      "teixit": "CM_Angelines",
+      "volta": 39,
+      "tipus": "V0",
+      "dist_centroide": 0.091613,
+      "z_intra_tipus": 0.64703,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 85,
+      "teixit": "CM_Angelines",
+      "volta": 41,
+      "tipus": "V0",
+      "dist_centroide": 0.072394,
+      "z_intra_tipus": 0.295554,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 86,
+      "teixit": "CM_Angelines",
+      "volta": 43,
+      "tipus": "V1",
+      "dist_centroide": 0.097028,
+      "z_intra_tipus": 0.190963,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 87,
+      "teixit": "CM_Angelines",
+      "volta": 45,
+      "tipus": "V1",
+      "dist_centroide": 0.032241,
+      "z_intra_tipus": -0.560841,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 88,
+      "teixit": "CM_Angelines",
+      "volta": 47,
+      "tipus": "V1",
+      "dist_centroide": 0.267868,
+      "z_intra_tipus": 2.173441,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 89,
+      "teixit": "CM_Angelines",
+      "volta": 49,
+      "tipus": "V1",
+      "dist_centroide": 0.267868,
+      "z_intra_tipus": 2.173441,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 90,
+      "teixit": "CM_Angelines",
+      "volta": 51,
+      "tipus": "V1",
+      "dist_centroide": 0.267868,
+      "z_intra_tipus": 2.173441,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 91,
+      "teixit": "CM_Angelines",
+      "volta": 53,
+      "tipus": "V1",
+      "dist_centroide": 0.117527,
+      "z_intra_tipus": 0.428842,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 92,
+      "teixit": "CM_Angelines",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.059881,
+      "z_intra_tipus": 0.066703,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 93,
+      "teixit": "CM_Angelines",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.026477,
+      "z_intra_tipus": -0.544187,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 94,
+      "teixit": "CM_Angelines",
+      "volta": 59,
+      "tipus": "V1",
+      "dist_centroide": 0.028466,
+      "z_intra_tipus": -0.604653,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 95,
+      "teixit": "CM_Angelines",
+      "volta": 61,
+      "tipus": "V1",
+      "dist_centroide": 0.098374,
+      "z_intra_tipus": 0.206579,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 96,
+      "teixit": "CM_Angelines",
+      "volta": 63,
+      "tipus": "V1",
+      "dist_centroide": 0.067603,
+      "z_intra_tipus": -0.150492,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 97,
+      "teixit": "CM_Angelines",
+      "volta": 65,
+      "tipus": "V1",
+      "dist_centroide": 0.073036,
+      "z_intra_tipus": -0.087447,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 98,
+      "teixit": "CM_Angelines",
+      "volta": 67,
+      "tipus": "V1",
+      "dist_centroide": 0.048203,
+      "z_intra_tipus": -0.375616,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 99,
+      "teixit": "CM_Angelines",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.049985,
+      "z_intra_tipus": -0.114267,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 100,
+      "teixit": "CM_Angelines",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.057727,
+      "z_intra_tipus": 0.02732,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 101,
+      "teixit": "CM_Angelines",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.057727,
+      "z_intra_tipus": 0.02732,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 102,
+      "teixit": "CM_Angelines",
+      "volta": 75,
+      "tipus": "V1",
+      "dist_centroide": 0.096424,
+      "z_intra_tipus": 0.183957,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 103,
+      "teixit": "CM_Angelines",
+      "volta": 77,
+      "tipus": "V1",
+      "dist_centroide": 0.018862,
+      "z_intra_tipus": -0.716094,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 104,
+      "teixit": "CM_Angelines",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.046729,
+      "z_intra_tipus": -0.173819,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 105,
+      "teixit": "CM_Angelines",
+      "volta": 81,
+      "tipus": "V1",
+      "dist_centroide": 0.071161,
+      "z_intra_tipus": -0.1092,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 106,
+      "teixit": "CM_Angelines",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.015098,
+      "z_intra_tipus": -0.752279,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 107,
+      "teixit": "CM_Angelines",
+      "volta": 85,
+      "tipus": "V1",
+      "dist_centroide": 0.103289,
+      "z_intra_tipus": 0.263618,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 108,
+      "teixit": "CM_Angelines",
+      "volta": 87,
+      "tipus": "V1",
+      "dist_centroide": 0.115618,
+      "z_intra_tipus": 0.406689,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 109,
+      "teixit": "CM_Angelines",
+      "volta": 89,
+      "tipus": "V1",
+      "dist_centroide": 0.1115,
+      "z_intra_tipus": 0.358905,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 110,
+      "teixit": "CM_Angelines",
+      "volta": 91,
+      "tipus": "V1",
+      "dist_centroide": 0.103289,
+      "z_intra_tipus": 0.263618,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 111,
+      "teixit": "CM_Eterna",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 112,
+      "teixit": "CM_Eterna",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 113,
+      "teixit": "CM_Eterna",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.204849,
+      "z_intra_tipus": 2.717902,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 114,
+      "teixit": "CM_Eterna",
+      "volta": 9,
+      "tipus": "V1",
+      "dist_centroide": 0.239525,
+      "z_intra_tipus": 1.844538,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 115,
+      "teixit": "CM_Eterna",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 116,
+      "teixit": "CM_Eterna",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 117,
+      "teixit": "CM_Eterna",
+      "volta": 15,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 118,
+      "teixit": "CM_Eterna",
+      "volta": 21,
+      "tipus": "V1",
+      "dist_centroide": 0.233615,
+      "z_intra_tipus": 1.775956,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 119,
+      "teixit": "CM_Eterna",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.064185,
+      "z_intra_tipus": 0.145423,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 120,
+      "teixit": "CM_Eterna",
+      "volta": 25,
+      "tipus": "V1",
+      "dist_centroide": 0.025918,
+      "z_intra_tipus": -0.634215,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 121,
+      "teixit": "CM_Eterna",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 122,
+      "teixit": "CM_Eterna",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.038814,
+      "z_intra_tipus": -0.318573,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 123,
+      "teixit": "CM_Eterna",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.112827,
+      "z_intra_tipus": 1.034992,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 124,
+      "teixit": "CM_Eterna",
+      "volta": 33,
+      "tipus": "V1",
+      "dist_centroide": 0.065115,
+      "z_intra_tipus": -0.179365,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 125,
+      "teixit": "CM_Eterna",
+      "volta": 35,
+      "tipus": "V1",
+      "dist_centroide": 0.08341,
+      "z_intra_tipus": 0.032935,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 126,
+      "teixit": "CM_Eterna",
+      "volta": 37,
+      "tipus": "V1",
+      "dist_centroide": 0.134238,
+      "z_intra_tipus": 0.622761,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 127,
+      "teixit": "CM_Eterna",
+      "volta": 39,
+      "tipus": "V1",
+      "dist_centroide": 0.049283,
+      "z_intra_tipus": -0.363083,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 128,
+      "teixit": "CM_Pelargonia",
+      "volta": 3,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 129,
+      "teixit": "CM_Pelargonia",
+      "volta": 5,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 130,
+      "teixit": "CM_Pelargonia",
+      "volta": 7,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 131,
+      "teixit": "CM_Pelargonia",
+      "volta": 9,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 132,
+      "teixit": "CM_Pelargonia",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 133,
+      "teixit": "CM_Pelargonia",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 134,
+      "teixit": "CM_Pelargonia",
+      "volta": 15,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 135,
+      "teixit": "CM_Pelargonia",
+      "volta": 17,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 136,
+      "teixit": "CM_Pelargonia",
+      "volta": 19,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 137,
+      "teixit": "CM_Pelargonia",
+      "volta": 21,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 138,
+      "teixit": "CM_Pelargonia",
+      "volta": 23,
+      "tipus": "V1",
+      "dist_centroide": 0.041676,
+      "z_intra_tipus": -0.451352,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 139,
+      "teixit": "CM_Pelargonia",
+      "volta": 25,
+      "tipus": "V1",
+      "dist_centroide": 0.107998,
+      "z_intra_tipus": 0.318266,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 140,
+      "teixit": "CM_Pelargonia",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.007631,
+      "z_intra_tipus": -0.888839,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 141,
+      "teixit": "CM_Pelargonia",
+      "volta": 29,
+      "tipus": "V1",
+      "dist_centroide": 0.102127,
+      "z_intra_tipus": 0.250136,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 142,
+      "teixit": "CM_Pelargonia",
+      "volta": 31,
+      "tipus": "V1",
+      "dist_centroide": 0.056528,
+      "z_intra_tipus": -0.279009,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 143,
+      "teixit": "CM_Pelargonia",
+      "volta": 33,
+      "tipus": "V1",
+      "dist_centroide": 0.021527,
+      "z_intra_tipus": -0.685173,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 144,
+      "teixit": "CM_Pelargonia",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.035175,
+      "z_intra_tipus": -0.385113,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 145,
+      "teixit": "CM_Pelargonia",
+      "volta": 37,
+      "tipus": "V0",
+      "dist_centroide": 0.019741,
+      "z_intra_tipus": -0.667375,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 146,
+      "teixit": "CM_Pelargonia",
+      "volta": 39,
+      "tipus": "V1",
+      "dist_centroide": 0.009345,
+      "z_intra_tipus": -0.826532,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 147,
+      "teixit": "CM_Pelargonia",
+      "volta": 41,
+      "tipus": "V1",
+      "dist_centroide": 0.01428,
+      "z_intra_tipus": -0.769267,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 148,
+      "teixit": "CM_Pelargonia",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.049307,
+      "z_intra_tipus": -0.126672,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 149,
+      "teixit": "CM_Pelargonia",
+      "volta": 45,
+      "tipus": "V1",
+      "dist_centroide": 0.151417,
+      "z_intra_tipus": 0.822111,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 150,
+      "teixit": "CM_Pelargonia",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.022645,
+      "z_intra_tipus": -0.614273,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 151,
+      "teixit": "CM_Pelargonia",
+      "volta": 49,
+      "tipus": "V1",
+      "dist_centroide": 0.007671,
+      "z_intra_tipus": -0.845964,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 152,
+      "teixit": "CM_Pelargonia",
+      "volta": 51,
+      "tipus": "V1",
+      "dist_centroide": 0.014857,
+      "z_intra_tipus": -0.762571,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 153,
+      "teixit": "CM_Pelargonia",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.0236,
+      "z_intra_tipus": -0.596795,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 154,
+      "teixit": "CM_Pelargonia",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.055855,
+      "z_intra_tipus": -0.006912,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 155,
+      "teixit": "CM_Pelargonia",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.003613,
+      "z_intra_tipus": -0.96232,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 156,
+      "teixit": "CM_Pelargonia",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.035175,
+      "z_intra_tipus": -0.385113,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 157,
+      "teixit": "CM_Pelargonia",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.042419,
+      "z_intra_tipus": -0.252639,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 158,
+      "teixit": "CM_Pelargonia",
+      "volta": 63,
+      "tipus": "V1",
+      "dist_centroide": 0.059193,
+      "z_intra_tipus": -0.248089,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 159,
+      "teixit": "CM_Pelargonia",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.05212,
+      "z_intra_tipus": -0.075229,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 160,
+      "teixit": "CM_Pelargonia",
+      "volta": 67,
+      "tipus": "V1",
+      "dist_centroide": 0.064288,
+      "z_intra_tipus": -0.188956,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 161,
+      "teixit": "CM_Pelargonia",
+      "volta": 69,
+      "tipus": "V1",
+      "dist_centroide": 0.021502,
+      "z_intra_tipus": -0.685456,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 162,
+      "teixit": "CM_Pelargonia",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.215586,
+      "z_intra_tipus": 2.914272,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 163,
+      "teixit": "CM_Pelargonia",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.019389,
+      "z_intra_tipus": -0.67381,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 164,
+      "teixit": "CM_Pelargonia",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.072933,
+      "z_intra_tipus": 0.305415,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 165,
+      "teixit": "CM_Pelargonia",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.072933,
+      "z_intra_tipus": 0.305415,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 166,
+      "teixit": "CM_Pelargonia",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.059006,
+      "z_intra_tipus": 0.050708,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 167,
+      "teixit": "CM_Gardenia",
+      "volta": 1,
+      "tipus": "V2",
+      "dist_centroide": 0.178238,
+      "z_intra_tipus": 3.828163,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 168,
+      "teixit": "CM_Gardenia",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.154115,
+      "z_intra_tipus": 0.853418,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 169,
+      "teixit": "CM_Gardenia",
+      "volta": 5,
+      "tipus": "V1",
+      "dist_centroide": 0.101098,
+      "z_intra_tipus": 0.238195,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 170,
+      "teixit": "CM_Gardenia",
+      "volta": 7,
+      "tipus": "V1",
+      "dist_centroide": 0.101098,
+      "z_intra_tipus": 0.238195,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 171,
+      "teixit": "CM_Gardenia",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.047374,
+      "z_intra_tipus": -0.162011,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 172,
+      "teixit": "CM_Gardenia",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.056528,
+      "z_intra_tipus": -0.279009,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 173,
+      "teixit": "CM_Gardenia",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.101098,
+      "z_intra_tipus": 0.238195,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 174,
+      "teixit": "CM_Gardenia",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.056203,
+      "z_intra_tipus": -0.000561,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 175,
+      "teixit": "CM_Gardenia",
+      "volta": 17,
+      "tipus": "V1",
+      "dist_centroide": 0.078619,
+      "z_intra_tipus": -0.022655,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 176,
+      "teixit": "CM_Gardenia",
+      "volta": 19,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 177,
+      "teixit": "CM_Gardenia",
+      "volta": 21,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 178,
+      "teixit": "CM_Gardenia",
+      "volta": 23,
+      "tipus": "V1",
+      "dist_centroide": 0.011448,
+      "z_intra_tipus": -0.802131,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 179,
+      "teixit": "CM_Gardenia",
+      "volta": 25,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 180,
+      "teixit": "CM_Gardenia",
+      "volta": 27,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 181,
+      "teixit": "CM_Gardenia",
+      "volta": 29,
+      "tipus": "V1",
+      "dist_centroide": 0.07956,
+      "z_intra_tipus": -0.011739,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 182,
+      "teixit": "CM_Gardenia",
+      "volta": 31,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 183,
+      "teixit": "CM_Gardenia",
+      "volta": 33,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 184,
+      "teixit": "CM_Gardenia",
+      "volta": 35,
+      "tipus": "V1",
+      "dist_centroide": 0.011448,
+      "z_intra_tipus": -0.802131,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 185,
+      "teixit": "CM_Gardenia",
+      "volta": 37,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 186,
+      "teixit": "CM_Gardenia",
+      "volta": 39,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 187,
+      "teixit": "CM_Gardenia",
+      "volta": 41,
+      "tipus": "V1",
+      "dist_centroide": 0.07956,
+      "z_intra_tipus": -0.011739,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 188,
+      "teixit": "CM_Gardenia",
+      "volta": 43,
+      "tipus": "V1",
+      "dist_centroide": 0.078619,
+      "z_intra_tipus": -0.022655,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 189,
+      "teixit": "CM_Gardenia",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.047266,
+      "z_intra_tipus": -0.164002,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 190,
+      "teixit": "CM_Gardenia",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.050435,
+      "z_intra_tipus": -0.106032,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 191,
+      "teixit": "CM_Gardenia",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.022984,
+      "z_intra_tipus": -0.608063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 192,
+      "teixit": "CM_Gardenia",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.008218,
+      "z_intra_tipus": -0.87811,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 193,
+      "teixit": "CM_Gardenia",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.022985,
+      "z_intra_tipus": -0.608044,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 194,
+      "teixit": "CM_Gardenia",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.05157,
+      "z_intra_tipus": -0.085274,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 195,
+      "teixit": "CM_Gardenia",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.133565,
+      "z_intra_tipus": 1.414249,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 196,
+      "teixit": "CM_Gardenia",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.023788,
+      "z_intra_tipus": -0.593361,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 197,
+      "teixit": "CM_Gardenia",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.037756,
+      "z_intra_tipus": -0.337918,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 198,
+      "teixit": "CM_Gardenia",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.044405,
+      "z_intra_tipus": -0.216322,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 199,
+      "teixit": "CM_Gardenia",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.028116,
+      "z_intra_tipus": -0.514213,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 200,
+      "teixit": "CM_Gardenia",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.008759,
+      "z_intra_tipus": -0.868212,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 201,
+      "teixit": "CM_Gardenia",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.010583,
+      "z_intra_tipus": -0.83486,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 202,
+      "teixit": "CM_Gardenia",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.038631,
+      "z_intra_tipus": -0.321904,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 203,
+      "teixit": "CM_Gardenia",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.008956,
+      "z_intra_tipus": -0.864619,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 204,
+      "teixit": "CM_Gardenia",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.022093,
+      "z_intra_tipus": -0.624369,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 205,
+      "teixit": "CM_Gardenia",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.00197,
+      "z_intra_tipus": -0.99238,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 206,
+      "teixit": "CM_Gardenia",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.062477,
+      "z_intra_tipus": 0.114196,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 207,
+      "teixit": "CM_Gardenia",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.102772,
+      "z_intra_tipus": 0.851113,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 208,
+      "teixit": "CM_Gardenia",
+      "volta": 89,
+      "tipus": "V0",
+      "dist_centroide": 0.014506,
+      "z_intra_tipus": -0.763115,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 209,
+      "teixit": "CM_Gardenia",
+      "volta": 91,
+      "tipus": "V0",
+      "dist_centroide": 0.007695,
+      "z_intra_tipus": -0.887678,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 210,
+      "teixit": "CM_Gardenia",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.049586,
+      "z_intra_tipus": -0.121564,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 211,
+      "teixit": "CM_Gardenia",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.224501,
+      "z_intra_tipus": 3.077309,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 212,
+      "teixit": "CM_Gardenia",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.014694,
+      "z_intra_tipus": -0.759668,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 213,
+      "teixit": "CM_Gardenia",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.224501,
+      "z_intra_tipus": 3.077309,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 214,
+      "teixit": "CM_Gardenia",
+      "volta": 101,
+      "tipus": "V0",
+      "dist_centroide": 0.014694,
+      "z_intra_tipus": -0.759668,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 215,
+      "teixit": "CM_Gardenia",
+      "volta": 103,
+      "tipus": "V0",
+      "dist_centroide": 0.057727,
+      "z_intra_tipus": 0.02732,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 216,
+      "teixit": "CM_Gardenia",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.119496,
+      "z_intra_tipus": 1.156957,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 217,
+      "teixit": "CM_Gardenia",
+      "volta": 107,
+      "tipus": "V2",
+      "dist_centroide": 0.06514,
+      "z_intra_tipus": 0.847353,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 218,
+      "teixit": "CM_Gardenia",
+      "volta": 109,
+      "tipus": "V0",
+      "dist_centroide": 0.127176,
+      "z_intra_tipus": 1.297417,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 219,
+      "teixit": "CM_Gardenia",
+      "volta": 111,
+      "tipus": "V0",
+      "dist_centroide": 0.152685,
+      "z_intra_tipus": 1.763922,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 220,
+      "teixit": "CM_Gardenia",
+      "volta": 113,
+      "tipus": "V0",
+      "dist_centroide": 0.086968,
+      "z_intra_tipus": 0.562082,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 221,
+      "teixit": "CM_Gardenia",
+      "volta": 115,
+      "tipus": "V1",
+      "dist_centroide": 0.132265,
+      "z_intra_tipus": 0.599861,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 222,
+      "teixit": "CM_Gardenia",
+      "volta": 117,
+      "tipus": "V0",
+      "dist_centroide": 0.080191,
+      "z_intra_tipus": 0.438153,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 223,
+      "teixit": "CM_Gardenia",
+      "volta": 119,
+      "tipus": "V0",
+      "dist_centroide": 0.06201,
+      "z_intra_tipus": 0.105648,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 224,
+      "teixit": "CM_Gardenia",
+      "volta": 121,
+      "tipus": "V0",
+      "dist_centroide": 0.069095,
+      "z_intra_tipus": 0.235211,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 225,
+      "teixit": "CM_Gardenia",
+      "volta": 123,
+      "tipus": "V0",
+      "dist_centroide": 0.118988,
+      "z_intra_tipus": 1.147663,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 226,
+      "teixit": "CM_Gardenia",
+      "volta": 125,
+      "tipus": "V0",
+      "dist_centroide": 0.043352,
+      "z_intra_tipus": -0.235566,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 227,
+      "teixit": "CM_Gardenia",
+      "volta": 127,
+      "tipus": "V1",
+      "dist_centroide": 0.036117,
+      "z_intra_tipus": -0.515864,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 228,
+      "teixit": "CM_Gardenia",
+      "volta": 129,
+      "tipus": "V0",
+      "dist_centroide": 0.00919,
+      "z_intra_tipus": -0.860333,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 229,
+      "teixit": "CM_Gardenia",
+      "volta": 131,
+      "tipus": "V1",
+      "dist_centroide": 0.018871,
+      "z_intra_tipus": -0.715989,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 230,
+      "teixit": "CM_Gardenia",
+      "volta": 133,
+      "tipus": "V0",
+      "dist_centroide": 0.078974,
+      "z_intra_tipus": 0.415883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 231,
+      "teixit": "CM_Gardenia",
+      "volta": 135,
+      "tipus": "V0",
+      "dist_centroide": 0.047266,
+      "z_intra_tipus": -0.164002,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 232,
+      "teixit": "CM_Gardenia",
+      "volta": 137,
+      "tipus": "V0",
+      "dist_centroide": 0.038814,
+      "z_intra_tipus": -0.318573,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 233,
+      "teixit": "CM_Gardenia",
+      "volta": 139,
+      "tipus": "V0",
+      "dist_centroide": 0.204849,
+      "z_intra_tipus": 2.717902,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 234,
+      "teixit": "CM_Gardenia",
+      "volta": 145,
+      "tipus": "V0",
+      "dist_centroide": 0.001185,
+      "z_intra_tipus": -1.006733,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 235,
+      "teixit": "CM_Gardenia",
+      "volta": 147,
+      "tipus": "V0",
+      "dist_centroide": 0.001185,
+      "z_intra_tipus": -1.006733,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 236,
+      "teixit": "CM_Gardenia",
+      "volta": 149,
+      "tipus": "V1",
+      "dist_centroide": 0.068829,
+      "z_intra_tipus": -0.136268,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 237,
+      "teixit": "CM_Gardenia",
+      "volta": 151,
+      "tipus": "V0",
+      "dist_centroide": 0.001185,
+      "z_intra_tipus": -1.006733,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 238,
+      "teixit": "CM_Gardenia",
+      "volta": 153,
+      "tipus": "V1",
+      "dist_centroide": 0.068829,
+      "z_intra_tipus": -0.136268,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 239,
+      "teixit": "CM_Gardenia",
+      "volta": 159,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 240,
+      "teixit": "CM_Gardenia",
+      "volta": 161,
+      "tipus": "V0",
+      "dist_centroide": 0.067643,
+      "z_intra_tipus": 0.208658,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 241,
+      "teixit": "CM_Gardenia",
+      "volta": 163,
+      "tipus": "V1",
+      "dist_centroide": 0.031011,
+      "z_intra_tipus": -0.575115,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 242,
+      "teixit": "CM_Gardenia",
+      "volta": 165,
+      "tipus": "V0",
+      "dist_centroide": 0.015266,
+      "z_intra_tipus": -0.749209,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 243,
+      "teixit": "CM_Gardenia",
+      "volta": 167,
+      "tipus": "V0",
+      "dist_centroide": 0.01835,
+      "z_intra_tipus": -0.692823,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 244,
+      "teixit": "CM_Gardenia",
+      "volta": 169,
+      "tipus": "V0",
+      "dist_centroide": 0.054253,
+      "z_intra_tipus": -0.036206,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 245,
+      "teixit": "CM_Gardenia",
+      "volta": 171,
+      "tipus": "V0",
+      "dist_centroide": 0.178559,
+      "z_intra_tipus": 2.237111,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 246,
+      "teixit": "CM_Gardenia",
+      "volta": 173,
+      "tipus": "V0",
+      "dist_centroide": 0.111518,
+      "z_intra_tipus": 1.011056,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 247,
+      "teixit": "CM_Gardenia",
+      "volta": 175,
+      "tipus": "V0",
+      "dist_centroide": 0.021355,
+      "z_intra_tipus": -0.637853,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 248,
+      "teixit": "CM_Gardenia",
+      "volta": 177,
+      "tipus": "V0",
+      "dist_centroide": 0.012098,
+      "z_intra_tipus": -0.807143,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 249,
+      "teixit": "CM_Gardenia",
+      "volta": 179,
+      "tipus": "V0",
+      "dist_centroide": 0.010683,
+      "z_intra_tipus": -0.83303,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 250,
+      "teixit": "CM_Gardenia",
+      "volta": 181,
+      "tipus": "V0",
+      "dist_centroide": 0.015457,
+      "z_intra_tipus": -0.745716,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 251,
+      "teixit": "CM_Gardenia",
+      "volta": 183,
+      "tipus": "V0",
+      "dist_centroide": 0.119487,
+      "z_intra_tipus": 1.156799,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 252,
+      "teixit": "CM_Gardenia",
+      "volta": 185,
+      "tipus": "V0",
+      "dist_centroide": 0.087488,
+      "z_intra_tipus": 0.571591,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 253,
+      "teixit": "CM_Gardenia",
+      "volta": 187,
+      "tipus": "V0",
+      "dist_centroide": 0.031075,
+      "z_intra_tipus": -0.46009,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 254,
+      "teixit": "CM_Gardenia",
+      "volta": 189,
+      "tipus": "V0",
+      "dist_centroide": 0.031075,
+      "z_intra_tipus": -0.46009,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 255,
+      "teixit": "CM_Gardenia",
+      "volta": 191,
+      "tipus": "V0",
+      "dist_centroide": 0.031075,
+      "z_intra_tipus": -0.46009,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 256,
+      "teixit": "CM_Gardenia",
+      "volta": 193,
+      "tipus": "V2",
+      "dist_centroide": 0.07708,
+      "z_intra_tipus": 1.162038,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 257,
+      "teixit": "CM_Gardenia",
+      "volta": 195,
+      "tipus": "V0",
+      "dist_centroide": 0.043378,
+      "z_intra_tipus": -0.235107,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 258,
+      "teixit": "CM_Gardenia",
+      "volta": 197,
+      "tipus": "V0",
+      "dist_centroide": 0.017095,
+      "z_intra_tipus": -0.715759,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 259,
+      "teixit": "CM_Gardenia",
+      "volta": 199,
+      "tipus": "V0",
+      "dist_centroide": 0.067125,
+      "z_intra_tipus": 0.199189,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 260,
+      "teixit": "CM_Gardenia",
+      "volta": 201,
+      "tipus": "V0",
+      "dist_centroide": 0.023302,
+      "z_intra_tipus": -0.602258,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 261,
+      "teixit": "CM_Gardenia",
+      "volta": 203,
+      "tipus": "V0",
+      "dist_centroide": 0.067125,
+      "z_intra_tipus": 0.199189,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 262,
+      "teixit": "CM_Gardenia",
+      "volta": 205,
+      "tipus": "V0",
+      "dist_centroide": 0.023302,
+      "z_intra_tipus": -0.602258,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 263,
+      "teixit": "CM_Gardenia",
+      "volta": 207,
+      "tipus": "V0",
+      "dist_centroide": 0.035056,
+      "z_intra_tipus": -0.387298,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 264,
+      "teixit": "CM_Gardenia",
+      "volta": 209,
+      "tipus": "V0",
+      "dist_centroide": 0.119496,
+      "z_intra_tipus": 1.156957,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 265,
+      "teixit": "CM_Gardenia",
+      "volta": 211,
+      "tipus": "V2",
+      "dist_centroide": 0.064648,
+      "z_intra_tipus": 0.834382,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 266,
+      "teixit": "CM_Gardenia",
+      "volta": 213,
+      "tipus": "V0",
+      "dist_centroide": 0.091905,
+      "z_intra_tipus": 0.652378,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 267,
+      "teixit": "CM_Gardenia",
+      "volta": 215,
+      "tipus": "V0",
+      "dist_centroide": 0.222085,
+      "z_intra_tipus": 3.033116,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 268,
+      "teixit": "CM_Gardenia",
+      "volta": 217,
+      "tipus": "V0",
+      "dist_centroide": 0.057508,
+      "z_intra_tipus": 0.023321,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 269,
+      "teixit": "CM_Gardenia",
+      "volta": 219,
+      "tipus": "V1",
+      "dist_centroide": 0.134641,
+      "z_intra_tipus": 0.627437,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 270,
+      "teixit": "CM_Gardenia",
+      "volta": 221,
+      "tipus": "V0",
+      "dist_centroide": 0.10756,
+      "z_intra_tipus": 0.938672,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 271,
+      "teixit": "CM_Gardenia",
+      "volta": 223,
+      "tipus": "V1",
+      "dist_centroide": 0.073108,
+      "z_intra_tipus": -0.086611,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 272,
+      "teixit": "CM_Gardenia",
+      "volta": 225,
+      "tipus": "V0",
+      "dist_centroide": 0.020796,
+      "z_intra_tipus": -0.648076,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 273,
+      "teixit": "CM_Gardenia",
+      "volta": 227,
+      "tipus": "V0",
+      "dist_centroide": 0.072086,
+      "z_intra_tipus": 0.289921,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 274,
+      "teixit": "CM_Gardenia",
+      "volta": 229,
+      "tipus": "V0",
+      "dist_centroide": 0.053822,
+      "z_intra_tipus": -0.044104,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 275,
+      "teixit": "CM_Gardenia",
+      "volta": 231,
+      "tipus": "V1",
+      "dist_centroide": 0.026958,
+      "z_intra_tipus": -0.622147,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 276,
+      "teixit": "CM_Gardenia",
+      "volta": 233,
+      "tipus": "V0",
+      "dist_centroide": 0.005425,
+      "z_intra_tipus": -0.929192,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 277,
+      "teixit": "CM_Gardenia",
+      "volta": 235,
+      "tipus": "V1",
+      "dist_centroide": 0.043883,
+      "z_intra_tipus": -0.425751,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 278,
+      "teixit": "CM_Gardenia",
+      "volta": 237,
+      "tipus": "V1",
+      "dist_centroide": 0.085267,
+      "z_intra_tipus": 0.054488,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 279,
+      "teixit": "CM_Gardenia",
+      "volta": 239,
+      "tipus": "V0",
+      "dist_centroide": 0.204849,
+      "z_intra_tipus": 2.717902,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 280,
+      "teixit": "CM_Gardenia",
+      "volta": 241,
+      "tipus": "V0",
+      "dist_centroide": 0.038814,
+      "z_intra_tipus": -0.318573,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 281,
+      "teixit": "CM_Gardenia",
+      "volta": 243,
+      "tipus": "V0",
+      "dist_centroide": 0.204849,
+      "z_intra_tipus": 2.717902,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 282,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 1,
+      "tipus": "V1",
+      "dist_centroide": 0.991193,
+      "z_intra_tipus": 10.5671,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 283,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 5,
+      "tipus": "V1",
+      "dist_centroide": 0.010148,
+      "z_intra_tipus": -0.817221,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 284,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.019309,
+      "z_intra_tipus": -0.675274,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 285,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 9,
+      "tipus": "V0",
+      "dist_centroide": 0.022984,
+      "z_intra_tipus": -0.608063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 286,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.162713,
+      "z_intra_tipus": 1.947319,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 287,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.141898,
+      "z_intra_tipus": 1.566643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 288,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.141898,
+      "z_intra_tipus": 1.566643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 289,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.141898,
+      "z_intra_tipus": 1.566643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 290,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.141898,
+      "z_intra_tipus": 1.566643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 291,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.141898,
+      "z_intra_tipus": 1.566643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 292,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.141898,
+      "z_intra_tipus": 1.566643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 293,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.141898,
+      "z_intra_tipus": 1.566643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 294,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.141898,
+      "z_intra_tipus": 1.566643,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 295,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.111003,
+      "z_intra_tipus": 1.00164,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 296,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.114178,
+      "z_intra_tipus": 1.059702,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 297,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.020692,
+      "z_intra_tipus": -0.649976,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 298,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.071205,
+      "z_intra_tipus": 0.273803,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 299,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 37,
+      "tipus": "V0",
+      "dist_centroide": 0.010615,
+      "z_intra_tipus": -0.834271,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 300,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 39,
+      "tipus": "V1",
+      "dist_centroide": 0.075411,
+      "z_intra_tipus": -0.059892,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 301,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 41,
+      "tipus": "V1",
+      "dist_centroide": 0.046958,
+      "z_intra_tipus": -0.390067,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 302,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.048676,
+      "z_intra_tipus": -0.138199,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 303,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.006374,
+      "z_intra_tipus": -0.911833,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 304,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 47,
+      "tipus": "V0",
+      "dist_centroide": 0.056296,
+      "z_intra_tipus": 0.001141,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 305,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.00531,
+      "z_intra_tipus": -0.931294,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 306,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.028612,
+      "z_intra_tipus": -0.50514,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 307,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.021355,
+      "z_intra_tipus": -0.637853,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 308,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.01139,
+      "z_intra_tipus": -0.820105,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 309,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.006438,
+      "z_intra_tipus": -0.910667,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 310,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.042015,
+      "z_intra_tipus": -0.260026,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 311,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.002871,
+      "z_intra_tipus": -0.975896,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 312,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.042015,
+      "z_intra_tipus": -0.260026,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 313,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.027046,
+      "z_intra_tipus": -0.533778,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 314,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.030155,
+      "z_intra_tipus": -0.476921,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 315,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.200282,
+      "z_intra_tipus": 2.634384,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 316,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 71,
+      "tipus": "V1",
+      "dist_centroide": 0.145823,
+      "z_intra_tipus": 0.757199,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 317,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.019232,
+      "z_intra_tipus": -0.676678,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 318,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.037346,
+      "z_intra_tipus": -0.345409,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 319,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.008355,
+      "z_intra_tipus": -0.875606,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 320,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.004414,
+      "z_intra_tipus": -0.947673,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 321,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.00493,
+      "z_intra_tipus": -0.938249,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 322,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.079161,
+      "z_intra_tipus": 0.419299,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 323,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 85,
+      "tipus": "V0",
+      "dist_centroide": 0.004839,
+      "z_intra_tipus": -0.939898,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 324,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.094703,
+      "z_intra_tipus": 0.703545,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 325,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 89,
+      "tipus": "V0",
+      "dist_centroide": 0.003643,
+      "z_intra_tipus": -0.961783,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 326,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 91,
+      "tipus": "V0",
+      "dist_centroide": 0.001449,
+      "z_intra_tipus": -1.001907,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 327,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.024103,
+      "z_intra_tipus": -0.587601,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 328,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 95,
+      "tipus": "V1",
+      "dist_centroide": 0.081131,
+      "z_intra_tipus": 0.006489,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 329,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.007341,
+      "z_intra_tipus": -0.894157,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 330,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 99,
+      "tipus": "V1",
+      "dist_centroide": 0.030302,
+      "z_intra_tipus": -0.583349,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 331,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 101,
+      "tipus": "V0",
+      "dist_centroide": 0.025481,
+      "z_intra_tipus": -0.562394,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 332,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 103,
+      "tipus": "V0",
+      "dist_centroide": 0.01761,
+      "z_intra_tipus": -0.70635,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 333,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.006033,
+      "z_intra_tipus": -0.918065,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 334,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 107,
+      "tipus": "V1",
+      "dist_centroide": 0.01682,
+      "z_intra_tipus": -0.739799,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 335,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 109,
+      "tipus": "V0",
+      "dist_centroide": 0.038814,
+      "z_intra_tipus": -0.318573,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 336,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 111,
+      "tipus": "V1",
+      "dist_centroide": 0.116748,
+      "z_intra_tipus": 0.419801,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 337,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 113,
+      "tipus": "V0",
+      "dist_centroide": 0.050526,
+      "z_intra_tipus": -0.104383,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 338,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 115,
+      "tipus": "V1",
+      "dist_centroide": 0.125283,
+      "z_intra_tipus": 0.518839,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 339,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 117,
+      "tipus": "V0",
+      "dist_centroide": 0.122177,
+      "z_intra_tipus": 1.205996,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 340,
+      "teixit": "CM_Hojas de Roble",
+      "volta": 119,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 341,
+      "teixit": "CM_Punto Angelines",
+      "volta": 1,
+      "tipus": "V1",
+      "dist_centroide": 0.128904,
+      "z_intra_tipus": 0.560857,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 342,
+      "teixit": "CM_Punto Angelines",
+      "volta": 2,
+      "tipus": "V2",
+      "dist_centroide": 0.002497,
+      "z_intra_tipus": -0.803653,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 343,
+      "teixit": "CM_Punto Angelines",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.162441,
+      "z_intra_tipus": 0.950034,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 344,
+      "teixit": "CM_Punto Angelines",
+      "volta": 4,
+      "tipus": "V2",
+      "dist_centroide": 0.010221,
+      "z_intra_tipus": -0.600095,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 345,
+      "teixit": "CM_Punto Angelines",
+      "volta": 1,
+      "tipus": "V1",
+      "dist_centroide": 0.128904,
+      "z_intra_tipus": 0.560857,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 346,
+      "teixit": "CM_Punto Angelines",
+      "volta": 2,
+      "tipus": "V2",
+      "dist_centroide": 0.002497,
+      "z_intra_tipus": -0.803653,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 347,
+      "teixit": "CM_Punto Angelines",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.162441,
+      "z_intra_tipus": 0.950034,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 348,
+      "teixit": "CM_Punto Angelines",
+      "volta": 4,
+      "tipus": "V2",
+      "dist_centroide": 0.010221,
+      "z_intra_tipus": -0.600095,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 349,
+      "teixit": "CM_Punto Angelines",
+      "volta": 1,
+      "tipus": "V1",
+      "dist_centroide": 0.128904,
+      "z_intra_tipus": 0.560857,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 350,
+      "teixit": "CM_Punto Angelines",
+      "volta": 2,
+      "tipus": "V2",
+      "dist_centroide": 0.002497,
+      "z_intra_tipus": -0.803653,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 351,
+      "teixit": "CM_Punto Angelines",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.162441,
+      "z_intra_tipus": 0.950034,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 352,
+      "teixit": "CM_Punto Angelines",
+      "volta": 4,
+      "tipus": "V2",
+      "dist_centroide": 0.010221,
+      "z_intra_tipus": -0.600095,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 353,
+      "teixit": "CM_Punto Angelines",
+      "volta": 1,
+      "tipus": "V1",
+      "dist_centroide": 0.128904,
+      "z_intra_tipus": 0.560857,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 354,
+      "teixit": "CM_Punto Angelines",
+      "volta": 2,
+      "tipus": "V2",
+      "dist_centroide": 0.002497,
+      "z_intra_tipus": -0.803653,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 355,
+      "teixit": "CM_Punto Angelines",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.162441,
+      "z_intra_tipus": 0.950034,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 356,
+      "teixit": "CM_Punto Angelines",
+      "volta": 16,
+      "tipus": "V2",
+      "dist_centroide": 0.010221,
+      "z_intra_tipus": -0.600095,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 357,
+      "teixit": "CM_Punto Angelines",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.065705,
+      "z_intra_tipus": 0.862239,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 358,
+      "teixit": "CM_Punto Angelines",
+      "volta": 18,
+      "tipus": "V2",
+      "dist_centroide": 0.009875,
+      "z_intra_tipus": -0.609203,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 359,
+      "teixit": "CM_Punto Angelines",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.03044,
+      "z_intra_tipus": -0.067201,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 360,
+      "teixit": "CM_Punto Angelines",
+      "volta": 16,
+      "tipus": "V2",
+      "dist_centroide": 0.010221,
+      "z_intra_tipus": -0.600095,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 361,
+      "teixit": "CM_Punto Angelines",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.065705,
+      "z_intra_tipus": 0.862239,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 362,
+      "teixit": "CM_Punto Angelines",
+      "volta": 18,
+      "tipus": "V2",
+      "dist_centroide": 0.009875,
+      "z_intra_tipus": -0.609203,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 363,
+      "teixit": "CM_Punto Angelines",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.03044,
+      "z_intra_tipus": -0.067201,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 364,
+      "teixit": "CM_Punto Angelines",
+      "volta": 16,
+      "tipus": "V2",
+      "dist_centroide": 0.010221,
+      "z_intra_tipus": -0.600095,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 365,
+      "teixit": "CM_Punto Angelines",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.065705,
+      "z_intra_tipus": 0.862239,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 366,
+      "teixit": "CM_Punto Angelines",
+      "volta": 18,
+      "tipus": "V2",
+      "dist_centroide": 0.009875,
+      "z_intra_tipus": -0.609203,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 367,
+      "teixit": "CM_Punto Angelines",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.03044,
+      "z_intra_tipus": -0.067201,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 368,
+      "teixit": "CM_Punto Angelines",
+      "volta": 16,
+      "tipus": "V2",
+      "dist_centroide": 0.010221,
+      "z_intra_tipus": -0.600095,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 369,
+      "teixit": "CM_Punto Angelines",
+      "volta": 17,
+      "tipus": "V2",
+      "dist_centroide": 0.065705,
+      "z_intra_tipus": 0.862239,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 370,
+      "teixit": "CM_Punto Angelines",
+      "volta": 18,
+      "tipus": "V2",
+      "dist_centroide": 0.009875,
+      "z_intra_tipus": -0.609203,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 371,
+      "teixit": "CM_Punto Angelines",
+      "volta": 19,
+      "tipus": "V2",
+      "dist_centroide": 0.03044,
+      "z_intra_tipus": -0.067201,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 372,
+      "teixit": "CM_Pepita",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 373,
+      "teixit": "CM_Pepita",
+      "volta": 9,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 374,
+      "teixit": "CM_Pepita",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.174128,
+      "z_intra_tipus": 1.085655,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 375,
+      "teixit": "CM_Pepita",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.174128,
+      "z_intra_tipus": 1.085655,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 376,
+      "teixit": "CM_Pepita",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.019309,
+      "z_intra_tipus": -0.675274,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 377,
+      "teixit": "CM_Pepita",
+      "volta": 17,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 378,
+      "teixit": "CM_Pepita",
+      "volta": 19,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 379,
+      "teixit": "CM_Pepita",
+      "volta": 21,
+      "tipus": "V1",
+      "dist_centroide": 0.193836,
+      "z_intra_tipus": 1.314347,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 380,
+      "teixit": "CM_Pepita",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.027713,
+      "z_intra_tipus": -0.521578,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 381,
+      "teixit": "CM_Pepita",
+      "volta": 25,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 382,
+      "teixit": "CM_Pepita",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.025314,
+      "z_intra_tipus": -0.565451,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 383,
+      "teixit": "CM_Pepita",
+      "volta": 29,
+      "tipus": "V1",
+      "dist_centroide": 0.034184,
+      "z_intra_tipus": -0.538295,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 384,
+      "teixit": "CM_Pepita",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.025314,
+      "z_intra_tipus": -0.565451,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 385,
+      "teixit": "CM_Pepita",
+      "volta": 33,
+      "tipus": "V1",
+      "dist_centroide": 0.074503,
+      "z_intra_tipus": -0.070418,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 386,
+      "teixit": "CM_Pepita",
+      "volta": 35,
+      "tipus": "V1",
+      "dist_centroide": 0.045038,
+      "z_intra_tipus": -0.412344,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 387,
+      "teixit": "CM_Pepita",
+      "volta": 37,
+      "tipus": "V1",
+      "dist_centroide": 0.034207,
+      "z_intra_tipus": -0.538032,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 388,
+      "teixit": "CM_Pepita",
+      "volta": 39,
+      "tipus": "V1",
+      "dist_centroide": 0.022516,
+      "z_intra_tipus": -0.673691,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 389,
+      "teixit": "CM_Pepita",
+      "volta": 41,
+      "tipus": "V0",
+      "dist_centroide": 0.026631,
+      "z_intra_tipus": -0.541367,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 390,
+      "teixit": "CM_Pepita",
+      "volta": 43,
+      "tipus": "V0",
+      "dist_centroide": 0.020039,
+      "z_intra_tipus": -0.661922,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 391,
+      "teixit": "CM_Pepita",
+      "volta": 45,
+      "tipus": "V0",
+      "dist_centroide": 0.037559,
+      "z_intra_tipus": -0.341522,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 392,
+      "teixit": "CM_Pepita",
+      "volta": 47,
+      "tipus": "V1",
+      "dist_centroide": 0.033545,
+      "z_intra_tipus": -0.545715,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 393,
+      "teixit": "CM_Pepita",
+      "volta": 49,
+      "tipus": "V1",
+      "dist_centroide": 0.033545,
+      "z_intra_tipus": -0.545715,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 394,
+      "teixit": "CM_Pepita",
+      "volta": 51,
+      "tipus": "V1",
+      "dist_centroide": 0.034434,
+      "z_intra_tipus": -0.535393,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 395,
+      "teixit": "CM_Pepita",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.037559,
+      "z_intra_tipus": -0.341522,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 396,
+      "teixit": "CM_Pepita",
+      "volta": 55,
+      "tipus": "V1",
+      "dist_centroide": 0.00278,
+      "z_intra_tipus": -0.902714,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 397,
+      "teixit": "CM_Pepita",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.044748,
+      "z_intra_tipus": -0.210042,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 398,
+      "teixit": "CM_Pepita",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.001185,
+      "z_intra_tipus": -1.006733,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 399,
+      "teixit": "CM_Pepita",
+      "volta": 61,
+      "tipus": "V0",
+      "dist_centroide": 0.037559,
+      "z_intra_tipus": -0.341522,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 400,
+      "teixit": "CM_Pepita",
+      "volta": 63,
+      "tipus": "V0",
+      "dist_centroide": 0.077534,
+      "z_intra_tipus": 0.389556,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 401,
+      "teixit": "CM_Pepita",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.00521,
+      "z_intra_tipus": -0.933114,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 402,
+      "teixit": "CM_Pepita",
+      "volta": 67,
+      "tipus": "V1",
+      "dist_centroide": 0.061092,
+      "z_intra_tipus": -0.226048,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 403,
+      "teixit": "CM_Pepita",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.004026,
+      "z_intra_tipus": -0.954777,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 404,
+      "teixit": "CM_Pepita",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.128998,
+      "z_intra_tipus": 1.330725,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 405,
+      "teixit": "CM_Pepita",
+      "volta": 73,
+      "tipus": "V0",
+      "dist_centroide": 0.122649,
+      "z_intra_tipus": 1.214631,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 406,
+      "teixit": "CM_Pepita",
+      "volta": 75,
+      "tipus": "V0",
+      "dist_centroide": 0.008194,
+      "z_intra_tipus": -0.878547,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 407,
+      "teixit": "CM_Pepita",
+      "volta": 77,
+      "tipus": "V0",
+      "dist_centroide": 0.007631,
+      "z_intra_tipus": -0.888839,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 408,
+      "teixit": "CM_Pepita",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.009862,
+      "z_intra_tipus": -0.848043,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 409,
+      "teixit": "CM_Pepita",
+      "volta": 81,
+      "tipus": "V0",
+      "dist_centroide": 0.00521,
+      "z_intra_tipus": -0.933114,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 410,
+      "teixit": "CM_Pepita",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.02712,
+      "z_intra_tipus": -0.532435,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 411,
+      "teixit": "CM_Pepita",
+      "volta": 85,
+      "tipus": "V1",
+      "dist_centroide": 0.042204,
+      "z_intra_tipus": -0.44523,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 412,
+      "teixit": "CM_Pepita",
+      "volta": 87,
+      "tipus": "V1",
+      "dist_centroide": 0.047714,
+      "z_intra_tipus": -0.381291,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 413,
+      "teixit": "CM_Pepita",
+      "volta": 89,
+      "tipus": "V1",
+      "dist_centroide": 0.006325,
+      "z_intra_tipus": -0.861578,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 414,
+      "teixit": "CM_Pepita",
+      "volta": 91,
+      "tipus": "V0",
+      "dist_centroide": 0.004087,
+      "z_intra_tipus": -0.953659,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 415,
+      "teixit": "CM_Pepita",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.105396,
+      "z_intra_tipus": 0.899089,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 416,
+      "teixit": "CM_Pepita",
+      "volta": 95,
+      "tipus": "V0",
+      "dist_centroide": 0.072933,
+      "z_intra_tipus": 0.305415,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 417,
+      "teixit": "CM_Pepita",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.072933,
+      "z_intra_tipus": 0.305415,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 418,
+      "teixit": "CM_Pepita",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.059006,
+      "z_intra_tipus": 0.050708,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 419,
+      "teixit": "CM_Pepita",
+      "volta": 101,
+      "tipus": "V0",
+      "dist_centroide": 0.030168,
+      "z_intra_tipus": -0.476693,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 420,
+      "teixit": "CM_Pepita",
+      "volta": 103,
+      "tipus": "V1",
+      "dist_centroide": 0.161895,
+      "z_intra_tipus": 0.943701,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 421,
+      "teixit": "CM_Pepita",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.018133,
+      "z_intra_tipus": -0.69679,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 422,
+      "teixit": "CM_Pepita",
+      "volta": 107,
+      "tipus": "V1",
+      "dist_centroide": 0.025269,
+      "z_intra_tipus": -0.641746,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 423,
+      "teixit": "CM_Pepita",
+      "volta": 109,
+      "tipus": "V1",
+      "dist_centroide": 0.029375,
+      "z_intra_tipus": -0.594099,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 424,
+      "teixit": "CM_Pepita",
+      "volta": 111,
+      "tipus": "V1",
+      "dist_centroide": 0.019693,
+      "z_intra_tipus": -0.706449,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 425,
+      "teixit": "CM_Pepita",
+      "volta": 113,
+      "tipus": "V1",
+      "dist_centroide": 0.085523,
+      "z_intra_tipus": 0.05746,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 426,
+      "teixit": "CM_Pepita",
+      "volta": 115,
+      "tipus": "V1",
+      "dist_centroide": 0.110981,
+      "z_intra_tipus": 0.352875,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 427,
+      "teixit": "CM_Pepita",
+      "volta": 117,
+      "tipus": "V1",
+      "dist_centroide": 0.010148,
+      "z_intra_tipus": -0.817221,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 428,
+      "teixit": "CM_Pepita",
+      "volta": 119,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 429,
+      "teixit": "CM_Pepita",
+      "volta": 121,
+      "tipus": "V1",
+      "dist_centroide": 0.058692,
+      "z_intra_tipus": -0.253902,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 430,
+      "teixit": "CM_Pepita",
+      "volta": 123,
+      "tipus": "V0",
+      "dist_centroide": 0.019309,
+      "z_intra_tipus": -0.675274,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 431,
+      "teixit": "CM_Pepita",
+      "volta": 125,
+      "tipus": "V0",
+      "dist_centroide": 0.053822,
+      "z_intra_tipus": -0.044104,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 432,
+      "teixit": "CM_Pepita",
+      "volta": 127,
+      "tipus": "V0",
+      "dist_centroide": 0.007642,
+      "z_intra_tipus": -0.888636,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 433,
+      "teixit": "CM_Pepita",
+      "volta": 129,
+      "tipus": "V0",
+      "dist_centroide": 0.028086,
+      "z_intra_tipus": -0.514769,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 434,
+      "teixit": "CM_Pepita",
+      "volta": 131,
+      "tipus": "V0",
+      "dist_centroide": 0.093227,
+      "z_intra_tipus": 0.676541,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 435,
+      "teixit": "CM_Pepita",
+      "volta": 133,
+      "tipus": "V1",
+      "dist_centroide": 0.067235,
+      "z_intra_tipus": -0.154769,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 436,
+      "teixit": "CM_Copas de champán",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.576774,
+      "z_intra_tipus": 5.758071,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 437,
+      "teixit": "CM_Copas de champán",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 438,
+      "teixit": "CM_Copas de champán",
+      "volta": 7,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 439,
+      "teixit": "CM_Copas de champán",
+      "volta": 9,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 440,
+      "teixit": "CM_Copas de champán",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.174128,
+      "z_intra_tipus": 1.085655,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 441,
+      "teixit": "CM_Copas de champán",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.174128,
+      "z_intra_tipus": 1.085655,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 442,
+      "teixit": "CM_Copas de champán",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.019309,
+      "z_intra_tipus": -0.675274,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 443,
+      "teixit": "CM_Copas de champán",
+      "volta": 17,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 444,
+      "teixit": "CM_Copas de champán",
+      "volta": 19,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 445,
+      "teixit": "CM_Copas de champán",
+      "volta": 21,
+      "tipus": "V1",
+      "dist_centroide": 0.017277,
+      "z_intra_tipus": -0.734493,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 446,
+      "teixit": "CM_Copas de champán",
+      "volta": 23,
+      "tipus": "V0",
+      "dist_centroide": 0.015266,
+      "z_intra_tipus": -0.749209,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 447,
+      "teixit": "CM_Copas de champán",
+      "volta": 25,
+      "tipus": "V0",
+      "dist_centroide": 0.017773,
+      "z_intra_tipus": -0.703369,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 448,
+      "teixit": "CM_Copas de champán",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.019309,
+      "z_intra_tipus": -0.675274,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 449,
+      "teixit": "CM_Copas de champán",
+      "volta": 29,
+      "tipus": "V0",
+      "dist_centroide": 0.038631,
+      "z_intra_tipus": -0.321904,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 450,
+      "teixit": "CM_Copas de champán",
+      "volta": 31,
+      "tipus": "V0",
+      "dist_centroide": 0.010955,
+      "z_intra_tipus": -0.828061,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 451,
+      "teixit": "CM_Copas de champán",
+      "volta": 33,
+      "tipus": "V1",
+      "dist_centroide": 0.036231,
+      "z_intra_tipus": -0.514543,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 452,
+      "teixit": "CM_Copas de champán",
+      "volta": 35,
+      "tipus": "V1",
+      "dist_centroide": 0.053383,
+      "z_intra_tipus": -0.315506,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 453,
+      "teixit": "CM_Copas de champán",
+      "volta": 37,
+      "tipus": "V1",
+      "dist_centroide": 0.006358,
+      "z_intra_tipus": -0.861194,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 454,
+      "teixit": "CM_Copas de champán",
+      "volta": 39,
+      "tipus": "V0",
+      "dist_centroide": 0.048676,
+      "z_intra_tipus": -0.138199,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 455,
+      "teixit": "CM_Copas de champán",
+      "volta": 41,
+      "tipus": "V1",
+      "dist_centroide": 0.006148,
+      "z_intra_tipus": -0.863634,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 456,
+      "teixit": "CM_Copas de champán",
+      "volta": 43,
+      "tipus": "V1",
+      "dist_centroide": 0.009399,
+      "z_intra_tipus": -0.825909,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 457,
+      "teixit": "CM_Copas de champán",
+      "volta": 45,
+      "tipus": "V1",
+      "dist_centroide": 0.009325,
+      "z_intra_tipus": -0.826764,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 458,
+      "teixit": "CM_Copas de champán",
+      "volta": 47,
+      "tipus": "V1",
+      "dist_centroide": 0.017783,
+      "z_intra_tipus": -0.728615,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 459,
+      "teixit": "CM_Copas de champán",
+      "volta": 49,
+      "tipus": "V0",
+      "dist_centroide": 0.011421,
+      "z_intra_tipus": -0.819525,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 460,
+      "teixit": "CM_Copas de champán",
+      "volta": 51,
+      "tipus": "V1",
+      "dist_centroide": 0.045464,
+      "z_intra_tipus": -0.407401,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 461,
+      "teixit": "CM_Copas de champán",
+      "volta": 53,
+      "tipus": "V1",
+      "dist_centroide": 0.005938,
+      "z_intra_tipus": -0.866072,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 462,
+      "teixit": "CM_Copas de champán",
+      "volta": 55,
+      "tipus": "V1",
+      "dist_centroide": 0.045913,
+      "z_intra_tipus": -0.402186,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 463,
+      "teixit": "CM_Copas de champán",
+      "volta": 57,
+      "tipus": "V1",
+      "dist_centroide": 0.018651,
+      "z_intra_tipus": -0.718551,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 464,
+      "teixit": "CM_Copas de champán",
+      "volta": 59,
+      "tipus": "V0",
+      "dist_centroide": 0.068874,
+      "z_intra_tipus": 0.231169,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 465,
+      "teixit": "CM_Copas de champán",
+      "volta": 61,
+      "tipus": "V1",
+      "dist_centroide": 0.052585,
+      "z_intra_tipus": -0.324762,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 466,
+      "teixit": "CM_Copas de champán",
+      "volta": 63,
+      "tipus": "V1",
+      "dist_centroide": 0.03826,
+      "z_intra_tipus": -0.490995,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 467,
+      "teixit": "CM_Copas de champán",
+      "volta": 65,
+      "tipus": "V1",
+      "dist_centroide": 0.050604,
+      "z_intra_tipus": -0.347748,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 468,
+      "teixit": "CM_Copas de champán",
+      "volta": 67,
+      "tipus": "V0",
+      "dist_centroide": 0.076348,
+      "z_intra_tipus": 0.367867,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 469,
+      "teixit": "CM_Copas de champán",
+      "volta": 69,
+      "tipus": "V1",
+      "dist_centroide": 0.012341,
+      "z_intra_tipus": -0.791772,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 470,
+      "teixit": "CM_Copas de champán",
+      "volta": 71,
+      "tipus": "V1",
+      "dist_centroide": 0.04463,
+      "z_intra_tipus": -0.417075,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 471,
+      "teixit": "CM_Copas de champán",
+      "volta": 73,
+      "tipus": "V1",
+      "dist_centroide": 0.038279,
+      "z_intra_tipus": -0.49078,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 472,
+      "teixit": "CM_Copas de champán",
+      "volta": 75,
+      "tipus": "V1",
+      "dist_centroide": 0.055741,
+      "z_intra_tipus": -0.288141,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 473,
+      "teixit": "CM_Copas de champán",
+      "volta": 77,
+      "tipus": "V1",
+      "dist_centroide": 0.065684,
+      "z_intra_tipus": -0.172756,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 474,
+      "teixit": "CM_Copas de champán",
+      "volta": 79,
+      "tipus": "V0",
+      "dist_centroide": 0.08139,
+      "z_intra_tipus": 0.460071,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 475,
+      "teixit": "CM_Copas de champán",
+      "volta": 81,
+      "tipus": "V1",
+      "dist_centroide": 0.060839,
+      "z_intra_tipus": -0.228979,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 476,
+      "teixit": "CM_Copas de champán",
+      "volta": 83,
+      "tipus": "V0",
+      "dist_centroide": 0.08139,
+      "z_intra_tipus": 0.460071,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 477,
+      "teixit": "CM_Copas de champán",
+      "volta": 85,
+      "tipus": "V1",
+      "dist_centroide": 0.051218,
+      "z_intra_tipus": -0.34063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 478,
+      "teixit": "CM_Copas de champán",
+      "volta": 87,
+      "tipus": "V0",
+      "dist_centroide": 0.076348,
+      "z_intra_tipus": 0.367867,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 479,
+      "teixit": "CM_Copas de champán",
+      "volta": 89,
+      "tipus": "V1",
+      "dist_centroide": 0.056196,
+      "z_intra_tipus": -0.282867,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 480,
+      "teixit": "CM_Copas de champán",
+      "volta": 91,
+      "tipus": "V1",
+      "dist_centroide": 0.044964,
+      "z_intra_tipus": -0.413198,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 481,
+      "teixit": "CM_Copas de champán",
+      "volta": 93,
+      "tipus": "V1",
+      "dist_centroide": 0.014857,
+      "z_intra_tipus": -0.762571,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 482,
+      "teixit": "CM_Copas de champán",
+      "volta": 95,
+      "tipus": "V1",
+      "dist_centroide": 0.06265,
+      "z_intra_tipus": -0.207971,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 483,
+      "teixit": "CM_Copas de champán",
+      "volta": 97,
+      "tipus": "V0",
+      "dist_centroide": 0.094055,
+      "z_intra_tipus": 0.691698,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 484,
+      "teixit": "CM_Copas de champán",
+      "volta": 99,
+      "tipus": "V0",
+      "dist_centroide": 0.030922,
+      "z_intra_tipus": -0.462896,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 485,
+      "teixit": "CM_Copas de champán",
+      "volta": 101,
+      "tipus": "V1",
+      "dist_centroide": 0.083407,
+      "z_intra_tipus": 0.032898,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 486,
+      "teixit": "CM_Copas de champán",
+      "volta": 103,
+      "tipus": "V1",
+      "dist_centroide": 0.040655,
+      "z_intra_tipus": -0.463211,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 487,
+      "teixit": "CM_Copas de champán",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.022064,
+      "z_intra_tipus": -0.624887,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 488,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 1,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 489,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 490,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 5,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 491,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 7,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 492,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 9,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 493,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 11,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 494,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 13,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 495,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 15,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 496,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 17,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 497,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 19,
+      "tipus": "V1",
+      "dist_centroide": 0.096849,
+      "z_intra_tipus": 0.188883,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 498,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 21,
+      "tipus": "V0",
+      "dist_centroide": 0.072288,
+      "z_intra_tipus": 0.293607,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 499,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 23,
+      "tipus": "V1",
+      "dist_centroide": 0.125766,
+      "z_intra_tipus": 0.524446,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 500,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 25,
+      "tipus": "V1",
+      "dist_centroide": 0.125766,
+      "z_intra_tipus": 0.524446,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 501,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 27,
+      "tipus": "V0",
+      "dist_centroide": 0.010955,
+      "z_intra_tipus": -0.828061,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 502,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 29,
+      "tipus": "V1",
+      "dist_centroide": 0.010148,
+      "z_intra_tipus": -0.817221,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 503,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 31,
+      "tipus": "V1",
+      "dist_centroide": 0.174128,
+      "z_intra_tipus": 1.085655,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 504,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 33,
+      "tipus": "V1",
+      "dist_centroide": 0.196362,
+      "z_intra_tipus": 1.343662,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 505,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 35,
+      "tipus": "V1",
+      "dist_centroide": 0.050714,
+      "z_intra_tipus": -0.346482,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 506,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 37,
+      "tipus": "V1",
+      "dist_centroide": 0.015907,
+      "z_intra_tipus": -0.750393,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 507,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 39,
+      "tipus": "V0",
+      "dist_centroide": 0.008218,
+      "z_intra_tipus": -0.87811,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 508,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 41,
+      "tipus": "V1",
+      "dist_centroide": 0.061455,
+      "z_intra_tipus": -0.221834,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 509,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 43,
+      "tipus": "V1",
+      "dist_centroide": 0.045464,
+      "z_intra_tipus": -0.407401,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 510,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 45,
+      "tipus": "V1",
+      "dist_centroide": 0.017619,
+      "z_intra_tipus": -0.730522,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 511,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 47,
+      "tipus": "V1",
+      "dist_centroide": 0.179006,
+      "z_intra_tipus": 1.142256,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 512,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 49,
+      "tipus": "V1",
+      "dist_centroide": 0.125766,
+      "z_intra_tipus": 0.524446,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 513,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.12113,
+      "z_intra_tipus": 1.186849,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 514,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.12113,
+      "z_intra_tipus": 1.186849,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 515,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 55,
+      "tipus": "V1",
+      "dist_centroide": 0.135495,
+      "z_intra_tipus": 0.637342,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 516,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.129853,
+      "z_intra_tipus": 1.346364,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 517,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 59,
+      "tipus": "V1",
+      "dist_centroide": 0.18602,
+      "z_intra_tipus": 1.223648,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 518,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 61,
+      "tipus": "V1",
+      "dist_centroide": 0.1248,
+      "z_intra_tipus": 0.513236,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 519,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 51,
+      "tipus": "V0",
+      "dist_centroide": 0.12113,
+      "z_intra_tipus": 1.186849,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 520,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.12113,
+      "z_intra_tipus": 1.186849,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 521,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 55,
+      "tipus": "V1",
+      "dist_centroide": 0.135495,
+      "z_intra_tipus": 0.637342,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 522,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.129853,
+      "z_intra_tipus": 1.346364,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 523,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 59,
+      "tipus": "V1",
+      "dist_centroide": 0.18602,
+      "z_intra_tipus": 1.223648,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 524,
+      "teixit": "CM_Hojas y cactus",
+      "volta": 61,
+      "tipus": "V1",
+      "dist_centroide": 0.1248,
+      "z_intra_tipus": 0.513236,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 525,
+      "teixit": "CM_Abouchete",
+      "volta": 1,
+      "tipus": "V1",
+      "dist_centroide": 0.104943,
+      "z_intra_tipus": 0.282815,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 526,
+      "teixit": "CM_Abouchete",
+      "volta": 3,
+      "tipus": "V1",
+      "dist_centroide": 0.576774,
+      "z_intra_tipus": 5.758071,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 527,
+      "teixit": "CM_Abouchete",
+      "volta": 5,
+      "tipus": "V0",
+      "dist_centroide": 0.455088,
+      "z_intra_tipus": 7.294311,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 528,
+      "teixit": "CM_Abouchete",
+      "volta": 7,
+      "tipus": "V0",
+      "dist_centroide": 0.076059,
+      "z_intra_tipus": 0.362569,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 529,
+      "teixit": "CM_Abouchete",
+      "volta": 9,
+      "tipus": "V1",
+      "dist_centroide": 0.046866,
+      "z_intra_tipus": -0.391127,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 530,
+      "teixit": "CM_Abouchete",
+      "volta": 11,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 531,
+      "teixit": "CM_Abouchete",
+      "volta": 13,
+      "tipus": "V0",
+      "dist_centroide": 0.055851,
+      "z_intra_tipus": -0.006983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 532,
+      "teixit": "CM_Abouchete",
+      "volta": 15,
+      "tipus": "V0",
+      "dist_centroide": 0.017571,
+      "z_intra_tipus": -0.707057,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 533,
+      "teixit": "CM_Abouchete",
+      "volta": 17,
+      "tipus": "V0",
+      "dist_centroide": 0.071466,
+      "z_intra_tipus": 0.278585,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 534,
+      "teixit": "CM_Abouchete",
+      "volta": 19,
+      "tipus": "V0",
+      "dist_centroide": 0.043323,
+      "z_intra_tipus": -0.236097,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 535,
+      "teixit": "CM_Abouchete",
+      "volta": 21,
+      "tipus": "V1",
+      "dist_centroide": 0.00582,
+      "z_intra_tipus": -0.867439,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 536,
+      "teixit": "CM_Abouchete",
+      "volta": 23,
+      "tipus": "V1",
+      "dist_centroide": 0.054435,
+      "z_intra_tipus": -0.303296,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 537,
+      "teixit": "CM_Abouchete",
+      "volta": 25,
+      "tipus": "V1",
+      "dist_centroide": 0.028288,
+      "z_intra_tipus": -0.606716,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 538,
+      "teixit": "CM_Abouchete",
+      "volta": 27,
+      "tipus": "V1",
+      "dist_centroide": 0.008097,
+      "z_intra_tipus": -0.841017,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 539,
+      "teixit": "CM_Abouchete",
+      "volta": 29,
+      "tipus": "V1",
+      "dist_centroide": 0.008097,
+      "z_intra_tipus": -0.841017,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 540,
+      "teixit": "CM_Abouchete",
+      "volta": 31,
+      "tipus": "V1",
+      "dist_centroide": 0.039343,
+      "z_intra_tipus": -0.478429,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 541,
+      "teixit": "CM_Abouchete",
+      "volta": 33,
+      "tipus": "V0",
+      "dist_centroide": 0.165995,
+      "z_intra_tipus": 2.007335,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 542,
+      "teixit": "CM_Abouchete",
+      "volta": 35,
+      "tipus": "V0",
+      "dist_centroide": 0.006125,
+      "z_intra_tipus": -0.916392,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 543,
+      "teixit": "CM_Abouchete",
+      "volta": 37,
+      "tipus": "V1",
+      "dist_centroide": 0.042602,
+      "z_intra_tipus": -0.440606,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 544,
+      "teixit": "CM_Abouchete",
+      "volta": 39,
+      "tipus": "V1",
+      "dist_centroide": 0.048135,
+      "z_intra_tipus": -0.376406,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 545,
+      "teixit": "CM_Abouchete",
+      "volta": 41,
+      "tipus": "V1",
+      "dist_centroide": 0.057919,
+      "z_intra_tipus": -0.262874,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 546,
+      "teixit": "CM_Abouchete",
+      "volta": 43,
+      "tipus": "V1",
+      "dist_centroide": 0.011448,
+      "z_intra_tipus": -0.802131,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 547,
+      "teixit": "CM_Abouchete",
+      "volta": 45,
+      "tipus": "V1",
+      "dist_centroide": 0.011448,
+      "z_intra_tipus": -0.802131,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 548,
+      "teixit": "CM_Abouchete",
+      "volta": 47,
+      "tipus": "V1",
+      "dist_centroide": 0.020923,
+      "z_intra_tipus": -0.692183,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 549,
+      "teixit": "CM_Abouchete",
+      "volta": 49,
+      "tipus": "V1",
+      "dist_centroide": 0.020978,
+      "z_intra_tipus": -0.691543,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 550,
+      "teixit": "CM_Abouchete",
+      "volta": 51,
+      "tipus": "V1",
+      "dist_centroide": 0.055805,
+      "z_intra_tipus": -0.2874,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 551,
+      "teixit": "CM_Abouchete",
+      "volta": 53,
+      "tipus": "V0",
+      "dist_centroide": 0.015611,
+      "z_intra_tipus": -0.742906,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 552,
+      "teixit": "CM_Abouchete",
+      "volta": 55,
+      "tipus": "V0",
+      "dist_centroide": 0.002328,
+      "z_intra_tipus": -0.985819,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 553,
+      "teixit": "CM_Abouchete",
+      "volta": 57,
+      "tipus": "V0",
+      "dist_centroide": 0.055235,
+      "z_intra_tipus": -0.018261,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 554,
+      "teixit": "CM_Abouchete",
+      "volta": 59,
+      "tipus": "V1",
+      "dist_centroide": 0.033151,
+      "z_intra_tipus": -0.550278,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 555,
+      "teixit": "CM_Abouchete",
+      "volta": 61,
+      "tipus": "V1",
+      "dist_centroide": 0.010148,
+      "z_intra_tipus": -0.817221,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 556,
+      "teixit": "CM_Abouchete",
+      "volta": 63,
+      "tipus": "V1",
+      "dist_centroide": 0.00278,
+      "z_intra_tipus": -0.902714,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 557,
+      "teixit": "CM_Abouchete",
+      "volta": 65,
+      "tipus": "V0",
+      "dist_centroide": 0.042334,
+      "z_intra_tipus": -0.254199,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 558,
+      "teixit": "CM_Abouchete",
+      "volta": 67,
+      "tipus": "V1",
+      "dist_centroide": 0.010148,
+      "z_intra_tipus": -0.817221,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 559,
+      "teixit": "CM_Abouchete",
+      "volta": 69,
+      "tipus": "V0",
+      "dist_centroide": 0.022984,
+      "z_intra_tipus": -0.608063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 560,
+      "teixit": "CM_Abouchete",
+      "volta": 71,
+      "tipus": "V0",
+      "dist_centroide": 0.241769,
+      "z_intra_tipus": 3.393102,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 561,
+      "teixit": "CM_Abouchete",
+      "volta": 73,
+      "tipus": "V1",
+      "dist_centroide": 0.097034,
+      "z_intra_tipus": 0.191029,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 562,
+      "teixit": "CM_Abouchete",
+      "volta": 75,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 563,
+      "teixit": "CM_Abouchete",
+      "volta": 77,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 564,
+      "teixit": "CM_Abouchete",
+      "volta": 79,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 565,
+      "teixit": "CM_Abouchete",
+      "volta": 81,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 566,
+      "teixit": "CM_Abouchete",
+      "volta": 83,
+      "tipus": "V1",
+      "dist_centroide": 0.387278,
+      "z_intra_tipus": 3.55911,
+      "es_outlier": true
+    },
+    {
+      "indice_global": 567,
+      "teixit": "CM_Abouchete",
+      "volta": 85,
+      "tipus": "V1",
+      "dist_centroide": 0.046866,
+      "z_intra_tipus": -0.391127,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 568,
+      "teixit": "CM_Abouchete",
+      "volta": 87,
+      "tipus": "V1",
+      "dist_centroide": 0.078619,
+      "z_intra_tipus": -0.022655,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 569,
+      "teixit": "CM_Abouchete",
+      "volta": 89,
+      "tipus": "V1",
+      "dist_centroide": 0.021332,
+      "z_intra_tipus": -0.687431,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 570,
+      "teixit": "CM_Abouchete",
+      "volta": 91,
+      "tipus": "V1",
+      "dist_centroide": 0.022106,
+      "z_intra_tipus": -0.678447,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 571,
+      "teixit": "CM_Abouchete",
+      "volta": 93,
+      "tipus": "V0",
+      "dist_centroide": 0.036842,
+      "z_intra_tipus": -0.354624,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 572,
+      "teixit": "CM_Abouchete",
+      "volta": 95,
+      "tipus": "V1",
+      "dist_centroide": 0.008683,
+      "z_intra_tipus": -0.834212,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 573,
+      "teixit": "CM_Abouchete",
+      "volta": 97,
+      "tipus": "V1",
+      "dist_centroide": 0.00501,
+      "z_intra_tipus": -0.876842,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 574,
+      "teixit": "CM_Abouchete",
+      "volta": 99,
+      "tipus": "V1",
+      "dist_centroide": 0.011206,
+      "z_intra_tipus": -0.804942,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 575,
+      "teixit": "CM_Abouchete",
+      "volta": 101,
+      "tipus": "V1",
+      "dist_centroide": 0.018073,
+      "z_intra_tipus": -0.725257,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 576,
+      "teixit": "CM_Abouchete",
+      "volta": 103,
+      "tipus": "V1",
+      "dist_centroide": 0.023512,
+      "z_intra_tipus": -0.662136,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 577,
+      "teixit": "CM_Abouchete",
+      "volta": 105,
+      "tipus": "V0",
+      "dist_centroide": 0.042783,
+      "z_intra_tipus": -0.245984,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 578,
+      "teixit": "CM_Abouchete",
+      "volta": 107,
+      "tipus": "V0",
+      "dist_centroide": 0.033869,
+      "z_intra_tipus": -0.409,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 579,
+      "teixit": "CM_Abouchete",
+      "volta": 109,
+      "tipus": "V1",
+      "dist_centroide": 0.031988,
+      "z_intra_tipus": -0.563783,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 580,
+      "teixit": "CM_Abouchete",
+      "volta": 111,
+      "tipus": "V1",
+      "dist_centroide": 0.039343,
+      "z_intra_tipus": -0.478429,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 581,
+      "teixit": "CM_Abouchete",
+      "volta": 113,
+      "tipus": "V0",
+      "dist_centroide": 0.027716,
+      "z_intra_tipus": -0.521529,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 582,
+      "teixit": "CM_Abouchete",
+      "volta": 115,
+      "tipus": "V1",
+      "dist_centroide": 0.008126,
+      "z_intra_tipus": -0.840678,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 583,
+      "teixit": "CM_Abouchete",
+      "volta": 117,
+      "tipus": "V1",
+      "dist_centroide": 0.008126,
+      "z_intra_tipus": -0.840678,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 584,
+      "teixit": "CM_Abouchete",
+      "volta": 119,
+      "tipus": "V1",
+      "dist_centroide": 0.021077,
+      "z_intra_tipus": -0.690394,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 585,
+      "teixit": "CM_Abouchete",
+      "volta": 121,
+      "tipus": "V1",
+      "dist_centroide": 0.018591,
+      "z_intra_tipus": -0.719247,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 586,
+      "teixit": "CM_Abouchete",
+      "volta": 123,
+      "tipus": "V1",
+      "dist_centroide": 0.003695,
+      "z_intra_tipus": -0.892096,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 587,
+      "teixit": "CM_Abouchete",
+      "volta": 125,
+      "tipus": "V1",
+      "dist_centroide": 0.051034,
+      "z_intra_tipus": -0.342764,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 588,
+      "teixit": "CM_Abouchete",
+      "volta": 127,
+      "tipus": "V1",
+      "dist_centroide": 0.043443,
+      "z_intra_tipus": -0.43085,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 589,
+      "teixit": "CM_Abouchete",
+      "volta": 129,
+      "tipus": "V0",
+      "dist_centroide": 0.039567,
+      "z_intra_tipus": -0.304796,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 590,
+      "teixit": "CM_Abouchete",
+      "volta": 131,
+      "tipus": "V1",
+      "dist_centroide": 0.037147,
+      "z_intra_tipus": -0.503914,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 591,
+      "teixit": "CM_Abouchete",
+      "volta": 133,
+      "tipus": "V1",
+      "dist_centroide": 0.02315,
+      "z_intra_tipus": -0.666339,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 592,
+      "teixit": "CM_Abouchete",
+      "volta": 135,
+      "tipus": "V1",
+      "dist_centroide": 0.057979,
+      "z_intra_tipus": -0.262171,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 593,
+      "teixit": "CM_Abouchete",
+      "volta": 137,
+      "tipus": "V1",
+      "dist_centroide": 0.069466,
+      "z_intra_tipus": -0.12887,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 594,
+      "teixit": "CM_Abouchete",
+      "volta": 139,
+      "tipus": "V0",
+      "dist_centroide": 0.030168,
+      "z_intra_tipus": -0.476693,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 595,
+      "teixit": "CM_Abouchete",
+      "volta": 141,
+      "tipus": "V1",
+      "dist_centroide": 0.069466,
+      "z_intra_tipus": -0.12887,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 596,
+      "teixit": "CM_Abouchete",
+      "volta": 143,
+      "tipus": "V0",
+      "dist_centroide": 0.015611,
+      "z_intra_tipus": -0.742906,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 597,
+      "teixit": "CM_Abouchete",
+      "volta": 145,
+      "tipus": "V0",
+      "dist_centroide": 0.002278,
+      "z_intra_tipus": -0.986737,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 598,
+      "teixit": "CM_Abouchete",
+      "volta": 147,
+      "tipus": "V0",
+      "dist_centroide": 0.055235,
+      "z_intra_tipus": -0.018261,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 599,
+      "teixit": "CM_Abouchete",
+      "volta": 149,
+      "tipus": "V1",
+      "dist_centroide": 0.010896,
+      "z_intra_tipus": -0.808534,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 600,
+      "teixit": "CM_Abouchete",
+      "volta": 151,
+      "tipus": "V1",
+      "dist_centroide": 0.031011,
+      "z_intra_tipus": -0.575115,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 601,
+      "teixit": "CM_Abouchete",
+      "volta": 153,
+      "tipus": "V1",
+      "dist_centroide": 0.031011,
+      "z_intra_tipus": -0.575115,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 602,
+      "teixit": "CM_Abouchete",
+      "volta": 155,
+      "tipus": "V0",
+      "dist_centroide": 0.022984,
+      "z_intra_tipus": -0.608063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 603,
+      "teixit": "CM_Abouchete",
+      "volta": 157,
+      "tipus": "V1",
+      "dist_centroide": 0.031011,
+      "z_intra_tipus": -0.575115,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 604,
+      "teixit": "CM_Abouchete",
+      "volta": 159,
+      "tipus": "V0",
+      "dist_centroide": 0.022984,
+      "z_intra_tipus": -0.608063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 605,
+      "teixit": "CM_Abouchete",
+      "volta": 161,
+      "tipus": "V0",
+      "dist_centroide": 0.01872,
+      "z_intra_tipus": -0.686048,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 606,
+      "teixit": "CM_Abouchete",
+      "volta": 163,
+      "tipus": "V1",
+      "dist_centroide": 0.097034,
+      "z_intra_tipus": 0.191029,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 607,
+      "teixit": "CM_Abouchete",
+      "volta": 165,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 608,
+      "teixit": "CM_Abouchete",
+      "volta": 167,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 609,
+      "teixit": "CM_Abouchete",
+      "volta": 169,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 610,
+      "teixit": "CM_Abouchete",
+      "volta": 171,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 611,
+      "teixit": "CM_Abouchete",
+      "volta": 173,
+      "tipus": "V1",
+      "dist_centroide": 0.145977,
+      "z_intra_tipus": 0.758983,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 612,
+      "teixit": "CM_Abouchete",
+      "volta": 175,
+      "tipus": "V1",
+      "dist_centroide": 0.046866,
+      "z_intra_tipus": -0.391127,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 613,
+      "teixit": "CM_Abouchete",
+      "volta": 177,
+      "tipus": "V1",
+      "dist_centroide": 0.06617,
+      "z_intra_tipus": -0.167127,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 614,
+      "teixit": "CM_Abouchete",
+      "volta": 179,
+      "tipus": "V1",
+      "dist_centroide": 0.021332,
+      "z_intra_tipus": -0.687431,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 615,
+      "teixit": "CM_Abouchete",
+      "volta": 181,
+      "tipus": "V1",
+      "dist_centroide": 0.022933,
+      "z_intra_tipus": -0.668859,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 616,
+      "teixit": "CM_Abouchete",
+      "volta": 183,
+      "tipus": "V0",
+      "dist_centroide": 0.036842,
+      "z_intra_tipus": -0.354624,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 617,
+      "teixit": "CM_Abouchete",
+      "volta": 185,
+      "tipus": "V1",
+      "dist_centroide": 0.009087,
+      "z_intra_tipus": -0.829534,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 618,
+      "teixit": "CM_Abouchete",
+      "volta": 187,
+      "tipus": "V1",
+      "dist_centroide": 0.00278,
+      "z_intra_tipus": -0.902714,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 619,
+      "teixit": "CM_Abouchete",
+      "volta": 189,
+      "tipus": "V1",
+      "dist_centroide": 0.008683,
+      "z_intra_tipus": -0.834212,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 620,
+      "teixit": "CM_Abouchete",
+      "volta": 191,
+      "tipus": "V1",
+      "dist_centroide": 0.00501,
+      "z_intra_tipus": -0.876842,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 621,
+      "teixit": "CM_Abouchete",
+      "volta": 193,
+      "tipus": "V1",
+      "dist_centroide": 0.018798,
+      "z_intra_tipus": -0.716838,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 622,
+      "teixit": "CM_Abouchete",
+      "volta": 195,
+      "tipus": "V0",
+      "dist_centroide": 0.056542,
+      "z_intra_tipus": 0.005646,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 623,
+      "teixit": "CM_Abouchete",
+      "volta": 197,
+      "tipus": "V0",
+      "dist_centroide": 0.042783,
+      "z_intra_tipus": -0.245984,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 624,
+      "teixit": "CM_Abouchete",
+      "volta": 199,
+      "tipus": "V0",
+      "dist_centroide": 0.042783,
+      "z_intra_tipus": -0.245984,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 625,
+      "teixit": "CM_Abouchete",
+      "volta": 201,
+      "tipus": "V0",
+      "dist_centroide": 0.033869,
+      "z_intra_tipus": -0.409,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 626,
+      "teixit": "CM_Abouchete",
+      "volta": 203,
+      "tipus": "V1",
+      "dist_centroide": 0.028288,
+      "z_intra_tipus": -0.606716,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 627,
+      "teixit": "CM_Abouchete",
+      "volta": 205,
+      "tipus": "V1",
+      "dist_centroide": 0.008097,
+      "z_intra_tipus": -0.841017,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 628,
+      "teixit": "CM_Abouchete",
+      "volta": 207,
+      "tipus": "V1",
+      "dist_centroide": 0.039343,
+      "z_intra_tipus": -0.478429,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 629,
+      "teixit": "CM_Abouchete",
+      "volta": 209,
+      "tipus": "V0",
+      "dist_centroide": 0.009964,
+      "z_intra_tipus": -0.846176,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 630,
+      "teixit": "CM_Abouchete",
+      "volta": 211,
+      "tipus": "V1",
+      "dist_centroide": 0.018591,
+      "z_intra_tipus": -0.719247,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 631,
+      "teixit": "CM_Abouchete",
+      "volta": 213,
+      "tipus": "V1",
+      "dist_centroide": 0.003695,
+      "z_intra_tipus": -0.892096,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 632,
+      "teixit": "CM_Abouchete",
+      "volta": 215,
+      "tipus": "V1",
+      "dist_centroide": 0.00278,
+      "z_intra_tipus": -0.902714,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 633,
+      "teixit": "CM_Abouchete",
+      "volta": 217,
+      "tipus": "V1",
+      "dist_centroide": 0.007314,
+      "z_intra_tipus": -0.850098,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 634,
+      "teixit": "CM_Abouchete",
+      "volta": 219,
+      "tipus": "V1",
+      "dist_centroide": 0.021332,
+      "z_intra_tipus": -0.687431,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 635,
+      "teixit": "CM_Abouchete",
+      "volta": 221,
+      "tipus": "V1",
+      "dist_centroide": 0.022826,
+      "z_intra_tipus": -0.670097,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 636,
+      "teixit": "CM_Abouchete",
+      "volta": 223,
+      "tipus": "V0",
+      "dist_centroide": 0.036508,
+      "z_intra_tipus": -0.360729,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 637,
+      "teixit": "CM_Abouchete",
+      "volta": 225,
+      "tipus": "V1",
+      "dist_centroide": 0.011448,
+      "z_intra_tipus": -0.802131,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 638,
+      "teixit": "CM_Abouchete",
+      "volta": 227,
+      "tipus": "V1",
+      "dist_centroide": 0.011448,
+      "z_intra_tipus": -0.802131,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 639,
+      "teixit": "CM_Abouchete",
+      "volta": 229,
+      "tipus": "V1",
+      "dist_centroide": 0.003751,
+      "z_intra_tipus": -0.891452,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 640,
+      "teixit": "CM_Abouchete",
+      "volta": 231,
+      "tipus": "V1",
+      "dist_centroide": 0.078579,
+      "z_intra_tipus": -0.02312,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 641,
+      "teixit": "CM_Abouchete",
+      "volta": 233,
+      "tipus": "V1",
+      "dist_centroide": 0.045038,
+      "z_intra_tipus": -0.412344,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 642,
+      "teixit": "CM_Abouchete",
+      "volta": 235,
+      "tipus": "V1",
+      "dist_centroide": 0.055805,
+      "z_intra_tipus": -0.2874,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 643,
+      "teixit": "CM_Abouchete",
+      "volta": 237,
+      "tipus": "V0",
+      "dist_centroide": 0.030168,
+      "z_intra_tipus": -0.476693,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 644,
+      "teixit": "CM_Abouchete",
+      "volta": 239,
+      "tipus": "V0",
+      "dist_centroide": 0.072288,
+      "z_intra_tipus": 0.293607,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 645,
+      "teixit": "CM_Abouchete",
+      "volta": 241,
+      "tipus": "V0",
+      "dist_centroide": 0.008194,
+      "z_intra_tipus": -0.878547,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 646,
+      "teixit": "CM_Abouchete",
+      "volta": 243,
+      "tipus": "V1",
+      "dist_centroide": 0.021046,
+      "z_intra_tipus": -0.690759,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 647,
+      "teixit": "CM_Abouchete",
+      "volta": 245,
+      "tipus": "V1",
+      "dist_centroide": 0.065627,
+      "z_intra_tipus": -0.173426,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 648,
+      "teixit": "CM_Abouchete",
+      "volta": 247,
+      "tipus": "V1",
+      "dist_centroide": 0.00979,
+      "z_intra_tipus": -0.821374,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 649,
+      "teixit": "CM_Abouchete",
+      "volta": 249,
+      "tipus": "V1",
+      "dist_centroide": 0.020923,
+      "z_intra_tipus": -0.692183,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 650,
+      "teixit": "CM_Abouchete",
+      "volta": 251,
+      "tipus": "V0",
+      "dist_centroide": 0.022984,
+      "z_intra_tipus": -0.608063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 651,
+      "teixit": "CM_Abouchete",
+      "volta": 253,
+      "tipus": "V1",
+      "dist_centroide": 0.031011,
+      "z_intra_tipus": -0.575115,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 652,
+      "teixit": "CM_Abouchete",
+      "volta": 255,
+      "tipus": "V0",
+      "dist_centroide": 0.022984,
+      "z_intra_tipus": -0.608063,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 653,
+      "teixit": "CM_Abouchete",
+      "volta": 257,
+      "tipus": "V1",
+      "dist_centroide": 0.031011,
+      "z_intra_tipus": -0.575115,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 654,
+      "teixit": "CM_Abouchete",
+      "volta": 259,
+      "tipus": "V0",
+      "dist_centroide": 0.040296,
+      "z_intra_tipus": -0.291457,
+      "es_outlier": false
+    },
+    {
+      "indice_global": 655,
+      "teixit": "CM_Abouchete",
+      "volta": 261,
+      "tipus": "V1",
+      "dist_centroide": 0.07956,
+      "z_intra_tipus": -0.011739,
+      "es_outlier": false
+    }
+  ]
+}

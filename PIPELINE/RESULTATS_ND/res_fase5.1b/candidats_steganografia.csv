@@ -1,0 +1,28 @@
+prioritat,teixit,volta,n_rare,tokens_rare,z_runs,interpretacio_runs,categoria_fase5,score_anomalia
+10.0,ND_Maria,171,1,19,,,,
+10.0,ND_Maria,149,1,S,,,,
+10.0,ND_Maria,195,1,J,,,,
+10.0,ND_Coco liso,101,1,311,,,,
+10.0,ND_Coco liso,105,1,39,,,,
+10.0,ND_Anelise,73,1,12>,,,,
+10.0,ND_Anelise,39,1,6>,,,,
+10.0,ND_Dolores,17,1,<APG>,,,,
+10.0,ND_Demetri pequeño,51,1,g,,,,
+10.0,ND_Merche,59,1,<GLA>,,,,
+10.0,ND_Vilno (Hijo),105,1,<8,,,,
+10.0,ND_Maria,11,1,213,,,ALTA,4.9449
+10.0,ND_Isabelet,131,1,21,,,,
+10.0,ND_Dolores,71,1,(35),,,,
+10.0,ND_Tara,31,1,А,,,,
+10.0,ND_Dolores,51,1,<L(5)L>,,,CRÍTICA,8.1851
+10.0,ND_Dolores,73,1,(37),,,,
+10.0,ND_Dolores,77,1,(43),,,,
+10.0,ND_Dolores,79,1,(45),,,ALTA,7.8267
+10.0,ND_Dolores,47,1,<LPL>,,,CRÍTICA,6.8017
+10.0,ND_Dolores,49,1,<L(3)L>,,,ALTA,5.1384
+10.0,ND_Dolores,53,1,<LPLAPGLPL>,,,CRÍTICA,7.0592
+10.0,ND_Dolores,55,1,<L(3)L3L(3)>,,,,
+10.0,ND_Dolores,83,1,(51),,,,
+10.0,ND_Dolores,57,1,(33),,,,
+10.0,ND_Ruth,35,1,<5,,,CRÍTICA,10.0748
+10.0,ND_Chistrofe Rosa de Navidad,44,1,(24),,,CRÍTICA,10.3228

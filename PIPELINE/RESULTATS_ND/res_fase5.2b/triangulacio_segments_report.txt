@@ -1,0 +1,471 @@
+==============================================================================
+ FASE 5.2b — TRIANGULACIÓ GRAMATICAL × LÈXICA SOBRE SEGMENTS
+==============================================================================
+
+Per a cada segment de 5.2, es classifica cada volta segons si
+és anòmala a 5.1 (gramatical), a 5.1b (lèxica), a totes dues
+(convergent) o cap. Veredicte agregat per segment:
+  · CONVERGENCIA      → ≥1 volta gramatical I lèxica
+  · PERFIL_LEXIC      → marcadors lèxics, gramàtica neta (candidat abecedari)
+  · PERFIL_GRAMATICAL → soroll gramatical, sense marcadors (farciment)
+  · MIXT / SENSE_SENYAL
+
+Voltes atípiques totals : 223  (gramaticals=210, lèxiques=27)
+  · dins de segment     : 136
+  · òrfenes (fora seg.) : 87
+
+Segments triangulats : 48
+  CONVERGENCIA       : 6
+  PERFIL_LEXIC       : 2
+  MIXT               : 0
+  PERFIL_GRAMATICAL  : 34
+  SENSE_SENYAL       : 6  (només senyal agregat — control)
+
+------------------------------------------------------------------------------
+  # teixit                 voltes          nV conv gram  lex    fG    fL veredicte         
+------------------------------------------------------------------------------
+  1 ND_Dolores             v45-v59          8    6    1    0  0.88  0.75 CONVERGENCIA      
+  2 ND_Dolores             v77-v83          4    2    0    1  0.50  0.75 CONVERGENCIA      
+  3 ND_Demetri pequeño     v47-v55          5    1    1    0  0.40  0.20 CONVERGENCIA      
+  4 ND_Maria               v1-v19           7    1    6    0  1.00  0.14 CONVERGENCIA      
+  5 ND_Chistrofe Rosa de N v36-v54         10    1    8    0  0.90  0.10 CONVERGENCIA      
+  6 ND_Ruth                v1-v37          10    1    5    0  0.60  0.10 CONVERGENCIA      
+  7 ND_Merche              v59-v63          3    0    0    1  0.00  0.33 PERFIL_LEXIC      
+  8 ND_Dolores             v15-v19          3    0    0    1  0.00  0.33 PERFIL_LEXIC      
+  9 ND_Renacimiento        v1-v9            5    0    4    0  0.80  0.00 PERFIL_GRAMATICAL 
+ 10 ND_Chistrofe Rosa de N v5-v32          12    0   10    0  0.83  0.00 PERFIL_GRAMATICAL 
+ 11 ND_Merche              v1-v17           9    0    8    0  0.89  0.00 PERFIL_GRAMATICAL 
+ 12 ND_Punto Angelines par v1-v18          15    0    3    0  0.20  0.00 PERFIL_GRAMATICAL 
+ 13 ND_Isabelet            v3-v51          25    0    2    0  0.08  0.00 PERFIL_GRAMATICAL 
+ 14 ND_Demetri grande      v1-v7            4    0    2    0  0.50  0.00 PERFIL_GRAMATICAL 
+ 15 ND_Campesina           v1-v9            5    0    3    0  0.60  0.00 PERFIL_GRAMATICAL 
+ 16 ND_Merche              v67-v85         10    0    5    0  0.50  0.00 PERFIL_GRAMATICAL 
+ 17 ND_Conchita Romero     v1-v11           6    0    5    0  0.83  0.00 PERFIL_GRAMATICAL 
+ 18 ND_Chechee             v1-v5            3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 19 ND_Modelo Ros Mari     v15-v31          9    0    6    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 20 ND_Anelise             v1-v9            3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 21 ND_Conchita Romero     v133-v143        6    0    2    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 22 ND_Dolores             v1-v7            4    0    3    0  0.75  0.00 PERFIL_GRAMATICAL 
+ 23 ND_Chechee             v102-v114        7    0    3    0  0.43  0.00 PERFIL_GRAMATICAL 
+ 24 ND_Demetri grande      v51-v57          4    0    1    0  0.25  0.00 PERFIL_GRAMATICAL 
+ 25 ND_Chechee             v73-v90          7    0    2    0  0.29  0.00 PERFIL_GRAMATICAL 
+ 26 ND_Chistrofe Rosa de N v168-v190       12    0    3    0  0.25  0.00 PERFIL_GRAMATICAL 
+ 27 ND_Chistrofe Rosa de N v74-v86          7    0    2    0  0.29  0.00 PERFIL_GRAMATICAL 
+ 28 ND_Merche              v91-v95          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 29 ND_Chistrofe Rosa de N v134-v146        7    0    1    0  0.14  0.00 PERFIL_GRAMATICAL 
+ 30 ND_Conchita Romero     v21-v27          4    0    1    0  0.25  0.00 PERFIL_GRAMATICAL 
+ 31 ND_Isabelet            v63-v71          5    0    1    0  0.20  0.00 PERFIL_GRAMATICAL 
+ 32 ND_Rosario             v11-v15          3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 33 ND_Maria               v39-v43          3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 34 ND_Maria               v181-v185        3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 35 ND_Rosario             v37-v49          7    0    1    0  0.14  0.00 PERFIL_GRAMATICAL 
+ 36 ND_Demetri grande      v67-v71          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 37 ND_Demetri grande      v81-v97          9    0    8    0  0.89  0.00 PERFIL_GRAMATICAL 
+ 38 ND_Isabelet            v169-v179        6    0    2    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 39 ND_Maria               v239-v243        3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 40 ND_Tara                v11-v27          9    0    2    0  0.22  0.00 PERFIL_GRAMATICAL 
+ 41 ND_Chistrofe Rosa de N v106-v110        3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 42 ND_Rosario             v131-v135        3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 43 ND_Campesina           v17-v21          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 44 ND_Demetri pequeño     v29-v35          4    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 45 ND_Maria               v51-v55          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 46 ND_Modelo Ros Mari     v51-v55          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 47 ND_Tara                v73-v77          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 48 ND_Modelo Ros Mari     v67-v71          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+
+------------------------------------------------------------------------------
+ DETALL PER SEGMENT
+------------------------------------------------------------------------------
+
+ [1] ND_Dolores  v45-v59  (8 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.156)
+     classes voltes   : convergents=6  gramaticals=1  lèxiques=0  cap=1
+     voltes CONVERGENT: v47, v49, v51, v53, v55, v57
+     voltes GRAMATICAL: v59
+     tokens C_RARE    : <LPL>×1, <L(3)L>×1, <L(5)L>×1, <LPLAPGLPL>×1, <L(3)L3L(3)>×1, (33)×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [2] ND_Dolores  v77-v83  (4 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=2  gramaticals=0  lèxiques=1  cap=1
+     voltes CONVERGENT: v79, v83
+     voltes LEXICA    : v77
+     tokens C_RARE    : (43)×1, (45)×1, (51)×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [3] ND_Demetri pequeño  v47-v55  (5 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.231)
+     classes voltes   : convergents=1  gramaticals=1  lèxiques=0  cap=3
+     voltes CONVERGENT: v51
+     voltes GRAMATICAL: v47
+     tokens C_RARE    : g×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [4] ND_Maria  v1-v19  (7 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.231)
+     classes voltes   : convergents=1  gramaticals=6  lèxiques=0  cap=0
+     voltes CONVERGENT: v11
+     voltes GRAMATICAL: v1, v3, v5, v15, v17, v19
+     tokens C_RARE    : 213×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [5] ND_Chistrofe Rosa de Navidad  v36-v54  (10 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.024)
+     classes voltes   : convergents=1  gramaticals=8  lèxiques=0  cap=1
+     voltes CONVERGENT: v44
+     voltes GRAMATICAL: v36, v38, v40, v42, v46, v48, v50, v52
+     tokens C_RARE    : (24)×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [6] ND_Ruth  v1-v37  (10 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.024)
+     classes voltes   : convergents=1  gramaticals=5  lèxiques=0  cap=4
+     voltes CONVERGENT: v35
+     voltes GRAMATICAL: v1, v3, v5, v11, v37
+     tokens C_RARE    : <5×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [7] ND_Merche  v59-v63  (3 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=1  cap=2
+     voltes LEXICA    : v59
+     tokens C_RARE    : <GLA>×1
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [8] ND_Dolores  v15-v19  (3 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=1  cap=2
+     voltes LEXICA    : v17
+     tokens C_RARE    : <APG>×1
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [9] ND_Renacimiento  v1-v9  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : YES  (q=0.032)
+     classes voltes   : convergents=0  gramaticals=4  lèxiques=0  cap=1
+     voltes GRAMATICAL: v1, v3, v7, v9
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [10] ND_Chistrofe Rosa de Navidad  v5-v32  (12 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=10  lèxiques=0  cap=2
+     voltes GRAMATICAL: v5, v7, v18, v20, v22, v24, v26, v28, v30, v32
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [11] ND_Merche  v1-v17  (9 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.231)
+     classes voltes   : convergents=0  gramaticals=8  lèxiques=0  cap=1
+     voltes GRAMATICAL: v1, v3, v5, v7, v9, v11, v13, v15
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [12] ND_Punto Angelines para blusa  v1-v18  (15 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=12
+     voltes GRAMATICAL: v1, v8, v12
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [13] ND_Isabelet  v3-v51  (25 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.231)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=23
+     voltes GRAMATICAL: v3, v19
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [14] ND_Demetri grande  v1-v7  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.404)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=2
+     voltes GRAMATICAL: v3, v5
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [15] ND_Campesina  v1-v9  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.231)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=2
+     voltes GRAMATICAL: v1, v3, v7
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [16] ND_Merche  v67-v85  (10 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=5  lèxiques=0  cap=5
+     voltes GRAMATICAL: v67, v77, v81, v83, v85
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [17] ND_Conchita Romero  v1-v11  (6 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.216)
+     classes voltes   : convergents=0  gramaticals=5  lèxiques=0  cap=1
+     voltes GRAMATICAL: v1, v3, v7, v9, v11
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [18] ND_Chechee  v1-v5  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.507)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v1, v3, v5
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [19] ND_Modelo Ros Mari  v15-v31  (9 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.216)
+     classes voltes   : convergents=0  gramaticals=6  lèxiques=0  cap=3
+     voltes GRAMATICAL: v17, v19, v21, v23, v27, v29
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [20] ND_Anelise  v1-v9  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v1, v3
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [21] ND_Conchita Romero  v133-v143  (6 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.507)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=4
+     voltes GRAMATICAL: v135, v139
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [22] ND_Dolores  v1-v7  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=1
+     voltes GRAMATICAL: v1, v5, v7
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [23] ND_Chechee  v102-v114  (7 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=4
+     voltes GRAMATICAL: v104, v108, v110
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [24] ND_Demetri grande  v51-v57  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=3
+     voltes GRAMATICAL: v53
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [25] ND_Chechee  v73-v90  (7 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=5
+     voltes GRAMATICAL: v84, v86
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [26] ND_Chistrofe Rosa de Navidad  v168-v190  (12 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=9
+     voltes GRAMATICAL: v178, v180, v188
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [27] ND_Chistrofe Rosa de Navidad  v74-v86  (7 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=5
+     voltes GRAMATICAL: v74, v84
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [28] ND_Merche  v91-v95  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v91
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [29] ND_Chistrofe Rosa de Navidad  v134-v146  (7 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=6
+     voltes GRAMATICAL: v140
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [30] ND_Conchita Romero  v21-v27  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=3
+     voltes GRAMATICAL: v21
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [31] ND_Isabelet  v63-v71  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=4
+     voltes GRAMATICAL: v63
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [32] ND_Rosario  v11-v15  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.579)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v11, v15
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [33] ND_Maria  v39-v43  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v39, v41
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [34] ND_Maria  v181-v185  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v183, v185
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [35] ND_Rosario  v37-v49  (7 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.614)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=6
+     voltes GRAMATICAL: v47
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [36] ND_Demetri grande  v67-v71  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v69
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [37] ND_Demetri grande  v81-v97  (9 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=8  lèxiques=0  cap=1
+     voltes GRAMATICAL: v83, v85, v87, v89, v91, v93, v95, v97
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [38] ND_Isabelet  v169-v179  (6 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=4
+     voltes GRAMATICAL: v175, v177
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [39] ND_Maria  v239-v243  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v239, v241, v243
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [40] ND_Tara  v11-v27  (9 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=7
+     voltes GRAMATICAL: v15, v19
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [41] ND_Chistrofe Rosa de Navidad  v106-v110  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v108
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [42] ND_Rosario  v131-v135  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v131, v133, v135
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [43] ND_Campesina  v17-v21  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [44] ND_Demetri pequeño  v29-v35  (4 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=4
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [45] ND_Maria  v51-v55  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [46] ND_Modelo Ros Mari  v51-v55  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [47] ND_Tara  v73-v77  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [48] ND_Modelo Ros Mari  v67-v71  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+==============================================================================
+ VOLTES ATÍPIQUES ÒRFENES (fora de qualsevol segment de 5.2)
+==============================================================================
+ CONVERGENT (5.1∩5.1b) : 2   ← les més rellevants (anòmales però 5.2 no les va agrupar)
+ LEXICA (només 5.1b)   : 10
+ GRAMATICAL (només 5.1): 75
+
+teixit                  volta classe      cat_5.1   n_rare  tokens_rare / flags
+------------------------------------------------------------------------------
+ND_Isabelet               131 CONVERGENT  MODERADA       1  21
+ND_Maria                  171 CONVERGENT  MODERADA       1  19
+ND_Anelise                 39 LEXICA      normal         1  6>
+ND_Anelise                 73 LEXICA      normal         1  12>
+ND_Coco liso              101 LEXICA      normal         1  311
+ND_Coco liso              105 LEXICA      normal         1  39
+ND_Dolores                 71 LEXICA      normal         1  (35)
+ND_Dolores                 73 LEXICA      normal         1  (37)
+ND_Maria                  149 LEXICA      normal         1  S
+ND_Maria                  195 LEXICA      normal         1  J
+ND_Tara                    31 LEXICA      normal         1  А
+ND_Vilno (Hijo)           105 LEXICA      normal         1  <8
+ND_Aurea                    1 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Aurea                    3 GRAMATICAL  ALTA           0  flag_sig_intra|flag_trans_invalides
+ND_Aurea                    7 GRAMATICAL  ALTA           0  flag_sig_intra|flag_trans_invalides
+ND_Aurea                   13 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Aurea                   27 GRAMATICAL  ALTA           0  flag_sig_intra|flag_trans_invalides
+ND_Campesina               29 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Chechee                  9 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Chechee                 15 GRAMATICAL  CRÍTICA        0  flag_sig_intra|flag_sig_salt|flag_micro_mean
+ND_Chechee                 17 GRAMATICAL  MODERADA       0  flag_micro_mean
+ND_Chistrofe Rosa de N     60 GRAMATICAL  MODERADA       0  flag_sig_salt
+ND_Coco liso                1 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Coco liso                3 GRAMATICAL  ALTA           0  flag_sig_intra|flag_trans_invalides
+ND_Coco liso                7 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Conchita Romero         15 GRAMATICAL  ALTA           0  flag_sig_intra|flag_macro_surp
+ND_Conchita Romero         43 GRAMATICAL  MODERADA       0  flag_macro_surp
+ND_Conchita Romero        117 GRAMATICAL  MODERADA       0  flag_macro_surp
+ND_Conchita Romero        173 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Conchita Romero        177 GRAMATICAL  MODERADA       0  flag_macro_surp
+ND_Demetri pequeño          1 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+ND_Demetri pequeño         25 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Dolores                 23 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Dolores                 37 GRAMATICAL  ALTA           0  flag_micro_mean|flag_micro_max
+ND_Dolores                 63 GRAMATICAL  MODERADA       0  flag_micro_mean
+ND_Isabelet                87 GRAMATICAL  MODERADA       0  flag_macro_surp
+ND_Isabelet               193 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Maria                   21 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Maria                   23 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Maria                   25 GRAMATICAL  ALTA           0  flag_sig_intra|flag_micro_max
+ND_Maria                   27 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Maria                   29 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Maria                   33 GRAMATICAL  MODERADA       0  flag_sig_salt
+ND_Maria                  169 GRAMATICAL  CRÍTICA        0  flag_sig_intra|flag_sig_salt|flag_macro_surp
+ND_Maria                  173 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Maria                  175 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Maria                  177 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Maria                  179 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Merche                  43 GRAMATICAL  MODERADA       0  flag_micro_mean
+ND_Merche                 101 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Modelo Ros Mari          3 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+ND_Modelo Ros Mari         45 GRAMATICAL  MODERADA       0  flag_sig_salt
+ND_Modelo Ros Mari         47 GRAMATICAL  MODERADA       0  flag_macro_surp
+ND_Modelo Ros Mari         97 GRAMATICAL  MODERADA       0  flag_sig_salt
+ND_Modelo Ros Mari        105 GRAMATICAL  ALTA           0  flag_sig_intra|flag_sig_salt
+ND_Modelo Ros Mari        107 GRAMATICAL  MODERADA       0  flag_sig_salt
+ND_Rosario                  3 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Rosario                 31 GRAMATICAL  ALTA           0  flag_sig_intra|flag_sig_salt
+ND_Rosario                 33 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+ND_Rosario                 63 GRAMATICAL  MODERADA       0  flag_macro_surp
+ND_Rosario                103 GRAMATICAL  MODERADA       0  flag_macro_surp
+ND_Rosario                117 GRAMATICAL  MODERADA       0  flag_macro_surp
+ND_Rosario                127 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Rosario                129 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Ruth                    43 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Ruth                    61 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Ruth                    63 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Ruth                    69 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Ruth                    71 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Ruth                    75 GRAMATICAL  ALTA           0  flag_macro_surp|flag_micro_max
+ND_Ruth                    83 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Ruth                    89 GRAMATICAL  MODERADA       0  flag_sig_salt
+ND_Tara                     3 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Tara                     7 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Tara                    97 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Tara                   115 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Vilno (Hijo)             3 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Vilno (Hijo)            15 GRAMATICAL  MODERADA       0  flag_trans_invalides
+ND_Vilno (Hijo)            19 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Vilno (Hijo)            63 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Vilno (Hijo)            75 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Vilno (Hijo)            81 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Vilno (Hijo)            87 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Vilno (Hijo)            93 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Vilno (Hijo)            99 GRAMATICAL  MODERADA       0  flag_micro_max
+ND_Vilno (Hijo)           141 GRAMATICAL  MODERADA       0  flag_sig_intra
+ND_Vilno (Hijo)           143 GRAMATICAL  MODERADA       0  flag_sig_salt

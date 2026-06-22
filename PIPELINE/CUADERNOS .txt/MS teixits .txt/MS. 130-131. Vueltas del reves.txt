@@ -1,0 +1,12 @@
+7 (al-9v)a(gl-9v)gl
+9 (al-9v)xx(lg-9v)lpl
+11 (al-9v)xx(lg-9v)l(3)l
+13 (al-8v)33(lg-8v)l(xl-5v)
+15 (al-7v)33(lg-7v)7>(x7>-5v)
+17 (al-6v)33(lg-6v)(3)ll((8)ll-5v)(4)
+19 (al-5v)33(lg-5v)l(4)ll((3)ga(3)ll-5v)(3)gl
+21 (al-4v)33(lg-4v)lpa(3)((ll(3)ga(3)-5v)ll(3)glp
+23 (al-3v)33(lg-3v)pllpa(3)(ll(3)ga(3)-5v)ll(3)gpllp
+25 (al-2v)33(lg-2v)(2)ll(2)a(3)(ll(3)ga(3)-5v)ll(3)g(2)ll(2)
+27 al33lg(3)ll(3)a(3)(ll(3)ga(3)-5v)ll(3)g(3)ll(3)
+29 33(4)l(4)a(3)(l(3)ga(3)-5v)l(3)g(4)l(4)

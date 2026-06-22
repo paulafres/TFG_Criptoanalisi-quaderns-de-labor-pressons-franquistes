@@ -1,0 +1,10 @@
+43 a(13)pl(3)l 
+45 a(11)pl(5)l
+47 a(9)plplapglpl
+49 a(7)pl(3)l3l(3)l
+51 a(5)pl(5)lpl(5)l
+53 a(3)plpla pgl(3)lapglpl
+55 appg(3)l3l(5)l3l(3)l
+57 3l(5)(la-2v)p(pl-2v)(5)l
+59 (2)lcp gl(3)l3l(3)lappglp
+61 (3)l3l(5)lpl(5)l3l(2)

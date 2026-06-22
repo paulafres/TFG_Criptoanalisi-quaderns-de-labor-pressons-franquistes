@@ -1,0 +1,57 @@
+6p
+1 
+3 
+5 llx
+6 
+7 (11)lxl
+9 11-13-(11)l3l
+15 (4)3(4)l(3)l
+17 (3)3(3)l(5)l
+19 (2)3(2)l(7)l
+21 p3pl(9)l
+23 3l(11)l
+25 xl(6)lla(5)l
+27 xl(4)3l(2)l3(4)l
+29 xl(4)gl(4)la(4)l
+31 xl(3)3l(6)l3(3)l
+33 xl(2)3l(2)glla(2)l3(2)l
+35 xl(2)glp(glla-2v)pla(2)l
+37 xl(2)gl(glla-3v)la(2)l
+39 xl(2)gl(3)(glla-2v)(3)la(2)l
+41 lpl(2)gl(2)(glla-3v)(2)la(2)
+43 l(3)la(2)l(glla-4v)l(2)g
+45 l(5)la(2)l(2)(glla-3v)(2)l(2)g
+47 l(7)la(2)l(glla-4v)l(2)g
+49 l(4)lxl(4)la(2)la(glla-3v)gl(2)g
+51 l(6)lxl(6)la(2)l3(glla-2v)3l(2)g
+53 l(8)lxl(8)la(2)lapgllapgl(2)g
+55 l(4)g(4)lxl(4)a(4)la(2)l(glla-2v)l(2)g
+57 l(11)lxl(11)la(2)lagllagl(2)g
+59 l(13)lpl(13)(la(2)-2v)gl(2)g
+61 lpl(5)3(5)l(3)l(5)3(5)lpla(2)la gl(2)g
+63 l(3)l(4)3(4)l(5)l(4)3(4)l(3)la(2)lgl(2)g
+65 l(5)l(3)3(3)l(7)l(3)3(3)l(5)la(5)g
+67 lgl(3)lal(2)3(2)l(9)l(2)3(2)lgl(3)(la-2v)(3)g
+69 (lg-2v)lp(la-2v)lp3pl(11)lp3pl(gl-2v)p(la-2v)pg
+71 (lg-2v)l(3)(la-2v)l3l(13)l3l(gl-2v)(3)(la-2v)l3
+73 (gl-3v)p(la-3v)lxl(15)lxl(gl-3v)p(la-3v)lxl
+75 (al-2v)ap(gl-4v)(17)(la-4v)p(gl-3v)(3)l
+77 (al-2v)3(lp-3)lpl(3)(glla(3)-2v)lp(la-3v)l3l(pl-2v)(5)l
+79 lap(gl-3v)(3)lpgllagll3llagllapl(3)(la-3v)p(gl-2v)(7)l
+81 al3l(gl-2v)(5)l-2v)(7)(l(8)-2v)(la-2v)l3lgl(9)l
+83 ap(gl-2v)(7)l(3)(glpla(3)-2v)l(7)(la-2v)pgl(4)3(4)l
+85 3lgl(9)l(2)gl(3)lapgl(3)la(2)l(9)lal3l(4)3(4)l
+87 3l(4)3(4)l(l3lglpla-2v)(l3l(4)3(4)-2v)l
+89 al(3)3(3)l(gl-2v)(3)lalxlgl(3)(la-2v)l(3)3(3)lgl(3)gl11>la(3)l
+91 al(2)3(2)(lg-3v)lp(la-2v)lxl(gl-2v)p(la-3v)l(2)3(2)lgl(3)gl(13)la(3)l
+93 alp3p(lg-3v)lpg(la-2v)lxl(gl-2v)ap(la-3v)lp3plpgl(3)gl(15)la(3)l
+95 al3(lg-3v)l(4)(la-2v)lxl(gl-2v)(4)(la-3v)l3lgl(3)g(l(4)-2v)l11>l((4)l-2v)a(3)l
+97 ap(gl-3v)(6)(la-2v)p(gl-2v)(6)(la-3v)pg(l(3)g3-3v)l(13)l(a(3)l-3v)
+99 3l(gl-2v)(2)glla(2)lal3lpl(2)glla(2)(la-2v)l3(l(3)g-3v)l(15)l(a(3)l-3v)
+101 apglp(glla-2v)plapglp(glla-2v)plapgl(3)gl-3v)(17)l(a(3)l-3v)
+103 3l(glla-3v)l3l-2v)(3pl-3v)(19)l(a(3)l-3v)
+105 (4)3l(2)la(3)g(4)gl(2)l3l(4)l(3)gl-3v)(21)l(a(3)l-3v)
+107 (gll3l(2)ll(2)l3lla-2v)l(3)gl-3v)
+109 (2)gl(2)ll(4)ll(2)lagllagl(2)ll(4)l(2)la(2)l(3)gl-3v)(25)l(a(3)l-3v)
+111 pgl(7)ll(7)l3pgl(7)ll(7)lapl(13)gl-3v)(27)l(a(3)l-3v)
+113 g(18)3(18)al(13)gl-3v)(29)(a(3)l-3v)

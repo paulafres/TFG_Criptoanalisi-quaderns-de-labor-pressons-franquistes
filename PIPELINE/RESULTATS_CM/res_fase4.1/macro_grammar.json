@@ -1,0 +1,191 @@
+{
+  "metadades": {
+    "nivell": "macro (volta-en-teixit)",
+    "ngram_order": 2,
+    "smoothing_k": 0.5,
+    "alfabet": [
+      "V0",
+      "V1",
+      "V2"
+    ],
+    "vocab_size": 3,
+    "num_seqs": 11,
+    "num_tokens": 656,
+    "H_global_bits": 1.1717,
+    "n_contexts": 4,
+    "num_rare_transitions_count1": 1
+  },
+  "model": {
+    "ngram_counts": {
+      "<BOS>": {
+        "V1": 6,
+        "V0": 4,
+        "V2": 1
+      },
+      "V1": {
+        "V0": 102,
+        "V1": 210,
+        "<EOS>": 7,
+        "V2": 8
+      },
+      "V0": {
+        "V1": 103,
+        "V0": 193,
+        "<EOS>": 3,
+        "V2": 3
+      },
+      "V2": {
+        "V1": 8,
+        "V0": 3,
+        "V2": 15,
+        "<EOS>": 1
+      }
+    },
+    "context_totals": {
+      "<BOS>": 11,
+      "V1": 327,
+      "V0": 302,
+      "V2": 27
+    },
+    "transition_probabilities": {
+      "<BOS>": {
+        "V0": 0.346154,
+        "V1": 0.5,
+        "V2": 0.115385,
+        "<EOS>": 0.038462
+      },
+      "V1": {
+        "V0": 0.31155,
+        "V1": 0.639818,
+        "V2": 0.025836,
+        "<EOS>": 0.022796
+      },
+      "V0": {
+        "V0": 0.636513,
+        "V1": 0.340461,
+        "V2": 0.011513,
+        "<EOS>": 0.011513
+      },
+      "V2": {
+        "V0": 0.12069,
+        "V1": 0.293103,
+        "V2": 0.534483,
+        "<EOS>": 0.051724
+      }
+    },
+    "H_per_context_bits": {
+      "<BOS>": 1.5701,
+      "V1": 1.197,
+      "V0": 1.0924,
+      "V2": 1.5912
+    }
+  },
+  "summary_per_teixit": {
+    "CM_Pasión": {
+      "len": 68,
+      "mean_surprisal_bits": 1.0887,
+      "max_surprisal_bits": 5.4551,
+      "perplexity": 2.1268,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 69
+    },
+    "CM_Angelines": {
+      "len": 43,
+      "mean_surprisal_bits": 1.1053,
+      "max_surprisal_bits": 5.4551,
+      "perplexity": 2.1514,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 44
+    },
+    "CM_Eterna": {
+      "len": 17,
+      "mean_surprisal_bits": 1.2295,
+      "max_surprisal_bits": 5.4551,
+      "perplexity": 2.3448,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 18
+    },
+    "CM_Pelargonia": {
+      "len": 39,
+      "mean_surprisal_bits": 1.154,
+      "max_surprisal_bits": 6.4406,
+      "perplexity": 2.2253,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 40
+    },
+    "CM_Gardenia": {
+      "len": 115,
+      "mean_surprisal_bits": 1.1521,
+      "max_surprisal_bits": 6.4406,
+      "perplexity": 2.2223,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 116
+    },
+    "CM_Hojas de Roble": {
+      "len": 59,
+      "mean_surprisal_bits": 0.9951,
+      "max_surprisal_bits": 5.4551,
+      "perplexity": 1.9932,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 60
+    },
+    "CM_Punto Angelines": {
+      "len": 31,
+      "mean_surprisal_bits": 2.2944,
+      "max_surprisal_bits": 5.2745,
+      "perplexity": 4.9054,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 32
+    },
+    "CM_Pepita": {
+      "len": 64,
+      "mean_surprisal_bits": 1.056,
+      "max_surprisal_bits": 5.4551,
+      "perplexity": 2.0792,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 65
+    },
+    "CM_Copas de champán": {
+      "len": 52,
+      "mean_surprisal_bits": 1.185,
+      "max_surprisal_bits": 6.4406,
+      "perplexity": 2.2737,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 53
+    },
+    "CM_Hojas y cactus": {
+      "len": 37,
+      "mean_surprisal_bits": 1.1775,
+      "max_surprisal_bits": 5.4551,
+      "perplexity": 2.2618,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 38
+    },
+    "CM_Abouchete": {
+      "len": 131,
+      "mean_surprisal_bits": 1.0092,
+      "max_surprisal_bits": 5.4551,
+      "perplexity": 2.0127,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 132
+    }
+  },
+  "rare_transitions_count1": [
+    {
+      "context": "V2",
+      "symbol": "<EOS>",
+      "count": 1
+    }
+  ]
+}

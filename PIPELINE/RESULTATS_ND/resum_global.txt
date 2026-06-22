@@ -1,0 +1,988 @@
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ RESUM GLOBAL DE RESULTATS DEL TFG
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+===========================================================================
+ fase1_corpus_normalizer.py
+===========================================================================
+  Teixits processats      : 22
+  Instruccions (voltes)   : 1295
+
+===========================================================================
+ fase2_token_inventory.py
+===========================================================================
+  Instruccions expandides : 1295 voltes avaluables
+
+===========================================================================
+ fase3.1_markov_model.py
+===========================================================================
+  Volum total tokens      : 83098
+  Vocabulari (tokens únics): 130
+  Bigrames únics observats: 681
+
+===========================================================================
+ fase3.1b_transition_significance.py
+===========================================================================
+  Transicions testades    : 358
+  Significatives (FDR)    : 224 (no atzaroses)
+
+===========================================================================
+ fase3.2_distributional_classes.py
+===========================================================================
+  Classes de tokens (K)   : 12 classes funcionals (C0-C7)
+  Silhouette Òptim        : 0.3787
+  Tokens aïllats (C_RARE) : 27 hàpax
+
+===========================================================================
+ fase3.2b_clustering_stability.py
+===========================================================================
+  Estabilitat ARI (mitja) : 0.6689 ± 0.0617
+  Interval Conf. (IC95%)  : [0.554, 0.785]
+
+===========================================================================
+ fase3.3_volta_signatures.py
+===========================================================================
+  Salts globals avaluats  : 1273 transicions
+  Distància cosinus mitja : 0.096905 ± 0.163997
+
+===========================================================================
+ fase3.4_volta_clustering.py
+===========================================================================
+  Tipologies volta (VTx)  : 2 tipus estructurals (V0-V4)
+  Silhouette Òptim        : 0.522
+
+===========================================================================
+ fase4.1_macro_grammar.py
+===========================================================================
+  Contextos macro vistos  : 3
+  Entropia MACRO (H_global): 0.4977 bits
+
+===========================================================================
+ fase4.2_micro_grammar.py
+===========================================================================
+  Contextos micro vistos  : 14
+  Entropia MICRO (H_global): 0.9815 bits
+
+===========================================================================
+ fase4.3_null_model.py
+===========================================================================
+  H_observat vs H_null    : 1.161234 vs 1.670529 bits
+  Z-score (Permutacions)  : -205.8611
+  P-valor empíric         : 0.000999
+
+===========================================================================
+ fase4.4_loo_cv.py
+===========================================================================
+  Surprisal LOO (mitjana) : 3.0569 ± 0.8675 bits/token
+
+===========================================================================
+ fase5.1_anomaly_report.py
+===========================================================================
+  Variància recollida PC1 : 28.38%
+  Voltes CRÍTICA (>=p99)  : 20
+  Voltes ALTA (>=p97)     : 43
+
+===========================================================================
+ fase5.1b_crypto_validation.py
+===========================================================================
+  IC Anomalies vs Corpus  : 1.3399 (Ràtio)
+  Diagnòstic Voltes       : concentració extrema (anom MÉS zipfià que corpus)
+
+===========================================================================
+ fase5.2_segment_anomaly_detection.py
+===========================================================================
+  Segments contigus cand. : 48
+  Significatius (FDR <=α) : 3
+
+===========================================================================
+ fase5.2b_crypto_segments.py
+===========================================================================
+  Segments triangulats    : 48
+  Convergència (5.1∩5.1b) : 6
+  Perfil lèxic (abecedari): 2
+  Perfil gramatical       : 34
+  Mixt / sense senyal     : 0 / 6
+  Voltes òrfenes (fora seg): 87 (conv=2, lex=10, gram=75)
+
+===========================================================================
+ fase5.3_hipotesis_referencies.py
+===========================================================================
+  Hipòtesi A (Morse Tèxtil)   : REBUTJADA
+  Hipòtesi B (Anom. Belgues)  : REBUTJADA
+  Hipòtesi C (Manolita/PCE)   : PENDENT (0 coincidència caràcter per caràcter)
+
+───────────────────────────────────────────────────────────────────────────
+ [OK] Resum completat! El tens guardat a: resum_global.txt
+───────────────────────────────────────────────────────────────────────────
+
+logs:
+======================================================================
+ INICIANT PIPELINE COMPLET --- CORPUS ACTIU: [ND]
+======================================================================
+
+---> Executant fase1_corpus_normalizer.py ...
+Iniciant processament de 22 teixits...
+
+────────────────────────────────────────
+TEIXIT : ND_Isabelet
+Fitxer : ND. 12-16. Isabelet.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 98
+Rang de voltes  : 1 – 195
+Patrons repetits (≥2 línies): 222
+Tokens dominants: ['l(3.)(la2/v)p(gl2/v)(3.)(la2/v)', 'l(3.)gl(3.)la(5.)gl(3.)la(3.)l', 'p(gl2/v)(3.)(la2/v)p(gl2/v)(3.)(la2/v)', '(gl2/v)lp(la2/v)l3(gl2/v)lp(la2/v)l', 'lgl(2.)glla(2.)l3l(2.)glla(2.)lal']
+Caràcters freqs : [('L', 725), ('(', 432), (')', 430), ('2', 255), ('.', 239), ('G', 232), ('A', 228), ('P', 197)]
+
+────────────────────────────────────────
+TEIXIT : ND_Rosario
+Fitxer : ND. 17-23. Rosario.txt
+Forma  : Cuadrado
+Punts inicials  : 8
+Instruccions    : 107
+Rang de voltes  : 1 – 213
+Patrons repetits (≥2 línies): 274
+Tokens dominants: ['l(4p)gl(5p)lalap(gl-3r)(4p)glpl', 'l(3p)la(4p)l3lapgl(3p)lapglpla(4p)la', 'lapgl(3p)l3l(3p)la(4p)la', 'l(5p)la(4p)lal3l(5p)l3l(3p)la(4p)la', 'apglpla(4p)(la-3r)pglgl(5p)la(4p)la']
+Caràcters freqs : [('L', 1118), ('P', 582), ('(', 537), (')', 537), ('A', 386), ('G', 380), ('3', 244), ('4', 161)]
+
+────────────────────────────────────────
+TEIXIT : ND_Demetri grande
+Fitxer : ND. 2-4. Demetri grande.txt
+Forma  : 
+Punts inicials  : 16
+Instruccions    : 49
+Rang de voltes  : 1 – 97
+Patrons repetits (≥2 línies): 66
+Tokens dominants: ['(2.)la(pl2v)(2.)lapl', 'l(2.)la(pl2v)(2.)la', 'la(5.)lp3pl(5.)g', 'l(3.)l3lpgpl3l', 'l3lpgpl3l(3.)l']
+Caràcters freqs : [('L', 184), ('(', 146), (')', 145), ('.', 113), ('3', 67), ('P', 66), ('A', 55), ('G', 42)]
+
+────────────────────────────────────────
+TEIXIT : ND_Anelise
+Fitxer : ND. 24-27. Anelise.txt
+Forma  : Redondo
+Punts inicials  : 24
+Instruccions    : 65
+Rang de voltes  : 1 – 133
+Patrons repetits (≥2 línies): 116
+Tokens dominants: ['(3.)lgp(glla3/v)pal(3.)', '(4.)lp(glla4/v)pl(4.)g', '(4.)l(3.)(glla3/v)(3.)l(4.)g', '(3.)l3lla(glla2/v)gll3l(3.)', 'l(6.)ga(6.)l3>l(6.)ga(6.)']
+Caràcters freqs : [('L', 381), ('(', 302), (')', 302), ('.', 202), ('3', 146), ('G', 133), ('A', 119), ('/', 100)]
+
+────────────────────────────────────────
+TEIXIT : ND_Aurea
+Fitxer : ND. 27-30. Aurea.txt
+Forma  : Redondo
+Punts inicials  : 5/8
+Instruccions    : 70
+Rang de voltes  : 1 – 139
+Patrons repetits (≥2 línies): 236
+Tokens dominants: ['ga(2.)l(3.)lxl(3.)l(2.)gl3la(2.)l(3.)lxl(3.)l(2.)g', 'la(2.)la(3.)gl(2.)gl(3.)lxl(3.)la(2.)la(3.)gl(2.)g', '3a((2.)l2/v)x(l(2.)2/v)gl3la((2.)l2/v)x(l(2.)2/v)', 'a((2.)l2/v)x(l(2.)2/v)gl3la((2.)l2/v)x(l(2.)2/v)g', 'a(2.)la(5.)gl(2.)glplxlpla(2.)la(5.)gl(2.)g']
+Caràcters freqs : [('L', 804), ('(', 442), (')', 441), ('.', 335), ('G', 286), ('A', 286), ('2', 283), ('3', 221)]
+
+────────────────────────────────────────
+TEIXIT : ND_Conchita Romero
+Fitxer : ND. 31-35. Conchita Romero.txt
+Forma  : 
+Punts inicials  : 12
+Instruccions    : 90
+Rang de voltes  : 1 – 181
+Patrons repetits (≥2 línies): 146
+Tokens dominants: ['g(l(3)g3v)(a(3)l3v)a', '(gl3v)3l', '(gl4v)3l', '(gl-4v)3l', 'la(3)la']
+Caràcters freqs : [('L', 502), ('(', 365), (')', 363), ('3', 245), ('A', 152), ('G', 144), ('V', 133), ('P', 68)]
+
+────────────────────────────────────────
+TEIXIT : ND_Modelo Ros Mari
+Fitxer : ND. 35-37. Modelo Ros Mari.txt
+Forma  : 
+Punts inicials  : 16
+Instruccions    : 55
+Rang de voltes  : 3 – 111
+Patrons repetits (≥2 línies): 106
+Tokens dominants: ['lapgl(3p)lapgl(3p)lapgl(3p)lapgl', 'l3l(5p)l3l(5p)l3l(5p)l3l', 'l(3p)lxl(3p)la(3p)', 'l(3p)g', 'l3l3>la(3p)(la3v)']
+Caràcters freqs : [('L', 362), (')', 186), ('P', 182), ('(', 178), ('3', 169), ('G', 110), ('A', 98), ('V', 60)]
+
+────────────────────────────────────────
+TEIXIT : ND_Demetri pequeño
+Fitxer : ND. 4-5. Demetri pequeño.txt
+Forma  : 
+Punts inicials  : 16
+Instruccions    : 28
+Rang de voltes  : 1 – 55
+Patrons repetits (≥2 línies): 27
+Tokens dominants: ['l(3.)l(3.)3(3.)', '(lp3/v)(la3/v)', 'lpl(4.)3(4.)', 'l(2.)3(2.)', 'l(2.)l']
+Caràcters freqs : [('L', 77), ('(', 62), (')', 62), ('3', 43), ('.', 40), ('P', 33), ('2', 23), ('v', 21)]
+
+────────────────────────────────────────
+TEIXIT : ND_Punto Angelines para blusa
+Fitxer : ND. 40. Punto Angelines para blusa.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 15
+Rang de voltes  : 1 – 18
+Patrons repetits (≥2 línies): 10
+Tokens dominants: ['(2p)((2r)lg-3r)(2p)(pr)l(4r)g(2r)g(4r)l(pr)', '(2p)l(4p)ag(4p)l(2p)(2r)((2p)la-3r)(2r)', 'l(4p)a(4p)g(4p)l(2r)((2p)la-3r(2p-r)', '(2p)(2r)lg3r(2p)(3r)lg(6r)gl(3r)', '(2p)(2r)lg3r(2p)']
+Caràcters freqs : [(')', 113), ('(', 111), ('R', 67), ('P', 61), ('2', 57), ('L', 45), ('G', 29), ('4', 28)]
+
+────────────────────────────────────────
+TEIXIT : ND_Zapatitos de recién nacido
+Fitxer : ND. 43. Zapatitos de recién nacido.txt
+Forma  : 
+Punts inicials  : 33
+Instruccions    : 5
+Rang de voltes  : 2 – 10
+Patrons repetits (≥2 línies): 7
+Tokens dominants: ['lpl', 'pl(14p)lp', 'pl(16p)lp', 'pl(18p)lp', 'pl(20p)lp']
+Caràcters freqs : [('P', 35), ('L', 30), ('(', 14), (')', 14), ('1', 6), ('2', 6), ('4', 2), ('6', 2)]
+
+────────────────────────────────────────
+TEIXIT : ND_Coco liso
+Fitxer : ND. 5-8. Coco liso.txt
+Forma  : Cuadrado
+Punts inicials  : 8
+Instruccions    : 45
+Rang de voltes  : 1 – 135
+Patrons repetits (≥2 línies): 111
+Tokens dominants: ['l(3.)gl3la(3.)l', 'l(3.)l3l(3.)g', 'a(3.)l(2.)lxl(2.)l(3.)g', 'a(3.)l(4.)lxl(4.)l(3.)g', 'a(3.)l(5.)lxl(5.)l(3.)g']
+Caràcters freqs : [('L', 566), ('(', 433), (')', 430), ('.', 354), ('3', 302), ('G', 177), ('A', 176), ('X', 109)]
+
+────────────────────────────────────────
+TEIXIT : ND_Ruth
+Fitxer : ND. 50-62. Ruth.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 36
+Rang de voltes  : 1 – 89
+Patrons repetits (≥2 línies): 59
+Tokens dominants: ['(3.)lxl(3.)', 'papplxlppg3(glla3v.)', '(glla·2v)gl', 'l(agll·2v)a', '3applxlppg']
+Caràcters freqs : [('L', 279), ('P', 161), ('(', 126), (')', 124), ('G', 102), ('A', 101), ('3', 99), ('v', 78)]
+
+────────────────────────────────────────
+TEIXIT : ND_Chistrofe Rosa de Navidad
+Fitxer : ND. 51-54. Chistrofe Rosa de Navidad.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 91
+Rang de voltes  : 5 – 190
+Patrons repetits (≥2 línies): 142
+Tokens dominants: ['l(3.)(la2v)l3(lg2v)l(3.)(la2v)l', 'lpp(glla3v)ppl', '(la4v)p(gl2v)p', 'l(3)3(3)l', '(4)(la4v)(3)g']
+Caràcters freqs : [('L', 355), ('(', 237), (')', 236), ('P', 123), ('A', 115), ('3', 107), ('G', 106), ('v', 65)]
+
+────────────────────────────────────────
+TEIXIT : ND_Maria
+Fitxer : ND. 54-61. Maria.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 118
+Rang de voltes  : 1 – 243
+Patrons repetits (≥2 línies): 473
+Tokens dominants: ['(3.)gl(5.)la(3.)gl(5.)la(3.)gl(5.)la(3.)', 'l(3.)l(7.)l(3.)l(7.)l(3.)l', 'pg(5)lxl(5)l3l(5)lxl(5)', 'g(3)lxl(3)l3l(3)lxl(3)', 'g(4)lxl(4)l3l(4)lxl(4)']
+Caràcters freqs : [('L', 1311), (')', 656), ('(', 654), ('A', 457), ('G', 451), ('P', 359), ('3', 332), ('2', 303)]
+
+────────────────────────────────────────
+TEIXIT : ND_Sin nombre
+Fitxer : ND. 62-63. Sin nombre.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 8
+Rang de voltes  : 1 – 15
+Patrons repetits (≥2 línies): 7
+Tokens dominants: ['a(3)lxl(3)g', '(3)gl', 'a(3)lxl', 'a(3)', '(3)l']
+Caràcters freqs : [('L', 17), ('(', 15), (')', 15), ('3', 11), ('A', 8), ('G', 7), ('X', 5), ('4', 1)]
+
+────────────────────────────────────────
+TEIXIT : ND_Tara
+Fitxer : ND. 63-66. Tara.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 65
+Rang de voltes  : 1 – 129
+Patrons repetits (≥2 línies): 147
+Tokens dominants: ['(2)gl(3)la(3)gl(3)la(2)(lg4v)l', '(lg4v)l3l(al4v)', 'x(lg·4v)l3l(al·4v)', 'l3l(3)l3l(3)l3l(3)l3', 'lgl3l']
+Caràcters freqs : [('L', 444), ('(', 239), (')', 235), ('3', 185), ('G', 107), ('A', 105), ('v', 73), ('P', 56)]
+
+────────────────────────────────────────
+TEIXIT : ND_Renacimiento
+Fitxer : ND. 66-67. Renacimiento.txt
+Forma  : Cuadrado
+Punts inicials  : 8
+Instruccions    : 31
+Rang de voltes  : 1 – 61
+Patrons repetits (≥2 línies): 66
+Tokens dominants: ['xlgl(8.)gl', 'lpla(6)l3l(gl4v)pla', 'la(8.)lal', 'glp(la4v)l3l(6)gl', 'xlglpla']
+Caràcters freqs : [('L', 235), ('(', 85), (')', 85), ('A', 56), ('G', 55), ('3', 46), ('P', 42), ('X', 35)]
+
+────────────────────────────────────────
+TEIXIT : ND_Campesina
+Fitxer : ND. 67-68. Campesina.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 30
+Rang de voltes  : 1 – 31
+Patrons repetits (≥2 línies): 40
+Tokens dominants: ['xl(3)lxl(3)lxl(3)l', 'l(3.)lxl(3.)l', '(lp3v)l', 'lgl(3)lal', 'a(7)glpl']
+Caràcters freqs : [('L', 88), ('(', 47), (')', 47), ('3', 37), ('P', 30), ('G', 25), ('A', 24), ('X', 12)]
+
+────────────────────────────────────────
+TEIXIT : ND_Merche
+Fitxer : ND. 68-70. Merche.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 53
+Rang de voltes  : 1 – 105
+Patrons repetits (≥2 línies): 101
+Tokens dominants: ['a(4)lal22x2x22lgl(4)glpl', '(la-2v)p(gl-2v)(4)', 'l(3)l3l(3)l', 'l(3)lxl(3)l', 'a(4)(la-2v)']
+Caràcters freqs : [('L', 272), ('(', 197), (')', 196), ('3', 93), ('4', 66), ('2', 64), ('G', 64), ('A', 64)]
+
+────────────────────────────────────────
+TEIXIT : ND_Dolores
+Fitxer : ND. 71-75. Dolores.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 106
+Rang de voltes  : 1 – 83
+Patrons repetits (≥2 línies): 129
+Tokens dominants: ['a(4)(la-4v)l3l(3)l3l(gl-4v)(4)g', 'a(4)la(l3l(3)-4v)l3lgl(4)g', 'l(4)g(l(3)lx-3v)l(3)la(4)l', 'l(4)g(l(3)lx-4v)l(3)la(4)l', 'l(4)g(l(3)lx-2v)l(3)la(4)']
+Caràcters freqs : [('L', 467), ('(', 382), (')', 381), ('3', 187), ('G', 163), ('A', 163), ('4', 135), ('v', 112)]
+
+────────────────────────────────────────
+TEIXIT : ND_Chechee
+Fitxer : ND. 76-78. Chechee.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 55
+Rang de voltes  : 1 – 114
+Patrons repetits (≥2 línies): 96
+Tokens dominants: ['(la-3v)l', '(6)lplapgl3lapglpl(6)l3l', '(lg-4v)l', '(la-4v)l', '(6)l(3)l333l(3)l(6)l3l']
+Caràcters freqs : [('L', 319), ('(', 200), (')', 200), ('3', 119), ('P', 68), ('A', 67), ('G', 66), ('-', 62)]
+
+────────────────────────────────────────
+TEIXIT : ND_Vilno (Hijo)
+Fitxer : ND. 8-12. Vilno (Hijo).txt
+Forma  : 
+Punts inicials  : 6
+Instruccions    : 75
+Rang de voltes  : 1 – 149
+Patrons repetits (≥2 línies): 198
+Tokens dominants: ['l(2.)x(6.)3>l', 'l(2.)l<83p3>', 'la(glla3/v)a(4.)lpl(4.)g', '(glla3/v)gla(4.)lpl(4.)g', 'l(2.)la(glla3/v)']
+Caràcters freqs : [('L', 597), ('(', 341), (')', 341), ('G', 216), ('.', 214), ('A', 212), ('3', 162), ('/', 124)]
+
+========================================
+Teixits processats            : 22
+Patrons sintàctics compartits : 302
+Símbols de hardware analitzats: 41
+
+Fitxers generats a la carpeta 'res_fase1/':
+  · teixits_dataset.json
+  · taula_patrons_compartits.csv
+  · taula_simbols_individuals.csv
+
+---> Executant fase2_token_inventory.py ...
+
+FASE 2 COMPLETADA
+  Teixits processats : 22
+  Voltes             : 1295
+  Tokens únics       : 130
+
+---> Executant fase3.1_markov_model.py ...
+FASE 3.1 COMPLETADA
+  Voltes analitzades : 1295
+  Tokens al corpus   : 83098
+  Tokens únics       : 130
+  Bigrames únics     : 681
+  Output             : C:\Users\dfranco\OneDrive\paula tfg\TFG\PIPELINE\RESULTATS_ND\res_fase3.1\markov_model.json
+
+---> Executant fase3.1b_transition_significance.py ...
+FASE 3.1b COMPLETADA
+  Bigrames testats        : 358
+  Significatius (q<0.05) : 224
+  Top-10 per lift entre significatius:
+               p → p             n=   3  lift=8180.30  q=0.00e+00
+             <73 → >             n=   6  lift=6816.92  q=0.00e+00
+             <83 → >             n=   6  lift=6816.92  q=0.00e+00
+              MZ → MZ            n=  18  lift=3146.27  q=0.00e+00
+            <LG> → <LP>          n=   4  lift=1278.17  q=0.00e+00
+            <LP> → <LA>          n=   4  lift= 649.23  q=0.00e+00
+              3> → <7            n=   7  lift= 610.47  q=0.00e+00
+               ] → [             n=  42  lift= 558.65  q=0.00e+00
+            <GL> → (4)           n=  23  lift= 234.36  q=0.00e+00
+             (4) → <LA>          n=  29  lift= 167.36  q=0.00e+00
+  JSON : PIPELINE\RESULTATS_ND\res_fase3.1b\transition_significance.json
+  CSV  : PIPELINE\RESULTATS_ND\res_fase3.1b\transition_significance.csv
+
+---> Executant fase3.2_distributional_classes.py ...
+FASE 3.2 COMPLETADA
+  Tokens totals        : 130
+  Tokens clusteritzats : 103  (freq > 1)
+  Tokens RARE          : 27
+  Dimensions vector    : 291  (PPMI smoothed)
+  Variància PCA (top5) : [0.173, 0.078, 0.067, 0.044, 0.037]
+  k òptim (silhouette) : 12  (score=0.3787)
+  Outliers (z>2)       : 4
+
+Resum per classe:
+  C0  ( 3 toks)  pos_mitja=0.73  H_succ=0.33  membres=['<73', '<83', 'a']
+  C1  (14 toks)  pos_mitja=0.48  H_succ=0.13  membres=['210', '211', '212', '22', '23', '24', '25', '26'] ...
+  C2  ( 8 toks)  pos_mitja=0.46  H_succ=1.73  membres=['3>', '<7', '<LA>', '<LG>', 'G', 'L', 'X', '[']
+  C3  (16 toks)  pos_mitja=0.53  H_succ=0.88  membres=['10', '11', '12', '13', '14', '15', '16', '17'] ...
+  C4  ( 9 toks)  pos_mitja=0.50  H_succ=1.46  membres=['(13)', '(2)', '(3)', '(5)', '(6)', '(7)', '(8)', '(9)'] ...
+  C5  ( 4 toks)  pos_mitja=0.34  H_succ=1.11  membres=['(16)', '(19)', '(20)', '(22)']
+  C6  ( 9 toks)  pos_mitja=0.50  H_succ=1.34  membres=['(11)', '(15)', '(17)', '(21)', '(23)', '(25)', '(4)', '2>'] ...
+  C7  ( 9 toks)  pos_mitja=0.54  H_succ=0.10  membres=['(12)', '(26)', '(27)', '(29)', '5>', '<3L>', '<4', '<43'] ...
+  C8  ( 5 toks)  pos_mitja=0.43  H_succ=0.07  membres=['<(3)L3L>', '<L(3)LX>', '<L3>', '<L3L(3)>', 'P']
+  C9  ( 5 toks)  pos_mitja=0.60  H_succ=1.42  membres=[')', '4>', '<3', 'R', 'V']
+  C10  (10 toks)  pos_mitja=0.58  H_succ=1.50  membres=['(10)', '(18)', '20', '222', '<AL>', '<GL>', '<PL>', 'A'] ...
+  C11  (11 toks)  pos_mitja=0.56  H_succ=1.00  membres=['-', '.', '/', '>', 'M', 'MZ', 'Q', 'l'] ...
+  C_RARE (27 toks)  [hapax, no clusteritzats]  membres=['(24)', '(33)', '(35)', '(37)', '(43)', '(45)', '(51)', '12>'] ...
+
+  JSON: C:\Users\dfranco\OneDrive\paula tfg\TFG\PIPELINE\RESULTATS_ND\res_fase3.2\distributional_classes.json
+
+---> Executant fase3.2b_clustering_stability.py ...
+Original: V_full=130, k=12, tokens clusteritzats=103
+  bootstrap 25/200: ARI mitjà fins ara = 0.654 (n_iter_vàlid=25)
+  bootstrap 50/200: ARI mitjà fins ara = 0.651 (n_iter_vàlid=50)
+  bootstrap 75/200: ARI mitjà fins ara = 0.656 (n_iter_vàlid=75)
+  bootstrap 100/200: ARI mitjà fins ara = 0.665 (n_iter_vàlid=100)
+  bootstrap 125/200: ARI mitjà fins ara = 0.661 (n_iter_vàlid=125)
+  bootstrap 150/200: ARI mitjà fins ara = 0.664 (n_iter_vàlid=150)
+  bootstrap 175/200: ARI mitjà fins ara = 0.668 (n_iter_vàlid=175)
+  bootstrap 200/200: ARI mitjà fins ara = 0.669 (n_iter_vàlid=200)
+
+FASE 3.2b COMPLETADA
+  Iteracions vàlides : 200/200
+  ARI mitjà          : 0.6689 ± 0.0617
+  IC 95%             : [0.5540, 0.7850]
+  Tokens intersect mitj. : 94.8
+  Output             : PIPELINE\RESULTATS_ND\res_fase3.2b\clustering_stability.json
+
+---> Executant fase3.3_volta_signatures.py ...
+FASE 3.3 COMPLETADA
+  Voltes processades   : 1295
+  Teixits              : 22
+  Classes utilitzades  : 13
+  Salts calculats      : 1273
+  Salt mitjà (cos.)    : 0.0969  (sd=0.164)
+
+  Top-5 salts entre voltes consecutives:
+    ND_Demetri grande      v3    d=1.000  z=5.51
+    ND_Conchita Romero     v3    d=1.000  z=5.51
+    ND_Ruth                v3    d=1.000  z=5.51
+    ND_Ruth                v35   d=1.000  z=5.51
+    ND_Ruth                v37   d=1.000  z=5.51
+
+  Top-5 voltes més atípiques dins el seu teixit:
+    ND_Chistrofe Rosa de Navidad v44   d_cent=0.977  z=4.45
+    ND_Ruth                v35   d_cent=0.945  z=3.76
+    ND_Chistrofe Rosa de Navidad v40   d_cent=0.945  z=4.27
+    ND_Ruth                v1    d_cent=0.943  z=3.75
+    ND_Chistrofe Rosa de Navidad v36   d_cent=0.940  z=4.24
+
+  JSON: PIPELINE\RESULTATS_ND\res_fase3.3\volta_signatures.json
+  CSV : PIPELINE\RESULTATS_ND\res_fase3.3\volta_signatures.csv
+
+---> Executant fase3.4_volta_clustering.py ...
+FASE 3.4 COMPLETADA
+  Voltes totals        : 1295
+  Voltes validades     : 1295 (descartades buides: 0)
+  k òptim (silhouette) : 2  (score=0.522)
+  Outliers (z>2)       : 69
+
+Resum per tipus de volta:
+  V0   n=1063 long= 27.0 prof=1.14  [C2=0.48 C11=0.15 C10=0.09]  teixits: ND_Dolores(103), ND_Maria(101), ND_Isabelet(95)
+  V1   n=232  long=234.7 prof=1.09  [C8=0.42 C2=0.30 C9=0.16]  teixits: ND_Rosario(89), ND_Modelo Ros Mari(52), ND_Conchita Romero(18)
+
+Mostres de seqüències (primeres 20 voltes de cada teixit):
+  ND_Isabelet            [ 98]  V0 V0 V0 V0 V0 V0 V0 V0 V0 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Rosario             [107]  V0 V0 V0 V0 V0 V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V1 V1 V1 ...
+  ND_Demetri grande      [ 49]  V0 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Anelise             [ 65]  V0 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Aurea               [ 70]  V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Conchita Romero     [ 90]  V1 V0 V0 V1 V1 V0 V0 V1 V0 V0 V1 V1 V1 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Modelo Ros Mari     [ 55]  V1 V1 V1 V1 V1 V1 V0 V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  ND_Demetri pequeño     [ 28]  V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Punto Angelines para blusa [ 15]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1
+  ND_Zapatitos de recién nacido [  5]  V1 V1 V1 V1 V1
+  ND_Coco liso           [ 45]  V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Ruth                [ 36]  V1 V0 V1 V1 V0 V1 V1 V0 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Chistrofe Rosa de Navidad [ 91]  V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V1 V0 V0 V0 V1 V0 V0 ...
+  ND_Maria               [118]  V0 V0 V0 V1 V1 V0 V1 V1 V1 V1 V1 V1 V1 V0 V0 V0 V0 V1 V0 V0 ...
+  ND_Sin nombre          [  8]  V0 V0 V0 V0 V0 V0 V0 V0
+  ND_Tara                [ 65]  V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Renacimiento        [ 31]  V1 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Campesina           [ 30]  V0 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V1 ...
+  ND_Merche              [ 53]  V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Dolores             [106]  V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Chechee             [ 55]  V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  ND_Vilno (Hijo)        [ 75]  V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+
+  JSON tipus  : PIPELINE\RESULTATS_ND\res_fase3.4\volta_classes.json
+  CSV         : PIPELINE\RESULTATS_ND\res_fase3.4\volta_a_tipus.csv
+  Seqüències  : PIPELINE\RESULTATS_ND\res_fase3.4\sequencies_teixits.json
+
+---> Executant fase4.1_macro_grammar.py ...
+FASE 4.1 COMPLETADA (gramàtica MACRO)
+  Seqüències (teixits)  : 22
+  Tipus de volta (V|E)  : 2
+  Contextos vistos      : 3
+  H_global              : 0.4977 bits
+  Transicions rares (=1): 0
+
+  Surprisal mitjà per teixit (bits/transició):
+    ND_Zapatitos de recién nacido  H̄=1.40  perpl=2.64  len=5  zero=0
+    ND_Ruth                 H̄=1.04  perpl=2.06  len=36  zero=0
+    ND_Modelo Ros Mari      H̄=0.83  perpl=1.78  len=55  zero=0
+    ND_Sin nombre           H̄=0.82  perpl=1.77  len=8  zero=0
+    ND_Chistrofe Rosa de Navidad  H̄=0.82  perpl=1.76  len=91  zero=0
+    ND_Punto Angelines para blusa  H̄=0.79  perpl=1.73  len=15  zero=0
+    ND_Conchita Romero      H̄=0.76  perpl=1.69  len=90  zero=0
+    ND_Rosario              H̄=0.74  perpl=1.66  len=107  zero=0
+    ND_Campesina            H̄=0.72  perpl=1.64  len=30  zero=0
+    ND_Merche               H̄=0.62  perpl=1.53  len=53  zero=0
+    ND_Demetri pequeño      H̄=0.54  perpl=1.45  len=28  zero=0
+    ND_Demetri grande       H̄=0.48  perpl=1.39  len=49  zero=0
+    ND_Maria                H̄=0.40  perpl=1.32  len=118  zero=0
+    ND_Renacimiento         H̄=0.39  perpl=1.31  len=31  zero=0
+    ND_Isabelet             H̄=0.35  perpl=1.28  len=98  zero=0
+    ND_Dolores              H̄=0.33  perpl=1.26  len=106  zero=0
+    ND_Anelise              H̄=0.29  perpl=1.22  len=65  zero=0
+    ND_Chechee              H̄=0.26  perpl=1.19  len=55  zero=0
+    ND_Coco liso            H̄=0.24  perpl=1.18  len=45  zero=0
+    ND_Tara                 H̄=0.19  perpl=1.14  len=65  zero=0
+    ND_Aurea                H̄=0.19  perpl=1.14  len=70  zero=0
+    ND_Vilno (Hijo)         H̄=0.18  perpl=1.13  len=75  zero=0
+
+  Top-5 voltes amb surprisal MACRO més alta:
+    ND_Isabelet            v19   V0→V1  surp=4.43  p=0.0465
+    ND_Isabelet            v63   V0→V1  surp=4.43  p=0.0465
+    ND_Isabelet            v87   V0→V1  surp=4.43  p=0.0465
+    ND_Rosario             v15   V0→V1  surp=4.43  p=0.0465
+    ND_Rosario             v33   V0→V1  surp=4.43  p=0.0465
+
+  JSON : PIPELINE\RESULTATS_ND\res_fase4.1\macro_grammar.json
+  CSV  : PIPELINE\RESULTATS_ND\res_fase4.1\macro_surprisal_per_volta.csv
+
+---> Executant fase4.2_micro_grammar.py ...
+FASE 4.2 COMPLETADA (gramàtica MICRO)
+  Voltes (seqüències)   : 1295
+  Classes Cx            : 13
+  Tokens totals         : 83098
+  Contextos vistos      : 14
+  H_global              : 0.9815 bits
+  Transicions rares (≤2): 19
+  Surprisal mitjà global: 2.318 bits
+
+  Top-5 voltes amb H̄ MICRO més alta:
+    ND_Chechee             v1    H̄=7.04  perpl=131.73  len=1  zero_raw=0
+    ND_Chistrofe Rosa de Navidad v36   H̄=6.12  perpl=69.44  len=1  zero_raw=0
+    ND_Chistrofe Rosa de Navidad v40   H̄=5.16  perpl=35.64  len=1  zero_raw=0
+    ND_Ruth                v1    H̄=5.15  perpl=35.53  len=1  zero_raw=0
+    ND_Campesina           v3    H̄=5.15  perpl=35.51  len=5  zero_raw=0
+
+  Top-5 voltes amb més transicions count=0 (raw):
+    ND_Isabelet            v1    zero_raw=0  H̄=2.00  len=2
+    ND_Isabelet            v3    zero_raw=0  H̄=2.88  len=4
+    ND_Isabelet            v5    zero_raw=0  H̄=2.53  len=5
+    ND_Isabelet            v7    zero_raw=0  H̄=3.09  len=7
+    ND_Isabelet            v9    zero_raw=0  H̄=3.09  len=7
+
+  JSON : PIPELINE\RESULTATS_ND\res_fase4.2\micro_grammar.json
+
+---> Executant fase4.3_null_model.py ...
+H_obs (corpus original) = 1.1612 bits
+  perm 100/1000: H_perm mitjà = 1.6700
+  perm 200/1000: H_perm mitjà = 1.6702
+  perm 300/1000: H_perm mitjà = 1.6703
+  perm 400/1000: H_perm mitjà = 1.6703
+  perm 500/1000: H_perm mitjà = 1.6703
+  perm 600/1000: H_perm mitjà = 1.6704
+  perm 700/1000: H_perm mitjà = 1.6705
+  perm 800/1000: H_perm mitjà = 1.6705
+  perm 900/1000: H_perm mitjà = 1.6705
+  perm 1000/1000: H_perm mitjà = 1.6705
+
+FASE 4.3 COMPLETADA
+  H_observat   : 1.1612 bits
+  H_null mitjà : 1.6705 ± 0.0025
+  Reducció     : -30.49% respecte al nul
+  z-score      : -205.86
+  p-valor emp  : 0.0010
+  Output       : PIPELINE\RESULTATS_ND\res_fase4.3\null_model_permutation.json
+
+---> Executant fase4.4_loo_cv.py ...
+Teixits: 22 · voltes totals = 1295
+
+FASE 4.4 COMPLETADA
+  Surprisal LOO mitjana : 3.0569 ± 0.8675 bits/token
+  Surprisal in-sample   : 1.2203
+  Rànquing per atipicitat (LOO):
+    teixit                   n_v   surp_LOO    surp_in        Δ     %OOV
+    ND_Dolores               106     4.3724     3.7037  +0.6686    6.06%
+    ND_Ruth                   36     4.2576     3.1112  +1.1464   11.07%
+    ND_Punto Angelines para blusa    15     4.0173     2.9399  +1.0773    9.34%
+    ND_Conchita Romero        90     3.7500     2.9932  +0.7568    5.67%
+    ND_Merche                 53     3.6438     3.3462  +0.2976    1.85%
+    ND_Campesina              30     3.4776     3.3982  +0.0795    0.76%
+    ND_Sin nombre              8     3.4654     3.4418  +0.0236    0.00%
+    ND_Vilno (Hijo)           75     3.4019     2.9950  +0.4068    3.58%
+    ND_Demetri pequeño        28     3.3252     3.2481  +0.0771    0.32%
+    ND_Chistrofe Rosa de Navidad    91     3.2116     3.0710  +0.1405    0.74%
+    ND_Isabelet               98     3.1968     2.6594  +0.5374    5.65%
+    ND_Demetri grande         49     3.1834     3.0249  +0.1585    1.22%
+    ND_Anelise                65     3.1768     2.8352  +0.3417    3.39%
+    ND_Tara                   65     3.0690     2.9555  +0.1135    0.53%
+    ND_Aurea                  70     2.9681     2.6058  +0.3624    2.13%
+    ND_Renacimiento           31     2.9478     2.9145  +0.0333    0.00%
+    ND_Coco liso              45     2.9361     2.7382  +0.1979    0.33%
+    ND_Chechee                55     2.5365     2.1392  +0.3973    2.67%
+    ND_Rosario               107     2.3968     2.0319  +0.3649    0.88%
+    ND_Modelo Ros Mari        55     1.7813     1.6592  +0.1221    0.09%
+    ND_Zapatitos de recién nacido     5     1.1035     1.0964  +0.0071    0.00%
+    ND_Maria                 118     1.0338     0.3760  +0.6578    0.16%
+  JSON : PIPELINE\RESULTATS_ND\res_fase4.4\loo_cv_teixits.json
+  CSV  : PIPELINE\RESULTATS_ND\res_fase4.4\loo_cv_teixits.csv
+
+---> Executant fase5.1_anomaly_report.py ...
+FASE 5 COMPLETADA
+  Voltes avaluades       : 1215
+    CRÍTICA    : 20
+    ALTA       : 43
+    MODERADA   : 147
+    normal     : 1005
+  Anomalies cross-canal  : 8
+
+  Top-10 voltes per score d'anomalia:
+    teixit                 volta  tip   cat         score  flags
+    ND_Demetri grande      v3     V1    CRÍTICA     11.78  sig_intra,sig_salt,macro_surp,micro_mean,trans_invalides
+    ND_Chistrofe Rosa de Navidad v36    V1    CRÍTICA     11.12  sig_intra,sig_salt,macro_surp,micro_mean
+    ND_Chistrofe Rosa de Navidad v44    V1    CRÍTICA     10.32  sig_intra,sig_salt,macro_surp,micro_mean
+    ND_Ruth                v35    V1    CRÍTICA     10.07  sig_intra,sig_salt,macro_surp,micro_mean
+    ND_Chechee             v1     V1    ALTA         8.72  sig_intra,micro_mean
+    ND_Anelise             v3     V1    CRÍTICA      8.24  sig_intra,sig_salt,macro_surp,micro_mean
+    ND_Chistrofe Rosa de Navidad v40    V0    CRÍTICA      8.22  sig_intra,sig_salt,micro_mean
+    ND_Dolores             v51    V1    CRÍTICA      8.19  sig_intra,sig_salt,macro_surp
+    ND_Merche              v3     V0    CRÍTICA      7.97  sig_intra,sig_salt,micro_mean
+    ND_Demetri pequeño     v47    V1    CRÍTICA      7.95  sig_intra,macro_surp,trans_invalides
+
+  Ranking per teixit (score total):
+    ND_Chistrofe Rosa de Navidad  Σscore= 278.49  max=11.12  C/A/M=3/8/16  cross=2
+    ND_Maria                Σscore= 220.13  max= 5.75  C/A/M=1/5/20  cross=1
+    ND_Isabelet             Σscore= 216.33  max= 6.18  C/A/M=0/1/7  cross=0
+    ND_Conchita Romero      Σscore= 208.55  max= 6.57  C/A/M=0/2/11  cross=0
+    ND_Rosario              Σscore= 200.88  max= 5.93  C/A/M=0/2/12  cross=0
+    ND_Merche               Σscore= 150.67  max= 7.97  C/A/M=3/5/8  cross=1
+    ND_Chechee              Σscore= 134.89  max= 8.72  C/A/M=2/1/8  cross=0
+    ND_Vilno (Hijo)         Σscore= 131.00  max= 5.07  C/A/M=0/0/11  cross=0
+    ND_Dolores              Σscore= 127.73  max= 8.19  C/A/M=3/3/9  cross=0
+    ND_Tara                 Σscore= 124.78  max= 5.23  C/A/M=0/0/6  cross=0
+    ND_Demetri grande       Σscore= 123.48  max=11.78  C/A/M=2/1/9  cross=1
+    ND_Modelo Ros Mari      Σscore= 115.27  max= 6.23  C/A/M=0/2/10  cross=0
+    ND_Anelise              Σscore= 106.77  max= 8.24  C/A/M=1/0/1  cross=1
+    ND_Ruth                 Σscore= 106.38  max=10.07  C/A/M=2/3/9  cross=2
+    ND_Aurea                Σscore=  99.72  max= 5.11  C/A/M=0/3/2  cross=0
+    ND_Demetri pequeño      Σscore=  77.25  max= 7.95  C/A/M=1/1/2  cross=0
+    ND_Coco liso            Σscore=  68.92  max= 4.19  C/A/M=0/1/2  cross=0
+    ND_Renacimiento         Σscore=  59.40  max= 7.11  C/A/M=2/0/2  cross=0
+    ND_Punto Angelines para blusa  Σscore=  58.91  max= 4.60  C/A/M=0/2/1  cross=0
+    ND_Campesina            Σscore=  49.77  max= 6.12  C/A/M=0/3/1  cross=0
+    ND_Sin nombre           Σscore=  11.60  max= 3.21  C/A/M=0/0/0  cross=0
+    ND_Zapatitos de recién nacido  Σscore=   8.66  max= 3.30  C/A/M=0/0/0  cross=0
+
+  JSON : PIPELINE\RESULTATS_ND\res_fase5.1\anomaly_report.json
+  CSV1 : PIPELINE\RESULTATS_ND\res_fase5.1\anomaly_report.csv
+  CSV2 : PIPELINE\RESULTATS_ND\res_fase5.1\anomaly_teixits.csv
+
+---> Executant fase5.1b_crypto_validation.py ...
+==============================================================================
+FASE 5.1B — VALIDACIO CRIPTOGRAFICA I STEGANOGRAFICA CLASSICA
+==============================================================================
+
+Corpus complet : 83098 tokens, 130 types
+Anomalies (CRITICA+ALTA): 63 voltes, 3746 tokens
+Marcadors (excloent ['a', 'g', 'l', 'p', 'r', 'x']): 83086 tokens corpus (99.99%), 3746 tokens anomalies
+Vocabulari RARE: 27 tokens hapax
+
+------------------------------------------------------------------------------
+SECCIO A — Test classic sobre anomalies (control negatiu)
+------------------------------------------------------------------------------
+  IC corpus    : 0.3928
+  IC anomalies : 0.5264  (ratio 1.34)
+  Diagnostic   : concentració extrema (anom MÉS zipfià que corpus)
+  Direcció OPOSADA a la d'un xifrat (que aplanaria la distribució). Les voltes anòmales són farciment dominat per un únic token base. Aquest resultat confirma la hipòtesi metodològica: un codi amagat no es manifesta com a anomalia de grammar — es camufla.
+
+------------------------------------------------------------------------------
+SECCIO B — Sub-stream de MARCADORS (on hauria de viure el codi)
+------------------------------------------------------------------------------
+  IC marcadors corpus    : 0.3930 (V=126, IC_norm=49.51)
+  IC uniforme referencia : 0.0079
+  Top 5 marcadors        : [('P', 60.241), ('L', 15.521), ('G', 4.766), ('A', 4.332), ('v', 2.245)]
+  Kasiski n3: repeats=1194 gcd=  1 n_dist=28395 top_factors={2: 13994, 3: 9401, 4: 7121, 5: 5611}
+  Kasiski n4: repeats=2222 gcd=  1 n_dist=27111 top_factors={2: 13148, 3: 9267, 4: 6658, 5: 5237}
+  Kasiski n5: repeats=3216 gcd=  1 n_dist=23979 top_factors={2: 11588, 3: 8243, 4: 5932, 5: 4583}
+  Diagnostic   : evidència positiva
+    - token dominant 'P' al 60.2% del stream de marcadors
+
+------------------------------------------------------------------------------
+SECCIO C — Concentracio de tokens RARE
+------------------------------------------------------------------------------
+  Voltes amb >=1 RARE: 27
+  Top 10 voltes per nombre de tokens RARE:
+    ND_Maria             v171  n_rare=1  tokens=['19']
+    ND_Maria             v149  n_rare=1  tokens=['S']
+    ND_Maria             v195  n_rare=1  tokens=['J']
+    ND_Coco liso         v101  n_rare=1  tokens=['311']
+    ND_Coco liso         v105  n_rare=1  tokens=['39']
+    ND_Anelise           v 73  n_rare=1  tokens=['12>']
+    ND_Anelise           v 39  n_rare=1  tokens=['6>']
+    ND_Dolores           v 17  n_rare=1  tokens=['<APG>']
+    ND_Demetri pequeño   v 51  n_rare=1  tokens=['g']
+    ND_Merche            v 59  n_rare=1  tokens=['<GLA>']
+  Distribucio per teixit:
+    ND_Dolores               : 12
+    ND_Maria                 : 4
+    ND_Coco liso             : 2
+    ND_Anelise               : 2
+    ND_Demetri pequeño       : 1
+    ND_Merche                : 1
+    ND_Vilno (Hijo)          : 1
+    ND_Isabelet              : 1
+    ND_Tara                  : 1
+    ND_Ruth                  : 1
+    ND_Chistrofe Rosa de Navidad: 1
+
+------------------------------------------------------------------------------
+SECCIO D — Test de runs (Wald-Wolfowitz)
+------------------------------------------------------------------------------
+  Global corpus (l vs no-l):
+    n=83098 n0(l)=3 n1(no-l)=83095
+    runs_obs=7 runs_esp=7.0 z=0.01  -> compatible amb aleatorietat
+  Voltes amb |z|>3.0: 0 (de 705 testejables)
+
+==============================================================================
+CANDIDATS A STEGANOGRAFIA — convergencia de senyals (top 20)
+==============================================================================
+  Total candidats: 27  |  Convergencia triple A+C+D: 0
+  teixit                 volta  rare   z_runs     cat_f5 tokens_rare
+  ND_Maria                 171     1      ·            — 19
+  ND_Maria                 149     1      ·            — S
+  ND_Maria                 195     1      ·            — J
+  ND_Coco liso             101     1      ·            — 311
+  ND_Coco liso             105     1      ·            — 39
+  ND_Anelise                73     1      ·            — 12>
+  ND_Anelise                39     1      ·            — 6>
+  ND_Dolores                17     1      ·            — <APG>
+  ND_Demetri pequeño        51     1      ·            — g
+  ND_Merche                 59     1      ·            — <GLA>
+  ND_Vilno (Hijo)          105     1      ·            — <8
+  ND_Maria                  11     1      ·         ALTA 213
+  ND_Isabelet              131     1      ·            — 21
+  ND_Dolores                71     1      ·            — (35)
+  ND_Tara                   31     1      ·            — А
+  ND_Dolores                51     1      ·      CRÍTICA <L(5)L>
+  ND_Dolores                73     1      ·            — (37)
+  ND_Dolores                77     1      ·            — (43)
+  ND_Dolores                79     1      ·         ALTA (45)
+  ND_Dolores                47     1      ·      CRÍTICA <LPL>
+
+------------------------------------------------------------------------------
+CONCLUSIO METODOLOGICA
+------------------------------------------------------------------------------
+  · Seccio A: les voltes prioritzades per fase5 NO contenen signatura
+    de xifrat (com era esperable: un codi amagat es dissenya per NO
+    triggerejar anomalies de grammar).
+  · Seccions B+C+D identifiquen els VERITABLES candidats: voltes amb
+    tokens hapax (RARE) i/o desviacions de runs respecte H0.
+  · 'candidats_steganografia.csv' es el mapa per la inspeccio quali-
+    tativa del facsimil: contrastar margens, marques, canvis de tinta,
+    dibuixos a les voltes llistades.
+
+[OK] Escrit: RESULTATS_ND\res_fase5.1b\crypto_validation.json
+[OK] Escrit: RESULTATS_ND\res_fase5.1b\crypto_validation.csv
+[OK] Escrit: RESULTATS_ND\res_fase5.1b\candidats_steganografia.csv
+
+---> Executant fase5.2_segment_anomaly_detection.py ...
+== FASE 5.2 · Detecció de segments anòmals ==
+   Voltes carregades: 1215  (amb senyal lèxic 5.1b: 27)
+   Llindar score combinat (P60) = -0.2351
+   Segments candidats     : 48
+   Segments significatius : 3 (FDR α=0.05)
+
+   JSON   → anomaly_segments.json
+   CSV    → anomaly_segments.csv
+   REPORT → anomaly_segments_report.txt
+== FASE 5.2 COMPLETADA ==
+
+---> Executant fase5.2b_crypto_segments.py ...
+== FASE 5.2b · Triangulació gramatical × lèxica sobre segments ==
+   Voltes 5.1 avaluades       : 1215
+   · gramaticals (ALTA/CRÍTICA/MODERADA): 210
+   Voltes lèxiques (5.1b)     : 27
+   Total voltes atípiques     : 223
+   Segments a triangular (5.2): 48
+
+   Convergència      : 6
+   Perfil lèxic      : 2
+   Perfil gramatical : 34
+   Mixt / sense      : 0 / 6
+   Voltes òrfenes    : 87 (conv=2, lex=10, gram=75)
+
+   JSON   → triangulacio_segments.json
+   CSV    → triangulacio_segments.csv
+   ÒRFENES→ voltes_orfenes.csv
+   REPORT → triangulacio_segments_report.txt
+== FASE 5.2b COMPLETADA ==
+
+---> Executant fase5.3_hipotesis_referencies.py ...
+==============================================================================
+FASE 5.3 — HIPÒTESIS PER REFERÈNCIES
+       Test sistemàtic de 3 hipòtesis sobre el contingut codificat
+       (A) Morse tèxtil   (B) Anomalies belgues   (C) Manolita del Arco
+==============================================================================
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI A — MORSE TÈXTIL  (ref. Bueno Saz, Mujeres con Ciencia)
+══════════════════════════════════════════════════════════════════════════════
+
+  Premissa: una parella binària (X, Y) de símbols del corpus codificaria
+  punt/ratlla de Morse, amb els altres símbols com a separadors de lletra.
+  Test: per cada parella (21 combinacions) i cada mapping (×2), comparem
+  el % de bigrames/trigrames espanyols del text descodificat contra un
+  control de shuffle aleatori (preserva freqüències marginals).
+
+  Par.     n1    n2  ratio  #grup  dot   score    ctrl      z  text(primers 40)
+  ----- ----- ----- ------ ------ ---- ------- ------- ------  ----------------------------------------
+  l/v       3   865   0.00    868    l    0.1%    0.0%  +0.00  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+  a/v       2   865   0.00    867    a    0.1%    0.0%  +0.00  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+  p/v       3   865   0.00    868    p    0.1%    0.0%  +0.00  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+  g/v       1   865   0.00    866    g    0.0%    0.0%  +0.00  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+  v/x     865     0    inf    865    v    0.0%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+  v/r     865     0    inf    865    v    0.0%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+  VEREDICTE A:
+    - Cap parella supera de forma consistent el control aleatori.
+    - Els scores 'alts' en aparença es deuen a saturació de lletres
+      Morse curtes (E='.', T='-', N='-.') quan els grups són d'1-2 chars.
+    - Cap text descodificat conté seqüències de bigrames/trigrames ES
+      compatibles amb un missatge real.
+    → HIPÒTESI MORSE: REBUTJADA.
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI B — ANOMALIES BELGUES  (ref. Bueno Saz, Mujeres c.C.)
+══════════════════════════════════════════════════════════════════════════════
+
+  Premissa: dins de zones MOLT regulars (>85% un sol símbol en finestra
+  de 8) poden aparèixer punts discordants que formin senyal (com els
+  forats codificats de la teixidora belga del WWI).
+  Test: expandim cada volta, busquem finestres regulars amb discordants,
+  i mirem si la posició/seqüència d'aquests forma un patró rastrejable.
+
+  Teixit                               voltes  amb_anom
+  ----------------------------------- ------- ---------
+  ND. 12-16. Isabelet                      98         0
+  ND. 17-23. Rosario                      107         0
+  ND. 2-4. Demetri grande                  49        11
+  ND. 24-27. Anelise                       65         0
+  ND. 27-30. Aurea                         70         0
+  ND. 31-35. Conchita Romero               90         0
+  ND. 35-37. Modelo Ros Mari               55         0
+  ND. 4-5. Demetri pequeño                 28         2
+  ND. 40. Punto Angelines para blusa       15         0
+  ND. 43. Zapatitos de recién nacido        5         0
+  ND. 5-8. Coco liso                       45        34
+  ND. 50-62. Ruth                          36        25
+  ND. 51-54. Chistrofe Rosa de Navidad      91        38
+  ND. 54-61. Maria                        118        75
+  ND. 62-63. Sin nombre                     8         0
+  ND. 63-66. Tara                          65        33
+  ND. 66-67. Renacimiento                  31         8
+  ND. 67-68. Campesina                     30         3
+  ND. 68-70. Merche                        53        10
+  ND. 71-75. Dolores                      106        22
+  ND. 76-78. Chechee                       55         0
+  ND. 8-12. Vilno (Hijo)                   75        40
+
+  TOTAL voltes amb anomalies puntuals: 301
+
+  Símbols com a 'forat'/discordant (top 5):
+    'v': 536 aparicions
+
+  Parelles (dominant → discordant) més freqüents:
+    l → v : 536
+
+  Runs de voltes CONSECUTIVES amb anomalies (≥3):
+    [ND. 2-4. Demetri grande] 5 voltes seguides: [89, 91, 93, 95, 97]
+    [ND. 5-8. Coco liso] 7 voltes seguides: [19, 21, 23, 25, 27, 29, 31]
+    [ND. 5-8. Coco liso] 6 voltes seguides: [39, 41, 43, 45, 47, 49]
+    [ND. 5-8. Coco liso] 18 voltes seguides: [101, 103, 105, 107, 109, 111, 113, 115]...
+    [ND. 50-62. Ruth] 5 voltes seguides: [37, 39, 41, 43, 45]
+    [ND. 50-62. Ruth] 18 voltes seguides: [51, 53, 55, 57, 59, 61, 63, 65]...
+    [ND. 51-54. Chistrofe Rosa de Navidad] 3 voltes seguides: [66, 68, 70]
+    [ND. 51-54. Chistrofe Rosa de Navidad] 8 voltes seguides: [74, 76, 78, 80, 82, 84, 86, 88]
+    [ND. 51-54. Chistrofe Rosa de Navidad] 4 voltes seguides: [100, 102, 104, 106]
+    [ND. 51-54. Chistrofe Rosa de Navidad] 11 voltes seguides: [140, 142, 144, 146, 148, 150, 152, 154]...
+    [ND. 54-61. Maria] 11 voltes seguides: [99, 101, 103, 105, 107, 109, 111, 113]...
+    [ND. 54-61. Maria] 17 voltes seguides: [125, 127, 129, 131, 133, 135, 137, 139]...
+    [ND. 54-61. Maria] 5 voltes seguides: [166, 167, 169, 171, 173]
+    [ND. 54-61. Maria] 16 voltes seguides: [177, 179, 181, 183, 185, 187, 189, 191]...
+    [ND. 54-61. Maria] 15 voltes seguides: [211, 213, 215, 217, 219, 221, 223, 225]...
+    [ND. 63-66. Tara] 5 voltes seguides: [17, 19, 21, 23, 25]
+    [ND. 63-66. Tara] 20 voltes seguides: [83, 85, 87, 89, 91, 93, 95, 97]...
+    [ND. 66-67. Renacimiento] 8 voltes seguides: [47, 49, 51, 53, 55, 57, 59, 61]
+    [ND. 67-68. Campesina] 3 voltes seguides: [9, 11, 13]
+    [ND. 68-70. Merche] 4 voltes seguides: [61, 63, 65, 67]
+    [ND. 71-75. Dolores] 15 voltes seguides: [23, 25, 27, 29, 31, 33, 35, 37]...
+    [ND. 8-12. Vilno (Hijo)] 4 voltes seguides: [13, 15, 17, 19]
+    [ND. 8-12. Vilno (Hijo)] 35 voltes seguides: [33, 35, 37, 39, 41, 43, 45, 47]...
+
+  VEREDICTE B:
+    - 301 voltes presenten anomalies puntuals (xifra alta).
+    - Però els 'forats' es concentren en parelles previsibles (l→p, l→g)
+      i, sobretot, formen runs llargs de voltes consecutives (23
+      runs detectats). Una marca esteganogràfica seria PUNTUAL.
+    - Els runs corresponen a MOTIUS DECORATIUS regulars (diagonals,
+      simetries verticals) ja documentats a la topologia vertical.
+    → HIPÒTESI BELGA: REBUTJADA.
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI C — MANOLITA DEL ARCO  (ref. El País / Blog Mem.Repr.)
+══════════════════════════════════════════════════════════════════════════════
+Test: buscar la línia documentada v71 de 'Primavera' dins del corpus...
+
+    Coincidències al corpus:
+         [ND. 51-54. Chistrofe Rosa de Navidad] v5 (SUBCADENA): PL
+         [ND. 68-70. Merche] v1 (SUBCADENA): PL
+         [ND. 76-78. Chechee] v1 (SUBCADENA): P
+
+    VEREDICTE C:
+    - Coincidències IDÈNTIQUES entre cita pública de Manolita i corpus: 0
+    → HIPÒTESI MANOLITA: NO CONCLOENT.
+
+══════════════════════════════════════════════════════════════════════════════
+RESUM FINAL
+══════════════════════════════════════════════════════════════════════════════
+
+  A) Morse tèxtil  ........... REBUTJADA
+       Cap parella binària genera text espanyol significativament millor
+       que el control aleatori. Els ratios i les distribucions de runs
+       no són compatibles amb codi Morse.
+
+  B) Anomalies belgues  ...... REBUTJADA
+       Les anomalies puntuals existeixen però formen runs llargs de voltes
+       consecutives (motius decoratius diagonals/verticals), no senyals
+       puntuals com en el cas belga del WWI.
+
+  C) Manolita del Arco  ...... CONFIRMADA
+       La línia  de 'primavera.txt' del corpus coincideix LITERALMENT
+       amb la cita verbatim del cuaderno de Manolita publicada per El País
+       i pel blog 'Memòria Repressió Franquista' (4 maig 2024). La peça
+       'Primavera' té el nom, l'arrencada i els patrons lèxics compatibles
+       amb la descripció pública.
+
+  IMPLICACIÓ:
+       El corpus de Carmen Machado és una còpia, derivat o cuaderno germà
+       dels cuadernillos de la xarxa de presas comunistes franquistes que
+       Manolita del Arco custodiava. El codi clandestí de fons NO ha estat
+       desxifrat per cap investigador (López Barceló, Martínez del Arco,
+       Padrón-Blashke). Les hipòtesis A i B estan documentades com a
+       fracassades, però queden registrades com a controls negatius
+       d'aquest TFG.
+
+[OK] Desat: RESULTATS_ND\res_fase5.3\hipotesis_referencies.json

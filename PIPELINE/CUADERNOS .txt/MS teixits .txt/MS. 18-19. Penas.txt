@@ -1,0 +1,34 @@
+8p
+1 xl
+3 xlpl
+5 xl(3)l
+7 xlpl3lpl
+9 (xl(3)l-2v)
+11 xlpl(3l-3v)pl
+13 (lxl(3)-3v)
+15 (l3-6v)
+17 ((3)lxl-3v)
+19 (3l-6v)
+21 (lxl(3)-3v)
+23 ((3)l3l-3v)
+25 (l3l(3)-3v)
+27 ((3)l3l-3v)
+29 (l3l(3)-3v)
+31 (l(3)l3-3v)
+33 l(5)lal3l(3)l3lg
+35 l(7)(la-2v)l3l(gl-2v)
+37 lpl(2)3(2)lpl(al-2v)x(lg-2v)
+39 l(3)lp3pl(3)(la-2v)lpl(gl-2v)
+41 l(5)l3l(5)(la-2v)pglg
+43 l(7)xl(7)lal3lg
+47 l(3)l(6)3(6)l(3)lapsg
+45 lpl(7)3(7)lpla lxl g
+49 (l(5)-2v)3(v)l-2v)3
+54 la
+56 lpl(11)
+58 l(3)l(11)
+60 lalplgl(4)3(4)
+62 lal(3)lgl(3)3(3)
+64 (la-2v)lpl(gl-2v)(2)3(2)
+66 (la-2v)l(3)(lg-2v)lp3pl
+68 (la-3v)p(lg-3v)l3

@@ -1,0 +1,99 @@
+========================================================================
+ FASE 5.2 — SEGMENTS ANÒMALS CONTIGUS  (candidats a esteganografia)
+========================================================================
+
+Paràmetres:
+  · score = 1.0·z(gramatical 5.1) + 1.0·z(lèxic 5.1b)
+  · voltes amb senyal lèxic (5.1b)        = 63
+  · llindar de score combinat (perc. 60) = 0.0798
+  · longitud mínima de segment            = 3 voltes
+  · iteracions de permutació              = 1000
+  · α FDR (Benjamini-Hochberg)            = 0.05
+  · random_state                          = 42
+
+Voltes al corpus            : 627
+Segments candidats trobats  : 33
+Segments significatius (q≤α): 4
+
+------------------------------------------------------------------------
+ RÀNQUING DE SEGMENTS
+------------------------------------------------------------------------
+  # teixit                 voltes           L   mean     sum      p      q  sig  cx CRI ALT MOD
+  1 CM_Gardenia            v177-v191        8   2.61   20.87  0.001  0.011  YES   0   0   0   3
+  2 CM_Copas de champán    v53-v65          7   1.83   12.79  0.002  0.016  YES   0   0   0   2
+  3 CM_Pelargonia          v7-v25          10   1.10   11.04  0.001  0.011  YES   0   0   0   0
+  4 CM_Hojas y cactus      v5-v19           8   1.32   10.53  0.001  0.011  YES   0   0   0   0
+  5 CM_Angelines           v63-v91         15   1.94   29.09  0.060  0.247   no   0   0   0   8
+  6 CM_Angelines           v45-v53          5   3.35   16.76  0.013  0.086   no   0   0   3   0
+  7 CM_Hojas de Roble      v65-v71          4   3.74   14.95  0.057  0.247   no   0   0   1   0
+  8 CM_Pasión              v87-v95          5   1.64    8.20  0.149  0.491   no   0   0   0   2
+  9 CM_Pasión              v47-v59          7   0.86    5.99  0.988  1.000   no   0   0   0   0
+ 10 CM_Pasión              v7-v13           4   1.39    5.55  0.773  1.000   no   0   0   0   0
+ 11 CM_Eterna              v29-v35          4   1.38    5.50  0.765  1.000   no   0   0   0   1
+ 12 CM_Pasión              v107-v117        6   0.83    4.97  0.999  1.000   no   0   0   0   0
+ 13 CM_Abouchete           v165-v173        5   0.92    4.60  0.056  0.247   no   0   0   0   5
+ 14 CM_Abouchete           v75-v83          5   0.88    4.40  0.070  0.256   no   0   0   1   4
+ 15 CM_Gardenia            v31-v39          5   0.82    4.09  0.984  1.000   no   0   0   0   4
+ 16 CM_Gardenia            v73-v81          5   0.74    3.70  0.998  1.000   no   0   0   0   0
+ 17 CM_Pasión              v21-v29          5   0.72    3.59  1.000  1.000   no   0   0   0   0
+ 18 CM_Gardenia            v19-v27          5   0.70    3.48  1.000  1.000   no   0   0   0   4
+ 19 CM_Eterna              v11-v15          3   1.06    3.19  0.999  1.000   no   0   0   0   0
+ 20 CM_Gardenia            v3-v7            3   0.93    2.79  1.000  1.000   no   0   0   0   0
+ 21 CM_Pepita              v125-v129        3   0.91    2.74  0.999  1.000   no   0   0   0   0
+ 22 CM_Abouchete           v87-v91          3   0.91    2.72  0.595  1.000   no   0   0   0   1
+ 23 CM_Pasión              v33-v41          5   0.49    2.44  1.000  1.000   no   0   0   0   0
+ 24 CM_Hojas de Roble      v29-v33          3   0.80    2.39  1.000  1.000   no   0   0   0   0
+ 25 CM_Gardenia            v161-v167        4   0.57    2.28  1.000  1.000   no   0   0   0   0
+ 26 CM_Gardenia            v53-v59          4   0.53    2.12  1.000  1.000   no   0   0   0   1
+ 27 CM_Angelines           v19-v25          4   0.52    2.10  1.000  1.000   no   0   0   0   1
+ 28 CM_Copas de champán    v99-v105         4   0.50    2.00  1.000  1.000   no   0   0   0   1
+ 29 CM_Pepita              v107-v111        3   0.62    1.85  1.000  1.000   no   0   0   0   0
+ 30 CM_Copas de champán    v17-v21          3   0.35    1.06  1.000  1.000   no   0   0   0   0
+ 31 CM_Copas de champán    v41-v47          4   0.22    0.90  1.000  1.000   no   0   0   0   0
+ 32 CM_Abouchete           v245-v249        3   0.28    0.85  1.000  1.000   no   0   0   0   0
+ 33 CM_Abouchete           v47-v51          3   0.24    0.73  1.000  1.000   no   0   0   0   0
+
+------------------------------------------------------------------------
+ DETALL DELS SEGMENTS SIGNIFICATIUS
+------------------------------------------------------------------------
+
+ [1] CM_Gardenia  ·  voltes v177-v191  (L=8, q=0.011)
+     v177  V0   comb=  2.28 (g= 8.24 l= 10.0) cat=normal   cx=n
+     v179  V0   comb=  2.35 (g= 8.34 l= 10.0) cat=normal   cx=n
+     v181  V0   comb=  2.52 (g= 8.56 l= 10.0) cat=normal   cx=n
+     v183  V0   comb=  2.31 (g= 8.29 l= 10.0) cat=MODERADA cx=n
+     v185  V0   comb=  2.63 (g= 8.72 l= 10.0) cat=normal   cx=n
+     v187  V0   comb=  3.03 (g= 9.26 l= 10.0) cat=MODERADA cx=n
+     v189  V0   comb=  2.64 (g= 8.73 l= 10.0) cat=normal   cx=n
+     v191  V0   comb=  3.10 (g= 9.35 l= 10.0) cat=MODERADA cx=n
+
+ [2] CM_Copas de champán  ·  voltes v53-v65  (L=7, q=0.016)
+     v53   V1   comb=  0.28 (g= 8.53 l=  0.0) cat=normal   cx=n
+     v55   V1   comb=  4.22 (g= 9.71 l= 13.8) cat=normal   cx=n
+     v57   V1   comb=  2.52 (g= 8.57 l= 10.0) cat=normal   cx=n
+     v59   V0   comb=  2.15 (g= 8.07 l= 10.0) cat=MODERADA cx=n
+     v61   V1   comb=  1.08 (g= 6.61 l= 10.0) cat=normal   cx=n
+     v63   V1   comb=  2.38 (g= 8.37 l= 10.0) cat=MODERADA cx=n
+     v65   V1   comb=  0.17 (g= 8.38 l=  0.0) cat=normal   cx=n
+
+ [3] CM_Pelargonia  ·  voltes v7-v25  (L=10, q=0.011)
+     v7    V1   comb=  1.28 (g= 9.89 l=  0.0) cat=normal   cx=n
+     v9    V1   comb=  1.28 (g= 9.89 l=  0.0) cat=normal   cx=n
+     v11   V1   comb=  1.28 (g= 9.89 l=  0.0) cat=normal   cx=n
+     v13   V1   comb=  1.28 (g= 9.89 l=  0.0) cat=normal   cx=n
+     v15   V1   comb=  1.28 (g= 9.89 l=  0.0) cat=normal   cx=n
+     v17   V1   comb=  1.28 (g= 9.89 l=  0.0) cat=normal   cx=n
+     v19   V1   comb=  1.28 (g= 9.89 l=  0.0) cat=normal   cx=n
+     v21   V1   comb=  1.28 (g= 9.89 l=  0.0) cat=normal   cx=n
+     v23   V1   comb=  0.49 (g= 8.81 l=  0.0) cat=normal   cx=n
+     v25   V1   comb=  0.32 (g= 8.59 l=  0.0) cat=normal   cx=n
+
+ [4] CM_Hojas y cactus  ·  voltes v5-v19  (L=8, q=0.011)
+     v5    V1   comb=  1.32 (g= 9.94 l=  0.0) cat=normal   cx=n
+     v7    V1   comb=  1.32 (g= 9.94 l=  0.0) cat=normal   cx=n
+     v9    V1   comb=  1.32 (g= 9.94 l=  0.0) cat=normal   cx=n
+     v11   V1   comb=  1.32 (g= 9.94 l=  0.0) cat=normal   cx=n
+     v13   V1   comb=  1.32 (g= 9.94 l=  0.0) cat=normal   cx=n
+     v15   V1   comb=  1.32 (g= 9.94 l=  0.0) cat=normal   cx=n
+     v17   V1   comb=  1.32 (g= 9.94 l=  0.0) cat=normal   cx=n
+     v19   V1   comb=  1.32 (g= 9.94 l=  0.0) cat=normal   cx=n

@@ -1,0 +1,4475 @@
+{
+  "parametres": {
+    "K_MIN": 2,
+    "K_MAX": 18,
+    "RANDOM_STATE": 42,
+    "HAPAX_THRESHOLD": 1,
+    "PPMI_SMOOTH_ALPHA": 0.75,
+    "n_init_kmeans": 10,
+    "outlier_z_threshold": 2.0
+  },
+  "metadades": {
+    "num_tokens_totals": 377,
+    "num_tokens_clustered": 163,
+    "num_tokens_rare": 214,
+    "num_teixits": 71,
+    "dim_vector_total": 834,
+    "n_components_pca": 10,
+    "variancia_pca": [
+      0.1199,
+      0.0507,
+      0.0408,
+      0.0293,
+      0.028,
+      0.0269,
+      0.0254,
+      0.0248,
+      0.0213,
+      0.0201
+    ],
+    "k_provats": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "silhouette_per_k": {
+      "2": 0.2433,
+      "3": 0.2815,
+      "4": 0.2633,
+      "5": 0.2627,
+      "6": 0.268,
+      "7": 0.2671,
+      "8": 0.2606,
+      "9": 0.297,
+      "10": 0.2638,
+      "11": 0.3101,
+      "12": 0.2895,
+      "13": 0.3067,
+      "14": 0.3221,
+      "15": 0.3155,
+      "16": 0.3258,
+      "17": 0.3356,
+      "18": 0.3094
+    },
+    "k_optim": 17,
+    "silhouette_optim": 0.3356
+  },
+  "tokens": {
+    "#": {
+      "classe": "C1",
+      "outlier_score": 0.7051,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3541,
+        -0.1156
+      ],
+      "freq_absoluta": 19
+    },
+    "(1)": {
+      "classe": "C0",
+      "outlier_score": -1.7086,
+      "es_outlier": false,
+      "vector_2d": [
+        0.1571,
+        -0.2108
+      ],
+      "freq_absoluta": 11
+    },
+    "(10)": {
+      "classe": "C6",
+      "outlier_score": 0.2432,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0968,
+        -0.2545
+      ],
+      "freq_absoluta": 32
+    },
+    "(11)": {
+      "classe": "C6",
+      "outlier_score": -0.022,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1647,
+        -0.1187
+      ],
+      "freq_absoluta": 76
+    },
+    "(12)": {
+      "classe": "C2",
+      "outlier_score": 0.9325,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0698,
+        -0.3942
+      ],
+      "freq_absoluta": 14
+    },
+    "(13)": {
+      "classe": "C6",
+      "outlier_score": 0.7217,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1117,
+        -0.2063
+      ],
+      "freq_absoluta": 29
+    },
+    "(14)": {
+      "classe": "C2",
+      "outlier_score": -0.6207,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0563,
+        -0.3806
+      ],
+      "freq_absoluta": 14
+    },
+    "(15)": {
+      "classe": "C8",
+      "outlier_score": -0.7161,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0726,
+        -0.1808
+      ],
+      "freq_absoluta": 26
+    },
+    "(16)": {
+      "classe": "C2",
+      "outlier_score": -0.79,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.006,
+        -0.2283
+      ],
+      "freq_absoluta": 9
+    },
+    "(17)": {
+      "classe": "C8",
+      "outlier_score": -0.0866,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0708,
+        -0.2881
+      ],
+      "freq_absoluta": 22
+    },
+    "(18)": {
+      "classe": "C2",
+      "outlier_score": 0.9056,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0713,
+        -0.3584
+      ],
+      "freq_absoluta": 8
+    },
+    "(19)": {
+      "classe": "C6",
+      "outlier_score": 0.9981,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0807,
+        -0.0986
+      ],
+      "freq_absoluta": 20
+    },
+    "(2)": {
+      "classe": "C6",
+      "outlier_score": -0.0687,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2121,
+        -0.1939
+      ],
+      "freq_absoluta": 1066
+    },
+    "(20)": {
+      "classe": "C2",
+      "outlier_score": -1.4805,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0577,
+        -0.3755
+      ],
+      "freq_absoluta": 7
+    },
+    "(21)": {
+      "classe": "C8",
+      "outlier_score": -0.1407,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1402,
+        -0.3008
+      ],
+      "freq_absoluta": 11
+    },
+    "(22)": {
+      "classe": "C2",
+      "outlier_score": 1.0531,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0045,
+        -0.2087
+      ],
+      "freq_absoluta": 3
+    },
+    "(23)": {
+      "classe": "C0",
+      "outlier_score": 0.4163,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3132,
+        -0.1787
+      ],
+      "freq_absoluta": 11
+    },
+    "(24)": {
+      "classe": "C10",
+      "outlier_score": -0.0706,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5135,
+        0.0371
+      ],
+      "freq_absoluta": 2
+    },
+    "(25)": {
+      "classe": "C8",
+      "outlier_score": 1.9967,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.14,
+        0.1678
+      ],
+      "freq_absoluta": 7
+    },
+    "(26)": {
+      "classe": "C10",
+      "outlier_score": -0.0595,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5142,
+        0.037
+      ],
+      "freq_absoluta": 2
+    },
+    "(27)": {
+      "classe": "C8",
+      "outlier_score": 0.1511,
+      "es_outlier": false,
+      "vector_2d": [
+        0.1624,
+        -0.0322
+      ],
+      "freq_absoluta": 5
+    },
+    "(28)": {
+      "classe": "C10",
+      "outlier_score": -0.0544,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5145,
+        0.0369
+      ],
+      "freq_absoluta": 2
+    },
+    "(29)": {
+      "classe": "C8",
+      "outlier_score": -1.2044,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0104,
+        -0.0297
+      ],
+      "freq_absoluta": 4
+    },
+    "(3)": {
+      "classe": "C6",
+      "outlier_score": -0.7874,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.223,
+        -0.2255
+      ],
+      "freq_absoluta": 1175
+    },
+    "(31)": {
+      "classe": "C7",
+      "outlier_score": 1.7303,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0506,
+        -0.0872
+      ],
+      "freq_absoluta": 4
+    },
+    "(33)": {
+      "classe": "C15",
+      "outlier_score": 1.413,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0589,
+        -0.2856
+      ],
+      "freq_absoluta": 3
+    },
+    "(35)": {
+      "classe": "C15",
+      "outlier_score": -0.7574,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0173,
+        -0.2901
+      ],
+      "freq_absoluta": 2
+    },
+    "(4)": {
+      "classe": "C6",
+      "outlier_score": -0.8079,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2054,
+        -0.1954
+      ],
+      "freq_absoluta": 345
+    },
+    "(41)": {
+      "classe": "C7",
+      "outlier_score": -0.5045,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0515,
+        -0.1031
+      ],
+      "freq_absoluta": 2
+    },
+    "(43)": {
+      "classe": "C15",
+      "outlier_score": -0.6556,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0176,
+        -0.2908
+      ],
+      "freq_absoluta": 2
+    },
+    "(5)": {
+      "classe": "C6",
+      "outlier_score": -1.4576,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2219,
+        -0.2167
+      ],
+      "freq_absoluta": 480
+    },
+    "(6)": {
+      "classe": "C6",
+      "outlier_score": -1.1062,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2507,
+        -0.1939
+      ],
+      "freq_absoluta": 113
+    },
+    "(7)": {
+      "classe": "C6",
+      "outlier_score": -0.6314,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2322,
+        -0.2384
+      ],
+      "freq_absoluta": 219
+    },
+    "(8)": {
+      "classe": "C6",
+      "outlier_score": -0.9682,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2328,
+        -0.212
+      ],
+      "freq_absoluta": 44
+    },
+    "(9)": {
+      "classe": "C6",
+      "outlier_score": 0.1591,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1991,
+        -0.3281
+      ],
+      "freq_absoluta": 116
+    },
+    ")": {
+      "classe": "C1",
+      "outlier_score": 0.0152,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.381,
+        0.0345
+      ],
+      "freq_absoluta": 58
+    },
+    "-": {
+      "classe": "C1",
+      "outlier_score": -1.252,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3617,
+        -0.0442
+      ],
+      "freq_absoluta": 155
+    },
+    "/": {
+      "classe": "C1",
+      "outlier_score": -0.1091,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3359,
+        -0.0344
+      ],
+      "freq_absoluta": 111
+    },
+    "11": {
+      "classe": "C4",
+      "outlier_score": 1.8278,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.4076,
+        0.6182
+      ],
+      "freq_absoluta": 2
+    },
+    "11>": {
+      "classe": "C10",
+      "outlier_score": -0.8843,
+      "es_outlier": false,
+      "vector_2d": [
+        0.4629,
+        0.0486
+      ],
+      "freq_absoluta": 2
+    },
+    "12": {
+      "classe": "C4",
+      "outlier_score": -0.3845,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3694,
+        0.7761
+      ],
+      "freq_absoluta": 6
+    },
+    "14": {
+      "classe": "C4",
+      "outlier_score": -1.2364,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3929,
+        0.6939
+      ],
+      "freq_absoluta": 4
+    },
+    "2": {
+      "classe": "C4",
+      "outlier_score": 1.1068,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.5209,
+        0.485
+      ],
+      "freq_absoluta": 39
+    },
+    "22": {
+      "classe": "C16",
+      "outlier_score": 1.5729,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3371,
+        -0.1307
+      ],
+      "freq_absoluta": 12
+    },
+    "222": {
+      "classe": "C6",
+      "outlier_score": 1.0015,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1162,
+        -0.042
+      ],
+      "freq_absoluta": 2
+    },
+    "2>": {
+      "classe": "C11",
+      "outlier_score": 0.2961,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2504,
+        -0.081
+      ],
+      "freq_absoluta": 20
+    },
+    "3": {
+      "classe": "C1",
+      "outlier_score": 0.9606,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.429,
+        0.1059
+      ],
+      "freq_absoluta": 502
+    },
+    "33": {
+      "classe": "C1",
+      "outlier_score": -1.8149,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2782,
+        -0.0057
+      ],
+      "freq_absoluta": 14
+    },
+    "3>": {
+      "classe": "C1",
+      "outlier_score": -0.5259,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3072,
+        -0.0685
+      ],
+      "freq_absoluta": 27
+    },
+    "4": {
+      "classe": "C4",
+      "outlier_score": -0.893,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.4659,
+        0.6708
+      ],
+      "freq_absoluta": 7
+    },
+    "4>": {
+      "classe": "C10",
+      "outlier_score": -0.3501,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3763,
+        0.0201
+      ],
+      "freq_absoluta": 4
+    },
+    "5": {
+      "classe": "C4",
+      "outlier_score": 0.6347,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.436,
+        0.6704
+      ],
+      "freq_absoluta": 6
+    },
+    "5>": {
+      "classe": "C12",
+      "outlier_score": 2.3907,
+      "es_outlier": true,
+      "vector_2d": [
+        -0.0049,
+        -0.0456
+      ],
+      "freq_absoluta": 5
+    },
+    "7": {
+      "classe": "C4",
+      "outlier_score": -0.5299,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.4515,
+        0.7751
+      ],
+      "freq_absoluta": 4
+    },
+    "7>": {
+      "classe": "C1",
+      "outlier_score": -0.0345,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2152,
+        0.0041
+      ],
+      "freq_absoluta": 3
+    },
+    "8": {
+      "classe": "C4",
+      "outlier_score": -0.5256,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.4513,
+        0.7753
+      ],
+      "freq_absoluta": 4
+    },
+    "<": {
+      "classe": "C11",
+      "outlier_score": 0.9547,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2072,
+        -0.026
+      ],
+      "freq_absoluta": 8
+    },
+    "<#glla>": {
+      "classe": "C13",
+      "outlier_score": 0.5808,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0676,
+        -0.0758
+      ],
+      "freq_absoluta": 5
+    },
+    "<(2r)p>": {
+      "classe": "C3",
+      "outlier_score": -1.4263,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5489,
+        0.0909
+      ],
+      "freq_absoluta": 4
+    },
+    "<(3)l3l>": {
+      "classe": "C3",
+      "outlier_score": -0.7291,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5762,
+        0.1263
+      ],
+      "freq_absoluta": 2
+    },
+    "<(3)l>": {
+      "classe": "C13",
+      "outlier_score": -0.3995,
+      "es_outlier": false,
+      "vector_2d": [
+        0.1394,
+        0.0388
+      ],
+      "freq_absoluta": 2
+    },
+    "<(3r)p>": {
+      "classe": "C3",
+      "outlier_score": 2.3419,
+      "es_outlier": true,
+      "vector_2d": [
+        0.4422,
+        -0.0327
+      ],
+      "freq_absoluta": 2
+    },
+    "<2": {
+      "classe": "C16",
+      "outlier_score": 1.1908,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1729,
+        -0.0137
+      ],
+      "freq_absoluta": 2
+    },
+    "<222222>": {
+      "classe": "C12",
+      "outlier_score": -0.5437,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3467,
+        0.055
+      ],
+      "freq_absoluta": 2
+    },
+    "<2>": {
+      "classe": "C7",
+      "outlier_score": -0.6021,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.052,
+        -0.187
+      ],
+      "freq_absoluta": 44
+    },
+    "<3": {
+      "classe": "C11",
+      "outlier_score": -0.2689,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1088,
+        0.0404
+      ],
+      "freq_absoluta": 4
+    },
+    "<3>": {
+      "classe": "C10",
+      "outlier_score": -0.7463,
+      "es_outlier": false,
+      "vector_2d": [
+        0.4823,
+        0.0466
+      ],
+      "freq_absoluta": 2
+    },
+    "<3l>": {
+      "classe": "C13",
+      "outlier_score": 0.3349,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0318,
+        0.0281
+      ],
+      "freq_absoluta": 7
+    },
+    "<3lpl>": {
+      "classe": "C12",
+      "outlier_score": -0.7507,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3608,
+        -0.0158
+      ],
+      "freq_absoluta": 8
+    },
+    "<4": {
+      "classe": "C6",
+      "outlier_score": 0.197,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2279,
+        -0.1497
+      ],
+      "freq_absoluta": 5
+    },
+    "<5": {
+      "classe": "C1",
+      "outlier_score": -0.449,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1945,
+        0.0025
+      ],
+      "freq_absoluta": 3
+    },
+    "<7": {
+      "classe": "C10",
+      "outlier_score": -0.3637,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3725,
+        0.0203
+      ],
+      "freq_absoluta": 3
+    },
+    "<AL>": {
+      "classe": "C9",
+      "outlier_score": 0.6796,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1975,
+        -0.0142
+      ],
+      "freq_absoluta": 5
+    },
+    "<GLLA>": {
+      "classe": "C5",
+      "outlier_score": 1.5557,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0536,
+        -0.0839
+      ],
+      "freq_absoluta": 92
+    },
+    "<LG>": {
+      "classe": "C5",
+      "outlier_score": -0.6993,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0935,
+        0.0436
+      ],
+      "freq_absoluta": 3
+    },
+    "<LP>": {
+      "classe": "C9",
+      "outlier_score": 1.7287,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0808,
+        0.0848
+      ],
+      "freq_absoluta": 4
+    },
+    "<LX>": {
+      "classe": "C9",
+      "outlier_score": 0.8042,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0087,
+        0.0861
+      ],
+      "freq_absoluta": 3
+    },
+    "<PL>": {
+      "classe": "C9",
+      "outlier_score": 0.7871,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1855,
+        -0.0142
+      ],
+      "freq_absoluta": 10
+    },
+    "<PLXL>": {
+      "classe": "C5",
+      "outlier_score": 0.2021,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0899,
+        0.0624
+      ],
+      "freq_absoluta": 6
+    },
+    "<XL>": {
+      "classe": "C13",
+      "outlier_score": 1.928,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0217,
+        0.025
+      ],
+      "freq_absoluta": 3
+    },
+    "<a(2)g>": {
+      "classe": "C3",
+      "outlier_score": -0.5415,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5795,
+        0.1032
+      ],
+      "freq_absoluta": 2
+    },
+    "<a(2)l>": {
+      "classe": "C12",
+      "outlier_score": -0.1369,
+      "es_outlier": false,
+      "vector_2d": [
+        0.4586,
+        0.0289
+      ],
+      "freq_absoluta": 7
+    },
+    "<a(3)(lp-3v)l(3)g>": {
+      "classe": "C3",
+      "outlier_score": 0.4944,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5483,
+        0.1085
+      ],
+      "freq_absoluta": 2
+    },
+    "<a(3)l>": {
+      "classe": "C13",
+      "outlier_score": -0.1764,
+      "es_outlier": false,
+      "vector_2d": [
+        0.2725,
+        0.0771
+      ],
+      "freq_absoluta": 8
+    },
+    "<a(3)ll(3)g>": {
+      "classe": "C3",
+      "outlier_score": 1.5434,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3552,
+        0.0696
+      ],
+      "freq_absoluta": 2
+    },
+    "<a(3)ll(3)p>": {
+      "classe": "C12",
+      "outlier_score": 0.4042,
+      "es_outlier": false,
+      "vector_2d": [
+        0.4322,
+        0.0478
+      ],
+      "freq_absoluta": 3
+    },
+    "<a(4)(lp-3v)l(4)g>": {
+      "classe": "C3",
+      "outlier_score": 0.4944,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5483,
+        0.1085
+      ],
+      "freq_absoluta": 2
+    },
+    "<a(4)g>": {
+      "classe": "C3",
+      "outlier_score": -0.5415,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5795,
+        0.1032
+      ],
+      "freq_absoluta": 2
+    },
+    "<a(5)(lp-3v)l(5)g>": {
+      "classe": "C3",
+      "outlier_score": 0.544,
+      "es_outlier": false,
+      "vector_2d": [
+        0.546,
+        0.1074
+      ],
+      "freq_absoluta": 3
+    },
+    "<al>": {
+      "classe": "C1",
+      "outlier_score": 0.888,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1817,
+        -0.0351
+      ],
+      "freq_absoluta": 101
+    },
+    "<apg>": {
+      "classe": "C13",
+      "outlier_score": -1.7005,
+      "es_outlier": false,
+      "vector_2d": [
+        0.1048,
+        0.0593
+      ],
+      "freq_absoluta": 2
+    },
+    "<apl>": {
+      "classe": "C12",
+      "outlier_score": -1.0406,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3394,
+        0.0281
+      ],
+      "freq_absoluta": 2
+    },
+    "<gl>": {
+      "classe": "C1",
+      "outlier_score": 0.0948,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2458,
+        0.0026
+      ],
+      "freq_absoluta": 162
+    },
+    "<glla#>": {
+      "classe": "C14",
+      "outlier_score": 1.2316,
+      "es_outlier": false,
+      "vector_2d": [
+        0.239,
+        0.1054
+      ],
+      "freq_absoluta": 5
+    },
+    "<glla>": {
+      "classe": "C5",
+      "outlier_score": -0.7566,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0439,
+        -0.0574
+      ],
+      "freq_absoluta": 306
+    },
+    "<l(2)>": {
+      "classe": "C14",
+      "outlier_score": 1.5013,
+      "es_outlier": false,
+      "vector_2d": [
+        0.4012,
+        0.1329
+      ],
+      "freq_absoluta": 4
+    },
+    "<l(2)g>": {
+      "classe": "C5",
+      "outlier_score": -0.3448,
+      "es_outlier": false,
+      "vector_2d": [
+        0.162,
+        -0.0207
+      ],
+      "freq_absoluta": 8
+    },
+    "<l(2)p>": {
+      "classe": "C3",
+      "outlier_score": 1.3218,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3266,
+        0.0663
+      ],
+      "freq_absoluta": 2
+    },
+    "<l(3)>": {
+      "classe": "C7",
+      "outlier_score": -0.6237,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0205,
+        -0.0721
+      ],
+      "freq_absoluta": 7
+    },
+    "<l(3)l3>": {
+      "classe": "C5",
+      "outlier_score": -0.2435,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3245,
+        0.0629
+      ],
+      "freq_absoluta": 4
+    },
+    "<l(5)>": {
+      "classe": "C5",
+      "outlier_score": 0.8155,
+      "es_outlier": false,
+      "vector_2d": [
+        0.2154,
+        0.0805
+      ],
+      "freq_absoluta": 5
+    },
+    "<l(5)l>": {
+      "classe": "C13",
+      "outlier_score": -0.9185,
+      "es_outlier": false,
+      "vector_2d": [
+        0.1464,
+        0.0642
+      ],
+      "freq_absoluta": 2
+    },
+    "<l(5)lx>": {
+      "classe": "C3",
+      "outlier_score": -0.4591,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5278,
+        0.1094
+      ],
+      "freq_absoluta": 2
+    },
+    "<l3>": {
+      "classe": "C1",
+      "outlier_score": 0.6566,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1084,
+        -0.0337
+      ],
+      "freq_absoluta": 32
+    },
+    "<l3l(3)>": {
+      "classe": "C3",
+      "outlier_score": -1.1136,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5777,
+        0.1135
+      ],
+      "freq_absoluta": 5
+    },
+    "<la(2)>": {
+      "classe": "C13",
+      "outlier_score": 0.8116,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0755,
+        -0.1129
+      ],
+      "freq_absoluta": 4
+    },
+    "<la(3)>": {
+      "classe": "C14",
+      "outlier_score": 0.2087,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3526,
+        0.0955
+      ],
+      "freq_absoluta": 2
+    },
+    "<la>": {
+      "classe": "C1",
+      "outlier_score": -0.0812,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2298,
+        -0.0038
+      ],
+      "freq_absoluta": 280
+    },
+    "<lap>": {
+      "classe": "C5",
+      "outlier_score": 1.4267,
+      "es_outlier": false,
+      "vector_2d": [
+        0.2321,
+        0.0436
+      ],
+      "freq_absoluta": 4
+    },
+    "<lg>": {
+      "classe": "C5",
+      "outlier_score": 1.1423,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1892,
+        0.0289
+      ],
+      "freq_absoluta": 197
+    },
+    "<ll(3)>": {
+      "classe": "C14",
+      "outlier_score": -1.2376,
+      "es_outlier": false,
+      "vector_2d": [
+        0.4259,
+        0.1387
+      ],
+      "freq_absoluta": 2
+    },
+    "<ll(3)ga(3)>": {
+      "classe": "C14",
+      "outlier_score": 0.112,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5237,
+        0.1432
+      ],
+      "freq_absoluta": 4
+    },
+    "<ll(5)>": {
+      "classe": "C3",
+      "outlier_score": -0.2423,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3996,
+        0.0799
+      ],
+      "freq_absoluta": 2
+    },
+    "<ln>": {
+      "classe": "C11",
+      "outlier_score": -0.3888,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0551,
+        -0.0249
+      ],
+      "freq_absoluta": 14
+    },
+    "<lp>": {
+      "classe": "C11",
+      "outlier_score": -0.6853,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1848,
+        -0.0381
+      ],
+      "freq_absoluta": 115
+    },
+    "<lpg>": {
+      "classe": "C12",
+      "outlier_score": 0.071,
+      "es_outlier": false,
+      "vector_2d": [
+        0.3992,
+        0.0552
+      ],
+      "freq_absoluta": 5
+    },
+    "<lpl3>": {
+      "classe": "C5",
+      "outlier_score": -0.2211,
+      "es_outlier": false,
+      "vector_2d": [
+        0.2045,
+        -0.0431
+      ],
+      "freq_absoluta": 7
+    },
+    "<lplapg>": {
+      "classe": "C14",
+      "outlier_score": -1.4185,
+      "es_outlier": false,
+      "vector_2d": [
+        0.4483,
+        0.1466
+      ],
+      "freq_absoluta": 3
+    },
+    "<lx>": {
+      "classe": "C5",
+      "outlier_score": -1.2084,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0248,
+        -0.0217
+      ],
+      "freq_absoluta": 14
+    },
+    "<lxl(2)>": {
+      "classe": "C3",
+      "outlier_score": -1.0885,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5774,
+        0.1127
+      ],
+      "freq_absoluta": 2
+    },
+    "<lxl(3)>": {
+      "classe": "C14",
+      "outlier_score": -0.7235,
+      "es_outlier": false,
+      "vector_2d": [
+        0.4037,
+        0.1604
+      ],
+      "freq_absoluta": 4
+    },
+    "<lxlp>": {
+      "classe": "C12",
+      "outlier_score": -0.394,
+      "es_outlier": false,
+      "vector_2d": [
+        0.2787,
+        0.0353
+      ],
+      "freq_absoluta": 5
+    },
+    "<nl>": {
+      "classe": "C13",
+      "outlier_score": -0.1275,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0483,
+        -0.0601
+      ],
+      "freq_absoluta": 11
+    },
+    "<p(2r)>": {
+      "classe": "C3",
+      "outlier_score": -0.5825,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5759,
+        0.103
+      ],
+      "freq_absoluta": 2
+    },
+    "<p22222p>": {
+      "classe": "C13",
+      "outlier_score": 0.8769,
+      "es_outlier": false,
+      "vector_2d": [
+        0.234,
+        0.0428
+      ],
+      "freq_absoluta": 2
+    },
+    "<pella>": {
+      "classe": "C14",
+      "outlier_score": 0.326,
+      "es_outlier": false,
+      "vector_2d": [
+        0.276,
+        0.077
+      ],
+      "freq_absoluta": 2
+    },
+    "<pl>": {
+      "classe": "C1",
+      "outlier_score": 0.635,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2241,
+        -0.0792
+      ],
+      "freq_absoluta": 53
+    },
+    "<pll>": {
+      "classe": "C3",
+      "outlier_score": -0.4633,
+      "es_outlier": false,
+      "vector_2d": [
+        0.5197,
+        0.098
+      ],
+      "freq_absoluta": 2
+    },
+    "<plxl>": {
+      "classe": "C5",
+      "outlier_score": -1.6688,
+      "es_outlier": false,
+      "vector_2d": [
+        0.2001,
+        0.0449
+      ],
+      "freq_absoluta": 10
+    },
+    "<v>": {
+      "classe": "C0",
+      "outlier_score": 0.4561,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0451,
+        -0.1751
+      ],
+      "freq_absoluta": 2
+    },
+    "<xl(3)l>": {
+      "classe": "C3",
+      "outlier_score": 0.4477,
+      "es_outlier": false,
+      "vector_2d": [
+        0.415,
+        0.1039
+      ],
+      "freq_absoluta": 2
+    },
+    "<xl>": {
+      "classe": "C1",
+      "outlier_score": 0.7901,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0765,
+        -0.0356
+      ],
+      "freq_absoluta": 10
+    },
+    ">": {
+      "classe": "C1",
+      "outlier_score": 1.8149,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2832,
+        -0.042
+      ],
+      "freq_absoluta": 14
+    },
+    "A": {
+      "classe": "C9",
+      "outlier_score": -0.6792,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3912,
+        -0.0585
+      ],
+      "freq_absoluta": 299
+    },
+    "G": {
+      "classe": "C9",
+      "outlier_score": -0.8176,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3673,
+        -0.019
+      ],
+      "freq_absoluta": 358
+    },
+    "I": {
+      "classe": "C1",
+      "outlier_score": -0.5865,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2567,
+        0.0394
+      ],
+      "freq_absoluta": 13
+    },
+    "IMZ": {
+      "classe": "C16",
+      "outlier_score": -0.7752,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2381,
+        0.0037
+      ],
+      "freq_absoluta": 23
+    },
+    "L": {
+      "classe": "C9",
+      "outlier_score": -1.6305,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3692,
+        -0.0182
+      ],
+      "freq_absoluta": 781
+    },
+    "M": {
+      "classe": "C1",
+      "outlier_score": -0.7087,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3139,
+        0.0163
+      ],
+      "freq_absoluta": 20
+    },
+    "MZ": {
+      "classe": "C16",
+      "outlier_score": -0.9292,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2674,
+        -0.0048
+      ],
+      "freq_absoluta": 11
+    },
+    "P": {
+      "classe": "C9",
+      "outlier_score": -0.1965,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3956,
+        -0.0565
+      ],
+      "freq_absoluta": 114
+    },
+    "R": {
+      "classe": "C1",
+      "outlier_score": -0.6457,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3114,
+        0.0204
+      ],
+      "freq_absoluta": 18
+    },
+    "V": {
+      "classe": "C16",
+      "outlier_score": -0.733,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3377,
+        -0.0422
+      ],
+      "freq_absoluta": 17
+    },
+    "X": {
+      "classe": "C9",
+      "outlier_score": -0.6758,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.285,
+        -0.0095
+      ],
+      "freq_absoluta": 60
+    },
+    "Z": {
+      "classe": "C16",
+      "outlier_score": -0.3263,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3791,
+        0.0565
+      ],
+      "freq_absoluta": 3
+    },
+    "[": {
+      "classe": "C1",
+      "outlier_score": 2.2216,
+      "es_outlier": true,
+      "vector_2d": [
+        -0.107,
+        -0.0708
+      ],
+      "freq_absoluta": 8
+    },
+    "]": {
+      "classe": "C11",
+      "outlier_score": 2.0193,
+      "es_outlier": true,
+      "vector_2d": [
+        -0.0984,
+        0.0249
+      ],
+      "freq_absoluta": 8
+    },
+    "a": {
+      "classe": "C1",
+      "outlier_score": -0.9346,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3599,
+        -0.0871
+      ],
+      "freq_absoluta": 2080
+    },
+    "c": {
+      "classe": "C1",
+      "outlier_score": 1.6822,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3089,
+        -0.1241
+      ],
+      "freq_absoluta": 4
+    },
+    "d": {
+      "classe": "C1",
+      "outlier_score": -1.2774,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.314,
+        0.0214
+      ],
+      "freq_absoluta": 66
+    },
+    "e": {
+      "classe": "C1",
+      "outlier_score": 0.2073,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3571,
+        0.0773
+      ],
+      "freq_absoluta": 27
+    },
+    "f": {
+      "classe": "C11",
+      "outlier_score": -1.3954,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.1808,
+        0.0336
+      ],
+      "freq_absoluta": 3
+    },
+    "g": {
+      "classe": "C11",
+      "outlier_score": -0.5317,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2571,
+        -0.0663
+      ],
+      "freq_absoluta": 4415
+    },
+    "l": {
+      "classe": "C10",
+      "outlier_score": 2.5288,
+      "es_outlier": true,
+      "vector_2d": [
+        0.0217,
+        -0.1365
+      ],
+      "freq_absoluta": 33447
+    },
+    "n": {
+      "classe": "C1",
+      "outlier_score": -0.6218,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.272,
+        -0.0466
+      ],
+      "freq_absoluta": 21
+    },
+    "o": {
+      "classe": "C1",
+      "outlier_score": -1.3623,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.315,
+        0.0165
+      ],
+      "freq_absoluta": 2
+    },
+    "p": {
+      "classe": "C13",
+      "outlier_score": -1.2098,
+      "es_outlier": false,
+      "vector_2d": [
+        0.0042,
+        0.0212
+      ],
+      "freq_absoluta": 31206
+    },
+    "q": {
+      "classe": "C0",
+      "outlier_score": 0.8362,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.0829,
+        -0.2541
+      ],
+      "freq_absoluta": 2
+    },
+    "r": {
+      "classe": "C1",
+      "outlier_score": -1.0809,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.3061,
+        0.0067
+      ],
+      "freq_absoluta": 285
+    },
+    "s": {
+      "classe": "C1",
+      "outlier_score": 1.2571,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2993,
+        -0.1352
+      ],
+      "freq_absoluta": 9
+    },
+    "v": {
+      "classe": "C1",
+      "outlier_score": 0.4865,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.382,
+        0.1311
+      ],
+      "freq_absoluta": 610
+    },
+    "x": {
+      "classe": "C1",
+      "outlier_score": -0.9304,
+      "es_outlier": false,
+      "vector_2d": [
+        -0.2918,
+        -0.0485
+      ],
+      "freq_absoluta": 790
+    },
+    "z": {
+      "classe": "C6",
+      "outlier_score": 2.5288,
+      "es_outlier": true,
+      "vector_2d": [
+        -0.2821,
+        -0.3457
+      ],
+      "freq_absoluta": 3
+    },
+    "(37)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(39)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(45)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(47)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(49)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(51)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(53)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(55)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(57)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(59)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(61)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(63)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(65)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(67)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "(69)": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    ".": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "10": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "13": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "2222223": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "25": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "333": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "6": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "9": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<#-glla>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(10)3(10)lpl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(2)3(2)(lg-4v)l(13)l(al-4v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(23)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(3)3(3)(lg-4v)l(11)l(al-4v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(3)ga(3)ll>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(3)ll>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(3)lxl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(4)3(4)(lg-4v)l(9)l(al-4v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(4)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(5)3(5)(lg-4v)lxl(al-4v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(6)3(6)(lg-3v)l(3)(la-3v)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(7)3(7)(lg-2v)(lp-3v)(la-2v)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(8)3(8)lg(lp-3v)lal>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(8)ll>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(9)3(9)l(pl-3v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(AL-2v)3(7)3(LG-4v)LPL(AL-2v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(AL-2v)A(3)(GL-5v)P(LA-3v)L>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(AL-2v)A(5)(GL-5v)(3)(LA-2v)L>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(gl-2v)(3)(la-2v)(7)p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(pl-3v)(3)(la-3v)(3)p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<(pl-3v)p(la-3v)(5)p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<222222l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<22lxl22>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<2PL>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<2lxl2>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3(3)lxl(3)l3l(3)lxl(3)3>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3(lg-4v)l(17)l(al-4v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3>(10)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3>(12)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3>(14)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3>(2)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3>(4)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3>(6)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3>(8)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3>>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<3pl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<4>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<5>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<6": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<6>lal3lgl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<7>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<A(11)(LP-3v)L(11)G>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<AL3L(15)L3LGLGLPLAL>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ALAPGL(13)LAPGLGL(3)L>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<APGL(21)LAPGL>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<GL>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<GLLA3LLA>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<L(2)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<L2P>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<L2PLP>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<LP2>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<LPL(2)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<LXLP>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<P2L>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<PL2PL>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(10)(lp-3v)l(10)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(10)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(11)(lp-3v)l(11)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(12)p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(13)pl3>>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(2)(lp-3v)l(2)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(3)(gl-2v)plal>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(3)(pella-3v)(3)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(3)g(plxl-3v)pa(3)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(3)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(3)gl(11)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(3)lxl(4)l3l(4)lxl(3)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(3)lxl(5)l3l(5)lxl(3)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(4)(glla-2v)(4)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(4)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(4)lxl(4)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(5)(glla-5v)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(5)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(5)gl(9)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(5)glpl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(6)(lp-3v)l(6)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(6)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(6)pglla>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(7)(lp-3v)l(7)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(7)glpl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(8)(lp-3v)l(8)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(8)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(9)(lp-3v)l(9)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a(9)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a2222gplxlp>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a222g2lxl2>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a22gp2lxl2p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<a23l22lxl22l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ap(gl-2v)(3)lal>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<apg(2)lxl(2)l3l(2)lxl(2)apg>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<apgl(13)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<apgl(2)la(3)pl(3)lappgl(2)3(2)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<apgl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<apglpl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<gll3l(2)ll(2)l3lla>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<glla(3)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<glla3>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<glpla(3)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<glplala2222glglpl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(11)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(18)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(2)la>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(2)llapla(8)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)3(3)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)g3>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)ga(3)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)l(11)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)la(10)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)la(11)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)lp3p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)lx(3)lxl(3)lapp>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)lx>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)lxl(3)la(5)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)lxl(3)lxl(3)lxl(3)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(3)lxl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(4)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(7)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(8)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(9)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(9)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l(glla-2v)la(6)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l2>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l3l(4)3(4)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l3lglpla>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l3lp>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l4>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<la(15)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lal>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<laz>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lglp(la-2v)(9)p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(10)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(11)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(12)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(13)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(14)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(15)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(16)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(17)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(19)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(21)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(4)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(7)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(8)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll(9)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll-8r>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<ll2>>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lpl3l3l3l3l3lplp3p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lpl3l3l3lpla(3)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lpl3lpla(7)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lpla(12)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lpla(13)g>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lplg>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lplp3p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lplpp3pp>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lplx>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(10)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(11)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(12)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(4)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(5)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(6)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(7)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(8)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<lxl(9)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<p(3r)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<p22222plxl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<p22xl22p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<p2lxl2p>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<p3p(lg-4v)l(15)l(al-4v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<pgl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<pl3l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<plallgl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<x(lp-2v)l(3)l(al-2v)>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<x22xl22plpl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<x7>>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<xlgl3>lal>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<xll>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<xlp(la-3v)222(pl-3v)pl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<xlp(la-4v)22(gl-4/v)l>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "<xlpl>": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "C": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "S": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "T": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "b": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "i": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "t": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    },
+    "u": {
+      "classe": "C_RARE",
+      "outlier_score": null,
+      "es_outlier": false,
+      "vector_2d": [
+        null,
+        null
+      ],
+      "freq_absoluta": 1
+    }
+  },
+  "classes": {
+    "C0": {
+      "num_tokens": 4,
+      "membres": [
+        "(1)",
+        "(23)",
+        "<v>",
+        "q"
+      ],
+      "centroide_2d": [
+        0.0856,
+        -0.2047
+      ],
+      "mean_pos_norm_mitja": 0.5692,
+      "H_successors_mitja": 0.5712,
+      "P_inici_volta_mitja": 0.0001,
+      "P_final_volta_mitja": 0.0,
+      "frac_macros": 0.5
+    },
+    "C1": {
+      "num_tokens": 30,
+      "membres": [
+        "#",
+        ")",
+        "-",
+        "/",
+        "3",
+        "33",
+        "3>",
+        "7>",
+        "<5",
+        "<al>",
+        "<gl>",
+        "<l3>",
+        "<la>",
+        "<pl>",
+        "<xl>",
+        ">",
+        "I",
+        "M",
+        "R",
+        "[",
+        "a",
+        "c",
+        "d",
+        "e",
+        "n",
+        "o",
+        "r",
+        "s",
+        "v",
+        "x"
+      ],
+      "centroide_2d": [
+        -0.2801,
+        -0.0177
+      ],
+      "mean_pos_norm_mitja": 0.4794,
+      "H_successors_mitja": 2.0466,
+      "P_inici_volta_mitja": 0.0137,
+      "P_final_volta_mitja": 0.0053,
+      "frac_macros": 0.0
+    },
+    "C2": {
+      "num_tokens": 6,
+      "membres": [
+        "(12)",
+        "(14)",
+        "(16)",
+        "(18)",
+        "(20)",
+        "(22)"
+      ],
+      "centroide_2d": [
+        -0.0195,
+        -0.3243
+      ],
+      "mean_pos_norm_mitja": 0.5609,
+      "H_successors_mitja": 1.7393,
+      "P_inici_volta_mitja": 0.0002,
+      "P_final_volta_mitja": 0.0004,
+      "frac_macros": 1.0
+    },
+    "C3": {
+      "num_tokens": 17,
+      "membres": [
+        "<(2r)p>",
+        "<(3)l3l>",
+        "<(3r)p>",
+        "<a(2)g>",
+        "<a(3)(lp-3v)l(3)g>",
+        "<a(3)ll(3)g>",
+        "<a(4)(lp-3v)l(4)g>",
+        "<a(4)g>",
+        "<a(5)(lp-3v)l(5)g>",
+        "<l(2)p>",
+        "<l(5)lx>",
+        "<l3l(3)>",
+        "<ll(5)>",
+        "<lxl(2)>",
+        "<p(2r)>",
+        "<pll>",
+        "<xl(3)l>"
+      ],
+      "centroide_2d": [
+        0.5085,
+        0.0925
+      ],
+      "mean_pos_norm_mitja": 0.553,
+      "H_successors_mitja": 0.1128,
+      "P_inici_volta_mitja": 0.0002,
+      "P_final_volta_mitja": 0.0007,
+      "frac_macros": 0.0
+    },
+    "C4": {
+      "num_tokens": 8,
+      "membres": [
+        "11",
+        "12",
+        "14",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8"
+      ],
+      "centroide_2d": [
+        -0.4369,
+        0.6831
+      ],
+      "mean_pos_norm_mitja": 0.5253,
+      "H_successors_mitja": 0.3349,
+      "P_inici_volta_mitja": 0.0002,
+      "P_final_volta_mitja": 0.0002,
+      "frac_macros": 0.0
+    },
+    "C5": {
+      "num_tokens": 12,
+      "membres": [
+        "<GLLA>",
+        "<LG>",
+        "<PLXL>",
+        "<glla>",
+        "<l(2)g>",
+        "<l(3)l3>",
+        "<l(5)>",
+        "<lap>",
+        "<lg>",
+        "<lpl3>",
+        "<lx>",
+        "<plxl>"
+      ],
+      "centroide_2d": [
+        0.1123,
+        0.0117
+      ],
+      "mean_pos_norm_mitja": 0.4904,
+      "H_successors_mitja": 0.8633,
+      "P_inici_volta_mitja": 0.0043,
+      "P_final_volta_mitja": 0.0043,
+      "frac_macros": 0.0
+    },
+    "C6": {
+      "num_tokens": 15,
+      "membres": [
+        "(10)",
+        "(11)",
+        "(13)",
+        "(19)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)",
+        "(8)",
+        "(9)",
+        "222",
+        "<4",
+        "z"
+      ],
+      "centroide_2d": [
+        -0.1905,
+        -0.2013
+      ],
+      "mean_pos_norm_mitja": 0.4957,
+      "H_successors_mitja": 2.1136,
+      "P_inici_volta_mitja": 0.009,
+      "P_final_volta_mitja": 0.0088,
+      "frac_macros": 0.8
+    },
+    "C7": {
+      "num_tokens": 4,
+      "membres": [
+        "(31)",
+        "(41)",
+        "<2>",
+        "<l(3)>"
+      ],
+      "centroide_2d": [
+        0.0074,
+        -0.1123
+      ],
+      "mean_pos_norm_mitja": 0.6132,
+      "H_successors_mitja": 1.5386,
+      "P_inici_volta_mitja": 0.0007,
+      "P_final_volta_mitja": 0.0007,
+      "frac_macros": 0.5
+    },
+    "C8": {
+      "num_tokens": 6,
+      "membres": [
+        "(15)",
+        "(17)",
+        "(21)",
+        "(25)",
+        "(27)",
+        "(29)"
+      ],
+      "centroide_2d": [
+        -0.0452,
+        -0.1106
+      ],
+      "mean_pos_norm_mitja": 0.6211,
+      "H_successors_mitja": 1.2412,
+      "P_inici_volta_mitja": 0.0004,
+      "P_final_volta_mitja": 0.0,
+      "frac_macros": 1.0
+    },
+    "C9": {
+      "num_tokens": 9,
+      "membres": [
+        "<AL>",
+        "<LP>",
+        "<LX>",
+        "<PL>",
+        "A",
+        "G",
+        "L",
+        "P",
+        "X"
+      ],
+      "centroide_2d": [
+        -0.2534,
+        -0.0022
+      ],
+      "mean_pos_norm_mitja": 0.5266,
+      "H_successors_mitja": 1.5157,
+      "P_inici_volta_mitja": 0.0023,
+      "P_final_volta_mitja": 0.0019,
+      "frac_macros": 0.0
+    },
+    "C10": {
+      "num_tokens": 8,
+      "membres": [
+        "(24)",
+        "(26)",
+        "(28)",
+        "11>",
+        "4>",
+        "<3>",
+        "<7",
+        "l"
+      ],
+      "centroide_2d": [
+        0.4072,
+        0.0138
+      ],
+      "mean_pos_norm_mitja": 0.6149,
+      "H_successors_mitja": 0.1551,
+      "P_inici_volta_mitja": 0.0295,
+      "P_final_volta_mitja": 0.045,
+      "frac_macros": 0.375
+    },
+    "C11": {
+      "num_tokens": 8,
+      "membres": [
+        "2>",
+        "<",
+        "<3",
+        "<ln>",
+        "<lp>",
+        "]",
+        "f",
+        "g"
+      ],
+      "centroide_2d": [
+        -0.1678,
+        -0.0172
+      ],
+      "mean_pos_norm_mitja": 0.4811,
+      "H_successors_mitja": 1.1156,
+      "P_inici_volta_mitja": 0.0054,
+      "P_final_volta_mitja": 0.0236,
+      "frac_macros": 0.0
+    },
+    "C12": {
+      "num_tokens": 8,
+      "membres": [
+        "5>",
+        "<222222>",
+        "<3lpl>",
+        "<a(2)l>",
+        "<a(3)ll(3)p>",
+        "<apl>",
+        "<lpg>",
+        "<lxlp>"
+      ],
+      "centroide_2d": [
+        0.3263,
+        0.0236
+      ],
+      "mean_pos_norm_mitja": 0.4449,
+      "H_successors_mitja": 1.1707,
+      "P_inici_volta_mitja": 0.0007,
+      "P_final_volta_mitja": 0.0002,
+      "frac_macros": 0.0
+    },
+    "C13": {
+      "num_tokens": 11,
+      "membres": [
+        "<#glla>",
+        "<(3)l>",
+        "<3l>",
+        "<XL>",
+        "<a(3)l>",
+        "<apg>",
+        "<l(5)l>",
+        "<la(2)>",
+        "<nl>",
+        "<p22222p>",
+        "p"
+      ],
+      "centroide_2d": [
+        0.1002,
+        0.0098
+      ],
+      "mean_pos_norm_mitja": 0.4354,
+      "H_successors_mitja": 0.9525,
+      "P_inici_volta_mitja": 0.0039,
+      "P_final_volta_mitja": 0.0046,
+      "frac_macros": 0.0
+    },
+    "C14": {
+      "num_tokens": 8,
+      "membres": [
+        "<glla#>",
+        "<l(2)>",
+        "<la(3)>",
+        "<ll(3)>",
+        "<ll(3)ga(3)>",
+        "<lplapg>",
+        "<lxl(3)>",
+        "<pella>"
+      ],
+      "centroide_2d": [
+        0.3838,
+        0.125
+      ],
+      "mean_pos_norm_mitja": 0.5776,
+      "H_successors_mitja": 0.125,
+      "P_inici_volta_mitja": 0.0001,
+      "P_final_volta_mitja": 0.0004,
+      "frac_macros": 0.0
+    },
+    "C15": {
+      "num_tokens": 3,
+      "membres": [
+        "(33)",
+        "(35)",
+        "(43)"
+      ],
+      "centroide_2d": [
+        0.0313,
+        -0.2889
+      ],
+      "mean_pos_norm_mitja": 0.7609,
+      "H_successors_mitja": 0.9728,
+      "P_inici_volta_mitja": 0.0,
+      "P_final_volta_mitja": 0.0,
+      "frac_macros": 1.0
+    },
+    "C16": {
+      "num_tokens": 6,
+      "membres": [
+        "22",
+        "<2",
+        "IMZ",
+        "MZ",
+        "V",
+        "Z"
+      ],
+      "centroide_2d": [
+        -0.2887,
+        -0.0219
+      ],
+      "mean_pos_norm_mitja": 0.3027,
+      "H_successors_mitja": 1.5475,
+      "P_inici_volta_mitja": 0.0025,
+      "P_final_volta_mitja": 0.0001,
+      "frac_macros": 0.0
+    },
+    "C_RARE": {
+      "num_tokens": 214,
+      "membres": [
+        "(37)",
+        "(39)",
+        "(45)",
+        "(47)",
+        "(49)",
+        "(51)",
+        "(53)",
+        "(55)",
+        "(57)",
+        "(59)",
+        "(61)",
+        "(63)",
+        "(65)",
+        "(67)",
+        "(69)",
+        ".",
+        "10",
+        "13",
+        "2222223",
+        "25",
+        "333",
+        "6",
+        "9",
+        "<#-glla>",
+        "<(10)3(10)lpl>",
+        "<(2)3(2)(lg-4v)l(13)l(al-4v)>",
+        "<(23)l>",
+        "<(3)3(3)(lg-4v)l(11)l(al-4v)>",
+        "<(3)ga(3)ll>",
+        "<(3)ll>",
+        "<(3)lxl>",
+        "<(4)3(4)(lg-4v)l(9)l(al-4v)>",
+        "<(4)l>",
+        "<(5)3(5)(lg-4v)lxl(al-4v)>",
+        "<(6)3(6)(lg-3v)l(3)(la-3v)l>",
+        "<(7)3(7)(lg-2v)(lp-3v)(la-2v)l>",
+        "<(8)3(8)lg(lp-3v)lal>",
+        "<(8)ll>",
+        "<(9)3(9)l(pl-3v)>",
+        "<(AL-2v)3(7)3(LG-4v)LPL(AL-2v)>",
+        "<(AL-2v)A(3)(GL-5v)P(LA-3v)L>",
+        "<(AL-2v)A(5)(GL-5v)(3)(LA-2v)L>",
+        "<(gl-2v)(3)(la-2v)(7)p>",
+        "<(pl-3v)(3)(la-3v)(3)p>",
+        "<(pl-3v)p(la-3v)(5)p>",
+        "<222222l>",
+        "<22lxl22>",
+        "<2PL>",
+        "<2lxl2>",
+        "<3(3)lxl(3)l3l(3)lxl(3)3>",
+        "<3(lg-4v)l(17)l(al-4v)>",
+        "<3>(10)>",
+        "<3>(12)>",
+        "<3>(14)>",
+        "<3>(2)>",
+        "<3>(4)>",
+        "<3>(6)>",
+        "<3>(8)>",
+        "<3>>",
+        "<3pl>",
+        "<4>",
+        "<5>",
+        "<6",
+        "<6>lal3lgl>",
+        "<7>",
+        "<A(11)(LP-3v)L(11)G>",
+        "<AL3L(15)L3LGLGLPLAL>",
+        "<ALAPGL(13)LAPGLGL(3)L>",
+        "<APGL(21)LAPGL>",
+        "<GL>",
+        "<GLLA3LLA>",
+        "<L(2)>",
+        "<L2P>",
+        "<L2PLP>",
+        "<LP2>",
+        "<LPL(2)>",
+        "<LXLP>",
+        "<P2L>",
+        "<PL2PL>",
+        "<a(10)(lp-3v)l(10)g>",
+        "<a(10)g>",
+        "<a(11)(lp-3v)l(11)g>",
+        "<a(12)p>",
+        "<a(13)pl3>>",
+        "<a(2)(lp-3v)l(2)g>",
+        "<a(3)(gl-2v)plal>",
+        "<a(3)(pella-3v)(3)g>",
+        "<a(3)g(plxl-3v)pa(3)g>",
+        "<a(3)g>",
+        "<a(3)gl(11)l>",
+        "<a(3)lxl(4)l3l(4)lxl(3)g>",
+        "<a(3)lxl(5)l3l(5)lxl(3)g>",
+        "<a(4)(glla-2v)(4)g>",
+        "<a(4)>",
+        "<a(4)lxl(4)g>",
+        "<a(5)(glla-5v)g>",
+        "<a(5)g>",
+        "<a(5)gl(9)l>",
+        "<a(5)glpl>",
+        "<a(6)(lp-3v)l(6)g>",
+        "<a(6)g>",
+        "<a(6)pglla>",
+        "<a(7)(lp-3v)l(7)g>",
+        "<a(7)glpl>",
+        "<a(8)(lp-3v)l(8)g>",
+        "<a(8)g>",
+        "<a(9)(lp-3v)l(9)g>",
+        "<a(9)g>",
+        "<a2222gplxlp>",
+        "<a222g2lxl2>",
+        "<a22gp2lxl2p>",
+        "<a23l22lxl22l>",
+        "<ap(gl-2v)(3)lal>",
+        "<apg(2)lxl(2)l3l(2)lxl(2)apg>",
+        "<apgl(13)l>",
+        "<apgl(2)la(3)pl(3)lappgl(2)3(2)l>",
+        "<apgl>",
+        "<apglpl>",
+        "<gll3l(2)ll(2)l3lla>",
+        "<glla(3)>",
+        "<glla3>",
+        "<glpla(3)>",
+        "<glplala2222glglpl>",
+        "<l(11)l>",
+        "<l(18)>",
+        "<l(2)la>",
+        "<l(2)llapla(8)g>",
+        "<l(3)3(3)>",
+        "<l(3)g3>",
+        "<l(3)g>",
+        "<l(3)ga(3)>",
+        "<l(3)l(11)>",
+        "<l(3)l>",
+        "<l(3)la(10)g>",
+        "<l(3)la(11)g>",
+        "<l(3)lp3p>",
+        "<l(3)lx(3)lxl(3)lapp>",
+        "<l(3)lx>",
+        "<l(3)lxl(3)la(5)g>",
+        "<l(3)lxl(3)lxl(3)lxl(3)l>",
+        "<l(3)lxl>",
+        "<l(4)>",
+        "<l(7)l>",
+        "<l(8)>",
+        "<l(9)>",
+        "<l(9)l>",
+        "<l(glla-2v)la(6)g>",
+        "<l2>",
+        "<l3l(4)3(4)>",
+        "<l3lglpla>",
+        "<l3lp>",
+        "<l4>",
+        "<l>",
+        "<la(15)g>",
+        "<lal>",
+        "<laz>",
+        "<lglp(la-2v)(9)p>",
+        "<ll(10)>",
+        "<ll(11)>",
+        "<ll(12)>",
+        "<ll(13)>",
+        "<ll(14)>",
+        "<ll(15)>",
+        "<ll(16)>",
+        "<ll(17)>",
+        "<ll(19)>",
+        "<ll(21)>",
+        "<ll(4)>",
+        "<ll(7)>",
+        "<ll(8)>",
+        "<ll(9)>",
+        "<ll-8r>",
+        "<ll2>>",
+        "<lpl3l3l3l3l3lplp3p>",
+        "<lpl3l3l3lpla(3)g>",
+        "<lpl3lpla(7)g>",
+        "<lpla(12)g>",
+        "<lpla(13)g>",
+        "<lplg>",
+        "<lplp3p>",
+        "<lplpp3pp>",
+        "<lplx>",
+        "<lxl(10)>",
+        "<lxl(11)>",
+        "<lxl(12)>",
+        "<lxl(4)>",
+        "<lxl(5)>",
+        "<lxl(6)>",
+        "<lxl(7)>",
+        "<lxl(8)>",
+        "<lxl(9)>",
+        "<p(3r)>",
+        "<p22222plxl>",
+        "<p22xl22p>",
+        "<p2lxl2p>",
+        "<p3p(lg-4v)l(15)l(al-4v)>",
+        "<pgl>",
+        "<pl3l>",
+        "<plallgl>",
+        "<x(lp-2v)l(3)l(al-2v)>",
+        "<x22xl22plpl>",
+        "<x7>>",
+        "<xlgl3>lal>",
+        "<xll>",
+        "<xlp(la-3v)222(pl-3v)pl>",
+        "<xlp(la-4v)22(gl-4/v)l>",
+        "<xlpl>",
+        "C",
+        "S",
+        "T",
+        "b",
+        "i",
+        "t",
+        "u"
+      ],
+      "centroide_2d": [
+        null,
+        null
+      ],
+      "mean_pos_norm_mitja": null,
+      "H_successors_mitja": null,
+      "P_inici_volta_mitja": null,
+      "P_final_volta_mitja": null,
+      "frac_macros": null,
+      "nota": "Tokens amb freq_absoluta <= 1. Context insuficient per clustering distribucional fiable. Agrupats en una sola classe d'equivalència 'context-pobre'."
+    }
+  }
+}

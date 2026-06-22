@@ -1,0 +1,263 @@
+{
+  "metadades": {
+    "nivell": "macro (volta-en-teixit)",
+    "ngram_order": 2,
+    "smoothing_k": 0.5,
+    "alfabet": [
+      "V0",
+      "V1"
+    ],
+    "vocab_size": 2,
+    "num_seqs": 22,
+    "num_tokens": 1295,
+    "H_global_bits": 0.4977,
+    "n_contexts": 3,
+    "num_rare_transitions_count1": 0
+  },
+  "model": {
+    "ngram_counts": {
+      "<BOS>": {
+        "V0": 13,
+        "V1": 9
+      },
+      "V0": {
+        "V0": 997,
+        "V1": 49,
+        "<EOS>": 17
+      },
+      "V1": {
+        "V0": 53,
+        "V1": 174,
+        "<EOS>": 5
+      }
+    },
+    "context_totals": {
+      "<BOS>": 22,
+      "V0": 1063,
+      "V1": 232
+    },
+    "transition_probabilities": {
+      "<BOS>": {
+        "V0": 0.574468,
+        "V1": 0.404255,
+        "<EOS>": 0.021277
+      },
+      "V0": {
+        "V0": 0.93706,
+        "V1": 0.046501,
+        "<EOS>": 0.01644
+      },
+      "V1": {
+        "V0": 0.229122,
+        "V1": 0.747323,
+        "<EOS>": 0.023555
+      }
+    },
+    "H_per_context_bits": {
+      "<BOS>": 1.1058,
+      "V0": 0.3912,
+      "V1": 0.9285
+    }
+  },
+  "summary_per_teixit": {
+    "ND_Isabelet": {
+      "len": 98,
+      "mean_surprisal_bits": 0.3527,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.277,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 99
+    },
+    "ND_Rosario": {
+      "len": 107,
+      "mean_surprisal_bits": 0.7352,
+      "max_surprisal_bits": 5.4078,
+      "perplexity": 1.6646,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 108
+    },
+    "ND_Demetri grande": {
+      "len": 49,
+      "mean_surprisal_bits": 0.4792,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.3939,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 50
+    },
+    "ND_Anelise": {
+      "len": 65,
+      "mean_surprisal_bits": 0.2893,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.2221,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 66
+    },
+    "ND_Aurea": {
+      "len": 70,
+      "mean_surprisal_bits": 0.1859,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.1375,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 71
+    },
+    "ND_Conchita Romero": {
+      "len": 90,
+      "mean_surprisal_bits": 0.7573,
+      "max_surprisal_bits": 5.4078,
+      "perplexity": 1.6904,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 91
+    },
+    "ND_Modelo Ros Mari": {
+      "len": 55,
+      "mean_surprisal_bits": 0.8311,
+      "max_surprisal_bits": 5.4078,
+      "perplexity": 1.779,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 56
+    },
+    "ND_Demetri pequeño": {
+      "len": 28,
+      "mean_surprisal_bits": 0.5388,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.4527,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 29
+    },
+    "ND_Punto Angelines para blusa": {
+      "len": 15,
+      "mean_surprisal_bits": 0.7873,
+      "max_surprisal_bits": 5.4078,
+      "perplexity": 1.7259,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 16
+    },
+    "ND_Zapatitos de recién nacido": {
+      "len": 5,
+      "mean_surprisal_bits": 1.3992,
+      "max_surprisal_bits": 5.4078,
+      "perplexity": 2.6376,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 6
+    },
+    "ND_Coco liso": {
+      "len": 45,
+      "mean_surprisal_bits": 0.2359,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.1777,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 46
+    },
+    "ND_Ruth": {
+      "len": 36,
+      "mean_surprisal_bits": 1.0449,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 2.0632,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 37
+    },
+    "ND_Chistrofe Rosa de Navidad": {
+      "len": 91,
+      "mean_surprisal_bits": 0.8151,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.7594,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 92
+    },
+    "ND_Maria": {
+      "len": 118,
+      "mean_surprisal_bits": 0.3983,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.318,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 119
+    },
+    "ND_Sin nombre": {
+      "len": 8,
+      "mean_surprisal_bits": 0.8203,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.7658,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 9
+    },
+    "ND_Tara": {
+      "len": 65,
+      "mean_surprisal_bits": 0.1929,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.143,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 66
+    },
+    "ND_Renacimiento": {
+      "len": 31,
+      "mean_surprisal_bits": 0.3877,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.3083,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 32
+    },
+    "ND_Campesina": {
+      "len": 30,
+      "mean_surprisal_bits": 0.7154,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.6419,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 31
+    },
+    "ND_Merche": {
+      "len": 53,
+      "mean_surprisal_bits": 0.6155,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.5321,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 54
+    },
+    "ND_Dolores": {
+      "len": 106,
+      "mean_surprisal_bits": 0.3334,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.2599,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 107
+    },
+    "ND_Chechee": {
+      "len": 55,
+      "mean_surprisal_bits": 0.2559,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.1941,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 56
+    },
+    "ND_Vilno (Hijo)": {
+      "len": 75,
+      "mean_surprisal_bits": 0.1798,
+      "max_surprisal_bits": 5.9267,
+      "perplexity": 1.1328,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 76
+    }
+  },
+  "rare_transitions_count1": []
+}

@@ -1,0 +1,909 @@
+==============================================================================
+ FASE 5.2b — TRIANGULACIÓ GRAMATICAL × LÈXICA SOBRE SEGMENTS
+==============================================================================
+
+Per a cada segment de 5.2, es classifica cada volta segons si
+és anòmala a 5.1 (gramatical), a 5.1b (lèxica), a totes dues
+(convergent) o cap. Veredicte agregat per segment:
+  · CONVERGENCIA      → ≥1 volta gramatical I lèxica
+  · PERFIL_LEXIC      → marcadors lèxics, gramàtica neta (candidat abecedari)
+  · PERFIL_GRAMATICAL → soroll gramatical, sense marcadors (farciment)
+  · MIXT / SENSE_SENYAL
+
+Voltes atípiques totals : 607  (gramaticals=437, lèxiques=227)
+  · dins de segment     : 324
+  · òrfenes (fora seg.) : 283
+
+Segments triangulats : 76
+  CONVERGENCIA       : 17
+  PERFIL_LEXIC       : 6
+  MIXT               : 7
+  PERFIL_GRAMATICAL  : 42
+  SENSE_SENYAL       : 4  (només senyal agregat — control)
+
+------------------------------------------------------------------------------
+  # teixit                 voltes          nV conv gram  lex    fG    fL veredicte         
+------------------------------------------------------------------------------
+  1 MS_La Puntilla         v1-v47          24   13    0   11  0.54  1.00 CONVERGENCIA      
+  2 MS_Celia 1             v81-v107        14    5    1    8  0.43  0.93 CONVERGENCIA      
+  3 MS_Campanilla          v89-v109        11    5    0    5  0.46  0.91 CONVERGENCIA      
+  4 MS_Puntilla2           v15-v49         18    5    2   10  0.39  0.83 CONVERGENCIA      
+  5 MS_Grafico 2           v65-v85         11    3    0    7  0.27  0.91 CONVERGENCIA      
+  6 MS_Araceli             v71-v81          6    3    1    1  0.67  0.67 CONVERGENCIA      
+  7 MS_Julito              v71-v91          7    3    3    0  0.86  0.43 CONVERGENCIA      
+  8 MS_Pino                v117-v129        7    2    2    3  0.57  0.71 CONVERGENCIA      
+  9 MS_Pensamiento         v19-v23          3    2    1    0  1.00  0.67 CONVERGENCIA      
+ 10 MS_Margarita           v43-v79         19    2    8    6  0.53  0.42 CONVERGENCIA      
+ 11 MS_Claveles            v55-v77         12    1    0   11  0.08  1.00 CONVERGENCIA      
+ 12 MS_Leonor              v105-v111        4    1    1    2  0.50  0.75 CONVERGENCIA      
+ 13 MS_Rita                v93-v103         6    1    1    3  0.33  0.67 CONVERGENCIA      
+ 14 MS_Punto conchas       v1-v13           7    1    4    1  0.71  0.29 CONVERGENCIA      
+ 15 MS_Palmito             v5-v23           5    1    4    0  1.00  0.20 CONVERGENCIA      
+ 16 MS_Celia 2             v13-v21          5    1    4    0  1.00  0.20 CONVERGENCIA      
+ 17 MS_Penas               v9-v31          12    1    8    0  0.75  0.08 CONVERGENCIA      
+ 18 MS_Campanilla          v73-v79          4    0    0    4  0.00  1.00 PERFIL_LEXIC      
+ 19 MS_Vueltas del reves   v15-v19          3    0    0    3  0.00  1.00 PERFIL_LEXIC      
+ 20 MS_Araceli             v95-v105         6    0    0    6  0.00  1.00 PERFIL_LEXIC      
+ 21 MS_Vaño Mimosa         v107-v111        3    0    0    3  0.00  1.00 PERFIL_LEXIC      
+ 22 MS_Marianin o Katiuska v21-v25          3    0    0    2  0.00  0.67 PERFIL_LEXIC      
+ 23 MS_Puntilla3           v11-v15          3    0    0    1  0.00  0.33 PERFIL_LEXIC      
+ 24 MS_Morin               v43-v69         14    0    1   13  0.07  0.93 MIXT              
+ 25 MS_Rita                v73-v77          3    0    2    1  0.67  0.33 MIXT              
+ 26 MS_Pensamiento         v33-v45          7    0    2    2  0.29  0.29 MIXT              
+ 27 MS_Salvador            v109-v115        4    0    2    1  0.50  0.25 MIXT              
+ 28 MS_Ovalo1              v29-v45          9    0    4    2  0.44  0.22 MIXT              
+ 29 MS_Luis                v105-v113        5    0    3    1  0.60  0.20 MIXT              
+ 30 MS_Vaño Mimosa         v89-v97          5    0    3    1  0.60  0.20 MIXT              
+ 31 MS_Susana              v27-v37          6    0    4    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 32 MS_Mariposa            v3-v9            4    0    3    0  0.75  0.00 PERFIL_GRAMATICAL 
+ 33 MS_Celia 1             v9-v29          11    0    8    0  0.73  0.00 PERFIL_GRAMATICAL 
+ 34 MS_Claveles            v1-v5            3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 35 MS_Raetine             v53-v79          8    0    7    0  0.88  0.00 PERFIL_GRAMATICAL 
+ 36 MS_Celia 2             v55-v65          6    0    5    0  0.83  0.00 PERFIL_GRAMATICAL 
+ 37 MS_Jazmín              v11-v19          5    0    3    0  0.60  0.00 PERFIL_GRAMATICAL 
+ 38 MS_Vaño Mimosa         v3-v9            4    0    3    0  0.75  0.00 PERFIL_GRAMATICAL 
+ 39 MS_Ovalo2              v17-v27          6    0    3    0  0.50  0.00 PERFIL_GRAMATICAL 
+ 40 MS_Jazmín              v1-v5            3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 41 MS_Ovalo1              v3-v11           5    0    4    0  0.80  0.00 PERFIL_GRAMATICAL 
+ 42 MS_Puntilla            v1-v5            3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 43 MS_Luis                v1-v5            3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 44 MS_Raetine             v96-v98          3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 45 MS_Luis                v135-v139        3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 46 MS_Marianin o Katiuska v1-v5            3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 47 MS_Campanilla          v47-v55          5    0    4    0  0.80  0.00 PERFIL_GRAMATICAL 
+ 48 MS_Estrellita          v33-v37          3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 49 MS_Celia 2             v1-v7            3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 50 MS_Campanilla          v35-v43          5    0    1    0  0.20  0.00 PERFIL_GRAMATICAL 
+ 51 MS_Salvador            v119-v125        4    0    2    0  0.50  0.00 PERFIL_GRAMATICAL 
+ 52 MS_Fajas               v1-v7            3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 53 MS_Susana              v9-v17           5    0    2    0  0.40  0.00 PERFIL_GRAMATICAL 
+ 54 MS_Salvador            v1-v7            3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 55 MS_Blumen Flor         v1-v5            3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 56 MS_Susana              v71-v79          5    0    2    0  0.40  0.00 PERFIL_GRAMATICAL 
+ 57 MS_Titi 2 - Grafico A  v17-v21          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 58 MS_Puntilla4           v23-v27          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 59 MS_Leonor              v1-v7            4    0    2    0  0.50  0.00 PERFIL_GRAMATICAL 
+ 60 MS_Hijo                v23-v27          3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 61 MS_Pino                v93-v97          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 62 MS_Morin               v1-v9            3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 63 MS_Blumen Flor         v109-v113        3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 64 MS_Estrellita          v5-v9            3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 65 MS_Luis                v53-v57          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 66 MS_Pino                v81-v85          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 67 MS_Punto Bellota       v10-v13          4    0    3    0  0.75  0.00 PERFIL_GRAMATICAL 
+ 68 MS_Puntilla nueva      v27-v31          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 69 MS_Pino                v59-v63          3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 70 MS_Mariposa            v29-v35          4    0    3    0  0.75  0.00 PERFIL_GRAMATICAL 
+ 71 MS_Puntilla            v17-v21          3    0    2    0  0.67  0.00 PERFIL_GRAMATICAL 
+ 72 MS_Adolbert            v25-v29          3    0    3    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 73 MS_Marianin o Katiuska v29-v35          4    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 74 MS_Dalila              v17-v21          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 75 MS_Salvador            v141-v145        3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 76 MS_Gafitas2            v33-v37          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+
+------------------------------------------------------------------------------
+ DETALL PER SEGMENT
+------------------------------------------------------------------------------
+
+ [1] MS_La Puntilla  v1-v47  (24 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=13  gramaticals=0  lèxiques=11  cap=0
+     voltes CONVERGENT: v3, v7, v11, v13, v15, v17, v19, v21, v23, v25, v27, v31, v45
+     voltes LEXICA    : v1, v5, v9, v29, v33, v35, v37, v39, v41, v43, v47
+     tokens C_RARE    : <a(9)g>×1, <a(6)pglla>×1, <a(3)(pella-3v)(3)g>×1, <a(4)(glla-2v)(4)g>×1, <ll(7)>×1, <a(5)(glla-5v)g>×1, <ll(9)>×1, <a(12)p>×1, <ll(11)>×1, <a(10)g>×1, <ll(13)>×1, <a(8)g>×1, <ll(15)>×1, <a(6)g>×1, <ll(17)>×1, <ll(19)>×1, <ll(21)>×1, <(23)l>×1, <(10)3(10)lpl>×1, <(9)3(9)l(pl-3v)>×1, <(8)3(8)lg(lp-3v)lal>×1, <(7)3(7)(lg-2v)(lp-3v)(la-2v)l>×1, <(6)3(6)(lg-3v)l(3)(la-3v)l>×1, <(5)3(5)(lg-4v)lxl(al-4v)>×1, <(4)3(4)(lg-4v)l(9)l(al-4v)>×1, <(3)3(3)(lg-4v)l(11)l(al-4v)>×1, <(2)3(2)(lg-4v)l(13)l(al-4v)>×1, <p3p(lg-4v)l(15)l(al-4v)>×1, <3(lg-4v)l(17)l(al-4v)>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [2] MS_Celia 1  v81-v107  (14 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=5  gramaticals=1  lèxiques=8  cap=0
+     voltes CONVERGENT: v85, v89, v93, v97, v101
+     voltes LEXICA    : v83, v87, v91, v95, v99, v103, v105, v107
+     voltes GRAMATICAL: v81
+     tokens C_RARE    : (45)×1, (47)×1, (49)×1, (51)×1, (53)×1, (55)×1, (57)×1, (59)×1, (61)×1, (63)×1, (65)×1, (67)×1, (69)×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [3] MS_Campanilla  v89-v109  (11 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=5  gramaticals=0  lèxiques=5  cap=1
+     voltes CONVERGENT: v89, v91, v93, v101, v105
+     voltes LEXICA    : v95, v97, v99, v103, v107
+     tokens C_RARE    : <222222l>×1, 2222223×1, <glla3>×1, <p22222plxl>×1, <a2222gplxlp>×1, <a222g2lxl2>×1, <a22gp2lxl2p>×1, <a23l22lxl22l>×1, <x22xl22plpl>×1, <glplala2222glglpl>×1, <xlp(la-3v)222(pl-3v)pl>×1, <xlp(la-4v)22(gl-4/v)l>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [4] MS_Puntilla2  v15-v49  (18 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.015)
+     classes voltes   : convergents=5  gramaticals=2  lèxiques=10  cap=1
+     voltes CONVERGENT: v23, v25, v27, v29, v35
+     voltes LEXICA    : v15, v31, v33, v37, v39, v41, v43, v45, v47, v49
+     voltes GRAMATICAL: v17, v21
+     tokens C_RARE    : <a(2)(lp-3v)l(2)g>×1, <a(6)(lp-3v)l(6)g>×1, <a(7)(lp-3v)l(7)g>×1, <a(8)(lp-3v)l(8)g>×1, <a(9)(lp-3v)l(9)g>×1, <a(10)(lp-3v)l(10)g>×1, <a(11)(lp-3v)l(11)g>×1, <A(11)(LP-3v)L(11)G>×1, <APGL(21)LAPGL>×1, <ALAPGL(13)LAPGLGL(3)L>×1, <AL3L(15)L3LGLGLPLAL>×1, <GL>×1, <(AL-2v)3(7)3(LG-4v)LPL(AL-2v)>×1, <(AL-2v)A(5)(GL-5v)(3)(LA-2v)L>×1, <(AL-2v)A(3)(GL-5v)P(LA-3v)L>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [5] MS_Grafico 2  v65-v85  (11 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=3  gramaticals=0  lèxiques=7  cap=1
+     voltes CONVERGENT: v65, v69, v75
+     voltes LEXICA    : v67, v71, v77, v79, v81, v83, v85
+     tokens C_RARE    : <lxl(5)>×1, <lxl(7)>×1, <a(4)>×1, <lxl(9)>×1, <lxl(11)>×1, <l(3)l(11)>×1, <lpl3lpla(7)g>×1, <l(3)lxl(3)la(5)g>×1, <lpl3l3l3lpla(3)g>×1, <l(3)lx(3)lxl(3)lapp>×1, <l3lp>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [6] MS_Araceli  v71-v81  (6 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=3  gramaticals=1  lèxiques=1  cap=1
+     voltes CONVERGENT: v71, v75, v77
+     voltes LEXICA    : v79
+     voltes GRAMATICAL: v73
+     tokens C_RARE    : <l(3)l>×1, <l(7)l>×1, <l(9)l>×1, <lal>×1, <l(11)l>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [7] MS_Julito  v71-v91  (7 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=3  gramaticals=3  lèxiques=0  cap=1
+     voltes CONVERGENT: v81, v83, v85
+     voltes GRAMATICAL: v71, v87, v89
+     tokens C_RARE    : <l(3)3(3)>×1, <lplpp3pp>×1, <l(3)lp3p>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [8] MS_Pino  v117-v129  (7 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=2  gramaticals=2  lèxiques=3  cap=0
+     voltes CONVERGENT: v119, v121
+     voltes LEXICA    : v123, v125, v127
+     voltes GRAMATICAL: v117, v129
+     tokens C_RARE    : <a(3)g(plxl-3v)pa(3)g>×1, <apg(2)lxl(2)l3l(2)lxl(2)apg>×1, <3(3)lxl(3)l3l(3)lxl(3)3>×1, <a(3)lxl(4)l3l(4)lxl(3)g>×1, <a(3)lxl(5)l3l(5)lxl(3)g>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [9] MS_Pensamiento  v19-v23  (3 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.052)
+     classes voltes   : convergents=2  gramaticals=1  lèxiques=0  cap=0
+     voltes CONVERGENT: v21, v23
+     voltes GRAMATICAL: v19
+     tokens C_RARE    : <(3)ll>×1, <plallgl>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [10] MS_Margarita  v43-v79  (19 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=2  gramaticals=8  lèxiques=6  cap=3
+     voltes CONVERGENT: v49, v51
+     voltes LEXICA    : v57, v71, v73, v75, v77, v79
+     voltes GRAMATICAL: v43, v45, v47, v55, v59, v63, v65, v67
+     tokens C_RARE    : <lxl(4)>×1, <lxl(6)>×1, <lxl(8)>×1, <lxl(10)>×1, <lxl(12)>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [11] MS_Claveles  v55-v77  (12 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.028)
+     classes voltes   : convergents=1  gramaticals=0  lèxiques=11  cap=0
+     voltes CONVERGENT: v57
+     voltes LEXICA    : v55, v59, v61, v63, v65, v67, v69, v71, v73, v75, v77
+     tokens C_RARE    : <3>>×1, <3>(2)>×1, <3>(4)>×1, <3>(6)>×1, <3>(8)>×1, <3>(10)>×1, <3>(12)>×1, <3>(14)>×1, <lpla(12)g>×1, <l(3)la(10)g>×1, <l(2)llapla(8)g>×1, <l(glla-2v)la(6)g>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [12] MS_Leonor  v105-v111  (4 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.032)
+     classes voltes   : convergents=1  gramaticals=1  lèxiques=2  cap=0
+     voltes CONVERGENT: v109
+     voltes LEXICA    : v105, v107
+     voltes GRAMATICAL: v111
+     tokens C_RARE    : <LP2>×1, <P2L>×1, <GLLA3LLA>×1, T×1, <L2PLP>×1, <L2P>×1, <2PL>×1, <PL2PL>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [13] MS_Rita  v93-v103  (6 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.046)
+     classes voltes   : convergents=1  gramaticals=1  lèxiques=3  cap=1
+     voltes CONVERGENT: v97
+     voltes LEXICA    : v95, v99, v103
+     voltes GRAMATICAL: v101
+     tokens C_RARE    : <l(4)>×1, <(4)l>×1, <l(3)g3>×1, <l(3)g>×1, <3pl>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [14] MS_Punto conchas  v1-v13  (7 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=1  gramaticals=4  lèxiques=1  cap=1
+     voltes CONVERGENT: v13
+     voltes LEXICA    : v3
+     voltes GRAMATICAL: v5, v7, v9, v11
+     tokens C_RARE    : <p(3r)>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [15] MS_Palmito  v5-v23  (5 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.058)
+     classes voltes   : convergents=1  gramaticals=4  lèxiques=0  cap=0
+     voltes CONVERGENT: v21
+     voltes GRAMATICAL: v5, v9, v15, v23
+     tokens C_RARE    : <l(9)>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [16] MS_Celia 2  v13-v21  (5 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.710)
+     classes voltes   : convergents=1  gramaticals=4  lèxiques=0  cap=0
+     voltes CONVERGENT: v15
+     voltes GRAMATICAL: v13, v17, v19, v21
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [17] MS_Penas  v9-v31  (12 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=1  gramaticals=8  lèxiques=0  cap=3
+     voltes CONVERGENT: v17
+     voltes GRAMATICAL: v9, v11, v13, v15, v19, v21, v23, v31
+     tokens C_RARE    : <(3)lxl>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [18] MS_Campanilla  v73-v79  (4 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=4  cap=0
+     voltes LEXICA    : v73, v75, v77, v79
+     tokens C_RARE    : <2lxl2>×1, <p2lxl2p>×1, <22lxl22>×1, <p22xl22p>×1
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [19] MS_Vueltas del reves  v15-v19  (3 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=0.380)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=3  cap=0
+     voltes LEXICA    : v15, v17, v19
+     tokens C_RARE    : <x7>>×1, <(8)ll>×1, <(3)ga(3)ll>×1
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [20] MS_Araceli  v95-v105  (6 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=6  cap=0
+     voltes LEXICA    : v95, v97, v99, v101, v103, v105
+     tokens C_RARE    : <a(7)glpl>×1, <a(5)glpl>×1, <a(3)(gl-2v)plal>×1, <ap(gl-2v)(3)lal>×1, 6×1, <x(lp-2v)l(3)l(al-2v)>×1
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [21] MS_Vaño Mimosa  v107-v111  (3 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=3  cap=0
+     voltes LEXICA    : v107, v109, v111
+     tokens C_RARE    : <a(5)gl(9)l>×1, <a(3)gl(11)l>×1, <apgl(13)l>×1
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [22] MS_Marianin o Katiuska  v21-v25  (3 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=0.165)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=2  cap=1
+     voltes LEXICA    : v21, v23
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [23] MS_Puntilla3  v11-v15  (3 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=1  cap=2
+     voltes LEXICA    : v13
+     tokens C_RARE    : <lplp3p>×1
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [24] MS_Morin  v43-v69  (14 voltes)  →  MIXT
+     fase 5.2 sig FDR : YES  (q=0.008)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=13  cap=0
+     voltes LEXICA    : v43, v45, v47, v49, v51, v53, v55, v57, v59, v61, v63, v65, v67
+     voltes GRAMATICAL: v69
+     tokens C_RARE    : <ll(8)>×1, <ll(10)>×1, <ll(12)>×1, <ll(14)>×1, <ll(16)>×1, <l(18)>×1, <la(15)g>×1, <lpla(13)g>×1, <l(3)la(11)g>×1, <lglp(la-2v)(9)p>×1, <(gl-2v)(3)(la-2v)(7)p>×1, <(pl-3v)p(la-3v)(5)p>×1, <(pl-3v)(3)(la-3v)(3)p>×1
+     >> Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.
+
+ [25] MS_Rita  v73-v77  (3 voltes)  →  MIXT
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=1  cap=0
+     voltes LEXICA    : v77
+     voltes GRAMATICAL: v73, v75
+     tokens C_RARE    : <glla(3)>×1
+     >> Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.
+
+ [26] MS_Pensamiento  v33-v45  (7 voltes)  →  MIXT
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=2  cap=3
+     voltes LEXICA    : v41, v43
+     voltes GRAMATICAL: v33, v39
+     tokens C_RARE    : <a(5)g>×1, <a(3)g>×1
+     >> Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.
+
+ [27] MS_Salvador  v109-v115  (4 voltes)  →  MIXT
+     fase 5.2 sig FDR : no  (q=0.080)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=1  cap=1
+     voltes LEXICA    : v109
+     voltes GRAMATICAL: v111, v115
+     tokens C_RARE    : i×1
+     >> Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.
+
+ [28] MS_Ovalo1  v29-v45  (9 voltes)  →  MIXT
+     fase 5.2 sig FDR : no  (q=0.689)
+     classes voltes   : convergents=0  gramaticals=4  lèxiques=2  cap=3
+     voltes LEXICA    : v35, v37
+     voltes GRAMATICAL: v29, v39, v43, v45
+     tokens C_RARE    : <laz>×1, <lplg>×1
+     >> Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.
+
+ [29] MS_Luis  v105-v113  (5 voltes)  →  MIXT
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=1  cap=1
+     voltes LEXICA    : v109
+     voltes GRAMATICAL: v105, v107, v111
+     >> Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.
+
+ [30] MS_Vaño Mimosa  v89-v97  (5 voltes)  →  MIXT
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=1  cap=1
+     voltes LEXICA    : v91
+     voltes GRAMATICAL: v89, v93, v97
+     >> Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.
+
+ [31] MS_Susana  v27-v37  (6 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : YES  (q=0.046)
+     classes voltes   : convergents=0  gramaticals=4  lèxiques=0  cap=2
+     voltes GRAMATICAL: v27, v29, v33, v35
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [32] MS_Mariposa  v3-v9  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : YES  (q=0.041)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=1
+     voltes GRAMATICAL: v3, v5, v7
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [33] MS_Celia 1  v9-v29  (11 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.701)
+     classes voltes   : convergents=0  gramaticals=8  lèxiques=0  cap=3
+     voltes GRAMATICAL: v9, v11, v13, v15, v17, v19, v21, v25
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [34] MS_Claveles  v1-v5  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.059)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v1, v3, v5
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [35] MS_Raetine  v53-v79  (8 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.380)
+     classes voltes   : convergents=0  gramaticals=7  lèxiques=0  cap=1
+     voltes GRAMATICAL: v53, v55, v57, v59, v61, v63, v77
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [36] MS_Celia 2  v55-v65  (6 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.689)
+     classes voltes   : convergents=0  gramaticals=5  lèxiques=0  cap=1
+     voltes GRAMATICAL: v55, v57, v59, v61, v65
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [37] MS_Jazmín  v11-v19  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.959)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=2
+     voltes GRAMATICAL: v11, v15, v19
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [38] MS_Vaño Mimosa  v3-v9  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.380)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=1
+     voltes GRAMATICAL: v3, v5, v7
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [39] MS_Ovalo2  v17-v27  (6 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=3
+     voltes GRAMATICAL: v19, v23, v25
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [40] MS_Jazmín  v1-v5  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v1, v3, v5
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [41] MS_Ovalo1  v3-v11  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=4  lèxiques=0  cap=1
+     voltes GRAMATICAL: v3, v5, v7, v11
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [42] MS_Puntilla  v1-v5  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.080)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v1, v3
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [43] MS_Luis  v1-v5  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.740)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v1, v3
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [44] MS_Raetine  v96-v98  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v96, v98
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [45] MS_Luis  v135-v139  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.805)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v135, v139
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [46] MS_Marianin o Katiuska  v1-v5  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v1, v3
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [47] MS_Campanilla  v47-v55  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=4  lèxiques=0  cap=1
+     voltes GRAMATICAL: v47, v51, v53, v55
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [48] MS_Estrellita  v33-v37  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.080)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v33, v35, v37
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [49] MS_Celia 2  v1-v7  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v1, v3, v7
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [50] MS_Campanilla  v35-v43  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=4
+     voltes GRAMATICAL: v35
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [51] MS_Salvador  v119-v125  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=2
+     voltes GRAMATICAL: v119, v123
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [52] MS_Fajas  v1-v7  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v1, v3, v7
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [53] MS_Susana  v9-v17  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=3
+     voltes GRAMATICAL: v13, v17
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [54] MS_Salvador  v1-v7  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v1, v5, v7
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [55] MS_Blumen Flor  v1-v5  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.959)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v3, v5
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [56] MS_Susana  v71-v79  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=3
+     voltes GRAMATICAL: v71, v79
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [57] MS_Titi 2 - Grafico A  v17-v21  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v17
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [58] MS_Puntilla4  v23-v27  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.380)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v23
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [59] MS_Leonor  v1-v7  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=2
+     voltes GRAMATICAL: v1, v5
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [60] MS_Hijo  v23-v27  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v23, v25, v27
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [61] MS_Pino  v93-v97  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v95
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [62] MS_Morin  v1-v9  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v5
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [63] MS_Blumen Flor  v109-v113  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v109
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [64] MS_Estrellita  v5-v9  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v5, v7
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [65] MS_Luis  v53-v57  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v53
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [66] MS_Pino  v81-v85  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v85
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [67] MS_Punto Bellota  v10-v13  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.090)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=1
+     voltes GRAMATICAL: v11, v12, v13
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [68] MS_Puntilla nueva  v27-v31  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v27
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [69] MS_Pino  v59-v63  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v59, v61
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [70] MS_Mariposa  v29-v35  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=1
+     voltes GRAMATICAL: v31, v33, v35
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [71] MS_Puntilla  v17-v21  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=2  lèxiques=0  cap=1
+     voltes GRAMATICAL: v17, v21
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [72] MS_Adolbert  v25-v29  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=3  lèxiques=0  cap=0
+     voltes GRAMATICAL: v25, v27, v29
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [73] MS_Marianin o Katiuska  v29-v35  (4 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=4
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [74] MS_Dalila  v17-v21  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [75] MS_Salvador  v141-v145  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [76] MS_Gafitas2  v33-v37  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+==============================================================================
+ VOLTES ATÍPIQUES ÒRFENES (fora de qualsevol segment de 5.2)
+==============================================================================
+ CONVERGENT (5.1∩5.1b) : 7   ← les més rellevants (anòmales però 5.2 no les va agrupar)
+ LEXICA (només 5.1b)   : 62
+ GRAMATICAL (només 5.1): 214
+
+teixit                  volta classe      cat_5.1   n_rare  tokens_rare / flags
+------------------------------------------------------------------------------
+MS_Adolbert                18 CONVERGENT  ALTA           2  25|.
+MS_Claveles               119 CONVERGENT  ALTA           1  <l(3)lxl(3)lxl(3)lxl(3)l>
+MS_Ovalo1                  49 CONVERGENT  CRÍTICA        1  333
+MS_Pelargonia              64 CONVERGENT  CRÍTICA        4  S|b|u|t
+MS_Rita                   107 CONVERGENT  MODERADA       1  <gll3l(2)ll(2)l3lla>
+MS_Titi 1                  15 CONVERGENT  MODERADA       0  flag_sig_salt
+MS_Titi 2 - Grafico A      15 CONVERGENT  MODERADA       0  flag_sig_salt
+MS_Adolbert                35 LEXICA      normal         1  <pl3l>
+MS_Araceli                 47 LEXICA      normal         1  <lplx>
+MS_Cacus                   15 LEXICA      normal         0  
+MS_Campanilla              69 LEXICA      normal         1  <xll>
+MS_Celia 1                 55 LEXICA      normal         0  
+MS_Celia 1                 75 LEXICA      normal         1  (37)
+MS_Celia 1                 77 LEXICA      normal         1  (39)
+MS_Claveles               111 LEXICA      normal         0  
+MS_Claveles               115 LEXICA      normal         0  
+MS_Claveles               117 LEXICA      normal         1  <lpl3l3l3l3l3lplp3p>
+MS_Fajas                   37 LEXICA      normal         1  <l>
+MS_Gafitas2                57 LEXICA      normal         1  <l(2)la>
+MS_Grafico 2               31 LEXICA      normal         1  <l(3)lx>
+MS_Grafico B - Puntill     73 LEXICA      normal         0  
+MS_Hijo                    31 LEXICA      normal         0  
+MS_Hijo                    33 LEXICA      normal         0  
+MS_Hojas                   37 LEXICA      normal         1  <xlpl>
+MS_Hojas                   41 LEXICA      normal         1  <xlgl3>lal>
+MS_Hojas                   43 LEXICA      normal         0  
+MS_Julito                  45 LEXICA      normal         1  <apgl>
+MS_Leonor                  45 LEXICA      normal         1  <LXLP>
+MS_Leonor                  49 LEXICA      normal         1  <LPL(2)>
+MS_Leonor                  65 LEXICA      normal         1  C
+MS_Leonor                  83 LEXICA      normal         1  <L(2)>
+MS_Luis                    97 LEXICA      normal         0  
+MS_Luis                    99 LEXICA      normal         0  
+MS_Madreselva             219 LEXICA      normal         0  
+MS_Margarita              107 LEXICA      normal         0  
+MS_Margarita              109 LEXICA      normal         0  
+MS_Marianin o Katiuska     19 LEXICA      normal         0  
+MS_Marianin o Katiuska     47 LEXICA      normal         0  
+MS_Morin                   37 LEXICA      normal         1  <ll2>>
+MS_Morin                   39 LEXICA      normal         1  <ll(4)>
+MS_Ovalo1                  23 LEXICA      normal         1  <pgl>
+MS_Ovalo2                  11 LEXICA      normal         1  <7>
+MS_Ovalo2                  13 LEXICA      normal         1  <ll-8r>
+MS_Ovalo2                  33 LEXICA      normal         0  
+MS_Pensamiento             27 LEXICA      normal         1  <6>lal3lgl>
+MS_Pino                   109 LEXICA      normal         1  <a(4)lxl(4)g>
+MS_Pino                   137 LEXICA      normal         1  <apgl(2)la(3)pl(3)lappgl(2)3(2)l>
+MS_Puntilla                 7 LEXICA      normal         0  
+MS_Puntilla                 9 LEXICA      normal         0  
+MS_Puntilla                11 LEXICA      normal         0  
+MS_Puntilla pequeña Sa    119 LEXICA      normal         0  
+MS_Puntilla2                5 LEXICA      normal         1  10
+MS_Puntilla2                7 LEXICA      normal         1  9
+MS_Puntilla3                1 LEXICA      normal         1  <a(13)pl3>>
+MS_Raetine                113 LEXICA      normal         1  <#-glla>
+MS_Rita                     9 LEXICA      normal         1  13
+MS_Rita                    81 LEXICA      normal         1  <l(8)>
+MS_Rita                    83 LEXICA      normal         1  <glpla(3)>
+MS_Rita                    87 LEXICA      normal         2  <l3lglpla>|<l3l(4)3(4)>
+MS_Rita                    89 LEXICA      normal         0  
+MS_Salvador                69 LEXICA      normal         1  <l2>
+MS_Salvador               101 LEXICA      normal         1  <6
+MS_Susana                  41 LEXICA      normal         1  <apglpl>
+MS_Titi - Puntilla         11 LEXICA      normal         1  <l(3)lxl>
+MS_Vaño Mimosa             47 LEXICA      normal         2  <4>|<l4>
+MS_Vaño Mimosa             49 LEXICA      normal         1  <5>
+MS_Vaño Mimosa             71 LEXICA      normal         0  
+MS_Vueltas del reves       27 LEXICA      normal         0  
+MS_Vueltas del reves       29 LEXICA      normal         1  <l(3)ga(3)>
+MS_Adolbert                33 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Antoña o Canijo          7 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Antoña o Canijo          9 GRAMATICAL  ALTA           0  flag_sig_intra|flag_sig_salt
+MS_Antoña o Canijo         31 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Araceli                  5 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Araceli                 13 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Araceli                 19 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Araceli                 37 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Araceli                 45 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Araceli                 53 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Araceli                 59 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Araceli                 63 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Araceli                 89 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Blumen Flor              9 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Blumen Flor             19 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Blumen Flor            117 GRAMATICAL  ALTA           0  flag_sig_intra|flag_sig_salt
+MS_Cacus                    1 GRAMATICAL  CRÍTICA        0  flag_macro_surp|flag_micro_mean|flag_trans_invalides
+MS_Cacus                    3 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Cacus                    9 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Campanilla               3 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Campanilla               7 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Campanilla              31 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Campanilla              57 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Campanilla              59 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Campanilla              61 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Campanilla              63 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Campanilla              71 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Campanilla              83 GRAMATICAL  ALTA           0  flag_macro_surp|flag_micro_mean
+MS_Celia 1                  1 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Celia 1                  3 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Celia 1                 31 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Celia 1                 37 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Celia 1                 59 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Celia 2                 23 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Celia 2                 27 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Celia 2                 29 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Celia 2                 45 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Claveles               103 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Dalia                   15 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Dalia                   19 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Dalia                   39 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Dalia                   43 GRAMATICAL  ALTA           0  flag_sig_intra|flag_trans_invalides
+MS_Dalila                   1 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Estrellita              13 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Estrellita              17 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Estrellita              25 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Estrellita              29 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Fajas                   17 GRAMATICAL  MODERADA       0  flag_micro_mean
+MS_Fajas                   19 GRAMATICAL  ALTA           0  flag_sig_intra|flag_macro_surp
+MS_Fajas                   21 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Fajas                   23 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Fajas                   27 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Fajas                   31 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Fajas                   39 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Gafitas1                47 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Gafitas2                41 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Gafitas2                45 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Gafitas2                51 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Gafitas2                55 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Grafico 2               47 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Grafico 2               53 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Grafico B - Puntill     39 GRAMATICAL  ALTA           0  flag_sig_intra|flag_macro_surp
+MS_Grafico B - Puntill     49 GRAMATICAL  ALTA           0  flag_sig_intra|flag_macro_surp
+MS_Grafico B - Puntill     69 GRAMATICAL  ALTA           0  flag_sig_intra|flag_macro_surp
+MS_Hijo                     1 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Hijo                    19 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Hijo                    35 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Hijo                    39 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Hijo                    43 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Hijo                    51 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Hijo                    91 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Hijo                    95 GRAMATICAL  CRÍTICA        0  flag_sig_intra|flag_sig_salt|flag_macro_surp|flag_trans_invalides
+MS_Hojas                    1 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Hojas                    3 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Jazmín                  23 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Julito                   1 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Julito                   5 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Julito                   7 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Julito                  11 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Julito                  15 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Julito                  17 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Julito                  19 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Julito                  49 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Julito                  59 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Julito                  67 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Leonor                  31 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Leonor                  35 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Leonor                  71 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Luis                     9 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Luis                    47 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Luis                    79 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Luis                    95 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Luis                   101 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Luis                   103 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_MLuisa                  29 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_MLuisa                  31 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Madreselva              23 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Madreselva             207 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Madreselva             221 GRAMATICAL  CRÍTICA        0  flag_sig_intra|flag_sig_salt|flag_macro_surp
+MS_Madreselva             223 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Margarita               27 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Margarita               35 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Margarita               41 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Margarita               83 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Margarita              111 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Margarita              115 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Mariposa                17 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Mariposa                21 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Mariposa                25 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Mary-Luz                47 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Morin                   19 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Morin                   21 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Morin                   27 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Morin                   41 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Otro Punto Calado        1 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Ovalo1                  13 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Ovalo1                  15 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Ovalo1                  17 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Ovalo1                  21 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Ovalo1                  25 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Ovalo1                  51 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Ovalo2                   5 GRAMATICAL  CRÍTICA        0  flag_sig_intra|flag_micro_mean|flag_trans_invalides
+MS_Ovalo2                   7 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Ovalo2                  35 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Ovalo2                  57 GRAMATICAL  CRÍTICA        0  flag_sig_intra|flag_sig_salt|flag_macro_surp
+MS_Ovalo2                  59 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Palmito                 47 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pelargonia               3 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Pelargonia               5 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Pelargonia               9 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Pelargonia              13 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Pelargonia              17 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Pelargonia              19 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Pelargonia              21 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Pelargonia              57 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Pelargonia              69 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Pelargonia              71 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Pelargonia              79 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Penas                   33 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Penas                   49 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Penas                   56 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Penas                   64 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Penas                   68 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pensamiento             29 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pensamiento             49 GRAMATICAL  ALTA           0  flag_macro_surp|flag_micro_max
+MS_Pino                    13 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    17 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    21 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    25 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    33 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    41 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    45 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    49 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    53 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Pino                    67 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Pino                    89 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Pino                   101 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Plumitas                11 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Plumitas                43 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Plumitas                51 GRAMATICAL  ALTA           0  flag_sig_intra|flag_micro_max
+MS_Puntilla                29 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Puntilla nueva          17 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Puntilla nueva          23 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Puntilla pequeña Sa    113 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Puntilla pequeña Sa    117 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Puntilla1                1 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Puntilla4                1 GRAMATICAL  ALTA           0  flag_sig_intra|flag_micro_mean
+MS_Puntilla4               17 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Punto Esmeralda          2 GRAMATICAL  MODERADA       0  flag_micro_mean
+MS_Punto Esmeralda          4 GRAMATICAL  MODERADA       0  flag_micro_mean
+MS_Punto Esmeralda          5 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Punto Esmeralda          6 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Punto Hojitas vuelt      7 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Punto dos caras          5 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Punto semilla            3 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Punto semilla            9 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Raetine                  3 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Raetine                  5 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Raetine                  9 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Raetine                 13 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Raetine                 40 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Raetine                 92 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Raetine                 94 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Raetine                 99 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Raetine                109 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Rita                    21 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Rita                    69 GRAMATICAL  ALTA           0  flag_sig_intra|flag_macro_surp
+MS_Rita                   113 GRAMATICAL  ALTA           0  flag_sig_intra|flag_macro_surp
+MS_Salvador                 9 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Salvador                11 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Salvador                47 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Salvador                67 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Salvador                83 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Salvador                85 GRAMATICAL  MODERADA       0  flag_micro_max
+MS_Salvador                87 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Salvador               149 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Susana                  51 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Susana                  63 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Susana                  67 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Titi - Puntilla          9 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Titi 1                   3 GRAMATICAL  MODERADA       0  flag_trans_invalides
+MS_Titi 1                  13 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Titi 1                  17 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Titi 2 - Grafico A       3 GRAMATICAL  ALTA           0  flag_micro_mean|flag_trans_invalides
+MS_Titi 2 - Grafico A      13 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+MS_Titi 2 - Grafico A      23 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Titi 2 - Grafico B      25 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Titi 2 - Grafico B      29 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Titi 2 - Grafico B      37 GRAMATICAL  MODERADA       0  flag_sig_intra
+MS_Titi 2 - Grafico B      39 GRAMATICAL  MODERADA       0  flag_sig_salt
+MS_Vaño Mimosa             39 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Vaño Mimosa             45 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Vaño Mimosa             59 GRAMATICAL  MODERADA       0  flag_macro_surp
+MS_Vaño Mimosa             73 GRAMATICAL  MODERADA       0  flag_macro_surp

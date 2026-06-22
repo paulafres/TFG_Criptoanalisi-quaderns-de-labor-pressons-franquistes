@@ -1,0 +1,119 @@
+stream,n_tokens,alphabet_size,IC,IC_norm,IC_uniforme,IC_ratio_vs_unif,top_token,top_token_pct,kasiski_n3_repeats,kasiski_n3_gcd,kasiski_n4_repeats,kasiski_n4_gcd
+corpus_complet,81492,377,0.319493,120.4487,0.002653,120.449,l,41.043,1604,1,2508,1
+anomalies_global,23255,108,0.936054,101.0938,0.009259,101.094,p,96.745,91,1,65,1
+marcadors_corpus,9269,371,0.055173,20.4693,0.002695,20.469,(3),12.677,956,1,975,1
+marcadors_anomalies,342,102,0.034676,3.537,0.009804,3.537,L,13.45,14,1,10,3
+anomalies_MS_Adolbert,15,9,0.095238,0.8571,0.111111,0.857,l,26.667,0,0,0,0
+anomalies_MS_Antoña o Canijo,4,,,,,,,,,,,
+anomalies_MS_Araceli,6,,,,,,,,,,,
+anomalies_MS_Blumen Flor,5,,,,,,,,,,,
+anomalies_MS_Cacus,18,5,0.248366,1.2418,0.2,1.242,l,38.889,5,1,2,1
+anomalies_MS_Campanilla,22250,12,0.997934,11.9752,0.083333,11.975,p,99.897,1,0,1,0
+anomalies_MS_Celia 1,114,20,0.135227,2.7045,0.05,2.705,x,26.316,5,1,2,0
+anomalies_MS_Celia 2,43,13,0.451827,5.8738,0.076923,5.874,p,67.442,1,5,1,0
+anomalies_MS_Claveles,17,11,0.051471,0.5662,0.090909,0.566,v,17.647,0,0,0,0
+anomalies_MS_Dalia,5,,,,,,,,,,,
+anomalies_MS_Dalila,2,,,,,,,,,,,
+anomalies_MS_Fajas,6,,,,,,,,,,,
+anomalies_MS_Grafico B - Puntilla,32,10,0.141129,1.4113,0.1,1.411,l,28.125,6,2,2,4
+anomalies_MS_Hijo,12,6,0.151515,0.9091,0.166667,0.909,p,33.333,0,0,0,0
+anomalies_MS_Jazmín,8,,,,,,,,,,,
+anomalies_MS_Julito,6,,,,,,,,,,,
+anomalies_MS_La Puntilla,30,17,0.091954,1.5632,0.058824,1.563,l,26.667,1,0,0,0
+anomalies_MS_Leonor,61,6,0.57541,3.4525,0.166667,3.452,L,75.41,9,1,7,3
+anomalies_MS_Luis,48,14,0.301418,4.2199,0.071429,4.22,p,54.167,2,28,1,0
+anomalies_MS_Madreselva,6,,,,,,,,,,,
+anomalies_MS_Margarita,133,12,0.249943,2.9993,0.083333,2.999,p,34.586,13,1,10,1
+anomalies_MS_Marianin o Katiuska,8,,,,,,,,,,,
+anomalies_MS_Mariposa,5,,,,,,,,,,,
+anomalies_MS_Morin,3,,,,,,,,,,,
+anomalies_MS_Ovalo1,29,11,0.1133,1.2463,0.090909,1.246,p,27.586,2,1,0,0
+anomalies_MS_Ovalo2,23,8,0.134387,1.0751,0.125,1.075,g,30.435,3,2,1,6
+anomalies_MS_Palmito,5,,,,,,,,,,,
+anomalies_MS_Pelargonia,42,13,0.24158,3.1405,0.076923,3.141,p,47.619,1,0,1,0
+anomalies_MS_Penas,5,,,,,,,,,,,
+anomalies_MS_Pensamiento,30,15,0.163218,2.4483,0.066667,2.448,l,40.0,1,10,0,0
+anomalies_MS_Pino,10,8,0.044444,0.3556,0.125,0.356,p,20.0,0,0,0,0
+anomalies_MS_Plumitas,10,2,0.644444,1.2889,0.5,1.289,l,80.0,2,1,2,5
+anomalies_MS_Puntilla,8,,,,,,,,,,,
+anomalies_MS_Puntilla nueva,11,8,0.054545,0.4364,0.125,0.436,a,18.182,0,0,0,0
+anomalies_MS_Puntilla pequeña Salvador,24,5,0.40942,2.0471,0.2,2.047,p,62.5,1,0,1,0
+anomalies_MS_Puntilla4,4,,,,,,,,,,,
+anomalies_MS_Raetine,33,14,0.111742,1.5644,0.071429,1.564,p,27.273,3,2,2,2
+anomalies_MS_Rita,38,16,0.119488,1.9118,0.0625,1.912,p,28.947,3,1,3,7
+anomalies_MS_Salvador,22,12,0.073593,0.8831,0.083333,0.883,l,22.727,1,4,0,0
+anomalies_MS_Susana,7,,,,,,,,,,,
+anomalies_MS_Titi 1,53,5,0.420174,2.1009,0.2,2.101,x,49.057,2,25,2,0
+anomalies_MS_Titi 2 - Grafico A,57,5,0.396617,1.9831,0.2,1.983,x,47.368,3,1,2,0
+anomalies_MS_Vaño Mimosa,7,,,,,,,,,,,
+marcadors_MS_Adolbert,99,32,0.061637,1.9724,0.03125,1.972,(3),18.182,9,1,4,1
+marcadors_MS_Antoña o Canijo,36,11,0.211111,2.3222,0.090909,2.322,(3),41.667,4,1,3,1
+marcadors_MS_Araceli,287,36,0.085719,3.0859,0.027778,3.086,(3),21.254,39,1,30,1
+marcadors_MS_Blumen Flor,70,10,0.221946,2.2195,0.1,2.219,(2),31.429,14,1,13,1
+marcadors_MS_Cacus,87,17,0.12216,2.0767,0.058824,2.077,(3),24.138,15,1,9,1
+marcadors_MS_Campanilla,215,62,0.061421,3.8081,0.016129,3.808,(2),19.535,11,1,3,1
+marcadors_MS_Celia 1,212,43,0.05638,2.4243,0.023256,2.424,(3),13.679,20,1,19,1
+marcadors_MS_Celia 2,94,28,0.075955,2.1267,0.035714,2.127,(3),19.149,6,1,5,1
+marcadors_MS_Claveles,383,38,0.11573,4.3977,0.026316,4.398,(5),26.11,56,1,42,1
+marcadors_MS_Dalia,45,12,0.10303,1.2364,0.083333,1.236,(5),22.222,0,0,0,0
+marcadors_MS_Dalila,20,11,0.089474,0.9842,0.090909,0.984,<la>,25.0,0,0,0,0
+marcadors_MS_Estrellita,22,15,0.047619,0.7143,0.066667,0.714,<al>,18.182,0,0,0,0
+marcadors_MS_Fajas,64,18,0.174107,3.1339,0.055556,3.134,(2),35.938,8,1,4,2
+marcadors_MS_Gafitas1,7,,,,,,,,,,,
+marcadors_MS_Gafitas2,86,20,0.097948,1.959,0.05,1.959,(3),17.442,8,1,2,1
+marcadors_MS_Grafico 2,177,33,0.081215,2.6801,0.030303,2.68,(4),15.819,19,1,12,1
+marcadors_MS_Grafico B - Puntilla,151,26,0.170419,4.4309,0.038462,4.431,(3),35.099,20,1,15,1
+marcadors_MS_Hijo,288,23,0.119653,2.752,0.043478,2.752,3,22.222,41,1,37,1
+marcadors_MS_Hojas,55,14,0.126599,1.7724,0.071429,1.772,(3),25.455,8,1,5,1
+marcadors_MS_Hojas de Matilde,8,,,,,,,,,,,
+marcadors_MS_Jazmín,20,9,0.142105,1.2789,0.111111,1.279,<2>,30.0,1,0,1,0
+marcadors_MS_Julito,119,26,0.215496,5.6029,0.038462,5.603,(3),42.857,7,1,7,1
+marcadors_MS_La Puntilla,78,53,0.020979,1.1119,0.018868,1.112,3,11.538,0,0,0,0
+marcadors_MS_Leonor,1863,52,0.201145,10.4596,0.019231,10.46,L,37.466,135,1,183,1
+marcadors_MS_Luis,328,32,0.090923,2.9095,0.03125,2.91,(2),16.768,46,1,34,1
+marcadors_MS_MLuisa,79,17,0.085362,1.4512,0.058824,1.451,(3),18.987,3,1,0,0
+marcadors_MS_Madreselva,62,6,0.239556,1.4373,0.166667,1.437,(3),37.097,14,1,11,1
+marcadors_MS_Margarita,320,43,0.055741,2.3968,0.023256,2.397,(3),10.938,38,1,24,1
+marcadors_MS_Marianin o Katiuska,129,10,0.385296,3.853,0.1,3.853,(2),60.465,17,1,15,1
+marcadors_MS_Mariposa,49,16,0.096939,1.551,0.0625,1.551,v,20.408,10,1,8,1
+marcadors_MS_Mary-Luz,28,10,0.216931,2.1693,0.1,2.169,(3),35.714,3,1,2,1
+marcadors_MS_Morin,156,43,0.069148,2.9734,0.023256,2.973,(2),17.308,11,1,1,7
+marcadors_MS_Otro Punto Calado,2,,,,,,,,,,,
+marcadors_MS_Otro punto bellota,34,4,0.393939,1.5758,0.25,1.576,R,52.941,8,1,8,1
+marcadors_MS_Ovalo1,103,26,0.09861,2.5639,0.038462,2.564,(2),23.301,7,1,3,3
+marcadors_MS_Ovalo2,92,15,0.123029,1.8454,0.066667,1.845,<al>,21.739,10,1,9,1
+marcadors_MS_Palmito,39,15,0.110661,1.6599,0.066667,1.66,(3),25.641,3,5,1,5
+marcadors_MS_Pelargonia,137,28,0.103371,2.8944,0.035714,2.894,(2),21.168,13,1,6,1
+marcadors_MS_Penas,70,25,0.058385,1.4596,0.04,1.46,(3),15.714,4,1,2,43
+marcadors_MS_Pensamiento,71,31,0.069618,2.1581,0.032258,2.158,v,22.535,3,1,1,1
+marcadors_MS_Pino,302,41,0.053574,2.1965,0.02439,2.197,(3),12.252,52,1,38,1
+marcadors_MS_Plumitas,124,19,0.154865,2.9424,0.052632,2.942,(2),33.871,20,1,16,1
+marcadors_MS_Puntilla,100,19,0.069091,1.3127,0.052632,1.313,<glla>,12.0,10,1,4,32
+marcadors_MS_Puntilla nueva,75,21,0.105946,2.2249,0.047619,2.225,(2),24.0,4,1,2,41
+marcadors_MS_Puntilla pequeña Salvador,7,,,,,,,,,,,
+marcadors_MS_Puntilla1,5,,,,,,,,,,,
+marcadors_MS_Puntilla2,190,51,0.088499,4.5135,0.019608,4.513,L,25.263,17,1,10,1
+marcadors_MS_Puntilla3,95,26,0.079731,2.073,0.038462,2.073,/,20.0,14,1,10,1
+marcadors_MS_Puntilla4,49,13,0.125,1.625,0.076923,1.625,(3),28.571,1,0,0,0
+marcadors_MS_Punto Bellota,36,4,0.471429,1.8857,0.25,1.886,(2),66.667,7,1,7,1
+marcadors_MS_Punto Calado,12,4,0.287879,1.1515,0.25,1.152,(2),50.0,2,3,1,3
+marcadors_MS_Punto Esmeralda,12,3,0.272727,0.8182,0.333333,0.818,(4),33.333,4,6,3,6
+marcadors_MS_Punto Feito,26,6,0.307692,1.8462,0.166667,1.846,(2),53.846,4,1,0,0
+marcadors_MS_Punto Hojitas vueltas,12,3,0.454545,1.3636,0.333333,1.364,v,66.667,1,0,0,0
+marcadors_MS_Punto Montaña,34,7,0.149733,1.0481,0.142857,1.048,[,23.529,1,17,0,0
+marcadors_MS_Punto conchas,18,6,0.169935,1.0196,0.166667,1.02,(3),33.333,1,9,0,0
+marcadors_MS_Punto dos caras,11,4,0.309091,1.2364,0.25,1.236,(2),54.545,1,2,0,0
+marcadors_MS_Punto piñas,11,4,0.236364,0.9455,0.25,0.945,(3),36.364,0,0,0,0
+marcadors_MS_Punto plisado para chaquetita,131,2,0.496183,0.9924,0.5,0.992,v,50.382,6,1,8,1
+marcadors_MS_Punto plisado para vestidito,8,,,,,,,,,,,
+marcadors_MS_Punto semilla,17,5,0.360294,1.8015,0.2,1.801,v,58.824,2,1,0,0
+marcadors_MS_Raetine,259,30,0.075514,2.2654,0.033333,2.265,(4),16.602,40,1,21,1
+marcadors_MS_Rita,353,44,0.076262,3.3555,0.022727,3.356,(2),17.564,37,1,20,1
+marcadors_MS_Salvador,465,41,0.080812,3.3133,0.02439,3.313,(2),17.634,69,1,29,1
+marcadors_MS_Susana,138,32,0.060827,1.9465,0.03125,1.946,v,15.942,13,1,9,1
+marcadors_MS_Titi - Puntilla,17,8,0.132353,1.0588,0.125,1.059,(3),29.412,0,0,0,0
+marcadors_MS_Titi 1,13,6,0.205128,1.2308,0.166667,1.231,(3),38.462,2,0,0,0
+marcadors_MS_Titi 2 - Grafico A,21,9,0.17619,1.5857,0.111111,1.586,(2),33.333,2,12,0,0
+marcadors_MS_Titi 2 - Grafico B,72,15,0.145149,2.1772,0.066667,2.177,(3),31.944,10,1,6,1
+marcadors_MS_Vaño Mimosa,406,24,0.363024,8.7126,0.041667,8.713,v,57.143,36,1,41,1
+marcadors_MS_Vueltas del reves,65,14,0.130769,1.8308,0.071429,1.831,(3),26.154,8,1,6,3

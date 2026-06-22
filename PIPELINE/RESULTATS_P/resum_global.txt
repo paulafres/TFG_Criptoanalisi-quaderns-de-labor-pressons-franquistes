@@ -1,0 +1,924 @@
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ RESUM GLOBAL DE RESULTATS DEL TFG
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+===========================================================================
+ fase1_corpus_normalizer.py
+===========================================================================
+  Teixits processats      : 14
+  Instruccions (voltes)   : 774
+
+===========================================================================
+ fase2_token_inventory.py
+===========================================================================
+  Instruccions expandides : 774 voltes avaluables
+
+===========================================================================
+ fase3.1_markov_model.py
+===========================================================================
+  Volum total tokens      : 29471
+  Vocabulari (tokens únics): 159
+  Bigrames únics observats: 479
+
+===========================================================================
+ fase3.1b_transition_significance.py
+===========================================================================
+  Transicions testades    : 148
+  Significatives (FDR)    : 81 (no atzaroses)
+
+===========================================================================
+ fase3.2_distributional_classes.py
+===========================================================================
+  Classes de tokens (K)   : 9 classes funcionals (C0-C7)
+  Silhouette Òptim        : 0.3175
+  Tokens aïllats (C_RARE) : 86 hàpax
+
+===========================================================================
+ fase3.2b_clustering_stability.py
+===========================================================================
+  Estabilitat ARI (mitja) : 0.4358 ± 0.0985
+  Interval Conf. (IC95%)  : [0.2732, 0.6321]
+
+===========================================================================
+ fase3.3_volta_signatures.py
+===========================================================================
+  Salts globals avaluats  : 760 transicions
+  Distància cosinus mitja : 0.068316 ± 0.168281
+
+===========================================================================
+ fase3.4_volta_clustering.py
+===========================================================================
+  Tipologies volta (VTx)  : 3 tipus estructurals (V0-V4)
+  Silhouette Òptim        : 0.6489
+
+===========================================================================
+ fase4.1_macro_grammar.py
+===========================================================================
+  Contextos macro vistos  : 4
+  Entropia MACRO (H_global): 1.067 bits
+
+===========================================================================
+ fase4.2_micro_grammar.py
+===========================================================================
+  Contextos micro vistos  : 11
+  Entropia MICRO (H_global): 1.0924 bits
+
+===========================================================================
+ fase4.3_null_model.py
+===========================================================================
+  H_observat vs H_null    : 1.413244 vs 1.96323 bits
+  Z-score (Permutacions)  : -143.9478
+  P-valor empíric         : 0.000999
+
+===========================================================================
+ fase4.4_loo_cv.py
+===========================================================================
+  Surprisal LOO (mitjana) : 2.2024 ± 0.6102 bits/token
+
+===========================================================================
+ fase5.1_anomaly_report.py
+===========================================================================
+  Variància recollida PC1 : 42.66%
+  Voltes CRÍTICA (>=p99)  : 12
+  Voltes ALTA (>=p97)     : 30
+
+===========================================================================
+ fase5.1b_crypto_validation.py
+===========================================================================
+  IC Anomalies vs Corpus  : 1.2325 (Ràtio)
+  Diagnòstic Voltes       : concentració extrema (anom MÉS zipfià que corpus)
+
+===========================================================================
+ fase5.2_segment_anomaly_detection.py
+===========================================================================
+  Segments contigus cand. : 42
+  Significatius (FDR <=α) : 3
+
+===========================================================================
+ fase5.2b_crypto_segments.py
+===========================================================================
+  Segments triangulats    : 42
+  Convergència (5.1∩5.1b) : 13
+  Perfil lèxic (abecedari): 9
+  Perfil gramatical       : 14
+  Mixt / sense senyal     : 2 / 4
+  Voltes òrfenes (fora seg): 74 (conv=5, lex=52, gram=17)
+
+===========================================================================
+ fase5.3_hipotesis_referencies.py
+===========================================================================
+  Hipòtesi A (Morse Tèxtil)   : REBUTJADA
+  Hipòtesi B (Anom. Belgues)  : REBUTJADA
+  Hipòtesi C (Manolita/PCE)   : CONFIRMADA (1 coincidència caràcter per caràcter)
+
+───────────────────────────────────────────────────────────────────────────
+ [OK] Resum completat! El tens guardat a: resum_global.txt
+───────────────────────────────────────────────────────────────────────────
+
+logs:
+======================================================================
+ INICIANT PIPELINE COMPLET --- CORPUS ACTIU: [P]
+======================================================================
+
+---> Executant fase1_corpus_normalizer.py ...
+Iniciant processament de 14 teixits...
+
+────────────────────────────────────────
+TEIXIT : P_Jafisa - Grafico B
+Fitxer : P. 10-12. Jafisa - Grafico B.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 48
+Rang de voltes  : 1 – 95
+Patrons repetits (≥2 línies): 77
+Tokens dominants: ['(al-7v)x(lg-7v)', 'g(2p)lxl(2p)l3l(2p)lxl(2p)a', '(2p)(la-2v)lxl(gl-2v)(2p)', 'p(la-2v)lxl(gl-2v)p', 'a(9p)g']
+Caràcters freqs : [('l', 200), ('(', 159), (')', 159), ('p', 145), ('a', 92), ('g', 91), ('3', 75), ('-', 70)]
+
+────────────────────────────────────────
+TEIXIT : P_Jafisa - Grafico C
+Fitxer : P. 12. Jafisa - Grafico C.txt
+Forma  : 
+Punts inicials  : 512
+Instruccions    : 11
+Rang de voltes  : 5 – 25
+Patrons repetits (≥2 línies): 28
+Tokens dominants: ['(4p)lxl(4p)ga(4p)lxl(4p)g', '(lg-3v)l(3p)l(al-3v)', '(la-2v)lx(lg-2v)l', '(lg-3v)lpl(al-3v)', 'l(al-3v)x(lg-3v)l']
+Caràcters freqs : [('l', 80), ('(', 60), (')', 60), ('p', 48), ('g', 33), ('a', 28), ('-', 25), ('v', 25)]
+
+────────────────────────────────────────
+TEIXIT : P_Conchita Romero
+Fitxer : P. 13-16. Conchita Romero.txt
+Forma  : 
+Punts inicials  : 12
+Instruccions    : 89
+Rang de voltes  : 1 – 179
+Patrons repetits (≥2 línies): 160
+Tokens dominants: ['(gl-4v)3l', 'g(l(3p)g-3v)(a(3p)l-3v)a', '(gl-3v)3l', '(2p)(lapgl(3p)-2v)lapgl(2p)', '(3p)(l3l(5p)-2v)l3l(3p)']
+Caràcters freqs : [('l', 499), ('(', 362), (')', 362), ('p', 284), ('3', 243), ('a', 150), ('g', 141), ('-', 136)]
+
+────────────────────────────────────────
+TEIXIT : P_Ruth
+Fitxer : P. 17-22. Ruth.txt
+Forma  : Ovalado
+Punts inicials  : —
+Instruccions    : 59
+Rang de voltes  : 1 – 635
+Patrons repetits (≥2 línies): 217
+Tokens dominants: ['applxlppgl(3p)lxl(3p)l3l(3p)lxl(3p)lapplxlppg', 'lapplxlppg(lxl-3v)lapplxlppgl', 'apgpllaapplxlppg(plxl-3v)papplxlppggllpapg', 'a(5p)glplapplxlppgplxlpapplxlppglpla(5p)g', 'a(5p)gl(3p)lxl(3p)l3l(3p)lxl(3p)la(5p)g']
+Caràcters freqs : [('l', 771), ('p', 665), ('a', 297), ('g', 292), ('3', 251), ('(', 232), (')', 231), ('x', 162)]
+
+────────────────────────────────────────
+TEIXIT : P_Primavera
+Fitxer : P. 23-28. Primavera.txt
+Forma  : 
+Punts inicials  : 6
+Instruccions    : 97
+Rang de voltes  : 1 – 193
+Patrons repetits (≥2 línies): 317
+Tokens dominants: ['lgl3>lalpgalgl(3p)lalpgalgl(3p)lalpgalgl3>lal', '(6p)l3llagllappl(6p)', 'l(4p)ga(3p)lplxlpl(4p)ga(3p)l', 'lpl(4p)ga(3p)l3l(4p)ga(3p)lpl', '(6p)lpa(glla-2v)l(6p)(2-5v)']
+Caràcters freqs : [('l', 987), ('p', 660), (')', 490), ('(', 488), ('a', 346), ('g', 344), ('3', 196), ('v', 160)]
+
+────────────────────────────────────────
+TEIXIT : P_Pasión
+Fitxer : P. 29-31. Pasión.txt
+Forma  : 
+Punts inicials  : 10
+Instruccions    : 68
+Rang de voltes  : 1 – 135
+Patrons repetits (≥2 línies): 117
+Tokens dominants: ['p(la-2v)(5p)(gl-2v)p', '(gl-2v)(3p)(la-2v)l3', '(la-2v)l3l(gl-2v)', '(3p)lxl(3p)', '(4p)lxl(4p)']
+Caràcters freqs : [('l', 300), ('p', 209), ('(', 208), (')', 208), ('g', 99), ('3', 89), ('a', 89), ('-', 87)]
+
+────────────────────────────────────────
+TEIXIT : P_Celia
+Fitxer : P. 32-34. Celia.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 53
+Rang de voltes  : 1 – 107
+Patrons repetits (≥2 línies): 63
+Tokens dominants: ['apg(3p)lxl(3p)l3l(3p)lxl(3p)ap', 'a(3p)gpplxlppl3lpplxlppa(3p)g', '3(4p)lxl(4p)l3l(4p)lxl(4p)3l', '(la-7v)l', 'a(5p)g(plxl-3v)pa(5p)g']
+Caràcters freqs : [('l', 206), ('p', 155), ('(', 148), (')', 147), ('3', 85), ('-', 70), ('a', 70), ('v', 65)]
+
+────────────────────────────────────────
+TEIXIT : P_Rosa de los Vientos
+Fitxer : P. 34-36. Rosa de los Vientos.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 65
+Rang de voltes  : 1 – 155
+Patrons repetits (≥2 línies): 74
+Tokens dominants: ['a(3p)ll(3p)ga(3p)ll(3p)g', 'lpl(3p)3(3p)l3l(3p)3(3p)lplx', 'l(3p)lpp3ppl3lpp3ppl(3p)lx', 'a(3p)ll(3p)gl', 'l(5p)lp3pl3lp3pl(5p)lx']
+Caràcters freqs : [('l', 272), ('p', 218), ('(', 169), (')', 169), ('3', 158), ('a', 62), ('g', 56), ('-', 31)]
+
+────────────────────────────────────────
+TEIXIT : P_Renacimiento
+Fitxer : P. 37-38. Renacimiento.txt
+Forma  : Cuadrado
+Punts inicials  : 8
+Instruccions    : 31
+Rang de voltes  : 1 – 61
+Patrons repetits (≥2 línies): 68
+Tokens dominants: ['lpla(6p)l3l(gl-4v)pla', 'glp(la-4v)l3l(6p)glpl', 'xlgl(8p)gl', 'la(8p)lal', 'xlgl(3p)la']
+Caràcters freqs : [('l', 234), ('p', 118), ('(', 78), (')', 78), ('a', 57), ('g', 55), ('3', 46), ('x', 34)]
+
+────────────────────────────────────────
+TEIXIT : P_Puntilla del Cacus
+Fitxer : P. 38-39. Puntilla del Cacus.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 8
+Rang de voltes  : 5 – 19
+Patrons repetits (≥2 línies): 24
+Tokens dominants: ['l(5p)lxl(5p)ll(5p)lxl(5p)', 'l(5p)lxl(5p)lxl(5p)lx', 'l(3p)l3l(3p)lxl(3p)', 'lplapglplxlplapg', 'l(3p)lxl(3p)l']
+Caràcters freqs : [('l', 84), ('p', 49), ('(', 35), (')', 35), ('3', 26), ('x', 18), ('g', 14), ('a', 13)]
+
+────────────────────────────────────────
+TEIXIT : P_Gentio
+Fitxer : P. 4-8. Gentio.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 100
+Rang de voltes  : 1 – 229
+Patrons repetits (≥2 línies): 223
+Tokens dominants: ['gl(4p)l(2p)l(4p)l', 'l(7p)gl', 'l(3p)gl(4p)la(3p)l3(5p)3', '3(5p)3l(3p)gl(4p)la(3p)l', 'lgl(3p)l(al-2v)(2p)3(2p)']
+Caràcters freqs : [('l', 630), ('p', 453), ('(', 418), (')', 418), ('3', 229), ('g', 213), ('a', 201), ('-', 81)]
+
+────────────────────────────────────────
+TEIXIT : P_Helga
+Fitxer : P. 40-46. Helga.txt
+Forma  : 
+Punts inicials  : 16
+Instruccions    : 103
+Rang de voltes  : 5 – 211
+Patrons repetits (≥2 línies): 335
+Tokens dominants: ['l3lla(glla-2v)pp', 'la(5p)l', 'lap(glla-3v)', '(gl-7v)(3p)(la-7v)p(gl-7v)(3p)', '(21p)(la-2v)l3l(gl-2v)(21p)']
+Caràcters freqs : [('l', 985), ('p', 661), (')', 524), ('(', 522), ('a', 324), ('g', 321), ('3', 266), ('-', 183)]
+
+────────────────────────────────────────
+TEIXIT : P_Cori
+Fitxer : P. 47. Cori.txt
+Forma  : 
+Punts inicials  : 16
+Instruccions    : 21
+Rang de voltes  : 1 – 41
+Patrons repetits (≥2 línies): 40
+Tokens dominants: ['xl(3p)lpp3ppl', 'l(3p)3(3p)lpl', 'lpp3ppl(3p)l', 'xlpl(3p)3(3p)l', 'xl(sp)lp3pl']
+Caràcters freqs : [('l', 110), ('p', 88), ('3', 46), ('(', 41), (')', 41), ('x', 22), ('g', 12), ('a', 12)]
+
+────────────────────────────────────────
+TEIXIT : P_Jafisa - Grafico A
+Fitxer : P. 9-10. Jafisa - Grafico A.txt
+Forma  : Ovalado
+Punts inicials  : 8
+Instruccions    : 21
+Rang de voltes  : 1 – 45
+Patrons repetits (≥2 línies): 21
+Tokens dominants: ['(3p)g(llag-3v)lla(3p)', 'pg(llag-4v)llap', '(lg-2v)lpl(al-2v)', '(lg-3v)lpl(al-3v)', '(2p)lxl(2p)']
+Caràcters freqs : [('l', 125), ('(', 87), (')', 86), ('p', 73), ('3', 40), ('g', 38), ('a', 38), ('-', 34)]
+
+========================================
+Teixits processats            : 14
+Patrons sintàctics compartits : 221
+Símbols de hardware analitzats: 43
+
+Fitxers generats a la carpeta 'res_fase1/':
+  · teixits_dataset.json
+  · taula_patrons_compartits.csv
+  · taula_simbols_individuals.csv
+
+---> Executant fase2_token_inventory.py ...
+
+FASE 2 COMPLETADA
+  Teixits processats : 14
+  Voltes             : 774
+  Tokens únics       : 159
+
+---> Executant fase3.1_markov_model.py ...
+FASE 3.1 COMPLETADA
+  Voltes analitzades : 774
+  Tokens al corpus   : 29471
+  Tokens únics       : 159
+  Bigrames únics     : 479
+  Output             : C:\Users\dfranco\OneDrive\paula tfg\TFG\PIPELINE\RESULTATS_P\res_fase3.1\markov_model.json
+
+---> Executant fase3.1b_transition_significance.py ...
+FASE 3.1b COMPLETADA
+  Bigrames testats        : 148
+  Significatius (q<0.05) : 81
+  Top-10 per lift entre significatius:
+             <43 → >             n=   3  lift=7174.25  q=0.00e+00
+               I → M             n=   8  lift=3587.12  q=0.00e+00
+               M → V             n=   8  lift=3188.56  q=0.00e+00
+        <l(3p)g> → <a(3p)l>      n=   3  lift=1793.56  q=0.00e+00
+             IMZ → -             n=   4  lift= 775.59  q=0.00e+00
+               V → -             n=   6  lift= 517.06  q=0.00e+00
+               v → )             n=  10  lift= 441.49  q=0.00e+00
+               + → +             n=   5  lift= 358.71  q=0.00e+00
+          <lppg> → <lg>          n=   4  lift= 298.93  q=0.00e+00
+               v → v             n=  41  lift= 270.17  q=0.00e+00
+  JSON : PIPELINE\RESULTATS_P\res_fase3.1b\transition_significance.json
+  CSV  : PIPELINE\RESULTATS_P\res_fase3.1b\transition_significance.csv
+
+---> Executant fase3.2_distributional_classes.py ...
+FASE 3.2 COMPLETADA
+  Tokens totals        : 159
+  Tokens clusteritzats : 73  (freq > 1)
+  Tokens RARE          : 86
+  Dimensions vector    : 341  (PPMI smoothed)
+  Variància PCA (top5) : [0.175, 0.054, 0.041, 0.039, 0.037]
+  k òptim (silhouette) : 9  (score=0.3175)
+  Outliers (z>2)       : 0
+
+Resum per classe:
+  C0  ( 3 toks)  pos_mitja=0.61  H_succ=1.21  membres=['-', '.', ']']
+  C1  (23 toks)  pos_mitja=0.36  H_succ=0.22  membres=['2222', '<(3p)l3l>', '<a(5p)g>', '<gl(3p)>', '<l(3p)>', '<l(3p)lapg>', '<l(4p)>', '<l(5p)>'] ...
+  C2  (18 toks)  pos_mitja=0.48  H_succ=1.09  membres=['+', '1>', '222', '2>', '3', '33', '3>', '<4'] ...
+  C3  ( 4 toks)  pos_mitja=0.25  H_succ=0.95  membres=['2', '22', 'IMZ', 'V']
+  C4  ( 4 toks)  pos_mitja=0.67  H_succ=0.73  membres=['<a(3p)g>', '<apg>', '<appl>', '<lppg>']
+  C5  ( 7 toks)  pos_mitja=0.39  H_succ=1.38  membres=['<2>', '<a(3p)l>', '<agll>', '<al>', '<pl>', '<xl>', 'R']
+  C6  ( 5 toks)  pos_mitja=0.43  H_succ=1.08  membres=['<glla>', '<l(3p)g>', '<lg>', '<lx>', '[']
+  C7  ( 2 toks)  pos_mitja=0.63  H_succ=1.81  membres=[')', 'v']
+  C8  ( 7 toks)  pos_mitja=0.52  H_succ=1.32  membres=['e', 'g', 'l', 'q', 's', 'z', '|']
+  C_RARE (86 toks)  [hapax, no clusteritzats]  membres=['(11)', '(12)', '(15)', '(3)', '/', '33>', '5>', '<(3p)l>'] ...
+
+  JSON: C:\Users\dfranco\OneDrive\paula tfg\TFG\PIPELINE\RESULTATS_P\res_fase3.2\distributional_classes.json
+
+---> Executant fase3.2b_clustering_stability.py ...
+Original: V_full=159, k=9, tokens clusteritzats=73
+  bootstrap 25/200: ARI mitjà fins ara = 0.442 (n_iter_vàlid=25)
+  bootstrap 50/200: ARI mitjà fins ara = 0.437 (n_iter_vàlid=50)
+  bootstrap 75/200: ARI mitjà fins ara = 0.438 (n_iter_vàlid=75)
+  bootstrap 100/200: ARI mitjà fins ara = 0.438 (n_iter_vàlid=100)
+  bootstrap 125/200: ARI mitjà fins ara = 0.436 (n_iter_vàlid=125)
+  bootstrap 150/200: ARI mitjà fins ara = 0.434 (n_iter_vàlid=150)
+  bootstrap 175/200: ARI mitjà fins ara = 0.433 (n_iter_vàlid=175)
+  bootstrap 200/200: ARI mitjà fins ara = 0.436 (n_iter_vàlid=200)
+
+FASE 3.2b COMPLETADA
+  Iteracions vàlides : 200/200
+  ARI mitjà          : 0.4358 ± 0.0985
+  IC 95%             : [0.2732, 0.6321]
+  Tokens intersect mitj. : 65.0
+  Output             : PIPELINE\RESULTATS_P\res_fase3.2b\clustering_stability.json
+
+---> Executant fase3.3_volta_signatures.py ...
+FASE 3.3 COMPLETADA
+  Voltes processades   : 774
+  Teixits              : 14
+  Classes utilitzades  : 10
+  Salts calculats      : 760
+  Salt mitjà (cos.)    : 0.0683  (sd=0.1683)
+
+  Top-5 salts entre voltes consecutives:
+    P_Conchita Romero      v125  d=1.000  z=5.54
+    P_Conchita Romero      v127  d=1.000  z=5.54
+    P_Ruth                 v3    d=1.000  z=5.54
+    P_Ruth                 v635  d=1.000  z=5.54
+    P_Ruth                 v1    d=1.000  z=5.54
+
+  Top-5 voltes més atípiques dins el seu teixit:
+    P_Gentio               v195  d_cent=0.983  z=8.88
+    P_Conchita Romero      v125  d_cent=0.975  z=4.16
+    P_Primavera            v9    d_cent=0.952  z=5.26
+    P_Primavera            v11   d_cent=0.952  z=5.26
+    P_Primavera            v13   d_cent=0.952  z=5.26
+
+  JSON: PIPELINE\RESULTATS_P\res_fase3.3\volta_signatures.json
+  CSV : PIPELINE\RESULTATS_P\res_fase3.3\volta_signatures.csv
+
+---> Executant fase3.4_volta_clustering.py ...
+FASE 3.4 COMPLETADA
+  Voltes totals        : 774
+  Voltes validades     : 774 (descartades buides: 0)
+  k òptim (silhouette) : 3  (score=0.6489)
+  Outliers (z>2)       : 28
+
+Resum per tipus de volta:
+  V0   n=528  long= 40.7 prof=1.08  [C2=0.74 C8=0.21 C6=0.02]  teixits: P_Gentio(77), P_Helga(74), P_Primavera(63)
+  V1   n=27   long=  1.8 prof=1.30  [C5=0.29 C1=0.26 C_RARE=0.19]  teixits: P_Jafisa - Grafico B(10), P_Conchita Romero(5), P_Primavera(3)
+  V2   n=219  long= 36.1 prof=1.07  [C2=0.47 C8=0.46 C6=0.02]  teixits: P_Conchita Romero(35), P_Primavera(31), P_Helga(28)
+
+Mostres de seqüències (primeres 20 voltes de cada teixit):
+  P_Jafisa - Grafico B   [ 48]  V0 V0 V0 V2 V2 V2 V2 V0 V2 V2 V2 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  P_Jafisa - Grafico C   [ 11]  V0 V0 V2 V0 V2 V0 V0 V0 V2 V2 V2
+  P_Conchita Romero      [ 89]  V0 V0 V2 V0 V0 V2 V2 V0 V2 V0 V0 V0 V2 V0 V0 V0 V2 V2 V2 V2 ...
+  P_Ruth                 [ 59]  V1 V0 V0 V0 V0 V0 V0 V0 V1 V0 V2 V2 V2 V2 V2 V0 V2 V0 V0 V0 ...
+  P_Primavera            [ 97]  V0 V2 V2 V0 V1 V1 V1 V0 V0 V0 V0 V2 V0 V0 V2 V2 V2 V2 V2 V2 ...
+  P_Pasión               [ 68]  V2 V2 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  P_Celia                [ 53]  V2 V1 V1 V2 V0 V2 V0 V0 V0 V0 V0 V2 V2 V2 V2 V0 V0 V0 V0 V0 ...
+  P_Rosa de los Vientos  [ 65]  V0 V2 V0 V0 V0 V0 V0 V0 V0 V2 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  P_Renacimiento         [ 31]  V0 V0 V2 V0 V2 V2 V2 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  P_Puntilla del Cacus   [  8]  V2 V2 V2 V2 V0 V2 V2 V0
+  P_Gentio               [100]  V0 V0 V0 V0 V0 V0 V0 V2 V2 V0 V0 V0 V2 V0 V0 V0 V0 V0 V0 V2 ...
+  P_Helga                [103]  V0 V1 V0 V2 V0 V2 V2 V2 V2 V0 V0 V2 V0 V2 V2 V2 V2 V2 V0 V2 ...
+  P_Cori                 [ 21]  V0 V0 V2 V0 V0 V0 V0 V0 V0 V2 V0 V0 V0 V0 V0 V2 V0 V2 V2 V2 ...
+  P_Jafisa - Grafico A   [ 21]  V2 V1 V1 V0 V0 V2 V0 V2 V0 V2 V0 V0 V0 V0 V0 V1 V2 V2 V0 V0 ...
+
+  JSON tipus  : PIPELINE\RESULTATS_P\res_fase3.4\volta_classes.json
+  CSV         : PIPELINE\RESULTATS_P\res_fase3.4\volta_a_tipus.csv
+  Seqüències  : PIPELINE\RESULTATS_P\res_fase3.4\sequencies_teixits.json
+
+---> Executant fase4.1_macro_grammar.py ...
+FASE 4.1 COMPLETADA (gramàtica MACRO)
+  Seqüències (teixits)  : 14
+  Tipus de volta (V|E)  : 3
+  Contextos vistos      : 4
+  H_global              : 1.0670 bits
+  Transicions rares (=1): 0
+
+  Surprisal mitjà per teixit (bits/transició):
+    P_Puntilla del Cacus    H̄=1.81  perpl=3.50  len=8  zero=0
+    P_Jafisa - Grafico A    H̄=1.80  perpl=3.49  len=21  zero=0
+    P_Jafisa - Grafico C    H̄=1.56  perpl=2.95  len=11  zero=0
+    P_Jafisa - Grafico B    H̄=1.55  perpl=2.94  len=48  zero=0
+    P_Ruth                  H̄=1.24  perpl=2.36  len=59  zero=0
+    P_Cori                  H̄=1.18  perpl=2.26  len=21  zero=0
+    P_Renacimiento          H̄=1.16  perpl=2.23  len=31  zero=0
+    P_Conchita Romero       H̄=1.12  perpl=2.17  len=89  zero=0
+    P_Primavera             H̄=1.04  perpl=2.06  len=97  zero=0
+    P_Gentio                H̄=0.89  perpl=1.85  len=100  zero=0
+    P_Helga                 H̄=0.88  perpl=1.84  len=103  zero=0
+    P_Celia                 H̄=0.87  perpl=1.83  len=53  zero=0
+    P_Rosa de los Vientos   H̄=0.82  perpl=1.77  len=65  zero=0
+    P_Pasión                H̄=0.77  perpl=1.71  len=68  zero=0
+
+  Top-5 voltes amb surprisal MACRO més alta:
+    P_Jafisa - Grafico B   v59   V0→V1  surp=5.66  p=0.0198
+    P_Jafisa - Grafico B   v71   V0→V1  surp=5.66  p=0.0198
+    P_Jafisa - Grafico B   v75   V0→V1  surp=5.66  p=0.0198
+    P_Jafisa - Grafico B   v79   V0→V1  surp=5.66  p=0.0198
+    P_Jafisa - Grafico B   v83   V0→V1  surp=5.66  p=0.0198
+
+  JSON : PIPELINE\RESULTATS_P\res_fase4.1\macro_grammar.json
+  CSV  : PIPELINE\RESULTATS_P\res_fase4.1\macro_surprisal_per_volta.csv
+
+---> Executant fase4.2_micro_grammar.py ...
+FASE 4.2 COMPLETADA (gramàtica MICRO)
+  Voltes (seqüències)   : 774
+  Classes Cx            : 10
+  Tokens totals         : 29471
+  Contextos vistos      : 11
+  H_global              : 1.0924 bits
+  Transicions rares (≤2): 17
+  Surprisal mitjà global: 1.547 bits
+
+  Top-5 voltes amb H̄ MICRO més alta:
+    P_Celia                v13   H̄=5.54  perpl=46.56  len=4  zero_raw=0
+    P_Conchita Romero      v125  H̄=5.09  perpl=33.99  len=1  zero_raw=0
+    P_Ruth                 v1    H̄=5.09  perpl=33.99  len=1  zero_raw=0
+    P_Ruth                 v635  H̄=5.09  perpl=33.99  len=1  zero_raw=0
+    P_Gentio               v195  H̄=5.09  perpl=33.99  len=1  zero_raw=0
+
+  Top-5 voltes amb més transicions count=0 (raw):
+    P_Jafisa - Grafico B   v1    zero_raw=0  H̄=0.83  len=56
+    P_Jafisa - Grafico B   v3    zero_raw=0  H̄=1.11  len=24
+    P_Jafisa - Grafico B   v5    zero_raw=0  H̄=1.10  len=36
+    P_Jafisa - Grafico B   v7    zero_raw=0  H̄=1.37  len=36
+    P_Jafisa - Grafico B   v9    zero_raw=0  H̄=1.37  len=36
+
+  JSON : PIPELINE\RESULTATS_P\res_fase4.2\micro_grammar.json
+
+---> Executant fase4.3_null_model.py ...
+H_obs (corpus original) = 1.4132 bits
+  perm 100/1000: H_perm mitjà = 1.9633
+  perm 200/1000: H_perm mitjà = 1.9635
+  perm 300/1000: H_perm mitjà = 1.9635
+  perm 400/1000: H_perm mitjà = 1.9635
+  perm 500/1000: H_perm mitjà = 1.9634
+  perm 600/1000: H_perm mitjà = 1.9633
+  perm 700/1000: H_perm mitjà = 1.9633
+  perm 800/1000: H_perm mitjà = 1.9633
+  perm 900/1000: H_perm mitjà = 1.9632
+  perm 1000/1000: H_perm mitjà = 1.9632
+
+FASE 4.3 COMPLETADA
+  H_observat   : 1.4132 bits
+  H_null mitjà : 1.9632 ± 0.0038
+  Reducció     : -28.01% respecte al nul
+  z-score      : -143.95
+  p-valor emp  : 0.0010
+  Output       : PIPELINE\RESULTATS_P\res_fase4.3\null_model_permutation.json
+
+---> Executant fase4.4_loo_cv.py ...
+Teixits: 14 · voltes totals = 774
+
+FASE 4.4 COMPLETADA
+  Surprisal LOO mitjana : 2.2024 ± 0.6102 bits/token
+  Surprisal in-sample   : 1.4938
+  Rànquing per atipicitat (LOO):
+    teixit                   n_v   surp_LOO    surp_in        Δ     %OOV
+    P_Ruth                    59     3.7922     2.6268  +1.1654   12.58%
+    P_Celia                   53     2.8336     0.6020  +2.2316    0.46%
+    P_Jafisa - Grafico A      21     2.6286     2.1093  +0.5193    6.35%
+    P_Jafisa - Grafico C      11     2.3925     2.2618  +0.1307    1.42%
+    P_Puntilla del Cacus       8     2.2931     1.9005  +0.3925    4.78%
+    P_Jafisa - Grafico B      48     2.2740     2.1650  +0.1090    0.76%
+    P_Conchita Romero         89     2.2553     1.9007  +0.3545    3.94%
+    P_Primavera               97     2.1368     1.8240  +0.3129    3.36%
+    P_Gentio                 100     2.0274     1.6836  +0.3438    3.88%
+    P_Renacimiento            31     1.7287     1.7087  +0.0199    0.00%
+    P_Pasión                  68     1.7106     1.6385  +0.0722    0.53%
+    P_Cori                    21     1.7026     1.6899  +0.0127    0.00%
+    P_Rosa de los Vientos     65     1.6362     1.4840  +0.1523    0.33%
+    P_Helga                  103     1.4220     1.3205  +0.1015    0.93%
+  JSON : PIPELINE\RESULTATS_P\res_fase4.4\loo_cv_teixits.json
+  CSV  : PIPELINE\RESULTATS_P\res_fase4.4\loo_cv_teixits.csv
+
+---> Executant fase5.1_anomaly_report.py ...
+FASE 5 COMPLETADA
+  Voltes avaluades       : 763
+    CRÍTICA    : 12
+    ALTA       : 30
+    MODERADA   : 77
+    normal     : 644
+  Anomalies cross-canal  : 14
+
+  Top-10 voltes per score d'anomalia:
+    teixit                 volta  tip   cat         score  flags
+    P_Gentio               v195   V1    CRÍTICA     13.50  sig_intra,sig_salt,macro_surp,micro_mean
+    P_Primavera            v9     V1    CRÍTICA     11.55  sig_intra,sig_salt,macro_surp,micro_mean
+    P_Ruth                 v635   V1    CRÍTICA     11.38  sig_intra,sig_salt,macro_surp,micro_mean
+    P_Conchita Romero      v117   V1    CRÍTICA     10.61  sig_intra,sig_salt,macro_surp,micro_mean
+    P_Jafisa - Grafico A   v35    V1    CRÍTICA     10.21  sig_intra,sig_salt,macro_surp,micro_mean
+    P_Celia                v3     V1    CRÍTICA      9.94  sig_intra,sig_salt,macro_surp,micro_mean
+    P_Helga                v7     V1    CRÍTICA      9.40  sig_intra,macro_surp,micro_mean
+    P_Jafisa - Grafico A   v3     V1    CRÍTICA      9.35  sig_intra,sig_salt,macro_surp,micro_mean
+    P_Conchita Romero      v125   V1    CRÍTICA      8.78  sig_intra,sig_salt,micro_mean
+    P_Celia                v13    V2    CRÍTICA      7.01  sig_salt,micro_mean,micro_max
+
+  Ranking per teixit (score total):
+    P_Conchita Romero       Σscore= 157.61  max=10.61  C/A/M=2/3/6  cross=1
+    P_Primavera             Σscore= 157.05  max=11.55  C/A/M=1/4/7  cross=1
+    P_Gentio                Σscore= 129.77  max=13.50  C/A/M=2/2/4  cross=1
+    P_Helga                 Σscore= 126.59  max= 9.40  C/A/M=1/1/9  cross=1
+    P_Jafisa - Grafico B    Σscore= 101.92  max= 6.35  C/A/M=1/6/6  cross=6
+    P_Ruth                  Σscore=  98.95  max=11.38  C/A/M=1/1/9  cross=1
+    P_Pasión                Σscore=  87.20  max= 6.10  C/A/M=0/2/8  cross=0
+    P_Rosa de los Vientos   Σscore=  85.18  max= 5.90  C/A/M=0/2/4  cross=0
+    P_Celia                 Σscore=  77.01  max= 9.94  C/A/M=2/4/12  cross=1
+    P_Jafisa - Grafico A    Σscore=  59.93  max=10.21  C/A/M=2/1/5  cross=2
+    P_Renacimiento          Σscore=  44.51  max= 4.32  C/A/M=0/3/3  cross=0
+    P_Cori                  Σscore=  30.54  max= 4.75  C/A/M=0/0/4  cross=0
+    P_Jafisa - Grafico C    Σscore=  21.37  max= 5.64  C/A/M=0/1/0  cross=0
+    P_Puntilla del Cacus    Σscore=  12.88  max= 2.81  C/A/M=0/0/0  cross=0
+
+  JSON : PIPELINE\RESULTATS_P\res_fase5.1\anomaly_report.json
+  CSV1 : PIPELINE\RESULTATS_P\res_fase5.1\anomaly_report.csv
+  CSV2 : PIPELINE\RESULTATS_P\res_fase5.1\anomaly_teixits.csv
+
+---> Executant fase5.1b_crypto_validation.py ...
+==============================================================================
+FASE 5.1B — VALIDACIO CRIPTOGRAFICA I STEGANOGRAFICA CLASSICA
+==============================================================================
+
+Corpus complet : 29471 tokens, 159 types
+Anomalies (CRITICA+ALTA): 42 voltes, 1136 tokens
+Marcadors (excloent ['a', 'g', 'l', 'p', 'r', 'x']): 1546 tokens corpus (5.25%), 72 tokens anomalies
+Vocabulari RARE: 86 tokens hapax
+
+------------------------------------------------------------------------------
+SECCIO A — Test classic sobre anomalies (control negatiu)
+------------------------------------------------------------------------------
+  IC corpus    : 0.3561
+  IC anomalies : 0.4389  (ratio 1.23)
+  Diagnostic   : concentració extrema (anom MÉS zipfià que corpus)
+  Direcció OPOSADA a la d'un xifrat (que aplanaria la distribució). Les voltes anòmales són farciment dominat per un únic token base. Aquest resultat confirma la hipòtesi metodològica: un codi amagat no es manifesta com a anomalia de grammar — es camufla.
+
+------------------------------------------------------------------------------
+SECCIO B — Sub-stream de MARCADORS (on hauria de viure el codi)
+------------------------------------------------------------------------------
+  IC marcadors corpus    : 0.0698 (V=153, IC_norm=10.68)
+  IC uniforme referencia : 0.0065
+  Top 5 marcadors        : [('<glla>', 15.33), ('3', 13.454), ('<gl>', 9.25), ('<la>', 8.926), ('<al>', 5.433)]
+  Kasiski n3: repeats=160 gcd=  1 n_dist= 719 top_factors={2: 391, 3: 214, 4: 155, 5: 151}
+  Kasiski n4: repeats=167 gcd=  1 n_dist= 527 top_factors={2: 267, 3: 171, 4: 95, 5: 122}
+  Kasiski n5: repeats=158 gcd=  1 n_dist= 373 top_factors={2: 191, 3: 119, 4: 75, 5: 93}
+  Diagnostic   : evidència positiva
+    - IC moderadament estructurat (ratio vs unif = 10.7)
+
+------------------------------------------------------------------------------
+SECCIO C — Concentracio de tokens RARE
+------------------------------------------------------------------------------
+  Voltes amb >=1 RARE: 73
+  Top 10 voltes per nombre de tokens RARE:
+    P_Celia              v 69  n_rare=3  tokens=['u', 'n', 'o']
+    P_Ruth               v 57  n_rare=3  tokens=['<3>p3><7pp<73>lppgllapp>', '<7', '<73']
+    P_Helga              v159  n_rare=2  tokens=['c', 'r']
+    P_Primavera          v131  n_rare=2  tokens=['<a(8p)gl(3p)l>', '(3)']
+    P_Primavera          v181  n_rare=2  tokens=['<l(5p)l(2p)gap>', '<l(5p)lppgap>']
+    P_Primavera          v179  n_rare=2  tokens=['<l(3p)l(3p)gapp>', '<l(3p)gapp>']
+    P_Primavera          v193  n_rare=2  tokens=['<gl(5p)lal3l>', '<la3lgl(5p)>']
+    P_Conchita Romero    v113  n_rare=2  tokens=['<lplag>', '<aglp>']
+    P_Ruth               v 65  n_rare=2  tokens=['<l(6p)xafx(6p)l(glla-3v)>', 'f']
+    P_Ruth               v 21  n_rare=2  tokens=['<applxlppglsl>', '<applxlppg>']
+  Distribucio per teixit:
+    P_Ruth                   : 26
+    P_Primavera              : 22
+    P_Helga                  : 11
+    P_Conchita Romero        : 11
+    P_Pasión                 : 5
+    P_Jafisa - Grafico A     : 4
+    P_Celia                  : 3
+    P_Gentio                 : 2
+    P_Jafisa - Grafico B     : 1
+    P_Rosa de los Vientos    : 1
+
+------------------------------------------------------------------------------
+SECCIO D — Test de runs (Wald-Wolfowitz)
+------------------------------------------------------------------------------
+  Global corpus (l vs no-l):
+    n=29471 n0(l)=5801 n1(no-l)=23670
+    runs_obs=6921 runs_esp=9319.3 z=-44.19  -> menys runs dels esperats (agrupacio)
+  Voltes amb |z|>3.0: 61 (de 509 testejables)
+    P_Celia              v 23  n=4446 z=-47.14  menys runs dels esperats (agrupacio)
+    P_Rosa de los Vientos v117  n= 351 z=-15.73  menys runs dels esperats (agrupacio)
+    P_Rosa de los Vientos v127  n= 351 z=-15.73  menys runs dels esperats (agrupacio)
+    P_Helga              v211  n= 164 z=-10.17  menys runs dels esperats (agrupacio)
+    P_Helga              v167  n= 125 z= -8.55  menys runs dels esperats (agrupacio)
+    P_Primavera          v143  n= 107 z= -7.44  menys runs dels esperats (agrupacio)
+    P_Ruth               v 53  n=  74 z= -6.31  menys runs dels esperats (agrupacio)
+    P_Ruth               v 45  n= 178 z= -6.20  menys runs dels esperats (agrupacio)
+    P_Helga              v177  n= 130 z= -5.76  menys runs dels esperats (agrupacio)
+    P_Celia              v107  n=  78 z= -5.69  menys runs dels esperats (agrupacio)
+
+==============================================================================
+CANDIDATS A STEGANOGRAFIA — convergencia de senyals (top 20)
+==============================================================================
+  Total candidats: 129  |  Convergencia triple A+C+D: 0
+  teixit                 volta  rare   z_runs     cat_f5 tokens_rare
+  P_Celia                   23     0   -47.14          — 
+  P_Celia                   69     3    -4.85          — u n o
+  P_Ruth                    57     3      ·            — <3>p3><7pp<73>lppgllapp> <7 <73
+  P_Helga                  159     2    -3.95          — c r
+  P_Primavera              131     2      ·            — <a(8p)gl(3p)l> (3)
+  P_Primavera              181     2      ·            — <l(5p)l(2p)gap> <l(5p)lppgap>
+  P_Primavera              179     2      ·            — <l(3p)l(3p)gapp> <l(3p)gapp>
+  P_Primavera              193     2      ·            — <gl(5p)lal3l> <la3lgl(5p)>
+  P_Conchita Romero        113     2      ·            — <lplag> <aglp>
+  P_Ruth                    65     2      ·            — <l(6p)xafx(6p)l(glla-3v)> f
+  P_Ruth                    21     2      ·            — <applxlppglsl> <applxlppg>
+  P_Jafisa - Grafico A      35     2      ·      CRÍTICA <a(7p)ga(7p)a(plxl-3v)p> <a(7p)ga(7p)gl(3p)lxl(3p)l>
+  P_Ruth                    53     1    -6.31          — <l(6p)xppx(6p)lppgllapp>
+  P_Rosa de los Vientos    117     0   -15.73       ALTA 
+  P_Rosa de los Vientos    127     0   -15.73       ALTA 
+  P_Pasión                  91     1    -4.20          — <lpl(9p)>
+  P_Primavera              121     1    -3.39          — <lxl(9p)>
+  P_Helga                  211     0   -10.17          — 
+  P_Ruth                    39     1      ·            — <ppgllaglla>
+  P_Ruth                    35     1      ·            — <ppl(3p)l>
+
+------------------------------------------------------------------------------
+CONCLUSIO METODOLOGICA
+------------------------------------------------------------------------------
+  · Seccio A: les voltes prioritzades per fase5 NO contenen signatura
+    de xifrat (com era esperable: un codi amagat es dissenya per NO
+    triggerejar anomalies de grammar).
+  · Seccions B+C+D identifiquen els VERITABLES candidats: voltes amb
+    tokens hapax (RARE) i/o desviacions de runs respecte H0.
+  · 'candidats_steganografia.csv' es el mapa per la inspeccio quali-
+    tativa del facsimil: contrastar margens, marques, canvis de tinta,
+    dibuixos a les voltes llistades.
+
+[OK] Escrit: RESULTATS_P\res_fase5.1b\crypto_validation.json
+[OK] Escrit: RESULTATS_P\res_fase5.1b\crypto_validation.csv
+[OK] Escrit: RESULTATS_P\res_fase5.1b\candidats_steganografia.csv
+
+---> Executant fase5.2_segment_anomaly_detection.py ...
+== FASE 5.2 · Detecció de segments anòmals ==
+   Voltes carregades: 763  (amb senyal lèxic 5.1b: 129)
+   Llindar score combinat (P60) = -0.2615
+   Segments candidats     : 42
+   Segments significatius : 3 (FDR α=0.05)
+
+   JSON   → anomaly_segments.json
+   CSV    → anomaly_segments.csv
+   REPORT → anomaly_segments_report.txt
+== FASE 5.2 COMPLETADA ==
+
+---> Executant fase5.2b_crypto_segments.py ...
+== FASE 5.2b · Triangulació gramatical × lèxica sobre segments ==
+   Voltes 5.1 avaluades       : 763
+   · gramaticals (ALTA/CRÍTICA/MODERADA): 119
+   Voltes lèxiques (5.1b)     : 129
+   Total voltes atípiques     : 226
+   Segments a triangular (5.2): 42
+
+   Convergència      : 13
+   Perfil lèxic      : 9
+   Perfil gramatical : 14
+   Mixt / sense      : 2 / 4
+   Voltes òrfenes    : 74 (conv=5, lex=52, gram=17)
+
+   JSON   → triangulacio_segments.json
+   CSV    → triangulacio_segments.csv
+   ÒRFENES→ voltes_orfenes.csv
+   REPORT → triangulacio_segments_report.txt
+== FASE 5.2b COMPLETADA ==
+
+---> Executant fase5.3_hipotesis_referencies.py ...
+==============================================================================
+FASE 5.3 — HIPÒTESIS PER REFERÈNCIES
+       Test sistemàtic de 3 hipòtesis sobre el contingut codificat
+       (A) Morse tèxtil   (B) Anomalies belgues   (C) Manolita del Arco
+==============================================================================
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI A — MORSE TÈXTIL  (ref. Bueno Saz, Mujeres con Ciencia)
+══════════════════════════════════════════════════════════════════════════════
+
+  Premissa: una parella binària (X, Y) de símbols del corpus codificaria
+  punt/ratlla de Morse, amb els altres símbols com a separadors de lletra.
+  Test: per cada parella (21 combinacions) i cada mapping (×2), comparem
+  el % de bigrames/trigrames espanyols del text descodificat contra un
+  control de shuffle aleatori (preserva freqüències marginals).
+
+  Par.     n1    n2  ratio  #grup  dot   score    ctrl      z  text(primers 40)
+  ----- ----- ----- ------ ------ ---- ------- ------- ------  ----------------------------------------
+  g/a    1769  1779   0.99   3296    g   11.6%    0.8% +210.44  ETEETETETETETETETETETETETETETETETETETETE ★
+  l/g    5486  1769   3.10   5103    l    9.6%    1.6% +98.57  TEETNETTEETTEEEEEETTEEREEEERTTEEREEEERTT ★
+  l/p    5486  3828   1.43   7081    l    9.4%    2.1% +59.34  TEETTEETTTEATTTEETEETEETTTNEERREEATTTEEE ★
+  a/p    1779  3828   0.46   4743    p    8.6%    0.6% +152.52  ETEETETEEETETEEEEETETEETEETAETEETEETETEN ★
+  g/p    1769  3828   0.46   4745    g    8.3%    0.6% +198.93  TETETETETATTETETTTTTETAETTETTETETETTETTE ★
+  a/v    1779   992   1.79   2759    v    7.1%    0.0% +1505.56  ETETTETTTTTTTTTTTTTEETEETTEETEETEEETTEET ★
+  g/v    1769   992   1.78   2748    v    6.5%    0.0%  +0.00  TETTETTETTTTTTTTTTTTETEETETETEETEETETEET
+  l/a    5486  1779   3.08   5169    a    5.6%    1.6% +80.08  TNTTEETTEETTTTTTEEKTTTTNTTTEEKTTTTKTTEEN ★
+  l/x    5486   542  10.12   4587    l    5.4%    0.4% +124.06  AEENRREEREREEEEREEREEEEREEREEEEREEREEEER ★
+  p/v    3828   992   3.86   4368    v    5.0%    0.0%  +0.00  TETTETTTTETTTTTTTTTTTTTTTTTTTTTEETTEETTT
+  l/v    5486   992   5.53   5826    v    4.4%    0.1% +1006.70  TETTTETTETTTTTTTTTTTTTTTTTTTTTTTTTTTETTT ★
+  a/x    1779   542   3.28   2299    a    4.3%    0.1% +342.50  TETEETEETTEEETETEEETETEEETETEETETETEEEET ★
+  g/x    1769   542   3.26   2288    x    4.2%    0.0%  +0.00  TETTETTETTEETTETETTTETETTTETETTETETTTETT
+  p/x    3828   542   7.06   3880    x    3.7%    0.0% +574.33  TETTETTTETTTTETTETTTTETTETTTTETTETTTTETT ★
+  v/x     992   542   1.83   1532    v    3.5%    0.0%  +0.00  TETETETTTTTTETEETEETEETEEETEEETETTTTTTTT
+  x/r     542     2 271.00    542    x    0.2%    0.1%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+  l/r    5486     2 2743.00   4836    l    0.1%    0.1%  +0.79  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+  v/r     992     2 496.00    994    v    0.1%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+  g/r    1769     2 884.50   1758    g    0.0%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+  a/r    1779     2 889.50   1769    r    0.0%    0.0%  +0.00  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+  p/r    3828     2 1914.00   3380    p    0.0%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+  VEREDICTE A:
+    - Cap parella supera de forma consistent el control aleatori.
+    - Els scores 'alts' en aparença es deuen a saturació de lletres
+      Morse curtes (E='.', T='-', N='-.') quan els grups són d'1-2 chars.
+    - Cap text descodificat conté seqüències de bigrames/trigrames ES
+      compatibles amb un missatge real.
+    → HIPÒTESI MORSE: REBUTJADA.
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI B — ANOMALIES BELGUES  (ref. Bueno Saz, Mujeres c.C.)
+══════════════════════════════════════════════════════════════════════════════
+
+  Premissa: dins de zones MOLT regulars (>85% un sol símbol en finestra
+  de 8) poden aparèixer punts discordants que formin senyal (com els
+  forats codificats de la teixidora belga del WWI).
+  Test: expandim cada volta, busquem finestres regulars amb discordants,
+  i mirem si la posició/seqüència d'aquests forma un patró rastrejable.
+
+  Teixit                               voltes  amb_anom
+  ----------------------------------- ------- ---------
+  P. 10-12. Jafisa - Grafico B             48        17
+  P. 12. Jafisa - Grafico C                11         4
+  P. 13-16. Conchita Romero                89        69
+  P. 17-22. Ruth                           60        30
+  P. 23-28. Primavera                      97        87
+  P. 29-31. Pasión                         68        44
+  P. 32-34. Celia                          54        36
+  P. 34-36. Rosa de los Vientos            65        48
+  P. 37-38. Renacimiento                   31        23
+  P. 38-39. Puntilla del Cacus              8         8
+  P. 4-8. Gentio                          100        71
+  P. 40-46. Helga                         103        78
+  P. 47. Cori                              21        13
+  P. 9-10. Jafisa - Grafico A              21        10
+
+  TOTAL voltes amb anomalies puntuals: 538
+
+  Símbols com a 'forat'/discordant (top 5):
+    'p': 839 aparicions
+    'a': 193 aparicions
+    'g': 155 aparicions
+    'x': 62 aparicions
+    'v': 36 aparicions
+
+  Parelles (dominant → discordant) més freqüents:
+    l → p : 839
+    l → a : 193
+    l → g : 155
+    l → x : 62
+    l → v : 36
+
+  Runs de voltes CONSECUTIVES amb anomalies (≥3):
+    [P. 10-12. Jafisa - Grafico B] 5 voltes seguides: [19, 21, 23, 25, 27]
+    [P. 10-12. Jafisa - Grafico B] 4 voltes seguides: [37, 39, 41, 43]
+    [P. 13-16. Conchita Romero] 4 voltes seguides: [43, 45, 47, 49]
+    [P. 13-16. Conchita Romero] 3 voltes seguides: [53, 55, 57]
+    [P. 13-16. Conchita Romero] 13 voltes seguides: [61, 63, 65, 67, 69, 71, 73, 75]...
+    [P. 13-16. Conchita Romero] 22 voltes seguides: [89, 91, 93, 95, 97, 99, 101, 103]...
+    [P. 13-16. Conchita Romero] 15 voltes seguides: [137, 139, 141, 143, 145, 147, 149, 151]...
+    [P. 13-16. Conchita Romero] 3 voltes seguides: [169, 171, 173]
+    [P. 17-22. Ruth] 21 voltes seguides: [45, 47, 49, 51, 53, 55, 57, 59]...
+    [P. 23-28. Primavera] 59 voltes seguides: [11, 13, 15, 17, 19, 21, 23, 25]...
+    [P. 23-28. Primavera] 9 voltes seguides: [137, 139, 141, 143, 145, 147, 149, 151]...
+    [P. 23-28. Primavera] 3 voltes seguides: [157, 159, 161]
+    [P. 23-28. Primavera] 11 voltes seguides: [165, 167, 169, 171, 173, 175, 177, 179]...
+    [P. 23-28. Primavera] 3 voltes seguides: [189, 191, 193]
+    [P. 29-31. Pasión] 3 voltes seguides: [25, 27, 29]
+    [P. 29-31. Pasión] 7 voltes seguides: [35, 37, 39, 41, 43, 45, 47]
+    [P. 29-31. Pasión] 3 voltes seguides: [51, 53, 55]
+    [P. 29-31. Pasión] 11 voltes seguides: [73, 75, 77, 79, 81, 83, 85, 87]...
+    [P. 29-31. Pasión] 5 voltes seguides: [107, 109, 111, 113, 115]
+    [P. 29-31. Pasión] 6 voltes seguides: [125, 127, 129, 131, 133, 135]
+    [P. 32-34. Celia] 5 voltes seguides: [15, 17, 19, 21, 23]
+    [P. 32-34. Celia] 3 voltes seguides: [43, 45, 47]
+    [P. 32-34. Celia] 3 voltes seguides: [53, 55, 57]
+    [P. 32-34. Celia] 5 voltes seguides: [69, 71, 73, 75, 77]
+    [P. 32-34. Celia] 14 voltes seguides: [81, 83, 85, 87, 89, 91, 93, 95]...
+    [P. 34-36. Rosa de los Vientos] 22 voltes seguides: [7, 9, 11, 13, 15, 17, 19, 21]...
+    [P. 34-36. Rosa de los Vientos] 10 voltes seguides: [93, 95, 97, 99, 101, 103, 105, 107]...
+    [P. 34-36. Rosa de los Vientos] 4 voltes seguides: [115, 117, 119, 121]
+    [P. 34-36. Rosa de los Vientos] 3 voltes seguides: [125, 127, 129]
+    [P. 34-36. Rosa de los Vientos] 3 voltes seguides: [141, 143, 145]
+    [P. 34-36. Rosa de los Vientos] 4 voltes seguides: [149, 151, 153, 155]
+    [P. 37-38. Renacimiento] 3 voltes seguides: [13, 15, 17]
+    [P. 37-38. Renacimiento] 20 voltes seguides: [23, 25, 27, 29, 31, 33, 35, 37]...
+    [P. 38-39. Puntilla del Cacus] 8 voltes seguides: [5, 7, 9, 11, 13, 15, 17, 19]
+    [P. 4-8. Gentio] 3 voltes seguides: [17, 19, 21]
+    [P. 4-8. Gentio] 5 voltes seguides: [25, 27, 29, 31, 33]
+    [P. 4-8. Gentio] 8 voltes seguides: [41, 43, 45, 47, 49, 51, 53, 55]
+    [P. 4-8. Gentio] 4 voltes seguides: [75, 77, 79, 81]
+    [P. 4-8. Gentio] 5 voltes seguides: [93, 95, 97, 99, 101]
+    [P. 4-8. Gentio] 4 voltes seguides: [109, 111, 113, 115]
+    [P. 4-8. Gentio] 6 voltes seguides: [123, 125, 127, 129, 131, 133]
+    [P. 4-8. Gentio] 18 voltes seguides: [145, 147, 149, 151, 153, 155, 157, 159]...
+    [P. 4-8. Gentio] 5 voltes seguides: [183, 185, 187, 189, 191]
+    [P. 4-8. Gentio] 11 voltes seguides: [209, 211, 213, 215, 217, 219, 221, 223]...
+    [P. 40-46. Helga] 4 voltes seguides: [69, 71, 73, 75]
+    [P. 40-46. Helga] 4 voltes seguides: [81, 83, 85, 87]
+    [P. 40-46. Helga] 4 voltes seguides: [91, 93, 95, 97]
+    [P. 40-46. Helga] 42 voltes seguides: [101, 103, 105, 107, 109, 111, 113, 115]...
+    [P. 40-46. Helga] 13 voltes seguides: [187, 189, 191, 193, 195, 197, 199, 201]...
+    [P. 47. Cori] 4 voltes seguides: [9, 11, 13, 15]
+    [P. 47. Cori] 3 voltes seguides: [21, 23, 25]
+    [P. 47. Cori] 4 voltes seguides: [29, 31, 33, 35]
+    [P. 9-10. Jafisa - Grafico A] 3 voltes seguides: [27, 29, 31]
+    [P. 9-10. Jafisa - Grafico A] 6 voltes seguides: [35, 37, 39, 41, 43, 45]
+
+  VEREDICTE B:
+    - 538 voltes presenten anomalies puntuals (xifra alta).
+    - Però els 'forats' es concentren en parelles previsibles (l→p, l→g)
+      i, sobretot, formen runs llargs de voltes consecutives (54
+      runs detectats). Una marca esteganogràfica seria PUNTUAL.
+    - Els runs corresponen a MOTIUS DECORATIUS regulars (diagonals,
+      simetries verticals) ja documentats a la topologia vertical.
+    → HIPÒTESI BELGA: REBUTJADA.
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI C — MANOLITA DEL ARCO  (ref. El País / Blog Mem.Repr.)
+══════════════════════════════════════════════════════════════════════════════
+Test: buscar la línia documentada v71 de 'Primavera' dins del corpus...
+
+    Coincidències al corpus:
+         [P. 10-12. Jafisa - Grafico B] v95 (SUBCADENA): 3
+         [P. 23-28. Primavera] v1 (SUBCADENA): p
+         [P. 23-28. Primavera] v3 (SUBCADENA): lp
+      ★★★ [P. 23-28. Primavera] v71 (IDÈNTICA): (6p)lpa(glla-5v)ppl3lpp(glla-5v)gpl
+         [P. 32-34. Celia] v1 (SUBCADENA): pl
+         [P. 9-10. Jafisa - Grafico A] v1 (SUBCADENA): pl
+
+    VEREDICTE C:
+    - Coincidències IDÈNTIQUES entre cita pública de Manolita i corpus: 1
+    → HIPÒTESI MANOLITA: CONFIRMADA.
+
+══════════════════════════════════════════════════════════════════════════════
+RESUM FINAL
+══════════════════════════════════════════════════════════════════════════════
+
+  A) Morse tèxtil  ........... REBUTJADA
+       Cap parella binària genera text espanyol significativament millor
+       que el control aleatori. Els ratios i les distribucions de runs
+       no són compatibles amb codi Morse.
+
+  B) Anomalies belgues  ...... REBUTJADA
+       Les anomalies puntuals existeixen però formen runs llargs de voltes
+       consecutives (motius decoratius diagonals/verticals), no senyals
+       puntuals com en el cas belga del WWI.
+
+  C) Manolita del Arco  ...... CONFIRMADA
+       La línia  de 'primavera.txt' del corpus coincideix LITERALMENT
+       amb la cita verbatim del cuaderno de Manolita publicada per El País
+       i pel blog 'Memòria Repressió Franquista' (4 maig 2024). La peça
+       'Primavera' té el nom, l'arrencada i els patrons lèxics compatibles
+       amb la descripció pública.
+
+  IMPLICACIÓ:
+       El corpus de Carmen Machado és una còpia, derivat o cuaderno germà
+       dels cuadernillos de la xarxa de presas comunistes franquistes que
+       Manolita del Arco custodiava. El codi clandestí de fons NO ha estat
+       desxifrat per cap investigador (López Barceló, Martínez del Arco,
+       Padrón-Blashke). Les hipòtesis A i B estan documentades com a
+       fracassades, però queden registrades com a controls negatius
+       d'aquest TFG.
+
+[OK] Desat: RESULTATS_P\res_fase5.3\hipotesis_referencies.json

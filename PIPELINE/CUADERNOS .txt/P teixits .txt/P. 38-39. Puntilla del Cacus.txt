@@ -1,0 +1,8 @@
+5 a(4p)l(glla-3v)l(4p)gx|l3l
+7 a(4p)la(glla-2v)gl(4p)glxl|l3l
+9 a(4p)l3glla3l(4p)glplxlpl|lplxlpl
+11 a(4p)l33l(4p)gl(3p)lxl(3p)l|l(3p)lxl(3p)
+13 a(4p)g(4p)gl(5p)lxl(5p)l|l(5p)lxl(5p)
+15 3(5p)3lplapglplxlplapglpl|lplapglplxlplapg
+17 3p3l(3p)l3l(3p)lxl(3p)l3l(3p)l|l(3p)l3l(3p)lxl(3p)
+19 l3l(5p)lxl(5p)lxl(5p)lxl(5p)l|l(5p)lxl(5p)lxl(5p)lx

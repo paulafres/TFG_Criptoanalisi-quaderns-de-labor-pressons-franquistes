@@ -1,0 +1,725 @@
+{
+  "parametres": {
+    "ALPHA_SMOOTH": 0.01,
+    "RANDOM_STATE": 42,
+    "metode": "Leave-one-teixit-out CV · bigrama amb smoothing additiu"
+  },
+  "metadades": {
+    "n_teixits": 71,
+    "surprisal_loo_mitjana": 4.1618,
+    "surprisal_loo_sd": 1.2547,
+    "surprisal_in_sample_global": 1.2527
+  },
+  "per_teixit": [
+    {
+      "teixit": "MS_La Puntilla",
+      "n_voltes": 24,
+      "n_tokens_eval": 169,
+      "surprisal_loo": 7.8455,
+      "surprisal_in_sample": 5.6484,
+      "delta_loo_vs_in": 2.1971,
+      "n_oov_bigrames_loo": 43,
+      "frac_oov_loo": 0.2544
+    },
+    {
+      "teixit": "MS_Punto Montaña",
+      "n_voltes": 4,
+      "n_tokens_eval": 80,
+      "surprisal_loo": 7.314,
+      "surprisal_in_sample": 4.6046,
+      "delta_loo_vs_in": 2.7093,
+      "n_oov_bigrames_loo": 24,
+      "frac_oov_loo": 0.3
+    },
+    {
+      "teixit": "MS_Otro punto bellota",
+      "n_voltes": 6,
+      "n_tokens_eval": 59,
+      "surprisal_loo": 6.4774,
+      "surprisal_in_sample": 3.5606,
+      "delta_loo_vs_in": 2.9168,
+      "n_oov_bigrames_loo": 23,
+      "frac_oov_loo": 0.3898
+    },
+    {
+      "teixit": "MS_Punto plisado para chaquetita",
+      "n_voltes": 4,
+      "n_tokens_eval": 133,
+      "surprisal_loo": 5.8849,
+      "surprisal_in_sample": 1.3016,
+      "delta_loo_vs_in": 4.5833,
+      "n_oov_bigrames_loo": 71,
+      "frac_oov_loo": 0.5338
+    },
+    {
+      "teixit": "MS_Ovalo1",
+      "n_voltes": 26,
+      "n_tokens_eval": 325,
+      "surprisal_loo": 5.8407,
+      "surprisal_in_sample": 4.412,
+      "delta_loo_vs_in": 1.4286,
+      "n_oov_bigrames_loo": 52,
+      "frac_oov_loo": 0.16
+    },
+    {
+      "teixit": "MS_Puntilla2",
+      "n_voltes": 25,
+      "n_tokens_eval": 274,
+      "surprisal_loo": 5.7441,
+      "surprisal_in_sample": 4.1274,
+      "delta_loo_vs_in": 1.6167,
+      "n_oov_bigrames_loo": 61,
+      "frac_oov_loo": 0.2226
+    },
+    {
+      "teixit": "MS_Puntilla3",
+      "n_voltes": 8,
+      "n_tokens_eval": 162,
+      "surprisal_loo": 5.3666,
+      "surprisal_in_sample": 4.3444,
+      "delta_loo_vs_in": 1.0222,
+      "n_oov_bigrames_loo": 21,
+      "frac_oov_loo": 0.1296
+    },
+    {
+      "teixit": "MS_Leonor",
+      "n_voltes": 57,
+      "n_tokens_eval": 2267,
+      "surprisal_loo": 5.3098,
+      "surprisal_in_sample": 2.6178,
+      "delta_loo_vs_in": 2.692,
+      "n_oov_bigrames_loo": 647,
+      "frac_oov_loo": 0.2854
+    },
+    {
+      "teixit": "MS_Ovalo2",
+      "n_voltes": 28,
+      "n_tokens_eval": 252,
+      "surprisal_loo": 5.2981,
+      "surprisal_in_sample": 4.4843,
+      "delta_loo_vs_in": 0.8138,
+      "n_oov_bigrames_loo": 27,
+      "frac_oov_loo": 0.1071
+    },
+    {
+      "teixit": "MS_Estrellita",
+      "n_voltes": 18,
+      "n_tokens_eval": 89,
+      "surprisal_loo": 5.2468,
+      "surprisal_in_sample": 4.6441,
+      "delta_loo_vs_in": 0.6026,
+      "n_oov_bigrames_loo": 6,
+      "frac_oov_loo": 0.0674
+    },
+    {
+      "teixit": "MS_Vueltas del reves",
+      "n_voltes": 12,
+      "n_tokens_eval": 162,
+      "surprisal_loo": 5.1271,
+      "surprisal_in_sample": 3.5574,
+      "delta_loo_vs_in": 1.5698,
+      "n_oov_bigrames_loo": 31,
+      "frac_oov_loo": 0.1914
+    },
+    {
+      "teixit": "MS_Gafitas2",
+      "n_voltes": 14,
+      "n_tokens_eval": 215,
+      "surprisal_loo": 4.9976,
+      "surprisal_in_sample": 4.2324,
+      "delta_loo_vs_in": 0.7653,
+      "n_oov_bigrames_loo": 18,
+      "frac_oov_loo": 0.0837
+    },
+    {
+      "teixit": "MS_Adolbert",
+      "n_voltes": 23,
+      "n_tokens_eval": 306,
+      "surprisal_loo": 4.988,
+      "surprisal_in_sample": 4.2745,
+      "delta_loo_vs_in": 0.7135,
+      "n_oov_bigrames_loo": 25,
+      "frac_oov_loo": 0.0817
+    },
+    {
+      "teixit": "MS_Penas",
+      "n_voltes": 33,
+      "n_tokens_eval": 198,
+      "surprisal_loo": 4.8686,
+      "surprisal_in_sample": 4.5901,
+      "delta_loo_vs_in": 0.2785,
+      "n_oov_bigrames_loo": 3,
+      "frac_oov_loo": 0.0152
+    },
+    {
+      "teixit": "MS_Puntilla",
+      "n_voltes": 15,
+      "n_tokens_eval": 286,
+      "surprisal_loo": 4.8536,
+      "surprisal_in_sample": 4.5522,
+      "delta_loo_vs_in": 0.3014,
+      "n_oov_bigrames_loo": 8,
+      "frac_oov_loo": 0.028
+    },
+    {
+      "teixit": "MS_Punto Hojitas vueltas",
+      "n_voltes": 4,
+      "n_tokens_eval": 59,
+      "surprisal_loo": 4.8212,
+      "surprisal_in_sample": 4.6815,
+      "delta_loo_vs_in": 0.1397,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Araceli",
+      "n_voltes": 53,
+      "n_tokens_eval": 579,
+      "surprisal_loo": 4.783,
+      "surprisal_in_sample": 4.2571,
+      "delta_loo_vs_in": 0.526,
+      "n_oov_bigrames_loo": 28,
+      "frac_oov_loo": 0.0484
+    },
+    {
+      "teixit": "MS_Celia 1",
+      "n_voltes": 53,
+      "n_tokens_eval": 576,
+      "surprisal_loo": 4.743,
+      "surprisal_in_sample": 4.0273,
+      "delta_loo_vs_in": 0.7157,
+      "n_oov_bigrames_loo": 54,
+      "frac_oov_loo": 0.0938
+    },
+    {
+      "teixit": "MS_Puntilla nueva",
+      "n_voltes": 14,
+      "n_tokens_eval": 197,
+      "surprisal_loo": 4.6707,
+      "surprisal_in_sample": 4.3243,
+      "delta_loo_vs_in": 0.3464,
+      "n_oov_bigrames_loo": 8,
+      "frac_oov_loo": 0.0406
+    },
+    {
+      "teixit": "MS_Punto Feito",
+      "n_voltes": 6,
+      "n_tokens_eval": 52,
+      "surprisal_loo": 4.5477,
+      "surprisal_in_sample": 4.4048,
+      "delta_loo_vs_in": 0.1429,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Pensamiento",
+      "n_voltes": 25,
+      "n_tokens_eval": 277,
+      "surprisal_loo": 4.5458,
+      "surprisal_in_sample": 4.0431,
+      "delta_loo_vs_in": 0.5027,
+      "n_oov_bigrames_loo": 14,
+      "frac_oov_loo": 0.0505
+    },
+    {
+      "teixit": "MS_Mariposa",
+      "n_voltes": 20,
+      "n_tokens_eval": 160,
+      "surprisal_loo": 4.5178,
+      "surprisal_in_sample": 4.2037,
+      "delta_loo_vs_in": 0.3141,
+      "n_oov_bigrames_loo": 6,
+      "frac_oov_loo": 0.0375
+    },
+    {
+      "teixit": "MS_Hijo",
+      "n_voltes": 49,
+      "n_tokens_eval": 766,
+      "surprisal_loo": 4.5032,
+      "surprisal_in_sample": 4.0906,
+      "delta_loo_vs_in": 0.4127,
+      "n_oov_bigrames_loo": 20,
+      "frac_oov_loo": 0.0261
+    },
+    {
+      "teixit": "MS_Susana",
+      "n_voltes": 43,
+      "n_tokens_eval": 493,
+      "surprisal_loo": 4.4881,
+      "surprisal_in_sample": 3.8008,
+      "delta_loo_vs_in": 0.6872,
+      "n_oov_bigrames_loo": 42,
+      "frac_oov_loo": 0.0852
+    },
+    {
+      "teixit": "MS_Blumen Flor",
+      "n_voltes": 24,
+      "n_tokens_eval": 188,
+      "surprisal_loo": 4.4848,
+      "surprisal_in_sample": 4.1788,
+      "delta_loo_vs_in": 0.306,
+      "n_oov_bigrames_loo": 5,
+      "frac_oov_loo": 0.0266
+    },
+    {
+      "teixit": "MS_Punto Esmeralda",
+      "n_voltes": 10,
+      "n_tokens_eval": 38,
+      "surprisal_loo": 4.4722,
+      "surprisal_in_sample": 4.4525,
+      "delta_loo_vs_in": 0.0197,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Jazmín",
+      "n_voltes": 16,
+      "n_tokens_eval": 111,
+      "surprisal_loo": 4.4596,
+      "surprisal_in_sample": 4.3279,
+      "delta_loo_vs_in": 0.1316,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Puntilla4",
+      "n_voltes": 14,
+      "n_tokens_eval": 122,
+      "surprisal_loo": 4.4355,
+      "surprisal_in_sample": 4.1005,
+      "delta_loo_vs_in": 0.3349,
+      "n_oov_bigrames_loo": 5,
+      "frac_oov_loo": 0.041
+    },
+    {
+      "teixit": "MS_Morin",
+      "n_voltes": 34,
+      "n_tokens_eval": 482,
+      "surprisal_loo": 4.4305,
+      "surprisal_in_sample": 3.8076,
+      "delta_loo_vs_in": 0.6229,
+      "n_oov_bigrames_loo": 41,
+      "frac_oov_loo": 0.0851
+    },
+    {
+      "teixit": "MS_Grafico 2",
+      "n_voltes": 37,
+      "n_tokens_eval": 549,
+      "surprisal_loo": 4.3959,
+      "surprisal_in_sample": 3.9675,
+      "delta_loo_vs_in": 0.4283,
+      "n_oov_bigrames_loo": 30,
+      "frac_oov_loo": 0.0546
+    },
+    {
+      "teixit": "MS_Dalila",
+      "n_voltes": 18,
+      "n_tokens_eval": 80,
+      "surprisal_loo": 4.3743,
+      "surprisal_in_sample": 4.3552,
+      "delta_loo_vs_in": 0.0191,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Fajas",
+      "n_voltes": 21,
+      "n_tokens_eval": 194,
+      "surprisal_loo": 4.3351,
+      "surprisal_in_sample": 4.0334,
+      "delta_loo_vs_in": 0.3018,
+      "n_oov_bigrames_loo": 7,
+      "frac_oov_loo": 0.0361
+    },
+    {
+      "teixit": "MS_Rita",
+      "n_voltes": 53,
+      "n_tokens_eval": 916,
+      "surprisal_loo": 4.3096,
+      "surprisal_in_sample": 3.8684,
+      "delta_loo_vs_in": 0.4412,
+      "n_oov_bigrames_loo": 47,
+      "frac_oov_loo": 0.0513
+    },
+    {
+      "teixit": "MS_Salvador",
+      "n_voltes": 76,
+      "n_tokens_eval": 1548,
+      "surprisal_loo": 4.303,
+      "surprisal_in_sample": 3.9009,
+      "delta_loo_vs_in": 0.4021,
+      "n_oov_bigrames_loo": 48,
+      "frac_oov_loo": 0.031
+    },
+    {
+      "teixit": "MS_Punto plisado para vestidito",
+      "n_voltes": 3,
+      "n_tokens_eval": 37,
+      "surprisal_loo": 4.2963,
+      "surprisal_in_sample": 4.091,
+      "delta_loo_vs_in": 0.2054,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Pino",
+      "n_voltes": 68,
+      "n_tokens_eval": 786,
+      "surprisal_loo": 4.284,
+      "surprisal_in_sample": 3.9336,
+      "delta_loo_vs_in": 0.3504,
+      "n_oov_bigrames_loo": 26,
+      "frac_oov_loo": 0.0331
+    },
+    {
+      "teixit": "MS_Dalia",
+      "n_voltes": 20,
+      "n_tokens_eval": 119,
+      "surprisal_loo": 4.2632,
+      "surprisal_in_sample": 4.1236,
+      "delta_loo_vs_in": 0.1396,
+      "n_oov_bigrames_loo": 2,
+      "frac_oov_loo": 0.0168
+    },
+    {
+      "teixit": "MS_Titi - Puntilla",
+      "n_voltes": 7,
+      "n_tokens_eval": 58,
+      "surprisal_loo": 4.2366,
+      "surprisal_in_sample": 3.9979,
+      "delta_loo_vs_in": 0.2387,
+      "n_oov_bigrames_loo": 1,
+      "frac_oov_loo": 0.0172
+    },
+    {
+      "teixit": "MS_Raetine",
+      "n_voltes": 57,
+      "n_tokens_eval": 1003,
+      "surprisal_loo": 4.1969,
+      "surprisal_in_sample": 3.4209,
+      "delta_loo_vs_in": 0.776,
+      "n_oov_bigrames_loo": 68,
+      "frac_oov_loo": 0.0678
+    },
+    {
+      "teixit": "MS_Plumitas",
+      "n_voltes": 26,
+      "n_tokens_eval": 356,
+      "surprisal_loo": 4.189,
+      "surprisal_in_sample": 3.8485,
+      "delta_loo_vs_in": 0.3406,
+      "n_oov_bigrames_loo": 11,
+      "frac_oov_loo": 0.0309
+    },
+    {
+      "teixit": "MS_Hojas",
+      "n_voltes": 22,
+      "n_tokens_eval": 265,
+      "surprisal_loo": 4.1685,
+      "surprisal_in_sample": 3.9436,
+      "delta_loo_vs_in": 0.2249,
+      "n_oov_bigrames_loo": 5,
+      "frac_oov_loo": 0.0189
+    },
+    {
+      "teixit": "MS_Julito",
+      "n_voltes": 43,
+      "n_tokens_eval": 359,
+      "surprisal_loo": 4.1059,
+      "surprisal_in_sample": 3.6639,
+      "delta_loo_vs_in": 0.442,
+      "n_oov_bigrames_loo": 18,
+      "frac_oov_loo": 0.0501
+    },
+    {
+      "teixit": "MS_Titi 2 - Grafico B",
+      "n_voltes": 20,
+      "n_tokens_eval": 246,
+      "surprisal_loo": 4.098,
+      "surprisal_in_sample": 3.9358,
+      "delta_loo_vs_in": 0.1622,
+      "n_oov_bigrames_loo": 4,
+      "frac_oov_loo": 0.0163
+    },
+    {
+      "teixit": "MS_Celia 2",
+      "n_voltes": 32,
+      "n_tokens_eval": 309,
+      "surprisal_loo": 4.0828,
+      "surprisal_in_sample": 3.8057,
+      "delta_loo_vs_in": 0.2771,
+      "n_oov_bigrames_loo": 10,
+      "frac_oov_loo": 0.0324
+    },
+    {
+      "teixit": "MS_Palmito",
+      "n_voltes": 19,
+      "n_tokens_eval": 124,
+      "surprisal_loo": 4.0648,
+      "surprisal_in_sample": 3.8814,
+      "delta_loo_vs_in": 0.1834,
+      "n_oov_bigrames_loo": 2,
+      "frac_oov_loo": 0.0161
+    },
+    {
+      "teixit": "MS_Hojas de Matilde",
+      "n_voltes": 3,
+      "n_tokens_eval": 26,
+      "surprisal_loo": 4.0623,
+      "surprisal_in_sample": 3.9761,
+      "delta_loo_vs_in": 0.0862,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Mary-Luz",
+      "n_voltes": 10,
+      "n_tokens_eval": 122,
+      "surprisal_loo": 3.9706,
+      "surprisal_in_sample": 3.7793,
+      "delta_loo_vs_in": 0.1913,
+      "n_oov_bigrames_loo": 3,
+      "frac_oov_loo": 0.0246
+    },
+    {
+      "teixit": "MS_Antoña o Canijo",
+      "n_voltes": 16,
+      "n_tokens_eval": 109,
+      "surprisal_loo": 3.9704,
+      "surprisal_in_sample": 3.8831,
+      "delta_loo_vs_in": 0.0873,
+      "n_oov_bigrames_loo": 1,
+      "frac_oov_loo": 0.0092
+    },
+    {
+      "teixit": "MS_Gafitas1",
+      "n_voltes": 6,
+      "n_tokens_eval": 30,
+      "surprisal_loo": 3.9323,
+      "surprisal_in_sample": 3.899,
+      "delta_loo_vs_in": 0.0333,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_MLuisa",
+      "n_voltes": 28,
+      "n_tokens_eval": 242,
+      "surprisal_loo": 3.9142,
+      "surprisal_in_sample": 3.8176,
+      "delta_loo_vs_in": 0.0966,
+      "n_oov_bigrames_loo": 2,
+      "frac_oov_loo": 0.0083
+    },
+    {
+      "teixit": "MS_Pelargonia",
+      "n_voltes": 40,
+      "n_tokens_eval": 446,
+      "surprisal_loo": 3.8701,
+      "surprisal_in_sample": 3.5633,
+      "delta_loo_vs_in": 0.3068,
+      "n_oov_bigrames_loo": 14,
+      "frac_oov_loo": 0.0314
+    },
+    {
+      "teixit": "MS_Puntilla1",
+      "n_voltes": 5,
+      "n_tokens_eval": 45,
+      "surprisal_loo": 3.8354,
+      "surprisal_in_sample": 3.8277,
+      "delta_loo_vs_in": 0.0076,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Madreselva",
+      "n_voltes": 22,
+      "n_tokens_eval": 239,
+      "surprisal_loo": 3.7357,
+      "surprisal_in_sample": 3.5126,
+      "delta_loo_vs_in": 0.223,
+      "n_oov_bigrames_loo": 1,
+      "frac_oov_loo": 0.0042
+    },
+    {
+      "teixit": "MS_Punto semilla",
+      "n_voltes": 5,
+      "n_tokens_eval": 38,
+      "surprisal_loo": 3.7241,
+      "surprisal_in_sample": 3.6864,
+      "delta_loo_vs_in": 0.0378,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Margarita",
+      "n_voltes": 71,
+      "n_tokens_eval": 1174,
+      "surprisal_loo": 3.7143,
+      "surprisal_in_sample": 3.343,
+      "delta_loo_vs_in": 0.3713,
+      "n_oov_bigrames_loo": 43,
+      "frac_oov_loo": 0.0366
+    },
+    {
+      "teixit": "MS_Vaño Mimosa",
+      "n_voltes": 55,
+      "n_tokens_eval": 1457,
+      "surprisal_loo": 3.6644,
+      "surprisal_in_sample": 3.2408,
+      "delta_loo_vs_in": 0.4236,
+      "n_oov_bigrames_loo": 16,
+      "frac_oov_loo": 0.011
+    },
+    {
+      "teixit": "MS_Claveles",
+      "n_voltes": 60,
+      "n_tokens_eval": 1267,
+      "surprisal_loo": 3.4846,
+      "surprisal_in_sample": 3.1158,
+      "delta_loo_vs_in": 0.3688,
+      "n_oov_bigrames_loo": 51,
+      "frac_oov_loo": 0.0403
+    },
+    {
+      "teixit": "MS_Luis",
+      "n_voltes": 67,
+      "n_tokens_eval": 1183,
+      "surprisal_loo": 3.4181,
+      "surprisal_in_sample": 3.2474,
+      "delta_loo_vs_in": 0.1706,
+      "n_oov_bigrames_loo": 13,
+      "frac_oov_loo": 0.011
+    },
+    {
+      "teixit": "MS_Cacus",
+      "n_voltes": 22,
+      "n_tokens_eval": 433,
+      "surprisal_loo": 3.3869,
+      "surprisal_in_sample": 3.2306,
+      "delta_loo_vs_in": 0.1563,
+      "n_oov_bigrames_loo": 5,
+      "frac_oov_loo": 0.0115
+    },
+    {
+      "teixit": "MS_Grafico B - Puntilla",
+      "n_voltes": 37,
+      "n_tokens_eval": 655,
+      "surprisal_loo": 3.3842,
+      "surprisal_in_sample": 3.3189,
+      "delta_loo_vs_in": 0.0652,
+      "n_oov_bigrames_loo": 2,
+      "frac_oov_loo": 0.0031
+    },
+    {
+      "teixit": "MS_Punto piñas",
+      "n_voltes": 4,
+      "n_tokens_eval": 26,
+      "surprisal_loo": 3.1525,
+      "surprisal_in_sample": 3.1474,
+      "delta_loo_vs_in": 0.005,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Punto Calado",
+      "n_voltes": 3,
+      "n_tokens_eval": 39,
+      "surprisal_loo": 2.9703,
+      "surprisal_in_sample": 2.9632,
+      "delta_loo_vs_in": 0.0072,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Titi 2 - Grafico A",
+      "n_voltes": 11,
+      "n_tokens_eval": 132,
+      "surprisal_loo": 2.761,
+      "surprisal_in_sample": 2.6418,
+      "delta_loo_vs_in": 0.1192,
+      "n_oov_bigrames_loo": 1,
+      "frac_oov_loo": 0.0076
+    },
+    {
+      "teixit": "MS_Punto Bellota",
+      "n_voltes": 12,
+      "n_tokens_eval": 227,
+      "surprisal_loo": 2.734,
+      "surprisal_in_sample": 2.4198,
+      "delta_loo_vs_in": 0.3142,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Otro Punto Calado",
+      "n_voltes": 3,
+      "n_tokens_eval": 16,
+      "surprisal_loo": 2.6467,
+      "surprisal_in_sample": 2.6457,
+      "delta_loo_vs_in": 0.0011,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Titi 1",
+      "n_voltes": 10,
+      "n_tokens_eval": 122,
+      "surprisal_loo": 2.4597,
+      "surprisal_in_sample": 2.3961,
+      "delta_loo_vs_in": 0.0637,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Punto dos caras",
+      "n_voltes": 6,
+      "n_tokens_eval": 76,
+      "surprisal_loo": 2.2632,
+      "surprisal_in_sample": 2.1886,
+      "delta_loo_vs_in": 0.0745,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Marianin o Katiuska",
+      "n_voltes": 25,
+      "n_tokens_eval": 25017,
+      "surprisal_loo": 1.4641,
+      "surprisal_in_sample": 0.2972,
+      "delta_loo_vs_in": 1.1669,
+      "n_oov_bigrames_loo": 4,
+      "frac_oov_loo": 0.0002
+    },
+    {
+      "teixit": "MS_Puntilla pequeña Salvador",
+      "n_voltes": 5,
+      "n_tokens_eval": 123,
+      "surprisal_loo": 1.2715,
+      "surprisal_in_sample": 1.2631,
+      "delta_loo_vs_in": 0.0085,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "MS_Campanilla",
+      "n_voltes": 54,
+      "n_tokens_eval": 25364,
+      "surprisal_loo": 0.7108,
+      "surprisal_in_sample": 0.2391,
+      "delta_loo_vs_in": 0.4717,
+      "n_oov_bigrames_loo": 76,
+      "frac_oov_loo": 0.003
+    },
+    {
+      "teixit": "MS_Punto conchas",
+      "n_voltes": 14,
+      "n_tokens_eval": 6858,
+      "surprisal_loo": 0.2164,
+      "surprisal_in_sample": 0.1816,
+      "delta_loo_vs_in": 0.0348,
+      "n_oov_bigrames_loo": 12,
+      "frac_oov_loo": 0.0017
+    }
+  ]
+}

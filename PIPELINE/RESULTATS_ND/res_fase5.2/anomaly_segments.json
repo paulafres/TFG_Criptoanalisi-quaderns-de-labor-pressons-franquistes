@@ -1,0 +1,3813 @@
+{
+  "metadades": {
+    "score": "combinat: W_GRAM·z(gramatical 5.1) + W_LEX·z(lèxic 5.1b)",
+    "pes_gramatical": 1.0,
+    "pes_lexic": 1.0,
+    "n_voltes_amb_senyal_lexic": 27,
+    "threshold_percentile": 60,
+    "threshold_score": -0.2351,
+    "min_seg_len": 3,
+    "n_perm": 1000,
+    "alpha_fdr": 0.05,
+    "random_state": 42,
+    "n_voltes_corpus": 1215,
+    "n_segments_candidats": 48,
+    "n_segments_significatius": 3
+  },
+  "segments": [
+    {
+      "teixit": "ND_Chistrofe Rosa de Navidad",
+      "volta_inici": 36,
+      "volta_final": 54,
+      "n_voltes": 10,
+      "score_mitja": 3.5547,
+      "score_acumulat": 35.5472,
+      "p_valor": 0.000999000999000999,
+      "n_voltes_cross_canal": 2,
+      "n_critiques": 3,
+      "n_altes": 1,
+      "n_moderades": 5,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 36,
+          "tipus_volta": "V1",
+          "score_anomalia": 11.1242,
+          "score_lexic": 0.0,
+          "score_combinat": 6.1767,
+          "categoria": "CRÍTICA",
+          "cross_canal": true,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 38,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.2536,
+          "score_lexic": 0.0,
+          "score_combinat": 2.0118,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 40,
+          "tipus_volta": "V0",
+          "score_anomalia": 8.2162,
+          "score_lexic": 0.0,
+          "score_combinat": 4.1136,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 42,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.9382,
+          "score_lexic": 0.0,
+          "score_combinat": 1.0786,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 44,
+          "tipus_volta": "V1",
+          "score_anomalia": 10.3228,
+          "score_lexic": 10.0,
+          "score_combinat": 12.3922,
+          "categoria": "CRÍTICA",
+          "cross_canal": true,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 46,
+          "tipus_volta": "V0",
+          "score_anomalia": 7.8797,
+          "score_lexic": 0.0,
+          "score_combinat": 3.8749,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 48,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.5009,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7683,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 3
+        },
+        {
+          "volta": 50,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.3518,
+          "score_lexic": 0.0,
+          "score_combinat": 2.7909,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 52,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.5466,
+          "score_lexic": 0.0,
+          "score_combinat": 1.5102,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 54,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.5877,
+          "score_lexic": 0.0,
+          "score_combinat": 0.8299,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 10
+        }
+      ],
+      "q_valor": 0.023976023976023976,
+      "significatiu_FDR": true
+    },
+    {
+      "teixit": "ND_Ruth",
+      "volta_inici": 1,
+      "volta_final": 37,
+      "n_voltes": 10,
+      "score_mitja": 2.7666,
+      "score_acumulat": 27.666,
+      "p_valor": 0.000999000999000999,
+      "n_voltes_cross_canal": 1,
+      "n_critiques": 2,
+      "n_altes": 2,
+      "n_moderades": 2,
+      "n_normals": 4,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.1507,
+          "score_lexic": 0.0,
+          "score_combinat": 2.6482,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V0",
+          "score_anomalia": 7.2204,
+          "score_lexic": 0.0,
+          "score_combinat": 3.4072,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V1",
+          "score_anomalia": 7.095,
+          "score_lexic": 0.0,
+          "score_combinat": 3.3182,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.3224,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6417,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.6521,
+          "score_lexic": 0.0,
+          "score_combinat": 0.8756,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 11,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.1239,
+          "score_lexic": 0.0,
+          "score_combinat": 2.6292,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 11
+        },
+        {
+          "volta": 31,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.6107,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1368,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 11
+        },
+        {
+          "volta": 33,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.525,
+          "score_lexic": 0.0,
+          "score_combinat": 0.076,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 35,
+          "tipus_volta": "V1",
+          "score_anomalia": 10.0748,
+          "score_lexic": 10.0,
+          "score_combinat": 12.2162,
+          "categoria": "CRÍTICA",
+          "cross_canal": true,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 37,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.8379,
+          "score_lexic": 0.0,
+          "score_combinat": 1.7169,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 30
+        }
+      ],
+      "q_valor": 0.023976023976023976,
+      "significatiu_FDR": true
+    },
+    {
+      "teixit": "ND_Renacimiento",
+      "volta_inici": 1,
+      "volta_final": 9,
+      "n_voltes": 5,
+      "score_mitja": 1.481,
+      "score_acumulat": 7.405,
+      "p_valor": 0.001998001998001998,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 2,
+      "n_altes": 0,
+      "n_moderades": 2,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V1",
+          "score_anomalia": 7.1055,
+          "score_lexic": 0.0,
+          "score_combinat": 3.3256,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.4222,
+          "score_lexic": 0.0,
+          "score_combinat": 2.8409,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.243,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1241,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.2629,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3089,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4935,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0536,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 8
+        }
+      ],
+      "q_valor": 0.03196803196803197,
+      "significatiu_FDR": true
+    },
+    {
+      "teixit": "ND_Dolores",
+      "volta_inici": 45,
+      "volta_final": 59,
+      "n_voltes": 8,
+      "score_mitja": 7.0673,
+      "score_acumulat": 56.538,
+      "p_valor": 0.012987012987012988,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 3,
+      "n_altes": 1,
+      "n_moderades": 3,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 45,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.0319,
+          "score_lexic": 0.0,
+          "score_combinat": 0.4356,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 47,
+          "tipus_volta": "V0",
+          "score_anomalia": 6.8017,
+          "score_lexic": 10.0,
+          "score_combinat": 9.8941,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 49,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.1384,
+          "score_lexic": 10.0,
+          "score_combinat": 8.7141,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 51,
+          "tipus_volta": "V1",
+          "score_anomalia": 8.1851,
+          "score_lexic": 10.0,
+          "score_combinat": 10.8756,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 53,
+          "tipus_volta": "V0",
+          "score_anomalia": 7.0592,
+          "score_lexic": 10.0,
+          "score_combinat": 10.0768,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 55,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.1549,
+          "score_lexic": 10.0,
+          "score_combinat": 7.3069,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 57,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.0384,
+          "score_lexic": 10.0,
+          "score_combinat": 7.9337,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 59,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.2522,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3013,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 7
+        }
+      ],
+      "q_valor": 0.15584415584415584,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Dolores",
+      "volta_inici": 77,
+      "volta_final": 83,
+      "n_voltes": 4,
+      "score_mitja": 6.5602,
+      "score_acumulat": 26.2409,
+      "p_valor": 0.5154845154845155,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 1,
+      "n_moderades": 1,
+      "n_normals": 2,
+      "voltes_detall": [
+        {
+          "volta": 77,
+          "tipus_volta": "V0",
+          "score_anomalia": 1.8791,
+          "score_lexic": 10.0,
+          "score_combinat": 6.4017,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 3
+        },
+        {
+          "volta": 79,
+          "tipus_volta": "V1",
+          "score_anomalia": 7.8267,
+          "score_lexic": 10.0,
+          "score_combinat": 10.6213,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 3
+        },
+        {
+          "volta": 81,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.8771,
+          "score_lexic": 0.0,
+          "score_combinat": 1.0352,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 83,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.3893,
+          "score_lexic": 10.0,
+          "score_combinat": 8.1826,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Chistrofe Rosa de Navidad",
+      "volta_inici": 5,
+      "volta_final": 32,
+      "n_voltes": 12,
+      "score_mitja": 1.4451,
+      "score_acumulat": 17.3408,
+      "p_valor": 0.7802197802197802,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 5,
+      "n_moderades": 5,
+      "n_normals": 2,
+      "voltes_detall": [
+        {
+          "volta": 5,
+          "tipus_volta": "V1",
+          "score_anomalia": 5.9644,
+          "score_lexic": 0.0,
+          "score_combinat": 2.5161,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V0",
+          "score_anomalia": 6.4415,
+          "score_lexic": 0.0,
+          "score_combinat": 2.8546,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.4862,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7579,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 11,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6945,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1962,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 10
+        },
+        {
+          "volta": 18,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.511,
+          "score_lexic": 0.0,
+          "score_combinat": 0.066,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 20,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.5049,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7712,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 22,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.3518,
+          "score_lexic": 0.0,
+          "score_combinat": 2.0815,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 24,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.7165,
+          "score_lexic": 0.0,
+          "score_combinat": 1.6307,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 12
+        },
+        {
+          "volta": 26,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.6224,
+          "score_lexic": 0.0,
+          "score_combinat": 2.2734,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 28,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.8532,
+          "score_lexic": 0.0,
+          "score_combinat": 1.0183,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 30,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.3518,
+          "score_lexic": 0.0,
+          "score_combinat": 2.0815,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 32,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.9591,
+          "score_lexic": 0.0,
+          "score_combinat": 1.0934,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 7
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Merche",
+      "volta_inici": 1,
+      "volta_final": 17,
+      "n_voltes": 9,
+      "score_mitja": 1.908,
+      "score_acumulat": 17.172,
+      "p_valor": 0.052947052947052944,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 2,
+      "n_altes": 4,
+      "n_moderades": 2,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.026,
+          "score_lexic": 0.0,
+          "score_combinat": 2.5598,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V0",
+          "score_anomalia": 7.9728,
+          "score_lexic": 0.0,
+          "score_combinat": 3.9409,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.1887,
+          "score_lexic": 0.0,
+          "score_combinat": 1.2563,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V0",
+          "score_anomalia": 7.527,
+          "score_lexic": 0.0,
+          "score_combinat": 3.6247,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.6757,
+          "score_lexic": 0.0,
+          "score_combinat": 1.6018,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 11,
+          "tipus_volta": "V0",
+          "score_anomalia": 6.1406,
+          "score_lexic": 0.0,
+          "score_combinat": 2.6411,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 3
+        },
+        {
+          "volta": 13,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.3538,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3734,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 15,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7101,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2073,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 17,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.371,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0333,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        }
+      ],
+      "q_valor": 0.23104168558714014,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Maria",
+      "volta_inici": 1,
+      "volta_final": 19,
+      "n_voltes": 7,
+      "score_mitja": 2.3192,
+      "score_acumulat": 16.2346,
+      "p_valor": 0.052947052947052944,
+      "n_voltes_cross_canal": 1,
+      "n_critiques": 0,
+      "n_altes": 3,
+      "n_moderades": 4,
+      "n_normals": 0,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.7412,
+          "score_lexic": 0.0,
+          "score_combinat": 1.6483,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 3
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.5472,
+          "score_lexic": 0.0,
+          "score_combinat": 2.2201,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.7189,
+          "score_lexic": 0.0,
+          "score_combinat": 1.6325,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 11,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.9449,
+          "score_lexic": 10.0,
+          "score_combinat": 8.5768,
+          "categoria": "ALTA",
+          "cross_canal": true,
+          "longitud_micro": 14
+        },
+        {
+          "volta": 15,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.4116,
+          "score_lexic": 0.0,
+          "score_combinat": 0.705,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 27
+        },
+        {
+          "volta": 17,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.3197,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3492,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 25
+        },
+        {
+          "volta": 19,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.5628,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1028,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 444
+        }
+      ],
+      "q_valor": 0.23104168558714014,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Punto Angelines para blusa",
+      "volta_inici": 1,
+      "volta_final": 18,
+      "n_voltes": 15,
+      "score_mitja": 1.071,
+      "score_acumulat": 16.0646,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 2,
+      "n_moderades": 1,
+      "n_normals": 12,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.0714,
+          "score_lexic": 0.0,
+          "score_combinat": 1.1731,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 30
+        },
+        {
+          "volta": 2,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.3271,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3545,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 30
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.2824,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6133,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 28
+        },
+        {
+          "volta": 4,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.2946,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3314,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 29
+        },
+        {
+          "volta": 8,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.6038,
+          "score_lexic": 0.0,
+          "score_combinat": 1.5508,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 30
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.3271,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3545,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 30
+        },
+        {
+          "volta": 10,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.2824,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6133,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 28
+        },
+        {
+          "volta": 11,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.2946,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3314,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 29
+        },
+        {
+          "volta": 12,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.6038,
+          "score_lexic": 0.0,
+          "score_combinat": 1.5508,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 30
+        },
+        {
+          "volta": 13,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.3271,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3545,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 30
+        },
+        {
+          "volta": 14,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.2824,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6133,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 28
+        },
+        {
+          "volta": 15,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.4438,
+          "score_lexic": 0.0,
+          "score_combinat": 1.4373,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 31
+        },
+        {
+          "volta": 16,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.8834,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3302,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 29
+        },
+        {
+          "volta": 17,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.1753,
+          "score_lexic": 0.0,
+          "score_combinat": 1.2468,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 28
+        },
+        {
+          "volta": 18,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.7129,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2093,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 29
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Demetri pequeño",
+      "volta_inici": 47,
+      "volta_final": 55,
+      "n_voltes": 5,
+      "score_mitja": 2.641,
+      "score_acumulat": 13.2051,
+      "p_valor": 0.04995004995004995,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 1,
+      "n_altes": 0,
+      "n_moderades": 1,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 47,
+          "tipus_volta": "V1",
+          "score_anomalia": 7.9455,
+          "score_lexic": 0.0,
+          "score_combinat": 3.9216,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 49,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.3058,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3394,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 20
+        },
+        {
+          "volta": 51,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.6423,
+          "score_lexic": 10.0,
+          "score_combinat": 7.6527,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 19
+        },
+        {
+          "volta": 53,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.8759,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3249,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 55,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3707,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0335,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        }
+      ],
+      "q_valor": 0.23104168558714014,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Isabelet",
+      "volta_inici": 3,
+      "volta_final": 51,
+      "n_voltes": 25,
+      "score_mitja": 0.422,
+      "score_acumulat": 10.5502,
+      "p_valor": 0.04995004995004995,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 2,
+      "n_normals": 23,
+      "voltes_detall": [
+        {
+          "volta": 3,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.7056,
+          "score_lexic": 0.0,
+          "score_combinat": 0.9136,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.845,
+          "score_lexic": 0.0,
+          "score_combinat": 0.303,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.3665,
+          "score_lexic": 0.0,
+          "score_combinat": 0.673,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9457,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3744,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 11,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9457,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3744,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 13,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9457,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3744,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 15,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9457,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3744,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 17,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9457,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3744,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 19,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.1828,
+          "score_lexic": 0.0,
+          "score_combinat": 2.671,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 21,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.8598,
+          "score_lexic": 0.0,
+          "score_combinat": 1.023,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 23,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3677,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0356,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 25,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7854,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2607,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 27,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3677,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0356,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 29,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7854,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2607,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 31,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3677,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0356,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 33,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7854,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2607,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 35,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.478,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0426,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 37,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9678,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3901,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 39,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9457,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3744,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 41,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9457,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3744,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 43,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.8217,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2865,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 45,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.8074,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2763,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 47,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3677,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0356,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 49,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7854,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2607,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 51,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.0516,
+          "score_lexic": 0.0,
+          "score_combinat": 0.4496,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 10
+        }
+      ],
+      "q_valor": 0.23104168558714014,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Demetri grande",
+      "volta_inici": 1,
+      "volta_final": 7,
+      "n_voltes": 4,
+      "score_mitja": 2.3591,
+      "score_acumulat": 9.4365,
+      "p_valor": 0.1008991008991009,
+      "n_voltes_cross_canal": 1,
+      "n_critiques": 1,
+      "n_altes": 1,
+      "n_moderades": 0,
+      "n_normals": 2,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.734,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2243,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V1",
+          "score_anomalia": 11.7763,
+          "score_lexic": 0.0,
+          "score_combinat": 6.6394,
+          "categoria": "CRÍTICA",
+          "cross_canal": true,
+          "longitud_micro": 3
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.5558,
+          "score_lexic": 0.0,
+          "score_combinat": 2.2262,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9066,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3467,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        }
+      ],
+      "q_valor": 0.40359640359640353,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Campesina",
+      "volta_inici": 1,
+      "volta_final": 9,
+      "n_voltes": 5,
+      "score_mitja": 1.641,
+      "score_acumulat": 8.2049,
+      "p_valor": 0.04995004995004995,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 3,
+      "n_moderades": 0,
+      "n_normals": 2,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.7721,
+          "score_lexic": 0.0,
+          "score_combinat": 2.3796,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.9342,
+          "score_lexic": 0.0,
+          "score_combinat": 2.4947,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9036,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3446,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.1239,
+          "score_lexic": 0.0,
+          "score_combinat": 2.6292,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 11
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9208,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3568,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        }
+      ],
+      "q_valor": 0.23104168558714014,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Merche",
+      "volta_inici": 67,
+      "volta_final": 85,
+      "n_voltes": 10,
+      "score_mitja": 0.7869,
+      "score_acumulat": 7.8695,
+      "p_valor": 0.994005994005994,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 1,
+      "n_moderades": 4,
+      "n_normals": 5,
+      "voltes_detall": [
+        {
+          "volta": 67,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.1273,
+          "score_lexic": 0.0,
+          "score_combinat": 0.5033,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 10
+        },
+        {
+          "volta": 69,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1838,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1661,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 71,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.127,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2064,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 13
+        },
+        {
+          "volta": 73,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1465,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1925,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 14
+        },
+        {
+          "volta": 75,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.297,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6237,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 77,
+          "tipus_volta": "V1",
+          "score_anomalia": 5.215,
+          "score_lexic": 0.0,
+          "score_combinat": 1.9844,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 79,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7778,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2553,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 81,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.3199,
+          "score_lexic": 0.0,
+          "score_combinat": 2.7683,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 83,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.459,
+          "score_lexic": 0.0,
+          "score_combinat": 1.4481,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 85,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.618,
+          "score_lexic": 0.0,
+          "score_combinat": 0.8514,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 7
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Merche",
+      "volta_inici": 59,
+      "volta_final": 63,
+      "n_voltes": 3,
+      "score_mitja": 2.532,
+      "score_acumulat": 7.596,
+      "p_valor": 0.6663336663336663,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 59,
+          "tipus_volta": "V0",
+          "score_anomalia": 1.7687,
+          "score_lexic": 10.0,
+          "score_combinat": 6.3234,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 61,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.1813,
+          "score_lexic": 0.0,
+          "score_combinat": 0.5416,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 63,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.4482,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7309,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 11
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Conchita Romero",
+      "volta_inici": 1,
+      "volta_final": 11,
+      "n_voltes": 6,
+      "score_mitja": 1.1663,
+      "score_acumulat": 6.998,
+      "p_valor": 0.026973026973026972,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 1,
+      "n_moderades": 4,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.5653,
+          "score_lexic": 0.0,
+          "score_combinat": 2.9424,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.5293,
+          "score_lexic": 0.0,
+          "score_combinat": 1.4979,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 3
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.612,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1377,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.1873,
+          "score_lexic": 0.0,
+          "score_combinat": 1.2553,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.1315,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2032,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 11,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.3459,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3678,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 11
+        }
+      ],
+      "q_valor": 0.21578421578421578,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Chechee",
+      "volta_inici": 1,
+      "volta_final": 5,
+      "n_voltes": 3,
+      "score_mitja": 2.1754,
+      "score_acumulat": 6.5263,
+      "p_valor": 0.14485514485514486,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 1,
+      "n_moderades": 2,
+      "n_normals": 0,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V1",
+          "score_anomalia": 8.7188,
+          "score_lexic": 0.0,
+          "score_combinat": 4.4702,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 1
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.5682,
+          "score_lexic": 0.0,
+          "score_combinat": 1.5255,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.1657,
+          "score_lexic": 0.0,
+          "score_combinat": 0.5305,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        }
+      ],
+      "q_valor": 0.5069216497787926,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Dolores",
+      "volta_inici": 15,
+      "volta_final": 19,
+      "n_voltes": 3,
+      "score_mitja": 2.0849,
+      "score_acumulat": 6.2547,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 15,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4116,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0045,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 21
+        },
+        {
+          "volta": 17,
+          "tipus_volta": "V0",
+          "score_anomalia": 1.9797,
+          "score_lexic": 10.0,
+          "score_combinat": 6.4731,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 20
+        },
+        {
+          "volta": 19,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1164,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2139,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 32
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Modelo Ros Mari",
+      "volta_inici": 15,
+      "volta_final": 31,
+      "n_voltes": 9,
+      "score_mitja": 0.6887,
+      "score_acumulat": 6.1981,
+      "p_valor": 0.025974025974025976,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 6,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 15,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.6812,
+          "score_lexic": 0.0,
+          "score_combinat": 0.8963,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 17,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.0436,
+          "score_lexic": 0.0,
+          "score_combinat": 1.1534,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 19
+        },
+        {
+          "volta": 19,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.4114,
+          "score_lexic": 0.0,
+          "score_combinat": 1.4143,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 21,
+          "tipus_volta": "V1",
+          "score_anomalia": 5.0689,
+          "score_lexic": 0.0,
+          "score_combinat": 1.8808,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 23,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.0365,
+          "score_lexic": 0.0,
+          "score_combinat": 0.4389,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 22
+        },
+        {
+          "volta": 25,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.3221,
+          "score_lexic": 0.0,
+          "score_combinat": -0.068,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 24
+        },
+        {
+          "volta": 27,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.9063,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3465,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 19
+        },
+        {
+          "volta": 29,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.7358,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2255,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 20
+        },
+        {
+          "volta": 31,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.2918,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0895,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 35
+        }
+      ],
+      "q_valor": 0.21578421578421578,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Anelise",
+      "volta_inici": 1,
+      "volta_final": 9,
+      "n_voltes": 3,
+      "score_mitja": 1.8947,
+      "score_acumulat": 5.6841,
+      "p_valor": 0.7682317682317682,
+      "n_voltes_cross_canal": 1,
+      "n_critiques": 1,
+      "n_altes": 0,
+      "n_moderades": 1,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.2801,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3211,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 2
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V1",
+          "score_anomalia": 8.2447,
+          "score_lexic": 0.0,
+          "score_combinat": 4.1338,
+          "categoria": "CRÍTICA",
+          "cross_canal": true,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 9,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7409,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2292,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 6
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Conchita Romero",
+      "volta_inici": 133,
+      "volta_final": 143,
+      "n_voltes": 6,
+      "score_mitja": 0.925,
+      "score_acumulat": 5.5503,
+      "p_valor": 0.14785214785214784,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 2,
+      "n_normals": 4,
+      "voltes_detall": [
+        {
+          "volta": 133,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1778,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1703,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 17
+        },
+        {
+          "volta": 135,
+          "tipus_volta": "V1",
+          "score_anomalia": 5.2295,
+          "score_lexic": 0.0,
+          "score_combinat": 1.9947,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 15
+        },
+        {
+          "volta": 137,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.3225,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6418,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 15
+        },
+        {
+          "volta": 139,
+          "tipus_volta": "V1",
+          "score_anomalia": 5.3594,
+          "score_lexic": 0.0,
+          "score_combinat": 2.0869,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 13
+        },
+        {
+          "volta": 141,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.7105,
+          "score_lexic": 0.0,
+          "score_combinat": 0.917,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 143,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.531,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0802,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 20
+        }
+      ],
+      "q_valor": 0.5069216497787926,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Dolores",
+      "volta_inici": 1,
+      "volta_final": 7,
+      "n_voltes": 4,
+      "score_mitja": 1.307,
+      "score_acumulat": 5.2282,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 3,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 1,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.3061,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3396,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 3,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.1062,
+          "score_lexic": 0.0,
+          "score_combinat": 1.1978,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 5,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.35,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3707,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 4
+        },
+        {
+          "volta": 7,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.2786,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3201,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 8
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Chechee",
+      "volta_inici": 102,
+      "volta_final": 114,
+      "n_voltes": 7,
+      "score_mitja": 0.6964,
+      "score_acumulat": 4.875,
+      "p_valor": 0.8041958041958042,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 3,
+      "n_normals": 4,
+      "voltes_detall": [
+        {
+          "volta": 102,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.5347,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0829,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 13
+        },
+        {
+          "volta": 104,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.464,
+          "score_lexic": 0.0,
+          "score_combinat": 1.4516,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 15
+        },
+        {
+          "volta": 106,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.927,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3612,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 108,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.0814,
+          "score_lexic": 0.0,
+          "score_combinat": 0.4707,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 110,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.9971,
+          "score_lexic": 0.0,
+          "score_combinat": 1.8298,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 15
+        },
+        {
+          "volta": 112,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.3603,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6686,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 114,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4323,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0102,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Demetri grande",
+      "volta_inici": 51,
+      "volta_final": 57,
+      "n_voltes": 4,
+      "score_mitja": 1.1866,
+      "score_acumulat": 4.7463,
+      "p_valor": 0.996003996003996,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 1,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 51,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.5145,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0685,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 27
+        },
+        {
+          "volta": 53,
+          "tipus_volta": "V1",
+          "score_anomalia": 6.811,
+          "score_lexic": 0.0,
+          "score_combinat": 3.1167,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 55,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.5611,
+          "score_lexic": 0.0,
+          "score_combinat": 0.811,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 25
+        },
+        {
+          "volta": 57,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.4751,
+          "score_lexic": 0.0,
+          "score_combinat": 0.75,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 33
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Chechee",
+      "volta_inici": 73,
+      "volta_final": 90,
+      "n_voltes": 7,
+      "score_mitja": 0.6624,
+      "score_acumulat": 4.6369,
+      "p_valor": 0.8531468531468531,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 1,
+      "n_altes": 0,
+      "n_moderades": 1,
+      "n_normals": 5,
+      "voltes_detall": [
+        {
+          "volta": 73,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.2649,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1085,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 75,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.8525,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3083,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 82,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1904,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1614,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 3
+        },
+        {
+          "volta": 84,
+          "tipus_volta": "V0",
+          "score_anomalia": 6.7975,
+          "score_lexic": 0.0,
+          "score_combinat": 3.1071,
+          "categoria": "CRÍTICA",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 86,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.5587,
+          "score_lexic": 0.0,
+          "score_combinat": 1.5188,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 14
+        },
+        {
+          "volta": 88,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.5476,
+          "score_lexic": 0.0,
+          "score_combinat": 0.092,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 90,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.2496,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1194,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 18
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Chistrofe Rosa de Navidad",
+      "volta_inici": 168,
+      "volta_final": 190,
+      "n_voltes": 12,
+      "score_mitja": 0.355,
+      "score_acumulat": 4.2606,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 1,
+      "n_moderades": 2,
+      "n_normals": 9,
+      "voltes_detall": [
+        {
+          "volta": 168,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9397,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3702,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 170,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7364,
+          "score_lexic": 0.0,
+          "score_combinat": 0.226,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 172,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.0865,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2351,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 174,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.0865,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2351,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 176,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.0865,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2351,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 178,
+          "tipus_volta": "V1",
+          "score_anomalia": 5.1804,
+          "score_lexic": 0.0,
+          "score_combinat": 1.9599,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 180,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.1945,
+          "score_lexic": 0.0,
+          "score_combinat": 0.551,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 182,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.0213,
+          "score_lexic": 0.0,
+          "score_combinat": 0.4281,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        },
+        {
+          "volta": 184,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1653,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1792,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 12
+        },
+        {
+          "volta": 186,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1052,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2218,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 188,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.5223,
+          "score_lexic": 0.0,
+          "score_combinat": 1.493,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 190,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.8957,
+          "score_lexic": 0.0,
+          "score_combinat": 0.339,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Chistrofe Rosa de Navidad",
+      "volta_inici": 74,
+      "volta_final": 86,
+      "n_voltes": 7,
+      "score_mitja": 0.5852,
+      "score_acumulat": 4.0965,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 2,
+      "n_normals": 5,
+      "voltes_detall": [
+        {
+          "volta": 74,
+          "tipus_volta": "V1",
+          "score_anomalia": 5.4142,
+          "score_lexic": 0.0,
+          "score_combinat": 2.1257,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 13
+        },
+        {
+          "volta": 76,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6388,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1567,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 10
+        },
+        {
+          "volta": 78,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4462,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0201,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 13
+        },
+        {
+          "volta": 80,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.7951,
+          "score_lexic": 0.0,
+          "score_combinat": 0.9771,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 82,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7149,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2107,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 15
+        },
+        {
+          "volta": 84,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.3748,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6789,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 17
+        },
+        {
+          "volta": 86,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3155,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0727,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Merche",
+      "volta_inici": 91,
+      "volta_final": 95,
+      "n_voltes": 3,
+      "score_mitja": 1.3494,
+      "score_acumulat": 4.0482,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 1,
+      "n_critiques": 1,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 2,
+      "voltes_detall": [
+        {
+          "volta": 91,
+          "tipus_volta": "V1",
+          "score_anomalia": 7.8095,
+          "score_lexic": 0.0,
+          "score_combinat": 3.8251,
+          "categoria": "CRÍTICA",
+          "cross_canal": true,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 93,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.849,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3058,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 95,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3013,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0827,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Chistrofe Rosa de Navidad",
+      "volta_inici": 134,
+      "volta_final": 146,
+      "n_voltes": 7,
+      "score_mitja": 0.4961,
+      "score_acumulat": 3.4724,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 1,
+      "n_moderades": 0,
+      "n_normals": 6,
+      "voltes_detall": [
+        {
+          "volta": 134,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6361,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1548,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 136,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4596,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0296,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 23
+        },
+        {
+          "volta": 138,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4071,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0077,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 24
+        },
+        {
+          "volta": 140,
+          "tipus_volta": "V1",
+          "score_anomalia": 5.0058,
+          "score_lexic": 0.0,
+          "score_combinat": 1.836,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 142,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.436,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7223,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 25
+        },
+        {
+          "volta": 144,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.1868,
+          "score_lexic": 0.0,
+          "score_combinat": 0.5455,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 146,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6884,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1919,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 24
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Conchita Romero",
+      "volta_inici": 21,
+      "volta_final": 27,
+      "n_voltes": 4,
+      "score_mitja": 0.8541,
+      "score_acumulat": 3.4165,
+      "p_valor": 0.7612387612387612,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 1,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 21,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.6703,
+          "score_lexic": 0.0,
+          "score_combinat": 0.8885,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 23,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.3588,
+          "score_lexic": 0.0,
+          "score_combinat": 1.377,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 19
+        },
+        {
+          "volta": 25,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.4085,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0067,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 27,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.0497,
+          "score_lexic": 0.0,
+          "score_combinat": 1.1577,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Isabelet",
+      "volta_inici": 63,
+      "volta_final": 71,
+      "n_voltes": 5,
+      "score_mitja": 0.6585,
+      "score_acumulat": 3.2924,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 1,
+      "n_moderades": 0,
+      "n_normals": 4,
+      "voltes_detall": [
+        {
+          "volta": 63,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.7293,
+          "score_lexic": 0.0,
+          "score_combinat": 1.6398,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 61
+        },
+        {
+          "volta": 65,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.2952,
+          "score_lexic": 0.0,
+          "score_combinat": 1.3319,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 25
+        },
+        {
+          "volta": 67,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7883,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2628,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 25
+        },
+        {
+          "volta": 69,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.341,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0546,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 29
+        },
+        {
+          "volta": 71,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.5764,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1124,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 28
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Rosario",
+      "volta_inici": 11,
+      "volta_final": 15,
+      "n_voltes": 3,
+      "score_mitja": 1.0768,
+      "score_acumulat": 3.2303,
+      "p_valor": 0.18081918081918083,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 2,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 11,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.8638,
+          "score_lexic": 0.0,
+          "score_combinat": 1.7353,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 13,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7771,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2548,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 7
+        },
+        {
+          "volta": 15,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.166,
+          "score_lexic": 0.0,
+          "score_combinat": 1.2402,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 10
+        }
+      ],
+      "q_valor": 0.5786213786213786,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Maria",
+      "volta_inici": 39,
+      "volta_final": 43,
+      "n_voltes": 3,
+      "score_mitja": 1.0312,
+      "score_acumulat": 3.0937,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 2,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 39,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.016,
+          "score_lexic": 0.0,
+          "score_combinat": 1.1338,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 14
+        },
+        {
+          "volta": 41,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.7057,
+          "score_lexic": 0.0,
+          "score_combinat": 1.6231,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 24
+        },
+        {
+          "volta": 43,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.8927,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3368,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 20
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Maria",
+      "volta_inici": 181,
+      "volta_final": 185,
+      "n_voltes": 3,
+      "score_mitja": 0.8372,
+      "score_acumulat": 2.5117,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 1,
+      "n_moderades": 1,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 181,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.1879,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1632,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 91
+        },
+        {
+          "volta": 183,
+          "tipus_volta": "V0",
+          "score_anomalia": 5.7532,
+          "score_lexic": 0.0,
+          "score_combinat": 2.3662,
+          "categoria": "ALTA",
+          "cross_canal": false,
+          "longitud_micro": 272
+        },
+        {
+          "volta": 185,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.853,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3087,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 281
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Rosario",
+      "volta_inici": 37,
+      "volta_final": 49,
+      "n_voltes": 7,
+      "score_mitja": 0.3569,
+      "score_acumulat": 2.4985,
+      "p_valor": 0.2047952047952048,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 1,
+      "n_normals": 6,
+      "voltes_detall": [
+        {
+          "volta": 37,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.6114,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1373,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 25
+        },
+        {
+          "volta": 39,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.7749,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2533,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 41,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.4779,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0426,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 43,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.1235,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2089,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 27
+        },
+        {
+          "volta": 45,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7806,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2573,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 27
+        },
+        {
+          "volta": 47,
+          "tipus_volta": "V1",
+          "score_anomalia": 4.1914,
+          "score_lexic": 0.0,
+          "score_combinat": 1.2582,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 29
+        },
+        {
+          "volta": 49,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.4874,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7588,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 32
+        }
+      ],
+      "q_valor": 0.6143856143856143,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Demetri grande",
+      "volta_inici": 67,
+      "volta_final": 71,
+      "n_voltes": 3,
+      "score_mitja": 0.7878,
+      "score_acumulat": 2.3634,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 1,
+      "n_normals": 2,
+      "voltes_detall": [
+        {
+          "volta": 67,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.0996,
+          "score_lexic": 0.0,
+          "score_combinat": 1.1931,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 69,
+          "tipus_volta": "V0",
+          "score_anomalia": 4.1845,
+          "score_lexic": 0.0,
+          "score_combinat": 1.2533,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 5
+        },
+        {
+          "volta": 71,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3009,
+          "score_lexic": 0.0,
+          "score_combinat": -0.083,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Demetri grande",
+      "volta_inici": 81,
+      "volta_final": 97,
+      "n_voltes": 9,
+      "score_mitja": 0.212,
+      "score_acumulat": 1.9076,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 8,
+      "n_normals": 1,
+      "voltes_detall": [
+        {
+          "volta": 81,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.2219,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1391,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 20
+        },
+        {
+          "volta": 83,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9557,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3815,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 85,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.2209,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1398,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 21
+        },
+        {
+          "volta": 87,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.2445,
+          "score_lexic": 0.0,
+          "score_combinat": 0.5864,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 17
+        },
+        {
+          "volta": 89,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7108,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2078,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 20
+        },
+        {
+          "volta": 91,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6595,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1714,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 23
+        },
+        {
+          "volta": 93,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6215,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1444,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 25
+        },
+        {
+          "volta": 95,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6083,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1351,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 97,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.2069,
+          "score_lexic": 0.0,
+          "score_combinat": 0.5598,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 26
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Isabelet",
+      "volta_inici": 169,
+      "volta_final": 179,
+      "n_voltes": 6,
+      "score_mitja": 0.3037,
+      "score_acumulat": 1.8224,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 2,
+      "n_normals": 4,
+      "voltes_detall": [
+        {
+          "volta": 169,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7804,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2572,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 27
+        },
+        {
+          "volta": 171,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6846,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1892,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 27
+        },
+        {
+          "volta": 173,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6699,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1788,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 27
+        },
+        {
+          "volta": 175,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.2957,
+          "score_lexic": 0.0,
+          "score_combinat": 0.6228,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 24
+        },
+        {
+          "volta": 177,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.2625,
+          "score_lexic": 0.0,
+          "score_combinat": 0.5992,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 24
+        },
+        {
+          "volta": 179,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.383,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0248,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 67
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Campesina",
+      "volta_inici": 17,
+      "volta_final": 21,
+      "n_voltes": 3,
+      "score_mitja": 0.5422,
+      "score_acumulat": 1.6266,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 17,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.6965,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1977,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 8
+        },
+        {
+          "volta": 19,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.7742,
+          "score_lexic": 0.0,
+          "score_combinat": 0.9622,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 6
+        },
+        {
+          "volta": 21,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.0758,
+          "score_lexic": 0.0,
+          "score_combinat": 0.4667,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 6
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Maria",
+      "volta_inici": 239,
+      "volta_final": 243,
+      "n_voltes": 3,
+      "score_mitja": 0.4182,
+      "score_acumulat": 1.2546,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 3,
+      "n_normals": 0,
+      "voltes_detall": [
+        {
+          "volta": 239,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7602,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2428,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 34
+        },
+        {
+          "volta": 241,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7237,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2169,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 25
+        },
+        {
+          "volta": 243,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.5382,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7948,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 20
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Demetri pequeño",
+      "volta_inici": 29,
+      "volta_final": 35,
+      "n_voltes": 4,
+      "score_mitja": 0.293,
+      "score_acumulat": 1.172,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 4,
+      "voltes_detall": [
+        {
+          "volta": 29,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4982,
+          "score_lexic": 0.0,
+          "score_combinat": 0.057,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 12
+        },
+        {
+          "volta": 31,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.1283,
+          "score_lexic": 0.0,
+          "score_combinat": 0.504,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 10
+        },
+        {
+          "volta": 33,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.632,
+          "score_lexic": 0.0,
+          "score_combinat": 0.1519,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 10
+        },
+        {
+          "volta": 35,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.0651,
+          "score_lexic": 0.0,
+          "score_combinat": 0.4592,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 11
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Tara",
+      "volta_inici": 11,
+      "volta_final": 27,
+      "n_voltes": 9,
+      "score_mitja": 0.121,
+      "score_acumulat": 1.0893,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 2,
+      "n_normals": 7,
+      "voltes_detall": [
+        {
+          "volta": 11,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.4851,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7571,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 14
+        },
+        {
+          "volta": 13,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.7129,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2093,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 13
+        },
+        {
+          "volta": 15,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9003,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3422,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 17,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3631,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0389,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 19,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.1227,
+          "score_lexic": 0.0,
+          "score_combinat": 0.5,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 18
+        },
+        {
+          "volta": 21,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1861,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1645,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 19
+        },
+        {
+          "volta": 23,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1503,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1899,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 19
+        },
+        {
+          "volta": 25,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.1503,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1899,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 19
+        },
+        {
+          "volta": 27,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.2258,
+          "score_lexic": 0.0,
+          "score_combinat": -0.1363,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 9
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Chistrofe Rosa de Navidad",
+      "volta_inici": 106,
+      "volta_final": 110,
+      "n_voltes": 3,
+      "score_mitja": 0.298,
+      "score_acumulat": 0.8941,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 1,
+      "n_normals": 2,
+      "voltes_detall": [
+        {
+          "volta": 106,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.2671,
+          "score_lexic": 0.0,
+          "score_combinat": -0.107,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 23
+        },
+        {
+          "volta": 108,
+          "tipus_volta": "V1",
+          "score_anomalia": 3.9318,
+          "score_lexic": 0.0,
+          "score_combinat": 1.074,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 110,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3151,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0729,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 17
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Maria",
+      "volta_inici": 51,
+      "volta_final": 55,
+      "n_voltes": 3,
+      "score_mitja": 0.2336,
+      "score_acumulat": 0.7008,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 51,
+          "tipus_volta": "V0",
+          "score_anomalia": 3.4769,
+          "score_lexic": 0.0,
+          "score_combinat": 0.7513,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 53,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4638,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0326,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 16
+        },
+        {
+          "volta": 55,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.3008,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0831,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 19
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Modelo Ros Mari",
+      "volta_inici": 51,
+      "volta_final": 55,
+      "n_voltes": 3,
+      "score_mitja": 0.1323,
+      "score_acumulat": 0.3969,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 51,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.8163,
+          "score_lexic": 0.0,
+          "score_combinat": 0.2826,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 17
+        },
+        {
+          "volta": 53,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.4914,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0521,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 14
+        },
+        {
+          "volta": 55,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.5054,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0621,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 14
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Tara",
+      "volta_inici": 73,
+      "volta_final": 77,
+      "n_voltes": 3,
+      "score_mitja": 0.0543,
+      "score_acumulat": 0.163,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 73,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.4597,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0297,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 26
+        },
+        {
+          "volta": 75,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.0978,
+          "score_lexic": 0.0,
+          "score_combinat": -0.2271,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 21
+        },
+        {
+          "volta": 77,
+          "tipus_volta": "V0",
+          "score_anomalia": 2.9259,
+          "score_lexic": 0.0,
+          "score_combinat": 0.3604,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 33
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Modelo Ros Mari",
+      "volta_inici": 67,
+      "volta_final": 71,
+      "n_voltes": 3,
+      "score_mitja": -0.0071,
+      "score_acumulat": -0.0214,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 0,
+      "n_normals": 3,
+      "voltes_detall": [
+        {
+          "volta": 67,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.3965,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0152,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 49
+        },
+        {
+          "volta": 69,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.2993,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0841,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 39
+        },
+        {
+          "volta": 71,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.5277,
+          "score_lexic": 0.0,
+          "score_combinat": 0.0779,
+          "categoria": "normal",
+          "cross_canal": false,
+          "longitud_micro": 43
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    },
+    {
+      "teixit": "ND_Rosario",
+      "volta_inici": 131,
+      "volta_final": 135,
+      "n_voltes": 3,
+      "score_mitja": -0.0494,
+      "score_acumulat": -0.1481,
+      "p_valor": 1.0,
+      "n_voltes_cross_canal": 0,
+      "n_critiques": 0,
+      "n_altes": 0,
+      "n_moderades": 3,
+      "n_normals": 0,
+      "voltes_detall": [
+        {
+          "volta": 131,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.3868,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0221,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 39
+        },
+        {
+          "volta": 133,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.398,
+          "score_lexic": 0.0,
+          "score_combinat": -0.0141,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 33
+        },
+        {
+          "volta": 135,
+          "tipus_volta": "V1",
+          "score_anomalia": 2.2601,
+          "score_lexic": 0.0,
+          "score_combinat": -0.112,
+          "categoria": "MODERADA",
+          "cross_canal": false,
+          "longitud_micro": 36
+        }
+      ],
+      "q_valor": 1.0,
+      "significatiu_FDR": false
+    }
+  ]
+}

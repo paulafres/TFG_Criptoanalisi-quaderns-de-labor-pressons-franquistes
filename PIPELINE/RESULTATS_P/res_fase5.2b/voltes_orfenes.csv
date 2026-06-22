@@ -1,0 +1,75 @@
+teixit,volta,classe,categoria_5_1,score_5_1,n_rare,tokens_rare,z_runs,flags_5_1
+P_Celia,107,CONVERGENT,MODERADA,0.2899,0,,-5.6949,flag_micro_max
+P_Gentio,39,CONVERGENT,CRÍTICA,5.9978,1,(15),,flag_sig_intra|flag_sig_salt|flag_micro_mean
+P_Rosa de los Vientos,117,CONVERGENT,ALTA,5.9048,0,,-15.7273,flag_sig_intra|flag_sig_salt
+P_Rosa de los Vientos,127,CONVERGENT,ALTA,5.9048,0,,-15.7273,flag_sig_intra|flag_sig_salt
+P_Ruth,635,CONVERGENT,CRÍTICA,11.3784,1,<5,,flag_sig_intra|flag_sig_salt|flag_macro_surp|flag_micro_mean
+P_Conchita Romero,61,LEXICA,normal,0.5923,0,,-4.5962,
+P_Conchita Romero,69,LEXICA,normal,2.4431,1,<l(4p)lx>,,
+P_Conchita Romero,73,LEXICA,normal,1.1989,0,,-3.1256,
+P_Conchita Romero,75,LEXICA,normal,0.191,0,,-3.0347,
+P_Conchita Romero,91,LEXICA,normal,1.4456,0,,-3.5837,
+P_Conchita Romero,139,LEXICA,normal,0.3619,0,,-3.0822,
+P_Conchita Romero,169,LEXICA,normal,1.2742,1,<gl-(3p)>,,
+P_Gentio,41,LEXICA,normal,1.6403,0,,-3.3912,
+P_Gentio,49,LEXICA,normal,0.2338,0,,-3.711,
+P_Gentio,73,LEXICA,normal,1.4958,0,,-3.9019,
+P_Gentio,159,LEXICA,normal,0.2883,0,,-3.8311,
+P_Gentio,169,LEXICA,normal,0.6,0,,-3.063,
+P_Helga,39,LEXICA,normal,2.7076,1,<l(sp)l3>,,
+P_Helga,83,LEXICA,normal,0.2894,0,,-3.3513,
+P_Helga,87,LEXICA,normal,0.2126,0,,-3.3513,
+P_Helga,91,LEXICA,normal,0.3481,0,,-3.2014,
+P_Helga,101,LEXICA,normal,0.3107,0,,-3.1946,
+P_Helga,103,LEXICA,normal,1.5268,0,,-4.1288,
+P_Helga,109,LEXICA,normal,0.2173,0,,-4.5603,
+P_Helga,113,LEXICA,normal,0.2007,0,,-4.5603,
+P_Helga,117,LEXICA,normal,0.2007,0,,-4.5603,
+P_Helga,121,LEXICA,normal,0.262,0,,-4.7977,
+P_Helga,125,LEXICA,normal,0.2781,0,,-4.4158,
+P_Helga,129,LEXICA,normal,0.1925,0,,-5.3029,
+P_Helga,133,LEXICA,normal,0.2806,0,,-3.3201,
+P_Helga,159,LEXICA,normal,0.5075,2,c|r,-3.9495,
+P_Helga,167,LEXICA,normal,0.1255,0,,-8.5534,
+P_Helga,169,LEXICA,normal,0.4837,0,,-3.2637,
+P_Helga,177,LEXICA,normal,0.274,0,,-5.7564,
+P_Helga,185,LEXICA,normal,0.407,0,,-4.4135,
+P_Helga,189,LEXICA,normal,0.5513,1,<l(3p)(la-2v)l3l(gl-2v)>,,
+P_Helga,211,LEXICA,normal,0.4398,0,,-10.1694,
+P_Jafisa - Grafico B,3,LEXICA,normal,0.561,1,<lxlp>,,
+P_Pasión,85,LEXICA,normal,0.1736,0,,-3.5042,
+P_Pasión,91,LEXICA,normal,2.4344,1,<lpl(9p)>,-4.2007,
+P_Pasión,93,LEXICA,normal,1.7442,1,<l(3p)l(9p)>,,
+P_Pasión,133,LEXICA,normal,0.2647,0,,-3.1783,
+P_Primavera,23,LEXICA,normal,1.4759,0,,-3.097,
+P_Primavera,67,LEXICA,normal,2.413,1,<pglla>,,
+P_Primavera,81,LEXICA,normal,2.0388,0,,-4.2919,
+P_Primavera,93,LEXICA,normal,2.0098,0,,-3.0505,
+P_Primavera,97,LEXICA,normal,0.6354,0,,-4.1129,
+P_Primavera,167,LEXICA,normal,1.0428,1,<3p>,,
+P_Primavera,175,LEXICA,normal,0.7843,1,<l(11)lx>,,
+P_Primavera,179,LEXICA,normal,1.2382,2,<l(3p)l(3p)gapp>|<l(3p)gapp>,,
+P_Primavera,181,LEXICA,normal,1.1085,2,<l(5p)l(2p)gap>|<l(5p)lppgap>,,
+P_Rosa de los Vientos,143,LEXICA,normal,0.2891,0,,-3.1783,
+P_Rosa de los Vientos,151,LEXICA,normal,1.6206,1,<3l>,,
+P_Ruth,17,LEXICA,normal,2.0508,1,<pplxlpplsl>,,
+P_Ruth,21,LEXICA,normal,2.2801,2,<applxlppglsl>|<applxlppg>,,
+P_Ruth,39,LEXICA,normal,1.3437,1,<ppgllaglla>,,
+P_Ruth,45,LEXICA,normal,1.7128,0,,-6.2013,
+P_Celia,83,GRAMATICAL,MODERADA,0.469,0,,,flag_micro_max
+P_Celia,87,GRAMATICAL,MODERADA,0.4428,0,,,flag_micro_max
+P_Celia,91,GRAMATICAL,MODERADA,0.4205,0,,,flag_micro_max
+P_Celia,95,GRAMATICAL,MODERADA,0.4009,0,,,flag_micro_max
+P_Celia,99,GRAMATICAL,MODERADA,0.3838,0,,,flag_micro_max
+P_Celia,103,GRAMATICAL,MODERADA,0.3389,0,,,flag_micro_max
+P_Conchita Romero,11,GRAMATICAL,MODERADA,2.8652,0,,,flag_trans_invalides
+P_Cori,15,GRAMATICAL,MODERADA,0.7427,0,,,flag_trans_invalides
+P_Cori,41,GRAMATICAL,MODERADA,2.3604,0,,,flag_sig_intra
+P_Gentio,7,GRAMATICAL,MODERADA,1.6865,0,,,flag_trans_invalides
+P_Helga,105,GRAMATICAL,MODERADA,1.414,0,,,flag_micro_max
+P_Helga,187,GRAMATICAL,MODERADA,1.0125,0,,,flag_micro_max
+P_Renacimiento,45,GRAMATICAL,MODERADA,3.8612,0,,,flag_sig_intra
+P_Rosa de los Vientos,119,GRAMATICAL,MODERADA,2.8111,0,,,flag_sig_salt
+P_Rosa de los Vientos,129,GRAMATICAL,MODERADA,2.8111,0,,,flag_sig_salt
+P_Ruth,29,GRAMATICAL,MODERADA,1.6318,0,,,flag_micro_max
+P_Ruth,79,GRAMATICAL,MODERADA,1.0027,0,,,flag_micro_max

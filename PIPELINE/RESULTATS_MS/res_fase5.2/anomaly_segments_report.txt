@@ -1,0 +1,282 @@
+========================================================================
+ FASE 5.2 — SEGMENTS ANÒMALS CONTIGUS  (candidats a esteganografia)
+========================================================================
+
+Paràmetres:
+  · score = 1.0·z(gramatical 5.1) + 1.0·z(lèxic 5.1b)
+  · voltes amb senyal lèxic (5.1b)        = 227
+  · llindar de score combinat (perc. 60) = 0.0065
+  · longitud mínima de segment            = 3 voltes
+  · iteracions de permutació              = 1000
+  · α FDR (Benjamini-Hochberg)            = 0.05
+  · random_state                          = 42
+
+Voltes al corpus            : 1747
+Segments candidats trobats  : 76
+Segments significatius (q≤α): 15
+
+------------------------------------------------------------------------
+ RÀNQUING DE SEGMENTS
+------------------------------------------------------------------------
+  # teixit                 voltes           L   mean     sum      p      q  sig  cx CRI ALT MOD
+  1 MS_Campanilla          v89-v109        11   4.12   45.32  0.001  0.008  YES   0   1   1   3
+  2 MS_Puntilla2           v15-v49         18   2.00   36.05  0.002  0.015  YES   0   0   0   7
+  3 MS_Celia 1             v81-v107        14   2.56   35.89  0.001  0.008  YES   0   0   6   0
+  4 MS_Penas               v9-v31          12   1.95   23.41  0.001  0.008  YES   1   1   4   4
+  5 MS_Grafico 2           v65-v85         11   1.91   21.00  0.001  0.008  YES   0   0   0   3
+  6 MS_Margarita           v43-v79         19   1.00   19.03  0.001  0.008  YES   1   2   1   7
+  7 MS_Leonor              v105-v111        4   4.70   18.80  0.005  0.032  YES   0   0   0   2
+  8 MS_Morin               v43-v69         14   1.31   18.33  0.001  0.008  YES   0   0   0   1
+  9 MS_Araceli             v71-v81          6   2.84   17.04  0.001  0.008  YES   0   0   0   4
+ 10 MS_Julito              v71-v91          7   1.89   13.26  0.001  0.008  YES   0   1   1   4
+ 11 MS_Rita                v93-v103         6   2.19   13.17  0.009  0.046  YES   0   0   0   2
+ 12 MS_Pino                v117-v129        7   1.73   12.11  0.001  0.008  YES   0   1   0   3
+ 13 MS_Claveles            v55-v77         12   1.00   12.02  0.004  0.028  YES   0   0   0   1
+ 14 MS_Susana              v27-v37          6   1.31    7.86  0.009  0.046  YES   0   1   2   1
+ 15 MS_Mariposa            v3-v9            4   1.53    6.11  0.007  0.041  YES   0   1   1   1
+ 16 MS_La Puntilla         v1-v47          24   2.77   66.36  1.000  1.000   no   1   0   4   9
+ 17 MS_Celia 1             v9-v29          11   1.79   19.64  0.277  0.701   no   1   3   5   0
+ 18 MS_Marianin o Katiuska v21-v25          3   6.00   18.01  0.050  0.165   no   0   0   0   0
+ 19 MS_Ovalo1              v29-v45          9   1.58   14.21  0.263  0.689   no   0   0   2   2
+ 20 MS_Punto conchas       v1-v13           7   1.38    9.66  1.000  1.000   no   0   0   0   5
+ 21 MS_Pensamiento         v19-v23          3   3.15    9.44  0.011  0.052   no   0   1   1   1
+ 22 MS_Palmito             v5-v23           5   1.66    8.29  0.013  0.058   no   0   1   2   2
+ 23 MS_Claveles            v1-v5            3   2.59    7.78  0.014  0.059   no   0   1   1   1
+ 24 MS_Raetine             v53-v79          8   0.89    7.16  0.128  0.380   no   0   1   1   5
+ 25 MS_Celia 2             v55-v65          6   1.19    7.15  0.258  0.689   no   1   1   1   3
+ 26 MS_Jazmín              v11-v19          5   1.38    6.90  0.435  0.959   no   0   0   2   1
+ 27 MS_Pensamiento         v33-v45          7   0.94    6.60  0.793  1.000   no   0   0   1   1
+ 28 MS_Celia 2             v13-v21          5   1.30    6.52  0.290  0.710   no   1   1   1   3
+ 29 MS_Salvador            v109-v115        4   1.55    6.19  0.021  0.080   no   0   0   2   0
+ 30 MS_Vaño Mimosa         v3-v9            4   1.54    6.17  0.135  0.380   no   1   1   1   1
+ 31 MS_Ovalo2              v17-v27          6   1.00    6.01  0.508  1.000   no   0   1   0   2
+ 32 MS_Campanilla          v73-v79          4   1.50    6.00  1.000  1.000   no   0   0   0   0
+ 33 MS_Vueltas del reves   v15-v19          3   1.91    5.72  0.133  0.380   no   0   0   0   0
+ 34 MS_Jazmín              v1-v5            3   1.84    5.51  0.526  1.000   no   1   1   1   1
+ 35 MS_Araceli             v95-v105         6   0.91    5.44  0.945  1.000   no   0   0   0   0
+ 36 MS_Ovalo1              v3-v11           5   1.01    5.04  1.000  1.000   no   2   0   2   2
+ 37 MS_Puntilla            v1-v5            3   1.60    4.81  0.022  0.080   no   1   1   1   0
+ 38 MS_Luis                v1-v5            3   1.52    4.56  0.312  0.740   no   0   1   0   1
+ 39 MS_Raetine             v96-v98          3   1.49    4.48  0.543  1.000   no   1   1   0   1
+ 40 MS_Luis                v135-v139        3   1.49    4.46  0.350  0.805   no   0   0   2   0
+ 41 MS_Marianin o Katiuska v1-v5            3   1.45    4.34  1.000  1.000   no   0   1   1   0
+ 42 MS_Rita                v73-v77          3   1.44    4.31  0.956  1.000   no   0   0   0   2
+ 43 MS_Campanilla          v47-v55          5   0.84    4.20  1.000  1.000   no   0   0   0   4
+ 44 MS_Puntilla3           v11-v15          3   1.32    3.97  0.513  1.000   no   0   0   0   0
+ 45 MS_Estrellita          v33-v37          3   1.31    3.93  0.020  0.080   no   0   0   0   3
+ 46 MS_Celia 2             v1-v7            3   1.25    3.75  0.890  1.000   no   0   0   2   1
+ 47 MS_Campanilla          v35-v43          5   0.73    3.67  1.000  1.000   no   0   0   0   1
+ 48 MS_Salvador            v119-v125        4   0.91    3.64  0.536  1.000   no   0   0   1   1
+ 49 MS_Fajas               v1-v7            3   1.16    3.49  0.522  1.000   no   0   0   2   1
+ 50 MS_Susana              v9-v17           5   0.66    3.28  0.879  1.000   no   0   0   0   2
+ 51 MS_Luis                v105-v113        5   0.63    3.13  0.820  1.000   no   1   1   0   2
+ 52 MS_Salvador            v1-v7            3   0.99    2.98  0.757  1.000   no   0   0   2   1
+ 53 MS_Blumen Flor         v1-v5            3   0.94    2.83  0.442  0.959   no   0   0   1   1
+ 54 MS_Susana              v71-v79          5   0.56    2.79  0.960  1.000   no   0   0   0   2
+ 55 MS_Titi 2 - Grafico A  v17-v21          3   0.93    2.78  0.577  1.000   no   0   0   1   0
+ 56 MS_Puntilla4           v23-v27          3   0.90    2.69  0.123  0.380   no   0   0   0   1
+ 57 MS_Vaño Mimosa         v89-v97          5   0.52    2.59  0.921  1.000   no   0   0   0   3
+ 58 MS_Leonor              v1-v7            4   0.63    2.52  1.000  1.000   no   0   0   0   2
+ 59 MS_Hijo                v23-v27          3   0.83    2.49  0.844  1.000   no   0   0   1   2
+ 60 MS_Vaño Mimosa         v107-v111        3   0.82    2.47  0.987  1.000   no   0   0   0   0
+ 61 MS_Pino                v93-v97          3   0.79    2.38  1.000  1.000   no   0   0   1   0
+ 62 MS_Morin               v1-v9            3   0.64    1.92  1.000  1.000   no   0   0   1   0
+ 63 MS_Blumen Flor         v109-v113        3   0.56    1.67  0.928  1.000   no   0   0   0   1
+ 64 MS_Estrellita          v5-v9            3   0.55    1.65  0.960  1.000   no   0   0   0   2
+ 65 MS_Luis                v53-v57          3   0.49    1.46  1.000  1.000   no   0   0   0   1
+ 66 MS_Pino                v81-v85          3   0.45    1.35  1.000  1.000   no   0   0   0   1
+ 67 MS_Punto Bellota       v10-v13          4   0.32    1.30  0.026  0.090   no   0   0   0   3
+ 68 MS_Puntilla nueva      v27-v31          3   0.43    1.29  0.942  1.000   no   1   0   1   0
+ 69 MS_Pino                v59-v63          3   0.41    1.22  1.000  1.000   no   0   0   0   2
+ 70 MS_Marianin o Katiuska v29-v35          4   0.30    1.21  1.000  1.000   no   0   0   0   0
+ 71 MS_Dalila              v17-v21          3   0.39    1.16  0.683  1.000   no   0   0   0   0
+ 72 MS_Mariposa            v29-v35          4   0.28    1.12  1.000  1.000   no   0   0   0   3
+ 73 MS_Salvador            v141-v145        3   0.22    0.67  1.000  1.000   no   0   0   0   0
+ 74 MS_Puntilla            v17-v21          3   0.17    0.51  1.000  1.000   no   0   0   0   2
+ 75 MS_Adolbert            v25-v29          3   0.15    0.44  1.000  1.000   no   0   0   0   3
+ 76 MS_Gafitas2            v33-v37          3   0.11    0.32  1.000  1.000   no   0   0   0   0
+
+------------------------------------------------------------------------
+ DETALL DELS SEGMENTS SIGNIFICATIUS
+------------------------------------------------------------------------
+
+ [1] MS_Campanilla  ·  voltes v89-v109  (L=11, q=0.008)
+     v89   V0   comb=  9.36 (g= 9.20 l= 30.0) cat=CRÍTICA  cx=n
+     v91   V0   comb= 18.96 (g= 5.38 l= 89.7) cat=ALTA     cx=n
+     v93   V0   comb=  2.50 (g= 5.00 l= 10.0) cat=MODERADA cx=n
+     v95   V0   comb=  2.93 (g= 2.87 l= 19.1) cat=normal   cx=n
+     v97   V0   comb=  1.02 (g= 2.78 l= 10.0) cat=normal   cx=n
+     v99   V1   comb=  1.77 (g= 3.90 l= 10.0) cat=normal   cx=n
+     v101  V1   comb=  1.87 (g= 4.05 l= 10.0) cat=MODERADA cx=n
+     v103  V1   comb=  1.16 (g= 2.99 l= 10.0) cat=normal   cx=n
+     v105  V0   comb=  2.80 (g= 5.45 l= 10.0) cat=MODERADA cx=n
+     v107  V0   comb=  2.19 (g= 4.54 l= 10.0) cat=normal   cx=n
+     v109  V0   comb=  0.75 (g= 5.44 l=  0.0) cat=normal   cx=n
+
+ [2] MS_Puntilla2  ·  voltes v15-v49  (L=18, q=0.015)
+     v15   V0   comb=  2.06 (g= 4.34 l= 10.0) cat=normal   cx=n
+     v17   V0   comb=  2.39 (g= 7.89 l=  0.0) cat=MODERADA cx=n
+     v19   V0   comb=  1.00 (g= 5.81 l=  0.0) cat=normal   cx=n
+     v21   V1   comb=  0.69 (g= 5.33 l=  0.0) cat=MODERADA cx=n
+     v23   V0   comb=  2.30 (g= 4.69 l= 10.0) cat=MODERADA cx=n
+     v25   V0   comb=  4.09 (g= 7.40 l= 10.0) cat=MODERADA cx=n
+     v27   V0   comb=  3.76 (g= 6.90 l= 10.0) cat=MODERADA cx=n
+     v29   V0   comb=  2.25 (g= 4.63 l= 10.0) cat=MODERADA cx=n
+     v31   V0   comb=  1.73 (g= 3.84 l= 10.0) cat=normal   cx=n
+     v33   V0   comb=  2.81 (g= 5.46 l= 10.0) cat=normal   cx=n
+     v35   V0   comb=  2.62 (g= 5.18 l= 10.0) cat=MODERADA cx=n
+     v37   V0   comb=  1.75 (g= 3.88 l= 10.0) cat=normal   cx=n
+     v39   V0   comb=  1.18 (g= 3.01 l= 10.0) cat=normal   cx=n
+     v41   V0   comb=  1.62 (g= 3.68 l= 10.0) cat=normal   cx=n
+     v43   V0   comb=  1.28 (g= 3.16 l= 10.0) cat=normal   cx=n
+     v45   V0   comb=  1.22 (g= 3.08 l= 10.0) cat=normal   cx=n
+     v47   V0   comb=  1.70 (g= 3.80 l= 10.0) cat=normal   cx=n
+     v49   V0   comb=  1.61 (g= 3.67 l= 10.0) cat=normal   cx=n
+
+ [3] MS_Celia 1  ·  voltes v81-v107  (L=14, q=0.008)
+     v81   V0   comb=  2.24 (g= 7.67 l=  0.0) cat=ALTA     cx=n
+     v83   V0   comb=  1.93 (g= 4.14 l= 10.0) cat=normal   cx=n
+     v85   V0   comb=  3.51 (g= 6.52 l= 10.0) cat=ALTA     cx=n
+     v87   V0   comb=  1.82 (g= 3.98 l= 10.0) cat=normal   cx=n
+     v89   V0   comb=  3.51 (g= 6.52 l= 10.0) cat=ALTA     cx=n
+     v91   V0   comb=  1.82 (g= 3.98 l= 10.0) cat=normal   cx=n
+     v93   V0   comb=  3.51 (g= 6.52 l= 10.0) cat=ALTA     cx=n
+     v95   V0   comb=  1.88 (g= 4.07 l= 10.0) cat=normal   cx=n
+     v97   V0   comb=  3.42 (g= 6.39 l= 10.0) cat=ALTA     cx=n
+     v99   V0   comb=  1.82 (g= 3.98 l= 10.0) cat=normal   cx=n
+     v101  V0   comb=  3.51 (g= 6.52 l= 10.0) cat=ALTA     cx=n
+     v103  V1   comb=  2.74 (g= 5.36 l= 10.0) cat=normal   cx=n
+     v105  V1   comb=  2.56 (g= 5.09 l= 10.0) cat=normal   cx=n
+     v107  V1   comb=  1.61 (g= 3.67 l= 10.0) cat=normal   cx=n
+
+ [4] MS_Penas  ·  voltes v9-v31  (L=12, q=0.008)
+     v9    V0   comb=  2.59 (g= 8.19 l=  0.0) cat=ALTA     cx=n
+     v11   V1   comb=  1.28 (g= 6.23 l=  0.0) cat=MODERADA cx=n
+     v13   V0   comb=  3.47 (g= 9.53 l=  0.0) cat=CRÍTICA  cx=Y
+     v15   V0   comb=  0.91 (g= 5.66 l=  0.0) cat=MODERADA cx=n
+     v17   V0   comb=  3.90 (g= 7.11 l= 10.0) cat=ALTA     cx=n
+     v19   V0   comb=  2.81 (g= 8.54 l=  0.0) cat=ALTA     cx=n
+     v21   V0   comb=  2.85 (g= 8.59 l=  0.0) cat=ALTA     cx=n
+     v23   V0   comb=  1.96 (g= 7.25 l=  0.0) cat=MODERADA cx=n
+     v25   V0   comb=  0.70 (g= 5.35 l=  0.0) cat=normal   cx=n
+     v27   V0   comb=  0.70 (g= 5.35 l=  0.0) cat=normal   cx=n
+     v29   V0   comb=  0.70 (g= 5.35 l=  0.0) cat=normal   cx=n
+     v31   V0   comb=  1.55 (g= 6.63 l=  0.0) cat=MODERADA cx=n
+
+ [5] MS_Grafico 2  ·  voltes v65-v85  (L=11, q=0.008)
+     v65   V0   comb=  2.91 (g= 5.61 l= 10.0) cat=MODERADA cx=n
+     v67   V1   comb=  4.10 (g= 4.36 l= 20.0) cat=normal   cx=n
+     v69   V0   comb=  2.66 (g= 5.25 l= 10.0) cat=MODERADA cx=n
+     v71   V0   comb=  1.78 (g= 3.92 l= 10.0) cat=normal   cx=n
+     v73   V0   comb=  0.02 (g= 4.33 l=  0.0) cat=normal   cx=n
+     v75   V0   comb=  3.34 (g= 6.27 l= 10.0) cat=MODERADA cx=n
+     v77   V1   comb=  1.74 (g= 3.86 l= 10.0) cat=normal   cx=n
+     v79   V1   comb=  0.63 (g= 2.19 l= 10.0) cat=normal   cx=n
+     v81   V1   comb=  1.00 (g= 2.74 l= 10.0) cat=normal   cx=n
+     v83   V1   comb=  1.10 (g= 2.90 l= 10.0) cat=normal   cx=n
+     v85   V1   comb=  1.70 (g= 3.80 l= 10.0) cat=normal   cx=n
+
+ [6] MS_Margarita  ·  voltes v43-v79  (L=19, q=0.008)
+     v43   V0   comb=  0.06 (g= 4.39 l=  0.0) cat=MODERADA cx=n
+     v45   V1   comb=  0.12 (g= 4.49 l=  0.0) cat=MODERADA cx=n
+     v47   V0   comb=  1.52 (g= 6.58 l=  0.0) cat=CRÍTICA  cx=Y
+     v49   V0   comb=  1.26 (g= 5.12 l=  3.5) cat=ALTA     cx=n
+     v51   V0   comb=  0.71 (g= 4.20 l=  3.8) cat=MODERADA cx=n
+     v53   V0   comb=  0.04 (g= 4.36 l=  0.0) cat=normal   cx=n
+     v55   V0   comb=  0.37 (g= 4.86 l=  0.0) cat=MODERADA cx=n
+     v57   V1   comb=  0.22 (g= 3.25 l=  4.5) cat=normal   cx=n
+     v59   V0   comb=  3.05 (g= 8.89 l=  0.0) cat=CRÍTICA  cx=n
+     v61   V1   comb=  0.37 (g= 4.86 l=  0.0) cat=normal   cx=n
+     v63   V1   comb=  1.42 (g= 6.44 l=  0.0) cat=MODERADA cx=n
+     v65   V0   comb=  0.25 (g= 4.68 l=  0.0) cat=MODERADA cx=n
+     v67   V0   comb=  1.65 (g= 6.79 l=  0.0) cat=MODERADA cx=n
+     v69   V0   comb=  0.69 (g= 5.34 l=  0.0) cat=normal   cx=n
+     v71   V1   comb=  1.10 (g= 2.89 l= 10.0) cat=normal   cx=n
+     v73   V1   comb=  1.02 (g= 2.78 l= 10.0) cat=normal   cx=n
+     v75   V1   comb=  2.12 (g= 4.42 l= 10.0) cat=normal   cx=n
+     v77   V1   comb=  1.92 (g= 4.13 l= 10.0) cat=normal   cx=n
+     v79   V1   comb=  1.13 (g= 2.94 l= 10.0) cat=normal   cx=n
+
+ [7] MS_Leonor  ·  voltes v105-v111  (L=4, q=0.032)
+     v105  V0   comb=  5.52 (g= 3.42 l= 30.0) cat=normal   cx=n
+     v107  V0   comb= 10.62 (g= 4.98 l= 50.0) cat=normal   cx=n
+     v109  V0   comb=  2.22 (g= 4.84 l=  9.1) cat=MODERADA cx=n
+     v111  V1   comb=  0.45 (g= 4.97 l=  0.0) cat=MODERADA cx=n
+
+ [8] MS_Morin  ·  voltes v43-v69  (L=14, q=0.008)
+     v43   V1   comb=  1.08 (g= 2.87 l= 10.0) cat=normal   cx=n
+     v45   V1   comb=  1.57 (g= 3.61 l= 10.0) cat=normal   cx=n
+     v47   V1   comb=  1.28 (g= 3.17 l= 10.0) cat=normal   cx=n
+     v49   V1   comb=  1.27 (g= 3.15 l= 10.0) cat=normal   cx=n
+     v51   V1   comb=  1.27 (g= 3.15 l= 10.0) cat=normal   cx=n
+     v53   V1   comb=  2.08 (g= 4.36 l= 10.0) cat=normal   cx=n
+     v55   V1   comb=  2.12 (g= 4.44 l= 10.0) cat=normal   cx=n
+     v57   V1   comb=  1.57 (g= 3.61 l= 10.0) cat=normal   cx=n
+     v59   V1   comb=  1.22 (g= 3.08 l= 10.0) cat=normal   cx=n
+     v61   V1   comb=  1.32 (g= 3.23 l= 10.0) cat=normal   cx=n
+     v63   V1   comb=  0.99 (g= 2.73 l= 10.0) cat=normal   cx=n
+     v65   V1   comb=  0.91 (g= 2.61 l= 10.0) cat=normal   cx=n
+     v67   V1   comb=  0.88 (g= 2.57 l= 10.0) cat=normal   cx=n
+     v69   V0   comb=  0.75 (g= 5.43 l=  0.0) cat=MODERADA cx=n
+
+ [9] MS_Araceli  ·  voltes v71-v81  (L=6, q=0.008)
+     v71   V0   comb=  2.86 (g= 5.54 l= 10.0) cat=MODERADA cx=n
+     v73   V0   comb=  1.66 (g= 6.80 l=  0.0) cat=MODERADA cx=n
+     v75   V0   comb=  2.93 (g= 5.65 l= 10.0) cat=MODERADA cx=n
+     v77   V0   comb=  5.79 (g= 6.90 l= 20.0) cat=MODERADA cx=n
+     v79   V0   comb=  2.17 (g= 4.50 l= 10.0) cat=normal   cx=n
+     v81   V1   comb=  1.64 (g= 6.76 l=  0.0) cat=normal   cx=n
+
+ [10] MS_Julito  ·  voltes v71-v91  (L=7, q=0.008)
+     v71   V1   comb=  0.14 (g= 4.51 l=  0.0) cat=MODERADA cx=n
+     v81   V0   comb=  4.38 (g= 7.83 l= 10.0) cat=CRÍTICA  cx=n
+     v83   V0   comb=  3.32 (g= 6.24 l= 10.0) cat=MODERADA cx=n
+     v85   V0   comb=  2.79 (g= 5.44 l= 10.0) cat=MODERADA cx=n
+     v87   V0   comb=  1.80 (g= 7.01 l=  0.0) cat=ALTA     cx=n
+     v89   V0   comb=  0.80 (g= 5.51 l=  0.0) cat=MODERADA cx=n
+     v91   V0   comb=  0.02 (g= 4.33 l=  0.0) cat=normal   cx=n
+
+ [11] MS_Rita  ·  voltes v93-v103  (L=6, q=0.046)
+     v93   V1   comb=  0.30 (g= 4.75 l=  0.0) cat=normal   cx=n
+     v95   V1   comb=  3.48 (g= 3.42 l= 20.0) cat=normal   cx=n
+     v97   V0   comb=  3.90 (g= 7.10 l= 10.0) cat=MODERADA cx=n
+     v99   V1   comb=  1.97 (g= 4.20 l= 10.0) cat=normal   cx=n
+     v101  V0   comb=  1.65 (g= 6.78 l=  0.0) cat=MODERADA cx=n
+     v103  V1   comb=  1.88 (g= 4.07 l= 10.0) cat=normal   cx=n
+
+ [12] MS_Pino  ·  voltes v117-v129  (L=7, q=0.008)
+     v117  V0   comb=  2.15 (g= 7.53 l=  0.0) cat=CRÍTICA  cx=n
+     v119  V0   comb=  3.48 (g= 6.47 l= 10.0) cat=MODERADA cx=n
+     v121  V1   comb=  3.84 (g= 7.03 l= 10.0) cat=MODERADA cx=n
+     v123  V1   comb=  0.79 (g= 2.43 l= 10.0) cat=normal   cx=n
+     v125  V1   comb=  0.65 (g= 2.22 l= 10.0) cat=normal   cx=n
+     v127  V1   comb=  0.65 (g= 2.22 l= 10.0) cat=normal   cx=n
+     v129  V0   comb=  0.54 (g= 5.11 l=  0.0) cat=MODERADA cx=n
+
+ [13] MS_Claveles  ·  voltes v55-v77  (L=12, q=0.028)
+     v55   V1   comb=  0.79 (g= 1.12 l= 14.2) cat=normal   cx=n
+     v57   V1   comb=  1.47 (g= 3.45 l= 10.0) cat=MODERADA cx=n
+     v59   V1   comb=  0.77 (g= 2.40 l= 10.0) cat=normal   cx=n
+     v61   V1   comb=  1.42 (g= 3.38 l= 10.0) cat=normal   cx=n
+     v63   V1   comb=  1.05 (g= 2.81 l= 10.0) cat=normal   cx=n
+     v65   V1   comb=  0.99 (g= 2.73 l= 10.0) cat=normal   cx=n
+     v67   V1   comb=  1.41 (g= 3.36 l= 10.0) cat=normal   cx=n
+     v69   V1   comb=  0.50 (g= 1.99 l= 10.0) cat=normal   cx=n
+     v71   V1   comb=  0.80 (g= 2.44 l= 10.0) cat=normal   cx=n
+     v73   V1   comb=  0.76 (g= 2.38 l= 10.0) cat=normal   cx=n
+     v75   V1   comb=  0.86 (g= 2.53 l= 10.0) cat=normal   cx=n
+     v77   V1   comb=  1.22 (g= 3.07 l= 10.0) cat=normal   cx=n
+
+ [14] MS_Susana  ·  voltes v27-v37  (L=6, q=0.046)
+     v27   V0   comb=  2.79 (g= 8.49 l=  0.0) cat=CRÍTICA  cx=n
+     v29   V0   comb=  1.69 (g= 6.84 l=  0.0) cat=ALTA     cx=n
+     v31   V1   comb=  0.26 (g= 4.70 l=  0.0) cat=normal   cx=n
+     v33   V0   comb=  2.21 (g= 7.63 l=  0.0) cat=ALTA     cx=n
+     v35   V1   comb=  0.45 (g= 4.98 l=  0.0) cat=MODERADA cx=n
+     v37   V1   comb=  0.46 (g= 4.99 l=  0.0) cat=normal   cx=n
+
+ [15] MS_Mariposa  ·  voltes v3-v9  (L=4, q=0.041)
+     v3    V1   comb=  1.91 (g= 7.17 l=  0.0) cat=ALTA     cx=n
+     v5    V0   comb=  2.67 (g= 8.32 l=  0.0) cat=CRÍTICA  cx=n
+     v7    V1   comb=  0.82 (g= 5.54 l=  0.0) cat=MODERADA cx=n
+     v9    V1   comb=  0.71 (g= 5.37 l=  0.0) cat=normal   cx=n

@@ -1,0 +1,12 @@
+teixit,n_voltes,n_tokens_eval,surprisal_loo,surprisal_in_sample,delta_loo_vs_in,n_oov_bigrames_loo,frac_oov_loo
+CM_Punto Angelines,31,585,6.2065,3.6002,2.6063,142,0.2427
+CM_Pasión,68,731,5.1972,4.38,0.8172,65,0.0889
+CM_Angelines,43,582,4.6435,3.8005,0.843,65,0.1117
+CM_Pepita,64,994,4.4796,3.8622,0.6174,56,0.0563
+CM_Copas de champán,52,1187,4.1621,3.7254,0.4366,42,0.0354
+CM_Abouchete,131,1940,4.1314,3.2837,0.8477,137,0.0706
+CM_Hojas y cactus,37,373,4.0053,3.8164,0.1889,2,0.0054
+CM_Pelargonia,39,416,3.8359,3.6095,0.2263,8,0.0192
+CM_Gardenia,115,3082,3.5605,2.6449,0.9156,282,0.0915
+CM_Eterna,17,142,3.4486,3.1058,0.3428,7,0.0493
+CM_Hojas de Roble,59,35740,1.3145,0.2373,1.0772,62,0.0017

@@ -1,0 +1,395 @@
+{
+  "morse": [
+    {
+      "parella": "g/a",
+      "n1": 2613,
+      "n2": 2807,
+      "ratio": 0.9308870680441753,
+      "n_grups": 5184,
+      "dot": "g",
+      "text": "TETETETETETETETETETETETETETETETETETETETETETETETEEE",
+      "score": 0.10675864730570699,
+      "ctrl": 0.004750845713691262,
+      "z": 282.01997742349266
+    },
+    {
+      "parella": "g/p",
+      "n1": 2613,
+      "n2": 1994,
+      "ratio": 1.310431293881645,
+      "n_grups": 4180,
+      "dot": "g",
+      "text": "TTTETTETETETETETETETETETETETETETETETETETETETETETET",
+      "score": 0.08514330162149225,
+      "ctrl": 0.01241747940724785,
+      "z": 112.93208576377833
+    },
+    {
+      "parella": "l/g",
+      "n1": 9144,
+      "n2": 2613,
+      "ratio": 3.499425947187141,
+      "n_grups": 8657,
+      "dot": "l",
+      "text": "EEEEEAETEETEETEETEETEETEETEETEETEETEETEETEETEETEET",
+      "score": 0.08053458300789725,
+      "ctrl": 0.05147407248830962,
+      "z": 19.46707301737265
+    },
+    {
+      "parella": "a/p",
+      "n1": 2807,
+      "n2": 1994,
+      "ratio": 1.4077231695085255,
+      "n_grups": 4352,
+      "dot": "p",
+      "text": "EETENETETETETETETETETETETETETETETETETETETETETETEEE",
+      "score": 0.08028274237112809,
+      "ctrl": 0.002693331800854357,
+      "z": 132.49463807025666
+    },
+    {
+      "parella": "a/v",
+      "n1": 2807,
+      "n2": 2144,
+      "ratio": 1.3092350746268657,
+      "n_grups": 4935,
+      "dot": "v",
+      "text": "ETETETETETETETETETETETETETETETETETETETETETETETTTTT",
+      "score": 0.0721633811381949,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "g/v",
+      "n1": 2613,
+      "n2": 2144,
+      "ratio": 1.21875,
+      "n_grups": 4744,
+      "dot": "v",
+      "text": "EETETETETETETETETETETETETETETETETETETETETETETTTTTT",
+      "score": 0.06974537403131426,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "l/p",
+      "n1": 9144,
+      "n2": 1994,
+      "ratio": 4.585757271815447,
+      "n_grups": 8256,
+      "dot": "l",
+      "text": "RAEAETAAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEEER",
+      "score": 0.06113219001365913,
+      "ctrl": 0.009670810359861063,
+      "z": 103.42682541789306
+    },
+    {
+      "parella": "p/v",
+      "n1": 1994,
+      "n2": 2144,
+      "ratio": 0.9300373134328358,
+      "n_grups": 4114,
+      "dot": "v",
+      "text": "TTETETTETETETETETETETETETETETETETETETETETETETETETT",
+      "score": 0.058362210468721504,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "l/v",
+      "n1": 9144,
+      "n2": 2144,
+      "ratio": 4.264925373134329,
+      "n_grups": 10247,
+      "dot": "v",
+      "text": "TTTETTETTETETTETTETTETTETTETTETTETTETTETTETTETTETT",
+      "score": 0.05204851028525414,
+      "ctrl": 0.0002928186232644396,
+      "z": 1870.5461769226654
+    },
+    {
+      "parella": "l/a",
+      "n1": 9144,
+      "n2": 2807,
+      "ratio": 3.257570359814749,
+      "n_grups": 8637,
+      "dot": "a",
+      "text": "TTTTETTETETTETTETTETTETTETTETTETTETTETTETTETTETTET",
+      "score": 0.05080469769464985,
+      "ctrl": 0.015189556621422984,
+      "z": 75.92530481634027
+    },
+    {
+      "parella": "l/x",
+      "n1": 9144,
+      "n2": 777,
+      "ratio": 11.768339768339768,
+      "n_grups": 7831,
+      "dot": "l",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+      "score": 0.047538417302961565,
+      "ctrl": 0.025504671455906753,
+      "z": 21.124456798944827
+    },
+    {
+      "parella": "p/x",
+      "n1": 1994,
+      "n2": 777,
+      "ratio": 2.5662805662805663,
+      "n_grups": 2725,
+      "dot": "p",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEETTTTEEETTETE",
+      "score": 0.037363444413843754,
+      "ctrl": 0.0005018513418403256,
+      "z": 148.95462232070332
+    },
+    {
+      "parella": "g/x",
+      "n1": 2613,
+      "n2": 777,
+      "ratio": 3.362934362934363,
+      "n_grups": 3357,
+      "dot": "g",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEIEEEEEEETTEEETTE",
+      "score": 0.03338052306087475,
+      "ctrl": 0.000198693589648064,
+      "z": 344.95371670220726
+    },
+    {
+      "parella": "a/x",
+      "n1": 2807,
+      "n2": 777,
+      "ratio": 3.6126126126126126,
+      "n_grups": 3547,
+      "dot": "a",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEIEEEEEEEEETTEEETTEE",
+      "score": 0.03243776884563853,
+      "ctrl": 0.0002585619255811767,
+      "z": 295.7378005373453
+    },
+    {
+      "parella": "v/x",
+      "n1": 2144,
+      "n2": 777,
+      "ratio": 2.7593307593307594,
+      "n_grups": 2907,
+      "dot": "v",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEETTETETETETETEETEEETEETEEEEE",
+      "score": 0.032355219000086054,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "p/r",
+      "n1": 1994,
+      "n2": 85,
+      "ratio": 23.458823529411763,
+      "n_grups": 2051,
+      "dot": "r",
+      "text": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+      "score": 0.007075759424179578,
+      "ctrl": 5.6931397665812695e-05,
+      "z": 111.41282092590002
+    },
+    {
+      "parella": "g/r",
+      "n1": 2613,
+      "n2": 85,
+      "ratio": 30.741176470588236,
+      "n_grups": 2680,
+      "dot": "r",
+      "text": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTMTTTTTTTTTTTTMTT",
+      "score": 0.002800336040324839,
+      "ctrl": 0.00034848626279598,
+      "z": 27.328371018832343
+    },
+    {
+      "parella": "a/r",
+      "n1": 2807,
+      "n2": 85,
+      "ratio": 33.023529411764706,
+      "n_grups": 2869,
+      "dot": "r",
+      "text": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTMTTTTTTTTTTTTTTTTTT",
+      "score": 0.002702938355567181,
+      "ctrl": 0.00024413636759961635,
+      "z": 29.96417215447852
+    },
+    {
+      "parella": "v/r",
+      "n1": 2144,
+      "n2": 85,
+      "ratio": 25.223529411764705,
+      "n_grups": 2229,
+      "dot": "v",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+      "score": 0.002020428779885509,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "l/r",
+      "n1": 9144,
+      "n2": 85,
+      "ratio": 107.5764705882353,
+      "n_grups": 8190,
+      "dot": "l",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+      "score": 0.001862424816047385,
+      "ctrl": 0.00034195340884804443,
+      "z": 49.10346219972681
+    },
+    {
+      "parella": "x/r",
+      "n1": 777,
+      "n2": 85,
+      "ratio": 9.141176470588235,
+      "n_grups": 848,
+      "dot": "r",
+      "text": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+      "score": 0.0017725258493353029,
+      "ctrl": 0.0,
+      "z": 0
+    }
+  ],
+  "anomalies_belgues_n": 1201,
+  "manolita": {
+    "coincidencies_v71": [
+      {
+        "pag": "MS. 110-111. Dalila",
+        "v": 1,
+        "instr": "lp",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 112-115. Raetine",
+        "v": 3,
+        "instr": "lp",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 116-117. Titi 2 - Grafico B",
+        "v": 39,
+        "instr": "3",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 125. Palmito",
+        "v": 5,
+        "instr": "lp",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 125. Palmito",
+        "v": 9,
+        "instr": "lp",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 126-127. Ovalo1",
+        "v": 51,
+        "instr": "3",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 129-130. Ovalo2",
+        "v": 59,
+        "instr": "3",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 131-134. Hijo",
+        "v": 97,
+        "instr": "3",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 14. Jazmín",
+        "v": 1,
+        "instr": "pl",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 16-17. Julito",
+        "v": 1,
+        "instr": "pl",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 16-17. Julito",
+        "v": 3,
+        "instr": "ppl",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 18-19. Penas",
+        "v": 54,
+        "instr": "la",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 19-20. Pelargonia",
+        "v": 3,
+        "instr": "pl",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 66. Gafitas1",
+        "v": 47,
+        "instr": "3",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 67. Blumen Flor",
+        "v": 117,
+        "instr": "g",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 85-87. Celia 1",
+        "v": 1,
+        "instr": "pl",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 88. Celia 2",
+        "v": 1,
+        "instr": "pl",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 88. Celia 2",
+        "v": 4,
+        "instr": "5-6",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "MS. 90. Fajas",
+        "v": 1,
+        "instr": "pl",
+        "tipus": "SUBCADENA"
+      }
+    ],
+    "total_linies_primavera": 0
+  },
+  "cites_manolita": [
+    {
+      "font": "El País (titular, 04-05-2024)",
+      "cita": "(6p)LPA (GLA5N)",
+      "cita_normalitzada": "(6p)lpa(glla-5v)",
+      "nota": "L'OCR del titular ha confós 'GLLA-5V' amb 'GLA5N'."
+    },
+    {
+      "font": "Blog Memòria Repressió Franquista (04-05-2024)",
+      "cita": "71.-(6p)LPA (GLA5N)PPL3LPP(GLLA-5V)GPL",
+      "cita_normalitzada": "(6p)lpa(glla-5v)ppl3lpp(glla-5v)gpl",
+      "nota": "Línia 71 de la peça 'Primavera', cuaderno de Ventas."
+    },
+    {
+      "font": "El País (descripció lingüística)",
+      "cita": "Primavera: Se empieza con 6 puntos de 4 agujas poniendo en 2 agujas 2 puntos, y uno en cada una de las otras dos. Hay tres páginas de instrucciones... Hasta 197 líneas con letras y números.",
+      "nota": "Peça 'Primavera', 3 pàgines, ~197 línies."
+    }
+  ]
+}

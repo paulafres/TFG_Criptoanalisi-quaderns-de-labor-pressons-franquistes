@@ -1,0 +1,211 @@
+{
+  "metadades": {
+    "nivell": "macro (volta-en-teixit)",
+    "ngram_order": 2,
+    "smoothing_k": 0.5,
+    "alfabet": [
+      "V0",
+      "V1",
+      "V2"
+    ],
+    "vocab_size": 3,
+    "num_seqs": 14,
+    "num_tokens": 774,
+    "H_global_bits": 1.067,
+    "n_contexts": 4,
+    "num_rare_transitions_count1": 0
+  },
+  "model": {
+    "ngram_counts": {
+      "<BOS>": {
+        "V0": 9,
+        "V1": 1,
+        "V2": 4
+      },
+      "V0": {
+        "V0": 411,
+        "V2": 98,
+        "V1": 10,
+        "<EOS>": 9
+      },
+      "V2": {
+        "V2": 113,
+        "V0": 97,
+        "<EOS>": 5,
+        "V1": 4
+      },
+      "V1": {
+        "V1": 12,
+        "V0": 11,
+        "V2": 4
+      }
+    },
+    "context_totals": {
+      "<BOS>": 14,
+      "V0": 528,
+      "V2": 219,
+      "V1": 27
+    },
+    "transition_probabilities": {
+      "<BOS>": {
+        "V0": 0.59375,
+        "V1": 0.09375,
+        "V2": 0.28125,
+        "<EOS>": 0.03125
+      },
+      "V0": {
+        "V0": 0.776415,
+        "V1": 0.019811,
+        "V2": 0.185849,
+        "<EOS>": 0.017925
+      },
+      "V2": {
+        "V0": 0.441176,
+        "V1": 0.020362,
+        "V2": 0.513575,
+        "<EOS>": 0.024887
+      },
+      "V1": {
+        "V0": 0.396552,
+        "V1": 0.431034,
+        "V2": 0.155172,
+        "<EOS>": 0.017241
+      }
+    },
+    "H_per_context_bits": {
+      "<BOS>": 1.4377,
+      "V0": 0.9508,
+      "V2": 1.2616,
+      "V1": 1.5706
+    }
+  },
+  "summary_per_teixit": {
+    "P_Jafisa - Grafico B": {
+      "len": 48,
+      "mean_surprisal_bits": 1.5548,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 2.9379,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 49
+    },
+    "P_Jafisa - Grafico C": {
+      "len": 11,
+      "mean_surprisal_bits": 1.5619,
+      "max_surprisal_bits": 5.3285,
+      "perplexity": 2.9525,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 12
+    },
+    "P_Conchita Romero": {
+      "len": 89,
+      "mean_surprisal_bits": 1.1176,
+      "max_surprisal_bits": 5.618,
+      "perplexity": 2.1699,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 90
+    },
+    "P_Ruth": {
+      "len": 59,
+      "mean_surprisal_bits": 1.2377,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 2.3582,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 60
+    },
+    "P_Primavera": {
+      "len": 97,
+      "mean_surprisal_bits": 1.0436,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 2.0614,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 98
+    },
+    "P_Pasión": {
+      "len": 68,
+      "mean_surprisal_bits": 0.7704,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 1.7058,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 69
+    },
+    "P_Celia": {
+      "len": 53,
+      "mean_surprisal_bits": 0.8681,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 1.8253,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 54
+    },
+    "P_Rosa de los Vientos": {
+      "len": 65,
+      "mean_surprisal_bits": 0.8203,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 1.7658,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 66
+    },
+    "P_Renacimiento": {
+      "len": 31,
+      "mean_surprisal_bits": 1.1583,
+      "max_surprisal_bits": 5.3285,
+      "perplexity": 2.2319,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 32
+    },
+    "P_Puntilla del Cacus": {
+      "len": 8,
+      "mean_surprisal_bits": 1.8074,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 3.5001,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 9
+    },
+    "P_Gentio": {
+      "len": 100,
+      "mean_surprisal_bits": 0.8871,
+      "max_surprisal_bits": 5.618,
+      "perplexity": 1.8495,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 101
+    },
+    "P_Helga": {
+      "len": 103,
+      "mean_surprisal_bits": 0.8832,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 1.8445,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 104
+    },
+    "P_Cori": {
+      "len": 21,
+      "mean_surprisal_bits": 1.1759,
+      "max_surprisal_bits": 5.3285,
+      "perplexity": 2.2593,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 22
+    },
+    "P_Jafisa - Grafico A": {
+      "len": 21,
+      "mean_surprisal_bits": 1.803,
+      "max_surprisal_bits": 5.8019,
+      "perplexity": 3.4896,
+      "num_zero_prob_transitions": 0,
+      "num_unseen_contexts": 0,
+      "num_positions_scored": 22
+    }
+  },
+  "rare_transitions_count1": []
+}

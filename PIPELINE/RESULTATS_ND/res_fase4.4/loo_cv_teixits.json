@@ -1,0 +1,235 @@
+{
+  "parametres": {
+    "ALPHA_SMOOTH": 0.01,
+    "RANDOM_STATE": 42,
+    "metode": "Leave-one-teixit-out CV · bigrama amb smoothing additiu"
+  },
+  "metadades": {
+    "n_teixits": 22,
+    "surprisal_loo_mitjana": 3.0569,
+    "surprisal_loo_sd": 0.8675,
+    "surprisal_in_sample_global": 1.2203
+  },
+  "per_teixit": [
+    {
+      "teixit": "ND_Dolores",
+      "n_voltes": 106,
+      "n_tokens_eval": 1171,
+      "surprisal_loo": 4.3724,
+      "surprisal_in_sample": 3.7037,
+      "delta_loo_vs_in": 0.6686,
+      "n_oov_bigrames_loo": 71,
+      "frac_oov_loo": 0.0606
+    },
+    {
+      "teixit": "ND_Ruth",
+      "n_voltes": 36,
+      "n_tokens_eval": 1219,
+      "surprisal_loo": 4.2576,
+      "surprisal_in_sample": 3.1112,
+      "delta_loo_vs_in": 1.1464,
+      "n_oov_bigrames_loo": 135,
+      "frac_oov_loo": 0.1107
+    },
+    {
+      "teixit": "ND_Punto Angelines para blusa",
+      "n_voltes": 15,
+      "n_tokens_eval": 439,
+      "surprisal_loo": 4.0173,
+      "surprisal_in_sample": 2.9399,
+      "delta_loo_vs_in": 1.0773,
+      "n_oov_bigrames_loo": 41,
+      "frac_oov_loo": 0.0934
+    },
+    {
+      "teixit": "ND_Conchita Romero",
+      "n_voltes": 90,
+      "n_tokens_eval": 1851,
+      "surprisal_loo": 3.75,
+      "surprisal_in_sample": 2.9932,
+      "delta_loo_vs_in": 0.7568,
+      "n_oov_bigrames_loo": 105,
+      "frac_oov_loo": 0.0567
+    },
+    {
+      "teixit": "ND_Merche",
+      "n_voltes": 53,
+      "n_tokens_eval": 811,
+      "surprisal_loo": 3.6438,
+      "surprisal_in_sample": 3.3462,
+      "delta_loo_vs_in": 0.2976,
+      "n_oov_bigrames_loo": 15,
+      "frac_oov_loo": 0.0185
+    },
+    {
+      "teixit": "ND_Campesina",
+      "n_voltes": 30,
+      "n_tokens_eval": 264,
+      "surprisal_loo": 3.4776,
+      "surprisal_in_sample": 3.3982,
+      "delta_loo_vs_in": 0.0795,
+      "n_oov_bigrames_loo": 2,
+      "frac_oov_loo": 0.0076
+    },
+    {
+      "teixit": "ND_Sin nombre",
+      "n_voltes": 8,
+      "n_tokens_eval": 53,
+      "surprisal_loo": 3.4654,
+      "surprisal_in_sample": 3.4418,
+      "delta_loo_vs_in": 0.0236,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "ND_Vilno (Hijo)",
+      "n_voltes": 75,
+      "n_tokens_eval": 2151,
+      "surprisal_loo": 3.4019,
+      "surprisal_in_sample": 2.995,
+      "delta_loo_vs_in": 0.4068,
+      "n_oov_bigrames_loo": 77,
+      "frac_oov_loo": 0.0358
+    },
+    {
+      "teixit": "ND_Demetri pequeño",
+      "n_voltes": 28,
+      "n_tokens_eval": 317,
+      "surprisal_loo": 3.3252,
+      "surprisal_in_sample": 3.2481,
+      "delta_loo_vs_in": 0.0771,
+      "n_oov_bigrames_loo": 1,
+      "frac_oov_loo": 0.0032
+    },
+    {
+      "teixit": "ND_Chistrofe Rosa de Navidad",
+      "n_voltes": 91,
+      "n_tokens_eval": 1213,
+      "surprisal_loo": 3.2116,
+      "surprisal_in_sample": 3.071,
+      "delta_loo_vs_in": 0.1405,
+      "n_oov_bigrames_loo": 9,
+      "frac_oov_loo": 0.0074
+    },
+    {
+      "teixit": "ND_Isabelet",
+      "n_voltes": 98,
+      "n_tokens_eval": 2865,
+      "surprisal_loo": 3.1968,
+      "surprisal_in_sample": 2.6594,
+      "delta_loo_vs_in": 0.5374,
+      "n_oov_bigrames_loo": 162,
+      "frac_oov_loo": 0.0565
+    },
+    {
+      "teixit": "ND_Demetri grande",
+      "n_voltes": 49,
+      "n_tokens_eval": 740,
+      "surprisal_loo": 3.1834,
+      "surprisal_in_sample": 3.0249,
+      "delta_loo_vs_in": 0.1585,
+      "n_oov_bigrames_loo": 9,
+      "frac_oov_loo": 0.0122
+    },
+    {
+      "teixit": "ND_Anelise",
+      "n_voltes": 65,
+      "n_tokens_eval": 1476,
+      "surprisal_loo": 3.1768,
+      "surprisal_in_sample": 2.8352,
+      "delta_loo_vs_in": 0.3417,
+      "n_oov_bigrames_loo": 50,
+      "frac_oov_loo": 0.0339
+    },
+    {
+      "teixit": "ND_Tara",
+      "n_voltes": 65,
+      "n_tokens_eval": 1331,
+      "surprisal_loo": 3.069,
+      "surprisal_in_sample": 2.9555,
+      "delta_loo_vs_in": 0.1135,
+      "n_oov_bigrames_loo": 7,
+      "frac_oov_loo": 0.0053
+    },
+    {
+      "teixit": "ND_Aurea",
+      "n_voltes": 70,
+      "n_tokens_eval": 2811,
+      "surprisal_loo": 2.9681,
+      "surprisal_in_sample": 2.6058,
+      "delta_loo_vs_in": 0.3624,
+      "n_oov_bigrames_loo": 60,
+      "frac_oov_loo": 0.0213
+    },
+    {
+      "teixit": "ND_Renacimiento",
+      "n_voltes": 31,
+      "n_tokens_eval": 643,
+      "surprisal_loo": 2.9478,
+      "surprisal_in_sample": 2.9145,
+      "delta_loo_vs_in": 0.0333,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "ND_Coco liso",
+      "n_voltes": 45,
+      "n_tokens_eval": 2135,
+      "surprisal_loo": 2.9361,
+      "surprisal_in_sample": 2.7382,
+      "delta_loo_vs_in": 0.1979,
+      "n_oov_bigrames_loo": 7,
+      "frac_oov_loo": 0.0033
+    },
+    {
+      "teixit": "ND_Chechee",
+      "n_voltes": 55,
+      "n_tokens_eval": 2024,
+      "surprisal_loo": 2.5365,
+      "surprisal_in_sample": 2.1392,
+      "delta_loo_vs_in": 0.3973,
+      "n_oov_bigrames_loo": 54,
+      "frac_oov_loo": 0.0267
+    },
+    {
+      "teixit": "ND_Rosario",
+      "n_voltes": 107,
+      "n_tokens_eval": 5247,
+      "surprisal_loo": 2.3968,
+      "surprisal_in_sample": 2.0319,
+      "delta_loo_vs_in": 0.3649,
+      "n_oov_bigrames_loo": 46,
+      "frac_oov_loo": 0.0088
+    },
+    {
+      "teixit": "ND_Modelo Ros Mari",
+      "n_voltes": 55,
+      "n_tokens_eval": 2205,
+      "surprisal_loo": 1.7813,
+      "surprisal_in_sample": 1.6592,
+      "delta_loo_vs_in": 0.1221,
+      "n_oov_bigrames_loo": 2,
+      "frac_oov_loo": 0.0009
+    },
+    {
+      "teixit": "ND_Zapatitos de recién nacido",
+      "n_voltes": 5,
+      "n_tokens_eval": 255,
+      "surprisal_loo": 1.1035,
+      "surprisal_in_sample": 1.0964,
+      "delta_loo_vs_in": 0.0071,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "ND_Maria",
+      "n_voltes": 118,
+      "n_tokens_eval": 51877,
+      "surprisal_loo": 1.0338,
+      "surprisal_in_sample": 0.376,
+      "delta_loo_vs_in": 0.6578,
+      "n_oov_bigrames_loo": 84,
+      "frac_oov_loo": 0.0016
+    }
+  ]
+}

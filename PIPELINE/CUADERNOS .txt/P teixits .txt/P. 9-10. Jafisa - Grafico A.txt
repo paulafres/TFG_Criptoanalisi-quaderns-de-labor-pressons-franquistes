@@ -1,0 +1,22 @@
+8p
+1 pl
+3 (pl-2v)
+5 (pl-4v)
+11 (2p)(ll2>-4v)ll(2p)
+13 (3p)g(llag-3v)lla(3p)
+15 pg(llag-4v)llap
+17 (3p)g(llag-3v)lla(3p)
+19 pg(llag-4v)llap
+21 (3p)g(llag-3v)lla(3p)
+23 pg(llag-4v)llap
+25 (3p)g(llag-3v)lla(3p)
+27 (5p)(glla-3v)(5p)
+29 (7p)(glla-2v)(7p)l
+31 (9p)glla(9p)lxl
+33 (22p)(lx-3v)l/(22p)lplxlpl
+35 (a(7p)ga(7p)a(plxl-3v)p-2v)(a(7p)ga(7p)gl(3p)lxl(3p)l-2v)
+37 (a(5p)g-2v)(2p)lxl(2p)l3l(2p)lxl(2p)(a(5p)g-2v)lglplalxlglplal
+39 (a(3p)g-2v)(3p)lxl(3p)l3l(3p)lxl(3p)(a(3p)g-2v)lgl(3p)lalxlgl(3p)lal
+41 (apg-2v)(4p)lxl(4p)l3l(4p)lxl(4p)(apg-2v)(lg-2v)lpl(al-2v)x(lg-2v)lpl(al-2v)
+43 33(5p)lxl(5p)l3l(5p)lxl(5p)(33(lg-2v)(3p)(la-2v)lxl(gl-2v)(3p)(la-2v)l
+45 g(6p)lxl(6p)l3l(6p)lxl(6p)g(lg-3v)lpl(al-3v)x(lg-3v)lpl(al-3v)

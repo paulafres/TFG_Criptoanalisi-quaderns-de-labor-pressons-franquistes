@@ -1,0 +1,17 @@
+8p
+1 pl
+3 2
+5 (pl-2v)
+7 (pl-4v)
+11 (2-4v)
+13 x(2-3v)x
+15 (2-4v)
+17 x(2-3v)xl
+19 (2-4v)lpl
+21 x(2-3v)xl(3)l
+23 g22al(5)l
+25 g2al(7)l
+27 galpl(2)3(2)lpl
+29 al(3)lp3pl(3)l
+31 xlalplgl3lalplgl
+33 5>lal(3)lglxlal(3)lgl

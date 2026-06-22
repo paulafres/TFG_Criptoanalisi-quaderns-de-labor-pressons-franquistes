@@ -1,0 +1,42 @@
+12p
+1 lxlplp
+2
+3
+4
+5 la(lx-4v)
+6
+7
+8
+9 lal(glla-2v)
+10
+11 l3l(14)
+13 l3l(14)
+15 l3l(7)l(7)
+17 3l(7)lpl(7)l
+19 xl2>l(2)3(2)l(3)l(2)3(2)lVl
+21 xl(4)lp3plg5>alp3pl(4)l
+23 xlppglla pl3la(5)gl3lpglla pl
+25 xl(glla-2v)(2)l(2)3(2)l(2)(glla-2v)l
+27 xl(3)(glla-2v)plp3plp(glla-2v)(3)l
+29 lxl(4)la(glla-2v)3l(glla-2v)pl(4)
+31 l(3)l(5)l3glla3ll3glla3l(5)
+33 l(5)la(4)lap(glla-2v)pgl(4)g
+35 l(7)la(4)l(glla-3v)l(4)g
+37 lg(ll2>-4v)ll3la(4)la(glla-2v)gl(4)g
+39 l(3)(ll(4)-4v)ll(3)la(4)l3glla3l(4)g
+41 l(2)gp(ll(5)-4v)llpa(2)la(4)la(2)gl(4)g
+43 l(2)g(2)(ll(8)-4v)ll(2)a(2)la(4)lagl(4)g
+45 l(2)g(3)(ll(10)-4v)ll(3)a(2)la(4)g(4)g
+47 l(2)g(4)(ll(12)-4v)ll(4)a(2)la(7)g
+49 l(2)g(5)(ll(14)-4v)ll(5)a(2)la(5)g
+51 l(2)g(6)(ll(16)-4v)ll(6)a(2)la(3)g
+53 (2)gl(7)(l(18)-4v)l(7)a(2)apg
+55 a(15)g(la(15)g-3v)la(15)gl3l
+57 a(14)g(lpla(13)g-3v)lpla(14)gl3l
+59 a(12)g(l(3)la(11)g-3v)l(3)la(12)gl3l
+61 a(10)g(lglp(la-2v)(9)p-3v)lglp(la-2v)(10)gl3l
+63 a(8)((gl-2v)(3)(la-2v)(7)p-3v)lgl(3)(la-2/v)(8)pl3l
+65 a(6)((pl-3v)p(la-3v)(5)p-3v)(lg-2v)lp(la-3v)(6)gl3l
+67 a(4)((pl-3v)(3)(la-3v)(3)p-3v)(lg-2v)l(3)(la-3v)(4)pl3l
+69 a(2)((gl-4v)p(la-4v)pg3/v)(lg-3v)lp(la-4v)(2)gl3l
+71 <4(lp-3v)l(3)(la-3v)l3-4v)(lp-3v)l(3)(la-3v)l<4l3l

@@ -1,0 +1,43 @@
+teixit,volta_inici,volta_final,n_voltes,n_convergents,n_gramaticals,n_lexiques,n_cap,frac_gramatical,frac_lexica,score_mitja_5_2,q_valor_5_2,significatiu_FDR_5_2,veredicte,voltes_convergents,tokens_rare_segment
+P_Primavera,187,193,4,2,0,2,0,0.5,1.0,2.1504,1.0,False,CONVERGENCIA,187|191,<l(3p)gappx(3p)>×1|<gl(5p)lal3l>×1|<la3lgl(5p)>×1
+P_Ruth,57,77,11,2,0,8,1,0.182,0.909,2.4395,0.849033319621555,False,CONVERGENCIA,61|69,<3>p3><7pp<73>lppgllapp>×1|<7×1|<73×1|<l(6p)xagx(6p)lp(glla-2v)p>×1|<3>p3>1>pp1>3>p3>l(agll-3v)lagl>×1|<l(6p)xafx(6p)l(glla-3v)>×1|f×1|<3>(6p)xppx(6p)3>l(agll-2v)agl>×1|<3>p3>1>pp1>3>p3>(glla-3v)>×1|<l(6p)xagx(6p)lpp(glla-2v)pp>×1|<l3>(6p)xppx(6p)3>(glla-3v)>×1|<3>p3><4pp<43>p3>lpp(glla-3v)ppl>×1
+P_Primavera,127,145,10,2,0,7,1,0.2,0.9,1.9723,0.2097902097902098,False,CONVERGENCIA,127|131,(12)×1|<a(10p)glppl>×1|<a(8p)gl(3p)l>×1|(3)×1|<a(6p)glpgllapl>×1|<a(4p)gl(glla-2v)l>×1|<appgl(3p)glla(3p)l>×1|<aglpp(glla-2v)ppl>×1|<alp(glla-3v)pl>×1
+P_Pasión,97,103,4,2,1,0,1,0.75,0.5,1.4482,0.849033319621555,False,CONVERGENCIA,97|99,<l-3>×1|<gl-3v>×1
+P_Primavera,113,123,6,1,0,4,1,0.167,0.833,1.1053,1.0,False,CONVERGENCIA,117,<lxl(7p)>×1|<lxl(9p)>×1|(11)×1
+P_Gentio,193,207,3,1,1,1,0,0.667,0.667,4.0099,0.3440559440559441,False,CONVERGENCIA,195,<3lgl(2p)lgla>×1
+P_Ruth,81,89,5,1,1,2,1,0.4,0.6,1.8903,1.0,False,CONVERGENCIA,85,<<4pp<4l(3p)(glla-3v)(3p)l>×1|<<4llpp(glla-4v)ppl>×1|<2>llp(glla-5v)pll>×1
+P_Jafisa - Grafico A,33,41,5,1,3,1,0,0.8,0.4,2.5875,1.0,False,CONVERGENCIA,35,/×1|<a(7p)ga(7p)a(plxl-3v)p>×1|<a(7p)ga(7p)gl(3p)lxl(3p)l>×1
+P_Celia,21,31,6,1,2,1,2,0.5,0.333,2.2092,0.849033319621555,False,CONVERGENCIA,25,
+P_Conchita Romero,107,127,11,1,5,2,3,0.545,0.273,2.5476,0.02097902097902098,True,CONVERGENCIA,125,<lplag>×1|<aglp>×1|<l(3p)lg>×1|<3l(3p)l>×1
+P_Jafisa - Grafico A,1,11,4,1,3,0,0,1.0,0.25,2.586,1.0,False,CONVERGENCIA,11,<ll2>>×1
+P_Ruth,1,7,4,1,3,0,0,1.0,0.25,1.6741,1.0,False,CONVERGENCIA,1,5>×1
+P_Pasión,69,75,4,1,2,0,1,0.75,0.25,1.3937,0.849033319621555,False,CONVERGENCIA,75,
+P_Helga,195,205,6,0,0,6,0,0.0,1.0,1.3389,0.6041958041958042,False,PERFIL_LEXIC,,<l(9p)lalapglg>×1|<l(11p)lal3lg>×1|<l(13p)lalxlg>×1|<l(15p)lapg>×1|<l(17p)l3>×1|<l(19p)lx>×1
+P_Celia,69,75,4,0,0,4,0,0.0,1.0,1.581,1.0,False,PERFIL_LEXIC,,u×1|n×1|o×1
+P_Ruth,31,35,3,0,0,3,0,0.0,1.0,2.0352,1.0,False,PERFIL_LEXIC,,<ppl>×1|<pplpl>×1|<ppl(3p)l>×1
+P_Ruth,49,53,3,0,0,3,0,0.0,1.0,1.8001,1.0,False,PERFIL_LEXIC,,33>×1|<l(6p)xppx(6p)lppgllapp>×1
+P_Conchita Romero,97,103,4,0,0,3,1,0.0,0.75,1.1922,1.0,False,PERFIL_LEXIC,,<l3>×1|<l(2p)>×1|<(3p)l>×1
+P_Primavera,101,109,5,0,0,3,2,0.0,0.6,0.483,1.0,False,PERFIL_LEXIC,,
+P_Conchita Romero,17,21,3,0,0,1,2,0.0,0.333,0.9272,1.0,False,PERFIL_LEXIC,,<(5p)lxl>×1
+P_Puntilla del Cacus,11,15,3,0,0,1,2,0.0,0.333,0.3881,0.48776223776223776,False,PERFIL_LEXIC,,
+P_Helga,27,33,4,0,0,1,3,0.0,0.25,0.7303,1.0,False,PERFIL_LEXIC,,<l(5p)l3>×1
+P_Pasión,121,125,3,0,1,1,1,0.333,0.333,1.6947,0.849033319621555,False,MIXT,,<lgl(4p)(la-3v)pgl>×1
+P_Conchita Romero,39,47,5,0,1,1,3,0.2,0.2,0.4866,1.0,False,MIXT,,<la(9p)gl(3p)>×1
+P_Jafisa - Grafico B,59,95,19,0,13,0,6,0.684,0.0,1.187,0.02097902097902098,True,PERFIL_GRAMATICAL,,
+P_Renacimiento,1,9,5,0,5,0,0,1.0,0.0,0.8402,0.04195804195804196,True,PERFIL_GRAMATICAL,,
+P_Primavera,1,15,8,0,7,0,1,0.875,0.0,1.9118,0.6041958041958042,False,PERFIL_GRAMATICAL,,
+P_Celia,1,17,8,0,8,0,0,1.0,0.0,1.8357,0.849033319621555,False,PERFIL_GRAMATICAL,,
+P_Helga,7,23,9,0,5,0,4,0.556,0.0,0.8768,0.789574062301335,False,PERFIL_GRAMATICAL,,
+P_Jafisa - Grafico C,21,25,3,0,1,0,2,0.333,0.0,0.9456,0.3656343656343656,False,PERFIL_GRAMATICAL,,
+P_Cori,1,7,4,0,2,0,2,0.5,0.0,0.5807,0.35664335664335667,False,PERFIL_GRAMATICAL,,
+P_Gentio,1,5,3,0,3,0,0,1.0,0.0,0.6904,1.0,False,PERFIL_GRAMATICAL,,
+P_Pasión,1,5,3,0,3,0,0,1.0,0.0,0.6416,1.0,False,PERFIL_GRAMATICAL,,
+P_Rosa de los Vientos,1,5,3,0,2,0,1,0.667,0.0,0.5079,1.0,False,PERFIL_GRAMATICAL,,
+P_Helga,65,71,4,0,1,0,3,0.25,0.0,0.2759,1.0,False,PERFIL_GRAMATICAL,,
+P_Gentio,223,229,4,0,1,0,3,0.25,0.0,0.2569,1.0,False,PERFIL_GRAMATICAL,,
+P_Helga,43,53,6,0,3,0,3,0.5,0.0,0.1104,1.0,False,PERFIL_GRAMATICAL,,
+P_Conchita Romero,1,7,4,0,3,0,1,0.75,0.0,0.1412,1.0,False,PERFIL_GRAMATICAL,,
+P_Conchita Romero,159,163,3,0,0,0,3,0.0,0.0,0.3983,1.0,False,SENSE_SENYAL,,
+P_Conchita Romero,173,177,3,0,0,0,3,0.0,0.0,0.2431,1.0,False,SENSE_SENYAL,,
+P_Rosa de los Vientos,83,91,5,0,0,0,5,0.0,0.0,0.1105,1.0,False,SENSE_SENYAL,,
+P_Primavera,71,75,3,0,0,0,3,0.0,0.0,0.1263,1.0,False,SENSE_SENYAL,,

@@ -1,0 +1,61 @@
+8p
+1 px
+3 2>
+5 pllp
+7 (2)ll(2)
+9 (3)ll(3)
+11 (4)ll(4)
+13 l(5)l(5)
+15 lpl(5)lpl(5)
+17 l3l(5)l3l(5)
+19 l3l(5)(lp-3v)l(5)
+21 l3l(5)l(2)l3l(2)l(5)
+23 l3l(5)l(3)l3l(3)l(5)
+25 l3l(5)l(4)l3l(4)l(5)
+27 l3l(5)l(5)l3l(5)l(5)
+29 l3l(5)l(6)l3l(6)l(5)
+31 l3l(5)l(7)l3l(7)l(5)
+33 l3l(5)lpl(3)g(2)ll3ll(2)a(3)lpl(5)
+35 l3l(5)l3l(2)g(2)l(2)lxl(2)l(2)a(2)l3l(5)
+37 l3l(5)l3lpg(2)l(4)lxl(4)l(2)apl3l(5)
+39 l3l(5)l3lg(2)lpgllap(3)lgllapl(2)al3l(5)
+41 l3l(5)l3lpglglla(2)l(5)l(2)gllala pl3l(5)
+43 l3l(5)l3lgl(3)gllal(7)lglla(3)la l3l(5)
+45 l3l(5)lagllaglla(2)l(3)3(3)l(2)(pella-2v)gl(5)
+47 l3l(5)(glla-3v)l(3)3(3)l(glla-3v)(5)
+49 l3l(5)lagllaglagl(9)la(glla-2v)gl(5)
+51 l3l(5)(pella-2v)3ll(11)ll3(glla-2v)(5)
+53 l3l(5)laglla3ll(15)ll3gllagl(5)
+55 l3l(5)glla33ll(6)g(3>-3v)a(6)ll3glla(5)
+57 l3l(5)la3ll(7)gp(3>(2)-2v)3>pa(7)ll3gl(5)
+59 l3l(5)3l(8)g(2)(3>(4)-2v)3>(2)a(8)l3(5)
+61 l3l(6)l(8)g(3)(3>(6)-2v)3>Z(3)a(8)l(6)
+63 l3la(5)la(5)g(4)(3>(8)-2v)3>(4)a(5)gl(5)g
+65 l3la(5)la(3)g(5)(3>(10)-2v)3>(5)a(3)gl(5)g
+67 l3la(5)lapg(6)(3>(12)-2v)3>(6)apgl(5)g
+69 l3la(5)l3(7)(3>(14)-2v)3>(7)3l(5)g
+71 l3la(5)la(7)(lpla(12)g-2v)lpl(7)gl(5)g
+73 l3la(5)la(4)g(l(3)la(10)g-2v)l(3)la(4)gl(5)g
+75 l3la(5)la(2)g(l(2)llapla(8)g-2v)l(2)lla pla(2)gl(5)g
+77 l3la(5)lag(l(glla-2v)la(6)g-2v)l(glla-2v)lagl(5)g
+79 l3la(5)lgll3glla(3)la(4)gl(3)glla(3)la(4)gl(3)glla3llal(5)g
+81 l3la(1)l(2)(glla-2v)(2)la(2)pl(2)(glla-2v)la(2)(glla-2v)(2)l(5)g
+83 l(3)la(1)l(glla-3v)plapglp(glla-3v)pla glp(glla-3v)l(5)g
+85 l(5)la(1)la(glla-3v)3ll3(glla-3v)3ll3(glla-2v)gl(5)g
+87 l(7)la(5)l3(glla-9v)3l(5)g
+89 l(3)ll(3)ll(3)la(5)l3(glla-8v)3l(5)g
+91 l(5)ll-3v)al(5)l3(glla-7v)3l(5)g
+93 l(7)ll-2v)(7)la(1)l3(glla-6v)3l(5)g
+95 l(9)ll-2v)(9)la(1)l3(glla-5v)3l(5)g
+97 l(11)ll-2v)(11)la(1)l3(glla-4v)3l(5)g
+99 l(13)ll-2v)(13)la(1)l3(glla-3v)3l(5)g
+101 l(15)ll-2v)(15)la(1)l3(glla-2v)3l(5)g
+103 l(17)l(17)l(17)la(1)l3glla3l(1)g
+105 lpl(7)3(7)lpl(7)3(7)lpl(7)3(7)lpla(5)l33l(5)g
+107 l(3)l(6)3(6)l(3)l(6)3(6)l(3)l(6)3(6)l(3)la(5)lgl(5)g
+109 lpl3lpl(5)3(5)lpl3lpl(5)3(5)lpl3lpl(5)3(5)lpl3lpla(11)g
+111 l(3)lxl(3)l(4)3(4)l(3)lxl(3)l(4)3(4)l(3)lxl(3)l(4)3(4)l(3)lxl(3)la(9)l
+113 lpl3l3l3lpl(3)3(3)lpl3l3l3lpla(7)g
+115 l(3)lxl(3)lxl(3)l(2)3(2)l(3)lxl(3)lxl(3)l(2)3(2)l(3)lxl(3)lxl(3)l(2)3(2)l(3)lxl(3)lxl(3)la(5)g
+117 (lpl3l3l3l3l3lplp3p-3v)lp(l3-3v)lpla(3)g
+119 (l(3)lxl(3)lxl(3)lxl(3)l-3v)(3)lxl-3v)(3)apg

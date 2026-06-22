@@ -1,0 +1,45 @@
+stream,n_tokens,alphabet_size,IC,IC_norm,IC_uniforme,IC_ratio_vs_unif,top_token,top_token_pct,kasiski_n3_repeats,kasiski_n3_gcd,kasiski_n4_repeats,kasiski_n4_gcd
+corpus_complet,83098,130,0.392842,51.0694,0.007692,51.069,P,60.232,1195,1,2222,1
+anomalies_global,3746,59,0.526369,31.0558,0.016949,31.056,P,70.982,117,1,136,1
+marcadors_corpus,83086,126,0.392955,49.5123,0.007937,49.512,P,60.241,1194,1,2222,1
+marcadors_anomalies,3746,59,0.526369,31.0558,0.016949,31.056,P,70.982,117,1,136,1
+anomalies_ND_Anelise,6,,,,,,,,,,,
+anomalies_ND_Aurea,42,8,0.218351,1.7468,0.125,1.747,L,38.095,12,1,7,1
+anomalies_ND_Campesina,36,8,0.209524,1.6762,0.125,1.676,P,33.333,5,1,1,2
+anomalies_ND_Chechee,10,5,0.133333,0.6667,0.2,0.667,L,30.0,0,0,0,0
+anomalies_ND_Chistrofe Rosa de Navidad,53,14,0.151669,2.1234,0.071429,2.123,L,26.415,10,1,5,2
+anomalies_ND_Coco liso,8,,,,,,,,,,,
+anomalies_ND_Conchita Romero,19,3,0.438596,1.3158,0.333333,1.316,P,63.158,5,2,5,1
+anomalies_ND_Demetri grande,34,5,0.224599,1.123,0.2,1.123,L,32.353,8,1,9,1
+anomalies_ND_Demetri pequeño,20,7,0.215789,1.5105,0.142857,1.511,P,40.0,2,5,0,0
+anomalies_ND_Dolores,177,28,0.134052,3.7535,0.035714,3.753,L,30.508,29,1,28,1
+anomalies_ND_Isabelet,61,10,0.343716,3.4372,0.1,3.437,L,44.262,4,51,3,51
+anomalies_ND_Maria,3021,14,0.688895,9.6445,0.071429,9.645,P,81.629,30,1,25,1
+anomalies_ND_Merche,23,11,0.098814,1.087,0.090909,1.087,P,21.739,0,0,0,0
+anomalies_ND_Modelo Ros Mari,58,5,0.462795,2.314,0.2,2.314,V,65.517,3,2,2,9
+anomalies_ND_Punto Angelines para blusa,60,6,0.333333,2.0,0.166667,2.0,P,53.333,20,1,24,1
+anomalies_ND_Renacimiento,4,,,,,,,,,,,
+anomalies_ND_Rosario,42,7,0.222997,1.561,0.142857,1.561,P,38.095,5,1,3,1
+anomalies_ND_Ruth,72,14,0.151408,2.1197,0.071429,2.12,P,30.556,22,1,18,1
+marcadors_ND_Anelise,1476,29,0.138141,4.0061,0.034483,4.006,L,29.065,149,1,232,1
+marcadors_ND_Aurea,2811,19,0.161972,3.0775,0.052632,3.077,L,32.729,187,1,326,1
+marcadors_ND_Campesina,264,20,0.187896,3.7579,0.05,3.758,L,38.258,39,1,39,1
+marcadors_ND_Chechee,2024,30,0.655371,19.6611,0.033333,19.661,L,80.781,103,1,97,1
+marcadors_ND_Chistrofe Rosa de Navidad,1213,34,0.17405,5.9177,0.029412,5.918,L,32.481,161,1,190,1
+marcadors_ND_Coco liso,2135,25,0.15407,3.8517,0.04,3.852,L,30.164,155,1,256,1
+marcadors_ND_Conchita Romero,1851,26,0.208603,5.4237,0.038462,5.424,L,35.873,184,1,247,1
+marcadors_ND_Demetri grande,740,21,0.143945,3.0229,0.047619,3.023,L,28.649,108,1,131,1
+marcadors_ND_Demetri pequeño,313,14,0.133858,1.874,0.071429,1.874,L,27.157,66,1,70,1
+marcadors_ND_Dolores,1171,52,0.162706,8.4607,0.019231,8.461,L,34.842,129,1,158,1
+marcadors_ND_Isabelet,2865,31,0.154483,4.789,0.032258,4.789,L,32.705,197,1,346,1
+marcadors_ND_Maria,51877,56,0.76008,42.5645,0.017857,42.564,P,86.979,310,1,490,1
+marcadors_ND_Merche,811,29,0.204028,5.9168,0.034483,5.917,L,39.951,95,1,111,1
+marcadors_ND_Modelo Ros Mari,2205,11,0.348889,3.8378,0.090909,3.838,P,52.698,61,1,99,1
+marcadors_ND_Punto Angelines para blusa,439,7,0.292966,2.0508,0.142857,2.051,R,39.18,46,1,70,1
+marcadors_ND_Renacimiento,643,22,0.248083,5.4578,0.045455,5.458,L,46.501,82,1,104,1
+marcadors_ND_Rosario,5247,13,0.245952,3.1974,0.076923,3.197,P,37.984,101,1,192,1
+marcadors_ND_Ruth,1219,22,0.139389,3.0665,0.045455,3.067,L,24.036,129,1,157,1
+marcadors_ND_Sin nombre,53,10,0.181422,1.8142,0.1,1.814,L,32.075,8,1,7,1
+marcadors_ND_Tara,1331,26,0.23935,6.2231,0.038462,6.223,L,43.727,137,1,205,1
+marcadors_ND_Vilno (Hijo),2143,37,0.138698,5.1318,0.027027,5.132,L,30.285,220,1,303,1
+marcadors_ND_Zapatitos de recién nacido,255,2,0.79157,1.5831,0.5,1.583,P,88.235,5,1,8,1

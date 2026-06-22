@@ -1,0 +1,119 @@
+{
+  "morse": [
+    {
+      "parella": "l/v",
+      "n1": 3,
+      "n2": 865,
+      "ratio": 0.003468208092485549,
+      "n_grups": 868,
+      "dot": "l",
+      "text": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+      "score": 0.0008658008658008658,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "a/v",
+      "n1": 2,
+      "n2": 865,
+      "ratio": 0.0023121387283236996,
+      "n_grups": 867,
+      "dot": "a",
+      "text": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+      "score": 0.0005778676683039584,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "p/v",
+      "n1": 3,
+      "n2": 865,
+      "ratio": 0.003468208092485549,
+      "n_grups": 868,
+      "dot": "p",
+      "text": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTETTTTTT",
+      "score": 0.0005772005772005772,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "g/v",
+      "n1": 1,
+      "n2": 865,
+      "ratio": 0.0011560693641618498,
+      "n_grups": 866,
+      "dot": "g",
+      "text": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTETTTTTT",
+      "score": 0.0002892681515765114,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "v/x",
+      "n1": 865,
+      "n2": 0,
+      "ratio": Infinity,
+      "n_grups": 865,
+      "dot": "v",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+      "score": 0.0,
+      "ctrl": 0.0,
+      "z": 0
+    },
+    {
+      "parella": "v/r",
+      "n1": 865,
+      "n2": 0,
+      "ratio": Infinity,
+      "n_grups": 865,
+      "dot": "v",
+      "text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+      "score": 0.0,
+      "ctrl": 0.0,
+      "z": 0
+    }
+  ],
+  "anomalies_belgues_n": 301,
+  "manolita": {
+    "coincidencies_v71": [
+      {
+        "pag": "ND. 51-54. Chistrofe Rosa de Navidad",
+        "v": 5,
+        "instr": "PL",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "ND. 68-70. Merche",
+        "v": 1,
+        "instr": "PL",
+        "tipus": "SUBCADENA"
+      },
+      {
+        "pag": "ND. 76-78. Chechee",
+        "v": 1,
+        "instr": "P",
+        "tipus": "SUBCADENA"
+      }
+    ],
+    "total_linies_primavera": 0
+  },
+  "cites_manolita": [
+    {
+      "font": "El País (titular, 04-05-2024)",
+      "cita": "(6p)LPA (GLA5N)",
+      "cita_normalitzada": "(6p)lpa(glla-5v)",
+      "nota": "L'OCR del titular ha confós 'GLLA-5V' amb 'GLA5N'."
+    },
+    {
+      "font": "Blog Memòria Repressió Franquista (04-05-2024)",
+      "cita": "71.-(6p)LPA (GLA5N)PPL3LPP(GLLA-5V)GPL",
+      "cita_normalitzada": "(6p)lpa(glla-5v)ppl3lpp(glla-5v)gpl",
+      "nota": "Línia 71 de la peça 'Primavera', cuaderno de Ventas."
+    },
+    {
+      "font": "El País (descripció lingüística)",
+      "cita": "Primavera: Se empieza con 6 puntos de 4 agujas poniendo en 2 agujas 2 puntos, y uno en cada una de las otras dos. Hay tres páginas de instrucciones... Hasta 197 líneas con letras y números.",
+      "nota": "Peça 'Primavera', 3 pàgines, ~197 línies."
+    }
+  ]
+}

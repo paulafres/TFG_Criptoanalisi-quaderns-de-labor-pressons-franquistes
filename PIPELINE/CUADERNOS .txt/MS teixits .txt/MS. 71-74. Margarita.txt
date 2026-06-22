@@ -1,0 +1,74 @@
+10p
+1 
+3 xlpl
+5 xl3l
+7 xll3l
+8 
+9 xlplxlal
+11 pllal3l(2)l
+13 (4)l3l(3)l
+15 gllal3l(4)l
+17 (4)l3l(5)l
+19 gllal3l(6)l
+21 (4)l(3)l(2)a(3)l
+23 gllal(v)l(2)a(3)l
+25 (4)ll(7)ll(2)a(3)
+27 lpgllapl(x-7/v)(l(2)2/v)a(2)
+29 l(glla-2v)l(x-7/v)l(4)l(2)ap
+31 l(3)pela(3)l(2)(lp-4v)plpggllapl(2)a
+33 l(2)(glla-2v)(2)l(4)lpl2>lpl(4)l(glla-2v)lap
+35 3llagllagll3l(2)l(2-4/v)lapglla(3)la
+37 la(GLLA-2v)pgl((2)lpl(2)4/v)l3llagll3gl
+39 (GLLA-2v)gll3l((2)(lp-3/v)l(2)5/v)lap(GLLA-2v)
+41 la(GLLA-2v)pgl(2(7)2-4/v)l3llagllag l
+43 (GLLA-2v)gll3l(x2(5)2x4/v)lap(GLLA-2v)
+45 la(GLLA-2v)pgl(22(3)22-4/v)l3llagllag l
+47 (GLLA-2v)gll3(lx22x22xl4/v)ap(GLLA-2v)
+49 la(GLLA-2v)pgl(a22p2gl(2)l3/v)a22p2gl3llaglla gl
+51 (GLLA-2/v)gll3l(a22pgl(4)l3/v)a22pglap(GLLA-2v)
+53 la(GLLA-2/v)pgl(a2pglpglla(pl-3/v)a2pgl3llagllagl
+55 (GLLA-2/v)gll3l(apgl(GLLA-2v)l3/v)apglap(GLLA-2/v)
+57 la(glla-2v)geep3ll3glla3ll3plla glla3ll3pllagllageep33llp(glla-2v)gl
+59 (glla-16v)
+61 la(glla-15v)gl
+63 (glla-8v)l(glla-8v)l
+65 a(glla-7/v)glpl
+67 ap(glla-6v)pgl(xl-4v)
+69 a(2)(glla-5v)(2)gp(lxl(2)-2v)lxlp
+71 3lla(glla-4v)gll3(2)(lxl(4)-2v)lxl(2)
+73 a(glla-5v)g(3)(lxl(6)-2v)lxl(3)
+75 ap(glla-4v)pg(4)(lxl(8)-2v)lxl(4)
+77 a(2)(glla-3v)(2)p(5)(lxl(10)-2v)lxl(5)
+79 3lla(glla-2v)gll3(6)(lxl(12)-2v)lxl(6)
+81 a(glla-3/v)g(7)(lxl(14)-2/v)lxl(7)
+83 3(glla-2/v)3(8)(lxl(16)-2/v)lxl(8)
+85 3glla3(9)(lxl(18)-2/v)lxl(9)
+87 33(10)(lxl(20)-2/v)lxl(10)
+89 g(11)(lxl(22)-2/v)lxl(11)
+63 (glla-4v)l
+65 a(glla-3v)glxl
+67 ap(glla-2v)pgplxlp
+69 a(2)pela(2)p(2)lxl(2)
+71 3llapll3(3)lxl(3)
+73 a glla g(4)lxl(4)
+75 a(2)p(5)lxl(5)
+77 ap(6)lxl(6)
+79 g(7)lxl(7)
+81 lxla(13)g
+83 plxlpa(11)g
+85 (2)lxl(2)a(9)g
+87 (3)lxl(3)a(7)g
+89 (4)lxl(4)a(5)g
+91 (5)lxl(5)a(3)g
+93 (6)lxl(6)apg
+95 (7)lxl(7)l3l
+97 a(13)gl(3)l
+99 a(11)gl(5)l
+101 a(9)gl(3)lxl(3)l
+103 a(7)gl(4)lplxlpl(4)l
+105 a(5)gl(3)gl(3)lxl(3)la(3)l
+107 a(3)gl(3)glglplalxlalplgla(3)l
+109 apgl(3)glpl(3)lalxlgl(3)lala(3)l
+111 3l(3)(gl-3v)p(la-1v)p(gl-2v)p(la-3/v)(3)l
+113 (3)(gl-3v)(3)lal3lpl(3)(la-3v)l
+115 (2)(gl-3v)(5)lapgl(5)(la-3v)

@@ -1,0 +1,348 @@
+==============================================================================
+ FASE 5.2b — TRIANGULACIÓ GRAMATICAL × LÈXICA SOBRE SEGMENTS
+==============================================================================
+
+Per a cada segment de 5.2, es classifica cada volta segons si
+és anòmala a 5.1 (gramatical), a 5.1b (lèxica), a totes dues
+(convergent) o cap. Veredicte agregat per segment:
+  · CONVERGENCIA      → ≥1 volta gramatical I lèxica
+  · PERFIL_LEXIC      → marcadors lèxics, gramàtica neta (candidat abecedari)
+  · PERFIL_GRAMATICAL → soroll gramatical, sense marcadors (farciment)
+  · MIXT / SENSE_SENYAL
+
+Voltes atípiques totals : 139  (gramaticals=108, lèxiques=63)
+  · dins de segment     : 64
+  · òrfenes (fora seg.) : 75
+
+Segments triangulats : 33
+  CONVERGENCIA       : 8
+  PERFIL_LEXIC       : 3
+  MIXT               : 1
+  PERFIL_GRAMATICAL  : 6
+  SENSE_SENYAL       : 15  (només senyal agregat — control)
+
+------------------------------------------------------------------------------
+  # teixit                 voltes          nV conv gram  lex    fG    fL veredicte         
+------------------------------------------------------------------------------
+  1 CM_Angelines           v63-v91         15    8    0    4  0.53  0.80 CONVERGENCIA      
+  2 CM_Gardenia            v177-v191        8    3    0    5  0.38  1.00 CONVERGENCIA      
+  3 CM_Angelines           v45-v53          5    3    0    1  0.60  0.80 CONVERGENCIA      
+  4 CM_Copas de champán    v53-v65          7    2    0    3  0.29  0.71 CONVERGENCIA      
+  5 CM_Pasión              v87-v95          5    1    1    2  0.40  0.60 CONVERGENCIA      
+  6 CM_Hojas de Roble      v65-v71          4    1    0    1  0.25  0.50 CONVERGENCIA      
+  7 CM_Eterna              v29-v35          4    1    0    1  0.25  0.50 CONVERGENCIA      
+  8 CM_Angelines           v19-v25          4    1    0    0  0.25  0.25 CONVERGENCIA      
+  9 CM_Pepita              v125-v129        3    0    0    2  0.00  0.67 PERFIL_LEXIC      
+ 10 CM_Gardenia            v161-v167        4    0    0    1  0.00  0.25 PERFIL_LEXIC      
+ 11 CM_Gardenia            v73-v81          5    0    0    1  0.00  0.20 PERFIL_LEXIC      
+ 12 CM_Copas de champán    v99-v105         4    0    1    1  0.25  0.25 MIXT              
+ 13 CM_Abouchete           v165-v173        5    0    5    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 14 CM_Abouchete           v75-v83          5    0    5    0  1.00  0.00 PERFIL_GRAMATICAL 
+ 15 CM_Gardenia            v31-v39          5    0    4    0  0.80  0.00 PERFIL_GRAMATICAL 
+ 16 CM_Gardenia            v19-v27          5    0    4    0  0.80  0.00 PERFIL_GRAMATICAL 
+ 17 CM_Abouchete           v87-v91          3    0    1    0  0.33  0.00 PERFIL_GRAMATICAL 
+ 18 CM_Gardenia            v53-v59          4    0    1    0  0.25  0.00 PERFIL_GRAMATICAL 
+ 19 CM_Pelargonia          v7-v25          10    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 20 CM_Hojas y cactus      v5-v19           8    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 21 CM_Pasión              v47-v59          7    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 22 CM_Pasión              v7-v13           4    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 23 CM_Pasión              v107-v117        6    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 24 CM_Pasión              v21-v29          5    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 25 CM_Eterna              v11-v15          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 26 CM_Gardenia            v3-v7            3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 27 CM_Pasión              v33-v41          5    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 28 CM_Hojas de Roble      v29-v33          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 29 CM_Pepita              v107-v111        3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 30 CM_Copas de champán    v17-v21          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 31 CM_Copas de champán    v41-v47          4    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 32 CM_Abouchete           v245-v249        3    0    0    0  0.00  0.00 SENSE_SENYAL      
+ 33 CM_Abouchete           v47-v51          3    0    0    0  0.00  0.00 SENSE_SENYAL      
+
+------------------------------------------------------------------------------
+ DETALL PER SEGMENT
+------------------------------------------------------------------------------
+
+ [1] CM_Angelines  v63-v91  (15 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.247)
+     classes voltes   : convergents=8  gramaticals=0  lèxiques=4  cap=3
+     voltes CONVERGENT: v63, v65, v69, v75, v81, v85, v89, v91
+     voltes LEXICA    : v77, v79, v83, v87
+     tokens C_RARE    : <(3)l4l>×1, <<3>23>×1, (99)×1, <(3)3(3)l>×1, <l(2)3(2)lp>×1, <lp3pl3>×1, <3l(3)l>×1, <4l(3)l>×1, <glal3l>×1, <lapgl>2>×1, <4l(4)l>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [2] CM_Gardenia  v177-v191  (8 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.011)
+     classes voltes   : convergents=3  gramaticals=0  lèxiques=5  cap=0
+     voltes CONVERGENT: v183, v187, v191
+     voltes LEXICA    : v177, v179, v181, v185, v189
+     tokens C_RARE    : <a(5)lpl(5)gl(4)l>×1, <a(5)lpl(5)gl(6)l>×1, <a(5)lpl(5)gl(8)l>×1, <a(11)gl(10)l>×1, <a(9)gl(4)l(4)l(4)l>×1, <a(7)glpl(4)lxl(4)lxl(4)lpl>×1, <a(5)gl(3)l(4)lrxrl(4)lrxrl(4)l(3)l>×1, <a(3)glpglla(4)lxrxrxl(4)lxrxrxl(4)gllapl>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [3] CM_Angelines  v45-v53  (5 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.086)
+     classes voltes   : convergents=3  gramaticals=0  lèxiques=1  cap=1
+     voltes CONVERGENT: v47, v49, v51
+     voltes LEXICA    : v45
+     tokens C_RARE    : <lplapg>×1, (53)×1, (55)×1, (57)×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [4] CM_Copas de champán  v53-v65  (7 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : YES  (q=0.016)
+     classes voltes   : convergents=2  gramaticals=0  lèxiques=3  cap=2
+     voltes CONVERGENT: v59, v63
+     voltes LEXICA    : v55, v57, v61
+     tokens C_RARE    : <l(3)lalxlg>×1, <lal3lgl(3)>×1, <3llalapgl>×1, <l3l(6)>×1, <gllagll3>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [5] CM_Pasión  v87-v95  (5 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.491)
+     classes voltes   : convergents=1  gramaticals=1  lèxiques=2  cap=1
+     voltes CONVERGENT: v91
+     voltes LEXICA    : v93, v95
+     voltes GRAMATICAL: v89
+     tokens C_RARE    : <lpl(9)>×1, <l3l(3)ga(2)>×1, <l(3)l(9)>×1, <lglplala(5)g>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [6] CM_Hojas de Roble  v65-v71  (4 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=0.247)
+     classes voltes   : convergents=1  gramaticals=0  lèxiques=1  cap=2
+     voltes CONVERGENT: v71
+     voltes LEXICA    : v69
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [7] CM_Eterna  v29-v35  (4 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=1  gramaticals=0  lèxiques=1  cap=2
+     voltes CONVERGENT: v35
+     voltes LEXICA    : v33
+     tokens C_RARE    : D×1, <(2)lxl>×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [8] CM_Angelines  v19-v25  (4 voltes)  →  CONVERGENCIA
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=1  gramaticals=0  lèxiques=0  cap=3
+     voltes CONVERGENT: v25
+     tokens C_RARE    : <3×1
+     >> Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).
+
+ [9] CM_Pepita  v125-v129  (3 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=2  cap=1
+     voltes LEXICA    : v127, v129
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [10] CM_Gardenia  v161-v167  (4 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=1  cap=3
+     voltes LEXICA    : v161
+     tokens C_RARE    : 2>×1
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [11] CM_Gardenia  v73-v81  (5 voltes)  →  PERFIL_LEXIC
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=1  cap=4
+     voltes LEXICA    : v75
+     >> Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.
+
+ [12] CM_Copas de champán  v99-v105  (4 voltes)  →  MIXT
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=1  cap=2
+     voltes LEXICA    : v105
+     voltes GRAMATICAL: v103
+     >> Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.
+
+ [13] CM_Abouchete  v165-v173  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.247)
+     classes voltes   : convergents=0  gramaticals=5  lèxiques=0  cap=0
+     voltes GRAMATICAL: v165, v167, v169, v171, v173
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [14] CM_Abouchete  v75-v83  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=0.256)
+     classes voltes   : convergents=0  gramaticals=5  lèxiques=0  cap=0
+     voltes GRAMATICAL: v75, v77, v79, v81, v83
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [15] CM_Gardenia  v31-v39  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=4  lèxiques=0  cap=1
+     voltes GRAMATICAL: v31, v33, v37, v39
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [16] CM_Gardenia  v19-v27  (5 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=4  lèxiques=0  cap=1
+     voltes GRAMATICAL: v19, v21, v25, v27
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [17] CM_Abouchete  v87-v91  (3 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=2
+     voltes GRAMATICAL: v87
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [18] CM_Gardenia  v53-v59  (4 voltes)  →  PERFIL_GRAMATICAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=1  lèxiques=0  cap=3
+     voltes GRAMATICAL: v53
+     >> Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.
+
+ [19] CM_Pelargonia  v7-v25  (10 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : YES  (q=0.011)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=10
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [20] CM_Hojas y cactus  v5-v19  (8 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : YES  (q=0.011)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=8
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [21] CM_Pasión  v47-v59  (7 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=7
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [22] CM_Pasión  v7-v13  (4 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=4
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [23] CM_Pasión  v107-v117  (6 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=6
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [24] CM_Pasión  v21-v29  (5 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=5
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [25] CM_Eterna  v11-v15  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [26] CM_Gardenia  v3-v7  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [27] CM_Pasión  v33-v41  (5 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=5
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [28] CM_Hojas de Roble  v29-v33  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [29] CM_Pepita  v107-v111  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [30] CM_Copas de champán  v17-v21  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [31] CM_Copas de champán  v41-v47  (4 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=4
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [32] CM_Abouchete  v245-v249  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+ [33] CM_Abouchete  v47-v51  (3 voltes)  →  SENSE_SENYAL
+     fase 5.2 sig FDR : no  (q=1.000)
+     classes voltes   : convergents=0  gramaticals=0  lèxiques=0  cap=3
+     >> Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.
+
+==============================================================================
+ VOLTES ATÍPIQUES ÒRFENES (fora de qualsevol segment de 5.2)
+==============================================================================
+ CONVERGENT (5.1∩5.1b) : 12   ← les més rellevants (anòmales però 5.2 no les va agrupar)
+ LEXICA (només 5.1b)   : 9
+ GRAMATICAL (només 5.1): 54
+
+teixit                  volta classe      cat_5.1   n_rare  tokens_rare / flags
+------------------------------------------------------------------------------
+CM_Abouchete               59 CONVERGENT  MODERADA       1  <xl(3)>
+CM_Abouchete               71 CONVERGENT  MODERADA       1  <l(3)lxl>
+CM_Eterna                  39 CONVERGENT  ALTA           1  <(6)lxl>
+CM_Gardenia                89 CONVERGENT  MODERADA       1  <<4rxrxrxr>
+CM_Gardenia               115 CONVERGENT  MODERADA       0  flag_sig_salt
+CM_Gardenia               117 CONVERGENT  MODERADA       1  33
+CM_Gardenia               213 CONVERGENT  ALTA           1  23>
+CM_Gardenia               219 CONVERGENT  MODERADA       0  flag_sig_salt
+CM_Gardenia               221 CONVERGENT  MODERADA       0  flag_sig_salt
+CM_Gardenia               223 CONVERGENT  ALTA           0  flag_sig_salt|flag_micro_max
+CM_Hojas de Roble         101 CONVERGENT  MODERADA       1  <6
+CM_Pasión                 103 CONVERGENT  MODERADA       1  <allg(2)>
+CM_Abouchete              133 LEXICA      normal         1  5
+CM_Angelines               29 LEXICA      normal         0  
+CM_Angelines               57 LEXICA      normal         1  <pl3l(2)>
+CM_Eterna                  37 LEXICA      normal         0  
+CM_Gardenia               129 LEXICA      normal         1  v
+CM_Gardenia               237 LEXICA      normal         0  
+CM_Pasión                 101 LEXICA      normal         1  <lalal3lglgl(3)>
+CM_Pasión                 121 LEXICA      normal         1  <lx>
+CM_Pepita                  73 LEXICA      normal         3  {|12|}
+CM_Abouchete                3 GRAMATICAL  ALTA           0  flag_sig_intra|flag_sig_salt
+CM_Abouchete                5 GRAMATICAL  ALTA           0  flag_sig_intra|flag_sig_salt
+CM_Abouchete                7 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Abouchete               17 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Abouchete               73 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Abouchete              261 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Angelines                5 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Angelines                7 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Angelines               11 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Copas de champán         3 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Copas de champán         5 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Copas de champán         7 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Copas de champán        95 GRAMATICAL  ALTA           0  flag_micro_mean|flag_micro_max
+CM_Copas de champán        97 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Eterna                   5 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Eterna                   9 GRAMATICAL  ALTA           0  flag_sig_intra|flag_sig_salt
+CM_Gardenia                 1 GRAMATICAL  ALTA           0  flag_sig_intra|flag_macro_surp
+CM_Gardenia                51 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Gardenia               107 GRAMATICAL  CRÍTICA        0  flag_sig_intra|flag_sig_salt|flag_macro_surp
+CM_Gardenia               109 GRAMATICAL  ALTA           0  flag_sig_salt|flag_macro_surp
+CM_Gardenia               119 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Gardenia               193 GRAMATICAL  MODERADA       0  flag_macro_surp
+CM_Gardenia               195 GRAMATICAL  MODERADA       0  flag_macro_surp
+CM_Gardenia               211 GRAMATICAL  CRÍTICA        0  flag_sig_intra|flag_sig_salt|flag_macro_surp
+CM_Gardenia               239 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Hojas de Roble           1 GRAMATICAL  ALTA           0  flag_sig_intra|flag_micro_mean
+CM_Hojas de Roble           5 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Hojas de Roble          75 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Hojas de Roble          77 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Hojas de Roble         103 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Hojas de Roble         119 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Hojas y cactus           1 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Hojas y cactus           3 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Hojas y cactus          27 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Hojas y cactus          33 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Pasión                   1 GRAMATICAL  ALTA           0  flag_sig_intra|flag_micro_mean
+CM_Pasión                  15 GRAMATICAL  MODERADA       0  flag_micro_mean
+CM_Pasión                  31 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Pasión                  99 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Pelargonia               5 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Pelargonia              71 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Pelargonia              79 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Pepita                  11 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Pepita                  13 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Pepita                  33 GRAMATICAL  MODERADA       0  flag_sig_salt
+CM_Pepita                  39 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Pepita                  93 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Pepita                 103 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Pepita                 119 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Pepita                 121 GRAMATICAL  MODERADA       0  flag_micro_max
+CM_Pepita                 131 GRAMATICAL  MODERADA       0  flag_sig_intra
+CM_Punto Angelines          1 GRAMATICAL  ALTA           0  flag_sig_intra|flag_sig_salt
+CM_Punto Angelines          2 GRAMATICAL  MODERADA       0  flag_macro_surp
+CM_Punto Angelines          4 GRAMATICAL  MODERADA       0  flag_macro_surp

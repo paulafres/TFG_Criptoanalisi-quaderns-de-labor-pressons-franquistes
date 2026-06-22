@@ -1,0 +1,4754 @@
+{
+  "metadades": {
+    "alfabet": [
+      "V0",
+      "V1",
+      "V2"
+    ],
+    "num_teixits": 14
+  },
+  "sequencies": {
+    "P_Jafisa - Grafico B": {
+      "cadena": [
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V1",
+        "V1",
+        "V1",
+        "V1",
+        "V1",
+        "V0",
+        "V1",
+        "V0",
+        "V1",
+        "V0",
+        "V1",
+        "V0",
+        "V1",
+        "V0",
+        "V1",
+        "V2",
+        "V2",
+        "V0",
+        "V0"
+      ],
+      "longitud": 48,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 56
+        },
+        {
+          "volta": 3,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 5,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 7,
+          "tipus": "V2",
+          "longitud": 36
+        },
+        {
+          "volta": 9,
+          "tipus": "V2",
+          "longitud": 36
+        },
+        {
+          "volta": 11,
+          "tipus": "V2",
+          "longitud": 23
+        },
+        {
+          "volta": 13,
+          "tipus": "V2",
+          "longitud": 23
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 17
+        },
+        {
+          "volta": 17,
+          "tipus": "V2",
+          "longitud": 26
+        },
+        {
+          "volta": 19,
+          "tipus": "V2",
+          "longitud": 36
+        },
+        {
+          "volta": 21,
+          "tipus": "V2",
+          "longitud": 38
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 25,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 31,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 33,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 35,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 37,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 39,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 41,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 45,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 47,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 49,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 51,
+          "tipus": "V0",
+          "longitud": 15
+        },
+        {
+          "volta": 53,
+          "tipus": "V0",
+          "longitud": 13
+        },
+        {
+          "volta": 55,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 57,
+          "tipus": "V0",
+          "longitud": 9
+        },
+        {
+          "volta": 59,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 61,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 63,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 65,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 67,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 69,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 71,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 73,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 75,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 77,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 79,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 81,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 83,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 85,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 87,
+          "tipus": "V1",
+          "longitud": 3
+        },
+        {
+          "volta": 89,
+          "tipus": "V2",
+          "longitud": 5
+        },
+        {
+          "volta": 91,
+          "tipus": "V2",
+          "longitud": 6
+        },
+        {
+          "volta": 93,
+          "tipus": "V0",
+          "longitud": 3
+        },
+        {
+          "volta": 95,
+          "tipus": "V0",
+          "longitud": 1
+        }
+      ]
+    },
+    "P_Jafisa - Grafico C": {
+      "cadena": [
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2"
+      ],
+      "longitud": 11,
+      "voltes": [
+        {
+          "volta": 5,
+          "tipus": "V0",
+          "longitud": 13
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 9,
+          "tipus": "V2",
+          "longitud": 35
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 37
+        },
+        {
+          "volta": 13,
+          "tipus": "V2",
+          "longitud": 38
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 21,
+          "tipus": "V2",
+          "longitud": 12
+        },
+        {
+          "volta": 23,
+          "tipus": "V2",
+          "longitud": 16
+        },
+        {
+          "volta": 25,
+          "tipus": "V2",
+          "longitud": 11
+        }
+      ]
+    },
+    "P_Conchita Romero": {
+      "cadena": [
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V1",
+        "V1",
+        "V1",
+        "V1",
+        "V1",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2"
+      ],
+      "longitud": 89,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 2
+        },
+        {
+          "volta": 3,
+          "tipus": "V0",
+          "longitud": 3
+        },
+        {
+          "volta": 5,
+          "tipus": "V2",
+          "longitud": 5
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 7
+        },
+        {
+          "volta": 9,
+          "tipus": "V0",
+          "longitud": 9
+        },
+        {
+          "volta": 11,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 13,
+          "tipus": "V2",
+          "longitud": 14
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 17
+        },
+        {
+          "volta": 17,
+          "tipus": "V2",
+          "longitud": 18
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 25,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 31,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 33,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 35,
+          "tipus": "V2",
+          "longitud": 27
+        },
+        {
+          "volta": 37,
+          "tipus": "V2",
+          "longitud": 31
+        },
+        {
+          "volta": 39,
+          "tipus": "V2",
+          "longitud": 19
+        },
+        {
+          "volta": 41,
+          "tipus": "V2",
+          "longitud": 16
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 12
+        },
+        {
+          "volta": 45,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 47,
+          "tipus": "V0",
+          "longitud": 14
+        },
+        {
+          "volta": 49,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 51,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 53,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 55,
+          "tipus": "V2",
+          "longitud": 19
+        },
+        {
+          "volta": 57,
+          "tipus": "V2",
+          "longitud": 47
+        },
+        {
+          "volta": 59,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 61,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 63,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 65,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 67,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 69,
+          "tipus": "V2",
+          "longitud": 16
+        },
+        {
+          "volta": 71,
+          "tipus": "V2",
+          "longitud": 17
+        },
+        {
+          "volta": 73,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 75,
+          "tipus": "V0",
+          "longitud": 44
+        },
+        {
+          "volta": 77,
+          "tipus": "V0",
+          "longitud": 40
+        },
+        {
+          "volta": 79,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 81,
+          "tipus": "V0",
+          "longitud": 34
+        },
+        {
+          "volta": 83,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 85,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 87,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 89,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 91,
+          "tipus": "V2",
+          "longitud": 30
+        },
+        {
+          "volta": 93,
+          "tipus": "V2",
+          "longitud": 33
+        },
+        {
+          "volta": 95,
+          "tipus": "V2",
+          "longitud": 37
+        },
+        {
+          "volta": 97,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 99,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 101,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 103,
+          "tipus": "V2",
+          "longitud": 29
+        },
+        {
+          "volta": 105,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 107,
+          "tipus": "V2",
+          "longitud": 17
+        },
+        {
+          "volta": 109,
+          "tipus": "V2",
+          "longitud": 17
+        },
+        {
+          "volta": 111,
+          "tipus": "V2",
+          "longitud": 20
+        },
+        {
+          "volta": 113,
+          "tipus": "V2",
+          "longitud": 23
+        },
+        {
+          "volta": 115,
+          "tipus": "V2",
+          "longitud": 27
+        },
+        {
+          "volta": 117,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 119,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 121,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 123,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 125,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 127,
+          "tipus": "V2",
+          "longitud": 14
+        },
+        {
+          "volta": 129,
+          "tipus": "V2",
+          "longitud": 23
+        },
+        {
+          "volta": 131,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 133,
+          "tipus": "V0",
+          "longitud": 17
+        },
+        {
+          "volta": 135,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 137,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 139,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 141,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 143,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 145,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 147,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 149,
+          "tipus": "V0",
+          "longitud": 39
+        },
+        {
+          "volta": 151,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 153,
+          "tipus": "V0",
+          "longitud": 43
+        },
+        {
+          "volta": 155,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 157,
+          "tipus": "V0",
+          "longitud": 13
+        },
+        {
+          "volta": 159,
+          "tipus": "V2",
+          "longitud": 12
+        },
+        {
+          "volta": 161,
+          "tipus": "V2",
+          "longitud": 10
+        },
+        {
+          "volta": 163,
+          "tipus": "V2",
+          "longitud": 8
+        },
+        {
+          "volta": 165,
+          "tipus": "V2",
+          "longitud": 34
+        },
+        {
+          "volta": 169,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 171,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 173,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 175,
+          "tipus": "V0",
+          "longitud": 13
+        },
+        {
+          "volta": 177,
+          "tipus": "V2",
+          "longitud": 9
+        },
+        {
+          "volta": 179,
+          "tipus": "V2",
+          "longitud": 14
+        }
+      ]
+    },
+    "P_Ruth": {
+      "cadena": [
+        "V1",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V1",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0"
+      ],
+      "longitud": 59,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 3,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 5,
+          "tipus": "V0",
+          "longitud": 7
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 9
+        },
+        {
+          "volta": 9,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 631,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 633,
+          "tipus": "V0",
+          "longitud": 7
+        },
+        {
+          "volta": 635,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 3,
+          "tipus": "V2",
+          "longitud": 14
+        },
+        {
+          "volta": 5,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 7,
+          "tipus": "V2",
+          "longitud": 25
+        },
+        {
+          "volta": 9,
+          "tipus": "V2",
+          "longitud": 28
+        },
+        {
+          "volta": 11,
+          "tipus": "V2",
+          "longitud": 37
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 15,
+          "tipus": "V2",
+          "longitud": 30
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 55
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 17
+        },
+        {
+          "volta": 23,
+          "tipus": "V2",
+          "longitud": 76
+        },
+        {
+          "volta": 25,
+          "tipus": "V2",
+          "longitud": 73
+        },
+        {
+          "volta": 27,
+          "tipus": "V2",
+          "longitud": 99
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 96
+        },
+        {
+          "volta": 31,
+          "tipus": "V2",
+          "longitud": 83
+        },
+        {
+          "volta": 33,
+          "tipus": "V2",
+          "longitud": 76
+        },
+        {
+          "volta": 35,
+          "tipus": "V2",
+          "longitud": 104
+        },
+        {
+          "volta": 37,
+          "tipus": "V2",
+          "longitud": 129
+        },
+        {
+          "volta": 39,
+          "tipus": "V2",
+          "longitud": 108
+        },
+        {
+          "volta": 41,
+          "tipus": "V2",
+          "longitud": 129
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 103
+        },
+        {
+          "volta": 45,
+          "tipus": "V2",
+          "longitud": 178
+        },
+        {
+          "volta": 47,
+          "tipus": "V2",
+          "longitud": 116
+        },
+        {
+          "volta": 49,
+          "tipus": "V2",
+          "longitud": 97
+        },
+        {
+          "volta": 51,
+          "tipus": "V2",
+          "longitud": 78
+        },
+        {
+          "volta": 53,
+          "tipus": "V2",
+          "longitud": 74
+        },
+        {
+          "volta": 55,
+          "tipus": "V0",
+          "longitud": 68
+        },
+        {
+          "volta": 57,
+          "tipus": "V2",
+          "longitud": 25
+        },
+        {
+          "volta": 59,
+          "tipus": "V0",
+          "longitud": 34
+        },
+        {
+          "volta": 61,
+          "tipus": "V0",
+          "longitud": 48
+        },
+        {
+          "volta": 63,
+          "tipus": "V2",
+          "longitud": 29
+        },
+        {
+          "volta": 65,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 67,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 69,
+          "tipus": "V0",
+          "longitud": 13
+        },
+        {
+          "volta": 71,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 73,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 75,
+          "tipus": "V2",
+          "longitud": 29
+        },
+        {
+          "volta": 77,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 79,
+          "tipus": "V0",
+          "longitud": 53
+        },
+        {
+          "volta": 81,
+          "tipus": "V0",
+          "longitud": 15
+        },
+        {
+          "volta": 83,
+          "tipus": "V2",
+          "longitud": 14
+        },
+        {
+          "volta": 85,
+          "tipus": "V2",
+          "longitud": 10
+        },
+        {
+          "volta": 87,
+          "tipus": "V2",
+          "longitud": 5
+        },
+        {
+          "volta": 89,
+          "tipus": "V2",
+          "longitud": 8
+        },
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 9,
+          "tipus": "V0",
+          "longitud": 12
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 12
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 12
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 11
+        }
+      ]
+    },
+    "P_Primavera": {
+      "cadena": [
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V1",
+        "V1",
+        "V1",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0"
+      ],
+      "longitud": 97,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 1
+        },
+        {
+          "volta": 3,
+          "tipus": "V2",
+          "longitud": 2
+        },
+        {
+          "volta": 5,
+          "tipus": "V2",
+          "longitud": 4
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 6
+        },
+        {
+          "volta": 9,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 11,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 13,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 9
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 17
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 23,
+          "tipus": "V2",
+          "longitud": 20
+        },
+        {
+          "volta": 25,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 29,
+          "tipus": "V2",
+          "longitud": 25
+        },
+        {
+          "volta": 31,
+          "tipus": "V2",
+          "longitud": 14
+        },
+        {
+          "volta": 33,
+          "tipus": "V2",
+          "longitud": 28
+        },
+        {
+          "volta": 35,
+          "tipus": "V2",
+          "longitud": 30
+        },
+        {
+          "volta": 37,
+          "tipus": "V2",
+          "longitud": 28
+        },
+        {
+          "volta": 39,
+          "tipus": "V2",
+          "longitud": 30
+        },
+        {
+          "volta": 41,
+          "tipus": "V2",
+          "longitud": 27
+        },
+        {
+          "volta": 43,
+          "tipus": "V2",
+          "longitud": 32
+        },
+        {
+          "volta": 45,
+          "tipus": "V2",
+          "longitud": 29
+        },
+        {
+          "volta": 47,
+          "tipus": "V0",
+          "longitud": 31
+        },
+        {
+          "volta": 49,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 51,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 53,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 55,
+          "tipus": "V0",
+          "longitud": 43
+        },
+        {
+          "volta": 57,
+          "tipus": "V0",
+          "longitud": 45
+        },
+        {
+          "volta": 59,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 61,
+          "tipus": "V0",
+          "longitud": 34
+        },
+        {
+          "volta": 63,
+          "tipus": "V0",
+          "longitud": 52
+        },
+        {
+          "volta": 65,
+          "tipus": "V0",
+          "longitud": 40
+        },
+        {
+          "volta": 67,
+          "tipus": "V2",
+          "longitud": 43
+        },
+        {
+          "volta": 69,
+          "tipus": "V2",
+          "longitud": 39
+        },
+        {
+          "volta": 71,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 73,
+          "tipus": "V2",
+          "longitud": 28
+        },
+        {
+          "volta": 75,
+          "tipus": "V2",
+          "longitud": 32
+        },
+        {
+          "volta": 77,
+          "tipus": "V2",
+          "longitud": 52
+        },
+        {
+          "volta": 79,
+          "tipus": "V0",
+          "longitud": 50
+        },
+        {
+          "volta": 81,
+          "tipus": "V2",
+          "longitud": 54
+        },
+        {
+          "volta": 83,
+          "tipus": "V0",
+          "longitud": 55
+        },
+        {
+          "volta": 85,
+          "tipus": "V0",
+          "longitud": 55
+        },
+        {
+          "volta": 87,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 89,
+          "tipus": "V0",
+          "longitud": 34
+        },
+        {
+          "volta": 91,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 93,
+          "tipus": "V2",
+          "longitud": 58
+        },
+        {
+          "volta": 95,
+          "tipus": "V0",
+          "longitud": 43
+        },
+        {
+          "volta": 97,
+          "tipus": "V0",
+          "longitud": 59
+        },
+        {
+          "volta": 99,
+          "tipus": "V0",
+          "longitud": 39
+        },
+        {
+          "volta": 101,
+          "tipus": "V2",
+          "longitud": 52
+        },
+        {
+          "volta": 103,
+          "tipus": "V0",
+          "longitud": 34
+        },
+        {
+          "volta": 105,
+          "tipus": "V2",
+          "longitud": 52
+        },
+        {
+          "volta": 107,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 109,
+          "tipus": "V2",
+          "longitud": 51
+        },
+        {
+          "volta": 111,
+          "tipus": "V2",
+          "longitud": 39
+        },
+        {
+          "volta": 113,
+          "tipus": "V2",
+          "longitud": 54
+        },
+        {
+          "volta": 115,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 117,
+          "tipus": "V0",
+          "longitud": 52
+        },
+        {
+          "volta": 119,
+          "tipus": "V0",
+          "longitud": 44
+        },
+        {
+          "volta": 121,
+          "tipus": "V0",
+          "longitud": 52
+        },
+        {
+          "volta": 123,
+          "tipus": "V2",
+          "longitud": 55
+        },
+        {
+          "volta": 125,
+          "tipus": "V0",
+          "longitud": 77
+        },
+        {
+          "volta": 127,
+          "tipus": "V2",
+          "longitud": 54
+        },
+        {
+          "volta": 129,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 131,
+          "tipus": "V0",
+          "longitud": 45
+        },
+        {
+          "volta": 133,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 135,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 137,
+          "tipus": "V2",
+          "longitud": 27
+        },
+        {
+          "volta": 139,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 141,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 143,
+          "tipus": "V2",
+          "longitud": 107
+        },
+        {
+          "volta": 145,
+          "tipus": "V2",
+          "longitud": 24
+        },
+        {
+          "volta": 147,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 149,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 151,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 153,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 155,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 157,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 159,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 161,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 163,
+          "tipus": "V0",
+          "longitud": 44
+        },
+        {
+          "volta": 165,
+          "tipus": "V0",
+          "longitud": 48
+        },
+        {
+          "volta": 167,
+          "tipus": "V0",
+          "longitud": 47
+        },
+        {
+          "volta": 169,
+          "tipus": "V0",
+          "longitud": 56
+        },
+        {
+          "volta": 171,
+          "tipus": "V0",
+          "longitud": 60
+        },
+        {
+          "volta": 173,
+          "tipus": "V0",
+          "longitud": 70
+        },
+        {
+          "volta": 175,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 177,
+          "tipus": "V0",
+          "longitud": 72
+        },
+        {
+          "volta": 179,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 181,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 183,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 185,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 187,
+          "tipus": "V0",
+          "longitud": 48
+        },
+        {
+          "volta": 189,
+          "tipus": "V2",
+          "longitud": 82
+        },
+        {
+          "volta": 191,
+          "tipus": "V2",
+          "longitud": 86
+        },
+        {
+          "volta": 193,
+          "tipus": "V0",
+          "longitud": 26
+        }
+      ]
+    },
+    "P_Pasión": {
+      "cadena": [
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0"
+      ],
+      "longitud": 68,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V2",
+          "longitud": 3
+        },
+        {
+          "volta": 3,
+          "tipus": "V2",
+          "longitud": 5
+        },
+        {
+          "volta": 5,
+          "tipus": "V0",
+          "longitud": 7
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 9
+        },
+        {
+          "volta": 9,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 13
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 25,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 31,
+          "tipus": "V0",
+          "longitud": 19
+        },
+        {
+          "volta": 33,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 35,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 37,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 39,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 41,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 45,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 47,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 49,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 51,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 53,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 55,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 57,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 59,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 61,
+          "tipus": "V0",
+          "longitud": 14
+        },
+        {
+          "volta": 63,
+          "tipus": "V0",
+          "longitud": 14
+        },
+        {
+          "volta": 65,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 67,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 69,
+          "tipus": "V2",
+          "longitud": 7
+        },
+        {
+          "volta": 71,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 73,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 75,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 77,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 79,
+          "tipus": "V0",
+          "longitud": 37
+        },
+        {
+          "volta": 81,
+          "tipus": "V0",
+          "longitud": 48
+        },
+        {
+          "volta": 83,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 85,
+          "tipus": "V0",
+          "longitud": 48
+        },
+        {
+          "volta": 87,
+          "tipus": "V0",
+          "longitud": 51
+        },
+        {
+          "volta": 89,
+          "tipus": "V0",
+          "longitud": 56
+        },
+        {
+          "volta": 91,
+          "tipus": "V2",
+          "longitud": 36
+        },
+        {
+          "volta": 93,
+          "tipus": "V2",
+          "longitud": 20
+        },
+        {
+          "volta": 95,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 97,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 99,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 101,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 103,
+          "tipus": "V2",
+          "longitud": 27
+        },
+        {
+          "volta": 105,
+          "tipus": "V0",
+          "longitud": 19
+        },
+        {
+          "volta": 107,
+          "tipus": "V0",
+          "longitud": 19
+        },
+        {
+          "volta": 109,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 111,
+          "tipus": "V0",
+          "longitud": 19
+        },
+        {
+          "volta": 113,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 115,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 117,
+          "tipus": "V2",
+          "longitud": 20
+        },
+        {
+          "volta": 119,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 121,
+          "tipus": "V2",
+          "longitud": 23
+        },
+        {
+          "volta": 123,
+          "tipus": "V2",
+          "longitud": 8
+        },
+        {
+          "volta": 125,
+          "tipus": "V2",
+          "longitud": 25
+        },
+        {
+          "volta": 127,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 129,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 131,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 133,
+          "tipus": "V0",
+          "longitud": 37
+        },
+        {
+          "volta": 135,
+          "tipus": "V0",
+          "longitud": 40
+        }
+      ]
+    },
+    "P_Celia": {
+      "cadena": [
+        "V2",
+        "V1",
+        "V1",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0"
+      ],
+      "longitud": 53,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V2",
+          "longitud": 2
+        },
+        {
+          "volta": 3,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 5,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 9,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 9
+        },
+        {
+          "volta": 13,
+          "tipus": "V2",
+          "longitud": 4
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 4
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 229
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 4446
+        },
+        {
+          "volta": 25,
+          "tipus": "V2",
+          "longitud": 250
+        },
+        {
+          "volta": 27,
+          "tipus": "V2",
+          "longitud": 234
+        },
+        {
+          "volta": 29,
+          "tipus": "V2",
+          "longitud": 28
+        },
+        {
+          "volta": 31,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 33,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 35,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 37,
+          "tipus": "V0",
+          "longitud": 14
+        },
+        {
+          "volta": 39,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 41,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 45,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 47,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 49,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 51,
+          "tipus": "V0",
+          "longitud": 39
+        },
+        {
+          "volta": 53,
+          "tipus": "V2",
+          "longitud": 40
+        },
+        {
+          "volta": 55,
+          "tipus": "V2",
+          "longitud": 48
+        },
+        {
+          "volta": 57,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 59,
+          "tipus": "V0",
+          "longitud": 34
+        },
+        {
+          "volta": 61,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 63,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 65,
+          "tipus": "V0",
+          "longitud": 19
+        },
+        {
+          "volta": 67,
+          "tipus": "V0",
+          "longitud": 15
+        },
+        {
+          "volta": 69,
+          "tipus": "V0",
+          "longitud": 49
+        },
+        {
+          "volta": 71,
+          "tipus": "V0",
+          "longitud": 44
+        },
+        {
+          "volta": 73,
+          "tipus": "V0",
+          "longitud": 44
+        },
+        {
+          "volta": 75,
+          "tipus": "V0",
+          "longitud": 44
+        },
+        {
+          "volta": 77,
+          "tipus": "V0",
+          "longitud": 44
+        },
+        {
+          "volta": 79,
+          "tipus": "V0",
+          "longitud": 45
+        },
+        {
+          "volta": 81,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 83,
+          "tipus": "V0",
+          "longitud": 54
+        },
+        {
+          "volta": 85,
+          "tipus": "V0",
+          "longitud": 50
+        },
+        {
+          "volta": 87,
+          "tipus": "V0",
+          "longitud": 58
+        },
+        {
+          "volta": 89,
+          "tipus": "V0",
+          "longitud": 54
+        },
+        {
+          "volta": 91,
+          "tipus": "V0",
+          "longitud": 62
+        },
+        {
+          "volta": 93,
+          "tipus": "V0",
+          "longitud": 58
+        },
+        {
+          "volta": 95,
+          "tipus": "V0",
+          "longitud": 66
+        },
+        {
+          "volta": 97,
+          "tipus": "V0",
+          "longitud": 62
+        },
+        {
+          "volta": 99,
+          "tipus": "V0",
+          "longitud": 70
+        },
+        {
+          "volta": 101,
+          "tipus": "V0",
+          "longitud": 67
+        },
+        {
+          "volta": 103,
+          "tipus": "V0",
+          "longitud": 76
+        },
+        {
+          "volta": 105,
+          "tipus": "V0",
+          "longitud": 72
+        },
+        {
+          "volta": 107,
+          "tipus": "V0",
+          "longitud": 78
+        }
+      ]
+    },
+    "P_Rosa de los Vientos": {
+      "cadena": [
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0"
+      ],
+      "longitud": 65,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 1
+        },
+        {
+          "volta": 3,
+          "tipus": "V2",
+          "longitud": 4
+        },
+        {
+          "volta": 5,
+          "tipus": "V0",
+          "longitud": 6
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 9,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 19,
+          "tipus": "V2",
+          "longitud": 13
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 25,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 31,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 33,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 35,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 37,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 39,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 41,
+          "tipus": "V2",
+          "longitud": 13
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 45,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 47,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 49,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 67,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 69,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 71,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 73,
+          "tipus": "V2",
+          "longitud": 17
+        },
+        {
+          "volta": 75,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 77,
+          "tipus": "V2",
+          "longitud": 15
+        },
+        {
+          "volta": 79,
+          "tipus": "V0",
+          "longitud": 9
+        },
+        {
+          "volta": 81,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 83,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 85,
+          "tipus": "V0",
+          "longitud": 6
+        },
+        {
+          "volta": 87,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 89,
+          "tipus": "V2",
+          "longitud": 6
+        },
+        {
+          "volta": 91,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 93,
+          "tipus": "V0",
+          "longitud": 19
+        },
+        {
+          "volta": 95,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 97,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 99,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 101,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 103,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 105,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 107,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 109,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 111,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 113,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 115,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 117,
+          "tipus": "V2",
+          "longitud": 351
+        },
+        {
+          "volta": 119,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 121,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 123,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 125,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 127,
+          "tipus": "V2",
+          "longitud": 351
+        },
+        {
+          "volta": 129,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 141,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 143,
+          "tipus": "V0",
+          "longitud": 37
+        },
+        {
+          "volta": 145,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 147,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 149,
+          "tipus": "V0",
+          "longitud": 19
+        },
+        {
+          "volta": 151,
+          "tipus": "V0",
+          "longitud": 9
+        },
+        {
+          "volta": 153,
+          "tipus": "V0",
+          "longitud": 12
+        },
+        {
+          "volta": 155,
+          "tipus": "V0",
+          "longitud": 13
+        }
+      ]
+    },
+    "P_Renacimiento": {
+      "cadena": [
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2"
+      ],
+      "longitud": 31,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 2
+        },
+        {
+          "volta": 3,
+          "tipus": "V0",
+          "longitud": 2
+        },
+        {
+          "volta": 5,
+          "tipus": "V2",
+          "longitud": 2
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 6
+        },
+        {
+          "volta": 9,
+          "tipus": "V2",
+          "longitud": 8
+        },
+        {
+          "volta": 11,
+          "tipus": "V2",
+          "longitud": 10
+        },
+        {
+          "volta": 13,
+          "tipus": "V2",
+          "longitud": 12
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 14
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 25,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 31,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 33,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 35,
+          "tipus": "V0",
+          "longitud": 34
+        },
+        {
+          "volta": 37,
+          "tipus": "V0",
+          "longitud": 37
+        },
+        {
+          "volta": 39,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 41,
+          "tipus": "V2",
+          "longitud": 43
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 42
+        },
+        {
+          "volta": 45,
+          "tipus": "V2",
+          "longitud": 47
+        },
+        {
+          "volta": 47,
+          "tipus": "V2",
+          "longitud": 44
+        },
+        {
+          "volta": 49,
+          "tipus": "V2",
+          "longitud": 46
+        },
+        {
+          "volta": 51,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 53,
+          "tipus": "V2",
+          "longitud": 41
+        },
+        {
+          "volta": 55,
+          "tipus": "V2",
+          "longitud": 42
+        },
+        {
+          "volta": 57,
+          "tipus": "V2",
+          "longitud": 45
+        },
+        {
+          "volta": 59,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 61,
+          "tipus": "V2",
+          "longitud": 50
+        }
+      ]
+    },
+    "P_Puntilla del Cacus": {
+      "cadena": [
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V0"
+      ],
+      "longitud": 8,
+      "voltes": [
+        {
+          "volta": 5,
+          "tipus": "V2",
+          "longitud": 19
+        },
+        {
+          "volta": 7,
+          "tipus": "V2",
+          "longitud": 23
+        },
+        {
+          "volta": 9,
+          "tipus": "V2",
+          "longitud": 35
+        },
+        {
+          "volta": 11,
+          "tipus": "V2",
+          "longitud": 66
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 15,
+          "tipus": "V2",
+          "longitud": 44
+        },
+        {
+          "volta": 17,
+          "tipus": "V2",
+          "longitud": 48
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 59
+        }
+      ]
+    },
+    "P_Gentio": {
+      "cadena": [
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V1",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2"
+      ],
+      "longitud": 100,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 3
+        },
+        {
+          "volta": 3,
+          "tipus": "V0",
+          "longitud": 3
+        },
+        {
+          "volta": 5,
+          "tipus": "V0",
+          "longitud": 3
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 4
+        },
+        {
+          "volta": 9,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 6
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 7
+        },
+        {
+          "volta": 15,
+          "tipus": "V2",
+          "longitud": 8
+        },
+        {
+          "volta": 17,
+          "tipus": "V2",
+          "longitud": 10
+        },
+        {
+          "volta": 19,
+          "tipus": "V0",
+          "longitud": 12
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 14
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 12
+        },
+        {
+          "volta": 25,
+          "tipus": "V2",
+          "longitud": 15
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 17
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 31,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 33,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 35,
+          "tipus": "V0",
+          "longitud": 19
+        },
+        {
+          "volta": 37,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 39,
+          "tipus": "V2",
+          "longitud": 4
+        },
+        {
+          "volta": 41,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 45,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 47,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 49,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 51,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 53,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 55,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 57,
+          "tipus": "V0",
+          "longitud": 18
+        },
+        {
+          "volta": 59,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 61,
+          "tipus": "V2",
+          "longitud": 13
+        },
+        {
+          "volta": 73,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 75,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 77,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 79,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 81,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 83,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 85,
+          "tipus": "V0",
+          "longitud": 34
+        },
+        {
+          "volta": 87,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 89,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 91,
+          "tipus": "V0",
+          "longitud": 39
+        },
+        {
+          "volta": 93,
+          "tipus": "V0",
+          "longitud": 44
+        },
+        {
+          "volta": 95,
+          "tipus": "V0",
+          "longitud": 50
+        },
+        {
+          "volta": 97,
+          "tipus": "V0",
+          "longitud": 50
+        },
+        {
+          "volta": 99,
+          "tipus": "V2",
+          "longitud": 50
+        },
+        {
+          "volta": 101,
+          "tipus": "V2",
+          "longitud": 36
+        },
+        {
+          "volta": 103,
+          "tipus": "V2",
+          "longitud": 51
+        },
+        {
+          "volta": 105,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 107,
+          "tipus": "V2",
+          "longitud": 42
+        },
+        {
+          "volta": 109,
+          "tipus": "V0",
+          "longitud": 40
+        },
+        {
+          "volta": 111,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 113,
+          "tipus": "V2",
+          "longitud": 31
+        },
+        {
+          "volta": 115,
+          "tipus": "V2",
+          "longitud": 21
+        },
+        {
+          "volta": 117,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 119,
+          "tipus": "V2",
+          "longitud": 21
+        },
+        {
+          "volta": 121,
+          "tipus": "V2",
+          "longitud": 21
+        },
+        {
+          "volta": 123,
+          "tipus": "V2",
+          "longitud": 21
+        },
+        {
+          "volta": 125,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 127,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 129,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 131,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 133,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 145,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 147,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 149,
+          "tipus": "V0",
+          "longitud": 26
+        },
+        {
+          "volta": 151,
+          "tipus": "V0",
+          "longitud": 24
+        },
+        {
+          "volta": 153,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 155,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 157,
+          "tipus": "V0",
+          "longitud": 39
+        },
+        {
+          "volta": 159,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 161,
+          "tipus": "V0",
+          "longitud": 39
+        },
+        {
+          "volta": 163,
+          "tipus": "V0",
+          "longitud": 39
+        },
+        {
+          "volta": 165,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 167,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 169,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 171,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 173,
+          "tipus": "V2",
+          "longitud": 33
+        },
+        {
+          "volta": 175,
+          "tipus": "V0",
+          "longitud": 42
+        },
+        {
+          "volta": 177,
+          "tipus": "V0",
+          "longitud": 33
+        },
+        {
+          "volta": 179,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 181,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 183,
+          "tipus": "V2",
+          "longitud": 36
+        },
+        {
+          "volta": 185,
+          "tipus": "V0",
+          "longitud": 37
+        },
+        {
+          "volta": 187,
+          "tipus": "V0",
+          "longitud": 37
+        },
+        {
+          "volta": 189,
+          "tipus": "V2",
+          "longitud": 37
+        },
+        {
+          "volta": 191,
+          "tipus": "V0",
+          "longitud": 37
+        },
+        {
+          "volta": 193,
+          "tipus": "V2",
+          "longitud": 40
+        },
+        {
+          "volta": 195,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 207,
+          "tipus": "V0",
+          "longitud": 45
+        },
+        {
+          "volta": 209,
+          "tipus": "V0",
+          "longitud": 56
+        },
+        {
+          "volta": 211,
+          "tipus": "V0",
+          "longitud": 55
+        },
+        {
+          "volta": 213,
+          "tipus": "V0",
+          "longitud": 55
+        },
+        {
+          "volta": 215,
+          "tipus": "V0",
+          "longitud": 55
+        },
+        {
+          "volta": 217,
+          "tipus": "V0",
+          "longitud": 41
+        },
+        {
+          "volta": 219,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 221,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 223,
+          "tipus": "V2",
+          "longitud": 27
+        },
+        {
+          "volta": 225,
+          "tipus": "V0",
+          "longitud": 22
+        },
+        {
+          "volta": 227,
+          "tipus": "V2",
+          "longitud": 18
+        },
+        {
+          "volta": 229,
+          "tipus": "V2",
+          "longitud": 15
+        }
+      ]
+    },
+    "P_Helga": {
+      "cadena": [
+        "V0",
+        "V1",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0"
+      ],
+      "longitud": 103,
+      "voltes": [
+        {
+          "volta": 5,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 7,
+          "tipus": "V1",
+          "longitud": 2
+        },
+        {
+          "volta": 9,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 11,
+          "tipus": "V2",
+          "longitud": 6
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 15,
+          "tipus": "V2",
+          "longitud": 14
+        },
+        {
+          "volta": 17,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 19,
+          "tipus": "V2",
+          "longitud": 12
+        },
+        {
+          "volta": 21,
+          "tipus": "V2",
+          "longitud": 21
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 25,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 27,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 31,
+          "tipus": "V2",
+          "longitud": 11
+        },
+        {
+          "volta": 33,
+          "tipus": "V2",
+          "longitud": 13
+        },
+        {
+          "volta": 35,
+          "tipus": "V2",
+          "longitud": 16
+        },
+        {
+          "volta": 37,
+          "tipus": "V2",
+          "longitud": 17
+        },
+        {
+          "volta": 39,
+          "tipus": "V2",
+          "longitud": 13
+        },
+        {
+          "volta": 41,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 43,
+          "tipus": "V2",
+          "longitud": 17
+        },
+        {
+          "volta": 45,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 47,
+          "tipus": "V2",
+          "longitud": 35
+        },
+        {
+          "volta": 49,
+          "tipus": "V2",
+          "longitud": 30
+        },
+        {
+          "volta": 51,
+          "tipus": "V2",
+          "longitud": 30
+        },
+        {
+          "volta": 53,
+          "tipus": "V2",
+          "longitud": 36
+        },
+        {
+          "volta": 55,
+          "tipus": "V2",
+          "longitud": 32
+        },
+        {
+          "volta": 57,
+          "tipus": "V2",
+          "longitud": 30
+        },
+        {
+          "volta": 59,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 61,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 63,
+          "tipus": "V0",
+          "longitud": 20
+        },
+        {
+          "volta": 65,
+          "tipus": "V0",
+          "longitud": 15
+        },
+        {
+          "volta": 67,
+          "tipus": "V2",
+          "longitud": 24
+        },
+        {
+          "volta": 69,
+          "tipus": "V2",
+          "longitud": 22
+        },
+        {
+          "volta": 71,
+          "tipus": "V2",
+          "longitud": 29
+        },
+        {
+          "volta": 73,
+          "tipus": "V0",
+          "longitud": 57
+        },
+        {
+          "volta": 75,
+          "tipus": "V0",
+          "longitud": 49
+        },
+        {
+          "volta": 79,
+          "tipus": "V0",
+          "longitud": 67
+        },
+        {
+          "volta": 81,
+          "tipus": "V0",
+          "longitud": 67
+        },
+        {
+          "volta": 83,
+          "tipus": "V0",
+          "longitud": 69
+        },
+        {
+          "volta": 85,
+          "tipus": "V0",
+          "longitud": 64
+        },
+        {
+          "volta": 87,
+          "tipus": "V0",
+          "longitud": 69
+        },
+        {
+          "volta": 89,
+          "tipus": "V0",
+          "longitud": 65
+        },
+        {
+          "volta": 91,
+          "tipus": "V0",
+          "longitud": 55
+        },
+        {
+          "volta": 93,
+          "tipus": "V0",
+          "longitud": 53
+        },
+        {
+          "volta": 95,
+          "tipus": "V2",
+          "longitud": 49
+        },
+        {
+          "volta": 97,
+          "tipus": "V0",
+          "longitud": 53
+        },
+        {
+          "volta": 99,
+          "tipus": "V0",
+          "longitud": 52
+        },
+        {
+          "volta": 101,
+          "tipus": "V0",
+          "longitud": 49
+        },
+        {
+          "volta": 103,
+          "tipus": "V2",
+          "longitud": 47
+        },
+        {
+          "volta": 105,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 107,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 109,
+          "tipus": "V0",
+          "longitud": 67
+        },
+        {
+          "volta": 111,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 113,
+          "tipus": "V0",
+          "longitud": 67
+        },
+        {
+          "volta": 115,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 117,
+          "tipus": "V0",
+          "longitud": 67
+        },
+        {
+          "volta": 119,
+          "tipus": "V0",
+          "longitud": 32
+        },
+        {
+          "volta": 121,
+          "tipus": "V0",
+          "longitud": 68
+        },
+        {
+          "volta": 123,
+          "tipus": "V0",
+          "longitud": 56
+        },
+        {
+          "volta": 125,
+          "tipus": "V0",
+          "longitud": 72
+        },
+        {
+          "volta": 127,
+          "tipus": "V0",
+          "longitud": 42
+        },
+        {
+          "volta": 129,
+          "tipus": "V0",
+          "longitud": 83
+        },
+        {
+          "volta": 131,
+          "tipus": "V0",
+          "longitud": 48
+        },
+        {
+          "volta": 133,
+          "tipus": "V0",
+          "longitud": 85
+        },
+        {
+          "volta": 135,
+          "tipus": "V2",
+          "longitud": 50
+        },
+        {
+          "volta": 137,
+          "tipus": "V2",
+          "longitud": 85
+        },
+        {
+          "volta": 139,
+          "tipus": "V2",
+          "longitud": 60
+        },
+        {
+          "volta": 141,
+          "tipus": "V0",
+          "longitud": 70
+        },
+        {
+          "volta": 143,
+          "tipus": "V2",
+          "longitud": 42
+        },
+        {
+          "volta": 145,
+          "tipus": "V0",
+          "longitud": 43
+        },
+        {
+          "volta": 147,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 149,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 151,
+          "tipus": "V0",
+          "longitud": 36
+        },
+        {
+          "volta": 153,
+          "tipus": "V0",
+          "longitud": 38
+        },
+        {
+          "volta": 155,
+          "tipus": "V0",
+          "longitud": 53
+        },
+        {
+          "volta": 157,
+          "tipus": "V0",
+          "longitud": 62
+        },
+        {
+          "volta": 159,
+          "tipus": "V0",
+          "longitud": 85
+        },
+        {
+          "volta": 161,
+          "tipus": "V0",
+          "longitud": 86
+        },
+        {
+          "volta": 163,
+          "tipus": "V0",
+          "longitud": 90
+        },
+        {
+          "volta": 165,
+          "tipus": "V0",
+          "longitud": 103
+        },
+        {
+          "volta": 167,
+          "tipus": "V0",
+          "longitud": 125
+        },
+        {
+          "volta": 169,
+          "tipus": "V0",
+          "longitud": 120
+        },
+        {
+          "volta": 171,
+          "tipus": "V0",
+          "longitud": 121
+        },
+        {
+          "volta": 173,
+          "tipus": "V0",
+          "longitud": 122
+        },
+        {
+          "volta": 175,
+          "tipus": "V0",
+          "longitud": 122
+        },
+        {
+          "volta": 177,
+          "tipus": "V0",
+          "longitud": 130
+        },
+        {
+          "volta": 179,
+          "tipus": "V0",
+          "longitud": 128
+        },
+        {
+          "volta": 181,
+          "tipus": "V0",
+          "longitud": 56
+        },
+        {
+          "volta": 183,
+          "tipus": "V0",
+          "longitud": 56
+        },
+        {
+          "volta": 185,
+          "tipus": "V0",
+          "longitud": 52
+        },
+        {
+          "volta": 187,
+          "tipus": "V0",
+          "longitud": 50
+        },
+        {
+          "volta": 189,
+          "tipus": "V0",
+          "longitud": 35
+        },
+        {
+          "volta": 191,
+          "tipus": "V0",
+          "longitud": 48
+        },
+        {
+          "volta": 193,
+          "tipus": "V0",
+          "longitud": 49
+        },
+        {
+          "volta": 195,
+          "tipus": "V0",
+          "longitud": 30
+        },
+        {
+          "volta": 197,
+          "tipus": "V0",
+          "longitud": 31
+        },
+        {
+          "volta": 199,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 201,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 203,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 205,
+          "tipus": "V0",
+          "longitud": 29
+        },
+        {
+          "volta": 207,
+          "tipus": "V0",
+          "longitud": 161
+        },
+        {
+          "volta": 209,
+          "tipus": "V0",
+          "longitud": 161
+        },
+        {
+          "volta": 211,
+          "tipus": "V0",
+          "longitud": 164
+        }
+      ]
+    },
+    "P_Cori": {
+      "cadena": [
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V2",
+        "V2",
+        "V2"
+      ],
+      "longitud": 21,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V0",
+          "longitud": 2
+        },
+        {
+          "volta": 3,
+          "tipus": "V0",
+          "longitud": 2
+        },
+        {
+          "volta": 5,
+          "tipus": "V2",
+          "longitud": 4
+        },
+        {
+          "volta": 7,
+          "tipus": "V0",
+          "longitud": 5
+        },
+        {
+          "volta": 9,
+          "tipus": "V0",
+          "longitud": 8
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 10
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 12
+        },
+        {
+          "volta": 15,
+          "tipus": "V0",
+          "longitud": 14
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 17
+        },
+        {
+          "volta": 19,
+          "tipus": "V2",
+          "longitud": 13
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 21
+        },
+        {
+          "volta": 23,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 25,
+          "tipus": "V0",
+          "longitud": 27
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 31
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 23
+        },
+        {
+          "volta": 31,
+          "tipus": "V2",
+          "longitud": 33
+        },
+        {
+          "volta": 33,
+          "tipus": "V0",
+          "longitud": 28
+        },
+        {
+          "volta": 35,
+          "tipus": "V2",
+          "longitud": 36
+        },
+        {
+          "volta": 37,
+          "tipus": "V2",
+          "longitud": 39
+        },
+        {
+          "volta": 39,
+          "tipus": "V2",
+          "longitud": 39
+        },
+        {
+          "volta": 41,
+          "tipus": "V2",
+          "longitud": 40
+        }
+      ]
+    },
+    "P_Jafisa - Grafico A": {
+      "cadena": [
+        "V2",
+        "V1",
+        "V1",
+        "V0",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V2",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V0",
+        "V1",
+        "V2",
+        "V2",
+        "V0",
+        "V0",
+        "V0"
+      ],
+      "longitud": 21,
+      "voltes": [
+        {
+          "volta": 1,
+          "tipus": "V2",
+          "longitud": 2
+        },
+        {
+          "volta": 3,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 5,
+          "tipus": "V1",
+          "longitud": 1
+        },
+        {
+          "volta": 11,
+          "tipus": "V0",
+          "longitud": 7
+        },
+        {
+          "volta": 13,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 15,
+          "tipus": "V2",
+          "longitud": 7
+        },
+        {
+          "volta": 17,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 19,
+          "tipus": "V2",
+          "longitud": 7
+        },
+        {
+          "volta": 21,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 23,
+          "tipus": "V2",
+          "longitud": 7
+        },
+        {
+          "volta": 25,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 27,
+          "tipus": "V0",
+          "longitud": 11
+        },
+        {
+          "volta": 29,
+          "tipus": "V0",
+          "longitud": 16
+        },
+        {
+          "volta": 31,
+          "tipus": "V0",
+          "longitud": 25
+        },
+        {
+          "volta": 33,
+          "tipus": "V0",
+          "longitud": 54
+        },
+        {
+          "volta": 35,
+          "tipus": "V1",
+          "longitud": 2
+        },
+        {
+          "volta": 37,
+          "tipus": "V2",
+          "longitud": 35
+        },
+        {
+          "volta": 39,
+          "tipus": "V2",
+          "longitud": 43
+        },
+        {
+          "volta": 41,
+          "tipus": "V0",
+          "longitud": 39
+        },
+        {
+          "volta": 43,
+          "tipus": "V0",
+          "longitud": 46
+        },
+        {
+          "volta": 45,
+          "tipus": "V0",
+          "longitud": 47
+        }
+      ]
+    }
+  }
+}

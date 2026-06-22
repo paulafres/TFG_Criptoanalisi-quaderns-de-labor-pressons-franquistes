@@ -1,0 +1,4359 @@
+{
+  "metadades": {
+    "grammar_cats": [
+      "ALTA",
+      "CRÍTICA",
+      "MODERADA"
+    ],
+    "n_voltes_5_1_avaluades": 627,
+    "n_voltes_gramaticals": 108,
+    "n_voltes_lexiques": 63,
+    "n_voltes_atipiques_total": 139,
+    "n_voltes_atipiques_en_segment": 64,
+    "n_voltes_atipiques_orfenes": 75,
+    "n_segments": 33,
+    "n_convergencia": 8,
+    "n_perfil_lexic": 3,
+    "n_mixt": 1,
+    "n_perfil_gramatical": 6,
+    "n_sense_senyal": 15,
+    "orfenes_per_classe": {
+      "CONVERGENT": 12,
+      "LEXICA": 9,
+      "GRAMATICAL": 54
+    },
+    "interpretacio": "Triangulació de 5.1 (anomalies gramaticals) i 5.1b (anomalies lèxiques) sobre les voltes dels segments de 5.2. CONVERGENCIA i PERFIL_LEXIC són els perfils compatibles amb un missatge desxifrable en abecedari; PERFIL_GRAMATICAL apunta a farciment estructural (no abecedari). SENSE_SENYAL = segment detectat només pel score agregat de 5.2, sense cap volta atípica individual (control). Les voltes òrfenes són atípiques que 5.2 no va agrupar en cap segment (especialment rellevants les CONVERGENT aïllades)."
+  },
+  "resultats": [
+    {
+      "teixit": "CM_Angelines",
+      "volta_inici": 63,
+      "volta_final": 91,
+      "n_voltes": 15,
+      "score_mitja_5_2": 1.9391,
+      "q_valor_5_2": 0.24725274725274726,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 8,
+      "n_gramaticals": 0,
+      "n_lexiques": 4,
+      "n_cap": 3,
+      "frac_gramatical": 0.533,
+      "frac_lexica": 0.8,
+      "voltes_convergents": [
+        63,
+        65,
+        69,
+        75,
+        81,
+        85,
+        89,
+        91
+      ],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        77,
+        79,
+        83,
+        87
+      ],
+      "tokens_rare_segment": [
+        {
+          "token": "<(3)l4l>",
+          "freq": 1
+        },
+        {
+          "token": "<<3>23>",
+          "freq": 1
+        },
+        {
+          "token": "(99)",
+          "freq": 1
+        },
+        {
+          "token": "<(3)3(3)l>",
+          "freq": 1
+        },
+        {
+          "token": "<l(2)3(2)lp>",
+          "freq": 1
+        },
+        {
+          "token": "<lp3pl3>",
+          "freq": 1
+        },
+        {
+          "token": "<3l(3)l>",
+          "freq": 1
+        },
+        {
+          "token": "<4l(3)l>",
+          "freq": 1
+        },
+        {
+          "token": "<glal3l>",
+          "freq": 1
+        },
+        {
+          "token": "<lapgl>2>",
+          "freq": 1
+        },
+        {
+          "token": "<4l(4)l>",
+          "freq": 1
+        }
+      ],
+      "veredicte": "CONVERGENCIA",
+      "nomes_senyal_agregat": false,
+      "nota": "Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).",
+      "voltes_detall": [
+        {
+          "volta": 63,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.7674,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<(3)l4l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 65,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 10.4138,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<<3>23>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 67,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.8911,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 69,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 7.6387,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "(99)"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 71,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.5608,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 73,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8285,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 75,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 7.6695,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<(3)3(3)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 77,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.1484,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<l(2)3(2)lp>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 79,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 6.971,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<lp3pl3>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 81,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 6.4501,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<3l(3)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 83,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 7.8895,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": 3.3029,
+          "interpretacio_runs": "mes runs dels esperats (alternancia)"
+        },
+        {
+          "volta": 85,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 8.1405,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<4l(3)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 87,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.6416,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<glal3l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 89,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 7.55,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<lapgl>2>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 91,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.1641,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<4l(4)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta_inici": 177,
+      "volta_final": 191,
+      "n_voltes": 8,
+      "score_mitja_5_2": 2.6083,
+      "q_valor_5_2": 0.01098901098901099,
+      "significatiu_FDR_5_2": true,
+      "n_convergents": 3,
+      "n_gramaticals": 0,
+      "n_lexiques": 5,
+      "n_cap": 0,
+      "frac_gramatical": 0.375,
+      "frac_lexica": 1.0,
+      "voltes_convergents": [
+        183,
+        187,
+        191
+      ],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        177,
+        179,
+        181,
+        185,
+        189
+      ],
+      "tokens_rare_segment": [
+        {
+          "token": "<a(5)lpl(5)gl(4)l>",
+          "freq": 1
+        },
+        {
+          "token": "<a(5)lpl(5)gl(6)l>",
+          "freq": 1
+        },
+        {
+          "token": "<a(5)lpl(5)gl(8)l>",
+          "freq": 1
+        },
+        {
+          "token": "<a(11)gl(10)l>",
+          "freq": 1
+        },
+        {
+          "token": "<a(9)gl(4)l(4)l(4)l>",
+          "freq": 1
+        },
+        {
+          "token": "<a(7)glpl(4)lxl(4)lxl(4)lpl>",
+          "freq": 1
+        },
+        {
+          "token": "<a(5)gl(3)l(4)lrxrl(4)lrxrl(4)l(3)l>",
+          "freq": 1
+        },
+        {
+          "token": "<a(3)glpglla(4)lxrxrxl(4)lxrxrxl(4)gllapl>",
+          "freq": 1
+        }
+      ],
+      "veredicte": "CONVERGENCIA",
+      "nomes_senyal_agregat": false,
+      "nota": "Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).",
+      "voltes_detall": [
+        {
+          "volta": 177,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.243,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<a(5)lpl(5)gl(4)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 179,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.3411,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<a(5)lpl(5)gl(6)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 181,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5629,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<a(5)lpl(5)gl(8)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 183,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 8.2865,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<a(11)gl(10)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 185,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7167,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<a(9)gl(4)l(4)l(4)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 187,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.2609,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<a(7)glpl(4)lxl(4)lxl(4)lpl>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 189,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7287,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<a(5)gl(3)l(4)lrxrl(4)lrxrl(4)l(3)l>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 191,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.3526,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<a(3)glpglla(4)lxrxrxl(4)lxrxrxl(4)gllapl>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Angelines",
+      "volta_inici": 45,
+      "volta_final": 53,
+      "n_voltes": 5,
+      "score_mitja_5_2": 3.3524,
+      "q_valor_5_2": 0.08571428571428572,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 3,
+      "n_gramaticals": 0,
+      "n_lexiques": 1,
+      "n_cap": 1,
+      "frac_gramatical": 0.6,
+      "frac_lexica": 0.8,
+      "voltes_convergents": [
+        47,
+        49,
+        51
+      ],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        45
+      ],
+      "tokens_rare_segment": [
+        {
+          "token": "<lplapg>",
+          "freq": 1
+        },
+        {
+          "token": "(53)",
+          "freq": 1
+        },
+        {
+          "token": "(55)",
+          "freq": 1
+        },
+        {
+          "token": "(57)",
+          "freq": 1
+        }
+      ],
+      "veredicte": "CONVERGENCIA",
+      "nomes_senyal_agregat": false,
+      "nota": "Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).",
+      "voltes_detall": [
+        {
+          "volta": 45,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 10.0307,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<lplapg>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 47,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "ALTA",
+          "score_5_1": 10.4345,
+          "flags_5_1": [
+            "flag_micro_mean",
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "(53)"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 49,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "ALTA",
+          "score_5_1": 10.8479,
+          "flags_5_1": [
+            "flag_micro_mean",
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "(55)"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 51,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "ALTA",
+          "score_5_1": 10.8479,
+          "flags_5_1": [
+            "flag_micro_mean",
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "(57)"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 53,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.3126,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta_inici": 53,
+      "volta_final": 65,
+      "n_voltes": 7,
+      "score_mitja_5_2": 1.8268,
+      "q_valor_5_2": 0.016483516483516484,
+      "significatiu_FDR_5_2": true,
+      "n_convergents": 2,
+      "n_gramaticals": 0,
+      "n_lexiques": 3,
+      "n_cap": 2,
+      "frac_gramatical": 0.286,
+      "frac_lexica": 0.714,
+      "voltes_convergents": [
+        59,
+        63
+      ],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        55,
+        57,
+        61
+      ],
+      "tokens_rare_segment": [
+        {
+          "token": "<l(3)lalxlg>",
+          "freq": 1
+        },
+        {
+          "token": "<lal3lgl(3)>",
+          "freq": 1
+        },
+        {
+          "token": "<3llalapgl>",
+          "freq": 1
+        },
+        {
+          "token": "<l3l(6)>",
+          "freq": 1
+        },
+        {
+          "token": "<gllagll3>",
+          "freq": 1
+        }
+      ],
+      "veredicte": "CONVERGENCIA",
+      "nomes_senyal_agregat": false,
+      "nota": "Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).",
+      "voltes_detall": [
+        {
+          "volta": 53,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5317,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 55,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.7124,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<l(3)lalxlg>"
+          ],
+          "z_runs": 3.8462,
+          "interpretacio_runs": "mes runs dels esperats (alternancia)"
+        },
+        {
+          "volta": 57,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5682,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<lal3lgl(3)>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 59,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 8.0683,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<3llalapgl>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 61,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 6.6132,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<l3l(6)>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 63,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 8.3741,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<gllagll3>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 65,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.3813,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta_inici": 87,
+      "volta_final": 95,
+      "n_voltes": 5,
+      "score_mitja_5_2": 1.6409,
+      "q_valor_5_2": 0.49120879120879124,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 1,
+      "n_gramaticals": 1,
+      "n_lexiques": 2,
+      "n_cap": 1,
+      "frac_gramatical": 0.4,
+      "frac_lexica": 0.6,
+      "voltes_convergents": [
+        91
+      ],
+      "voltes_gramaticals": [
+        89
+      ],
+      "voltes_lexiques": [
+        93,
+        95
+      ],
+      "tokens_rare_segment": [
+        {
+          "token": "<lpl(9)>",
+          "freq": 1
+        },
+        {
+          "token": "<l3l(3)ga(2)>",
+          "freq": 1
+        },
+        {
+          "token": "<l(3)l(9)>",
+          "freq": 1
+        },
+        {
+          "token": "<lglplala(5)g>",
+          "freq": 1
+        }
+      ],
+      "veredicte": "CONVERGENCIA",
+      "nomes_senyal_agregat": false,
+      "nota": "Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).",
+      "voltes_detall": [
+        {
+          "volta": 87,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.3617,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 89,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 10.295,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 91,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 6.729,
+          "flags_5_1": [
+            "flag_sig_intra"
+          ],
+          "te_rare": true,
+          "n_rare": 2,
+          "tokens_rare": [
+            "<lpl(9)>",
+            "<l3l(3)ga(2)>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 93,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 6.2587,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<l(3)l(9)>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 95,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.2416,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<lglplala(5)g>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta_inici": 65,
+      "volta_final": 71,
+      "n_voltes": 4,
+      "score_mitja_5_2": 3.737,
+      "q_valor_5_2": 0.24725274725274726,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 1,
+      "n_gramaticals": 0,
+      "n_lexiques": 1,
+      "n_cap": 2,
+      "frac_gramatical": 0.25,
+      "frac_lexica": 0.5,
+      "voltes_convergents": [
+        71
+      ],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        69
+      ],
+      "tokens_rare_segment": [],
+      "veredicte": "CONVERGENCIA",
+      "nomes_senyal_agregat": false,
+      "nota": "Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).",
+      "voltes_detall": [
+        {
+          "volta": 65,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7145,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 67,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.991,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 69,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 4.8643,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": -15.3697,
+          "interpretacio_runs": "menys runs dels esperats (agrupacio)"
+        },
+        {
+          "volta": 71,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "ALTA",
+          "score_5_1": 1.549,
+          "flags_5_1": [
+            "flag_sig_intra",
+            "flag_sig_salt"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": -80.3761,
+          "interpretacio_runs": "menys runs dels esperats (agrupacio)"
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Eterna",
+      "volta_inici": 29,
+      "volta_final": 35,
+      "n_voltes": 4,
+      "score_mitja_5_2": 1.3759,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 1,
+      "n_gramaticals": 0,
+      "n_lexiques": 1,
+      "n_cap": 2,
+      "frac_gramatical": 0.25,
+      "frac_lexica": 0.5,
+      "voltes_convergents": [
+        35
+      ],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        33
+      ],
+      "tokens_rare_segment": [
+        {
+          "token": "D",
+          "freq": 1
+        },
+        {
+          "token": "<(2)lxl>",
+          "freq": 1
+        }
+      ],
+      "veredicte": "CONVERGENCIA",
+      "nomes_senyal_agregat": false,
+      "nota": "Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).",
+      "voltes_detall": [
+        {
+          "volta": 29,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.6772,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 31,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.1776,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 33,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.0919,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "D"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 35,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 8.1303,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<(2)lxl>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Angelines",
+      "volta_inici": 19,
+      "volta_final": 25,
+      "n_voltes": 4,
+      "score_mitja_5_2": 0.5244,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 1,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.25,
+      "frac_lexica": 0.25,
+      "voltes_convergents": [
+        25
+      ],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [
+        {
+          "token": "<3",
+          "freq": 1
+        }
+      ],
+      "veredicte": "CONVERGENCIA",
+      "nomes_senyal_agregat": false,
+      "nota": "Hi ha voltes gramaticalment I lèxicament anòmales: inspecció prioritària (trenquen la gramàtica i porten marcadors rars).",
+      "voltes_detall": [
+        {
+          "volta": 19,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.9257,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 21,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.6877,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 23,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5515,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 25,
+          "classe": "CONVERGENT",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 6.3034,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "<3"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta_inici": 125,
+      "volta_final": 129,
+      "n_voltes": 3,
+      "score_mitja_5_2": 0.9136,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 2,
+      "n_cap": 1,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.667,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        127,
+        129
+      ],
+      "tokens_rare_segment": [],
+      "veredicte": "PERFIL_LEXIC",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 125,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.2689,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 127,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.9338,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": 3.3029,
+          "interpretacio_runs": "mes runs dels esperats (alternancia)"
+        },
+        {
+          "volta": 129,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.9668,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": 3.4068,
+          "interpretacio_runs": "mes runs dels esperats (alternancia)"
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta_inici": 161,
+      "volta_final": 167,
+      "n_voltes": 4,
+      "score_mitja_5_2": 0.5705,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 1,
+      "n_cap": 3,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.25,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        161
+      ],
+      "tokens_rare_segment": [
+        {
+          "token": "2>",
+          "freq": 1
+        }
+      ],
+      "veredicte": "PERFIL_LEXIC",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 161,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 7.4676,
+          "flags_5_1": [],
+          "te_rare": true,
+          "n_rare": 1,
+          "tokens_rare": [
+            "2>"
+          ],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 163,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7013,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 165,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.2689,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 167,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.2801,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta_inici": 73,
+      "volta_final": 81,
+      "n_voltes": 5,
+      "score_mitja_5_2": 0.7408,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 1,
+      "n_cap": 4,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.2,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [
+        75
+      ],
+      "tokens_rare_segment": [],
+      "veredicte": "PERFIL_LEXIC",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal lèxic sense soroll gramatical: compatible amb codi camuflat → candidat a desxiframent en abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 73,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.1774,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 75,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.0814,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": 3.3438,
+          "interpretacio_runs": "mes runs dels esperats (alternancia)"
+        },
+        {
+          "volta": 77,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.8923,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 79,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7586,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 81,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.89,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta_inici": 99,
+      "volta_final": 105,
+      "n_voltes": 4,
+      "score_mitja_5_2": 0.499,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 1,
+      "n_lexiques": 1,
+      "n_cap": 2,
+      "frac_gramatical": 0.25,
+      "frac_lexica": 0.25,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [
+        103
+      ],
+      "voltes_lexiques": [
+        105
+      ],
+      "tokens_rare_segment": [],
+      "veredicte": "MIXT",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyals gramaticals i lèxics presents en voltes diferents del segment: perfil ambigu, requereix lectura qualitativa.",
+      "voltes_detall": [
+        {
+          "volta": 99,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7158,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 101,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.4143,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 103,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 8.851,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 105,
+          "classe": "LEXICA",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.3512,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": 3.3341,
+          "interpretacio_runs": "mes runs dels esperats (alternancia)"
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta_inici": 165,
+      "volta_final": 173,
+      "n_voltes": 5,
+      "score_mitja_5_2": 0.9195,
+      "q_valor_5_2": 0.24725274725274726,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 5,
+      "n_lexiques": 0,
+      "n_cap": 0,
+      "frac_gramatical": 1.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [
+        165,
+        167,
+        169,
+        171,
+        173
+      ],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "PERFIL_GRAMATICAL",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 165,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.2887,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 167,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.4314,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 169,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.4314,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 171,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.4314,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 173,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.4314,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta_inici": 75,
+      "volta_final": 83,
+      "n_voltes": 5,
+      "score_mitja_5_2": 0.8808,
+      "q_valor_5_2": 0.25641025641025644,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 5,
+      "n_lexiques": 0,
+      "n_cap": 0,
+      "frac_gramatical": 1.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [
+        75,
+        77,
+        79,
+        81,
+        83
+      ],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "PERFIL_GRAMATICAL",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 75,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.2887,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 77,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.7718,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 79,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.4314,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 81,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.4314,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 83,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "ALTA",
+          "score_5_1": 8.8285,
+          "flags_5_1": [
+            "flag_sig_intra",
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta_inici": 31,
+      "volta_final": 39,
+      "n_voltes": 5,
+      "score_mitja_5_2": 0.8173,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 4,
+      "n_lexiques": 0,
+      "n_cap": 1,
+      "frac_gramatical": 0.8,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [
+        31,
+        33,
+        37,
+        39
+      ],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "PERFIL_GRAMATICAL",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 31,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.3051,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 33,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.3591,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 35,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.205,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 37,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.0937,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 39,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.3591,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta_inici": 19,
+      "volta_final": 27,
+      "n_voltes": 5,
+      "score_mitja_5_2": 0.6965,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 4,
+      "n_lexiques": 0,
+      "n_cap": 1,
+      "frac_gramatical": 0.8,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [
+        19,
+        21,
+        25,
+        27
+      ],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "PERFIL_GRAMATICAL",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 19,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.0937,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 21,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.3591,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 23,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5989,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 25,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.0937,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 27,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 9.3591,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta_inici": 87,
+      "volta_final": 91,
+      "n_voltes": 3,
+      "score_mitja_5_2": 0.9072,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 1,
+      "n_lexiques": 0,
+      "n_cap": 2,
+      "frac_gramatical": 0.333,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [
+        87
+      ],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "PERFIL_GRAMATICAL",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 87,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 10.3102,
+          "flags_5_1": [
+            "flag_micro_mean"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 89,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.8563,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 91,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.9921,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta_inici": 53,
+      "volta_final": 59,
+      "n_voltes": 4,
+      "score_mitja_5_2": 0.5294,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 1,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.25,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [
+        53
+      ],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "PERFIL_GRAMATICAL",
+      "nomes_senyal_agregat": false,
+      "nota": "Senyal gramatical sense marcadors lèxics: compatible amb farciment estructural → improbable transcripció d'abecedari.",
+      "voltes_detall": [
+        {
+          "volta": 53,
+          "classe": "GRAMATICAL",
+          "categoria_5_1": "MODERADA",
+          "score_5_1": 8.6048,
+          "flags_5_1": [
+            "flag_micro_max"
+          ],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 55,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8261,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 57,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.3427,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 59,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.725,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pelargonia",
+      "volta_inici": 7,
+      "volta_final": 25,
+      "n_voltes": 10,
+      "score_mitja_5_2": 1.1038,
+      "q_valor_5_2": 0.01098901098901099,
+      "significatiu_FDR_5_2": true,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 10,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 7,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8898,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 9,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8898,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 11,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8898,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 13,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8898,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 15,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8898,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 17,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8898,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 19,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8898,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 21,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8898,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 23,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.8149,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 25,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.59,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Hojas y cactus",
+      "volta_inici": 5,
+      "volta_final": 19,
+      "n_voltes": 8,
+      "score_mitja_5_2": 1.3165,
+      "q_valor_5_2": 0.01098901098901099,
+      "significatiu_FDR_5_2": true,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 8,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 5,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9404,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 7,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9404,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 9,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9404,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 11,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9404,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 13,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9404,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 15,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9404,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 17,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9404,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 19,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9404,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta_inici": 47,
+      "volta_final": 59,
+      "n_voltes": 7,
+      "score_mitja_5_2": 0.8558,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 7,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 47,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8788,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 49,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.9757,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 51,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.4578,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 53,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.5428,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 55,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.9634,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 57,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7673,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 59,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.6301,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta_inici": 7,
+      "volta_final": 13,
+      "n_voltes": 4,
+      "score_mitja_5_2": 1.3882,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 4,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 7,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 10.0176,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 9,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 10.0176,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 11,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 10.0176,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 13,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 10.0968,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta_inici": 107,
+      "volta_final": 117,
+      "n_voltes": 6,
+      "score_mitja_5_2": 0.8284,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 6,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 107,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8145,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 109,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.4139,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 111,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.4139,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 113,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.9144,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 115,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.3894,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 117,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7305,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta_inici": 21,
+      "volta_final": 29,
+      "n_voltes": 5,
+      "score_mitja_5_2": 0.7185,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 5,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 21,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.211,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 23,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.8647,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 25,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.2782,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 27,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.2551,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 29,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 10.0442,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Eterna",
+      "volta_inici": 11,
+      "volta_final": 15,
+      "n_voltes": 3,
+      "score_mitja_5_2": 1.0639,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 11,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.4027,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 13,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.6961,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 15,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.6961,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta_inici": 3,
+      "volta_final": 7,
+      "n_voltes": 3,
+      "score_mitja_5_2": 0.9299,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 3,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.0596,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 5,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.3639,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 7,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8271,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta_inici": 33,
+      "volta_final": 41,
+      "n_voltes": 5,
+      "score_mitja_5_2": 0.4886,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 5,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 33,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7699,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 35,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.4453,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 37,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.845,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 39,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.1914,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 41,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.845,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta_inici": 29,
+      "volta_final": 33,
+      "n_voltes": 3,
+      "score_mitja_5_2": 0.797,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 29,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7753,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 31,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.8763,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 33,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.0593,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta_inici": 107,
+      "volta_final": 111,
+      "n_voltes": 3,
+      "score_mitja_5_2": 0.6151,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 107,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.4269,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 109,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.326,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 111,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 9.219,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta_inici": 17,
+      "volta_final": 21,
+      "n_voltes": 3,
+      "score_mitja_5_2": 0.3527,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 17,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.7832,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 19,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5025,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 21,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.6203,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta_inici": 41,
+      "volta_final": 47,
+      "n_voltes": 4,
+      "score_mitja_5_2": 0.224,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 4,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 41,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.2907,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 43,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5561,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 45,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.4841,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 47,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5134,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta_inici": 245,
+      "volta_final": 249,
+      "n_voltes": 3,
+      "score_mitja_5_2": 0.2845,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 245,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.6547,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 247,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.5196,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 249,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.4547,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta_inici": 47,
+      "volta_final": 51,
+      "n_voltes": 3,
+      "score_mitja_5_2": 0.2437,
+      "q_valor_5_2": 1.0,
+      "significatiu_FDR_5_2": false,
+      "n_convergents": 0,
+      "n_gramaticals": 0,
+      "n_lexiques": 0,
+      "n_cap": 3,
+      "frac_gramatical": 0.0,
+      "frac_lexica": 0.0,
+      "voltes_convergents": [],
+      "voltes_gramaticals": [],
+      "voltes_lexiques": [],
+      "tokens_rare_segment": [],
+      "veredicte": "SENSE_SENYAL",
+      "nomes_senyal_agregat": true,
+      "nota": "Segment d'alt score agregat però sense voltes marcades individualment per 5.1 ni 5.1b.",
+      "voltes_detall": [
+        {
+          "volta": 47,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.4594,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 49,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.353,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        },
+        {
+          "volta": 51,
+          "classe": "CAP",
+          "categoria_5_1": "normal",
+          "score_5_1": 8.6506,
+          "flags_5_1": [],
+          "te_rare": false,
+          "n_rare": 0,
+          "tokens_rare": [],
+          "z_runs": null,
+          "interpretacio_runs": null
+        }
+      ]
+    }
+  ],
+  "voltes_orfenes": [
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 59,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.5687,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<xl(3)>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 71,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 5.8262,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<l(3)lxl>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Eterna",
+      "volta": 39,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 10.634,
+      "flags_5_1": [
+        "flag_micro_mean",
+        "flag_micro_max"
+      ],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<(6)lxl>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 89,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.4749,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<<4rxrxrxr>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 115,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 2.256,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": -14.3012,
+      "interpretacio_runs": "menys runs dels esperats (agrupacio)"
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 117,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 5.3071,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "33"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 213,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 3.8676,
+      "flags_5_1": [
+        "flag_sig_salt",
+        "flag_macro_surp"
+      ],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "23>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 219,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 2.4433,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": -19.6105,
+      "interpretacio_runs": "menys runs dels esperats (agrupacio)"
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 221,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 3.6287,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": -3.5301,
+      "interpretacio_runs": "menys runs dels esperats (agrupacio)"
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 223,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 4.2595,
+      "flags_5_1": [
+        "flag_sig_salt",
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": -4.9666,
+      "interpretacio_runs": "menys runs dels esperats (agrupacio)"
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta": 101,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.5851,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<6"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta": 103,
+      "classe": "CONVERGENT",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 9.5166,
+      "flags_5_1": [
+        "flag_micro_mean"
+      ],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<allg(2)>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 133,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 8.5932,
+      "flags_5_1": [],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "5"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Angelines",
+      "volta": 29,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 9.4948,
+      "flags_5_1": [],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": 3.5661,
+      "interpretacio_runs": "mes runs dels esperats (alternancia)"
+    },
+    {
+      "teixit": "CM_Angelines",
+      "volta": 57,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 9.2636,
+      "flags_5_1": [],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<pl3l(2)>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Eterna",
+      "volta": 37,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 4.8646,
+      "flags_5_1": [],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": -3.2467,
+      "interpretacio_runs": "menys runs dels esperats (agrupacio)"
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 129,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 8.0783,
+      "flags_5_1": [],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "v"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 237,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 6.2864,
+      "flags_5_1": [],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": -3.2259,
+      "interpretacio_runs": "menys runs dels esperats (agrupacio)"
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta": 101,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 7.8531,
+      "flags_5_1": [],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<lalal3lglgl(3)>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta": 121,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 7.3462,
+      "flags_5_1": [],
+      "te_rare": true,
+      "n_rare": 1,
+      "tokens_rare": [
+        "<lx>"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 73,
+      "classe": "LEXICA",
+      "categoria_5_1": "normal",
+      "score_5_1": 7.8458,
+      "flags_5_1": [],
+      "te_rare": true,
+      "n_rare": 3,
+      "tokens_rare": [
+        "{",
+        "12",
+        "}"
+      ],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 3,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 4.8782,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 5,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 4.7509,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 7,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.2649,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 17,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.353,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 73,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 5.7357,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "volta": 261,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 5.5129,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Angelines",
+      "volta": 5,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.9785,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Angelines",
+      "volta": 7,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.68,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Angelines",
+      "volta": 11,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 4.41,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta": 3,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 6.9859,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta": 5,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 4.8666,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta": 7,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 6.1677,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta": 95,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 10.0387,
+      "flags_5_1": [
+        "flag_micro_mean",
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "volta": 97,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.9797,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Eterna",
+      "volta": 5,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.2935,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Eterna",
+      "volta": 9,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 5.8555,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 1,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 7.9496,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_macro_surp"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 51,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.4387,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 107,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "CRÍTICA",
+      "score_5_1": 0.215,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_sig_salt",
+        "flag_macro_surp"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 109,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 3.8314,
+      "flags_5_1": [
+        "flag_sig_salt",
+        "flag_macro_surp"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 119,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.5702,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 193,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 1.9755,
+      "flags_5_1": [
+        "flag_macro_surp"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 195,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 5.1154,
+      "flags_5_1": [
+        "flag_macro_surp"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 211,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "CRÍTICA",
+      "score_5_1": 0.0,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_sig_salt",
+        "flag_macro_surp"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "volta": 239,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 5.559,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta": 1,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 9.6065,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_micro_mean"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta": 5,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.1685,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta": 75,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.5468,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta": 77,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.9981,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta": 103,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.7203,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "volta": 119,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 3.9198,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas y cactus",
+      "volta": 1,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.5693,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas y cactus",
+      "volta": 3,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.9577,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas y cactus",
+      "volta": 27,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 5.7607,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Hojas y cactus",
+      "volta": 33,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 6.1204,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta": 1,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 10.0313,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_micro_mean"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta": 15,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.9598,
+      "flags_5_1": [
+        "flag_micro_mean"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta": 31,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.7856,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pasión",
+      "volta": 99,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 3.9648,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pelargonia",
+      "volta": 5,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.9072,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pelargonia",
+      "volta": 71,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 5.9739,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pelargonia",
+      "volta": 79,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.2193,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 11,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 9.1572,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 13,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 9.2112,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 33,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 4.0201,
+      "flags_5_1": [
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 39,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.3041,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 93,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 8.5524,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 103,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.464,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 119,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 6.5878,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 121,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 7.1457,
+      "flags_5_1": [
+        "flag_micro_max"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Pepita",
+      "volta": 131,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 6.0989,
+      "flags_5_1": [
+        "flag_sig_intra"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Punto Angelines",
+      "volta": 1,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "ALTA",
+      "score_5_1": 6.3712,
+      "flags_5_1": [
+        "flag_sig_intra",
+        "flag_sig_salt"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Punto Angelines",
+      "volta": 2,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 3.9392,
+      "flags_5_1": [
+        "flag_macro_surp"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    },
+    {
+      "teixit": "CM_Punto Angelines",
+      "volta": 4,
+      "classe": "GRAMATICAL",
+      "categoria_5_1": "MODERADA",
+      "score_5_1": 3.736,
+      "flags_5_1": [
+        "flag_macro_surp"
+      ],
+      "te_rare": false,
+      "n_rare": 0,
+      "tokens_rare": [],
+      "z_runs": null,
+      "interpretacio_runs": null
+    }
+  ]
+}

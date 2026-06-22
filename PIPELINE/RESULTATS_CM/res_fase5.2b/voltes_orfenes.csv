@@ -1,0 +1,76 @@
+teixit,volta,classe,categoria_5_1,score_5_1,n_rare,tokens_rare,z_runs,flags_5_1
+CM_Abouchete,59,CONVERGENT,MODERADA,8.5687,1,<xl(3)>,,flag_micro_max
+CM_Abouchete,71,CONVERGENT,MODERADA,5.8262,1,<l(3)lxl>,,flag_sig_intra
+CM_Eterna,39,CONVERGENT,ALTA,10.634,1,<(6)lxl>,,flag_micro_mean|flag_micro_max
+CM_Gardenia,89,CONVERGENT,MODERADA,8.4749,1,<<4rxrxrxr>,,flag_micro_max
+CM_Gardenia,115,CONVERGENT,MODERADA,2.256,0,,-14.3012,flag_sig_salt
+CM_Gardenia,117,CONVERGENT,MODERADA,5.3071,1,33,,flag_sig_salt
+CM_Gardenia,213,CONVERGENT,ALTA,3.8676,1,23>,,flag_sig_salt|flag_macro_surp
+CM_Gardenia,219,CONVERGENT,MODERADA,2.4433,0,,-19.6105,flag_sig_salt
+CM_Gardenia,221,CONVERGENT,MODERADA,3.6287,0,,-3.5301,flag_sig_salt
+CM_Gardenia,223,CONVERGENT,ALTA,4.2595,0,,-4.9666,flag_sig_salt|flag_micro_max
+CM_Hojas de Roble,101,CONVERGENT,MODERADA,7.5851,1,<6,,flag_micro_max
+CM_Pasión,103,CONVERGENT,MODERADA,9.5166,1,<allg(2)>,,flag_micro_mean
+CM_Abouchete,133,LEXICA,normal,8.5932,1,5,,
+CM_Angelines,29,LEXICA,normal,9.4948,0,,3.5661,
+CM_Angelines,57,LEXICA,normal,9.2636,1,<pl3l(2)>,,
+CM_Eterna,37,LEXICA,normal,4.8646,0,,-3.2467,
+CM_Gardenia,129,LEXICA,normal,8.0783,1,v,,
+CM_Gardenia,237,LEXICA,normal,6.2864,0,,-3.2259,
+CM_Pasión,101,LEXICA,normal,7.8531,1,<lalal3lglgl(3)>,,
+CM_Pasión,121,LEXICA,normal,7.3462,1,<lx>,,
+CM_Pepita,73,LEXICA,normal,7.8458,3,{|12|},,
+CM_Abouchete,3,GRAMATICAL,ALTA,4.8782,0,,,flag_sig_intra|flag_sig_salt
+CM_Abouchete,5,GRAMATICAL,ALTA,4.7509,0,,,flag_sig_intra|flag_sig_salt
+CM_Abouchete,7,GRAMATICAL,MODERADA,7.2649,0,,,flag_sig_salt
+CM_Abouchete,17,GRAMATICAL,MODERADA,7.353,0,,,flag_sig_intra
+CM_Abouchete,73,GRAMATICAL,MODERADA,5.7357,0,,,flag_sig_salt
+CM_Abouchete,261,GRAMATICAL,MODERADA,5.5129,0,,,flag_sig_salt
+CM_Angelines,5,GRAMATICAL,MODERADA,8.9785,0,,,flag_sig_intra
+CM_Angelines,7,GRAMATICAL,MODERADA,8.68,0,,,flag_sig_intra
+CM_Angelines,11,GRAMATICAL,MODERADA,4.41,0,,,flag_sig_salt
+CM_Copas de champán,3,GRAMATICAL,MODERADA,6.9859,0,,,flag_sig_intra
+CM_Copas de champán,5,GRAMATICAL,MODERADA,4.8666,0,,,flag_sig_salt
+CM_Copas de champán,7,GRAMATICAL,MODERADA,6.1677,0,,,flag_sig_salt
+CM_Copas de champán,95,GRAMATICAL,ALTA,10.0387,0,,,flag_micro_mean|flag_micro_max
+CM_Copas de champán,97,GRAMATICAL,MODERADA,7.9797,0,,,flag_micro_max
+CM_Eterna,5,GRAMATICAL,MODERADA,7.2935,0,,,flag_sig_intra
+CM_Eterna,9,GRAMATICAL,ALTA,5.8555,0,,,flag_sig_intra|flag_sig_salt
+CM_Gardenia,1,GRAMATICAL,ALTA,7.9496,0,,,flag_sig_intra|flag_macro_surp
+CM_Gardenia,51,GRAMATICAL,MODERADA,7.4387,0,,,flag_sig_salt
+CM_Gardenia,107,GRAMATICAL,CRÍTICA,0.215,0,,,flag_sig_intra|flag_sig_salt|flag_macro_surp
+CM_Gardenia,109,GRAMATICAL,ALTA,3.8314,0,,,flag_sig_salt|flag_macro_surp
+CM_Gardenia,119,GRAMATICAL,MODERADA,7.5702,0,,,flag_micro_max
+CM_Gardenia,193,GRAMATICAL,MODERADA,1.9755,0,,,flag_macro_surp
+CM_Gardenia,195,GRAMATICAL,MODERADA,5.1154,0,,,flag_macro_surp
+CM_Gardenia,211,GRAMATICAL,CRÍTICA,0.0,0,,,flag_sig_intra|flag_sig_salt|flag_macro_surp
+CM_Gardenia,239,GRAMATICAL,MODERADA,5.559,0,,,flag_sig_salt
+CM_Hojas de Roble,1,GRAMATICAL,ALTA,9.6065,0,,,flag_sig_intra|flag_micro_mean
+CM_Hojas de Roble,5,GRAMATICAL,MODERADA,7.1685,0,,,flag_sig_salt
+CM_Hojas de Roble,75,GRAMATICAL,MODERADA,8.5468,0,,,flag_micro_max
+CM_Hojas de Roble,77,GRAMATICAL,MODERADA,7.9981,0,,,flag_micro_max
+CM_Hojas de Roble,103,GRAMATICAL,MODERADA,8.7203,0,,,flag_micro_max
+CM_Hojas de Roble,119,GRAMATICAL,MODERADA,3.9198,0,,,flag_sig_intra
+CM_Hojas y cactus,1,GRAMATICAL,MODERADA,8.5693,0,,,flag_sig_intra
+CM_Hojas y cactus,3,GRAMATICAL,MODERADA,7.9577,0,,,flag_sig_salt
+CM_Hojas y cactus,27,GRAMATICAL,MODERADA,5.7607,0,,,flag_sig_intra
+CM_Hojas y cactus,33,GRAMATICAL,MODERADA,6.1204,0,,,flag_sig_intra
+CM_Pasión,1,GRAMATICAL,ALTA,10.0313,0,,,flag_sig_intra|flag_micro_mean
+CM_Pasión,15,GRAMATICAL,MODERADA,7.9598,0,,,flag_micro_mean
+CM_Pasión,31,GRAMATICAL,MODERADA,7.7856,0,,,flag_sig_salt
+CM_Pasión,99,GRAMATICAL,MODERADA,3.9648,0,,,flag_sig_intra
+CM_Pelargonia,5,GRAMATICAL,MODERADA,7.9072,0,,,flag_sig_salt
+CM_Pelargonia,71,GRAMATICAL,MODERADA,5.9739,0,,,flag_sig_intra
+CM_Pelargonia,79,GRAMATICAL,MODERADA,7.2193,0,,,flag_sig_intra
+CM_Pepita,11,GRAMATICAL,MODERADA,9.1572,0,,,flag_sig_intra
+CM_Pepita,13,GRAMATICAL,MODERADA,9.2112,0,,,flag_sig_intra
+CM_Pepita,33,GRAMATICAL,MODERADA,4.0201,0,,,flag_sig_salt
+CM_Pepita,39,GRAMATICAL,MODERADA,8.3041,0,,,flag_micro_max
+CM_Pepita,93,GRAMATICAL,MODERADA,8.5524,0,,,flag_micro_max
+CM_Pepita,103,GRAMATICAL,MODERADA,7.464,0,,,flag_micro_max
+CM_Pepita,119,GRAMATICAL,MODERADA,6.5878,0,,,flag_sig_intra
+CM_Pepita,121,GRAMATICAL,MODERADA,7.1457,0,,,flag_micro_max
+CM_Pepita,131,GRAMATICAL,MODERADA,6.0989,0,,,flag_sig_intra
+CM_Punto Angelines,1,GRAMATICAL,ALTA,6.3712,0,,,flag_sig_intra|flag_sig_salt
+CM_Punto Angelines,2,GRAMATICAL,MODERADA,3.9392,0,,,flag_macro_surp
+CM_Punto Angelines,4,GRAMATICAL,MODERADA,3.736,0,,,flag_macro_surp

@@ -1,0 +1,77 @@
+teixit,volta_inici,volta_final,n_voltes,n_convergents,n_gramaticals,n_lexiques,n_cap,frac_gramatical,frac_lexica,score_mitja_5_2,q_valor_5_2,significatiu_FDR_5_2,veredicte,voltes_convergents,tokens_rare_segment
+MS_La Puntilla,1,47,24,13,0,11,0,0.542,1.0,2.7651,1.0,False,CONVERGENCIA,3|7|11|13|15|17|19|21|23|25|27|31|45,<a(9)g>×1|<a(6)pglla>×1|<a(3)(pella-3v)(3)g>×1|<a(4)(glla-2v)(4)g>×1|<ll(7)>×1|<a(5)(glla-5v)g>×1|<ll(9)>×1|<a(12)p>×1|<ll(11)>×1|<a(10)g>×1|<ll(13)>×1|<a(8)g>×1|<ll(15)>×1|<a(6)g>×1|<ll(17)>×1|<ll(19)>×1|<ll(21)>×1|<(23)l>×1|<(10)3(10)lpl>×1|<(9)3(9)l(pl-3v)>×1|<(8)3(8)lg(lp-3v)lal>×1|<(7)3(7)(lg-2v)(lp-3v)(la-2v)l>×1|<(6)3(6)(lg-3v)l(3)(la-3v)l>×1|<(5)3(5)(lg-4v)lxl(al-4v)>×1|<(4)3(4)(lg-4v)l(9)l(al-4v)>×1|<(3)3(3)(lg-4v)l(11)l(al-4v)>×1|<(2)3(2)(lg-4v)l(13)l(al-4v)>×1|<p3p(lg-4v)l(15)l(al-4v)>×1|<3(lg-4v)l(17)l(al-4v)>×1
+MS_Celia 1,81,107,14,5,1,8,0,0.429,0.929,2.5634,0.008436008436008436,True,CONVERGENCIA,85|89|93|97|101,(45)×1|(47)×1|(49)×1|(51)×1|(53)×1|(55)×1|(57)×1|(59)×1|(61)×1|(63)×1|(65)×1|(67)×1|(69)×1
+MS_Campanilla,89,109,11,5,0,5,1,0.455,0.909,4.1199,0.008436008436008436,True,CONVERGENCIA,89|91|93|101|105,<222222l>×1|2222223×1|<glla3>×1|<p22222plxl>×1|<a2222gplxlp>×1|<a222g2lxl2>×1|<a22gp2lxl2p>×1|<a23l22lxl22l>×1|<x22xl22plpl>×1|<glplala2222glglpl>×1|<xlp(la-3v)222(pl-3v)pl>×1|<xlp(la-4v)22(gl-4/v)l>×1
+MS_Puntilla2,15,49,18,5,2,10,1,0.389,0.833,2.0026,0.015184815184815185,True,CONVERGENCIA,23|25|27|29|35,<a(2)(lp-3v)l(2)g>×1|<a(6)(lp-3v)l(6)g>×1|<a(7)(lp-3v)l(7)g>×1|<a(8)(lp-3v)l(8)g>×1|<a(9)(lp-3v)l(9)g>×1|<a(10)(lp-3v)l(10)g>×1|<a(11)(lp-3v)l(11)g>×1|<A(11)(LP-3v)L(11)G>×1|<APGL(21)LAPGL>×1|<ALAPGL(13)LAPGLGL(3)L>×1|<AL3L(15)L3LGLGLPLAL>×1|<GL>×1|<(AL-2v)3(7)3(LG-4v)LPL(AL-2v)>×1|<(AL-2v)A(5)(GL-5v)(3)(LA-2v)L>×1|<(AL-2v)A(3)(GL-5v)P(LA-3v)L>×1
+MS_Grafico 2,65,85,11,3,0,7,1,0.273,0.909,1.9092,0.008436008436008436,True,CONVERGENCIA,65|69|75,<lxl(5)>×1|<lxl(7)>×1|<a(4)>×1|<lxl(9)>×1|<lxl(11)>×1|<l(3)l(11)>×1|<lpl3lpla(7)g>×1|<l(3)lxl(3)la(5)g>×1|<lpl3l3l3lpla(3)g>×1|<l(3)lx(3)lxl(3)lapp>×1|<l3lp>×1
+MS_Araceli,71,81,6,3,1,1,1,0.667,0.667,2.8402,0.008436008436008436,True,CONVERGENCIA,71|75|77,<l(3)l>×1|<l(7)l>×1|<l(9)l>×1|<lal>×1|<l(11)l>×1
+MS_Julito,71,91,7,3,3,0,1,0.857,0.429,1.8942,0.008436008436008436,True,CONVERGENCIA,81|83|85,<l(3)3(3)>×1|<lplpp3pp>×1|<l(3)lp3p>×1
+MS_Pino,117,129,7,2,2,3,0,0.571,0.714,1.7296,0.008436008436008436,True,CONVERGENCIA,119|121,<a(3)g(plxl-3v)pa(3)g>×1|<apg(2)lxl(2)l3l(2)lxl(2)apg>×1|<3(3)lxl(3)l3l(3)lxl(3)3>×1|<a(3)lxl(4)l3l(4)lxl(3)g>×1|<a(3)lxl(5)l3l(5)lxl(3)g>×1
+MS_Pensamiento,19,23,3,2,1,0,0,1.0,0.667,3.1474,0.0521978021978022,False,CONVERGENCIA,21|23,<(3)ll>×1|<plallgl>×1
+MS_Margarita,43,79,19,2,8,6,3,0.526,0.421,1.0016,0.008436008436008436,True,CONVERGENCIA,49|51,<lxl(4)>×1|<lxl(6)>×1|<lxl(8)>×1|<lxl(10)>×1|<lxl(12)>×1
+MS_Claveles,55,77,12,1,0,11,0,0.083,1.0,1.0015,0.027608754881482154,True,CONVERGENCIA,57,<3>>×1|<3>(2)>×1|<3>(4)>×1|<3>(6)>×1|<3>(8)>×1|<3>(10)>×1|<3>(12)>×1|<3>(14)>×1|<lpla(12)g>×1|<l(3)la(10)g>×1|<l(2)llapla(8)g>×1|<l(glla-2v)la(6)g>×1
+MS_Leonor,105,111,4,1,1,2,0,0.5,0.75,4.6999,0.03163503163503164,True,CONVERGENCIA,109,<LP2>×1|<P2L>×1|<GLLA3LLA>×1|T×1|<L2PLP>×1|<L2P>×1|<2PL>×1|<PL2PL>×1
+MS_Rita,93,103,6,1,1,3,1,0.333,0.667,2.1948,0.04555444555444556,True,CONVERGENCIA,97,<l(4)>×1|<(4)l>×1|<l(3)g3>×1|<l(3)g>×1|<3pl>×1
+MS_Punto conchas,1,13,7,1,4,1,1,0.714,0.286,1.3803,1.0,False,CONVERGENCIA,13,<p(3r)>×1
+MS_Palmito,5,23,5,1,4,0,0,1.0,0.2,1.6588,0.05805958747135218,False,CONVERGENCIA,21,<l(9)>×1
+MS_Celia 2,13,21,5,1,4,0,0,1.0,0.2,1.305,0.7102574844510329,False,CONVERGENCIA,15,
+MS_Penas,9,31,12,1,8,0,3,0.75,0.083,1.9512,0.008436008436008436,True,CONVERGENCIA,17,<(3)lxl>×1
+MS_Campanilla,73,79,4,0,0,4,0,0.0,1.0,1.5002,1.0,False,PERFIL_LEXIC,,<2lxl2>×1|<p2lxl2p>×1|<22lxl22>×1|<p22xl22p>×1
+MS_Vueltas del reves,15,19,3,0,0,3,0,0.0,1.0,1.9082,0.3796203796203797,False,PERFIL_LEXIC,,<x7>>×1|<(8)ll>×1|<(3)ga(3)ll>×1
+MS_Araceli,95,105,6,0,0,6,0,0.0,1.0,0.9066,1.0,False,PERFIL_LEXIC,,<a(7)glpl>×1|<a(5)glpl>×1|<a(3)(gl-2v)plal>×1|<ap(gl-2v)(3)lal>×1|6×1|<x(lp-2v)l(3)l(al-2v)>×1
+MS_Vaño Mimosa,107,111,3,0,0,3,0,0.0,1.0,0.8219,1.0,False,PERFIL_LEXIC,,<a(5)gl(9)l>×1|<a(3)gl(11)l>×1|<apgl(13)l>×1
+MS_Marianin o Katiuska,21,25,3,0,0,2,1,0.0,0.667,6.0018,0.16505233896538246,False,PERFIL_LEXIC,,
+MS_Puntilla3,11,15,3,0,0,1,2,0.0,0.333,1.3241,1.0,False,PERFIL_LEXIC,,<lplp3p>×1
+MS_Morin,43,69,14,0,1,13,0,0.071,0.929,1.3091,0.008436008436008436,True,MIXT,,<ll(8)>×1|<ll(10)>×1|<ll(12)>×1|<ll(14)>×1|<ll(16)>×1|<l(18)>×1|<la(15)g>×1|<lpla(13)g>×1|<l(3)la(11)g>×1|<lglp(la-2v)(9)p>×1|<(gl-2v)(3)(la-2v)(7)p>×1|<(pl-3v)p(la-3v)(5)p>×1|<(pl-3v)(3)(la-3v)(3)p>×1
+MS_Rita,73,77,3,0,2,1,0,0.667,0.333,1.4354,1.0,False,MIXT,,<glla(3)>×1
+MS_Pensamiento,33,45,7,0,2,2,3,0.286,0.286,0.943,1.0,False,MIXT,,<a(5)g>×1|<a(3)g>×1
+MS_Salvador,109,115,4,0,2,1,1,0.5,0.25,1.5483,0.07953950811093669,False,MIXT,,i×1
+MS_Ovalo1,29,45,9,0,4,2,3,0.444,0.222,1.5788,0.6885528264838608,False,MIXT,,<laz>×1|<lplg>×1
+MS_Luis,105,113,5,0,3,1,1,0.6,0.2,0.6256,1.0,False,MIXT,,
+MS_Vaño Mimosa,89,97,5,0,3,1,1,0.6,0.2,0.5186,1.0,False,MIXT,,
+MS_Susana,27,37,6,0,4,0,2,0.667,0.0,1.3097,0.04555444555444556,True,PERFIL_GRAMATICAL,,
+MS_Mariposa,3,9,4,0,3,0,1,0.75,0.0,1.527,0.04088219472834857,True,PERFIL_GRAMATICAL,,
+MS_Celia 1,9,29,11,0,8,0,3,0.727,0.0,1.7853,0.7010323010323011,False,PERFIL_GRAMATICAL,,
+MS_Claveles,1,5,3,0,3,0,0,1.0,0.0,2.5941,0.05905205905205905,False,PERFIL_GRAMATICAL,,
+MS_Raetine,53,79,8,0,7,0,1,0.875,0.0,0.8948,0.3796203796203797,False,PERFIL_GRAMATICAL,,
+MS_Celia 2,55,65,6,0,5,0,1,0.833,0.0,1.1918,0.6885528264838608,False,PERFIL_GRAMATICAL,,
+MS_Jazmín,11,19,5,0,3,0,2,0.6,0.0,1.3796,0.9588126159554731,False,PERFIL_GRAMATICAL,,
+MS_Vaño Mimosa,3,9,4,0,3,0,1,0.75,0.0,1.5413,0.3796203796203797,False,PERFIL_GRAMATICAL,,
+MS_Ovalo2,17,27,6,0,3,0,3,0.5,0.0,1.002,1.0,False,PERFIL_GRAMATICAL,,
+MS_Jazmín,1,5,3,0,3,0,0,1.0,0.0,1.8372,1.0,False,PERFIL_GRAMATICAL,,
+MS_Ovalo1,3,11,5,0,4,0,1,0.8,0.0,1.0089,1.0,False,PERFIL_GRAMATICAL,,
+MS_Puntilla,1,5,3,0,2,0,1,0.667,0.0,1.604,0.07953950811093669,False,PERFIL_GRAMATICAL,,
+MS_Luis,1,5,3,0,2,0,1,0.667,0.0,1.5198,0.7402597402597403,False,PERFIL_GRAMATICAL,,
+MS_Raetine,96,98,3,0,2,0,1,0.667,0.0,1.4924,1.0,False,PERFIL_GRAMATICAL,,
+MS_Luis,135,139,3,0,2,0,1,0.667,0.0,1.4853,0.8052553507098962,False,PERFIL_GRAMATICAL,,
+MS_Marianin o Katiuska,1,5,3,0,2,0,1,0.667,0.0,1.4461,1.0,False,PERFIL_GRAMATICAL,,
+MS_Campanilla,47,55,5,0,4,0,1,0.8,0.0,0.8406,1.0,False,PERFIL_GRAMATICAL,,
+MS_Estrellita,33,37,3,0,3,0,0,1.0,0.0,1.3108,0.07953950811093669,False,PERFIL_GRAMATICAL,,
+MS_Celia 2,1,7,3,0,3,0,0,1.0,0.0,1.2502,1.0,False,PERFIL_GRAMATICAL,,
+MS_Campanilla,35,43,5,0,1,0,4,0.2,0.0,0.7347,1.0,False,PERFIL_GRAMATICAL,,
+MS_Salvador,119,125,4,0,2,0,2,0.5,0.0,0.9095,1.0,False,PERFIL_GRAMATICAL,,
+MS_Fajas,1,7,3,0,3,0,0,1.0,0.0,1.1625,1.0,False,PERFIL_GRAMATICAL,,
+MS_Susana,9,17,5,0,2,0,3,0.4,0.0,0.6565,1.0,False,PERFIL_GRAMATICAL,,
+MS_Salvador,1,7,3,0,3,0,0,1.0,0.0,0.9923,1.0,False,PERFIL_GRAMATICAL,,
+MS_Blumen Flor,1,5,3,0,2,0,1,0.667,0.0,0.9445,0.9588126159554731,False,PERFIL_GRAMATICAL,,
+MS_Susana,71,79,5,0,2,0,3,0.4,0.0,0.5589,1.0,False,PERFIL_GRAMATICAL,,
+MS_Titi 2 - Grafico A,17,21,3,0,1,0,2,0.333,0.0,0.925,1.0,False,PERFIL_GRAMATICAL,,
+MS_Puntilla4,23,27,3,0,1,0,2,0.333,0.0,0.8961,0.3796203796203797,False,PERFIL_GRAMATICAL,,
+MS_Leonor,1,7,4,0,2,0,2,0.5,0.0,0.6308,1.0,False,PERFIL_GRAMATICAL,,
+MS_Hijo,23,27,3,0,3,0,0,1.0,0.0,0.8303,1.0,False,PERFIL_GRAMATICAL,,
+MS_Pino,93,97,3,0,1,0,2,0.333,0.0,0.7927,1.0,False,PERFIL_GRAMATICAL,,
+MS_Morin,1,9,3,0,1,0,2,0.333,0.0,0.6412,1.0,False,PERFIL_GRAMATICAL,,
+MS_Blumen Flor,109,113,3,0,1,0,2,0.333,0.0,0.556,1.0,False,PERFIL_GRAMATICAL,,
+MS_Estrellita,5,9,3,0,2,0,1,0.667,0.0,0.5507,1.0,False,PERFIL_GRAMATICAL,,
+MS_Luis,53,57,3,0,1,0,2,0.333,0.0,0.488,1.0,False,PERFIL_GRAMATICAL,,
+MS_Pino,81,85,3,0,1,0,2,0.333,0.0,0.4514,1.0,False,PERFIL_GRAMATICAL,,
+MS_Punto Bellota,10,13,4,0,3,0,1,0.75,0.0,0.3238,0.08972845336481701,False,PERFIL_GRAMATICAL,,
+MS_Puntilla nueva,27,31,3,0,1,0,2,0.333,0.0,0.4309,1.0,False,PERFIL_GRAMATICAL,,
+MS_Pino,59,63,3,0,2,0,1,0.667,0.0,0.4056,1.0,False,PERFIL_GRAMATICAL,,
+MS_Mariposa,29,35,4,0,3,0,1,0.75,0.0,0.2811,1.0,False,PERFIL_GRAMATICAL,,
+MS_Puntilla,17,21,3,0,2,0,1,0.667,0.0,0.1706,1.0,False,PERFIL_GRAMATICAL,,
+MS_Adolbert,25,29,3,0,3,0,0,1.0,0.0,0.1466,1.0,False,PERFIL_GRAMATICAL,,
+MS_Marianin o Katiuska,29,35,4,0,0,0,4,0.0,0.0,0.3013,1.0,False,SENSE_SENYAL,,
+MS_Dalila,17,21,3,0,0,0,3,0.0,0.0,0.3857,1.0,False,SENSE_SENYAL,,
+MS_Salvador,141,145,3,0,0,0,3,0.0,0.0,0.2217,1.0,False,SENSE_SENYAL,,
+MS_Gafitas2,33,37,3,0,0,0,3,0.0,0.0,0.1065,1.0,False,SENSE_SENYAL,,

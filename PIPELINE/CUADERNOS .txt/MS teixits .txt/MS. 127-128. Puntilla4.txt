@@ -1,0 +1,14 @@
+1 (17)lpl
+3 (7)3(7)l(3)l
+5 (6)3(6)l(5)l
+7 (5)3(5)l(7)l
+9 (4)3(4)lpl(4)l
+11 (3)3(3)l(3)gl(3)la(3)l
+13 (2)3(2)l(3)gl(5)la(3)l
+15 p3pl(3)g(lp-7v)la(3)l
+17 3l(3)glp(l(2)-7v)la(3)l
+19 (4)gl(2)(lap-6v)lagla(3)
+21 (3)glag(lpg-7v)la(2)
+23 (2)gl(lap-7v)aglap
+25 pglag(lpg-7v)la
+27 IMZl3(lap-3v)la(2)

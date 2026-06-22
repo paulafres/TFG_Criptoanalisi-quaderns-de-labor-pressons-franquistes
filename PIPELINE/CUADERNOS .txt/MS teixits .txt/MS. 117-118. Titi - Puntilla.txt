@@ -1,0 +1,7 @@
+1 l(19)
+3 lxl(5)3(5)
+5 lplxlpl(4)3(4)
+7 l(3)lxl(3)l(3)3(3)
+9 lpl3lplxlpl3lpla3g
+11 (l(3)lxl-3v)l(3)l3
+13 p(l3-7v)l(2)

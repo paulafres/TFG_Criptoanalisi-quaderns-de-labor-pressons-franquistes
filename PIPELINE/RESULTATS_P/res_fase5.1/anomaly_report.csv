@@ -1,0 +1,764 @@
+teixit,volta,tipus_volta,context_macro,longitud_micro,score_anomalia,num_flags_actius,categoria,cross_canal,z_intra_teixit,z_salt_global,frac_outlier,surprisal_macro,z_surprisal_macro,is_zero_prob_macro,mean_surprisal_micro,max_surprisal_micro,z_mean_surprisal_micro,z_max_surprisal_micro,num_zero_prob_raw_micro,n_trans_testades,n_trans_no_validades,frac_trans_no_validades,z_frac_trans_no_validades,flag_sig_intra,flag_sig_salt,flag_macro_surp,flag_macro_zero,flag_micro_mean,flag_micro_max,flag_micro_zero,flag_trans_invalides
+P_Gentio,195,V1,V2,1,13.5026,4,CRÍTICA,True,8.875348,5.536466,0.0,5.618,4.921955,False,5.0869,6.3585,4.523155,-0.049389,0,0,0,,,True,True,True,False,True,False,False,False
+P_Primavera,9,V1,V0,1,11.548,4,CRÍTICA,True,5.261026,5.536466,0.0,5.6575,4.963718,False,4.8664,6.2141,4.242504,-0.131177,0,0,0,,,True,True,True,False,True,False,False,False
+P_Ruth,635,V1,V0,1,11.3784,4,CRÍTICA,True,4.626078,5.536466,0.0,5.6575,4.963718,False,5.0869,6.3585,4.523155,-0.049389,0,0,0,,,True,True,True,False,True,False,False,False
+P_Conchita Romero,117,V1,V2,1,10.6101,4,CRÍTICA,True,3.75998,5.20785,0.0,5.618,4.921955,False,4.8664,6.2141,4.242504,-0.131177,0,0,0,,,True,True,True,False,True,False,False,False
+P_Jafisa - Grafico A,35,V1,V0,2,10.215,4,CRÍTICA,True,2.604585,5.410796,0.0,5.6575,4.963718,False,4.9607,6.3585,4.362528,-0.049389,0,0,0,,,True,True,True,False,True,False,False,False
+P_Celia,3,V1,V2,1,9.9439,4,CRÍTICA,True,3.51267,5.536466,0.0,5.618,4.921955,False,3.955,4.1741,3.08248,-1.286621,0,0,0,,,True,True,True,False,True,False,False,False
+P_Helga,7,V1,V0,2,9.4012,3,CRÍTICA,True,6.638053,1.376764,0.0,5.6575,4.963718,False,3.5742,6.4533,2.5978,0.004305,0,0,0,,,True,False,True,False,True,False,False,False
+P_Jafisa - Grafico A,3,V1,V2,1,9.3541,4,CRÍTICA,True,2.344305,5.536466,0.0,5.618,4.921955,False,3.955,4.1741,3.08248,-1.286621,0,0,0,,,True,True,True,False,True,False,False,False
+P_Conchita Romero,125,V1,V1,1,8.7844,3,CRÍTICA,False,4.155246,5.536466,0.0,1.2141,0.265705,False,5.0869,6.3585,4.523155,-0.049389,0,0,0,,,True,True,False,False,True,False,False,False
+P_Celia,13,V2,V0,4,7.0119,3,CRÍTICA,False,1.567241,2.527397,0.0,2.4278,1.548952,False,5.5411,11.0834,5.101257,2.626767,0,1,0,0.0,-1.679146,False,True,False,False,True,True,False,False
+P_Jafisa - Grafico B,59,V1,V0,3,6.3472,2,ALTA,True,1.356223,1.223057,0.0,5.6575,4.963718,False,3.3862,6.5862,2.358515,0.079579,0,2,0,0.0,-1.679146,False,False,True,False,True,False,False,False
+P_Primavera,11,V1,V1,1,6.3128,2,ALTA,False,5.261026,-0.405966,0.0,1.2141,0.265705,False,4.8664,6.2141,4.242504,-0.131177,0,0,0,,,True,False,False,False,True,False,False,False
+P_Primavera,13,V1,V1,1,6.3128,2,ALTA,False,5.261026,-0.405966,0.0,1.2141,0.265705,False,4.8664,6.2141,4.242504,-0.131177,0,0,0,,,True,False,False,False,True,False,False,False
+P_Celia,9,V2,V1,11,6.1095,1,MODERADA,False,1.284891,5.536466,0.0,2.6881,1.824167,False,1.8887,6.4533,0.452507,0.004305,0,10,4,0.4,0.552405,False,True,False,False,False,False,False,False
+P_Pasión,73,V2,V0,11,6.1028,1,MODERADA,False,5.143827,1.436479,0.0,2.4278,1.548952,False,2.212,6.929,0.864001,0.273739,0,10,3,0.3,-0.005483,True,False,False,False,False,False,False,False
+P_Gentio,39,V2,V0,4,5.9978,3,CRÍTICA,False,2.624699,2.206036,0.0,2.4278,1.548952,False,3.687,7.5509,2.741371,0.625979,0,1,0,0.0,-1.679146,True,True,False,False,True,False,False,False
+P_Jafisa - Grafico B,71,V1,V0,3,5.924,2,ALTA,True,1.356223,0.349484,0.0,5.6575,4.963718,False,3.3862,6.5862,2.358515,0.079579,0,2,0,0.0,-1.679146,False,False,True,False,True,False,False,False
+P_Jafisa - Grafico B,75,V1,V0,3,5.924,2,ALTA,True,1.356223,0.349484,0.0,5.6575,4.963718,False,3.3862,6.5862,2.358515,0.079579,0,2,0,0.0,-1.679146,False,False,True,False,True,False,False,False
+P_Jafisa - Grafico B,79,V1,V0,3,5.924,2,ALTA,True,1.356223,0.349484,0.0,5.6575,4.963718,False,3.3862,6.5862,2.358515,0.079579,0,2,0,0.0,-1.679146,False,False,True,False,True,False,False,False
+P_Jafisa - Grafico B,83,V1,V0,3,5.924,2,ALTA,True,1.356223,0.349484,0.0,5.6575,4.963718,False,3.3862,6.5862,2.358515,0.079579,0,2,0,0.0,-1.679146,False,False,True,False,True,False,False,False
+P_Jafisa - Grafico B,87,V1,V0,3,5.924,2,ALTA,True,1.356223,0.349484,0.0,5.6575,4.963718,False,3.3862,6.5862,2.358515,0.079579,0,2,0,0.0,-1.679146,False,False,True,False,True,False,False,False
+P_Rosa de los Vientos,117,V2,V0,351,5.9048,2,ALTA,False,5.290801,2.988506,0.0,2.4278,1.548952,False,0.9638,6.4533,-0.724699,0.004305,0,350,5,0.014286,-1.599448,True,True,False,False,False,False,False,False
+P_Rosa de los Vientos,127,V2,V0,351,5.9048,2,ALTA,False,5.290801,2.988506,0.0,2.4278,1.548952,False,0.9638,6.4533,-0.724699,0.004305,0,350,5,0.014286,-1.599448,True,True,False,False,False,False,False,False
+P_Jafisa - Grafico B,89,V2,V1,5,5.8717,3,CRÍTICA,False,2.213261,3.467579,0.0,2.6881,1.824167,False,2.18,4.1275,0.823272,-1.313015,0,4,3,0.75,2.505013,True,True,False,False,False,False,False,True
+P_Pasión,121,V2,V0,23,5.6468,2,ALTA,False,3.167699,1.733072,0.0,2.4278,1.548952,False,2.5562,10.8275,1.302097,2.481827,0,20,5,0.25,-0.284426,True,False,False,False,False,True,False,False
+P_Jafisa - Grafico C,21,V2,V0,12,5.638,2,ALTA,False,2.846524,1.329343,0.0,2.4278,1.548952,False,3.1737,6.7512,2.088046,0.173034,0,10,5,0.5,1.110293,True,False,False,False,True,False,False,False
+P_Celia,25,V2,V0,250,5.6278,2,ALTA,False,2.600869,5.438517,0.0,2.4278,1.548952,False,0.9892,4.1275,-0.692371,-1.313015,0,249,4,0.016064,-1.589526,True,True,False,False,False,False,False,False
+P_Conchita Romero,119,V1,V1,1,5.555,2,ALTA,False,3.75998,-0.405966,0.0,1.2141,0.265705,False,4.8664,6.2141,4.242504,-0.131177,0,0,0,,,True,False,False,False,True,False,False,False
+P_Conchita Romero,121,V1,V1,1,5.555,2,ALTA,False,3.75998,-0.405966,0.0,1.2141,0.265705,False,4.8664,6.2141,4.242504,-0.131177,0,0,0,,,True,False,False,False,True,False,False,False
+P_Conchita Romero,123,V1,V1,1,5.555,2,ALTA,False,3.75998,-0.405966,0.0,1.2141,0.265705,False,4.8664,6.2141,4.242504,-0.131177,0,0,0,,,True,False,False,False,True,False,False,False
+P_Jafisa - Grafico A,37,V2,V1,35,5.5545,1,MODERADA,False,-0.212857,5.536466,0.0,2.6881,1.824167,False,1.9111,6.929,0.481018,0.273739,0,31,20,0.645161,1.92013,False,True,False,False,False,False,False,False
+P_Primavera,15,V0,V1,9,5.3152,2,ALTA,False,0.172607,5.536466,0.0,1.3344,0.392898,False,2.289,12.5438,0.962006,3.45393,0,8,2,0.25,-0.284426,False,True,False,False,False,True,False,False
+P_Pasión,69,V2,V0,7,5.1296,1,MODERADA,False,2.756038,0.801424,0.0,2.4278,1.548952,False,2.8406,6.929,1.664079,0.273739,0,6,3,0.5,1.110293,True,False,False,False,False,False,False,False
+P_Conchita Romero,127,V2,V1,14,5.1164,1,MODERADA,False,-0.090532,5.536466,0.0,2.6881,1.824167,False,1.5188,6.929,-0.018299,0.273739,0,11,3,0.272727,-0.157634,False,True,False,False,False,False,False,False
+P_Ruth,3,V2,V0,14,5.0975,2,ALTA,False,1.525392,1.523061,0.0,2.4278,1.548952,False,3.2211,10.2218,2.148377,2.138762,0,9,2,0.222222,-0.439395,False,False,False,False,True,True,False,False
+P_Jafisa - Grafico A,11,V0,V1,7,5.0174,1,MODERADA,False,-0.508973,5.536466,0.0,1.3344,0.392898,False,2.6119,9.4685,1.372991,1.712097,0,4,1,0.25,-0.284426,False,True,False,False,False,False,False,False
+P_Cori,5,V2,V0,4,4.7495,1,MODERADA,False,1.735495,1.334531,0.0,2.4278,1.548952,False,2.3738,4.1275,1.069939,-1.313015,0,3,3,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Celia,5,V1,V1,1,4.7297,2,ALTA,False,3.51267,-0.405966,0.0,1.2141,0.265705,False,3.955,4.1741,3.08248,-1.286621,0,0,0,,,True,False,False,False,True,False,False,False
+P_Pasión,1,V2,<BOS>,3,4.6886,2,ALTA,False,3.334197,,0.0,1.8301,0.917003,False,2.5209,4.1275,1.257167,-1.313015,0,2,2,1.0,3.899733,True,False,False,False,False,False,False,True
+P_Primavera,3,V2,V0,2,4.5071,2,ALTA,False,-0.067824,1.334531,0.0,2.4278,1.548952,False,3.2118,6.4533,2.13654,0.004305,0,1,1,1.0,3.899733,False,False,False,False,True,False,False,True
+P_Ruth,5,V2,V2,11,4.3961,1,MODERADA,False,1.549931,0.861751,0.0,0.9614,-0.001475,False,4.1868,8.3989,3.377513,1.106282,0,5,0,0.0,-1.679146,False,False,False,False,True,False,False,False
+P_Renacimiento,9,V2,V0,8,4.3247,2,ALTA,False,2.539503,0.523068,0.0,2.4278,1.548952,False,1.9896,4.1275,0.580932,-1.313015,0,7,5,0.714286,2.305767,True,False,False,False,False,False,False,True
+P_Jafisa - Grafico B,17,V2,V0,26,4.1537,0,normal,False,1.265131,1.825828,0.0,2.4278,1.548952,False,1.7305,7.7009,0.251151,0.710939,0,25,11,0.44,0.77556,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,5,V1,V1,1,4.1398,2,ALTA,False,2.344305,-0.405966,0.0,1.2141,0.265705,False,3.955,4.1741,3.08248,-1.286621,0,0,0,,,True,False,False,False,True,False,False,False
+P_Renacimiento,5,V2,V0,2,4.1023,1,MODERADA,False,0.187623,1.334531,0.0,2.4278,1.548952,False,2.5804,4.1275,1.332898,-1.313015,0,1,1,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Helga,67,V2,V0,24,4.0986,1,MODERADA,False,2.21794,0.133863,0.0,2.4278,1.548952,False,2.0874,6.5862,0.705411,0.079579,0,23,14,0.608696,1.716693,True,False,False,False,False,False,False,False
+P_Gentio,15,V2,V0,8,4.0338,0,normal,False,1.622752,1.683001,0.0,2.4278,1.548952,False,1.8232,4.1275,0.369139,-1.313015,0,7,2,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,3,V2,V0,4,3.9832,1,MODERADA,False,0.276858,1.334531,0.0,2.4278,1.548952,False,2.4751,6.4533,1.198873,0.004305,0,3,2,0.666667,2.040106,False,False,False,False,False,False,False,True
+P_Ruth,89,V2,V2,8,3.9605,1,MODERADA,False,1.786717,1.057192,0.0,0.9614,-0.001475,False,3.0374,10.2218,1.914565,2.138762,0,5,0,0.0,-1.679146,False,False,False,False,False,True,False,False
+P_Helga,11,V2,V0,6,3.9106,1,MODERADA,False,1.231505,0.166314,0.0,2.4278,1.548952,False,2.3576,6.4533,1.04932,0.004305,0,5,4,0.8,2.783957,False,False,False,False,False,False,False,True
+P_Renacimiento,45,V2,V0,47,3.8612,1,MODERADA,False,2.355628,1.039329,0.0,2.4278,1.548952,False,1.3611,4.1275,-0.219019,-1.313015,0,46,18,0.391304,0.503893,True,False,False,False,False,False,False,False
+P_Renacimiento,1,V0,<BOS>,2,3.7964,2,ALTA,False,2.446429,,0.0,0.7521,-0.222768,False,2.527,6.4533,1.264931,0.004305,0,1,1,1.0,3.899733,True,False,False,False,False,False,False,True
+P_Celia,11,V0,V2,9,3.7938,2,ALTA,False,-0.341019,3.466052,0.0,1.1806,0.230285,False,2.2406,10.8275,0.900403,2.481827,0,6,1,0.166667,-0.749333,False,True,False,False,False,True,False,False
+P_Helga,43,V2,V0,17,3.7489,1,MODERADA,False,2.568522,0.171074,0.0,2.4278,1.548952,False,1.548,6.929,0.018866,0.273739,0,14,4,0.285714,-0.085181,True,False,False,False,False,False,False,False
+P_Primavera,143,V2,V0,107,3.6969,0,normal,False,1.837982,1.616684,0.0,2.4278,1.548952,False,1.2176,6.5862,-0.401665,0.079579,0,106,6,0.056604,-1.363361,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,73,V2,V0,17,3.6862,0,normal,False,1.695825,0.658294,0.0,2.4278,1.548952,False,1.8418,4.1275,0.392813,-1.313015,0,16,7,0.4375,0.761613,False,False,False,False,False,False,False,False
+P_Gentio,1,V0,<BOS>,3,3.6576,2,ALTA,False,1.19181,,0.0,0.7521,-0.222768,False,3.9926,10.2218,3.130337,2.138762,0,1,0,0.0,-1.679146,False,False,False,False,True,True,False,False
+P_Gentio,207,V0,V1,45,3.6302,1,MODERADA,False,-0.316786,5.536466,0.0,1.3344,0.392898,False,0.8332,4.1275,-0.890926,-1.313015,0,44,8,0.181818,-0.664805,False,True,False,False,False,False,False,False
+P_Gentio,61,V2,V0,13,3.6094,0,normal,False,1.054035,0.20888,0.0,2.4278,1.548952,False,2.5327,6.7512,1.272186,0.173034,0,12,3,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Helga,9,V0,V1,8,3.5437,1,MODERADA,False,-0.36613,1.700644,0.0,1.3344,0.392898,False,2.7585,8.3989,1.559583,1.106282,0,6,4,0.666667,2.040106,False,False,False,False,False,False,False,True
+P_Jafisa - Grafico B,61,V1,V1,3,3.5306,1,MODERADA,False,1.356223,-0.405966,0.0,1.2141,0.265705,False,3.3862,6.5862,2.358515,0.079579,0,2,1,0.5,1.110293,False,False,False,False,True,False,False,False
+P_Jafisa - Grafico B,63,V1,V1,3,3.5306,1,MODERADA,False,1.356223,-0.405966,0.0,1.2141,0.265705,False,3.3862,6.5862,2.358515,0.079579,0,2,1,0.5,1.110293,False,False,False,False,True,False,False,False
+P_Jafisa - Grafico B,65,V1,V1,3,3.5306,1,MODERADA,False,1.356223,-0.405966,0.0,1.2141,0.265705,False,3.3862,6.5862,2.358515,0.079579,0,2,1,0.5,1.110293,False,False,False,False,True,False,False,False
+P_Jafisa - Grafico B,67,V1,V1,3,3.5306,1,MODERADA,False,1.356223,-0.405966,0.0,1.2141,0.265705,False,3.3862,6.5862,2.358515,0.079579,0,2,1,0.5,1.110293,False,False,False,False,True,False,False,False
+P_Gentio,227,V2,V0,18,3.4979,1,MODERADA,False,0.132344,-0.253114,0.0,2.4278,1.548952,False,2.8479,11.0834,1.67337,2.626767,0,15,7,0.466667,0.924331,False,False,False,False,False,True,False,False
+P_Renacimiento,3,V0,V0,2,3.3945,2,ALTA,False,2.446429,-0.405966,0.0,0.3651,-0.631944,False,2.527,6.4533,1.264931,0.004305,0,1,1,1.0,3.899733,True,False,False,False,False,False,False,True
+P_Gentio,193,V2,V0,40,3.3701,0,normal,False,1.358643,0.574173,0.0,2.4278,1.548952,False,1.6038,4.1275,0.089888,-1.313015,0,39,20,0.512821,1.181817,False,False,False,False,False,False,False,False
+P_Primavera,73,V2,V0,28,3.3537,0,normal,False,1.129748,0.915394,0.0,2.4278,1.548952,False,1.7826,6.5862,0.317464,0.079579,0,27,1,0.037037,-1.472521,False,False,False,False,False,False,False,False
+P_Pasión,123,V2,V2,8,3.3196,0,normal,False,1.372916,0.157353,0.0,0.9614,-0.001475,False,2.8065,6.929,1.620677,0.273739,0,6,3,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Celia,17,V0,V0,4,3.297,1,MODERADA,False,-0.164164,0.687584,0.0,0.3651,-0.631944,False,4.0663,9.285,3.224142,1.608164,0,0,0,,,False,False,False,False,True,False,False,False
+P_Gentio,3,V0,V0,3,3.2557,2,ALTA,False,1.19181,-0.405966,0.0,0.3651,-0.631944,False,3.9926,10.2218,3.130337,2.138762,0,1,0,0.0,-1.679146,False,False,False,False,True,True,False,False
+P_Helga,17,V2,V2,11,3.2547,2,ALTA,False,2.144592,-0.245995,0.0,0.9614,-0.001475,False,2.1428,6.4533,0.775924,0.004305,0,10,8,0.8,2.783957,True,False,False,False,False,False,False,True
+P_Jafisa - Grafico B,91,V2,V2,6,3.1517,1,MODERADA,False,3.185188,-0.085669,0.0,0.9614,-0.001475,False,1.6514,4.1275,0.150473,-1.313015,0,5,2,0.4,0.552405,True,False,False,False,False,False,False,False
+P_Rosa de los Vientos,1,V0,<BOS>,1,3.1316,1,MODERADA,False,0.599736,,0.0,0.7521,-0.222768,False,3.6466,6.4533,2.68995,0.004305,0,0,0,,,False,False,False,False,True,False,False,False
+P_Ruth,87,V2,V2,5,3.1256,0,normal,False,1.177733,0.629664,0.0,0.9614,-0.001475,False,2.8282,6.7512,1.648296,0.173034,0,4,0,0.0,-1.679146,False,False,False,False,False,False,False,False
+P_Conchita Romero,5,V2,V0,5,3.1229,1,MODERADA,False,-0.385093,-0.360078,0.0,2.4278,1.548952,False,2.5914,6.4533,1.346899,0.004305,0,4,4,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Pasión,101,V2,V0,22,3.12,0,normal,False,0.843266,0.244523,0.0,2.4278,1.548952,False,1.9842,8.3989,0.574059,1.106282,0,20,1,0.05,-1.400202,False,False,False,False,False,False,False,False
+P_Conchita Romero,177,V2,V0,9,3.0926,0,normal,False,0.175815,0.089883,0.0,2.4278,1.548952,False,2.5783,6.929,1.330225,0.273739,0,6,1,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Ruth,83,V2,V0,14,3.0901,0,normal,False,-0.363824,0.342686,0.0,2.4278,1.548952,False,2.5548,7.5509,1.300315,0.625979,0,11,4,0.363636,0.349537,False,False,False,False,False,False,False,False
+P_Celia,1,V2,<BOS>,2,3.077,1,MODERADA,False,0.06531,,0.0,1.8301,0.917003,False,2.5804,4.1275,1.332898,-1.313015,0,1,1,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Jafisa - Grafico C,25,V2,V2,11,3.0639,0,normal,False,0.898997,-0.141825,0.0,0.9614,-0.001475,False,3.0188,6.7512,1.890891,0.173034,0,10,5,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Ruth,1,V0,V2,11,3.0574,1,MODERADA,False,-0.279947,3.119418,0.0,1.1806,0.230285,False,1.4397,6.4533,-0.118977,0.004305,0,10,4,0.4,0.552405,False,True,False,False,False,False,False,False
+P_Conchita Romero,163,V2,V2,8,3.0269,0,normal,False,1.445591,-0.078603,0.0,0.9614,-0.001475,False,2.86,6.65,1.688771,0.115715,0,7,1,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Ruth,7,V2,V2,25,3.0068,1,MODERADA,False,-0.159493,1.073629,0.0,0.9614,-0.001475,False,2.5411,10.2218,1.282877,2.138762,0,23,12,0.521739,1.231573,False,False,False,False,False,True,False,False
+P_Pasión,99,V0,V0,10,2.9964,1,MODERADA,False,0.301588,0.189846,0.0,0.3651,-0.631944,False,3.4686,9.4685,2.463393,1.712097,0,7,3,0.428571,0.711802,False,False,False,False,True,False,False,False
+P_Ruth,63,V2,V0,29,2.9681,0,normal,False,-0.120054,1.443135,0.0,2.4278,1.548952,False,1.403,7.5509,-0.165689,0.625979,0,22,7,0.318182,0.095952,False,False,False,False,False,False,False,False
+P_Primavera,1,V0,<BOS>,1,2.9674,1,MODERADA,False,0.274528,,0.0,0.7521,-0.222768,False,3.6466,6.4533,2.68995,0.004305,0,0,0,,,False,False,False,False,True,False,False,False
+P_Conchita Romero,107,V2,V0,17,2.9515,0,normal,False,0.162972,0.308291,0.0,2.4278,1.548952,False,1.9874,6.929,0.578132,0.273739,0,13,5,0.384615,0.466576,False,False,False,False,False,False,False,False
+P_Conchita Romero,159,V2,V0,12,2.9488,0,normal,False,-0.12317,0.500558,0.0,2.4278,1.548952,False,2.2905,6.65,0.963915,0.115715,0,11,2,0.181818,-0.664805,False,False,False,False,False,False,False,False
+P_Ruth,85,V2,V2,10,2.9459,1,MODERADA,False,0.2576,-0.023826,0.0,0.9614,-0.001475,False,3.0134,7.5509,1.884018,0.625979,0,6,4,0.666667,2.040106,False,False,False,False,False,False,False,True
+P_Cori,19,V2,V0,13,2.9442,0,normal,False,0.849866,0.08684,0.0,2.4278,1.548952,False,1.6355,4.1275,0.130236,-1.313015,0,12,7,0.583333,1.5752,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,15,V2,V0,7,2.917,0,normal,False,-0.291859,0.034434,0.0,2.4278,1.548952,False,2.6496,7.7009,1.420975,0.710939,0,6,1,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,19,V2,V0,7,2.917,0,normal,False,-0.291859,0.034434,0.0,2.4278,1.548952,False,2.6496,7.7009,1.420975,0.710939,0,6,1,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,23,V2,V0,7,2.917,0,normal,False,-0.291859,0.034434,0.0,2.4278,1.548952,False,2.6496,7.7009,1.420975,0.710939,0,6,1,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Pasión,3,V2,V2,5,2.912,1,MODERADA,False,0.030098,0.376991,0.0,0.9614,-0.001475,False,2.5914,6.4533,1.346899,0.004305,0,4,4,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Conchita Romero,17,V2,V0,18,2.9017,0,normal,False,0.00303,0.623787,0.0,2.4278,1.548952,False,1.7516,6.4533,0.278007,0.004305,0,17,8,0.470588,0.946209,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,1,V2,<BOS>,2,2.8818,1,MODERADA,False,-0.32137,,0.0,1.8301,0.917003,False,2.5804,4.1275,1.332898,-1.313015,0,1,1,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Conchita Romero,11,V2,V0,11,2.8652,1,MODERADA,False,-0.299274,0.101898,0.0,2.4278,1.548952,False,2.0872,6.4533,0.705157,0.004305,0,10,7,0.7,2.226069,False,False,False,False,False,False,False,True
+P_Ruth,57,V2,V0,25,2.8635,0,normal,False,-0.349047,0.034309,0.0,2.4278,1.548952,False,2.338,9.4685,1.024373,1.712097,0,17,5,0.294118,-0.038299,False,False,False,False,False,False,False,False
+P_Cori,3,V0,V0,2,2.8621,1,MODERADA,False,1.39195,-0.405966,0.0,0.3651,-0.631944,False,2.527,6.4533,1.264931,0.004305,0,1,1,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Rosa de los Vientos,89,V2,V0,6,2.82,0,normal,False,0.055669,-0.21976,0.0,2.4278,1.548952,False,2.4492,6.929,1.165908,0.273739,0,5,1,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,119,V0,V2,25,2.8111,1,MODERADA,False,-0.282055,3.496073,0.0,1.1806,0.230285,False,0.9754,6.4533,-0.709935,0.004305,0,24,5,0.208333,-0.51688,False,True,False,False,False,False,False,False
+P_Rosa de los Vientos,129,V0,V2,25,2.8111,1,MODERADA,False,-0.282055,3.496073,0.0,1.1806,0.230285,False,0.9754,6.4533,-0.709935,0.004305,0,24,5,0.208333,-0.51688,False,True,False,False,False,False,False,False
+P_Puntilla del Cacus,13,V0,V2,41,2.8078,0,normal,False,1.528006,1.260375,0.0,1.1806,0.230285,False,1.0875,6.4533,-0.567255,0.004305,0,40,14,0.35,0.273461,False,False,False,False,False,False,False,False
+P_Gentio,5,V0,V0,3,2.7999,1,MODERADA,False,-0.294286,0.782521,0.0,0.3651,-0.631944,False,2.8552,6.4533,1.682662,0.004305,0,2,2,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Helga,57,V2,V2,30,2.7786,0,normal,False,1.887761,-0.273628,0.0,0.9614,-0.001475,False,1.9436,8.3989,0.522383,1.106282,0,27,9,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Conchita Romero,41,V2,V2,16,2.7465,0,normal,False,1.169631,0.435542,0.0,0.9614,-0.001475,False,1.913,7.7009,0.483436,0.710939,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Helga,135,V2,V0,50,2.7225,0,normal,False,0.687279,0.01218,0.0,2.4278,1.548952,False,1.5216,6.7512,-0.014735,0.173034,0,49,16,0.326531,0.142529,False,False,False,False,False,False,False,False
+P_Helga,39,V2,V2,13,2.7076,0,normal,False,1.357115,-0.167983,0.0,0.9614,-0.001475,False,2.0684,7.5509,0.681228,0.625979,0,10,5,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Helga,33,V2,V2,13,2.7044,0,normal,False,1.331876,-0.195663,0.0,0.9614,-0.001475,False,2.0703,6.929,0.683646,0.273739,0,12,7,0.583333,1.5752,False,False,False,False,False,False,False,False
+P_Conchita Romero,19,V0,V2,8,2.6966,0,normal,False,-0.415162,0.453322,0.0,1.1806,0.230285,False,2.6729,7.7009,1.450632,0.710939,0,5,3,0.6,1.668181,False,False,False,False,False,False,False,False
+P_Helga,13,V0,V2,5,2.6939,0,normal,False,0.236481,0.468743,0.0,1.1806,0.230285,False,2.523,6.4533,1.25984,0.004305,0,3,1,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Helga,31,V2,V0,11,2.6579,0,normal,False,0.021291,-0.24035,0.0,2.4278,1.548952,False,2.0135,7.5509,0.611352,0.625979,0,8,3,0.375,0.412933,False,False,False,False,False,False,False,False
+P_Conchita Romero,113,V2,V2,23,2.6415,0,normal,False,1.497237,-0.07827,0.0,0.9614,-0.001475,False,1.9597,7.5509,0.542875,0.625979,0,18,6,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Helga,19,V2,V2,12,2.6412,1,MODERADA,False,2.262477,-0.35785,0.0,0.9614,-0.001475,False,1.7979,6.4533,0.336937,0.004305,0,10,2,0.2,-0.56337,True,False,False,False,False,False,False,False
+P_Cori,35,V2,V0,36,2.6402,0,normal,False,1.077589,0.053676,0.0,2.4278,1.548952,False,1.23,4.1275,-0.385882,-1.313015,0,35,13,0.371429,0.393009,False,False,False,False,False,False,False,False
+P_Helga,15,V2,V0,14,2.6297,0,normal,False,0.141422,0.161335,0.0,2.4278,1.548952,False,1.5795,6.4533,0.058959,0.004305,0,13,6,0.461538,0.895721,False,False,False,False,False,False,False,False
+P_Conchita Romero,115,V2,V2,27,2.6132,0,normal,False,-0.405843,1.47296,0.0,0.9614,-0.001475,False,1.9125,9.4685,0.4828,1.712097,0,22,11,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Cori,1,V0,<BOS>,2,2.6062,0,normal,False,1.39195,,0.0,0.7521,-0.222768,False,2.527,6.4533,1.264931,0.004305,0,1,0,0.0,-1.679146,False,False,False,False,False,False,False,False
+P_Celia,15,V0,V2,29,2.5972,2,ALTA,False,-0.363096,2.938851,0.0,1.1806,0.230285,False,0.9388,10.8275,-0.756519,2.481827,0,26,1,0.038462,-1.464574,False,True,False,False,False,True,False,False
+P_Primavera,5,V2,V2,4,2.588,1,MODERADA,False,-0.067824,-0.405966,0.0,0.9614,-0.001475,False,2.7526,6.4533,1.552073,0.004305,0,3,3,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Pasión,75,V0,V2,29,2.5781,1,MODERADA,False,-0.388721,2.966959,0.0,1.1806,0.230285,False,1.0493,6.929,-0.615876,0.273739,0,28,6,0.214286,-0.483672,False,True,False,False,False,False,False,False
+P_Jafisa - Grafico B,93,V0,V2,3,2.5658,0,normal,False,-0.688067,1.888164,0.0,1.1806,0.230285,False,2.0073,4.1275,0.60346,-1.313015,0,2,1,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,83,V2,V0,11,2.5561,0,normal,False,0.331968,0.067302,0.0,2.4278,1.548952,False,1.7154,6.929,0.231932,0.273739,0,10,1,0.1,-1.121258,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,95,V0,V0,1,2.5472,1,MODERADA,False,-0.363773,0.221395,0.0,0.3651,-0.631944,False,3.6466,6.4533,2.68995,0.004305,0,0,0,,,False,False,False,False,True,False,False,False
+P_Celia,21,V0,V0,5,2.5405,1,MODERADA,False,0.264991,0.592066,0.0,0.3651,-0.631944,False,3.1371,6.929,2.041462,0.273739,0,2,0,0.0,-1.679146,False,False,False,False,True,False,False,False
+P_Gentio,223,V2,V0,27,2.5203,0,normal,False,-0.072484,-0.366823,0.0,2.4278,1.548952,False,1.827,9.6428,0.373976,1.81082,0,26,9,0.346154,0.252004,False,False,False,False,False,False,False,False
+P_Ruth,65,V0,V2,21,2.5065,0,normal,False,-0.155455,1.127693,0.0,1.1806,0.230285,False,1.8221,9.4685,0.367739,1.712097,0,16,5,0.3125,0.064253,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,79,V0,V2,9,2.4938,0,normal,False,0.248421,0.22272,0.0,1.1806,0.230285,False,2.5612,6.929,1.308461,0.273739,0,8,1,0.125,-0.981786,False,False,False,False,False,False,False,False
+P_Conchita Romero,173,V2,V0,22,2.4778,0,normal,False,-0.13559,0.35548,0.0,2.4278,1.548952,False,1.5552,6.929,0.02803,0.273739,0,21,6,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,69,V0,V1,5,2.4772,0,normal,False,-0.418656,0.349484,0.0,1.3344,0.392898,False,2.7461,6.4561,1.5438,0.005891,0,4,1,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,73,V0,V1,5,2.4772,0,normal,False,-0.418656,0.349484,0.0,1.3344,0.392898,False,2.7461,6.4561,1.5438,0.005891,0,4,1,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,77,V0,V1,5,2.4772,0,normal,False,-0.418656,0.349484,0.0,1.3344,0.392898,False,2.7461,6.4561,1.5438,0.005891,0,4,1,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,81,V0,V1,5,2.4772,0,normal,False,-0.418656,0.349484,0.0,1.3344,0.392898,False,2.7461,6.4561,1.5438,0.005891,0,4,1,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,85,V0,V1,5,2.4772,0,normal,False,-0.418656,0.349484,0.0,1.3344,0.392898,False,2.7461,6.4561,1.5438,0.005891,0,4,1,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Conchita Romero,3,V0,V0,3,2.4655,1,MODERADA,False,-0.418161,0.221395,0.0,0.3651,-0.631944,False,2.8552,6.4533,1.682662,0.004305,0,2,2,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Ruth,23,V2,V0,76,2.4577,0,normal,False,-0.413413,0.274663,0.0,2.4278,1.548952,False,1.6547,8.3989,0.154673,1.106282,0,74,23,0.310811,0.05483,False,False,False,False,False,False,False,False
+P_Pasión,71,V0,V2,8,2.4486,0,normal,False,0.087387,0.302545,0.0,1.1806,0.230285,False,2.5392,6.929,1.280459,0.273739,0,7,1,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Conchita Romero,69,V2,V0,16,2.4431,0,normal,False,-0.326038,-0.229844,0.0,2.4278,1.548952,False,1.8573,7.5509,0.412541,0.625979,0,13,6,0.461538,0.895721,False,False,False,False,False,False,False,False
+P_Pasión,91,V2,V0,36,2.4344,0,normal,False,0.036063,0.238705,0.0,2.4278,1.548952,False,1.2781,9.4685,-0.324661,1.712097,0,33,8,0.242424,-0.326691,False,False,False,False,False,False,False,False
+P_Primavera,67,V2,V0,43,2.413,0,normal,False,-0.113501,-0.081937,0.0,2.4278,1.548952,False,1.5979,7.5509,0.082379,0.625979,0,40,16,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Ruth,75,V2,V0,29,2.3937,0,normal,False,-0.472882,0.575296,0.0,2.4278,1.548952,False,1.4102,7.5509,-0.156525,0.625979,0,23,8,0.347826,0.261333,False,False,False,False,False,False,False,False
+P_Conchita Romero,43,V0,V2,12,2.3686,0,normal,False,-0.440015,1.410458,0.0,1.1806,0.230285,False,1.7762,6.929,0.309318,0.273739,0,11,4,0.363636,0.349537,False,False,False,False,False,False,False,False
+P_Cori,41,V2,V2,40,2.3604,1,MODERADA,False,2.405297,-0.179832,0.0,0.9614,-0.001475,False,1.2031,4.1275,-0.42012,-1.313015,0,39,12,0.307692,0.037432,True,False,False,False,False,False,False,False
+P_Pasión,117,V2,V0,20,2.3494,0,normal,False,-0.16657,0.243459,0.0,2.4278,1.548952,False,1.3045,6.929,-0.291059,0.273739,0,18,8,0.444444,0.800355,False,False,False,False,False,False,False,False
+P_Conchita Romero,161,V2,V2,10,2.3357,0,normal,False,0.384409,-0.232001,0.0,0.9614,-0.001475,False,2.6546,6.65,1.427339,0.115715,0,9,2,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,91,V0,V2,8,2.3096,0,normal,False,0.032179,-0.21976,0.0,1.1806,0.230285,False,2.5648,6.929,1.313043,0.273739,0,6,2,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Helga,69,V2,V2,22,2.3059,0,normal,False,0.938087,-0.329207,0.0,0.9614,-0.001475,False,2.0987,6.929,0.719794,0.273739,0,20,7,0.35,0.273461,False,False,False,False,False,False,False,False
+P_Celia,29,V2,V2,28,2.2993,0,normal,False,1.971461,-0.3413,0.0,0.9614,-0.001475,False,1.5109,7.7009,-0.028354,0.710939,0,27,2,0.074074,-1.265896,False,False,False,False,False,False,False,False
+P_Celia,31,V2,V2,22,2.2863,0,normal,False,-0.258184,1.370673,0.0,0.9614,-0.001475,False,1.5935,6.4533,0.076778,0.004305,0,21,11,0.52381,1.243124,False,False,False,False,False,False,False,False
+P_Ruth,21,V0,V0,17,2.2801,0,normal,False,-0.213801,0.025283,0.0,0.3651,-0.631944,False,3.0906,7.5509,1.982277,0.625979,0,13,5,0.384615,0.466576,False,False,False,False,False,False,False,False
+P_Primavera,105,V2,V0,52,2.2778,0,normal,False,-0.293442,-0.028449,0.0,2.4278,1.548952,False,1.4948,9.285,-0.048846,1.608164,0,51,13,0.254902,-0.257079,False,False,False,False,False,False,False,False
+P_Primavera,101,V2,V0,52,2.2755,0,normal,False,-0.293442,-0.033298,0.0,2.4278,1.548952,False,1.4948,9.285,-0.048846,1.608164,0,51,13,0.254902,-0.257079,False,False,False,False,False,False,False,False
+P_Primavera,189,V2,V0,82,2.2696,0,normal,False,-0.275203,-0.300749,0.0,2.4278,1.548952,False,1.5357,6.4533,0.003211,0.004305,0,81,50,0.617284,1.764606,False,False,False,False,False,False,False,False
+P_Renacimiento,53,V2,V0,41,2.2687,0,normal,False,0.195482,-0.159884,0.0,2.4278,1.548952,False,1.346,6.929,-0.238238,0.273739,0,40,12,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Conchita Romero,111,V2,V2,20,2.2364,0,normal,False,0.478103,-0.172987,0.0,0.9614,-0.001475,False,2.1146,6.929,0.740031,0.273739,0,15,7,0.466667,0.924331,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico C,23,V2,V2,16,2.2361,0,normal,False,-0.099432,0.08684,0.0,0.9614,-0.001475,False,2.4947,6.7512,1.22382,0.173034,0,14,5,0.357143,0.313311,False,False,False,False,False,False,False,False
+P_Helga,27,V2,V0,11,2.234,0,normal,False,-0.008329,-0.360702,0.0,2.4278,1.548952,False,1.702,6.929,0.214877,0.273739,0,10,2,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Gentio,113,V2,V0,31,2.2218,0,normal,False,-0.112606,-0.179363,0.0,2.4278,1.548952,False,1.5085,6.7512,-0.031409,0.173034,0,30,10,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Gentio,229,V2,V2,15,2.218,0,normal,False,0.511462,-0.317073,0.0,0.9614,-0.001475,False,2.2736,9.6428,0.942405,1.81082,0,14,2,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Helga,49,V2,V2,30,2.1937,1,MODERADA,False,0.861258,-0.30804,0.0,0.9614,-0.001475,False,1.6709,10.2218,0.175293,2.138762,0,29,11,0.37931,0.43698,False,False,False,False,False,True,False,False
+P_Primavera,109,V2,V0,51,2.1836,0,normal,False,-0.302966,-0.028704,0.0,2.4278,1.548952,False,1.3522,9.285,-0.230347,1.608164,0,50,13,0.26,-0.228638,False,False,False,False,False,False,False,False
+P_Pasión,103,V2,V2,27,2.172,1,MODERADA,False,0.744324,0.135039,0.0,0.9614,-0.001475,False,1.5406,4.1275,0.009448,-1.313015,0,26,19,0.730769,2.397727,False,False,False,False,False,False,False,True
+P_Gentio,107,V2,V0,42,2.1715,0,normal,False,-0.051666,-0.355199,0.0,2.4278,1.548952,False,1.5167,6.929,-0.020972,0.273739,0,41,13,0.317073,0.089767,False,False,False,False,False,False,False,False
+P_Helga,51,V2,V2,30,2.1636,0,normal,False,1.56647,-0.277359,0.0,0.9614,-0.001475,False,1.4278,6.929,-0.134123,0.273739,0,29,8,0.275862,-0.140145,False,False,False,False,False,False,False,False
+P_Primavera,137,V2,V0,27,2.1611,0,normal,False,-0.272758,-0.187682,0.0,2.4278,1.548952,False,1.6491,7.5509,0.147546,0.625979,0,24,4,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Helga,143,V2,V0,42,2.1533,0,normal,False,0.104786,0.051536,0.0,2.4278,1.548952,False,1.2104,6.5862,-0.410829,0.079579,0,40,8,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Primavera,127,V2,V0,54,2.1507,1,MODERADA,False,-0.321058,-0.250803,0.0,2.4278,1.548952,False,1.5058,10.2218,-0.034846,2.138762,0,50,8,0.16,-0.786526,False,False,False,False,False,True,False,False
+P_Renacimiento,61,V2,V0,50,2.1449,0,normal,False,0.059249,-0.205147,0.0,2.4278,1.548952,False,1.2682,6.929,-0.337261,0.273739,0,49,16,0.326531,0.142529,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,77,V2,V2,15,2.1408,0,normal,False,0.646156,-0.255123,0.0,0.9614,-0.001475,False,2.0814,6.929,0.697774,0.273739,0,14,4,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Ruth,31,V2,V0,83,2.1403,0,normal,False,-0.439893,-0.375861,0.0,2.4278,1.548952,False,1.6208,7.7009,0.111526,0.710939,0,79,33,0.417722,0.651272,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,85,V0,V2,6,2.1381,0,normal,False,0.037575,0.437099,0.0,1.1806,0.230285,False,1.9418,6.929,0.520092,0.273739,0,5,1,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Pasión,97,V0,V0,24,2.1358,1,MODERADA,False,0.365199,-0.006082,0.0,0.3651,-0.631944,False,2.2754,10.2218,0.944696,2.138762,0,21,7,0.333333,0.18048,False,False,False,False,False,True,False,False
+P_Primavera,123,V2,V0,55,2.133,0,normal,False,-0.328268,-0.389885,0.0,2.4278,1.548952,False,1.568,8.3989,0.044322,1.106282,0,52,17,0.326923,0.144718,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,41,V0,V2,39,2.1297,1,MODERADA,False,-0.533928,-0.303922,0.0,1.1806,0.230285,False,2.1949,13.0292,0.842236,3.728857,0,35,15,0.428571,0.711802,False,False,False,False,False,True,False,False
+P_Helga,71,V2,V2,29,2.115,0,normal,False,0.949901,-0.383717,0.0,0.9614,-0.001475,False,1.7126,6.5862,0.228368,0.079579,0,28,14,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Conchita Romero,45,V2,V0,11,2.0906,0,normal,False,-0.411569,-0.391508,0.0,2.4278,1.548952,False,1.8176,6.929,0.362011,0.273739,0,10,2,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico C,13,V2,V0,38,2.075,0,normal,False,-0.59506,-0.292655,0.0,2.4278,1.548952,False,1.5175,6.929,-0.019954,0.273739,0,37,20,0.540541,1.336464,False,False,False,False,False,False,False,False
+P_Puntilla del Cacus,15,V2,V0,44,2.0508,0,normal,False,-0.844783,0.129893,0.0,2.4278,1.548952,False,1.5706,4.1275,0.047631,-1.313015,0,43,24,0.55814,1.434647,False,False,False,False,False,False,False,False
+P_Ruth,17,V0,V2,32,2.0508,0,normal,False,-0.474071,-0.273788,0.0,1.1806,0.230285,False,2.2936,8.3989,0.967861,1.106282,0,29,15,0.517241,1.206481,False,False,False,False,False,False,False,False
+P_Helga,95,V2,V0,49,2.0504,0,normal,False,-0.128065,-0.145045,0.0,2.4278,1.548952,False,1.329,6.5862,-0.259875,0.079579,0,48,12,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,7,V2,V0,36,2.0491,0,normal,False,-0.283442,-0.127105,0.0,2.4278,1.548952,False,1.3679,4.1275,-0.210364,-1.313015,0,35,18,0.514286,1.189991,False,False,False,False,False,False,False,False
+P_Primavera,81,V2,V0,54,2.0388,0,normal,False,-0.050477,-0.078811,0.0,2.4278,1.548952,False,1.1725,8.3989,-0.459068,1.106282,0,53,7,0.132075,-0.942313,False,False,False,False,False,False,False,False
+P_Primavera,29,V2,V0,25,2.0323,0,normal,False,-0.247153,0.051673,0.0,2.4278,1.548952,False,1.3637,4.1275,-0.215709,-1.313015,0,24,8,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Cori,7,V0,V2,5,2.0313,0,normal,False,-0.592565,0.440873,0.0,1.1806,0.230285,False,1.9994,6.4533,0.593405,0.004305,0,4,2,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Conchita Romero,25,V2,V0,11,2.0305,0,normal,False,-0.411569,-0.360702,0.0,2.4278,1.548952,False,1.702,6.929,0.214877,0.273739,0,10,2,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Conchita Romero,33,V2,V0,11,2.0305,0,normal,False,-0.411569,-0.360702,0.0,2.4278,1.548952,False,1.702,6.929,0.214877,0.273739,0,10,2,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Helga,45,V0,V2,27,2.0248,1,MODERADA,False,-0.623917,0.245735,0.0,1.1806,0.230285,False,1.8509,10.2218,0.404395,2.138762,0,26,13,0.5,1.110293,False,False,False,False,False,True,False,False
+P_Helga,47,V2,V0,35,2.0125,0,normal,False,0.141422,-0.26674,0.0,2.4278,1.548952,False,1.2191,4.1275,-0.399755,-1.313015,0,34,13,0.382353,0.453955,False,False,False,False,False,False,False,False
+P_Primavera,93,V2,V0,58,2.0098,0,normal,False,-0.28636,-0.149972,0.0,2.4278,1.548952,False,1.2123,9.285,-0.40841,1.608164,0,57,12,0.210526,-0.504645,False,False,False,False,False,False,False,False
+P_Renacimiento,41,V2,V0,43,2.0034,0,normal,False,-0.223534,0.19898,0.0,2.4278,1.548952,False,1.1911,4.1275,-0.435394,-1.313015,0,42,14,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Celia,27,V2,V2,234,1.9991,1,MODERADA,False,2.540945,-0.405336,0.0,0.9614,-0.001475,False,0.9953,4.1275,-0.684606,-1.313015,0,233,6,0.025751,-1.535484,True,False,False,False,False,False,False,False
+P_Conchita Romero,175,V0,V2,13,1.9964,0,normal,False,-0.398303,-0.033096,0.0,1.1806,0.230285,False,2.1552,6.929,0.791706,0.273739,0,11,5,0.454545,0.856708,False,False,False,False,False,False,False,False
+P_Helga,59,V2,V2,22,1.9885,0,normal,False,0.535786,-0.236939,0.0,0.9614,-0.001475,False,1.8025,6.5862,0.342792,0.079579,0,21,9,0.428571,0.711802,False,False,False,False,False,False,False,False
+P_Primavera,191,V2,V2,86,1.9831,1,MODERADA,False,0.133257,-0.233653,0.0,0.9614,-0.001475,False,1.7897,7.147,0.326501,0.397213,0,85,59,0.694118,2.193252,False,False,False,False,False,False,False,True
+P_Primavera,7,V0,V2,6,1.9829,0,normal,False,-0.361876,-0.101018,0.0,1.1806,0.230285,False,2.0484,6.4533,0.655772,0.004305,0,5,3,0.6,1.668181,False,False,False,False,False,False,False,False
+P_Celia,53,V2,V0,40,1.9787,0,normal,False,-0.282901,-0.38812,0.0,2.4278,1.548952,False,1.4033,4.1275,-0.165307,-1.313015,0,39,22,0.564103,1.467914,False,False,False,False,False,False,False,False
+P_Conchita Romero,103,V2,V0,29,1.9747,0,normal,False,-0.437017,-0.376562,0.0,2.4278,1.548952,False,1.4918,7.7009,-0.052665,0.710939,0,24,7,0.291667,-0.051973,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,39,V2,V2,43,1.9566,1,MODERADA,False,-0.431879,-0.238336,0.0,0.9614,-0.001475,False,1.8939,13.0292,0.459126,3.728857,0,39,20,0.512821,1.181817,False,False,False,False,False,True,False,False
+P_Conchita Romero,1,V0,<BOS>,2,1.9482,0,normal,False,0.088652,,0.0,0.7521,-0.222768,False,2.527,6.4533,1.264931,0.004305,0,1,0,0.0,-1.679146,False,False,False,False,False,False,False,False
+P_Gentio,225,V0,V2,22,1.9407,0,normal,False,-0.217689,-0.283385,0.0,1.1806,0.230285,False,1.9201,9.6428,0.492473,1.81082,0,21,9,0.428571,0.711802,False,False,False,False,False,False,False,False
+P_Puntilla del Cacus,11,V2,V2,66,1.9382,0,normal,False,1.647932,-0.276985,0.0,0.9614,-0.001475,False,1.1175,6.4533,-0.529071,0.004305,0,65,14,0.215385,-0.477542,False,False,False,False,False,False,False,False
+P_Primavera,103,V0,V2,34,1.9335,0,normal,False,-0.189771,-0.028449,0.0,1.1806,0.230285,False,1.8843,9.285,0.446907,1.608164,0,33,9,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Conchita Romero,109,V2,V2,17,1.927,0,normal,False,-0.056816,-0.305235,0.0,0.9614,-0.001475,False,2.0707,9.285,0.684155,1.608164,0,14,5,0.357143,0.313311,False,False,False,False,False,False,False,False
+P_Helga,23,V0,V2,10,1.9224,0,normal,False,-0.486127,0.260003,0.0,1.1806,0.230285,False,1.9716,6.929,0.558022,0.273739,0,8,3,0.375,0.412933,False,False,False,False,False,False,False,False
+P_Helga,29,V0,V2,10,1.9218,0,normal,False,-0.424047,-0.360702,0.0,1.1806,0.230285,False,2.2678,7.7009,0.935023,0.710939,0,7,3,0.428571,0.711802,False,False,False,False,False,False,False,False
+P_Cori,31,V2,V0,33,1.9215,0,normal,False,0.168479,-0.278792,0.0,2.4278,1.548952,False,1.1694,4.1275,-0.463013,-1.313015,0,32,9,0.28125,-0.110087,False,False,False,False,False,False,False,False
+P_Ruth,69,V0,V0,13,1.9179,1,MODERADA,False,0.162154,0.426284,0.0,0.3651,-0.631944,False,1.73,6.65,0.250515,0.115715,0,6,4,0.666667,2.040106,False,False,False,False,False,False,False,True
+P_Gentio,173,V2,V0,33,1.9088,0,normal,False,-0.196388,-0.246358,0.0,2.4278,1.548952,False,1.282,6.4561,-0.319697,0.005891,0,32,7,0.21875,-0.458766,False,False,False,False,False,False,False,False
+P_Primavera,115,V0,V2,46,1.9051,0,normal,False,-0.252941,-0.063753,0.0,1.1806,0.230285,False,1.742,9.285,0.265788,1.608164,0,45,20,0.444444,0.800355,False,False,False,False,False,False,False,False
+P_Conchita Romero,7,V0,V2,7,1.9002,1,MODERADA,False,-0.399831,-0.2785,0.0,1.1806,0.230285,False,2.0155,6.4533,0.613897,0.004305,0,6,4,0.666667,2.040106,False,False,False,False,False,False,False,True
+P_Pasión,125,V2,V2,25,1.8788,0,normal,False,1.226556,-0.215701,0.0,0.9614,-0.001475,False,1.3604,6.929,-0.21991,0.273739,0,24,3,0.125,-0.981786,False,False,False,False,False,False,False,False
+P_Pasión,5,V0,V2,7,1.8787,1,MODERADA,False,-0.442534,-0.2785,0.0,1.1806,0.230285,False,2.0155,6.4533,0.613897,0.004305,0,6,4,0.666667,2.040106,False,False,False,False,False,False,False,True
+P_Conchita Romero,53,V2,V0,22,1.8613,0,normal,False,-0.425861,-0.366775,0.0,2.4278,1.548952,False,1.3705,6.929,-0.207054,0.273739,0,21,6,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,19,V2,V0,13,1.8608,0,normal,False,-0.28407,-0.401342,0.0,2.4278,1.548952,False,1.3818,4.1275,-0.192672,-1.313015,0,12,5,0.416667,0.645387,False,False,False,False,False,False,False,False
+P_Primavera,193,V0,V2,26,1.8601,0,normal,False,-0.331713,0.137702,0.0,1.1806,0.230285,False,1.6812,9.4685,0.188402,1.712097,0,21,7,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Conchita Romero,47,V0,V2,14,1.8331,0,normal,False,-0.067995,0.402372,0.0,1.1806,0.230285,False,1.4829,9.4685,-0.063992,1.712097,0,11,1,0.090909,-1.171975,False,False,False,False,False,False,False,False
+P_Conchita Romero,39,V2,V2,19,1.8314,1,MODERADA,False,-0.212018,-0.312123,0.0,0.9614,-0.001475,False,1.8724,6.929,0.431761,0.273739,0,18,13,0.722222,2.350044,False,False,False,False,False,False,False,True
+P_Primavera,75,V2,V2,32,1.8296,0,normal,False,0.001988,0.032509,0.0,0.9614,-0.001475,False,1.9118,6.5862,0.481909,0.079579,0,31,9,0.290323,-0.059472,False,False,False,False,False,False,False,False
+P_Helga,21,V2,V2,21,1.8264,0,normal,False,0.818955,-0.301617,0.0,0.9614,-0.001475,False,1.4209,6.4533,-0.142906,0.004305,0,20,8,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Primavera,71,V0,V2,22,1.8226,0,normal,False,-0.334618,0.263954,0.0,1.1806,0.230285,False,1.6711,6.5862,0.175547,0.079579,0,21,9,0.428571,0.711802,False,False,False,False,False,False,False,False
+P_Gentio,115,V2,V2,21,1.8216,0,normal,False,0.300916,-0.325594,0.0,0.9614,-0.001475,False,1.9616,6.7512,0.545294,0.173034,0,20,5,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,15,V0,V2,17,1.8201,0,normal,False,-0.671564,0.044132,0.0,1.1806,0.230285,False,2.1192,6.929,0.745886,0.273739,0,16,6,0.375,0.412933,False,False,False,False,False,False,False,False
+P_Primavera,107,V0,V2,33,1.8129,0,normal,False,-0.211512,-0.03161,0.0,1.1806,0.230285,False,1.6776,9.285,0.18382,1.608164,0,32,10,0.3125,0.064253,False,False,False,False,False,False,False,False
+P_Ruth,59,V0,V2,34,1.7962,0,normal,False,-0.437706,0.01953,0.0,1.1806,0.230285,False,1.7534,9.4685,0.280298,1.712097,0,30,10,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,41,V2,V0,13,1.784,0,normal,False,-0.28407,-0.401342,0.0,2.4278,1.548952,False,1.3818,4.1275,-0.192672,-1.313015,0,10,3,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Helga,65,V0,V0,15,1.7789,0,normal,False,-0.133734,-0.355598,0.0,0.3651,-0.631944,False,2.4027,6.929,1.106723,0.273739,0,14,8,0.571429,1.508785,False,False,False,False,False,False,False,False
+P_Ruth,77,V0,V2,46,1.7741,0,normal,False,-0.224974,0.100763,0.0,1.1806,0.230285,False,1.446,8.3989,-0.110959,1.106282,0,45,21,0.466667,0.924331,False,False,False,False,False,False,False,False
+P_Renacimiento,7,V0,V2,6,1.769,1,MODERADA,False,-0.713647,-0.101018,0.0,1.1806,0.230285,False,1.7778,4.1275,0.311354,-1.313015,0,5,5,1.0,3.899733,False,False,False,False,False,False,False,True
+P_Gentio,99,V2,V0,50,1.7468,0,normal,False,-0.186093,-0.272956,0.0,2.4278,1.548952,False,1.1672,4.1275,-0.465813,-1.313015,0,49,14,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Pasión,93,V2,V2,20,1.7442,0,normal,False,0.208898,-0.397646,0.0,0.9614,-0.001475,False,1.7389,6.4533,0.261843,0.004305,0,18,9,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Gentio,183,V2,V0,36,1.7436,0,normal,False,-0.156863,-0.388424,0.0,2.4278,1.548952,False,1.0979,4.1275,-0.554018,-1.313015,0,34,14,0.411765,0.618039,False,False,False,False,False,False,False,False
+P_Primavera,145,V2,V2,24,1.7405,0,normal,False,-0.191324,0.876976,0.0,0.9614,-0.001475,False,1.457,6.5862,-0.096958,0.079579,0,23,3,0.130435,-0.951466,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,87,V0,V0,8,1.7268,0,normal,False,0.032179,-0.137284,0.0,0.3651,-0.631944,False,2.4647,6.929,1.185636,0.273739,0,7,1,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,5,V0,V2,6,1.7227,0,normal,False,-0.361625,-0.101018,0.0,1.1806,0.230285,False,1.8502,6.4533,0.403505,0.004305,0,5,2,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Helga,53,V2,V2,36,1.7157,0,normal,False,1.231505,-0.395394,0.0,0.9614,-0.001475,False,1.248,4.1275,-0.362972,-1.313015,0,35,12,0.342857,0.233612,False,False,False,False,False,False,False,False
+P_Primavera,35,V2,V2,30,1.715,0,normal,False,1.017228,0.190316,0.0,0.9614,-0.001475,False,1.2192,4.1275,-0.399628,-1.313015,0,29,3,0.103448,-1.102021,False,False,False,False,False,False,False,False
+P_Primavera,39,V2,V2,30,1.715,0,normal,False,1.017228,0.190316,0.0,0.9614,-0.001475,False,1.2192,4.1275,-0.399628,-1.313015,0,29,3,0.103448,-1.102021,False,False,False,False,False,False,False,False
+P_Ruth,45,V2,V0,178,1.7128,0,normal,False,-0.358554,-0.295484,0.0,2.4278,1.548952,False,0.9734,6.4533,-0.712481,0.004305,0,176,68,0.386364,0.47633,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico C,5,V0,<BOS>,13,1.7045,0,normal,False,0.119553,,0.0,0.7521,-0.222768,False,1.7851,6.929,0.320646,0.273739,0,10,3,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Gentio,189,V2,V0,37,1.7015,0,normal,False,-0.094914,-0.375083,0.0,2.4278,1.548952,False,1.0942,4.1275,-0.558727,-1.313015,0,34,10,0.294118,-0.038299,False,False,False,False,False,False,False,False
+P_Renacimiento,49,V2,V2,46,1.7003,0,normal,False,0.535695,-0.326004,0.0,0.9614,-0.001475,False,1.4938,6.929,-0.050119,0.273739,0,45,15,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Renacimiento,11,V2,V2,10,1.6902,0,normal,False,0.187623,-0.228542,0.0,0.9614,-0.001475,False,1.6802,4.1275,0.18713,-1.313015,0,9,5,0.555556,1.420231,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico C,9,V2,V0,35,1.6874,0,normal,False,-0.484731,-0.312206,0.0,2.4278,1.548952,False,1.2391,4.1275,-0.374299,-1.313015,0,34,13,0.382353,0.453955,False,False,False,False,False,False,False,False
+P_Gentio,7,V0,V0,4,1.6865,1,MODERADA,False,-0.321343,-0.346244,0.0,0.3651,-0.631944,False,2.3418,6.4533,1.02921,0.004305,0,3,2,0.666667,2.040106,False,False,False,False,False,False,False,True
+P_Puntilla del Cacus,19,V0,V2,59,1.6838,0,normal,False,0.414514,-0.160264,0.0,1.1806,0.230285,False,1.2,6.4533,-0.424066,0.004305,0,58,25,0.431034,0.725543,False,False,False,False,False,False,False,False
+P_Primavera,187,V0,V0,48,1.6818,1,MODERADA,False,-0.353783,-0.166361,0.0,0.3651,-0.631944,False,1.8172,12.5438,0.361502,3.45393,0,45,26,0.577778,1.544206,False,False,False,False,False,True,False,False
+P_Conchita Romero,165,V2,V2,34,1.6669,0,normal,False,-0.371242,1.396422,0.0,0.9614,-0.001475,False,1.1839,4.1275,-0.444558,-1.313015,0,33,8,0.242424,-0.326691,False,False,False,False,False,False,False,False
+P_Pasión,127,V0,V2,23,1.6635,0,normal,False,-0.436903,0.610327,0.0,1.1806,0.230285,False,1.3771,6.929,-0.198654,0.273739,0,22,6,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Conchita Romero,27,V0,V2,10,1.6556,0,normal,False,-0.442701,-0.360702,0.0,1.1806,0.230285,False,2.0322,6.929,0.635153,0.273739,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Gentio,41,V0,V2,24,1.6403,0,normal,False,-0.321343,1.700644,0.0,1.1806,0.230285,False,0.8118,4.1275,-0.918164,-1.313015,0,23,3,0.130435,-0.951466,False,False,False,False,False,False,False,False
+P_Ruth,29,V0,V2,96,1.6318,1,MODERADA,False,-0.483276,-0.319622,0.0,1.1806,0.230285,False,1.4975,12.5438,-0.04541,3.45393,0,94,35,0.37234,0.398096,False,False,False,False,False,True,False,False
+P_Conchita Romero,71,V2,V2,17,1.623,0,normal,False,-0.187339,-0.259669,0.0,0.9614,-0.001475,False,2.0222,6.929,0.622425,0.273739,0,15,3,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,151,V0,V0,9,1.6206,0,normal,False,0.217469,0.136988,0.0,0.3651,-0.631944,False,2.0974,6.929,0.718139,0.273739,0,7,0,0.0,-1.679146,False,False,False,False,False,False,False,False
+P_Pasión,95,V0,V2,33,1.614,0,normal,False,-0.226715,-0.320579,0.0,1.1806,0.230285,False,1.6332,6.929,0.127308,0.273739,0,32,15,0.46875,0.935953,False,False,False,False,False,False,False,False
+P_Gentio,117,V2,V2,22,1.6129,0,normal,False,0.296308,-0.389487,0.0,0.9614,-0.001475,False,1.6553,6.7512,0.155437,0.173034,0,21,6,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Primavera,87,V0,V0,32,1.6111,0,normal,False,-0.290399,-0.332945,0.0,0.3651,-0.631944,False,2.2105,9.285,0.862092,1.608164,0,31,13,0.419355,0.660384,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,11,V2,V2,23,1.6043,0,normal,False,-0.323723,-0.350962,0.0,0.9614,-0.001475,False,1.9097,6.929,0.479236,0.273739,0,22,10,0.454545,0.856708,False,False,False,False,False,False,False,False
+P_Ruth,81,V0,V0,15,1.6002,0,normal,False,-0.244531,-0.206948,0.0,0.3651,-0.631944,False,2.0783,7.5509,0.693829,0.625979,0,11,6,0.545455,1.363879,False,False,False,False,False,False,False,False
+P_Primavera,69,V2,V2,39,1.5928,0,normal,False,0.371068,-0.265849,0.0,0.9614,-0.001475,False,1.5801,6.5862,0.059723,0.079579,0,36,7,0.194444,-0.594364,False,False,False,False,False,False,False,False
+P_Gentio,25,V2,V0,15,1.5926,0,normal,False,-0.11629,-0.360078,0.0,2.4278,1.548952,False,1.0128,4.1275,-0.662333,-1.313015,0,14,3,0.214286,-0.483672,False,False,False,False,False,False,False,False
+P_Primavera,89,V0,V0,34,1.5883,0,normal,False,-0.284044,-0.401931,0.0,0.3651,-0.631944,False,2.2035,9.285,0.853182,1.608164,0,32,14,0.4375,0.761613,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,17,V0,V2,11,1.5838,0,normal,False,-0.522786,0.034434,0.0,1.1806,0.230285,False,1.8624,7.7009,0.419033,0.710939,0,10,1,0.1,-1.121258,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,21,V0,V2,11,1.5838,0,normal,False,-0.522786,0.034434,0.0,1.1806,0.230285,False,1.8624,7.7009,0.419033,0.710939,0,10,1,0.1,-1.121258,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,25,V0,V2,11,1.5838,0,normal,False,-0.522786,0.034434,0.0,1.1806,0.230285,False,1.8624,7.7009,0.419033,0.710939,0,10,1,0.1,-1.121258,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,75,V2,V2,22,1.5835,0,normal,False,-0.009958,0.010724,0.0,0.9614,-0.001475,False,1.475,4.1275,-0.074048,-1.313015,0,21,12,0.571429,1.508785,False,False,False,False,False,False,False,False
+P_Conchita Romero,179,V2,V2,14,1.5676,0,normal,False,-0.427616,0.185877,0.0,0.9614,-0.001475,False,1.6823,6.929,0.189803,0.273739,0,13,4,0.307692,0.037432,False,False,False,False,False,False,False,False
+P_Conchita Romero,97,V0,V2,24,1.5635,0,normal,False,-0.339153,0.003147,0.0,1.1806,0.230285,False,1.5165,9.4685,-0.021227,1.712097,0,20,3,0.15,-0.842314,False,False,False,False,False,False,False,False
+P_Conchita Romero,21,V0,V0,10,1.5632,0,normal,False,-0.306418,-0.22153,0.0,0.3651,-0.631944,False,2.1986,7.5509,0.846946,0.625979,0,7,3,0.428571,0.711802,False,False,False,False,False,False,False,False
+P_Ruth,35,V2,V2,104,1.5581,0,normal,False,-0.255074,-0.319444,0.0,0.9614,-0.001475,False,1.523,9.4685,-0.012953,1.712097,0,101,49,0.485149,1.027439,False,False,False,False,False,False,False,False
+P_Conchita Romero,15,V0,V2,17,1.5564,0,normal,False,-0.350117,-0.055808,0.0,1.1806,0.230285,False,1.4504,6.4533,-0.105358,0.004305,0,16,8,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Helga,41,V0,V2,16,1.5381,0,normal,False,-0.558946,-0.040013,0.0,1.1806,0.230285,False,1.635,6.929,0.129599,0.273739,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Ruth,49,V2,V2,97,1.5305,0,normal,False,-0.127863,-0.132536,0.0,0.9614,-0.001475,False,1.3808,9.4685,-0.193945,1.712097,0,89,31,0.348315,0.264059,False,False,False,False,False,False,False,False
+P_Conchita Romero,157,V0,V0,13,1.5279,0,normal,False,-0.238119,-0.176279,0.0,0.3651,-0.631944,False,2.1471,9.285,0.781397,1.608164,0,10,2,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Helga,55,V2,V2,32,1.5275,0,normal,False,0.69994,-0.394396,0.0,0.9614,-0.001475,False,1.3912,4.1275,-0.180708,-1.313015,0,31,10,0.322581,0.120492,False,False,False,False,False,False,False,False
+P_Helga,103,V2,V0,47,1.5268,0,normal,False,-0.359048,-0.344224,0.0,2.4278,1.548952,False,1.0592,6.5862,-0.603275,0.079579,0,45,2,0.044444,-1.431196,False,False,False,False,False,False,False,False
+P_Puntilla del Cacus,5,V2,<BOS>,19,1.5222,0,normal,False,-0.822924,,0.0,1.8301,0.917003,False,1.4612,6.4561,-0.091612,0.005891,0,17,4,0.235294,-0.366469,False,False,False,False,False,False,False,False
+P_Primavera,139,V0,V2,35,1.5079,0,normal,False,-0.351248,-0.292257,0.0,1.1806,0.230285,False,1.653,7.5509,0.15251,0.625979,0,32,10,0.3125,0.064253,False,False,False,False,False,False,False,False
+P_Gentio,59,V0,V0,16,1.5049,0,normal,False,-0.125546,-0.344545,0.0,0.3651,-0.631944,False,2.357,6.7512,1.048556,0.173034,0,15,3,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Primavera,31,V2,V2,14,1.5029,0,normal,False,0.033981,-0.20627,0.0,0.9614,-0.001475,False,1.7888,6.4561,0.325355,0.005891,0,13,1,0.076923,-1.250002,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,57,V0,V0,9,1.5019,0,normal,False,-0.939888,-0.003942,0.0,0.3651,-0.631944,False,2.6805,6.7512,1.460305,0.173034,0,8,2,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Pasión,119,V0,V2,18,1.4992,0,normal,False,-0.444766,-0.111387,0.0,1.1806,0.230285,False,1.4682,6.929,-0.082703,0.273739,0,17,8,0.470588,0.946209,False,False,False,False,False,False,False,False
+P_Primavera,43,V2,V2,32,1.4984,0,normal,False,0.54619,-0.034118,0.0,0.9614,-0.001475,False,1.2299,4.1275,-0.386009,-1.313015,0,31,9,0.290323,-0.059472,False,False,False,False,False,False,False,False
+P_Gentio,73,V0,V2,22,1.4958,0,normal,False,0.012723,1.429372,0.0,1.1806,0.230285,False,0.6159,4.1275,-1.167504,-1.313015,0,21,1,0.047619,-1.413485,False,False,False,False,False,False,False,False
+P_Helga,37,V2,V2,17,1.4928,0,normal,False,-0.328888,-0.399162,0.0,0.9614,-0.001475,False,1.7411,7.7009,0.264643,0.710939,0,14,6,0.428571,0.711802,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,19,V2,V2,36,1.4886,0,normal,False,-0.283442,0.03422,0.0,0.9614,-0.001475,False,1.5239,4.1275,-0.011808,-1.313015,0,35,20,0.571429,1.508785,False,False,False,False,False,False,False,False
+P_Ruth,43,V0,V2,103,1.4873,0,normal,False,-0.489225,-0.32257,0.0,1.1806,0.230285,False,1.5068,8.3989,-0.033573,1.106282,0,101,49,0.485149,1.027439,False,False,False,False,False,False,False,False
+P_Ruth,53,V2,V2,74,1.4787,0,normal,False,0.197674,-0.06711,0.0,0.9614,-0.001475,False,1.1784,9.4685,-0.451558,1.712097,0,70,12,0.171429,-0.722767,False,False,False,False,False,False,False,False
+P_Primavera,23,V2,V0,20,1.4759,0,normal,False,-0.319818,-0.26166,0.0,2.4278,1.548952,False,0.9751,4.1275,-0.710317,-1.313015,0,19,3,0.157895,-0.798271,False,False,False,False,False,False,False,False
+P_Primavera,79,V0,V2,50,1.4757,0,normal,False,-0.341366,0.101049,0.0,1.1806,0.230285,False,1.2808,8.3989,-0.321224,1.106282,0,49,13,0.265306,-0.199035,False,False,False,False,False,False,False,False
+P_Ruth,25,V2,V2,73,1.4719,0,normal,False,-0.40585,-0.405746,0.0,0.9614,-0.001475,False,1.7369,8.3989,0.259297,1.106282,0,71,29,0.408451,0.599551,False,False,False,False,False,False,False,False
+P_Primavera,111,V2,V2,39,1.4656,0,normal,False,-0.335857,-0.372141,0.0,0.9614,-0.001475,False,1.6425,9.285,0.139145,1.608164,0,38,13,0.342105,0.229418,False,False,False,False,False,False,False,False
+P_Primavera,95,V0,V2,43,1.4616,0,normal,False,-0.216778,0.036258,0.0,1.1806,0.230285,False,1.3247,6.7512,-0.265348,0.173034,0,42,12,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Primavera,77,V2,V2,52,1.4469,0,normal,False,0.122566,-0.243303,0.0,0.9614,-0.001475,False,1.3818,8.3989,-0.192672,1.106282,0,51,10,0.196078,-0.585248,False,False,False,False,False,False,False,False
+P_Conchita Romero,129,V2,V2,23,1.4459,0,normal,False,-0.295741,-0.120164,0.0,0.9614,-0.001475,False,1.5709,8.3989,0.048013,1.106282,0,21,5,0.238095,-0.350842,False,False,False,False,False,False,False,False
+P_Conchita Romero,91,V2,V0,30,1.4456,0,normal,False,-0.404273,-0.232239,0.0,2.4278,1.548952,False,0.9923,4.1275,-0.688425,-1.313015,0,29,4,0.137931,-0.909646,False,False,False,False,False,False,False,False
+P_Ruth,27,V2,V2,99,1.4421,0,normal,False,-0.368872,-0.396767,0.0,0.9614,-0.001475,False,1.5264,8.3989,-0.008626,1.106282,0,97,52,0.536082,1.311593,False,False,False,False,False,False,False,False
+P_Helga,61,V0,V2,21,1.4363,0,normal,False,-0.612915,-0.066724,0.0,1.1806,0.230285,False,1.6189,6.5862,0.109107,0.079579,0,20,7,0.35,0.273461,False,False,False,False,False,False,False,False
+P_Helga,105,V0,V2,38,1.414,1,MODERADA,False,-0.57294,-0.279124,0.0,1.1806,0.230285,False,1.5448,11.0834,0.014793,2.626767,0,33,5,0.151515,-0.833861,False,False,False,False,False,True,False,False
+P_Gentio,109,V0,V2,40,1.411,0,normal,False,-0.289786,-0.336944,0.0,1.1806,0.230285,False,1.4412,6.929,-0.117068,0.273739,0,39,16,0.410256,0.609625,False,False,False,False,False,False,False,False
+P_Ruth,33,V2,V2,76,1.4049,0,normal,False,-0.441914,-0.4059,0.0,0.9614,-0.001475,False,1.6194,7.7009,0.109744,0.710939,0,73,37,0.506849,1.148505,False,False,False,False,False,False,False,False
+P_Gentio,123,V2,V2,21,1.4034,0,normal,False,-0.096417,-0.377531,0.0,0.9614,-0.001475,False,1.4989,6.929,-0.043628,0.273739,0,20,8,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Helga,145,V0,V2,43,1.396,0,normal,False,-0.442152,0.141808,0.0,1.1806,0.230285,False,1.2613,6.5862,-0.346043,0.079579,0,42,15,0.357143,0.313311,False,False,False,False,False,False,False,False
+P_Ruth,55,V0,V2,68,1.396,0,normal,False,-0.451925,0.689688,0.0,1.1806,0.230285,False,0.9458,6.5862,-0.74761,0.079579,0,66,18,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Conchita Romero,35,V2,V2,27,1.3911,0,normal,False,-0.376667,-0.349037,0.0,0.9614,-0.001475,False,1.6141,6.4533,0.102998,0.004305,0,26,13,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Helga,35,V2,V2,16,1.3834,0,normal,False,-0.10702,-0.289969,0.0,0.9614,-0.001475,False,1.5045,6.929,-0.0365,0.273739,0,13,4,0.307692,0.037432,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,81,V0,V0,8,1.3747,0,normal,False,-0.230759,-0.119148,0.0,0.3651,-0.631944,False,1.9689,6.929,0.554585,0.273739,0,7,2,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Primavera,41,V2,V2,27,1.3688,0,normal,False,-0.236766,0.296525,0.0,0.9614,-0.001475,False,1.4137,4.1275,-0.15207,-1.313015,0,26,7,0.269231,-0.17714,False,False,False,False,False,False,False,False
+P_Primavera,129,V0,V2,29,1.3681,0,normal,False,-0.191253,-0.075115,0.0,1.1806,0.230285,False,1.3511,7.5509,-0.231747,0.625979,0,26,3,0.115385,-1.035429,False,False,False,False,False,False,False,False
+P_Gentio,9,V0,V0,5,1.3663,0,normal,False,-0.257467,-0.388459,0.0,0.3651,-0.631944,False,1.9994,6.4533,0.593405,0.004305,0,4,2,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Gentio,119,V2,V2,21,1.3604,0,normal,False,-0.103478,-0.339702,0.0,0.9614,-0.001475,False,1.5257,6.7512,-0.009517,0.173034,0,20,6,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Pasión,65,V0,V0,10,1.358,0,normal,False,-0.301655,-0.34155,0.0,0.3651,-0.631944,False,2.1159,6.929,0.741686,0.273739,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Gentio,221,V0,V0,22,1.3564,0,normal,False,-0.190294,-0.258659,0.0,0.3651,-0.631944,False,1.8781,9.6428,0.439015,1.81082,0,20,4,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Primavera,147,V0,V2,41,1.3515,0,normal,False,-0.308235,-0.011846,0.0,1.1806,0.230285,False,1.2866,6.5862,-0.313842,0.079579,0,40,11,0.275,-0.144955,False,False,False,False,False,False,False,False
+P_Primavera,91,V0,V0,38,1.3472,0,normal,False,-0.294257,-0.404777,0.0,0.3651,-0.631944,False,1.9198,9.285,0.492091,1.608164,0,36,13,0.361111,0.335449,False,False,False,False,False,False,False,False
+P_Gentio,17,V2,V2,10,1.3468,0,normal,False,0.454566,-0.228542,0.0,0.9614,-0.001475,False,1.2817,4.1275,-0.320078,-1.313015,0,9,2,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Ruth,39,V2,V2,108,1.3437,0,normal,False,-0.453853,-0.370376,0.0,0.9614,-0.001475,False,1.4287,9.4685,-0.132978,1.712097,0,104,46,0.442308,0.788435,False,False,False,False,False,False,False,False
+P_Celia,33,V0,V2,23,1.3434,0,normal,False,-0.397847,-0.366312,0.0,1.1806,0.230285,False,1.3911,6.4533,-0.180835,0.004305,0,22,11,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Gentio,103,V2,V2,51,1.3417,0,normal,False,0.248554,-0.298841,0.0,0.9614,-0.001475,False,1.4076,4.1275,-0.159834,-1.313015,0,50,15,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Conchita Romero,13,V2,V2,14,1.3345,0,normal,False,-0.347041,-0.398169,0.0,0.9614,-0.001475,False,1.5795,6.4533,0.058959,0.004305,0,13,6,0.461538,0.895721,False,False,False,False,False,False,False,False
+P_Pasión,67,V0,V0,10,1.3268,0,normal,False,-0.301655,-0.405966,0.0,0.3651,-0.631944,False,2.1159,6.929,0.741686,0.273739,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Renacimiento,47,V2,V2,44,1.3265,0,normal,False,-0.424144,-0.051494,0.0,0.9614,-0.001475,False,1.3968,6.929,-0.17358,0.273739,0,43,17,0.395349,0.526457,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,13,V2,V2,23,1.3184,0,normal,False,-0.519924,-0.381334,0.0,0.9614,-0.001475,False,1.7828,6.929,0.317718,0.273739,0,22,7,0.318182,0.095952,False,False,False,False,False,False,False,False
+P_Conchita Romero,23,V0,V0,10,1.3075,0,normal,False,-0.442701,-0.186613,0.0,0.3651,-0.631944,False,2.0322,6.929,0.635153,0.273739,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Ruth,73,V0,V0,21,1.3074,0,normal,False,0.134805,0.350482,0.0,0.3651,-0.631944,False,1.2056,6.65,-0.416938,0.115715,0,18,6,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Primavera,45,V2,V2,29,1.3053,0,normal,False,-0.34303,0.270586,0.0,0.9614,-0.001475,False,1.2203,4.1275,-0.398228,-1.313015,0,28,13,0.464286,0.911048,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,21,V0,V2,16,1.2975,0,normal,False,-0.366328,-0.35429,0.0,1.1806,0.230285,False,1.3883,6.4533,-0.184399,0.004305,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,43,V0,V2,16,1.2975,0,normal,False,-0.366328,-0.35429,0.0,1.1806,0.230285,False,1.3883,6.4533,-0.184399,0.004305,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Gentio,121,V2,V2,21,1.2954,0,normal,False,-0.103478,-0.405966,0.0,0.9614,-0.001475,False,1.5257,6.7512,-0.009517,0.173034,0,20,5,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Pasión,105,V0,V2,19,1.2935,0,normal,False,-0.489157,0.251042,0.0,1.1806,0.230285,False,1.111,6.929,-0.537344,0.273739,0,18,5,0.277778,-0.129458,False,False,False,False,False,False,False,False
+P_Helga,5,V0,<BOS>,8,1.287,0,normal,False,-0.180342,,0.0,0.7521,-0.222768,False,1.4289,6.4533,-0.132723,0.004305,0,7,2,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Primavera,37,V2,V2,28,1.2866,0,normal,False,-0.184703,0.190316,0.0,0.9614,-0.001475,False,1.2984,4.1275,-0.298823,-1.313015,0,27,8,0.296296,-0.026145,False,False,False,False,False,False,False,False
+P_Conchita Romero,169,V0,V2,33,1.2742,0,normal,False,-0.435331,-0.313175,0.0,1.1806,0.230285,False,1.4252,9.4685,-0.137433,1.712097,0,28,3,0.107143,-1.081409,False,False,False,False,False,False,False,False
+P_Primavera,113,V2,V2,54,1.268,0,normal,False,-0.303376,-0.366639,0.0,0.9614,-0.001475,False,1.4452,9.285,-0.111977,1.608164,0,53,11,0.207547,-0.521266,False,False,False,False,False,False,False,False
+P_Conchita Romero,105,V0,V2,22,1.2665,0,normal,False,-0.443359,-0.398437,0.0,1.1806,0.230285,False,1.5612,6.929,0.035667,0.273739,0,17,4,0.235294,-0.366469,False,False,False,False,False,False,False,False
+P_Helga,25,V0,V0,10,1.2591,0,normal,False,-0.424047,-0.305842,0.0,0.3651,-0.631944,False,2.0322,6.929,0.635153,0.273739,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Gentio,125,V0,V2,25,1.2536,0,normal,False,-0.325079,-0.26803,0.0,1.1806,0.230285,False,1.3096,6.7512,-0.284568,0.173034,0,24,7,0.291667,-0.051973,False,False,False,False,False,False,False,False
+P_Celia,57,V0,V2,33,1.248,0,normal,False,-0.485651,-0.162385,0.0,1.1806,0.230285,False,1.3746,6.929,-0.201836,0.273739,0,32,8,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Ruth,631,V0,V0,11,1.2432,0,normal,False,-0.303221,-0.331049,0.0,0.3651,-0.631944,False,1.7015,6.4533,0.21424,0.004305,0,10,6,0.6,1.668181,False,False,False,False,False,False,False,False
+P_Ruth,19,V0,V0,55,1.2428,0,normal,False,-0.48489,-0.334716,0.0,0.3651,-0.631944,False,1.8537,8.3989,0.407959,1.106282,0,53,23,0.433962,0.741877,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico C,17,V0,V0,21,1.2424,0,normal,False,-0.581961,-0.29297,0.0,0.3651,-0.631944,False,2.1027,6.929,0.724885,0.273739,0,20,7,0.35,0.273461,False,False,False,False,False,False,False,False
+P_Primavera,179,V0,V0,26,1.2382,0,normal,False,-0.206878,-0.278269,0.0,0.3651,-0.631944,False,1.651,9.4685,0.149964,1.712097,0,21,6,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Primavera,99,V0,V0,39,1.2323,0,normal,False,-0.201628,-0.252924,0.0,0.3651,-0.631944,False,1.6835,9.285,0.19133,1.608164,0,38,9,0.236842,-0.357833,False,False,False,False,False,False,False,False
+P_Gentio,57,V0,V0,18,1.2232,0,normal,False,-0.227102,-0.341199,0.0,0.3651,-0.631944,False,1.9044,6.7512,0.47249,0.173034,0,17,5,0.294118,-0.038299,False,False,False,False,False,False,False,False
+P_Primavera,83,V0,V2,55,1.2218,0,normal,False,-0.35784,-0.012214,0.0,1.1806,0.230285,False,1.1657,6.7512,-0.467723,0.173034,0,54,12,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Ruth,37,V2,V2,129,1.2194,0,normal,False,-0.353235,-0.388542,0.0,0.9614,-0.001475,False,1.3852,6.4533,-0.188344,0.004305,0,126,60,0.47619,0.977463,False,False,False,False,False,False,False,False
+P_Gentio,101,V2,V2,36,1.2167,0,normal,False,-0.15531,-0.386516,0.0,0.9614,-0.001475,False,1.4763,6.4561,-0.072393,0.005891,0,35,8,0.228571,-0.403974,False,False,False,False,False,False,False,False
+P_Gentio,219,V0,V0,25,1.2093,0,normal,False,-0.240452,-0.336879,0.0,0.3651,-0.631944,False,1.6433,9.6428,0.140164,1.81082,0,23,7,0.304348,0.018773,False,False,False,False,False,False,False,False
+P_Ruth,71,V0,V0,35,1.2067,0,normal,False,-0.491634,0.426284,0.0,0.3651,-0.631944,False,1.3346,9.4685,-0.252748,1.712097,0,32,8,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Conchita Romero,31,V0,V0,10,1.2012,0,normal,False,-0.442701,-0.405966,0.0,0.3651,-0.631944,False,2.0322,6.929,0.635153,0.273739,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Conchita Romero,73,V0,V2,46,1.1989,0,normal,False,-0.187074,0.802701,0.0,1.1806,0.230285,False,0.6948,4.1275,-1.067081,-1.313015,0,45,6,0.133333,-0.935296,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,21,V2,V2,38,1.1949,0,normal,False,-0.113675,-0.395947,0.0,0.9614,-0.001475,False,1.3467,4.1275,-0.237347,-1.313015,0,37,18,0.486486,1.034903,False,False,False,False,False,False,False,False
+P_Renacimiento,55,V2,V2,42,1.192,0,normal,False,-0.23301,-0.390135,0.0,0.9614,-0.001475,False,1.373,6.929,-0.203872,0.273739,0,41,13,0.317073,0.089767,False,False,False,False,False,False,False,False
+P_Conchita Romero,55,V2,V2,19,1.1826,0,normal,False,-0.421532,-0.404926,0.0,0.9614,-0.001475,False,1.4996,6.929,-0.042737,0.273739,0,18,6,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Gentio,55,V0,V0,26,1.179,0,normal,False,-0.251148,-0.204297,0.0,0.3651,-0.631944,False,1.5242,6.7512,-0.011426,0.173034,0,25,13,0.52,1.221871,False,False,False,False,False,False,False,False
+P_Puntilla del Cacus,9,V2,V2,35,1.1717,0,normal,False,-0.337494,-0.372058,0.0,0.9614,-0.001475,False,1.4535,4.1275,-0.101413,-1.313015,0,34,17,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Gentio,11,V0,V0,6,1.1703,0,normal,False,-0.190363,-0.399239,0.0,0.3651,-0.631944,False,1.7549,6.4533,0.282207,0.004305,0,5,2,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Gentio,105,V0,V2,46,1.1659,0,normal,False,-0.268584,-0.240297,0.0,1.1806,0.230285,False,1.2904,4.1275,-0.309005,-1.313015,0,43,14,0.325581,0.137233,False,False,False,False,False,False,False,False
+P_Ruth,61,V0,V0,48,1.1525,1,MODERADA,False,0.028823,-0.05677,0.0,0.3651,-0.631944,False,1.0452,10.2218,-0.621094,2.138762,0,43,15,0.348837,0.266974,False,False,False,False,False,True,False,False
+P_Primavera,131,V0,V0,45,1.1521,1,MODERADA,False,-0.19412,-0.336089,0.0,0.3651,-0.631944,False,1.5769,10.2218,0.05565,2.138762,0,40,8,0.2,-0.56337,False,False,False,False,False,True,False,False
+P_Jafisa - Grafico A,27,V0,V0,11,1.1488,0,normal,False,-0.182118,0.147869,0.0,0.3651,-0.631944,False,1.4991,6.5862,-0.043373,0.079579,0,10,2,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Renacimiento,43,V0,V2,42,1.1442,0,normal,False,-0.202237,0.093329,0.0,1.1806,0.230285,False,0.99,4.1275,-0.691352,-1.313015,0,41,12,0.292683,-0.046304,False,False,False,False,False,False,False,False
+P_Primavera,117,V0,V0,52,1.1424,1,MODERADA,False,-0.364459,-0.240831,0.0,0.3651,-0.631944,False,1.5076,10.8275,-0.032554,2.481827,0,49,13,0.265306,-0.199035,False,False,False,False,False,True,False,False
+P_Jafisa - Grafico B,9,V2,V2,36,1.1364,0,normal,False,-0.283442,-0.405966,0.0,0.9614,-0.001475,False,1.3679,4.1275,-0.210364,-1.313015,0,35,18,0.514286,1.189991,False,False,False,False,False,False,False,False
+P_Gentio,175,V0,V2,42,1.1352,0,normal,False,-0.294286,-0.383022,0.0,1.1806,0.230285,False,1.1632,6.4533,-0.470904,0.004305,0,41,14,0.341463,0.225837,False,False,False,False,False,False,False,False
+P_Ruth,41,V2,V2,129,1.1271,0,normal,False,-0.386698,-0.387384,0.0,0.9614,-0.001475,False,1.3084,6.4533,-0.286095,0.004305,0,126,55,0.436508,0.756079,False,False,False,False,False,False,False,False
+P_Conchita Romero,9,V0,V0,9,1.1206,0,normal,False,-0.333083,-0.374952,0.0,0.3651,-0.631944,False,1.67,6.4533,0.174147,0.004305,0,8,4,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Primavera,125,V0,V2,77,1.1203,0,normal,False,-0.323369,-0.253269,0.0,1.1806,0.230285,False,1.1211,6.5862,-0.524489,0.079579,0,76,21,0.276316,-0.137614,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico C,11,V0,V2,37,1.1113,0,normal,False,-0.538041,-0.244979,0.0,1.1806,0.230285,False,1.2707,4.1275,-0.334079,-1.313015,0,36,17,0.472222,0.955324,False,False,False,False,False,False,False,False
+P_Primavera,181,V0,V0,27,1.1085,0,normal,False,-0.11215,-0.391722,0.0,0.3651,-0.631944,False,1.4755,9.4685,-0.073411,1.712097,0,22,6,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Primavera,141,V0,V0,28,1.0973,0,normal,False,-0.338659,-0.381887,0.0,0.3651,-0.631944,False,1.7361,7.5509,0.258279,0.625979,0,25,8,0.32,0.106095,False,False,False,False,False,False,False,False
+P_Primavera,135,V0,V0,33,1.0952,0,normal,False,-0.313296,-0.401081,0.0,0.3651,-0.631944,False,1.6802,7.5509,0.18713,0.625979,0,30,11,0.366667,0.366443,False,False,False,False,False,False,False,False
+P_Helga,139,V2,V2,60,1.0899,0,normal,False,-0.301689,-0.401889,0.0,0.9614,-0.001475,False,1.339,6.7512,-0.247147,0.173034,0,59,16,0.271186,-0.16623,False,False,False,False,False,False,False,False
+P_Celia,63,V0,V0,21,1.0857,0,normal,False,-0.48677,-0.38553,0.0,0.3651,-0.631944,False,1.7609,6.929,0.289844,0.273739,0,18,8,0.444444,0.800355,False,False,False,False,False,False,False,False
+P_Gentio,191,V0,V2,37,1.0817,0,normal,False,-0.329671,-0.289654,0.0,1.1806,0.230285,False,1.1758,4.1275,-0.454867,-1.313015,0,33,13,0.393939,0.518594,False,False,False,False,False,False,False,False
+P_Primavera,33,V2,V2,28,1.0816,0,normal,False,-0.184703,-0.232773,0.0,0.9614,-0.001475,False,1.2984,4.1275,-0.298823,-1.313015,0,27,8,0.296296,-0.026145,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,55,V0,V0,8,1.0745,0,normal,False,-0.597973,-0.374096,0.0,0.3651,-0.631944,False,1.9341,6.929,0.510292,0.273739,0,6,2,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Celia,55,V2,V2,48,1.0712,0,normal,False,-0.236507,-0.402876,0.0,0.9614,-0.001475,False,1.2756,4.1275,-0.327843,-1.313015,0,47,22,0.468085,0.932244,False,False,False,False,False,False,False,False
+P_Primavera,25,V0,V2,21,1.0649,0,normal,False,-0.281125,-0.166058,0.0,1.1806,0.230285,False,1.1152,4.1275,-0.531999,-1.313015,0,20,6,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Gentio,19,V0,V2,12,1.0624,0,normal,False,-0.294286,-0.101018,0.0,1.1806,0.230285,False,1.1928,4.1275,-0.43323,-1.313015,0,11,2,0.181818,-0.664805,False,False,False,False,False,False,False,False
+P_Primavera,153,V0,V0,24,1.0562,0,normal,False,-0.354947,-0.377062,0.0,0.3651,-0.631944,False,1.6885,6.5862,0.197694,0.079579,0,23,9,0.391304,0.503893,False,False,False,False,False,False,False,False
+P_Gentio,185,V0,V2,37,1.0526,0,normal,False,-0.30685,-0.363792,0.0,1.1806,0.230285,False,1.1175,4.1275,-0.529071,-1.313015,0,36,16,0.444444,0.800355,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico C,15,V0,V2,38,1.0493,0,normal,False,-0.5621,-0.296803,0.0,1.1806,0.230285,False,1.1532,6.929,-0.483632,0.273739,0,37,12,0.324324,0.13022,False,False,False,False,False,False,False,False
+P_Pasión,7,V0,V0,9,1.0454,0,normal,False,-0.482052,-0.374952,0.0,0.3651,-0.631944,False,1.67,6.4533,0.174147,0.004305,0,8,4,0.5,1.110293,False,False,False,False,False,False,False,False
+P_Renacimiento,13,V2,V2,12,1.0429,0,normal,False,-0.594554,-0.325113,0.0,0.9614,-0.001475,False,1.466,4.1275,-0.085503,-1.313015,0,11,5,0.454545,0.856708,False,False,False,False,False,False,False,False
+P_Primavera,167,V0,V0,47,1.0428,0,normal,False,-0.344579,-0.402204,0.0,0.3651,-0.631944,False,1.5587,7.5509,0.032485,0.625979,0,44,19,0.431818,0.729915,False,False,False,False,False,False,False,False
+P_Helga,63,V0,V0,20,1.0424,0,normal,False,-0.471894,-0.363037,0.0,0.3651,-0.631944,False,1.771,6.5862,0.302699,0.079579,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Primavera,119,V0,V0,44,1.0399,0,normal,False,-0.251958,-0.246197,0.0,0.3651,-0.631944,False,1.3499,9.4685,-0.233274,1.712097,0,41,12,0.292683,-0.046304,False,False,False,False,False,False,False,False
+P_Conchita Romero,29,V0,V0,10,1.0397,0,normal,False,-0.442701,-0.405966,0.0,0.3651,-0.631944,False,1.8961,6.929,0.461926,0.273739,0,9,2,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,101,V0,V0,16,1.0381,0,normal,False,-0.301815,-0.392803,0.0,0.3651,-0.631944,False,1.4307,6.4533,-0.130432,0.004305,0,15,9,0.6,1.668181,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,13,V0,V0,11,1.0361,0,normal,False,-0.522786,-0.203477,0.0,0.3651,-0.631944,False,1.8624,7.7009,0.419033,0.710939,0,10,1,0.1,-1.121258,False,False,False,False,False,False,False,False
+P_Renacimiento,57,V2,V2,45,1.0353,0,normal,False,-0.318276,-0.405027,0.0,0.9614,-0.001475,False,1.254,6.929,-0.355335,0.273739,0,44,12,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Ruth,633,V0,V0,7,1.0348,0,normal,False,0.198539,-0.22635,0.0,0.3651,-0.631944,False,1.5203,6.4533,-0.01639,0.004305,0,5,0,0.0,-1.679146,False,False,False,False,False,False,False,False
+P_Gentio,13,V0,V0,7,1.0345,0,normal,False,-0.133003,-0.402876,0.0,0.3651,-0.631944,False,1.5716,6.4533,0.048904,0.004305,0,6,2,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Conchita Romero,37,V2,V2,31,1.0344,0,normal,False,-0.36096,-0.404367,0.0,0.9614,-0.001475,False,1.2629,6.4533,-0.344007,0.004305,0,30,10,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Primavera,47,V0,V2,31,1.0337,0,normal,False,-0.309182,-0.27065,0.0,1.1806,0.230285,False,1.0995,4.1275,-0.551981,-1.313015,0,30,11,0.366667,0.366443,False,False,False,False,False,False,False,False
+P_Ruth,51,V2,V2,78,1.0284,0,normal,False,-0.412542,-0.29076,0.0,0.9614,-0.001475,False,1.1892,6.5862,-0.437812,0.079579,0,76,26,0.342105,0.229418,False,False,False,False,False,False,False,False
+P_Helga,141,V0,V2,70,1.0275,0,normal,False,-0.548349,-0.10081,0.0,1.1806,0.230285,False,1.1138,6.5862,-0.53378,0.079579,0,69,14,0.202899,-0.5472,False,False,False,False,False,False,False,False
+P_Conchita Romero,51,V0,V0,23,1.0219,0,normal,False,-0.438234,0.03728,0.0,0.3651,-0.631944,False,1.4203,7.7009,-0.143669,0.710939,0,22,6,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Helga,187,V0,V0,50,1.0125,1,MODERADA,False,-0.088961,-0.30788,0.0,0.3651,-0.631944,False,1.1976,10.2218,-0.42712,2.138762,0,46,12,0.26087,-0.223786,False,False,False,False,False,True,False,False
+P_Jafisa - Grafico C,19,V0,V0,27,1.0092,0,normal,False,-0.383584,-0.349839,0.0,0.3651,-0.631944,False,1.7138,6.929,0.229895,0.273739,0,26,7,0.269231,-0.17714,False,False,False,False,False,False,False,False
+P_Renacimiento,51,V0,V2,38,1.0056,0,normal,False,-0.729932,-0.074241,0.0,1.1806,0.230285,False,1.1598,6.929,-0.475232,0.273739,0,37,8,0.216216,-0.472902,False,False,False,False,False,False,False,False
+P_Ruth,79,V0,V0,53,1.0027,1,MODERADA,False,-0.341536,-0.335173,0.0,0.3651,-0.631944,False,1.3655,10.2218,-0.213418,2.138762,0,51,15,0.294118,-0.038299,False,False,False,False,False,True,False,False
+P_Celia,67,V0,V0,15,0.9946,0,normal,False,-0.354943,-0.178679,0.0,0.3651,-0.631944,False,1.5369,9.285,0.004738,1.608164,0,12,1,0.083333,-1.21424,False,False,False,False,False,False,False,False
+P_Cori,21,V0,V2,21,0.993,0,normal,False,-0.786589,0.0765,0.0,1.1806,0.230285,False,1.1152,4.1275,-0.531999,-1.313015,0,20,8,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Celia,61,V0,V0,26,0.988,0,normal,False,-0.493702,-0.399167,0.0,0.3651,-0.631944,False,1.6711,6.929,0.175547,0.273739,0,25,10,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Primavera,133,V0,V0,32,0.9797,0,normal,False,-0.27941,-0.33692,0.0,0.3651,-0.631944,False,1.5201,7.5509,-0.016645,0.625979,0,29,8,0.275862,-0.140145,False,False,False,False,False,False,False,False
+P_Ruth,47,V2,V2,116,0.9782,0,normal,False,-0.477858,-0.336463,0.0,0.9614,-0.001475,False,1.2252,6.4561,-0.391991,0.005891,0,114,37,0.324561,0.131543,False,False,False,False,False,False,False,False
+P_Conchita Romero,59,V0,V2,35,0.9756,0,normal,False,-0.264652,0.237101,0.0,1.1806,0.230285,False,0.8191,4.1275,-0.908873,-1.313015,0,34,5,0.147059,-0.858723,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,23,V0,V2,36,0.9563,0,normal,False,-0.75871,-0.013141,0.0,1.1806,0.230285,False,1.1038,4.1275,-0.546508,-1.313015,0,35,14,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Celia,65,V0,V0,19,0.9549,0,normal,False,-0.494268,-0.354766,0.0,0.3651,-0.631944,False,1.6128,6.929,0.101343,0.273739,0,16,6,0.375,0.412933,False,False,False,False,False,False,False,False
+P_Primavera,165,V0,V0,48,0.9545,0,normal,False,-0.333977,-0.347462,0.0,0.3651,-0.631944,False,1.4374,6.5862,-0.121905,0.079579,0,47,21,0.446809,0.813544,False,False,False,False,False,False,False,False
+P_Primavera,121,V0,V0,52,0.9542,0,normal,False,-0.353953,-0.219141,0.0,0.3651,-0.631944,False,1.3254,9.4685,-0.264457,1.712097,0,49,12,0.244898,-0.31289,False,False,False,False,False,False,False,False
+P_Helga,73,V0,V2,57,0.9457,0,normal,False,-0.427147,-0.23083,0.0,1.1806,0.230285,False,1.108,4.1275,-0.541163,-1.313015,0,56,16,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,149,V0,V0,19,0.9429,0,normal,False,-0.234883,-0.250916,0.0,0.3651,-0.631944,False,1.5332,6.5862,2.9e-05,0.079579,0,16,3,0.1875,-0.633106,False,False,False,False,False,False,False,False
+P_Celia,49,V0,V0,23,0.9413,0,normal,False,-0.488607,-0.385589,0.0,0.3651,-0.631944,False,1.5127,7.7009,-0.026063,0.710939,0,22,9,0.409091,0.603122,False,False,False,False,False,False,False,False
+P_Cori,33,V0,V2,28,0.9407,0,normal,False,-0.822177,-0.13713,0.0,1.1806,0.230285,False,1.1736,6.4561,-0.457667,0.005891,0,27,7,0.259259,-0.23277,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,103,V0,V0,18,0.9403,0,normal,False,-0.241501,-0.400356,0.0,0.3651,-0.631944,False,1.3104,6.4533,-0.283549,0.004305,0,17,9,0.529412,1.274378,False,False,False,False,False,False,False,False
+P_Gentio,217,V0,V0,41,0.9396,0,normal,False,-0.325834,-0.300077,0.0,0.3651,-0.631944,False,1.1955,9.6428,-0.429793,1.81082,0,40,15,0.375,0.412933,False,False,False,False,False,False,False,False
+P_Conchita Romero,155,V0,V0,22,0.9374,0,normal,False,-0.407241,-0.333028,0.0,0.3651,-0.631944,False,1.6069,6.7512,0.093834,0.173034,0,21,6,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Helga,97,V0,V2,53,0.9362,0,normal,False,-0.686922,-0.145045,0.0,1.1806,0.230285,False,1.1247,6.5862,-0.519907,0.079579,0,52,10,0.192308,-0.606285,False,False,False,False,False,False,False,False
+P_Celia,41,V0,V0,28,0.9353,0,normal,False,-0.380617,-0.020534,0.0,0.3651,-0.631944,False,1.3289,4.1275,-0.260003,-1.313015,0,27,14,0.518519,1.213606,False,False,False,False,False,False,False,False
+P_Cori,37,V2,V2,39,0.9329,0,normal,False,-0.361403,-0.318992,0.0,0.9614,-0.001475,False,1.1981,4.1275,-0.426484,-1.313015,0,38,14,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Conchita Romero,99,V0,V0,36,0.9275,0,normal,False,-0.415746,-0.33452,0.0,0.3651,-0.631944,False,1.3288,9.4685,-0.26013,1.712097,0,33,11,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Primavera,61,V0,V0,34,0.9213,0,normal,False,-0.353879,-0.373847,0.0,0.3651,-0.631944,False,1.5164,6.4561,-0.021354,0.005891,0,33,12,0.363636,0.349537,False,False,False,False,False,False,False,False
+P_Renacimiento,15,V0,V2,14,0.916,0,normal,False,-0.741824,-0.367964,0.0,1.1806,0.230285,False,1.3089,4.1275,-0.285459,-1.313015,0,13,5,0.384615,0.466576,False,False,False,False,False,False,False,False
+P_Primavera,183,V0,V0,30,0.9102,0,normal,False,-0.175281,-0.356917,0.0,0.3651,-0.631944,False,1.3712,7.7009,-0.206163,0.710939,0,25,6,0.24,-0.340215,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,45,V0,V0,47,0.9101,0,normal,False,-0.549946,-0.339595,0.0,0.3651,-0.631944,False,1.5958,6.7512,0.079706,0.173034,0,46,17,0.369565,0.382613,False,False,False,False,False,False,False,False
+P_Pasión,61,V0,V0,14,0.9096,0,normal,False,-0.379922,-0.392631,0.0,0.3651,-0.631944,False,1.6284,6.929,0.121199,0.273739,0,13,3,0.230769,-0.391713,False,False,False,False,False,False,False,False
+P_Puntilla del Cacus,7,V2,V2,23,0.9049,0,normal,False,-0.702023,-0.369247,0.0,0.9614,-0.001475,False,1.3989,6.5862,-0.170907,0.079579,0,22,5,0.227273,-0.411219,False,False,False,False,False,False,False,False
+P_Gentio,181,V0,V0,29,0.9045,0,normal,False,-0.238879,-0.358509,0.0,0.3651,-0.631944,False,1.3547,6.929,-0.227165,0.273739,0,25,9,0.36,0.32925,False,False,False,False,False,False,False,False
+P_Helga,137,V2,V2,85,0.9032,0,normal,False,-0.401292,-0.301034,0.0,0.9614,-0.001475,False,1.1008,6.5862,-0.550327,0.079579,0,84,20,0.238095,-0.350842,False,False,False,False,False,False,False,False
+P_Pasión,63,V0,V0,14,0.9031,0,normal,False,-0.379922,-0.405966,0.0,0.3651,-0.631944,False,1.6284,6.929,0.121199,0.273739,0,13,3,0.230769,-0.391713,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,7,V0,V0,8,0.9009,0,normal,False,-0.301815,-0.346244,0.0,0.3651,-0.631944,False,1.503,6.4533,-0.038409,0.004305,0,7,2,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Primavera,155,V0,V0,30,0.8988,0,normal,False,-0.333184,-0.398538,0.0,0.3651,-0.631944,False,1.4226,6.5862,-0.140742,0.079579,0,29,12,0.413793,0.629355,False,False,False,False,False,False,False,False
+P_Renacimiento,59,V0,V2,46,0.8981,0,normal,False,-0.736135,-0.298479,0.0,1.1806,0.230285,False,1.1153,6.929,-0.531871,0.273739,0,45,12,0.266667,-0.191445,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,93,V0,V0,19,0.8956,0,normal,False,-0.312268,-0.291033,0.0,0.3651,-0.631944,False,1.5434,6.929,0.013012,0.273739,0,18,3,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Conchita Romero,67,V0,V0,21,0.8924,0,normal,False,-0.437056,-0.381019,0.0,0.3651,-0.631944,False,1.4885,7.7009,-0.056865,0.710939,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Primavera,65,V0,V0,40,0.8751,0,normal,False,-0.3583,-0.382725,0.0,0.3651,-0.631944,False,1.3974,6.5862,-0.172816,0.079579,0,39,16,0.410256,0.609625,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,153,V0,V0,12,0.8751,0,normal,False,0.22889,-0.305022,0.0,0.3651,-0.631944,False,1.1785,6.929,-0.451431,0.273739,0,11,1,0.090909,-1.171975,False,False,False,False,False,False,False,False
+P_Cori,39,V2,V2,39,0.8735,0,normal,False,-0.361403,-0.405966,0.0,0.9614,-0.001475,False,1.1981,4.1275,-0.426484,-1.313015,0,38,13,0.342105,0.229418,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,111,V0,V0,25,0.8684,0,normal,False,-0.366296,-0.352721,0.0,0.3651,-0.631944,False,1.2487,6.4533,-0.362081,0.004305,0,24,13,0.541667,1.342746,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,121,V0,V0,25,0.8684,0,normal,False,-0.366296,-0.352721,0.0,0.3651,-0.631944,False,1.2487,6.4533,-0.362081,0.004305,0,24,13,0.541667,1.342746,False,False,False,False,False,False,False,False
+P_Gentio,29,V0,V0,18,0.8561,0,normal,False,-0.190363,-0.137118,0.0,0.3651,-0.631944,False,1.1235,6.4533,-0.521434,0.004305,0,17,6,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Conchita Romero,57,V2,V2,47,0.8544,0,normal,False,-0.314823,-0.350986,0.0,0.9614,-0.001475,False,1.1298,4.1275,-0.513416,-1.313015,0,46,14,0.304348,0.018773,False,False,False,False,False,False,False,False
+P_Conchita Romero,133,V0,V2,17,0.8459,0,normal,False,-0.363095,-0.249888,0.0,1.1806,0.230285,False,1.0815,4.1275,-0.574892,-1.313015,0,16,2,0.125,-0.981786,False,False,False,False,False,False,False,False
+P_Ruth,67,V0,V0,35,0.8451,0,normal,False,-0.491634,0.0573,0.0,0.3651,-0.631944,False,1.2417,7.5509,-0.37099,0.625979,0,32,7,0.21875,-0.458766,False,False,False,False,False,False,False,False
+P_Primavera,185,V0,V0,32,0.8449,0,normal,False,-0.150973,-0.405021,0.0,0.3651,-0.631944,False,1.3056,7.7009,-0.289659,0.710939,0,27,6,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Gentio,53,V0,V0,32,0.8392,0,normal,False,-0.234304,-0.17405,0.0,0.3651,-0.631944,False,1.0919,6.4533,-0.561655,0.004305,0,31,13,0.419355,0.660384,False,False,False,False,False,False,False,False
+P_Gentio,27,V0,V2,17,0.8386,0,normal,False,-0.257852,-0.38263,0.0,1.1806,0.230285,False,0.9604,6.4533,-0.729027,0.004305,0,16,1,0.0625,-1.330466,False,False,False,False,False,False,False,False
+P_Pasión,9,V0,V0,11,0.8385,0,normal,False,-0.445682,-0.395406,0.0,0.3651,-0.631944,False,1.4397,6.4533,-0.118977,0.004305,0,10,4,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Primavera,177,V0,V0,72,0.8375,0,normal,False,-0.359351,-0.179933,0.0,0.3651,-0.631944,False,1.2018,6.4533,-0.421775,0.004305,0,71,29,0.408451,0.599551,False,False,False,False,False,False,False,False
+P_Gentio,131,V0,V0,28,0.8329,0,normal,False,-0.288203,-0.390028,0.0,0.3651,-0.631944,False,1.2055,9.285,-0.417065,1.608164,0,26,7,0.269231,-0.17714,False,False,False,False,False,False,False,False
+P_Gentio,127,V0,V0,24,0.8259,0,normal,False,-0.278936,-0.363596,0.0,0.3651,-0.631944,False,1.2103,9.285,-0.410956,1.608164,0,22,5,0.227273,-0.411219,False,False,False,False,False,False,False,False
+P_Primavera,169,V0,V0,56,0.8168,0,normal,False,-0.281703,-0.381572,0.0,0.3651,-0.631944,False,1.2761,6.5862,-0.327206,0.079579,0,55,21,0.381818,0.450971,False,False,False,False,False,False,False,False
+P_Primavera,59,V0,V0,46,0.8122,0,normal,False,-0.360586,-0.313062,0.0,0.3651,-0.631944,False,1.2717,6.4533,-0.332806,0.004305,0,45,18,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Ruth,9,V0,V0,12,0.7994,0,normal,False,-0.47724,-0.228542,0.0,0.3651,-0.631944,False,1.4147,4.1275,-0.150797,-1.313015,0,11,5,0.454545,0.856708,False,False,False,False,False,False,False,False
+P_Puntilla del Cacus,17,V2,V2,48,0.7991,0,normal,False,-0.883228,-0.401741,0.0,0.9614,-0.001475,False,1.2543,6.4533,-0.354953,0.004305,0,47,18,0.382979,0.457446,False,False,False,False,False,False,False,False
+P_Gentio,179,V0,V0,29,0.7932,0,normal,False,-0.324299,-0.363471,0.0,0.3651,-0.631944,False,1.2043,7.7009,-0.418593,0.710939,0,26,9,0.346154,0.252004,False,False,False,False,False,False,False,False
+P_Helga,183,V0,V0,56,0.7917,0,normal,False,0.313865,-0.340991,0.0,0.3651,-0.631944,False,0.9004,6.929,-0.805395,0.273739,0,55,11,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Celia,51,V0,V0,39,0.7913,0,normal,False,-0.377066,-0.327674,0.0,0.3651,-0.631944,False,1.3257,4.1275,-0.264076,-1.313015,0,38,20,0.526316,1.257106,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,43,V0,V0,46,0.79,0,normal,False,-0.510311,-0.244005,0.0,0.3651,-0.631944,False,1.3721,6.929,-0.205018,0.273739,0,41,12,0.292683,-0.046304,False,False,False,False,False,False,False,False
+P_Primavera,175,V0,V0,29,0.7843,0,normal,False,-0.089863,-0.263799,0.0,0.3651,-0.631944,False,1.1411,7.5509,-0.499033,0.625979,0,26,4,0.153846,-0.820857,False,False,False,False,False,False,False,False
+P_Pasión,129,V0,V0,33,0.7831,0,normal,False,-0.184362,-0.124128,0.0,0.3651,-0.631944,False,1.101,6.4533,-0.550072,0.004305,0,32,8,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Helga,191,V0,V0,48,0.7792,0,normal,False,-0.252024,-0.297926,0.0,0.3651,-0.631944,False,1.2324,7.1355,-0.382827,0.390699,0,46,11,0.23913,-0.345066,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,105,V0,V0,21,0.7765,0,normal,False,-0.153842,-0.399346,0.0,0.3651,-0.631944,False,1.171,6.4533,-0.460977,0.004305,0,20,7,0.35,0.273461,False,False,False,False,False,False,False,False
+P_Conchita Romero,65,V0,V0,32,0.776,0,normal,False,-0.403245,-0.40322,0.0,0.3651,-0.631944,False,1.3232,6.929,-0.267258,0.273739,0,31,11,0.354839,0.300456,False,False,False,False,False,False,False,False
+P_Conchita Romero,49,V0,V0,23,0.7756,0,normal,False,-0.027111,-0.375154,0.0,0.3651,-0.631944,False,1.0465,6.929,-0.619439,0.273739,0,22,7,0.318182,0.095952,False,False,False,False,False,False,False,False
+P_Conchita Romero,131,V2,V2,22,0.7693,0,normal,False,-0.400657,-0.310126,0.0,0.9614,-0.001475,False,1.1504,4.1275,-0.487196,-1.313015,0,21,4,0.190476,-0.616503,False,False,False,False,False,False,False,False
+P_Primavera,159,V0,V0,38,0.7601,0,normal,False,-0.197426,-0.387193,0.0,0.3651,-0.631944,False,1.1857,6.5862,-0.442267,0.079579,0,37,12,0.324324,0.13022,False,False,False,False,False,False,False,False
+P_Primavera,171,V0,V0,60,0.7601,0,normal,False,-0.255292,-0.404135,0.0,0.3651,-0.631944,False,1.2113,6.5862,-0.409683,0.079579,0,59,21,0.355932,0.306556,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,9,V0,V0,10,0.7556,0,normal,False,-0.182013,-0.388459,0.0,0.3651,-0.631944,False,1.2821,6.4533,-0.319569,0.004305,0,9,2,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Celia,59,V0,V0,34,0.7509,0,normal,False,-0.502501,-0.368017,0.0,0.3651,-0.631944,False,1.3879,6.929,-0.184908,0.273739,0,33,10,0.30303,0.011423,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,23,V0,V0,18,0.7503,0,normal,False,-0.343864,-0.395465,0.0,0.3651,-0.631944,False,1.2725,6.4533,-0.331788,0.004305,0,17,6,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,45,V0,V0,18,0.7503,0,normal,False,-0.343864,-0.395465,0.0,0.3651,-0.631944,False,1.2725,6.4533,-0.331788,0.004305,0,17,6,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Helga,107,V0,V0,35,0.7489,0,normal,False,-0.35182,-0.258124,0.0,0.3651,-0.631944,False,1.2391,6.7512,-0.374299,0.173034,0,34,9,0.264706,-0.202384,False,False,False,False,False,False,False,False
+P_Celia,43,V0,V0,28,0.7486,0,normal,False,-0.380617,-0.405966,0.0,0.3651,-0.631944,False,1.3289,4.1275,-0.260003,-1.313015,0,27,14,0.518519,1.213606,False,False,False,False,False,False,False,False
+P_Helga,119,V0,V0,32,0.7483,0,normal,False,-0.660956,-0.390753,0.0,0.3651,-0.631944,False,1.4534,6.7512,-0.10154,0.173034,0,31,12,0.387097,0.48042,False,False,False,False,False,False,False,False
+P_Helga,111,V0,V0,35,0.7453,0,normal,False,-0.503308,-0.359941,0.0,0.3651,-0.631944,False,1.3378,6.7512,-0.248675,0.173034,0,34,12,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Helga,115,V0,V0,35,0.7453,0,normal,False,-0.503308,-0.359941,0.0,0.3651,-0.631944,False,1.3378,6.7512,-0.248675,0.173034,0,34,12,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Pasión,81,V0,V0,48,0.7442,0,normal,False,-0.229921,0.169589,0.0,0.3651,-0.631944,False,0.9993,4.1275,-0.679515,-1.313015,0,47,14,0.297872,-0.017352,False,False,False,False,False,False,False,False
+P_Cori,15,V0,V0,14,0.7427,1,MODERADA,False,-0.878577,-0.30662,0.0,0.3651,-0.631944,False,1.4568,4.1275,-0.097212,-1.313015,0,13,9,0.692308,2.183154,False,False,False,False,False,False,False,True
+P_Conchita Romero,63,V0,V0,26,0.7426,0,normal,False,-0.388343,-0.30337,0.0,0.3651,-0.631944,False,1.2793,7.7009,-0.323133,0.710939,0,25,5,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Celia,39,V0,V0,16,0.7419,0,normal,False,-0.48035,-0.30514,0.0,0.3651,-0.631944,False,1.3511,7.7009,-0.231747,0.710939,0,15,3,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Conchita Romero,93,V2,V2,33,0.7386,0,normal,False,-0.407516,-0.40571,0.0,0.9614,-0.001475,False,1.1195,4.1275,-0.526526,-1.313015,0,32,8,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,155,V0,V0,13,0.7381,0,normal,False,0.254342,-0.40549,0.0,0.3651,-0.631944,False,1.1149,6.929,-0.53238,0.273739,0,11,0,0.0,-1.679146,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,107,V0,V0,23,0.7318,0,normal,False,-0.101452,-0.404314,0.0,0.3651,-0.631944,False,1.0974,6.4533,-0.554654,0.004305,0,22,7,0.318182,0.095952,False,False,False,False,False,False,False,False
+P_Gentio,31,V0,V0,18,0.7259,0,normal,False,-0.190363,-0.405966,0.0,0.3651,-0.631944,False,1.1235,6.4533,-0.521434,0.004305,0,17,6,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Gentio,33,V0,V0,18,0.7259,0,normal,False,-0.190363,-0.405966,0.0,0.3651,-0.631944,False,1.1235,6.4533,-0.521434,0.004305,0,17,6,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Celia,35,V0,V0,26,0.724,0,normal,False,-0.456587,-0.390682,0.0,0.3651,-0.631944,False,1.2685,6.4533,-0.336879,0.004305,0,25,10,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Gentio,129,V0,V0,26,0.7222,0,normal,False,-0.30238,-0.386397,0.0,0.3651,-0.631944,False,1.2252,6.929,-0.391991,0.273739,0,25,7,0.28,-0.11706,False,False,False,False,False,False,False,False
+P_Gentio,177,V0,V0,33,0.7196,0,normal,False,-0.271756,-0.399631,0.0,0.3651,-0.631944,False,1.1708,6.5862,-0.461231,0.079579,0,32,11,0.34375,0.238593,False,False,False,False,False,False,False,False
+P_Pasión,57,V0,V0,18,0.7124,0,normal,False,-0.327794,-0.401687,0.0,0.3651,-0.631944,False,1.3462,6.929,-0.237983,0.273739,0,17,3,0.176471,-0.694638,False,False,False,False,False,False,False,False
+P_Conchita Romero,143,V0,V0,24,0.7104,0,normal,False,-0.279039,-0.363679,0.0,0.3651,-0.631944,False,1.1914,6.929,-0.435012,0.273739,0,23,6,0.26087,-0.223786,False,False,False,False,False,False,False,False
+P_Pasión,59,V0,V0,18,0.7104,0,normal,False,-0.327794,-0.405966,0.0,0.3651,-0.631944,False,1.3462,6.929,-0.237983,0.273739,0,17,3,0.176471,-0.694638,False,False,False,False,False,False,False,False
+P_Pasión,11,V0,V0,13,0.7086,0,normal,False,-0.398529,-0.401491,0.0,0.3651,-0.631944,False,1.2751,6.4533,-0.328479,0.004305,0,12,4,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Pasión,131,V0,V0,38,0.7081,0,normal,False,-0.441493,-0.32992,0.0,0.3651,-0.631944,False,1.2341,7.147,-0.380663,0.397213,0,37,11,0.297297,-0.020561,False,False,False,False,False,False,False,False
+P_Gentio,147,V0,V0,22,0.7078,0,normal,False,-0.299131,-0.305271,0.0,0.3651,-0.631944,False,1.2212,6.4561,-0.397082,0.005891,0,21,5,0.238095,-0.350842,False,False,False,False,False,False,False,False
+P_Helga,199,V0,V0,29,0.7075,0,normal,False,-0.052104,-0.250607,0.0,0.3651,-0.631944,False,1.0227,7.5509,-0.649732,0.625979,0,26,3,0.115385,-1.035429,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,39,V0,V0,26,0.7075,0,normal,False,-0.818963,-0.349459,0.0,0.3651,-0.631944,False,1.4954,6.929,-0.048083,0.273739,0,25,9,0.36,0.32925,False,False,False,False,False,False,False,False
+P_Primavera,157,V0,V0,30,0.7075,0,normal,False,-0.289651,-0.396689,0.0,0.3651,-0.631944,False,1.2084,6.4561,-0.413374,0.005891,0,29,9,0.310345,0.05223,False,False,False,False,False,False,False,False
+P_Cori,29,V0,V0,23,0.7063,0,normal,False,-0.776142,-0.388233,0.0,0.3651,-0.631944,False,1.4783,6.4561,-0.069847,0.005891,0,22,9,0.409091,0.603122,False,False,False,False,False,False,False,False
+P_Primavera,151,V0,V0,41,0.7061,0,normal,False,-0.356952,-0.337877,0.0,0.3651,-0.631944,False,1.3157,6.5862,-0.276804,0.079579,0,40,8,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Conchita Romero,141,V0,V0,28,0.7052,0,normal,False,-0.342221,-0.230997,0.0,0.3651,-0.631944,False,1.2007,6.5862,-0.423175,0.079579,0,27,6,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Primavera,17,V0,V0,17,0.7016,0,normal,False,-0.16734,-0.1027,0.0,0.3651,-0.631944,False,1.0096,6.4533,-0.666406,0.004305,0,16,3,0.1875,-0.633106,False,False,False,False,False,False,False,False
+P_Helga,123,V0,V0,56,0.7009,0,normal,False,-0.610142,-0.397432,0.0,0.3651,-0.631944,False,1.3512,6.7512,-0.231619,0.173034,0,55,21,0.381818,0.450971,False,False,False,False,False,False,False,False
+P_Helga,149,V0,V0,36,0.6917,0,normal,False,-0.121667,-0.377002,0.0,0.3651,-0.631944,False,1.0242,6.5862,-0.647823,0.079579,0,35,11,0.314286,0.074216,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,95,V0,V0,23,0.6914,0,normal,False,-0.339247,-0.36261,0.0,0.3651,-0.631944,False,1.3341,6.929,-0.253384,0.273739,0,22,3,0.136364,-0.91839,False,False,False,False,False,False,False,False
+P_Gentio,111,V0,V0,38,0.6878,0,normal,False,-0.314783,-0.330003,0.0,0.3651,-0.631944,False,1.1642,6.7512,-0.469632,0.173034,0,37,10,0.27027,-0.171341,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,25,V0,V0,20,0.684,0,normal,False,-0.301815,-0.399839,0.0,0.3651,-0.631944,False,1.1787,6.4533,-0.451176,0.004305,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,47,V0,V0,20,0.684,0,normal,False,-0.301815,-0.399839,0.0,0.3651,-0.631944,False,1.1787,6.4533,-0.451176,0.004305,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Helga,193,V0,V0,49,0.6834,0,normal,False,-0.252005,-0.40574,0.0,0.3651,-0.631944,False,1.2135,7.1355,-0.406883,0.390699,0,47,9,0.191489,-0.61085,False,False,False,False,False,False,False,False
+P_Celia,37,V0,V0,14,0.6831,0,normal,False,-0.491817,-0.33143,0.0,0.3651,-0.631944,False,1.4377,6.4561,-0.121523,0.005891,0,13,2,0.153846,-0.820857,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,113,V0,V0,27,0.6748,0,normal,False,-0.360318,-0.400891,0.0,0.3651,-0.631944,False,1.18,6.4533,-0.449522,0.004305,0,26,9,0.346154,0.252004,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,123,V0,V0,27,0.6748,0,normal,False,-0.360318,-0.400891,0.0,0.3651,-0.631944,False,1.18,6.4533,-0.449522,0.004305,0,26,9,0.346154,0.252004,False,False,False,False,False,False,False,False
+P_Helga,127,V0,V0,42,0.6737,0,normal,False,-0.587814,-0.397201,0.0,0.3651,-0.631944,False,1.3327,6.7512,-0.255166,0.173034,0,41,14,0.341463,0.225837,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,115,V0,V0,27,0.6723,0,normal,False,-0.360318,-0.405966,0.0,0.3651,-0.631944,False,1.18,6.4533,-0.449522,0.004305,0,26,9,0.346154,0.252004,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,125,V0,V0,27,0.6723,0,normal,False,-0.360318,-0.405966,0.0,0.3651,-0.631944,False,1.18,6.4533,-0.449522,0.004305,0,26,9,0.346154,0.252004,False,False,False,False,False,False,False,False
+P_Conchita Romero,151,V0,V0,30,0.6703,0,normal,False,-0.431775,-0.348627,0.0,0.3651,-0.631944,False,1.2573,7.7009,-0.351135,0.710939,0,28,5,0.178571,-0.682918,False,False,False,False,False,False,False,False
+P_Primavera,19,V0,V0,16,0.6674,0,normal,False,-0.356769,-0.26847,0.0,0.3651,-0.631944,False,1.2704,4.1275,-0.334461,-1.313015,0,15,5,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,69,V0,V0,18,0.6674,0,normal,False,-0.361625,-0.304184,0.0,0.3651,-0.631944,False,1.2809,4.1275,-0.321097,-1.313015,0,17,6,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Gentio,133,V0,V0,35,0.6574,0,normal,False,-0.325173,-0.355158,0.0,0.3651,-0.631944,False,1.1353,6.929,-0.506415,0.273739,0,34,9,0.264706,-0.202384,False,False,False,False,False,False,False,False
+P_Gentio,149,V0,V0,26,0.6569,0,normal,False,-0.305083,-0.405674,0.0,0.3651,-0.631944,False,1.1693,6.5862,-0.46314,0.079579,0,25,7,0.28,-0.11706,False,False,False,False,False,False,False,False
+P_Conchita Romero,95,V2,V2,37,0.6522,0,normal,False,-0.34074,-0.364202,0.0,0.9614,-0.001475,False,0.9599,4.1275,-0.729663,-1.313015,0,36,7,0.194444,-0.594364,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,11,V0,V0,10,0.6518,0,normal,False,-0.362405,-0.330146,0.0,0.3651,-0.631944,False,1.2967,4.1275,-0.300987,-1.313015,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,53,V0,V0,13,0.6504,0,normal,False,-0.543524,-0.404837,0.0,0.3651,-0.631944,False,1.3462,6.929,-0.237983,0.273739,0,12,3,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Pasión,13,V0,V0,16,0.6473,0,normal,False,-0.453216,-0.399417,0.0,0.3651,-0.631944,False,1.2218,6.4533,-0.396319,0.004305,0,15,5,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Pasión,27,V0,V0,16,0.6359,0,normal,False,-0.334593,-0.384561,0.0,0.3651,-0.631944,False,1.1009,6.4533,-0.5502,0.004305,0,15,5,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Primavera,97,V0,V0,59,0.6354,0,normal,False,-0.361477,-0.266728,0.0,0.3651,-0.631944,False,0.997,9.285,-0.682443,1.608164,0,57,8,0.140351,-0.896146,False,False,False,False,False,False,False,False
+P_Helga,147,V0,V0,35,0.6344,0,normal,False,-0.484025,-0.404605,0.0,0.3651,-0.631944,False,1.199,6.5862,-0.425338,0.079579,0,34,12,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Helga,201,V0,V0,29,0.6323,0,normal,False,-0.052104,-0.405966,0.0,0.3651,-0.631944,False,1.0227,7.5509,-0.649732,0.625979,0,26,3,0.115385,-1.035429,False,False,False,False,False,False,False,False
+P_Helga,203,V0,V0,29,0.6323,0,normal,False,-0.052104,-0.405966,0.0,0.3651,-0.631944,False,1.0227,7.5509,-0.649732,0.625979,0,26,3,0.115385,-1.035429,False,False,False,False,False,False,False,False
+P_Helga,205,V0,V0,29,0.6323,0,normal,False,-0.052104,-0.405966,0.0,0.3651,-0.631944,False,1.0227,7.5509,-0.649732,0.625979,0,26,3,0.115385,-1.035429,False,False,False,False,False,False,False,False
+P_Conchita Romero,101,V0,V0,35,0.6318,0,normal,False,-0.436128,-0.39764,0.0,0.3651,-0.631944,False,1.235,7.5509,-0.379518,0.625979,0,31,6,0.193548,-0.599363,False,False,False,False,False,False,False,False
+P_Pasión,31,V0,V0,19,0.6306,0,normal,False,-0.406327,-0.395406,0.0,0.3651,-0.631944,False,1.1566,6.4533,-0.479305,0.004305,0,18,6,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Gentio,155,V0,V0,32,0.6296,0,normal,False,-0.242063,-0.400403,0.0,0.3651,-0.631944,False,1.0965,6.5862,-0.5558,0.079579,0,31,8,0.258065,-0.239436,False,False,False,False,False,False,False,False
+P_Gentio,35,V0,V0,19,0.6232,0,normal,False,-0.170053,-0.405532,0.0,0.3651,-0.631944,False,1.0817,6.4533,-0.574637,0.004305,0,18,4,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,141,V0,V0,28,0.6206,0,normal,False,-0.308463,-0.384947,0.0,0.3651,-0.631944,False,1.1434,7.147,-0.496106,0.397213,0,26,5,0.192308,-0.606285,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,71,V0,V0,18,0.618,0,normal,False,-0.361625,-0.405966,0.0,0.3651,-0.631944,False,1.2809,4.1275,-0.321097,-1.313015,0,17,6,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,13,V0,V0,10,0.615,0,normal,False,-0.362405,-0.405966,0.0,0.3651,-0.631944,False,1.2967,4.1275,-0.300987,-1.313015,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,15,V0,V0,10,0.615,0,normal,False,-0.362405,-0.405966,0.0,0.3651,-0.631944,False,1.2967,4.1275,-0.300987,-1.313015,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,29,V0,V0,16,0.6119,0,normal,False,-0.28456,-0.388554,0.0,0.3651,-0.631944,False,1.1523,6.5862,-0.484778,0.079579,0,15,3,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Gentio,23,V0,V0,12,0.6118,0,normal,False,-0.294286,-0.38544,0.0,0.3651,-0.631944,False,1.1928,4.1275,-0.43323,-1.313015,0,11,4,0.363636,0.349537,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,17,V0,V0,11,0.6109,0,normal,False,-0.327718,-0.367221,0.0,0.3651,-0.631944,False,1.2682,4.1275,-0.337261,-1.313015,0,10,3,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,39,V0,V0,11,0.6109,0,normal,False,-0.327718,-0.367221,0.0,0.3651,-0.631944,False,1.2682,4.1275,-0.337261,-1.313015,0,10,3,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Gentio,151,V0,V0,24,0.6102,0,normal,False,-0.276362,-0.402317,0.0,0.3651,-0.631944,False,1.1465,6.4561,-0.49216,0.005891,0,23,5,0.217391,-0.466346,False,False,False,False,False,False,False,False
+P_Gentio,37,V0,V0,18,0.61,0,normal,False,-0.190363,-0.405532,0.0,0.3651,-0.631944,False,1.1235,6.4533,-0.521434,0.004305,0,17,3,0.176471,-0.694638,False,False,False,False,False,False,False,False
+P_Pasión,53,V0,V0,22,0.6073,0,normal,False,-0.274012,-0.382463,0.0,0.3651,-0.631944,False,1.1622,6.929,-0.472177,0.273739,0,21,3,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Gentio,171,V0,V0,41,0.6025,0,normal,False,-0.316305,-0.361344,0.0,0.3651,-0.631944,False,1.0518,6.4533,-0.612694,0.004305,0,40,12,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Gentio,169,V0,V0,41,0.6,0,normal,False,-0.315121,-0.247273,0.0,0.3651,-0.631944,False,0.962,6.4533,-0.726991,0.004305,0,40,12,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Celia,45,V0,V0,30,0.5996,0,normal,False,-0.361547,-0.405033,0.0,0.3651,-0.631944,False,1.1902,4.1275,-0.436539,-1.313015,0,29,12,0.413793,0.629355,False,False,False,False,False,False,False,False
+P_Gentio,167,V0,V0,41,0.599,0,normal,False,-0.199426,-0.40237,0.0,0.3651,-0.631944,False,0.9355,6.4533,-0.76072,0.004305,0,40,14,0.35,0.273461,False,False,False,False,False,False,False,False
+P_Pasión,55,V0,V0,22,0.5959,0,normal,False,-0.274012,-0.405966,0.0,0.3651,-0.631944,False,1.1622,6.929,-0.472177,0.273739,0,21,3,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Pasión,33,V0,V0,20,0.595,0,normal,False,-0.390839,-0.405627,0.0,0.3651,-0.631944,False,1.1152,6.4533,-0.531999,0.004305,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Pasión,35,V0,V0,20,0.5948,0,normal,False,-0.390839,-0.405966,0.0,0.3651,-0.631944,False,1.1152,6.4533,-0.531999,0.004305,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Pasión,37,V0,V0,20,0.5948,0,normal,False,-0.390839,-0.405966,0.0,0.3651,-0.631944,False,1.1152,6.4533,-0.531999,0.004305,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Pasión,39,V0,V0,20,0.5948,0,normal,False,-0.390839,-0.405966,0.0,0.3651,-0.631944,False,1.1152,6.4533,-0.531999,0.004305,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Pasión,41,V0,V0,20,0.5948,0,normal,False,-0.390839,-0.405966,0.0,0.3651,-0.631944,False,1.1152,6.4533,-0.531999,0.004305,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Pasión,43,V0,V0,20,0.5948,0,normal,False,-0.390839,-0.405966,0.0,0.3651,-0.631944,False,1.1152,6.4533,-0.531999,0.004305,0,19,6,0.315789,0.082605,False,False,False,False,False,False,False,False
+P_Conchita Romero,61,V0,V0,27,0.5923,0,normal,False,-0.179524,-0.382743,0.0,0.3651,-0.631944,False,0.9769,6.929,-0.708026,0.273739,0,26,6,0.230769,-0.391713,False,False,False,False,False,False,False,False
+P_Gentio,51,V0,V0,28,0.5911,0,normal,False,-0.248373,-0.331638,0.0,0.3651,-0.631944,False,1.0783,4.1275,-0.578965,-1.313015,0,27,10,0.37037,0.387105,False,False,False,False,False,False,False,False
+P_Conchita Romero,171,V0,V0,41,0.5906,0,normal,False,-0.381323,-0.355562,0.0,0.3651,-0.631944,False,1.0914,6.929,-0.562291,0.273739,0,40,10,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Gentio,187,V0,V0,37,0.5883,0,normal,False,-0.261282,-0.398864,0.0,0.3651,-0.631944,False,1.0591,4.1275,-0.603402,-1.313015,0,36,16,0.444444,0.800355,False,False,False,False,False,False,False,False
+P_Conchita Romero,145,V0,V0,35,0.5872,0,normal,False,-0.399831,-0.309502,0.0,0.3651,-0.631944,False,1.0604,6.4533,-0.601748,0.004305,0,34,10,0.294118,-0.038299,False,False,False,False,False,False,False,False
+P_Primavera,161,V0,V0,38,0.5828,0,normal,False,-0.197426,-0.405966,0.0,0.3651,-0.631944,False,1.0196,6.4561,-0.653678,0.005891,0,37,9,0.243243,-0.322122,False,False,False,False,False,False,False,False
+P_Helga,181,V0,V0,56,0.5809,0,normal,False,-0.351375,-0.343338,0.0,0.3651,-0.631944,False,1.1277,6.7512,-0.516089,0.173034,0,55,10,0.181818,-0.664805,False,False,False,False,False,False,False,False
+P_Primavera,55,V0,V0,43,0.5804,0,normal,False,-0.306275,-0.396339,0.0,0.3651,-0.631944,False,1.1203,4.1275,-0.525507,-1.313015,0,42,17,0.404762,0.578971,False,False,False,False,False,False,False,False
+P_Gentio,21,V0,V0,14,0.5782,0,normal,False,-0.333007,-0.38544,0.0,0.3651,-0.631944,False,1.0721,4.1275,-0.586856,-1.313015,0,13,6,0.461538,0.895721,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,27,V0,V0,20,0.5763,0,normal,False,-0.362405,-0.38544,0.0,0.3651,-0.631944,False,1.1863,4.1275,-0.441503,-1.313015,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,49,V0,V0,20,0.5763,0,normal,False,-0.362405,-0.38544,0.0,0.3651,-0.631944,False,1.1863,4.1275,-0.441503,-1.313015,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Celia,47,V0,V0,24,0.5706,0,normal,False,-0.491995,-0.29505,0.0,0.3651,-0.631944,False,1.1732,6.4561,-0.458177,0.005891,0,23,5,0.217391,-0.466346,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,29,V0,V0,20,0.5664,0,normal,False,-0.362405,-0.405966,0.0,0.3651,-0.631944,False,1.1863,4.1275,-0.441503,-1.313015,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,31,V0,V0,20,0.5664,0,normal,False,-0.362405,-0.405966,0.0,0.3651,-0.631944,False,1.1863,4.1275,-0.441503,-1.313015,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,33,V0,V0,20,0.5664,0,normal,False,-0.362405,-0.405966,0.0,0.3651,-0.631944,False,1.1863,4.1275,-0.441503,-1.313015,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,35,V0,V0,20,0.5664,0,normal,False,-0.362405,-0.405966,0.0,0.3651,-0.631944,False,1.1863,4.1275,-0.441503,-1.313015,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,37,V0,V0,20,0.5664,0,normal,False,-0.362405,-0.405966,0.0,0.3651,-0.631944,False,1.1863,4.1275,-0.441503,-1.313015,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,3,V0,V0,24,0.561,0,normal,False,-0.557512,-0.3942,0.0,0.3651,-0.631944,False,1.1123,9.4685,-0.53569,1.712097,0,21,3,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Ruth,15,V0,V0,11,0.5592,0,normal,False,-0.279947,-0.374423,0.0,0.3651,-0.631944,False,1.157,4.1275,-0.478796,-1.313015,0,10,3,0.3,-0.005483,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico C,7,V0,V0,33,0.5566,0,normal,False,-0.620166,-0.16478,0.0,0.3651,-0.631944,False,1.2166,4.1275,-0.402937,-1.313015,0,32,11,0.34375,0.238593,False,False,False,False,False,False,False,False
+P_Primavera,163,V0,V0,44,0.5548,0,normal,False,-0.190876,-0.405841,0.0,0.3651,-0.631944,False,0.995,6.5862,-0.684988,0.079579,0,43,9,0.209302,-0.511474,False,False,False,False,False,False,False,False
+P_Helga,131,V0,V0,48,0.5545,0,normal,False,-0.702165,-0.398181,0.0,0.3651,-0.631944,False,1.3045,6.7512,-0.291059,0.173034,0,47,13,0.276596,-0.136052,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,1,V0,<BOS>,56,0.5545,0,normal,False,-0.661897,,0.0,0.7521,-0.222768,False,0.8258,6.7512,-0.900345,0.173034,0,53,6,0.113208,-1.047575,False,False,False,False,False,False,False,False
+P_Gentio,153,V0,V0,28,0.5542,0,normal,False,-0.286001,-0.405627,0.0,0.3651,-0.631944,False,1.0923,6.5862,-0.561146,0.079579,0,27,5,0.185185,-0.64602,False,False,False,False,False,False,False,False
+P_Gentio,43,V0,V0,28,0.5522,0,normal,False,-0.133003,-0.333248,0.0,0.3651,-0.631944,False,0.8925,4.1275,-0.81545,-1.313015,0,27,11,0.407407,0.59373,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,51,V0,V0,15,0.5519,0,normal,False,-0.524099,-0.402519,0.0,0.3651,-0.631944,False,1.2139,6.929,-0.406374,0.273739,0,14,3,0.214286,-0.483672,False,False,False,False,False,False,False,False
+P_Helga,189,V0,V0,35,0.5513,0,normal,False,-0.459437,-0.330378,0.0,0.3651,-0.631944,False,1.0219,7.5509,-0.65075,0.625979,0,32,8,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Cori,9,V0,V0,8,0.5492,0,normal,False,-0.82669,-0.388459,0.0,0.3651,-0.631944,False,1.4467,4.1275,-0.110068,-1.313015,0,7,3,0.428571,0.711802,False,False,False,False,False,False,False,False
+P_Helga,99,V0,V0,52,0.5487,0,normal,False,-0.592176,-0.313091,0.0,0.3651,-0.631944,False,1.2219,6.5862,-0.396192,0.079579,0,51,11,0.215686,-0.475859,False,False,False,False,False,False,False,False
+P_Primavera,57,V0,V0,45,0.5485,0,normal,False,-0.290586,-0.404979,0.0,0.3651,-0.631944,False,1.0841,4.1275,-0.571582,-1.313015,0,44,17,0.386364,0.47633,False,False,False,False,False,False,False,False
+P_Primavera,85,V0,V0,55,0.5473,0,normal,False,-0.331814,-0.393986,0.0,0.3651,-0.631944,False,1.0388,6.7512,-0.62924,0.173034,0,54,13,0.240741,-0.336083,False,False,False,False,False,False,False,False
+P_Celia,69,V0,V0,49,0.5461,0,normal,False,-0.401917,-0.314755,0.0,0.3651,-0.631944,False,1.0297,9.4685,-0.640822,1.712097,0,42,1,0.02381,-1.546316,False,False,False,False,False,False,False,False
+P_Pasión,49,V0,V0,30,0.5353,0,normal,False,-0.484405,-0.366312,0.0,0.3651,-0.631944,False,1.0722,6.4533,-0.586729,0.004305,0,29,9,0.310345,0.05223,False,False,False,False,False,False,False,False
+P_Pasión,47,V0,V0,26,0.5339,0,normal,False,-0.398529,-0.330592,0.0,0.3651,-0.631944,False,1.0074,6.4533,-0.669206,0.004305,0,25,7,0.28,-0.11706,False,False,False,False,False,False,False,False
+P_Pasión,113,V0,V0,20,0.5338,0,normal,False,-0.484188,-0.285685,0.0,0.3651,-0.631944,False,1.0718,6.929,-0.587238,0.273739,0,19,4,0.210526,-0.504645,False,False,False,False,False,False,False,False
+P_Helga,151,V0,V0,36,0.5308,0,normal,False,-0.307838,-0.396814,0.0,0.3651,-0.631944,False,1.0334,6.4561,-0.636113,0.005891,0,35,8,0.228571,-0.403974,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,99,V0,V0,29,0.5304,0,normal,False,-0.201448,-0.191289,0.0,0.3651,-0.631944,False,0.8838,6.4533,-0.826523,0.004305,0,28,4,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Primavera,63,V0,V0,52,0.5299,0,normal,False,-0.360946,-0.374964,0.0,0.3651,-0.631944,False,1.1215,4.1275,-0.52398,-1.313015,0,51,18,0.352941,0.28987,False,False,False,False,False,False,False,False
+P_Primavera,149,V0,V0,35,0.527,0,normal,False,-0.32487,-0.403375,0.0,0.3651,-0.631944,False,1.1282,6.4561,-0.515452,0.005891,0,34,5,0.147059,-0.858723,False,False,False,False,False,False,False,False
+P_Primavera,21,V0,V0,18,0.5256,0,normal,False,-0.33165,-0.395465,0.0,0.3651,-0.631944,False,1.167,4.1275,-0.466068,-1.313015,0,17,5,0.294118,-0.038299,False,False,False,False,False,False,False,False
+P_Cori,25,V0,V0,27,0.5241,0,normal,False,-0.717268,-0.381875,0.0,0.3651,-0.631944,False,1.1678,4.1275,-0.46505,-1.313015,0,26,15,0.576923,1.539438,False,False,False,False,False,False,False,False
+P_Helga,195,V0,V0,30,0.5209,0,normal,False,-0.712154,-0.258207,0.0,0.3651,-0.631944,False,1.1833,7.5509,-0.445321,0.625979,0,27,5,0.185185,-0.64602,False,False,False,False,False,False,False,False
+P_Conchita Romero,153,V0,V0,43,0.5204,0,normal,False,-0.394902,-0.3913,0.0,0.3651,-0.631944,False,1.0474,6.4533,-0.618294,0.004305,0,42,11,0.261905,-0.218011,False,False,False,False,False,False,False,False
+P_Renacimiento,39,V0,V0,38,0.5192,0,normal,False,0.037626,-0.30246,0.0,0.3651,-0.631944,False,0.8798,4.1275,-0.831614,-1.313015,0,37,8,0.216216,-0.472902,False,False,False,False,False,False,False,False
+P_Gentio,45,V0,V0,28,0.517,0,normal,False,-0.133003,-0.405966,0.0,0.3651,-0.631944,False,0.8925,4.1275,-0.81545,-1.313015,0,27,11,0.407407,0.59373,False,False,False,False,False,False,False,False
+P_Helga,153,V0,V0,38,0.5164,0,normal,False,-0.700652,-0.338638,0.0,0.3651,-0.631944,False,1.2046,6.5862,-0.418211,0.079579,0,35,10,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Renacimiento,23,V0,V0,22,0.5077,0,normal,False,-0.741307,-0.29057,0.0,0.3651,-0.631944,False,1.2916,4.1275,-0.307478,-1.313015,0,21,8,0.380952,0.446141,False,False,False,False,False,False,False,False
+P_Helga,159,V0,V0,85,0.5075,0,normal,False,-0.650479,-0.399619,0.0,0.3651,-0.631944,False,1.097,9.4685,-0.555163,1.712097,0,79,12,0.151899,-0.831722,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,109,V0,V0,25,0.5022,0,normal,False,-0.282055,-0.377228,0.0,0.3651,-0.631944,False,0.9754,6.4533,-0.709935,0.004305,0,24,5,0.208333,-0.51688,False,False,False,False,False,False,False,False
+P_Helga,179,V0,V0,128,0.4992,0,normal,False,0.361146,-0.390474,0.0,0.3651,-0.631944,False,0.5572,6.929,-1.242217,0.273739,0,127,12,0.094488,-1.152008,False,False,False,False,False,False,False,False
+P_Pasión,109,V0,V0,18,0.4966,0,normal,False,0.048129,-0.395745,0.0,0.3651,-0.631944,False,0.8365,6.929,-0.886726,0.273739,0,17,1,0.058824,-1.350977,False,False,False,False,False,False,False,False
+P_Helga,175,V0,V0,122,0.4963,0,normal,False,0.343116,-0.401622,0.0,0.3651,-0.631944,False,0.5704,6.929,-1.225416,0.273739,0,121,12,0.099174,-1.125869,False,False,False,False,False,False,False,False
+P_Pasión,17,V0,V0,16,0.4919,0,normal,False,-0.453216,-0.405966,0.0,0.3651,-0.631944,False,1.1103,4.1275,-0.538235,-1.313015,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Pasión,19,V0,V0,16,0.4919,0,normal,False,-0.453216,-0.405966,0.0,0.3651,-0.631944,False,1.1103,4.1275,-0.538235,-1.313015,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Pasión,21,V0,V0,16,0.4919,0,normal,False,-0.453216,-0.405966,0.0,0.3651,-0.631944,False,1.1103,4.1275,-0.538235,-1.313015,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Pasión,23,V0,V0,16,0.4919,0,normal,False,-0.453216,-0.405966,0.0,0.3651,-0.631944,False,1.1103,4.1275,-0.538235,-1.313015,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Pasión,25,V0,V0,16,0.4919,0,normal,False,-0.453216,-0.405966,0.0,0.3651,-0.631944,False,1.1103,4.1275,-0.538235,-1.313015,0,15,6,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Renacimiento,35,V0,V0,34,0.4906,0,normal,False,-0.179376,-0.261897,0.0,0.3651,-0.631944,False,0.9475,4.1275,-0.745446,-1.313015,0,33,8,0.242424,-0.326691,False,False,False,False,False,False,False,False
+P_Pasión,29,V0,V0,20,0.4875,0,normal,False,-0.467123,-0.374423,0.0,0.3651,-0.631944,False,1.1228,4.1275,-0.522325,-1.313015,0,19,7,0.368421,0.37623,False,False,False,False,False,False,False,False
+P_Helga,169,V0,V0,120,0.4837,0,normal,False,-0.080478,-0.081129,0.0,0.3651,-0.631944,False,0.6042,6.929,-1.182396,0.273739,0,118,16,0.135593,-0.922688,False,False,False,False,False,False,False,False
+P_Ruth,11,V0,V0,12,0.4828,0,normal,False,-0.403019,-0.346244,0.0,0.3651,-0.631944,False,1.1415,4.1275,-0.498524,-1.313015,0,11,3,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Pasión,107,V0,V0,19,0.4813,0,normal,False,-0.143699,-0.263615,0.0,0.3651,-0.631944,False,0.8668,6.929,-0.84816,0.273739,0,18,1,0.055556,-1.369208,False,False,False,False,False,False,False,False
+P_Pasión,45,V0,V0,23,0.48,0,normal,False,-0.473944,-0.32563,0.0,0.3651,-0.631944,False,1.0327,6.4533,-0.637004,0.004305,0,22,5,0.227273,-0.411219,False,False,False,False,False,False,False,False
+P_Pasión,77,V0,V0,35,0.4774,0,normal,False,-0.457256,-0.392815,0.0,0.3651,-0.631944,False,1.1678,6.929,-0.46505,0.273739,0,34,3,0.088235,-1.186892,False,False,False,False,False,False,False,False
+P_Primavera,27,V0,V0,23,0.4721,0,normal,False,-0.247058,-0.402935,0.0,0.3651,-0.631944,False,1.0462,4.1275,-0.619821,-1.313015,0,22,6,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Celia,83,V0,V0,54,0.469,1,MODERADA,False,-0.407213,-0.396957,0.0,0.3651,-0.631944,False,0.8695,10.8275,-0.844724,2.481827,0,51,1,0.019608,-1.569756,False,False,False,False,False,True,False,False
+P_Cori,11,V0,V0,10,0.4679,0,normal,False,-0.592565,-0.388459,0.0,0.3651,-0.631944,False,1.236,4.1275,-0.378245,-1.313015,0,9,3,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Cori,17,V0,V0,17,0.4621,0,normal,False,-0.775637,-0.385993,0.0,0.3651,-0.631944,False,1.262,4.1275,-0.345153,-1.313015,0,16,7,0.4375,0.761613,False,False,False,False,False,False,False,False
+P_Gentio,95,V0,V0,50,0.4612,0,normal,False,-0.327764,-0.395554,0.0,0.3651,-0.631944,False,1.0322,4.1275,-0.63764,-1.313015,0,49,16,0.326531,0.142529,False,False,False,False,False,False,False,False
+P_Pasión,115,V0,V0,20,0.4573,0,normal,False,-0.134646,-0.281626,0.0,0.3651,-0.631944,False,0.8392,6.929,-0.88329,0.273739,0,19,1,0.052632,-1.385521,False,False,False,False,False,False,False,False
+P_Ruth,13,V0,V0,12,0.4538,0,normal,False,-0.403019,-0.405966,0.0,0.3651,-0.631944,False,1.1415,4.1275,-0.498524,-1.313015,0,11,3,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Pasión,79,V0,V0,37,0.4497,0,normal,False,-0.143723,-0.313959,0.0,0.3651,-0.631944,False,0.7713,6.929,-0.969712,0.273739,0,36,5,0.138889,-0.904302,False,False,False,False,False,False,False,False
+P_Cori,13,V0,V0,12,0.4488,0,normal,False,-0.353402,-0.399239,0.0,0.3651,-0.631944,False,1.0902,4.1275,-0.563818,-1.313015,0,11,3,0.272727,-0.157634,False,False,False,False,False,False,False,False
+P_Gentio,93,V0,V0,44,0.4472,0,normal,False,-0.33045,-0.372848,0.0,0.3651,-0.631944,False,1.0673,4.1275,-0.592965,-1.313015,0,43,11,0.255814,-0.251991,False,False,False,False,False,False,False,False
+P_Gentio,87,V0,V0,30,0.445,0,normal,False,-0.327444,-0.399084,0.0,0.3651,-0.631944,False,1.0449,6.4561,-0.621476,0.005891,0,29,3,0.103448,-1.102021,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,33,V0,V0,54,0.4438,0,normal,False,-0.33556,-0.346024,0.0,0.3651,-0.631944,False,0.8832,7.5509,-0.827287,0.625979,0,50,7,0.14,-0.898103,False,False,False,False,False,False,False,False
+P_Celia,87,V0,V0,58,0.4428,1,MODERADA,False,-0.404316,-0.398288,0.0,0.3651,-0.631944,False,0.83,10.8275,-0.894999,2.481827,0,57,1,0.017544,-1.581271,False,False,False,False,False,True,False,False
+P_Jafisa - Grafico B,5,V0,V0,36,0.4426,0,normal,False,-0.75871,-0.180718,0.0,0.3651,-0.631944,False,1.1038,4.1275,-0.546508,-1.313015,0,35,14,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Helga,211,V0,V0,164,0.4398,0,normal,False,0.540724,-0.405609,0.0,0.3651,-0.631944,False,0.403,7.147,-1.438482,0.397213,0,163,2,0.01227,-1.610694,False,False,False,False,False,False,False,False
+P_Helga,171,V0,V0,121,0.4361,0,normal,False,-0.028885,-0.404872,0.0,0.3651,-0.631944,False,0.7139,6.7512,-1.042771,0.173034,0,119,20,0.168067,-0.741519,False,False,False,False,False,False,False,False
+P_Primavera,51,V0,V0,35,0.4326,0,normal,False,-0.215004,-0.325113,0.0,0.3651,-0.631944,False,0.9106,4.1275,-0.792412,-1.313015,0,34,9,0.264706,-0.202384,False,False,False,False,False,False,False,False
+P_Helga,207,V0,V0,161,0.431,0,normal,False,0.587982,-0.371357,0.0,0.3651,-0.631944,False,0.3773,6.4533,-1.471193,0.004305,0,160,3,0.01875,-1.574542,False,False,False,False,False,False,False,False
+P_Helga,163,V0,V0,90,0.429,0,normal,False,-0.117144,-0.404516,0.0,0.3651,-0.631944,False,0.8071,6.5862,-0.924146,0.079579,0,89,13,0.146067,-0.864254,False,False,False,False,False,False,False,False
+P_Conchita Romero,149,V0,V0,39,0.4284,0,normal,False,-0.344392,-0.405449,0.0,0.3651,-0.631944,False,0.9291,6.4533,-0.768865,0.004305,0,38,8,0.210526,-0.504645,False,False,False,False,False,False,False,False
+P_Renacimiento,21,V0,V0,20,0.4242,0,normal,False,-0.295222,-0.399839,0.0,0.3651,-0.631944,False,1.0172,4.1275,-0.656732,-1.313015,0,19,5,0.263158,-0.21102,False,False,False,False,False,False,False,False
+P_Gentio,89,V0,V0,38,0.4227,0,normal,False,-0.316418,-0.386195,0.0,0.3651,-0.631944,False,1.0962,4.1275,-0.556182,-1.313015,0,37,7,0.189189,-0.623683,False,False,False,False,False,False,False,False
+P_Conchita Romero,135,V0,V0,18,0.4217,0,normal,False,-0.035178,-0.207447,0.0,0.3651,-0.631944,False,0.8152,4.1275,-0.913837,-1.313015,0,17,2,0.117647,-1.022807,False,False,False,False,False,False,False,False
+P_Cori,23,V0,V0,25,0.4213,0,normal,False,-0.299063,-0.366942,0.0,0.3651,-0.631944,False,0.9623,4.1275,-0.726609,-1.313015,0,24,7,0.291667,-0.051973,False,False,False,False,False,False,False,False
+P_Celia,91,V0,V0,62,0.4205,1,MODERADA,False,-0.401763,-0.399346,0.0,0.3651,-0.631944,False,0.7956,10.8275,-0.938783,2.481827,0,61,1,0.016393,-1.587689,False,False,False,False,False,True,False,False
+P_Pasión,111,V0,V0,19,0.4173,0,normal,False,-0.143699,-0.395745,0.0,0.3651,-0.631944,False,0.8668,6.929,-0.84816,0.273739,0,18,1,0.055556,-1.369208,False,False,False,False,False,False,False,False
+P_Primavera,173,V0,V0,70,0.4162,0,normal,False,-0.339093,-0.371898,0.0,0.3651,-0.631944,False,0.8743,6.4533,-0.838614,0.004305,0,69,15,0.217391,-0.466346,False,False,False,False,False,False,False,False
+P_Helga,209,V0,V0,161,0.4142,0,normal,False,0.587982,-0.405966,0.0,0.3651,-0.631944,False,0.3773,6.4533,-1.471193,0.004305,0,160,3,0.01875,-1.574542,False,False,False,False,False,False,False,False
+P_Conchita Romero,147,V0,V0,36,0.4141,0,normal,False,-0.333083,-0.374952,0.0,0.3651,-0.631944,False,0.9898,4.1275,-0.691607,-1.313015,0,35,10,0.285714,-0.085181,False,False,False,False,False,False,False,False
+P_Celia,19,V0,V0,229,0.414,0,normal,False,-0.362803,0.684488,0.0,0.3651,-0.631944,False,0.3171,6.4533,-1.547815,0.004305,0,226,1,0.004425,-1.654461,False,False,False,False,False,False,False,False
+P_Pasión,51,V0,V0,27,0.411,0,normal,False,-0.409823,-0.360417,0.0,0.3651,-0.631944,False,0.938,6.929,-0.757538,0.273739,0,26,4,0.153846,-0.820857,False,False,False,False,False,False,False,False
+P_Renacimiento,17,V0,V0,16,0.4078,0,normal,False,-0.652562,-0.386736,0.0,0.3651,-0.631944,False,1.1888,4.1275,-0.438321,-1.313015,0,15,5,0.333333,0.18048,False,False,False,False,False,False,False,False
+P_Helga,185,V0,V0,52,0.407,0,normal,False,-0.615537,-0.260263,0.0,0.3651,-0.631944,False,1.0339,6.929,-0.635477,0.273739,0,51,7,0.137255,-0.913418,False,False,False,False,False,False,False,False
+P_Helga,155,V0,V0,53,0.4045,0,normal,False,-0.633237,-0.396095,0.0,0.3651,-0.631944,False,1.059,6.5862,-0.60353,0.079579,0,52,13,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Helga,161,V0,V0,86,0.4017,0,normal,False,-0.227443,-0.354053,0.0,0.3651,-0.631944,False,0.7943,6.5862,-0.940438,0.079579,0,85,14,0.164706,-0.760272,False,False,False,False,False,False,False,False
+P_Renacimiento,19,V0,V0,18,0.4016,0,normal,False,-0.483308,-0.395465,0.0,0.3651,-0.631944,False,1.094,4.1275,-0.558982,-1.313015,0,17,5,0.294118,-0.038299,False,False,False,False,False,False,False,False
+P_Helga,173,V0,V0,122,0.401,0,normal,False,0.103179,-0.403797,0.0,0.3651,-0.631944,False,0.595,6.929,-1.194106,0.273739,0,121,14,0.115702,-1.033656,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,49,V0,V0,21,0.401,0,normal,False,-0.483241,-0.330449,0.0,0.3651,-0.631944,False,0.9613,6.929,-0.727881,0.273739,0,20,3,0.15,-0.842314,False,False,False,False,False,False,False,False
+P_Celia,95,V0,V0,66,0.4009,1,MODERADA,False,-0.399499,-0.400196,0.0,0.3651,-0.631944,False,0.7653,10.8275,-0.977349,2.481827,0,65,1,0.015385,-1.593317,False,False,False,False,False,True,False,False
+P_Helga,197,V0,V0,31,0.3972,0,normal,False,-0.711164,-0.40527,0.0,0.3651,-0.631944,False,1.1085,7.5509,-0.540526,0.625979,0,28,5,0.178571,-0.682918,False,False,False,False,False,False,False,False
+P_Renacimiento,25,V0,V0,24,0.3962,0,normal,False,-0.713647,-0.396814,0.0,0.3651,-0.631944,False,1.2113,4.1275,-0.409683,-1.313015,0,23,8,0.347826,0.261333,False,False,False,False,False,False,False,False
+P_Gentio,47,V0,V0,30,0.3952,0,normal,False,-0.108203,-0.405502,0.0,0.3651,-0.631944,False,0.8535,4.1275,-0.865089,-1.313015,0,29,7,0.241379,-0.33252,False,False,False,False,False,False,False,False
+P_Helga,93,V0,V0,53,0.3922,0,normal,False,-0.686922,-0.345727,0.0,0.3651,-0.631944,False,1.1026,6.5862,-0.548036,0.079579,0,52,10,0.192308,-0.606285,False,False,False,False,False,False,False,False
+P_Celia,99,V0,V0,70,0.3838,1,MODERADA,False,-0.397479,-0.400897,0.0,0.3651,-0.631944,False,0.7384,10.8275,-1.011587,2.481827,0,67,1,0.014925,-1.595879,False,False,False,False,False,True,False,False
+P_Renacimiento,31,V0,V0,30,0.3814,0,normal,False,-0.413219,-0.402977,0.0,0.3651,-0.631944,False,1.0326,4.1275,-0.637131,-1.313015,0,29,8,0.275862,-0.140145,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,47,V0,V0,27,0.3789,0,normal,False,-0.79504,-0.40035,0.0,0.3651,-0.631944,False,1.2323,6.7512,-0.382954,0.173034,0,26,4,0.153846,-0.820857,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,41,V0,V0,46,0.3757,0,normal,False,-0.722393,-0.360672,0.0,0.3651,-0.631944,False,1.0126,6.929,-0.662587,0.273739,0,45,12,0.266667,-0.191445,False,False,False,False,False,False,False,False
+P_Pasión,83,V0,V0,46,0.3722,0,normal,False,-0.462713,-0.201641,0.0,0.3651,-0.631944,False,0.916,4.1275,-0.785539,-1.313015,0,45,12,0.266667,-0.191445,False,False,False,False,False,False,False,False
+P_Renacimiento,27,V0,V0,26,0.3722,0,normal,False,-0.633953,-0.399839,0.0,0.3651,-0.631944,False,1.1429,4.1275,-0.496742,-1.313015,0,25,8,0.32,0.106095,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,97,V0,V0,30,0.3712,0,normal,False,-0.322461,-0.321809,0.0,0.3651,-0.631944,False,0.9557,4.1275,-0.735009,-1.313015,0,29,6,0.206897,-0.524895,False,False,False,False,False,False,False,False
+P_Renacimiento,29,V0,V0,28,0.3705,0,normal,False,-0.528868,-0.401741,0.0,0.3651,-0.631944,False,1.084,4.1275,-0.57171,-1.313015,0,27,8,0.296296,-0.026145,False,False,False,False,False,False,False,False
+P_Gentio,91,V0,V0,39,0.3702,0,normal,False,-0.302707,-0.347035,0.0,0.3651,-0.631944,False,0.9538,4.1275,-0.737427,-1.313015,0,38,8,0.210526,-0.504645,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,145,V0,V0,35,0.3695,0,normal,False,-0.314488,-0.373853,0.0,0.3651,-0.631944,False,0.8675,4.1275,-0.847269,-1.313015,0,34,11,0.323529,0.125785,False,False,False,False,False,False,False,False
+P_Gentio,97,V0,V0,50,0.3657,0,normal,False,-0.327764,-0.405966,0.0,0.3651,-0.631944,False,0.9756,4.1275,-0.709681,-1.313015,0,49,12,0.244898,-0.31289,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,27,V0,V0,36,0.3654,0,normal,False,-0.759291,-0.382511,0.0,0.3651,-0.631944,False,1.0035,6.4533,-0.67417,0.004305,0,35,12,0.342857,0.233612,False,False,False,False,False,False,False,False
+P_Helga,75,V0,V0,49,0.3643,0,normal,False,-0.64263,-0.388531,0.0,0.3651,-0.631944,False,1.0096,6.4533,-0.666406,0.004305,0,48,12,0.25,-0.284426,False,False,False,False,False,False,False,False
+P_Conchita Romero,89,V0,V0,26,0.3625,0,normal,False,-0.356502,-0.403654,0.0,0.3651,-0.631944,False,0.9962,4.1275,-0.683461,-1.313015,0,25,6,0.24,-0.340215,False,False,False,False,False,False,False,False
+P_Conchita Romero,139,V0,V0,21,0.3619,0,normal,False,-0.0179,-0.296482,0.0,0.3651,-0.631944,False,0.7433,4.1275,-1.00535,-1.313015,0,20,3,0.15,-0.842314,False,False,False,False,False,False,False,False
+P_Cori,27,V0,V0,31,0.3604,0,normal,False,-0.877145,-0.370038,0.0,0.3651,-0.631944,False,1.2105,4.1275,-0.410701,-1.313015,0,30,12,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Gentio,145,V0,V0,35,0.3599,0,normal,False,-0.055848,-0.192002,0.0,0.3651,-0.631944,False,0.6948,4.1275,-1.067081,-1.313015,0,34,5,0.147059,-0.858723,False,False,False,False,False,False,False,False
+P_Helga,157,V0,V0,62,0.356,0,normal,False,-0.579856,-0.404165,0.0,0.3651,-0.631944,False,0.9862,6.5862,-0.696189,0.079579,0,61,13,0.213115,-0.490205,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,43,V0,V0,35,0.3536,0,normal,False,-0.579683,-0.332428,0.0,0.3651,-0.631944,False,0.9525,6.7512,-0.739082,0.173034,0,34,6,0.176471,-0.694638,False,False,False,False,False,False,False,False
+P_Helga,91,V0,V0,55,0.3481,0,normal,False,-0.666908,-0.381602,0.0,0.3651,-0.631944,False,1.0906,6.5862,-0.563309,0.079579,0,54,8,0.148148,-0.852646,False,False,False,False,False,False,False,False
+P_Pasión,135,V0,V0,40,0.3465,0,normal,False,-0.26881,-0.386706,0.0,0.3651,-0.631944,False,0.7617,6.4533,-0.981931,0.004305,0,39,7,0.179487,-0.677809,False,False,False,False,False,False,False,False
+P_Renacimiento,33,V0,V0,33,0.3435,0,normal,False,-0.741307,-0.319925,0.0,0.3651,-0.631944,False,1.1302,4.1275,-0.512907,-1.313015,0,32,10,0.3125,0.064253,False,False,False,False,False,False,False,False
+P_Pasión,89,V0,V0,56,0.3413,0,normal,False,-0.288477,-0.393605,0.0,0.3651,-0.631944,False,0.7534,6.4533,-0.992495,0.004305,0,55,11,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Gentio,85,V0,V0,34,0.3404,0,normal,False,-0.329965,-0.358194,0.0,0.3651,-0.631944,False,0.9665,4.1275,-0.721263,-1.313015,0,33,6,0.181818,-0.664805,False,False,False,False,False,False,False,False
+P_Celia,103,V0,V0,76,0.3389,1,MODERADA,False,-0.432645,-0.388507,0.0,0.3651,-0.631944,False,0.6478,10.8275,-1.126902,2.481827,0,74,4,0.054054,-1.377585,False,False,False,False,False,True,False,False
+P_Jafisa - Grafico B,25,V0,V0,36,0.3335,0,normal,False,-0.75871,-0.405966,0.0,0.3651,-0.631944,False,1.1038,4.1275,-0.546508,-1.313015,0,35,14,0.4,0.552405,False,False,False,False,False,False,False,False
+P_Conchita Romero,87,V0,V0,28,0.33,0,normal,False,-0.334149,-0.404337,0.0,0.3651,-0.631944,False,0.9473,4.1275,-0.745701,-1.313015,0,27,6,0.222222,-0.439395,False,False,False,False,False,False,False,False
+P_Gentio,81,V0,V0,32,0.3258,0,normal,False,-0.166134,-0.404492,0.0,0.3651,-0.631944,False,0.8394,4.1275,-0.883035,-1.313015,0,31,6,0.193548,-0.599363,False,False,False,False,False,False,False,False
+P_Primavera,53,V0,V0,41,0.3134,0,normal,False,-0.250762,-0.403434,0.0,0.3651,-0.631944,False,0.8534,4.1275,-0.865216,-1.313015,0,40,9,0.225,-0.423898,False,False,False,False,False,False,False,False
+P_Helga,101,V0,V0,49,0.3107,0,normal,False,-0.715324,-0.389535,0.0,0.3651,-0.631944,False,1.079,6.5862,-0.578074,0.079579,0,48,7,0.145833,-0.86556,False,False,False,False,False,False,False,False
+P_Primavera,49,V0,V0,33,0.3092,0,normal,False,-0.351886,-0.389089,0.0,0.3651,-0.631944,False,0.9213,4.1275,-0.778793,-1.313015,0,32,7,0.21875,-0.458766,False,False,False,False,False,False,False,False
+P_Conchita Romero,137,V0,V0,21,0.307,0,normal,False,-0.300284,-0.307577,0.0,0.3651,-0.631944,False,0.9372,4.1275,-0.758556,-1.313015,0,20,2,0.1,-1.121258,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,67,V0,V0,18,0.304,0,normal,False,-0.241501,-0.358414,0.0,0.3651,-0.631944,False,0.907,4.1275,-0.796994,-1.313015,0,17,2,0.117647,-1.022807,False,False,False,False,False,False,False,False
+P_Gentio,161,V0,V0,39,0.3031,0,normal,False,-0.302707,-0.302484,0.0,0.3651,-0.631944,False,0.8817,4.1275,-0.829196,-1.313015,0,34,5,0.147059,-0.858723,False,False,False,False,False,False,False,False
+P_Pasión,15,V0,V0,16,0.3031,0,normal,False,-0.453216,-0.405966,0.0,0.3651,-0.631944,False,1.0222,4.1275,-0.650368,-1.313015,0,15,3,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Conchita Romero,85,V0,V0,30,0.3029,0,normal,False,-0.312641,-0.404789,0.0,0.3651,-0.631944,False,0.9048,4.1275,-0.799794,-1.313015,0,29,6,0.206897,-0.524895,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,45,V0,V0,33,0.293,0,normal,False,-0.727152,-0.385613,0.0,0.3651,-0.631944,False,1.0656,6.7512,-0.595129,0.173034,0,32,4,0.125,-0.981786,False,False,False,False,False,False,False,False
+P_Gentio,209,V0,V0,56,0.2913,0,normal,False,-0.176689,-0.360559,0.0,0.3651,-0.631944,False,0.7552,4.1275,-0.990204,-1.313015,0,55,11,0.2,-0.56337,False,False,False,False,False,False,False,False
+P_Celia,107,V0,V0,78,0.2899,1,MODERADA,False,-0.431008,-0.40265,0.0,0.3651,-0.631944,False,0.5838,10.8275,-1.208361,2.481827,0,77,4,0.051948,-1.389334,False,False,False,False,False,True,False,False
+P_Helga,83,V0,V0,69,0.2894,0,normal,False,-0.617067,-0.222945,0.0,0.3651,-0.631944,False,0.8701,6.4533,-0.84396,0.004305,0,68,9,0.132353,-0.940765,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,143,V0,V0,37,0.2891,0,normal,False,-0.149922,-0.346185,0.0,0.3651,-0.631944,False,0.726,4.1275,-1.02737,-1.313015,0,36,7,0.194444,-0.594364,False,False,False,False,False,False,False,False
+P_Gentio,159,V0,V0,41,0.2883,0,normal,False,-0.280716,-0.302484,0.0,0.3651,-0.631944,False,0.8641,4.1275,-0.851597,-1.313015,0,40,5,0.125,-0.981786,False,False,False,False,False,False,False,False
+P_Gentio,157,V0,V0,39,0.2841,0,normal,False,-0.302707,-0.392197,0.0,0.3651,-0.631944,False,0.8817,4.1275,-0.829196,-1.313015,0,38,7,0.184211,-0.651458,False,False,False,False,False,False,False,False
+P_Conchita Romero,79,V0,V0,36,0.281,0,normal,False,-0.256104,-0.404189,0.0,0.3651,-0.631944,False,0.8047,4.1275,-0.927201,-1.313015,0,35,8,0.228571,-0.403974,False,False,False,False,False,False,False,False
+P_Helga,133,V0,V0,85,0.2806,0,normal,False,-0.735119,-0.398508,0.0,0.3651,-0.631944,False,0.9974,6.5862,-0.681934,0.079579,0,84,17,0.202381,-0.550087,False,False,False,False,False,False,False,False
+P_Conchita Romero,83,V0,V0,32,0.2799,0,normal,False,-0.292393,-0.405098,0.0,0.3651,-0.631944,False,0.8674,4.1275,-0.847397,-1.313015,0,31,6,0.193548,-0.599363,False,False,False,False,False,False,False,False
+P_Renacimiento,37,V0,V0,37,0.2786,0,normal,False,-0.691225,-0.340106,0.0,0.3651,-0.631944,False,1.0415,4.1275,-0.625803,-1.313015,0,36,10,0.277778,-0.129458,False,False,False,False,False,False,False,False
+P_Helga,125,V0,V0,72,0.2781,0,normal,False,-0.674222,-0.397004,0.0,0.3651,-0.631944,False,0.9504,6.5862,-0.741755,0.079579,0,71,14,0.197183,-0.579086,False,False,False,False,False,False,False,False
+P_Gentio,213,V0,V0,55,0.2769,0,normal,False,-0.139595,-0.404165,0.0,0.3651,-0.631944,False,0.7517,4.1275,-0.994659,-1.313015,0,54,10,0.185185,-0.64602,False,False,False,False,False,False,False,False
+P_Rosa de los Vientos,147,V0,V0,35,0.2765,0,normal,False,-0.314488,-0.405966,0.0,0.3651,-0.631944,False,0.8675,4.1275,-0.847269,-1.313015,0,34,7,0.205882,-0.530553,False,False,False,False,False,False,False,False
+P_Gentio,83,V0,V0,33,0.2759,0,normal,False,-0.222954,-0.40221,0.0,0.3651,-0.631944,False,0.8428,4.1275,-0.878707,-1.313015,0,32,5,0.15625,-0.807446,False,False,False,False,False,False,False,False
+P_Helga,177,V0,V0,130,0.274,0,normal,False,-0.081757,-0.391579,0.0,0.3651,-0.631944,False,0.5884,6.929,-1.202506,0.273739,0,129,8,0.062016,-1.333169,False,False,False,False,False,False,False,False
+P_Gentio,163,V0,V0,39,0.2706,0,normal,False,-0.160345,-0.368998,0.0,0.3651,-0.631944,False,0.7596,4.1275,-0.984604,-1.313015,0,38,6,0.157895,-0.798271,False,False,False,False,False,False,False,False
+P_Pasión,133,V0,V0,37,0.2647,0,normal,False,-0.414203,-0.30665,0.0,0.3651,-0.631944,False,0.7583,6.4533,-0.986259,0.004305,0,36,4,0.111111,-1.059271,False,False,False,False,False,False,False,False
+P_Helga,121,V0,V0,68,0.262,0,normal,False,-0.670473,-0.391941,0.0,0.3651,-0.631944,False,0.9373,6.5862,-0.758429,0.079579,0,67,12,0.179104,-0.679944,False,False,False,False,False,False,False,False
+P_Conchita Romero,81,V0,V0,34,0.2601,0,normal,False,-0.273546,-0.405312,0.0,0.3651,-0.631944,False,0.8343,4.1275,-0.889526,-1.313015,0,33,6,0.181818,-0.664805,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,35,V0,V0,29,0.2553,0,normal,False,-0.713563,-0.404605,0.0,0.3651,-0.631944,False,0.9907,4.1275,-0.690461,-1.313015,0,28,10,0.357143,0.313311,False,False,False,False,False,False,False,False
+P_Gentio,79,V0,V0,29,0.2547,0,normal,False,-0.20311,-0.388952,0.0,0.3651,-0.631944,False,0.7984,4.1275,-0.935219,-1.313015,0,28,4,0.142857,-0.882163,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,37,V0,V0,29,0.2546,0,normal,False,-0.713563,-0.405966,0.0,0.3651,-0.631944,False,0.9907,4.1275,-0.690461,-1.313015,0,28,10,0.357143,0.313311,False,False,False,False,False,False,False,False
+P_Gentio,211,V0,V0,55,0.2494,0,normal,False,-0.18346,-0.405918,0.0,0.3651,-0.631944,False,0.7636,4.1275,-0.979513,-1.313015,0,54,9,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Conchita Romero,77,V0,V0,40,0.2481,0,normal,False,-0.225152,-0.404854,0.0,0.3651,-0.631944,False,0.7543,4.1275,-0.99135,-1.313015,0,39,8,0.205128,-0.534761,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico A,31,V0,V0,25,0.2364,0,normal,False,-0.454972,-0.301777,0.0,0.3651,-0.631944,False,0.8769,4.1275,-0.835305,-1.313015,0,24,4,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Gentio,49,V0,V0,30,0.2338,0,normal,False,-0.330722,-0.292049,0.0,0.3651,-0.631944,False,0.7982,4.1275,-0.935474,-1.313015,0,29,4,0.137931,-0.909646,False,False,False,False,False,False,False,False
+P_Gentio,165,V0,V0,41,0.2302,0,normal,False,-0.248733,-0.395976,0.0,0.3651,-0.631944,False,0.7689,4.1275,-0.972767,-1.313015,0,40,7,0.175,-0.702842,False,False,False,False,False,False,False,False
+P_Helga,79,V0,V0,67,0.2271,0,normal,False,-0.604323,-0.295401,0.0,0.3651,-0.631944,False,0.7989,6.4533,-0.934583,0.004305,0,66,10,0.151515,-0.833861,False,False,False,False,False,False,False,False
+P_Celia,23,V0,V0,4446,0.225,0,normal,False,-0.363052,0.592066,0.0,0.3651,-0.631944,False,0.2894,4.1275,-1.583071,-1.313015,0,4445,3,0.000675,-1.675381,False,False,False,False,False,False,False,False
+P_Gentio,75,V0,V0,25,0.221,0,normal,False,-0.071915,-0.402145,0.0,0.3651,-0.631944,False,0.7147,4.1275,-1.041752,-1.313015,0,24,2,0.083333,-1.21424,False,False,False,False,False,False,False,False
+P_Helga,109,V0,V0,67,0.2173,0,normal,False,-0.731487,-0.325689,0.0,0.3651,-0.631944,False,0.9097,6.5862,-0.793558,0.079579,0,66,9,0.136364,-0.91839,False,False,False,False,False,False,False,False
+P_Gentio,77,V0,V0,26,0.2132,0,normal,False,-0.058961,-0.405865,0.0,0.3651,-0.631944,False,0.6989,4.1275,-1.061862,-1.313015,0,25,2,0.08,-1.232836,False,False,False,False,False,False,False,False
+P_Helga,87,V0,V0,69,0.2126,0,normal,False,-0.617067,-0.38156,0.0,0.3651,-0.631944,False,0.8701,6.4533,-0.84396,0.004305,0,68,9,0.132353,-0.940765,False,False,False,False,False,False,False,False
+P_Helga,113,V0,V0,67,0.2007,0,normal,False,-0.731487,-0.359941,0.0,0.3651,-0.631944,False,0.9097,6.5862,-0.793558,0.079579,0,66,9,0.136364,-0.91839,False,False,False,False,False,False,False,False
+P_Helga,117,V0,V0,67,0.2007,0,normal,False,-0.731487,-0.359941,0.0,0.3651,-0.631944,False,0.9097,6.5862,-0.793558,0.079579,0,66,9,0.136364,-0.91839,False,False,False,False,False,False,False,False
+P_Gentio,215,V0,V0,55,0.1951,0,normal,False,-0.222954,-0.39852,0.0,0.3651,-0.631944,False,0.724,4.1275,-1.029915,-1.313015,0,54,8,0.148148,-0.852646,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,31,V0,V0,32,0.1947,0,normal,False,-0.731295,-0.40577,0.0,0.3651,-0.631944,False,0.9471,4.1275,-0.745955,-1.313015,0,31,10,0.322581,0.120492,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,33,V0,V0,32,0.1946,0,normal,False,-0.731295,-0.405966,0.0,0.3651,-0.631944,False,0.9471,4.1275,-0.745955,-1.313015,0,31,10,0.322581,0.120492,False,False,False,False,False,False,False,False
+P_Helga,129,V0,V0,83,0.1925,0,normal,False,-0.657016,-0.398098,0.0,0.3651,-0.631944,False,0.8452,6.5862,-0.875653,0.079579,0,82,13,0.158537,-0.79469,False,False,False,False,False,False,False,False
+P_Conchita Romero,75,V0,V0,44,0.191,0,normal,False,-0.198788,-0.405764,0.0,0.3651,-0.631944,False,0.7129,4.1275,-1.044043,-1.313015,0,43,6,0.139535,-0.900698,False,False,False,False,False,False,False,False
+P_Celia,79,V0,V0,45,0.18,0,normal,False,-0.393062,-0.404284,0.0,0.3651,-0.631944,False,0.7489,6.7512,-0.998223,0.173034,0,43,1,0.023256,-1.549405,False,False,False,False,False,False,False,False
+P_Pasión,85,V0,V0,48,0.1736,0,normal,False,-0.483943,-0.398431,0.0,0.3651,-0.631944,False,0.8282,4.1275,-0.89729,-1.313015,0,47,10,0.212766,-0.492151,False,False,False,False,False,False,False,False
+P_Helga,165,V0,V0,103,0.1478,0,normal,False,-0.585918,-0.35902,0.0,0.3651,-0.631944,False,0.6947,6.4533,-1.067208,0.004305,0,102,17,0.166667,-0.749333,False,False,False,False,False,False,False,False
+P_Pasión,87,V0,V0,51,0.1419,0,normal,False,-0.404369,-0.373217,0.0,0.3651,-0.631944,False,0.7319,4.1275,-1.01986,-1.313015,0,50,9,0.18,-0.674948,False,False,False,False,False,False,False,False
+P_Jafisa - Grafico B,29,V0,V0,33,0.1369,0,normal,False,-0.72498,-0.395406,0.0,0.3651,-0.631944,False,0.9277,4.1275,-0.770647,-1.313015,0,29,7,0.241379,-0.33252,False,False,False,False,False,False,False,False
+P_Helga,167,V0,V0,125,0.1255,0,normal,False,-0.637407,-0.283498,0.0,0.3651,-0.631944,False,0.7066,6.4533,-1.052062,0.004305,0,124,13,0.104839,-1.094264,False,False,False,False,False,False,False,False
+P_Helga,89,V0,V0,65,0.1127,0,normal,False,-0.72864,-0.377513,0.0,0.3651,-0.631944,False,0.9346,4.1275,-0.761865,-1.313015,0,64,12,0.1875,-0.633106,False,False,False,False,False,False,False,False
+P_Helga,81,V0,V0,67,0.0973,0,normal,False,-0.481028,-0.400362,0.0,0.3651,-0.631944,False,0.7719,4.1275,-0.968949,-1.313015,0,66,10,0.151515,-0.833861,False,False,False,False,False,False,False,False
+P_Celia,77,V0,V0,44,0.0898,0,normal,False,-0.393165,-0.402602,0.0,0.3651,-0.631944,False,0.5854,6.7512,-1.206324,0.173034,0,43,2,0.046512,-1.419663,False,False,False,False,False,False,False,False
+P_Helga,85,V0,V0,64,0.0804,0,normal,False,-0.727726,-0.38156,0.0,0.3651,-0.631944,False,0.9002,4.1275,-0.805649,-1.313015,0,63,11,0.174603,-0.705056,False,False,False,False,False,False,False,False
+P_Celia,71,V0,V0,44,0.0656,0,normal,False,-0.38976,-0.39007,0.0,0.3651,-0.631944,False,0.5452,6.929,-1.257491,0.273739,0,43,1,0.023256,-1.549405,False,False,False,False,False,False,False,False
+P_Celia,73,V0,V0,44,0.0579,0,normal,False,-0.38976,-0.405966,0.0,0.3651,-0.631944,False,0.5452,6.929,-1.257491,0.273739,0,43,1,0.023256,-1.549405,False,False,False,False,False,False,False,False
+P_Celia,75,V0,V0,44,0.0579,0,normal,False,-0.38976,-0.405966,0.0,0.3651,-0.631944,False,0.5452,6.929,-1.257491,0.273739,0,43,1,0.023256,-1.549405,False,False,False,False,False,False,False,False
+P_Celia,81,V0,V0,46,0.0501,0,normal,False,-0.364488,-0.399453,0.0,0.3651,-0.631944,False,0.5097,6.929,-1.302675,0.273739,0,45,1,0.022222,-1.555171,False,False,False,False,False,False,False,False
+P_Celia,85,V0,V0,50,0.0388,0,normal,False,-0.364427,-0.396963,0.0,0.3651,-0.631944,False,0.4923,6.929,-1.324822,0.273739,0,49,1,0.020408,-1.565291,False,False,False,False,False,False,False,False
+P_Celia,89,V0,V0,54,0.0275,0,normal,False,-0.364364,-0.398294,0.0,0.3651,-0.631944,False,0.4774,6.929,-1.343786,0.273739,0,53,1,0.018868,-1.573884,False,False,False,False,False,False,False,False
+P_Celia,101,V0,V0,67,0.0203,0,normal,False,-0.364173,-0.400897,0.0,0.3651,-0.631944,False,0.4412,6.929,-1.389861,0.273739,0,66,3,0.045455,-1.425561,False,False,False,False,False,False,False,False
+P_Celia,93,V0,V0,58,0.0179,0,normal,False,-0.364303,-0.399346,0.0,0.3651,-0.631944,False,0.4646,6.929,-1.360078,0.273739,0,57,1,0.017544,-1.581271,False,False,False,False,False,False,False,False
+P_Celia,97,V0,V0,62,0.0095,0,normal,False,-0.364244,-0.400196,0.0,0.3651,-0.631944,False,0.4534,6.929,-1.374333,0.273739,0,61,1,0.016393,-1.587689,False,False,False,False,False,False,False,False
+P_Celia,105,V0,V0,72,0.0,0,normal,False,-0.407092,-0.402246,0.0,0.3651,-0.631944,False,0.4864,6.4533,-1.332331,0.004305,0,71,3,0.042254,-1.443419,False,False,False,False,False,False,False,False

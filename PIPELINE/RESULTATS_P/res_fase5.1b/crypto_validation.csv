@@ -1,0 +1,31 @@
+stream,n_tokens,alphabet_size,IC,IC_norm,IC_uniforme,IC_ratio_vs_unif,top_token,top_token_pct,kasiski_n3_repeats,kasiski_n3_gcd,kasiski_n4_repeats,kasiski_n4_gcd
+corpus_complet,29471,159,0.356085,56.6175,0.006289,56.618,p,54.946,465,1,781,1
+anomalies_global,1136,38,0.438884,16.6776,0.026316,16.678,l,62.148,27,1,23,1
+marcadors_corpus,1546,153,0.069805,10.6802,0.006536,10.68,<glla>,15.33,160,1,167,1
+marcadors_anomalies,72,33,0.050469,1.6655,0.030303,1.665,<al>,12.5,3,1,3,3
+anomalies_P_Celia,294,9,0.697917,6.2813,0.111111,6.281,g,82.993,5,1,6,1
+anomalies_P_Conchita Romero,5,,,,,,,,,,,
+anomalies_P_Gentio,11,6,0.145455,0.8727,0.166667,0.873,p,36.364,1,3,0,0
+anomalies_P_Helga,13,5,0.217949,1.0897,0.2,1.09,p,38.462,2,5,1,5
+anomalies_P_Jafisa - Grafico A,4,,,,,,,,,,,
+anomalies_P_Jafisa - Grafico B,23,6,0.205534,1.2332,0.166667,1.233,<al>,30.435,3,3,3,3
+anomalies_P_Jafisa - Grafico C,12,6,0.136364,0.8182,0.166667,0.818,l,33.333,3,6,2,6
+anomalies_P_Pasión,26,13,0.178462,2.32,0.076923,2.32,l,42.308,2,9,0,0
+anomalies_P_Primavera,14,6,0.252747,1.5165,0.166667,1.516,p,50.0,1,0,1,0
+anomalies_P_Renacimiento,12,5,0.181818,0.9091,0.2,0.909,l,33.333,0,0,0,0
+anomalies_P_Rosa de los Vientos,702,3,0.917838,2.7535,0.333333,2.754,l,95.726,7,1,9,1
+anomalies_P_Ruth,20,13,0.052632,0.6842,0.076923,0.684,p,15.0,0,0,0,0
+marcadors_P_Celia,121,23,0.084848,1.9515,0.043478,1.952,<la>,19.008,17,1,18,1
+marcadors_P_Conchita Romero,151,34,0.106667,3.6267,0.029412,3.627,<gl>,25.166,13,1,8,1
+marcadors_P_Cori,11,4,0.254545,1.0182,0.25,1.018,3,45.455,0,0,0,0
+marcadors_P_Gentio,171,20,0.1129,2.258,0.05,2.258,3,22.807,30,1,26,1
+marcadors_P_Helga,271,34,0.156512,5.3214,0.029412,5.321,<glla>,33.21,36,1,39,1
+marcadors_P_Jafisa - Grafico A,36,16,0.069841,1.1175,0.0625,1.117,<llag>,19.444,3,10,2,10
+marcadors_P_Jafisa - Grafico B,96,11,0.170833,1.8792,0.090909,1.879,3,23.958,11,1,10,1
+marcadors_P_Jafisa - Grafico C,26,7,0.218462,1.5292,0.142857,1.529,<lg>,38.462,4,1,3,1
+marcadors_P_Pasión,104,18,0.182786,3.2901,0.055556,3.29,<la>,34.615,9,1,8,1
+marcadors_P_Primavera,204,41,0.211823,8.6847,0.02439,8.685,<glla>,41.176,22,1,25,1
+marcadors_P_Puntilla del Cacus,11,3,0.527273,1.5818,0.333333,1.582,|,72.727,1,4,0,0
+marcadors_P_Renacimiento,16,4,0.358333,1.4333,0.25,1.433,<la>,50.0,2,2,2,2
+marcadors_P_Rosa de los Vientos,51,10,0.183529,1.8353,0.1,1.835,3,29.412,7,1,7,1
+marcadors_P_Ruth,277,51,0.092162,4.7003,0.019608,4.7,3>,19.134,36,1,28,1

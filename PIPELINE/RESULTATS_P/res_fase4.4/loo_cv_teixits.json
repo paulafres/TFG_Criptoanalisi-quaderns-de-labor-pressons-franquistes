@@ -1,0 +1,155 @@
+{
+  "parametres": {
+    "ALPHA_SMOOTH": 0.01,
+    "RANDOM_STATE": 42,
+    "metode": "Leave-one-teixit-out CV · bigrama amb smoothing additiu"
+  },
+  "metadades": {
+    "n_teixits": 14,
+    "surprisal_loo_mitjana": 2.2024,
+    "surprisal_loo_sd": 0.6102,
+    "surprisal_in_sample_global": 1.4938
+  },
+  "per_teixit": [
+    {
+      "teixit": "P_Ruth",
+      "n_voltes": 59,
+      "n_tokens_eval": 2535,
+      "surprisal_loo": 3.7922,
+      "surprisal_in_sample": 2.6268,
+      "delta_loo_vs_in": 1.1654,
+      "n_oov_bigrames_loo": 319,
+      "frac_oov_loo": 0.1258
+    },
+    {
+      "teixit": "P_Celia",
+      "n_voltes": 53,
+      "n_tokens_eval": 6905,
+      "surprisal_loo": 2.8336,
+      "surprisal_in_sample": 0.602,
+      "delta_loo_vs_in": 2.2316,
+      "n_oov_bigrames_loo": 32,
+      "frac_oov_loo": 0.0046
+    },
+    {
+      "teixit": "P_Jafisa - Grafico A",
+      "n_voltes": 21,
+      "n_tokens_eval": 394,
+      "surprisal_loo": 2.6286,
+      "surprisal_in_sample": 2.1093,
+      "delta_loo_vs_in": 0.5193,
+      "n_oov_bigrames_loo": 25,
+      "frac_oov_loo": 0.0635
+    },
+    {
+      "teixit": "P_Jafisa - Grafico C",
+      "n_voltes": 11,
+      "n_tokens_eval": 281,
+      "surprisal_loo": 2.3925,
+      "surprisal_in_sample": 2.2618,
+      "delta_loo_vs_in": 0.1307,
+      "n_oov_bigrames_loo": 4,
+      "frac_oov_loo": 0.0142
+    },
+    {
+      "teixit": "P_Puntilla del Cacus",
+      "n_voltes": 8,
+      "n_tokens_eval": 335,
+      "surprisal_loo": 2.2931,
+      "surprisal_in_sample": 1.9005,
+      "delta_loo_vs_in": 0.3925,
+      "n_oov_bigrames_loo": 16,
+      "frac_oov_loo": 0.0478
+    },
+    {
+      "teixit": "P_Jafisa - Grafico B",
+      "n_voltes": 48,
+      "n_tokens_eval": 917,
+      "surprisal_loo": 2.274,
+      "surprisal_in_sample": 2.165,
+      "delta_loo_vs_in": 0.109,
+      "n_oov_bigrames_loo": 7,
+      "frac_oov_loo": 0.0076
+    },
+    {
+      "teixit": "P_Conchita Romero",
+      "n_voltes": 89,
+      "n_tokens_eval": 1877,
+      "surprisal_loo": 2.2553,
+      "surprisal_in_sample": 1.9007,
+      "delta_loo_vs_in": 0.3545,
+      "n_oov_bigrames_loo": 74,
+      "frac_oov_loo": 0.0394
+    },
+    {
+      "teixit": "P_Primavera",
+      "n_voltes": 97,
+      "n_tokens_eval": 3631,
+      "surprisal_loo": 2.1368,
+      "surprisal_in_sample": 1.824,
+      "delta_loo_vs_in": 0.3129,
+      "n_oov_bigrames_loo": 122,
+      "frac_oov_loo": 0.0336
+    },
+    {
+      "teixit": "P_Gentio",
+      "n_voltes": 100,
+      "n_tokens_eval": 2833,
+      "surprisal_loo": 2.0274,
+      "surprisal_in_sample": 1.6836,
+      "delta_loo_vs_in": 0.3438,
+      "n_oov_bigrames_loo": 110,
+      "frac_oov_loo": 0.0388
+    },
+    {
+      "teixit": "P_Renacimiento",
+      "n_voltes": 31,
+      "n_tokens_eval": 866,
+      "surprisal_loo": 1.7287,
+      "surprisal_in_sample": 1.7087,
+      "delta_loo_vs_in": 0.0199,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "P_Pasión",
+      "n_voltes": 68,
+      "n_tokens_eval": 1497,
+      "surprisal_loo": 1.7106,
+      "surprisal_in_sample": 1.6385,
+      "delta_loo_vs_in": 0.0722,
+      "n_oov_bigrames_loo": 8,
+      "frac_oov_loo": 0.0053
+    },
+    {
+      "teixit": "P_Cori",
+      "n_voltes": 21,
+      "n_tokens_eval": 429,
+      "surprisal_loo": 1.7026,
+      "surprisal_in_sample": 1.6899,
+      "delta_loo_vs_in": 0.0127,
+      "n_oov_bigrames_loo": 0,
+      "frac_oov_loo": 0.0
+    },
+    {
+      "teixit": "P_Rosa de los Vientos",
+      "n_voltes": 65,
+      "n_tokens_eval": 1821,
+      "surprisal_loo": 1.6362,
+      "surprisal_in_sample": 1.484,
+      "delta_loo_vs_in": 0.1523,
+      "n_oov_bigrames_loo": 6,
+      "frac_oov_loo": 0.0033
+    },
+    {
+      "teixit": "P_Helga",
+      "n_voltes": 103,
+      "n_tokens_eval": 5150,
+      "surprisal_loo": 1.422,
+      "surprisal_in_sample": 1.3205,
+      "delta_loo_vs_in": 0.1015,
+      "n_oov_bigrames_loo": 48,
+      "frac_oov_loo": 0.0093
+    }
+  ]
+}

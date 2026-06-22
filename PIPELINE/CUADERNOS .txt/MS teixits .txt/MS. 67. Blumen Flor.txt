@@ -1,0 +1,25 @@
+4p
+1 (4)
+3 x2>2>x
+5 x(4)x
+7 x(2)ll(2)x
+9 x(2)(ll(2)2/v)x
+11 x(2)llpgllapll(2)x
+13 x(2)llp(glla-2v)pll(2)x
+15 x(2)llp(glla-3v)pll(2)x
+17 x(2)llp(glla-4v)pll(2)x
+19 x(2)lp(glla-5v)pl(2)x
+21 x(2)l(glla-6v)l(2)x
+23 x(3)l(2)(glla-6v)(2)l(3)x
+25 x(3)l(glla-5v)l(3)x
+27 a(3)l(2)(glla-5v)(2)l(3)g
+29 a(3)l(glla-6v)l(3)g
+101 a(3)la(glla-5v)gl(3)g
+103 a(3)l3(glla-4v)3l(3)g
+105 a(3)l3(glla-3v)3l(3)g
+107 a(3)ll3(glla-2v)3ll(3)g
+109 a(3)p3glla3p(3)g
+111 a(3)l33(3)p
+113 a(2)3(3)p
+115 3(2)3
+117 g

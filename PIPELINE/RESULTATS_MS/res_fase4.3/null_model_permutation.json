@@ -1,0 +1,30 @@
+{
+  "parametres": {
+    "N_PERM": 1000,
+    "RANDOM_STATE": 42,
+    "estadistic": "H_global = Σ_a P(a) · H(B|A=a)  [Markov d'ordre 1]",
+    "permutacio": "shuffle de tokens dins de cada volta (manté freqs marginals + longituds)",
+    "test": "unilateral inferior (estructura predictiva ⇒ H_obs < H_null)"
+  },
+  "resultats": {
+    "H_observat": 1.137719,
+    "H_null_mitja": 1.302043,
+    "H_null_sd": 0.00287,
+    "H_null_IC95": [
+      1.296783,
+      1.307622
+    ],
+    "delta_obs_vs_null": -0.164324,
+    "reduccio_relativa": -0.126205,
+    "z_score": -57.2497,
+    "p_value_empirica": 0.000999,
+    "significatiu_α_0_05": true
+  },
+  "H_perm_distribucio_resum": {
+    "min": 1.291567,
+    "max": 1.311275,
+    "q05": 1.297272,
+    "q50": 1.3021,
+    "q95": 1.306856
+  }
+}

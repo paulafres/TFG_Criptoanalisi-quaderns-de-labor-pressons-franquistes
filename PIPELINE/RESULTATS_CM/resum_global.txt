@@ -1,0 +1,1026 @@
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ RESUM GLOBAL DE RESULTATS DEL TFG
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+===========================================================================
+ fase1_corpus_normalizer.py
+===========================================================================
+  Teixits processats      : 11
+  Instruccions (voltes)   : 656
+
+===========================================================================
+ fase2_token_inventory.py
+===========================================================================
+  Instruccions expandides : 656 voltes avaluables
+
+===========================================================================
+ fase3.1_markov_model.py
+===========================================================================
+  Volum total tokens      : 45772
+  Vocabulari (tokens únics): 131
+  Bigrames únics observats: 521
+
+===========================================================================
+ fase3.1b_transition_significance.py
+===========================================================================
+  Transicions testades    : 250
+  Significatives (FDR)    : 153 (no atzaroses)
+
+===========================================================================
+ fase3.2_distributional_classes.py
+===========================================================================
+  Classes de tokens (K)   : 7 classes funcionals (C0-C7)
+  Silhouette Òptim        : 0.3386
+  Tokens aïllats (C_RARE) : 52 hàpax
+
+===========================================================================
+ fase3.2b_clustering_stability.py
+===========================================================================
+  Estabilitat ARI (mitja) : 0.5874 ± 0.1191
+  Interval Conf. (IC95%)  : [0.385, 0.7989]
+
+===========================================================================
+ fase3.3_volta_signatures.py
+===========================================================================
+  Salts globals avaluats  : 645 transicions
+  Distància cosinus mitja : 0.12275 ± 0.168258
+
+===========================================================================
+ fase3.4_volta_clustering.py
+===========================================================================
+  Tipologies volta (VTx)  : 3 tipus estructurals (V0-V4)
+  Silhouette Òptim        : 0.5066
+
+===========================================================================
+ fase4.1_macro_grammar.py
+===========================================================================
+  Contextos macro vistos  : 4
+  Entropia MACRO (H_global): 1.1717 bits
+
+===========================================================================
+ fase4.2_micro_grammar.py
+===========================================================================
+  Contextos micro vistos  : 9
+  Entropia MICRO (H_global): 0.7406 bits
+
+===========================================================================
+ fase4.3_null_model.py
+===========================================================================
+  H_observat vs H_null    : 0.852342 vs 0.933255 bits
+  Z-score (Permutacions)  : -23.9812
+  P-valor empíric         : 0.000999
+
+===========================================================================
+ fase4.4_loo_cv.py
+===========================================================================
+  Surprisal LOO (mitjana) : 4.0896 ± 1.2099 bits/token
+
+===========================================================================
+ fase5.1_anomaly_report.py
+===========================================================================
+  Variància recollida PC1 : 26.19%
+  Voltes CRÍTICA (>=p99)  : 2
+  Voltes ALTA (>=p97)     : 17
+
+===========================================================================
+ fase5.1b_crypto_validation.py
+===========================================================================
+  IC Anomalies vs Corpus  : 1.4855 (Ràtio)
+  Diagnòstic Voltes       : concentració extrema (anom MÉS zipfià que corpus)
+
+===========================================================================
+ fase5.2_segment_anomaly_detection.py
+===========================================================================
+  Segments contigus cand. : 33
+  Significatius (FDR <=α) : 4
+
+===========================================================================
+ fase5.2b_crypto_segments.py
+===========================================================================
+  Segments triangulats    : 33
+  Convergència (5.1∩5.1b) : 8
+  Perfil lèxic (abecedari): 3
+  Perfil gramatical       : 6
+  Mixt / sense senyal     : 1 / 15
+  Voltes òrfenes (fora seg): 75 (conv=12, lex=9, gram=54)
+
+===========================================================================
+ fase5.3_hipotesis_referencies.py
+===========================================================================
+  Hipòtesi A (Morse Tèxtil)   : REBUTJADA
+  Hipòtesi B (Anom. Belgues)  : REBUTJADA
+  Hipòtesi C (Manolita/PCE)   : PENDENT (0 coincidència caràcter per caràcter)
+
+───────────────────────────────────────────────────────────────────────────
+ [OK] Resum completat! El tens guardat a: resum_global.txt
+───────────────────────────────────────────────────────────────────────────
+
+logs:
+======================================================================
+ INICIANT PIPELINE COMPLET --- CORPUS ACTIU: [CM]
+======================================================================
+
+---> Executant fase1_corpus_normalizer.py ...
+Iniciant processament de 11 teixits...
+
+────────────────────────────────────────
+TEIXIT : CM_Pasión
+Fitxer : CM. 11-13. Pasión.txt
+Forma  : Redondo
+Punts inicials  : 8/10
+Instruccions    : 68
+Rang de voltes  : 1 – 135
+Patrons repetits (≥2 línies): 120
+Tokens dominants: ['(3)(la-2v)(3)(gl-2v)(3)', '(la-2v)l3l(gl-2v)', 'p(la-3v)p(gl-3v)p', '(la-3v)p(gl-3v)', '(2)lxl(2)']
+Caràcters freqs : [('l', 326), ('(', 213), (')', 213), ('a', 108), ('g', 108), ('3', 95), ('-', 68), ('v', 67)]
+
+────────────────────────────────────────
+TEIXIT : CM_Angelines
+Fitxer : CM. 14-16. Angelines.txt
+Forma  : Cuadrado
+Punts inicials  : 12
+Instruccions    : 43
+Rang de voltes  : 5 – 91
+Patrons repetits (≥2 línies): 75
+Tokens dominants: ['lap(glplap-9v)gl', 'l(3)l(plapgl-2v)pl(3)l', 'l(apglpl-3v)apgl', 'glp(lapglp-9v)la', 'xl(3)lplapglpl']
+Caràcters freqs : [('l', 274), ('p', 114), ('(', 113), (')', 113), ('3', 103), ('a', 45), ('g', 43), ('x', 38)]
+
+────────────────────────────────────────
+TEIXIT : CM_Eterna
+Fitxer : CM. 16. Eterna.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 17
+Rang de voltes  : 1 – 39
+Patrons repetits (≥2 línies): 17
+Tokens dominants: ['(glla-2v)3l', 'lpl', 'll(2)l', '(4)l', 'l(3)l']
+Caràcters freqs : [('l', 61), ('(', 30), (')', 30), ('3', 16), ('a', 11), ('g', 11), ('p', 10), ('-', 10)]
+
+────────────────────────────────────────
+TEIXIT : CM_Pelargonia
+Fitxer : CM. 17-18. Pelargonia.txt
+Forma  : Redondo
+Punts inicials  : 8/10
+Instruccions    : 39
+Rang de voltes  : 3 – 79
+Patrons repetits (≥2 línies): 69
+Tokens dominants: ['x(2)(glla-2v)(2)', '(lg-6v)l', 'al(2)3(2)l(3)l', 'xglla(2)l', 'x(2)gllal']
+Caràcters freqs : [('l', 172), ('(', 100), (')', 100), ('3', 60), ('a', 50), ('g', 41), ('2', 35), ('x', 20)]
+
+────────────────────────────────────────
+TEIXIT : CM_Gardenia
+Fitxer : CM. 18-25. Gardenia.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 115
+Rang de voltes  : 1 – 243
+Patrons repetits (≥2 línies): 247
+Tokens dominants: ['(4)3lplapgl(3)la(6)gl(3)lapglpl3(4)', 'a(3)(lp-4v)(2)gl(2)la(3)(lp-4v)(2)g', 'la(glla-2v)gl(xr-8v)x(glla-3v)(xr-8v)xla(glla-2v)gl', '(glla-4v)gl', '(glla-3v)(xr-8v)xla(glla-2v)gl(xr-8v)x(glla-3v)']
+Caràcters freqs : [('l', 963), ('(', 543), (')', 543), ('a', 407), ('g', 398), ('3', 282), ('2', 236), ('-', 212)]
+
+────────────────────────────────────────
+TEIXIT : CM_Hojas de Roble
+Fitxer : CM. 25-29. Hojas de Roble.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 59
+Rang de voltes  : 1 – 119
+Patrons repetits (≥2 línies): 189
+Tokens dominants: ['g(2)gllaapl(glla-2v)(10)(glla-2v)', '(lp-3v)l', 'glagllal(10)l(glla-2v)gl', 'a(6)(lp-4v)(5)g', 'a(8)(lp-4v)(7)g']
+Caràcters freqs : [('l', 551), ('(', 291), (')', 291), ('a', 234), ('g', 224), ('p', 132), ('2', 126), ('3', 104)]
+
+────────────────────────────────────────
+TEIXIT : CM_Punto Angelines
+Fitxer : CM. 29. Punto Angelines.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 31
+Rang de voltes  : 1 – 19
+Patrons repetits (≥2 línies): 8
+Tokens dominants: ['(2)(2r)(lg(2r)-2v)lg(2)(10)l(4r)g(2r)g(4r)l(1r)', '(1r)l(4r)g(2r)g(4r)l(1r)(2)(2r)(lg(2r)-2v)lg(2)', '(2)l(4)ag(4)l(2)(2r)(2)la(2)la(2)la(2r)', 'l(4)a(4)g(4)l(2)(2)la(2)la(2)la(2r)', '(2r)((2)la-3v)(2r)(2)l(4)ag(4)l(2)']
+Caràcters freqs : [('(', 260), (')', 260), ('2', 159), ('l', 120), ('r', 111), ('g', 72), ('4', 56), ('a', 48)]
+
+────────────────────────────────────────
+TEIXIT : CM_Pepita
+Fitxer : CM. 30-32. Pepita.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 64
+Rang de voltes  : 3 – 133
+Patrons repetits (≥2 línies): 144
+Tokens dominants: ['l(2)ga(2)lglgl(3)lalal(2)ga(2)', '(4)lp(glla-4v)pl(4)g', 'l(4)ga(4)lgl(3)lal(4)ga(4)', 'l(5)ga(5)lglplal(5)ga(5)', '(4)l(3)(glla-3v)(3)l(4)g']
+Caràcters freqs : [('l', 432), ('(', 293), (')', 293), ('3', 157), ('g', 154), ('a', 136), ('4', 74), ('-', 73)]
+
+────────────────────────────────────────
+TEIXIT : CM_Copas de champán
+Fitxer : CM. 33-35. Copas de champán.txt
+Forma  : Cuadrado/Redondo
+Punts inicials  : 8/16
+Instruccions    : 52
+Rang de voltes  : 3 – 105
+Patrons repetits (≥2 línies): 170
+Tokens dominants: ['la(5)l3gll', 'a3l(5)g', 'glgl3lal(2)3(2)lgl3lala', 'lgl(5)lalp3plgl(5)lala', '(3)l(3)glla']
+Caràcters freqs : [('l', 549), ('(', 316), (')', 316), ('3', 192), ('g', 151), ('a', 151), ('5', 68), ('p', 52)]
+
+────────────────────────────────────────
+TEIXIT : CM_Hojas y cactus
+Fitxer : CM. 4. Hojas y cactus.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 37
+Rang de voltes  : 1 – 61
+Patrons repetits (≥2 línies): 39
+Tokens dominants: ['l(3)l(2)a(2)g(3)l(3)l(2)a(2)g(2)', '(2)g(2)lpl(2)a(4)g(2)lpl(2)a(2)', 'pg(2)l(3)l(3)a(2)g(2)l(3)l(2)ap', '3lpl(2)a(4)g(2)lpl(2)a(4)g(2)', 'g(2)l(5)l(2)ag(2)l(5)l(2)a']
+Caràcters freqs : [('(', 133), (')', 133), ('l', 114), ('2', 68), ('3', 45), ('a', 31), ('p', 30), ('g', 24)]
+
+────────────────────────────────────────
+TEIXIT : CM_Abouchete
+Fitxer : CM. 5-10. Abouchete.txt
+Forma  : Redondo/Ovalado
+Punts inicials  : 8
+Instruccions    : 131
+Rang de voltes  : 1 – 261
+Patrons repetits (≥2 línies): 163
+Tokens dominants: ['ga(5)ll(5)gl3la(5)ll(5)gap', 'a(5)ll(5)gl3la(5)ll(5)gl3l', 'a(5)ll(5)gl3la(5)ll(5)g3', 'l(3)g(2)ll(2)l3l(2)ll(2)a(3)l3l(3)l', 'g(2)ll(2)l3l(2)ll(2)a']
+Caràcters freqs : [('l', 785), ('(', 539), (')', 539), ('3', 327), ('g', 192), ('a', 191), ('5', 185), ('p', 121)]
+
+========================================
+Teixits processats            : 11
+Patrons sintàctics compartits : 134
+Símbols de hardware analitzats: 28
+
+Fitxers generats a la carpeta 'res_fase1/':
+  · teixits_dataset.json
+  · taula_patrons_compartits.csv
+  · taula_simbols_individuals.csv
+
+---> Executant fase2_token_inventory.py ...
+
+FASE 2 COMPLETADA
+  Teixits processats : 11
+  Voltes             : 656
+  Tokens únics       : 131
+
+---> Executant fase3.1_markov_model.py ...
+FASE 3.1 COMPLETADA
+  Voltes analitzades : 656
+  Tokens al corpus   : 45772
+  Tokens únics       : 131
+  Bigrames únics     : 521
+  Output             : C:\Users\dfranco\OneDrive\paula tfg\TFG\PIPELINE\RESULTATS_CM\res_fase3.1\markov_model.json
+
+---> Executant fase3.1b_transition_significance.py ...
+FASE 3.1b COMPLETADA
+  Bigrames testats        : 250
+  Significatius (q<0.05) : 153
+  Top-10 per lift entre significatius:
+              MZ → MZ            n=  15  lift=2255.80  q=0.00e+00
+              MZ → -             n=   3  lift= 845.92  q=2.00e-08
+            <rx> → >             n=   3  lift= 601.55  q=2.00e-08
+              3> → 3             n=   5  lift= 341.79  q=0.00e+00
+               > → 2             n=  13  lift= 335.53  q=0.00e+00
+            <xr> → x             n=  21  lift= 294.60  q=0.00e+00
+             (9) → 22            n=   3  lift= 289.21  q=4.00e-07
+              22 → (9)           n=   3  lift= 263.84  q=5.30e-07
+               2 → (10)          n=   3  lift= 219.72  q=1.05e-06
+            (10) → 2             n=   3  lift= 217.95  q=1.06e-06
+  JSON : PIPELINE\RESULTATS_CM\res_fase3.1b\transition_significance.json
+  CSV  : PIPELINE\RESULTATS_CM\res_fase3.1b\transition_significance.csv
+
+---> Executant fase3.2_distributional_classes.py ...
+FASE 3.2 COMPLETADA
+  Tokens totals        : 131
+  Tokens clusteritzats : 79  (freq > 1)
+  Tokens RARE          : 52
+  Dimensions vector    : 282  (PPMI smoothed)
+  Variància PCA (top5) : [0.161, 0.078, 0.051, 0.048, 0.033]
+  k òptim (silhouette) : 7  (score=0.3386)
+  Outliers (z>2)       : 2
+
+Resum per classe:
+  C0  (13 toks)  pos_mitja=0.53  H_succ=1.47  membres=['(10)', '(105)', '(14)', '(2)', '(3)', '(4)', '(5)', '(6)'] ...
+  C1  (29 toks)  pos_mitja=0.47  H_succ=0.10  membres=['(12)', '(16)', '(18)', '(21)', '(23)', '(25)', '(27)', '<(3)l3l>'] ...
+  C2  ( 4 toks)  pos_mitja=0.33  H_succ=1.76  membres=['-', '3>', '<al>', '>']
+  C3  (15 toks)  pos_mitja=0.52  H_succ=1.92  membres=['22', '222', '2222', '3', '<(2r)lg>', '<2>', '<gl>', '<glla>'] ...
+  C4  ( 6 toks)  pos_mitja=0.33  H_succ=1.15  membres=['(11)', '(13)', '(15)', '(17)', '(19)', '<a>']
+  C5  ( 5 toks)  pos_mitja=0.39  H_succ=1.22  membres=['(29)', '<(2)la>', '<4', 'r', 'x']
+  C6  ( 7 toks)  pos_mitja=0.28  H_succ=1.29  membres=['2', '4', '<5', 'I', 'IMZ', 'M', 'MZ']
+  C_RARE (52 toks)  [hapax, no clusteritzats]  membres=['(53)', '(55)', '(57)', '(99)', '12', '23>', '2>', '33'] ...
+
+  JSON: C:\Users\dfranco\OneDrive\paula tfg\TFG\PIPELINE\RESULTATS_CM\res_fase3.2\distributional_classes.json
+
+---> Executant fase3.2b_clustering_stability.py ...
+Original: V_full=131, k=7, tokens clusteritzats=79
+  bootstrap 25/200: ARI mitjà fins ara = 0.620 (n_iter_vàlid=25)
+  bootstrap 50/200: ARI mitjà fins ara = 0.593 (n_iter_vàlid=50)
+  bootstrap 75/200: ARI mitjà fins ara = 0.597 (n_iter_vàlid=75)
+  bootstrap 100/200: ARI mitjà fins ara = 0.595 (n_iter_vàlid=100)
+  bootstrap 125/200: ARI mitjà fins ara = 0.589 (n_iter_vàlid=125)
+  bootstrap 150/200: ARI mitjà fins ara = 0.594 (n_iter_vàlid=150)
+  bootstrap 175/200: ARI mitjà fins ara = 0.588 (n_iter_vàlid=175)
+  bootstrap 200/200: ARI mitjà fins ara = 0.587 (n_iter_vàlid=200)
+
+FASE 3.2b COMPLETADA
+  Iteracions vàlides : 200/200
+  ARI mitjà          : 0.5874 ± 0.1191
+  IC 95%             : [0.3850, 0.7989]
+  Tokens intersect mitj. : 70.2
+  Output             : PIPELINE\RESULTATS_CM\res_fase3.2b\clustering_stability.json
+
+---> Executant fase3.3_volta_signatures.py ...
+FASE 3.3 COMPLETADA
+  Voltes processades   : 656
+  Teixits              : 11
+  Classes utilitzades  : 8
+  Salts calculats      : 645
+  Salt mitjà (cos.)    : 0.1228  (sd=0.1683)
+
+  Top-5 salts entre voltes consecutives:
+    CM_Eterna              v9    d=1.000  z=5.21
+    CM_Hojas de Roble      v5    d=1.000  z=5.21
+    CM_Copas de champán    v5    d=1.000  z=5.21
+    CM_Abouchete           v3    d=1.000  z=5.21
+    CM_Abouchete           v5    d=1.000  z=5.21
+
+  Top-5 voltes més atípiques dins el seu teixit:
+    CM_Hojas de Roble      v1    d_cent=0.969  z=6.08
+    CM_Gardenia            v211  d_cent=0.718  z=4.18
+    CM_Abouchete           v5    d_cent=0.705  z=5.75
+    CM_Gardenia            v107  d_cent=0.678  z=3.89
+    CM_Abouchete           v3    d_cent=0.650  z=5.24
+
+  JSON: PIPELINE\RESULTATS_CM\res_fase3.3\volta_signatures.json
+  CSV : PIPELINE\RESULTATS_CM\res_fase3.3\volta_signatures.csv
+
+---> Executant fase3.4_volta_clustering.py ...
+FASE 3.4 COMPLETADA
+  Voltes totals        : 656
+  Voltes validades     : 656 (descartades buides: 0)
+  k òptim (silhouette) : 3  (score=0.5066)
+  Outliers (z>2)       : 22
+
+Resum per tipus de volta:
+  V0   n=302  long= 24.9 prof=1.01  [C3=0.48 C1=0.32 C0=0.15]  teixits: CM_Gardenia(81), CM_Hojas de Roble(48), CM_Abouchete(40)
+  V1   n=327  long=115.0 prof=1.14  [C1=0.53 C0=0.24 C3=0.16]  teixits: CM_Abouchete(91), CM_Copas de champán(35), CM_Pasión(32)
+  V2   n=27   long= 24.3 prof=1.78  [C5=0.54 C1=0.16 C3=0.15]  teixits: CM_Punto Angelines(23), CM_Gardenia(4)
+
+Mostres de seqüències (primeres 20 voltes de cada teixit):
+  CM_Pasión              [ 68]  V1 V0 V1 V1 V1 V1 V1 V0 V0 V1 V1 V1 V0 V1 V1 V0 V0 V1 V1 V1 ...
+  CM_Angelines           [ 43]  V0 V0 V1 V1 V1 V1 V1 V1 V1 V0 V1 V1 V1 V0 V1 V1 V0 V0 V1 V1 ...
+  CM_Eterna              [ 17]  V0 V0 V0 V1 V1 V1 V1 V1 V0 V1 V0 V0 V0 V1 V1 V1 V1
+  CM_Pelargonia          [ 39]  V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V1 V1 V0 V0 V1 V1 ...
+  CM_Gardenia            [115]  V2 V1 V1 V1 V0 V1 V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  CM_Hojas de Roble      [ 59]  V1 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V1 V1 ...
+  CM_Punto Angelines     [ 31]  V1 V2 V1 V2 V1 V2 V1 V2 V1 V2 V1 V2 V1 V2 V1 V2 V2 V2 V2 V2 ...
+  CM_Pepita              [ 64]  V1 V1 V1 V1 V0 V1 V1 V1 V0 V1 V0 V1 V0 V1 V1 V1 V1 V0 V0 V0 ...
+  CM_Copas de champán    [ 52]  V1 V0 V1 V1 V1 V1 V0 V1 V1 V1 V0 V0 V0 V0 V0 V1 V1 V1 V0 V1 ...
+  CM_Hojas y cactus      [ 37]  V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V1 V0 V1 V1 V1 V1 V1 V0 ...
+  CM_Abouchete           [131]  V1 V1 V0 V0 V1 V0 V0 V0 V0 V0 V1 V1 V1 V1 V1 V1 V0 V0 V1 V1 ...
+
+  JSON tipus  : PIPELINE\RESULTATS_CM\res_fase3.4\volta_classes.json
+  CSV         : PIPELINE\RESULTATS_CM\res_fase3.4\volta_a_tipus.csv
+  Seqüències  : PIPELINE\RESULTATS_CM\res_fase3.4\sequencies_teixits.json
+
+---> Executant fase4.1_macro_grammar.py ...
+FASE 4.1 COMPLETADA (gramàtica MACRO)
+  Seqüències (teixits)  : 11
+  Tipus de volta (V|E)  : 3
+  Contextos vistos      : 4
+  H_global              : 1.1717 bits
+  Transicions rares (=1): 1
+
+  Surprisal mitjà per teixit (bits/transició):
+    CM_Punto Angelines      H̄=2.29  perpl=4.91  len=31  zero=0
+    CM_Eterna               H̄=1.23  perpl=2.34  len=17  zero=0
+    CM_Copas de champán     H̄=1.19  perpl=2.27  len=52  zero=0
+    CM_Hojas y cactus       H̄=1.18  perpl=2.26  len=37  zero=0
+    CM_Pelargonia           H̄=1.15  perpl=2.23  len=39  zero=0
+    CM_Gardenia             H̄=1.15  perpl=2.22  len=115  zero=0
+    CM_Angelines            H̄=1.11  perpl=2.15  len=43  zero=0
+    CM_Pasión               H̄=1.09  perpl=2.13  len=68  zero=0
+    CM_Pepita               H̄=1.06  perpl=2.08  len=64  zero=0
+    CM_Abouchete            H̄=1.01  perpl=2.01  len=131  zero=0
+    CM_Hojas de Roble       H̄=1.00  perpl=1.99  len=59  zero=0
+
+  Top-5 voltes amb surprisal MACRO més alta:
+    CM_Gardenia            v107  V0→V2  surp=6.44  p=0.0115
+    CM_Gardenia            v193  V0→V2  surp=6.44  p=0.0115
+    CM_Gardenia            v211  V0→V2  surp=6.44  p=0.0115
+    CM_Punto Angelines     v2    V1→V2  surp=5.27  p=0.0258
+    CM_Punto Angelines     v4    V1→V2  surp=5.27  p=0.0258
+
+  JSON : PIPELINE\RESULTATS_CM\res_fase4.1\macro_grammar.json
+  CSV  : PIPELINE\RESULTATS_CM\res_fase4.1\macro_surprisal_per_volta.csv
+
+---> Executant fase4.2_micro_grammar.py ...
+FASE 4.2 COMPLETADA (gramàtica MICRO)
+  Voltes (seqüències)   : 656
+  Classes Cx            : 8
+  Tokens totals         : 45772
+  Contextos vistos      : 9
+  H_global              : 0.7406 bits
+  Transicions rares (≤2): 9
+  Surprisal mitjà global: 2.786 bits
+
+  Top-5 voltes amb H̄ MICRO més alta:
+    CM_Hojas de Roble      v1    H̄=6.62  perpl=98.18  len=1  zero_raw=0
+    CM_Abouchete           v83   H̄=5.16  perpl=35.86  len=2  zero_raw=0
+    CM_Pasión              v1    H̄=4.79  perpl=27.67  len=3  zero_raw=0
+    CM_Angelines           v47   H̄=4.79  perpl=27.59  len=4  zero_raw=0
+    CM_Angelines           v49   H̄=4.79  perpl=27.59  len=4  zero_raw=0
+
+  Top-5 voltes amb més transicions count=0 (raw):
+    CM_Pasión              v1    zero_raw=0  H̄=4.79  len=3
+    CM_Pasión              v3    zero_raw=0  H̄=3.96  len=5
+    CM_Pasión              v5    zero_raw=0  H̄=3.84  len=5
+    CM_Pasión              v7    zero_raw=0  H̄=3.84  len=5
+    CM_Pasión              v9    zero_raw=0  H̄=3.84  len=5
+
+  JSON : PIPELINE\RESULTATS_CM\res_fase4.2\micro_grammar.json
+
+---> Executant fase4.3_null_model.py ...
+H_obs (corpus original) = 0.8523 bits
+  perm 100/1000: H_perm mitjà = 0.9336
+  perm 200/1000: H_perm mitjà = 0.9333
+  perm 300/1000: H_perm mitjà = 0.9332
+  perm 400/1000: H_perm mitjà = 0.9332
+  perm 500/1000: H_perm mitjà = 0.9332
+  perm 600/1000: H_perm mitjà = 0.9331
+  perm 700/1000: H_perm mitjà = 0.9332
+  perm 800/1000: H_perm mitjà = 0.9332
+  perm 900/1000: H_perm mitjà = 0.9332
+  perm 1000/1000: H_perm mitjà = 0.9333
+
+FASE 4.3 COMPLETADA
+  H_observat   : 0.8523 bits
+  H_null mitjà : 0.9333 ± 0.0034
+  Reducció     : -8.67% respecte al nul
+  z-score      : -23.98
+  p-valor emp  : 0.0010
+  Output       : PIPELINE\RESULTATS_CM\res_fase4.3\null_model_permutation.json
+
+---> Executant fase4.4_loo_cv.py ...
+Teixits: 11 · voltes totals = 656
+
+FASE 4.4 COMPLETADA
+  Surprisal LOO mitjana : 4.0896 ± 1.2099 bits/token
+  Surprisal in-sample   : 0.9209
+  Rànquing per atipicitat (LOO):
+    teixit                   n_v   surp_LOO    surp_in        Δ     %OOV
+    CM_Punto Angelines        31     6.2065     3.6002  +2.6063   24.27%
+    CM_Pasión                 68     5.1972     4.3800  +0.8172    8.89%
+    CM_Angelines              43     4.6435     3.8005  +0.8430   11.17%
+    CM_Pepita                 64     4.4796     3.8622  +0.6174    5.63%
+    CM_Copas de champán       52     4.1621     3.7254  +0.4366    3.54%
+    CM_Abouchete             131     4.1314     3.2837  +0.8477    7.06%
+    CM_Hojas y cactus         37     4.0053     3.8164  +0.1889    0.54%
+    CM_Pelargonia             39     3.8359     3.6095  +0.2263    1.92%
+    CM_Gardenia              115     3.5605     2.6449  +0.9156    9.15%
+    CM_Eterna                 17     3.4486     3.1058  +0.3428    4.93%
+    CM_Hojas de Roble         59     1.3145     0.2373  +1.0772    0.17%
+  JSON : PIPELINE\RESULTATS_CM\res_fase4.4\loo_cv_teixits.json
+  CSV  : PIPELINE\RESULTATS_CM\res_fase4.4\loo_cv_teixits.csv
+
+---> Executant fase5.1_anomaly_report.py ...
+FASE 5 COMPLETADA
+  Voltes avaluades       : 627
+    CRÍTICA    : 2
+    ALTA       : 17
+    MODERADA   : 89
+    normal     : 519
+  Anomalies cross-canal  : 0
+
+  Top-10 voltes per score d'anomalia:
+    teixit                 volta  tip   cat         score  flags
+    CM_Angelines           v49    V1    ALTA        10.85  micro_mean,micro_max
+    CM_Angelines           v51    V1    ALTA        10.85  micro_mean,micro_max
+    CM_Eterna              v39    V1    ALTA        10.63  micro_mean,micro_max
+    CM_Angelines           v47    V1    ALTA        10.43  micro_mean,micro_max
+    CM_Angelines           v65    V1    MODERADA    10.41  micro_max
+    CM_Abouchete           v87    V1    MODERADA    10.31  micro_mean
+    CM_Pasión              v89    V1    MODERADA    10.29  micro_mean
+    CM_Pasión              v13    V1    normal      10.10  
+    CM_Eterna              v3     V0    normal      10.08  
+    CM_Pasión              v29    V1    normal      10.04  
+
+  Ranking per teixit (score total):
+    CM_Abouchete            Σscore= 994.08  max=10.31  C/A/M=0/3/16  cross=0
+    CM_Gardenia             Σscore= 859.69  max= 9.96  C/A/M=2/4/22  cross=0
+    CM_Pasión               Σscore= 568.85  max=10.29  C/A/M=0/1/6  cross=0
+    CM_Pepita               Σscore= 500.56  max= 9.33  C/A/M=0/0/9  cross=0
+    CM_Hojas de Roble       Σscore= 443.22  max= 9.88  C/A/M=0/2/6  cross=0
+    CM_Copas de champán     Σscore= 417.51  max=10.04  C/A/M=0/1/7  cross=0
+    CM_Angelines            Σscore= 356.79  max=10.85  C/A/M=0/3/12  cross=0
+    CM_Pelargonia           Σscore= 319.41  max= 9.89  C/A/M=0/0/3  cross=0
+    CM_Hojas y cactus       Σscore= 257.06  max= 9.94  C/A/M=0/0/4  cross=0
+    CM_Eterna               Σscore= 141.12  max=10.63  C/A/M=0/2/2  cross=0
+    CM_Punto Angelines      Σscore=  49.79  max= 7.68  C/A/M=0/1/2  cross=0
+
+  JSON : PIPELINE\RESULTATS_CM\res_fase5.1\anomaly_report.json
+  CSV1 : PIPELINE\RESULTATS_CM\res_fase5.1\anomaly_report.csv
+  CSV2 : PIPELINE\RESULTATS_CM\res_fase5.1\anomaly_teixits.csv
+
+---> Executant fase5.1b_crypto_validation.py ...
+==============================================================================
+FASE 5.1B — VALIDACIO CRIPTOGRAFICA I STEGANOGRAFICA CLASSICA
+==============================================================================
+
+Corpus complet : 45772 tokens, 131 types
+Anomalies (CRITICA+ALTA): 19 voltes, 32670 tokens
+Marcadors (excloent ['a', 'g', 'l', 'p', 'r', 'x']): 2947 tokens corpus (6.44%), 119 tokens anomalies
+Vocabulari RARE: 52 tokens hapax
+
+------------------------------------------------------------------------------
+SECCIO A — Test classic sobre anomalies (control negatiu)
+------------------------------------------------------------------------------
+  IC corpus    : 0.6594
+  IC anomalies : 0.9796  (ratio 1.49)
+  Diagnostic   : concentració extrema (anom MÉS zipfià que corpus)
+  Direcció OPOSADA a la d'un xifrat (que aplanaria la distribució). Les voltes anòmales són farciment dominat per un únic token base. Aquest resultat confirma la hipòtesi metodològica: un codi amagat no es manifesta com a anomalia de grammar — es camufla.
+
+------------------------------------------------------------------------------
+SECCIO B — Sub-stream de MARCADORS (on hauria de viure el codi)
+------------------------------------------------------------------------------
+  IC marcadors corpus    : 0.0926 (V=125, IC_norm=11.57)
+  IC uniforme referencia : 0.0080
+  Top 5 marcadors        : [('(3)', 18.935), ('(2)', 15.948), ('(5)', 11.91), ('(4)', 7.431), ('<glla>', 7.228)]
+  Kasiski n3: repeats=404 gcd=  1 n_dist=1435 top_factors={2: 702, 3: 508, 4: 397, 5: 284}
+  Kasiski n4: repeats=377 gcd=  1 n_dist= 929 top_factors={2: 425, 3: 335, 4: 220, 5: 242}
+  Kasiski n5: repeats=321 gcd=  1 n_dist= 632 top_factors={2: 273, 3: 234, 4: 147, 5: 180}
+  Diagnostic   : evidència positiva
+    - IC moderadament estructurat (ratio vs unif = 11.6)
+
+------------------------------------------------------------------------------
+SECCIO C — Concentracio de tokens RARE
+------------------------------------------------------------------------------
+  Voltes amb >=1 RARE: 49
+  Top 10 voltes per nombre de tokens RARE:
+    CM_Pepita            v 73  n_rare=3  tokens=['{', '12', '}']
+    CM_Pasión            v 91  n_rare=2  tokens=['<lpl(9)>', '<l3l(3)ga(2)>']
+    CM_Gardenia          v213  n_rare=1  tokens=['23>']
+    CM_Gardenia          v129  n_rare=1  tokens=['v']
+    CM_Hojas de Roble    v101  n_rare=1  tokens=['<6']
+    CM_Copas de champán  v 57  n_rare=1  tokens=['<lal3lgl(3)>']
+    CM_Copas de champán  v 55  n_rare=1  tokens=['<l(3)lalxlg>']
+    CM_Copas de champán  v 59  n_rare=1  tokens=['<3llalapgl>']
+    CM_Angelines         v 81  n_rare=1  tokens=['<3l(3)l>']
+    CM_Gardenia          v 89  n_rare=1  tokens=['<<4rxrxrxr>']
+  Distribucio per teixit:
+    CM_Angelines             : 17
+    CM_Gardenia              : 13
+    CM_Pasión                : 7
+    CM_Copas de champán      : 5
+    CM_Pepita                : 3
+    CM_Abouchete             : 3
+    CM_Eterna                : 3
+    CM_Hojas de Roble        : 1
+
+------------------------------------------------------------------------------
+SECCIO D — Test de runs (Wald-Wolfowitz)
+------------------------------------------------------------------------------
+  Global corpus (l vs no-l):
+    n=45772 n0(l)=37005 n1(no-l)=8767
+    runs_obs=5351 runs_esp=14176.6 z=-133.20  -> menys runs dels esperats (agrupacio)
+  Voltes amb |z|>3.0: 15 (de 200 testejables)
+    CM_Hojas de Roble    v 71  n=32259 z=-80.38  menys runs dels esperats (agrupacio)
+    CM_Gardenia          v219  n= 468 z=-19.61  menys runs dels esperats (agrupacio)
+    CM_Hojas de Roble    v 69  n=2262 z=-15.37  menys runs dels esperats (agrupacio)
+    CM_Gardenia          v115  n= 236 z=-14.30  menys runs dels esperats (agrupacio)
+    CM_Gardenia          v223  n=  64 z= -4.97  menys runs dels esperats (agrupacio)
+    CM_Copas de champán  v 55  n=  31 z= +3.85  mes runs dels esperats (alternancia)
+    CM_Angelines         v 29  n=  22 z= +3.57  mes runs dels esperats (alternancia)
+    CM_Gardenia          v221  n=  64 z= -3.53  menys runs dels esperats (agrupacio)
+    CM_Pepita            v129  n=  37 z= +3.41  mes runs dels esperats (alternancia)
+    CM_Gardenia          v 75  n=  33 z= +3.34  mes runs dels esperats (alternancia)
+
+==============================================================================
+CANDIDATS A STEGANOGRAFIA — convergencia de senyals (top 20)
+==============================================================================
+  Total candidats: 63  |  Convergencia triple A+C+D: 0
+  teixit                 volta  rare   z_runs     cat_f5 tokens_rare
+  CM_Hojas de Roble         71     0   -80.38       ALTA 
+  CM_Pepita                 73     3      ·            — { 12 }
+  CM_Pasión                 91     2      ·            — <lpl(9)> <l3l(3)ga(2)>
+  CM_Gardenia              219     0   -19.61          — 
+  CM_Hojas de Roble         69     0   -15.37          — 
+  CM_Gardenia              115     0   -14.30          — 
+  CM_Copas de champán       55     1    +3.85          — <l(3)lalxlg>
+  CM_Gardenia              213     1      ·         ALTA 23>
+  CM_Gardenia              129     1      ·            — v
+  CM_Hojas de Roble        101     1      ·            — <6
+  CM_Copas de champán       57     1      ·            — <lal3lgl(3)>
+  CM_Copas de champán       59     1      ·            — <3llalapgl>
+  CM_Angelines              81     1      ·            — <3l(3)l>
+  CM_Gardenia               89     1      ·            — <<4rxrxrxr>
+  CM_Angelines              25     1      ·            — <3
+  CM_Gardenia              177     1      ·            — <a(5)lpl(5)gl(4)l>
+  CM_Abouchete             133     1      ·            — 5
+  CM_Pasión                121     1      ·            — <lx>
+  CM_Angelines              77     1      ·            — <l(2)3(2)lp>
+  CM_Gardenia              179     1      ·            — <a(5)lpl(5)gl(6)l>
+
+------------------------------------------------------------------------------
+CONCLUSIO METODOLOGICA
+------------------------------------------------------------------------------
+  · Seccio A: les voltes prioritzades per fase5 NO contenen signatura
+    de xifrat (com era esperable: un codi amagat es dissenya per NO
+    triggerejar anomalies de grammar).
+  · Seccions B+C+D identifiquen els VERITABLES candidats: voltes amb
+    tokens hapax (RARE) i/o desviacions de runs respecte H0.
+  · 'candidats_steganografia.csv' es el mapa per la inspeccio quali-
+    tativa del facsimil: contrastar margens, marques, canvis de tinta,
+    dibuixos a les voltes llistades.
+
+[OK] Escrit: RESULTATS_CM\res_fase5.1b\crypto_validation.json
+[OK] Escrit: RESULTATS_CM\res_fase5.1b\crypto_validation.csv
+[OK] Escrit: RESULTATS_CM\res_fase5.1b\candidats_steganografia.csv
+
+---> Executant fase5.2_segment_anomaly_detection.py ...
+== FASE 5.2 · Detecció de segments anòmals ==
+   Voltes carregades: 627  (amb senyal lèxic 5.1b: 63)
+   Llindar score combinat (P60) = 0.0798
+   Segments candidats     : 33
+   Segments significatius : 4 (FDR α=0.05)
+
+   JSON   → anomaly_segments.json
+   CSV    → anomaly_segments.csv
+   REPORT → anomaly_segments_report.txt
+== FASE 5.2 COMPLETADA ==
+
+---> Executant fase5.2b_crypto_segments.py ...
+== FASE 5.2b · Triangulació gramatical × lèxica sobre segments ==
+   Voltes 5.1 avaluades       : 627
+   · gramaticals (ALTA/CRÍTICA/MODERADA): 108
+   Voltes lèxiques (5.1b)     : 63
+   Total voltes atípiques     : 139
+   Segments a triangular (5.2): 33
+
+   Convergència      : 8
+   Perfil lèxic      : 3
+   Perfil gramatical : 6
+   Mixt / sense      : 1 / 15
+   Voltes òrfenes    : 75 (conv=12, lex=9, gram=54)
+
+   JSON   → triangulacio_segments.json
+   CSV    → triangulacio_segments.csv
+   ÒRFENES→ voltes_orfenes.csv
+   REPORT → triangulacio_segments_report.txt
+== FASE 5.2b COMPLETADA ==
+
+---> Executant fase5.3_hipotesis_referencies.py ...
+==============================================================================
+FASE 5.3 — HIPÒTESIS PER REFERÈNCIES
+       Test sistemàtic de 3 hipòtesis sobre el contingut codificat
+       (A) Morse tèxtil   (B) Anomalies belgues   (C) Manolita del Arco
+==============================================================================
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI A — MORSE TÈXTIL  (ref. Bueno Saz, Mujeres con Ciencia)
+══════════════════════════════════════════════════════════════════════════════
+
+  Premissa: una parella binària (X, Y) de símbols del corpus codificaria
+  punt/ratlla de Morse, amb els altres símbols com a separadors de lletra.
+  Test: per cada parella (21 combinacions) i cada mapping (×2), comparem
+  el % de bigrames/trigrames espanyols del text descodificat contra un
+  control de shuffle aleatori (preserva freqüències marginals).
+
+  Par.     n1    n2  ratio  #grup  dot   score    ctrl      z  text(primers 40)
+  ----- ----- ----- ------ ------ ---- ------- ------- ------  ----------------------------------------
+  g/a    1418  1412   1.00   2584    g   12.5%    1.0% +119.33  TETETETETETEETTETETETETETEETETTEEETEETEE ★
+  l/g    4347  1418   3.07   3884    l    7.9%    1.4% +64.86  EEEEEEEEEEEEEEEEETEETEETEETEETEETEEEEEET ★
+  g/p    1418   750   1.89   1949    g    7.0%    1.3% +68.43  TTETTEEEENATEEEEENETEEEETEEEETEEEETEEEET ★
+  a/p    1412   750   1.88   1930    p    6.9%    1.2% +89.99  EETEATTTNEATTTTTNETTTETTETTETTETTETETTTN ★
+  a/v    1412   638   2.21   2023    v    6.6%    0.1%  +0.00  TTTTTTTTTTTTTTTTTEETEETEETEETEETEETEETEE
+  g/v    1418   638   2.22   2037    v    6.2%    0.0%  +0.00  TTTTTTTTTTTTTTTTTTETTEETTEETTEETTEETTEET
+  l/p    4347   750   5.80   3576    l    5.6%    0.7% +74.57  EENAEEEEEEEEEEEEENAEEEEEEEETEEEEEENAEEEE ★
+  p/v     750   638   1.18   1388    v    5.2%    0.0%  +0.00  TTTTTTTTTTEEEETEEEETEEEETEEEETETEEEEETEE
+  l/a    4347  1412   3.08   3889    a    4.5%    1.3% +39.40  TTTTTTTTTTTTTTTTNTTETTETTETTETTETTTTTTTT ★
+  v/x     638   279   2.29    917    v    4.1%    0.0%  +0.00  TTTTTTTTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEE
+  l/v    4347   638   6.81   4247    v    4.1%    0.1% +928.21  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT ★
+  p/x     750   279   2.69   1028    x    2.8%    0.0% +236.36  ETETEEEEEETETEEEETEEETETEEEEETEEETETTTTT ★
+  a/x    1412   279   5.06   1658    x    2.8%    0.2% +480.68  EEEEEEEETETETETETETEEEETTETETETETETEEETE ★
+  x/r     279   180   1.55    368    r    2.8%    1.6%  +2.75  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT ★
+  g/x    1418   279   5.08   1652    g    2.6%    0.2% +56.31  TTTTTTTTETETETETETETTTETETETETETETETTTET ★
+  l/x    4347   279  15.58   3618    l    2.4%    0.3% +63.79  RRRRRRERRRRRRRRRRRRRRRRREEREEREEEEREEEEE ★
+  v/r     638   180   3.54    817    v    1.8%    0.0% +117.14  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE ★
+  g/r    1418   180   7.88   1579    g    1.8%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+  a/r    1412   180   7.84   1565    a    1.2%    0.1% +263.62  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE ★
+  l/r    4347   180  24.15   3782    r    0.9%    0.1% +82.27  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT ★
+  p/r     750   180   4.17    930    p    0.5%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+  VEREDICTE A:
+    - Cap parella supera de forma consistent el control aleatori.
+    - Els scores 'alts' en aparença es deuen a saturació de lletres
+      Morse curtes (E='.', T='-', N='-.') quan els grups són d'1-2 chars.
+    - Cap text descodificat conté seqüències de bigrames/trigrames ES
+      compatibles amb un missatge real.
+    → HIPÒTESI MORSE: REBUTJADA.
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI B — ANOMALIES BELGUES  (ref. Bueno Saz, Mujeres c.C.)
+══════════════════════════════════════════════════════════════════════════════
+
+  Premissa: dins de zones MOLT regulars (>85% un sol símbol en finestra
+  de 8) poden aparèixer punts discordants que formin senyal (com els
+  forats codificats de la teixidora belga del WWI).
+  Test: expandim cada volta, busquem finestres regulars amb discordants,
+  i mirem si la posició/seqüència d'aquests forma un patró rastrejable.
+
+  Teixit                               voltes  amb_anom
+  ----------------------------------- ------- ---------
+  CM. 11-13. Pasión                        68        55
+  CM. 14-16. Angelines                     43        28
+  CM. 16. Eterna                           17         9
+  CM. 17-18. Pelargonia                    39        28
+  CM. 18-25. Gardenia                     115        68
+  CM. 25-29. Hojas de Roble                59        43
+  CM. 29. Punto Angelines                  31        27
+  CM. 30-32. Pepita                        64        50
+  CM. 33-35. Copas de champán              52        40
+  CM. 4. Hojas y cactus                    37        24
+  CM. 5-10. Abouchete                     131       112
+
+  TOTAL voltes amb anomalies puntuals: 484
+
+  Símbols com a 'forat'/discordant (top 5):
+    'a': 453 aparicions
+    'g': 385 aparicions
+    'p': 162 aparicions
+    'x': 81 aparicions
+    'v': 39 aparicions
+
+  Parelles (dominant → discordant) més freqüents:
+    l → a : 453
+    l → g : 385
+    l → p : 162
+    l → x : 81
+    l → v : 39
+
+  Runs de voltes CONSECUTIVES amb anomalies (≥3):
+    [CM. 11-13. Pasión] 29 voltes seguides: [7, 9, 11, 13, 15, 17, 19, 21]...
+    [CM. 11-13. Pasión] 13 voltes seguides: [73, 75, 77, 79, 81, 83, 85, 87]...
+    [CM. 11-13. Pasión] 5 voltes seguides: [107, 109, 111, 113, 115]
+    [CM. 11-13. Pasión] 5 voltes seguides: [123, 125, 127, 129, 131]
+    [CM. 14-16. Angelines] 10 voltes seguides: [19, 21, 23, 25, 27, 29, 31, 33]...
+    [CM. 14-16. Angelines] 3 voltes seguides: [47, 49, 51]
+    [CM. 14-16. Angelines] 7 voltes seguides: [69, 71, 73, 75, 77, 79, 81]
+    [CM. 14-16. Angelines] 4 voltes seguides: [85, 87, 89, 91]
+    [CM. 16. Eterna] 3 voltes seguides: [11, 13, 15]
+    [CM. 16. Eterna] 4 voltes seguides: [33, 35, 37, 39]
+    [CM. 17-18. Pelargonia] 27 voltes seguides: [27, 29, 31, 33, 35, 37, 39, 41]...
+    [CM. 18-25. Gardenia] 12 voltes seguides: [65, 67, 69, 71, 73, 75, 77, 79]...
+    [CM. 18-25. Gardenia] 14 voltes seguides: [107, 109, 111, 113, 115, 117, 119, 121]...
+    [CM. 18-25. Gardenia] 3 voltes seguides: [161, 163, 165]
+    [CM. 18-25. Gardenia] 9 voltes seguides: [175, 177, 179, 181, 183, 185, 187, 189]...
+    [CM. 18-25. Gardenia] 14 voltes seguides: [211, 213, 215, 217, 219, 221, 223, 225]...
+    [CM. 25-29. Hojas de Roble] 14 voltes seguides: [17, 19, 21, 23, 25, 27, 29, 31]...
+    [CM. 25-29. Hojas de Roble] 24 voltes seguides: [55, 57, 59, 61, 63, 65, 67, 69]...
+    [CM. 25-29. Hojas de Roble] 3 voltes seguides: [113, 115, 117]
+    [CM. 29. Punto Angelines] 4 voltes seguides: [1, 2, 3, 4]
+    [CM. 29. Punto Angelines] 3 voltes seguides: [17, 18, 19]
+    [CM. 30-32. Pepita] 16 voltes seguides: [33, 35, 37, 39, 41, 43, 45, 47]...
+    [CM. 30-32. Pepita] 22 voltes seguides: [75, 77, 79, 81, 83, 85, 87, 89]...
+    [CM. 30-32. Pepita] 7 voltes seguides: [121, 123, 125, 127, 129, 131, 133]
+    [CM. 33-35. Copas de champán] 8 voltes seguides: [33, 35, 37, 39, 41, 43, 45, 47]
+    [CM. 33-35. Copas de champán] 28 voltes seguides: [51, 53, 55, 57, 59, 61, 63, 65]...
+    [CM. 4. Hojas y cactus] 15 voltes seguides: [33, 35, 37, 39, 41, 43, 45, 47]...
+    [CM. 5-10. Abouchete] 6 voltes seguides: [23, 25, 27, 29, 31, 33]
+    [CM. 5-10. Abouchete] 17 voltes seguides: [43, 45, 47, 49, 51, 53, 55, 57]...
+    [CM. 5-10. Abouchete] 40 voltes seguides: [87, 89, 91, 93, 95, 97, 99, 101]...
+    [CM. 5-10. Abouchete] 43 voltes seguides: [177, 179, 181, 183, 185, 187, 189, 191]...
+
+  VEREDICTE B:
+    - 484 voltes presenten anomalies puntuals (xifra alta).
+    - Però els 'forats' es concentren en parelles previsibles (l→p, l→g)
+      i, sobretot, formen runs llargs de voltes consecutives (31
+      runs detectats). Una marca esteganogràfica seria PUNTUAL.
+    - Els runs corresponen a MOTIUS DECORATIUS regulars (diagonals,
+      simetries verticals) ja documentats a la topologia vertical.
+    → HIPÒTESI BELGA: REBUTJADA.
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI C — MANOLITA DEL ARCO  (ref. El País / Blog Mem.Repr.)
+══════════════════════════════════════════════════════════════════════════════
+Test: buscar la línia documentada v71 de 'Primavera' dins del corpus...
+
+    Coincidències al corpus:
+         [CM. 16. Eterna] v1 (SUBCADENA): pl
+         [CM. 17-18. Pelargonia] v3 (SUBCADENA): pl
+         [CM. 4. Hojas y cactus] v1 (SUBCADENA): lp
+
+    VEREDICTE C:
+    - Coincidències IDÈNTIQUES entre cita pública de Manolita i corpus: 0
+    → HIPÒTESI MANOLITA: NO CONCLOENT.
+
+══════════════════════════════════════════════════════════════════════════════
+RESUM FINAL
+══════════════════════════════════════════════════════════════════════════════
+
+  A) Morse tèxtil  ........... REBUTJADA
+       Cap parella binària genera text espanyol significativament millor
+       que el control aleatori. Els ratios i les distribucions de runs
+       no són compatibles amb codi Morse.
+
+  B) Anomalies belgues  ...... REBUTJADA
+       Les anomalies puntuals existeixen però formen runs llargs de voltes
+       consecutives (motius decoratius diagonals/verticals), no senyals
+       puntuals com en el cas belga del WWI.
+
+  C) Manolita del Arco  ...... CONFIRMADA
+       La línia  de 'primavera.txt' del corpus coincideix LITERALMENT
+       amb la cita verbatim del cuaderno de Manolita publicada per El País
+       i pel blog 'Memòria Repressió Franquista' (4 maig 2024). La peça
+       'Primavera' té el nom, l'arrencada i els patrons lèxics compatibles
+       amb la descripció pública.
+
+  IMPLICACIÓ:
+       El corpus de Carmen Machado és una còpia, derivat o cuaderno germà
+       dels cuadernillos de la xarxa de presas comunistes franquistes que
+       Manolita del Arco custodiava. El codi clandestí de fons NO ha estat
+       desxifrat per cap investigador (López Barceló, Martínez del Arco,
+       Padrón-Blashke). Les hipòtesis A i B estan documentades com a
+       fracassades, però queden registrades com a controls negatius
+       d'aquest TFG.
+
+[OK] Desat: RESULTATS_CM\res_fase5.3\hipotesis_referencies.json
+
+---> Executant fase6.1_classical_views.py ...
+Carregant dades des de JSON i CSVs...
+  OK. Carregats 11 teixits.
+============================================================
+INICIANT GENERACIÓ INTEGRAL DE GRÀFICS
+============================================================
+
+[1/2] Processant teixits individuals...
+  Processing: CM_Pasión...
+  Processing: CM_Angelines...
+  Processing: CM_Eterna...
+  Processing: CM_Pelargonia...
+  Processing: CM_Gardenia...
+  Processing: CM_Hojas de Roble...
+  Processing: CM_Punto Angelines...
+  Processing: CM_Pepita...
+  Processing: CM_Copas de champán...
+  Processing: CM_Hojas y cactus...
+  Processing: CM_Abouchete...
+
+[2/2] Processant gràfics comparatius globals...
+
+Generant gràfics globals...
+  Generant Heatmap Hardware...
+  Generant PCA de teixits...
+  Generant Heatmap Mètriques Global...
+  Generant Matriu de Correlació...
+  Generant Matrius de Bombolles de patrons compartits...
+    Dibuixant Matriu Absoluta...
+    Dibuixant Matriu Relativa...
+  OK Matrius de Bombolles.
+
+============================================================
+PROCÉS FINALITZAT REEIXIDAMENT.
+Revisa la carpeta 'res_fase6/' per veure els gràfics.
+============================================================
+
+---> Executant fase6.2_distributional_views.py ...
+[1/5] Token classes...
+[2/5] Volta types (stripe plots)...
+[3/5] Macro grammar...
+[4/5] Micro grammar...
+[5/5] Anomalies...
+[6/6] Segments anòmals contigus (Fase 5.7)...
+[7/7] Triangulació gramatical × lèxica (Fase 5.2b)...
+
+FASE 6 COMPLETADA. Carpetes generades:
+  PIPELINE\RESULTATS_CM\res_fase6\01_token_classes  (1 PNG)
+  PIPELINE\RESULTATS_CM\res_fase6\03_volta_types  (1 PNG)
+  PIPELINE\RESULTATS_CM\res_fase6\04_grammar_macro  (1 PNG)
+  PIPELINE\RESULTATS_CM\res_fase6\05_grammar_micro  (1 PNG)
+  PIPELINE\RESULTATS_CM\res_fase6\06_anomalies  (3 PNG)
+  PIPELINE\RESULTATS_CM\res_fase6\07_segments_estegano  (3 PNG)
+  PIPELINE\RESULTATS_CM\res_fase6\08_crypto_segments  (2 PNG)
+
+---> Executant resum_global.py ...
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ RESUM GLOBAL DE RESULTATS DEL TFG
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+===========================================================================
+ fase1_corpus_normalizer.py
+===========================================================================
+  Teixits processats      : 11
+  Instruccions (voltes)   : 656
+
+===========================================================================
+ fase2_token_inventory.py
+===========================================================================
+  Instruccions expandides : 656 voltes avaluables
+
+===========================================================================
+ fase3.1_markov_model.py
+===========================================================================
+  Volum total tokens      : 45772
+  Vocabulari (tokens únics): 131
+  Bigrames únics observats: 521
+
+===========================================================================
+ fase3.1b_transition_significance.py
+===========================================================================
+  Transicions testades    : 250
+  Significatives (FDR)    : 153 (no atzaroses)
+
+===========================================================================
+ fase3.2_distributional_classes.py
+===========================================================================
+  Classes de tokens (K)   : 7 classes funcionals (C0-C7)
+  Silhouette Òptim        : 0.3386
+  Tokens aïllats (C_RARE) : 52 hàpax
+
+===========================================================================
+ fase3.2b_clustering_stability.py
+===========================================================================
+  Estabilitat ARI (mitja) : 0.5874 ± 0.1191
+  Interval Conf. (IC95%)  : [0.385, 0.7989]
+
+===========================================================================
+ fase3.3_volta_signatures.py
+===========================================================================
+  Salts globals avaluats  : 645 transicions
+  Distància cosinus mitja : 0.12275 ± 0.168258
+
+===========================================================================
+ fase3.4_volta_clustering.py
+===========================================================================
+  Tipologies volta (VTx)  : 3 tipus estructurals (V0-V4)
+  Silhouette Òptim        : 0.5066
+
+===========================================================================
+ fase4.1_macro_grammar.py
+===========================================================================
+  Contextos macro vistos  : 4
+  Entropia MACRO (H_global): 1.1717 bits
+
+===========================================================================
+ fase4.2_micro_grammar.py
+===========================================================================
+  Contextos micro vistos  : 9
+  Entropia MICRO (H_global): 0.7406 bits
+
+===========================================================================
+ fase4.3_null_model.py
+===========================================================================
+  H_observat vs H_null    : 0.852342 vs 0.933255 bits
+  Z-score (Permutacions)  : -23.9812
+  P-valor empíric         : 0.000999
+
+===========================================================================
+ fase4.4_loo_cv.py
+===========================================================================
+  Surprisal LOO (mitjana) : 4.0896 ± 1.2099 bits/token
+
+===========================================================================
+ fase5.1_anomaly_report.py
+===========================================================================
+  Variància recollida PC1 : 26.19%
+  Voltes CRÍTICA (>=p99)  : 2
+  Voltes ALTA (>=p97)     : 17
+
+===========================================================================
+ fase5.1b_crypto_validation.py
+===========================================================================
+  IC Anomalies vs Corpus  : 1.4855 (Ràtio)
+  Diagnòstic Voltes       : concentració extrema (anom MÉS zipfià que corpus)
+
+===========================================================================
+ fase5.2_segment_anomaly_detection.py
+===========================================================================
+  Segments contigus cand. : 33
+  Significatius (FDR <=α) : 4
+
+===========================================================================
+ fase5.2b_crypto_segments.py
+===========================================================================
+  Segments triangulats    : 33
+  Convergència (5.1∩5.1b) : 8
+  Perfil lèxic (abecedari): 3
+  Perfil gramatical       : 6
+  Mixt / sense senyal     : 1 / 15
+  Voltes òrfenes (fora seg): 75 (conv=12, lex=9, gram=54)
+
+===========================================================================
+ fase5.3_hipotesis_referencies.py
+===========================================================================
+  Hipòtesi A (Morse Tèxtil)   : REBUTJADA
+  Hipòtesi B (Anom. Belgues)  : REBUTJADA
+  Hipòtesi C (Manolita/PCE)   : PENDENT (0 coincidència caràcter per caràcter)
+
+───────────────────────────────────────────────────────────────────────────
+ [OK] Resum completat! El tens guardat a: resum_global.txt
+───────────────────────────────────────────────────────────────────────────
+
+
+======================================================================
+ PIPELINE COMPLETAT AMB ÈXIT PER AL CORPUS: [CM]
+ Revisa la carpeta RESULTATS_CM i l'arxiu resum_global.txt
+======================================================================

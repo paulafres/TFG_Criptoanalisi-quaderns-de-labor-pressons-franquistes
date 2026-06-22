@@ -1,0 +1,55 @@
+8p
+1 pl
+3 (pl-2v)
+5 (pl-4v)
+6-7-8 del reves
+9 3lpl3lpl3
+11 x2(5p)2x
+13 22(lp-3v)l22
+15 x22(5p)22x
+17 222(pl-3v)l222
+19 x222(5p)222x
+21 2222(3p)2222
+23 x2222p2222xl
+25 a222gap22glxl
+27 a222gap2glxlxxxl
+29 a22gapg(plxl-2v)p
+31 ag3pplxlppl3lpplxlpp
+33 3(3p)lxl(3p)l3l(3p)lxl(3p)
+35 a(3p)lxl(4p)l3l(4p)lxl(4p)
+37 a(4p)g(lx-3v)la(4p)g
+39 a(5p)g(plxl-3v)pa(5p)g
+41 a(3p)gpplxlppl3lpplxlppa(3p)g
+43 apg(3p)lxl(3p)l3l(3p)lxl(3p)apg
+45 3(4p)lxl(4p)l3l(4p)lx l(4p)3l
+47 3(7p)g(lx-3v)la(7p)3lxl
+49 a(5p)g(plxl-3v)pa(5p)glplxlpl
+51 a(3p)gpplxlppl3lpplxlppa(3p)gl(3p)lxl(3p)l
+53 apg(3p)lxl(3p)l3l(3p)lxl(3p)ap(gl-2v)plalxlglplal
+55 3(4p)lxl(4p)l3l(4p)lxl(4p)3lgl(3p)la lxlgl(3p)lal
+57 a(7p)gpl3lpa(7p)(gl-3v)p(la-3v)lx(lg-2v)lp(la-2v)l
+59 a(5p)gpplxlppa(5p)(gl-3v)(3p)(la-2v)lx(lg-2v)l(3p)(la-2v)l
+61 a(3p)gaplxl(3p)a(3p)(gl-4v)p(la-3v)lx(lg-3v)lp(la-3v)
+63 apg(4p)lxl(4p)apg(lg-7v)(lp-3v)(la-7v)l
+65 3(5p)lxl(5p)3(lg-7v)(lp-7v)(la-7v)l
+67 a(11p)(gl-8v)(pl-15v)(al-7v)
+69 a(9p)(gl-8v)(31puntos)(la-7v)l
+71 a(7p)(gl-8v)(33p)(la-7v)l
+73 a(5p)(gl-8v)(35p)(la-7v)l
+75 a(3p)(gl-8v)(37p)(la-7v)l
+77 ap(gl-8v)(39p)l(al-7v)
+79 3(lg-7v)(41p)l(al-7v)
+81 p(gl-7v)(43p)(la-7v)
+83 IMV.3(lg-6v)l(45p)(la-6v)l
+85 p(gl-6v)(47p)(la-6v)
+87 IMV-3(lg-5v)l(49p)(la-5v)l
+89 p(gl-5v)(51p)(la-5v)
+91 IMV-3(lg-4v)l(53p)(la-4v)l
+93 p(gl-4v)(55p)(la-4v)
+95 IMV-3(lg-3v)l(57p)(la-3v)l
+97 p(gl-3v)(59p)(la-3v)
+99 IMV.3(lg-2v)l(61p)(la-2v)l
+101 p(gl-2v)(63p)x(la-2v)
+103 IMV-3(lgl(65p)lal
+105 pgl(67p)la
+107 IMV-3lg(69p)l

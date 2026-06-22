@@ -1,0 +1,58 @@
+5p
+3 lp
+5 lplp
+7 lplx
+9 #plxlp
+11 #(2)lxl(2)
+13 #pglxlap
+15 #pglxlap
+17 #(3)lxl(3)
+19 #(2)gllxlla(2)
+21 #(4)ll3ll(4)
+23 #(3)gll3lla(3)
+25 #(5)ll3ll(5)
+27 #(4)gll3lla(4)
+29 la(5)ll3ll(6)
+31 xl(5)gll3lla(5)p
+33 (2)ll(5)gl3la(5)llp
+35 lplglla(13)glla
+37 l(3)lglla(5)3(5)pella
+39 lplnlp lplglla(11)glla
+40 (9)#(6)3(6)#p
+41 lplnlnl#plglla(9)glla
+43 lplnlnlnlplglla(3)3(3)glla
+45 lplnlnlnlnlnlplglla(2)3(2)glla
+47 lpl(nl-5v)plglla p3pglla
+49 lpl(nl-6v)plgla 3gla
+51 lpl(nl-7v)plgl 3la
+53 lpl(nl-8v)plglpla
+55 lpl(nl-9v)plgpa
+57 lpl(nl-10v)pl3
+59 IMZ(ln-12v)
+61 IMV(ln-12v)
+63 IMV(ln-12v)
+77 plp(ln-5v)(lp-3v)(ln-5v)lpl
+79 (2)lap(ln-4v)lpgl(3)lap(ln-4v)lpglp
+81 (3)la(2)(ln-3v)l(2)gl(5)la(2)(ln-3v)l(2)gl(2)
+83 (4)la(3)(ln-2v)l(3)gl(7)la(3)(ln-2v)l(3)gl(3)
+85 (5)la(4)lnl(4)pl(9)la(4)lnl(4)gl(4)
+87 (6)la(5)l(5)gl(11)la(5)l(5)pl(5)
+89 pl(6)lla(9)gll(6)lpl(6)lla(9)gll(6)l
+90 (9)la(9)gl(17)la(9)pl(8)
+91 IMV-3lla(4)glla(7)glla(4)gll3lla(4)glla(7)glla(4)gll
+92 (10)a(7)g(19)a(7)g(9)
+93 IMV-3lla(4)glla(5)glla(4)gll3lla(4)glla(5)glla(4)gll
+94 (10)a(5)g(19)a(5)g(9)
+95 IMV-3lla(4)glla(3)glla(4)gll3lla(4)glla(3)glla(4)gll
+96 (10)a(3)g(19)a(3)g(9)
+97 pplla(4)gllapglla(4)gll(3)lla(4)gllapglla(4)gllp
+98 (11)apg(21)apg(10)
+99 (3)lla(4)gll3lla(4)gll(5)lla(4)gll3lla(4)gll(2)
+101 (4)lla(4)gll3lla(4)gll(7)lla(4)gll3lla(4)gll(3)
+103 pllallglla(4)gl3la(4)gllgllallpllglla ll(4)gl3la(4)gllallgll
+105 (2)ll(3)ll(3)lla(5)3(3)gll(3)ll(3)l(3)ll(3)ll(3)lla(5)3(5)gll(3)ll(3)llp
+107 #glla#glla#glla(4)3(4)(glla#-5v)glla(4)3(4)(glla#-2v)glla
+109 (#glla-3v)(3)3(3)(glla#-5v)glla(3)3(3)(glla#-3v)
+111 (#glla-3v)(2)3(2)glla#(glla-2v)(#glla-3v)(2)3(2)(glla#-2v)glla
+113 (#-glla-2v)#glap3pgla(#glla-1v)#glap3pgla(#glla-2v)
+115 IMV-3llal3llgl3llal3lgll3lgll3lgll3llal3llal3llal3lgll3lall3lgll

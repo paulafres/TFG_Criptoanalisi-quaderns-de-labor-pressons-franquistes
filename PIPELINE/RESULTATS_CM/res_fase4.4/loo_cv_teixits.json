@@ -1,0 +1,125 @@
+{
+  "parametres": {
+    "ALPHA_SMOOTH": 0.01,
+    "RANDOM_STATE": 42,
+    "metode": "Leave-one-teixit-out CV · bigrama amb smoothing additiu"
+  },
+  "metadades": {
+    "n_teixits": 11,
+    "surprisal_loo_mitjana": 4.0896,
+    "surprisal_loo_sd": 1.2099,
+    "surprisal_in_sample_global": 0.9209
+  },
+  "per_teixit": [
+    {
+      "teixit": "CM_Punto Angelines",
+      "n_voltes": 31,
+      "n_tokens_eval": 585,
+      "surprisal_loo": 6.2065,
+      "surprisal_in_sample": 3.6002,
+      "delta_loo_vs_in": 2.6063,
+      "n_oov_bigrames_loo": 142,
+      "frac_oov_loo": 0.2427
+    },
+    {
+      "teixit": "CM_Pasión",
+      "n_voltes": 68,
+      "n_tokens_eval": 731,
+      "surprisal_loo": 5.1972,
+      "surprisal_in_sample": 4.38,
+      "delta_loo_vs_in": 0.8172,
+      "n_oov_bigrames_loo": 65,
+      "frac_oov_loo": 0.0889
+    },
+    {
+      "teixit": "CM_Angelines",
+      "n_voltes": 43,
+      "n_tokens_eval": 582,
+      "surprisal_loo": 4.6435,
+      "surprisal_in_sample": 3.8005,
+      "delta_loo_vs_in": 0.843,
+      "n_oov_bigrames_loo": 65,
+      "frac_oov_loo": 0.1117
+    },
+    {
+      "teixit": "CM_Pepita",
+      "n_voltes": 64,
+      "n_tokens_eval": 994,
+      "surprisal_loo": 4.4796,
+      "surprisal_in_sample": 3.8622,
+      "delta_loo_vs_in": 0.6174,
+      "n_oov_bigrames_loo": 56,
+      "frac_oov_loo": 0.0563
+    },
+    {
+      "teixit": "CM_Copas de champán",
+      "n_voltes": 52,
+      "n_tokens_eval": 1187,
+      "surprisal_loo": 4.1621,
+      "surprisal_in_sample": 3.7254,
+      "delta_loo_vs_in": 0.4366,
+      "n_oov_bigrames_loo": 42,
+      "frac_oov_loo": 0.0354
+    },
+    {
+      "teixit": "CM_Abouchete",
+      "n_voltes": 131,
+      "n_tokens_eval": 1940,
+      "surprisal_loo": 4.1314,
+      "surprisal_in_sample": 3.2837,
+      "delta_loo_vs_in": 0.8477,
+      "n_oov_bigrames_loo": 137,
+      "frac_oov_loo": 0.0706
+    },
+    {
+      "teixit": "CM_Hojas y cactus",
+      "n_voltes": 37,
+      "n_tokens_eval": 373,
+      "surprisal_loo": 4.0053,
+      "surprisal_in_sample": 3.8164,
+      "delta_loo_vs_in": 0.1889,
+      "n_oov_bigrames_loo": 2,
+      "frac_oov_loo": 0.0054
+    },
+    {
+      "teixit": "CM_Pelargonia",
+      "n_voltes": 39,
+      "n_tokens_eval": 416,
+      "surprisal_loo": 3.8359,
+      "surprisal_in_sample": 3.6095,
+      "delta_loo_vs_in": 0.2263,
+      "n_oov_bigrames_loo": 8,
+      "frac_oov_loo": 0.0192
+    },
+    {
+      "teixit": "CM_Gardenia",
+      "n_voltes": 115,
+      "n_tokens_eval": 3082,
+      "surprisal_loo": 3.5605,
+      "surprisal_in_sample": 2.6449,
+      "delta_loo_vs_in": 0.9156,
+      "n_oov_bigrames_loo": 282,
+      "frac_oov_loo": 0.0915
+    },
+    {
+      "teixit": "CM_Eterna",
+      "n_voltes": 17,
+      "n_tokens_eval": 142,
+      "surprisal_loo": 3.4486,
+      "surprisal_in_sample": 3.1058,
+      "delta_loo_vs_in": 0.3428,
+      "n_oov_bigrames_loo": 7,
+      "frac_oov_loo": 0.0493
+    },
+    {
+      "teixit": "CM_Hojas de Roble",
+      "n_voltes": 59,
+      "n_tokens_eval": 35740,
+      "surprisal_loo": 1.3145,
+      "surprisal_in_sample": 0.2373,
+      "delta_loo_vs_in": 1.0772,
+      "n_oov_bigrames_loo": 62,
+      "frac_oov_loo": 0.0017
+    }
+  ]
+}

@@ -1,0 +1,1937 @@
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ RESUM GLOBAL DE RESULTATS DEL TFG
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+===========================================================================
+ fase1_corpus_normalizer.py
+===========================================================================
+  Teixits processats      : 71
+  Instruccions (voltes)   : 1778
+
+===========================================================================
+ fase2_token_inventory.py
+===========================================================================
+  Instruccions expandides : 1778 voltes avaluables
+
+===========================================================================
+ fase3.1_markov_model.py
+===========================================================================
+  Volum total tokens      : 81492
+  Vocabulari (tokens únics): 377
+  Bigrames únics observats: 1439
+
+===========================================================================
+ fase3.1b_transition_significance.py
+===========================================================================
+  Transicions testades    : 479
+  Significatives (FDR)    : 286 (no atzaroses)
+
+===========================================================================
+ fase3.2_distributional_classes.py
+===========================================================================
+  Classes de tokens (K)   : 17 classes funcionals (C0-C7)
+  Silhouette Òptim        : 0.3356
+  Tokens aïllats (C_RARE) : 214 hàpax
+
+===========================================================================
+ fase3.2b_clustering_stability.py
+===========================================================================
+  Estabilitat ARI (mitja) : 0.4924 ± 0.0662
+  Interval Conf. (IC95%)  : [0.3724, 0.6353]
+
+===========================================================================
+ fase3.3_volta_signatures.py
+===========================================================================
+  Salts globals avaluats  : 1707 transicions
+  Distància cosinus mitja : 0.188108 ± 0.224105
+
+===========================================================================
+ fase3.4_volta_clustering.py
+===========================================================================
+  Tipologies volta (VTx)  : 2 tipus estructurals (V0-V4)
+  Silhouette Òptim        : 0.4152
+
+===========================================================================
+ fase4.1_macro_grammar.py
+===========================================================================
+  Contextos macro vistos  : 3
+  Entropia MACRO (H_global): 0.9738 bits
+
+===========================================================================
+ fase4.2_micro_grammar.py
+===========================================================================
+  Contextos micro vistos  : 19
+  Entropia MICRO (H_global): 1.0798 bits
+
+===========================================================================
+ fase4.3_null_model.py
+===========================================================================
+  H_observat vs H_null    : 1.137719 vs 1.302043 bits
+  Z-score (Permutacions)  : -57.2497
+  P-valor empíric         : 0.000999
+
+===========================================================================
+ fase4.4_loo_cv.py
+===========================================================================
+  Surprisal LOO (mitjana) : 4.1618 ± 1.2547 bits/token
+
+===========================================================================
+ fase5.1_anomaly_report.py
+===========================================================================
+  Variància recollida PC1 : 32.36%
+  Voltes CRÍTICA (>=p99)  : 32
+  Voltes ALTA (>=p97)     : 94
+
+===========================================================================
+ fase5.1b_crypto_validation.py
+===========================================================================
+  IC Anomalies vs Corpus  : 2.9298 (Ràtio)
+  Diagnòstic Voltes       : concentració extrema (anom MÉS zipfià que corpus)
+
+===========================================================================
+ fase5.2_segment_anomaly_detection.py
+===========================================================================
+  Segments contigus cand. : 76
+  Significatius (FDR <=α) : 15
+
+===========================================================================
+ fase5.2b_crypto_segments.py
+===========================================================================
+  Segments triangulats    : 76
+  Convergència (5.1∩5.1b) : 17
+  Perfil lèxic (abecedari): 6
+  Perfil gramatical       : 42
+  Mixt / sense senyal     : 7 / 4
+  Voltes òrfenes (fora seg): 283 (conv=7, lex=62, gram=214)
+
+===========================================================================
+ fase5.3_hipotesis_referencies.py
+===========================================================================
+  Hipòtesi A (Morse Tèxtil)   : REBUTJADA
+  Hipòtesi B (Anom. Belgues)  : REBUTJADA
+  Hipòtesi C (Manolita/PCE)   : PENDENT (0 coincidència caràcter per caràcter)
+
+───────────────────────────────────────────────────────────────────────────
+ [OK] Resum completat! El tens guardat a: resum_global.txt
+───────────────────────────────────────────────────────────────────────────
+
+logs:
+======================================================================
+ INICIANT PIPELINE COMPLET --- CORPUS ACTIU: [MS]
+======================================================================
+
+---> Executant fase1_corpus_normalizer.py ...
+Iniciant processament de 71 teixits...
+
+────────────────────────────────────────
+TEIXIT : MS_Campanilla
+Fitxer : MS. 104-107. Campanilla.txt
+Forma  : Redondo
+Punts inicials  : 24
+Instruccions    : 54
+Rang de voltes  : 3 – 109
+Patrons repetits (≥2 línies): 95
+Tokens dominants: ['(lp-3v)l', '(2)a', '(glla-2v)3l', 'glgl3lal', 'la(23)lpl(23)g']
+Caràcters freqs : [('l', 299), ('(', 191), (')', 190), ('2', 183), ('a', 120), ('g', 115), ('3', 92), ('p', 81)]
+
+────────────────────────────────────────
+TEIXIT : MS_Claveles
+Fitxer : MS. 107-110. Claveles.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 60
+Rang de voltes  : 1 – 119
+Patrons repetits (≥2 línies): 155
+Tokens dominants: ['l(3)lxl(3)lxl(3)l(2)3(2)l(3)lxl(3)lxl(3)l(2)3(2)l(3)lxl(3)lxl(3)l', 'l(3)lxl(3)l(4)3(4)l(3)lxl(3)l(4)3(4)l(3)lxl(3)l', 'lpl3lpl(5)3(5)lpl3lpl(5)3(5)lpl3lpl', 'l3la(5)la', 'l(3)l(6)3(6)l(3)l(6)3(6)l(3)l']
+Caràcters freqs : [('l', 506), (')', 338), ('(', 331), ('3', 217), ('a', 114), ('g', 108), ('5', 104), ('2', 69)]
+
+────────────────────────────────────────
+TEIXIT : MS_Dalila
+Fitxer : MS. 110-111. Dalila.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 18
+Rang de voltes  : 1 – 35
+Patrons repetits (≥2 línies): 11
+Tokens dominants: ['(la-3v)l', 'l(3)', 'l(5)', 'lplal', 'lalal']
+Caràcters freqs : [('l', 38), ('(', 20), (')', 20), ('a', 13), ('p', 10), ('g', 9), ('3', 7), ('-', 5)]
+
+────────────────────────────────────────
+TEIXIT : MS_MLuisa
+Fitxer : MS. 111-112. MLuisa.txt
+Forma  : Redondo
+Punts inicials  : 16
+Instruccions    : 28
+Rang de voltes  : 1 – 55
+Patrons repetits (≥2 línies): 41
+Tokens dominants: ['l(3)l(3)l(3)l', 'l(4)l', '(lg-2v)l', 'a(3)(gl-3v)', 'l3la']
+Caràcters freqs : [('l', 108), ('(', 77), (')', 77), ('3', 37), ('a', 34), ('g', 29), ('-', 23), ('v', 23)]
+
+────────────────────────────────────────
+TEIXIT : MS_Raetine
+Fitxer : MS. 112-115. Raetine.txt
+Forma  : Redondo
+Punts inicials  : 5
+Instruccions    : 57
+Rang de voltes  : 3 – 115
+Patrons repetits (≥2 línies): 114
+Tokens dominants: ['lla(4)gll3lla(4)gll', '3lla(4)glla(7)glla(4)gll', '3lla(4)glla(5)glla(4)gll', '3lla(4)glla(3)glla(4)gll', 'lla(4)gllapglla(4)gll']
+Caràcters freqs : [('l', 427), ('(', 190), (')', 190), ('a', 120), ('g', 116), ('3', 92), ('p', 68), ('4', 45)]
+
+────────────────────────────────────────
+TEIXIT : MS_Titi 1
+Fitxer : MS. 115. Titi 1.txt
+Forma  : Redondo
+Punts inicials  : 16
+Instruccions    : 10
+Rang de voltes  : 3 – 23
+Patrons repetits (≥2 línies): 8
+Tokens dominants: ['l(3)l', '(2)l(2)', '3lpl', 'lpl', 'gl']
+Caràcters freqs : [('l', 20), ('2', 16), ('(', 12), (')', 12), ('3', 9), ('p', 7), ('x', 5), ('g', 4)]
+
+────────────────────────────────────────
+TEIXIT : MS_Titi 2 - Grafico B
+Fitxer : MS. 116-117. Titi 2 - Grafico B.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 20
+Rang de voltes  : 1 – 39
+Patrons repetits (≥2 línies): 40
+Tokens dominants: ['a(3)g(2)lxl(2)', 'gl(3)lxl(3)l', 'l(3)lxl(3)la', '3(4)lxl(4)3', '(2)lxl(2)a']
+Caràcters freqs : [('l', 73), (')', 57), ('(', 56), ('3', 51), ('g', 34), ('a', 33), ('p', 22), ('x', 17)]
+
+────────────────────────────────────────
+TEIXIT : MS_Titi 2 - Grafico A
+Fitxer : MS. 116. Titi 2 - Grafico A.txt
+Forma  : Ovalado
+Punts inicials  : 16
+Instruccions    : 11
+Rang de voltes  : 3 – 25
+Patrons repetits (≥2 línies): 10
+Tokens dominants: ['(3)lxl(3)', 'l(3)l', '(2)l(2)', 'lxl', 'l3l']
+Caràcters freqs : [('l', 25), ('2', 19), ('(', 18), (')', 18), ('3', 13), ('x', 11), ('p', 7), ('-', 3)]
+
+────────────────────────────────────────
+TEIXIT : MS_Titi - Puntilla
+Fitxer : MS. 117-118. Titi - Puntilla.txt
+Forma  : Redondo
+Punts inicials  : —
+Instruccions    : 7
+Rang de voltes  : 1 – 13
+Patrons repetits (≥2 línies): 6
+Tokens dominants: ['l(3)l', 'lplxlpl', 'lpl3lpl', 'lxl', 'l(3)']
+Caràcters freqs : [('l', 26), ('3', 15), ('(', 14), (')', 14), ('p', 7), ('x', 5), ('5', 2), ('4', 2)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto Bellota
+Fitxer : MS. 118. Punto Bellota.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 12
+Rang de voltes  : 2 – 13
+Patrons repetits (≥2 línies): 13
+Tokens dominants: ['(2)(5r)(2)l(3)l(2)', '(2)l(3)l(2)(5r)(2)', '(2)(3r)(2)l(5)l(2)', '(2)l(5)l(2)(3r)(2)', '(2)(7r)(2)lpl(2)']
+Caràcters freqs : [('(', 58), (')', 58), ('2', 29), ('r', 25), ('l', 18), ('3', 12), ('7', 7), ('p', 7)]
+
+────────────────────────────────────────
+TEIXIT : MS_Otro punto bellota
+Fitxer : MS. 119. Otro punto bellota.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 6
+Rang de voltes  : 1 – 11
+Patrons repetits (≥2 línies): 7
+Tokens dominants: ['(2)(2r)3r(2r)', '(2)l(3)l', '(2)l(5)l', '(2)lpl', '(2)r3r']
+Caràcters freqs : [('(', 20), (')', 20), ('2', 16), ('l', 12), ('3', 8), ('r', 7), ('R', 6), ('p', 2)]
+
+────────────────────────────────────────
+TEIXIT : MS_Otro Punto Calado
+Fitxer : MS. 119. Otro Punto Calado.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 3
+Rang de voltes  : 1 – 5
+Patrons repetits (≥2 línies): 1
+Tokens dominants: ['l3l']
+Caràcters freqs : [('l', 6), ('3', 4), ('p', 2), ('(', 2), (')', 2), ('a', 1), ('g', 1)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto Calado
+Fitxer : MS. 119. Punto Calado.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 3
+Rang de voltes  : 1 – 5
+Patrons repetits (≥2 línies): 7
+Tokens dominants: ['pl(2)3(2)lp', 'lp3pl', 'l(3)', 'l3l', 'pl(2)']
+Caràcters freqs : [('l', 12), ('(', 10), (')', 10), ('3', 9), ('p', 7), ('2', 6), ('5', 1)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto conchas
+Fitxer : MS. 120-121. Punto conchas.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 14
+Rang de voltes  : 1 – 13
+Patrons repetits (≥2 línies): 16
+Tokens dominants: ['(3r)p(3r)p(3r)p(3r)pl', 'plpl3lplplpl3lpl', 'plp3plplp3pl', 'p((2r)p-4v)l', 'l(3)lpl(3)l']
+Caràcters freqs : [('p', 67), ('l', 52), ('(', 41), (')', 41), ('3', 41), ('r', 21), ('2', 9), ('-', 9)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto dos caras
+Fitxer : MS. 121-122. Punto dos caras.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 6
+Rang de voltes  : 1 – 6
+Patrons repetits (≥2 línies): 4
+Tokens dominants: ['(2)l', 'l(2)', '(11r)3', '(2r)a']
+Caràcters freqs : [('(', 20), (')', 20), ('r', 11), ('2', 10), ('l', 6), ('3', 6), ('1', 4), ('5', 3)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto piñas
+Fitxer : MS. 121. Punto piñas.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 4
+Rang de voltes  : 1 – 7
+Patrons repetits (≥2 línies): 5
+Tokens dominants: ['l(3)', '(3)l', '(2)l', 'l(2)', 'pl']
+Caràcters freqs : [('(', 9), (')', 9), ('l', 8), ('3', 8), ('2', 4), ('p', 3), ('4', 1)]
+
+────────────────────────────────────────
+TEIXIT : MS_Hojas de Matilde
+Fitxer : MS. 122. Hojas de Matilde.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 3
+Rang de voltes  : 1 – 5
+Patrons repetits (≥2 línies): 2
+Tokens dominants: ['(2)l', 'lpl']
+Caràcters freqs : [('l', 8), ('(', 7), (')', 7), ('2', 5), ('3', 5), ('r', 2), ('p', 2), ('a', 1)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto Feito
+Fitxer : MS. 122. Punto Feito.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 6
+Rang de voltes  : 1 – 11
+Patrons repetits (≥2 línies): 9
+Tokens dominants: ['(al-3v)(2)a', '(lg-3v)l', '(2)a(4)g(2)', '(2)a(2)g(2)', '(2)ag(2)']
+Caràcters freqs : [('(', 26), (')', 26), ('l', 18), ('2', 14), ('g', 9), ('a', 9), ('3', 8), ('-', 6)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto plisado para vestidito
+Fitxer : MS. 122. Punto plisado para vestidito.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 3
+Rang de voltes  : 1 – 5
+Patrons repetits (≥2 línies): 2
+Tokens dominants: ['g(2)l', 'l(2)a']
+Caràcters freqs : [('(', 14), (')', 14), ('2', 8), ('r', 6), ('l', 6), ('g', 3), ('a', 3), ('3', 3)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto Esmeralda
+Fitxer : MS. 123. Punto Esmeralda.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 10
+Rang de voltes  : 1 – 10
+Patrons repetits (≥2 línies): 6
+Tokens dominants: ['l(4)g', 'g(3)l', 'l(2)g', '(4)l', 'gpl']
+Caràcters freqs : [('(', 12), (')', 12), ('l', 11), ('g', 11), ('4', 4), ('3', 4), ('p', 4), ('2', 4)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto Hojitas vueltas
+Fitxer : MS. 124. Punto Hojitas vueltas.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 4
+Rang de voltes  : 1 – 7
+Patrons repetits (≥2 línies): 11
+Tokens dominants: ['lpgrap', 'l(3)l', 'l(5)l', '2lp', 'lpl']
+Caràcters freqs : [('l', 15), ('p', 8), ('r', 8), ('g', 6), ('3', 5), ('2', 4), ('v', 4), ('a', 4)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto plisado para chaquetita
+Fitxer : MS. 124. Punto plisado para chaquetita.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 4
+Rang de voltes  : 1 – 4
+Patrons repetits (≥2 línies): 2
+Tokens dominants: ['(8v)(8d)(8v)(8d)', '(8d)(8v)(8d)(8v)']
+Caràcters freqs : [('(', 18), (')', 18), ('8', 16), ('v', 10), ('d', 9), ('p', 2), ('1', 2)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto semilla
+Fitxer : MS. 124. Punto semilla.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 5
+Rang de voltes  : 1 – 9
+Patrons repetits (≥2 línies): 3
+Tokens dominants: ['(2v)l', 'la', 'gl']
+Caràcters freqs : [('(', 13), (')', 12), ('l', 10), ('2', 7), ('v', 5), ('3', 4), ('p', 3), ('a', 3)]
+
+────────────────────────────────────────
+TEIXIT : MS_Palmito
+Fitxer : MS. 125. Palmito.txt
+Forma  : Ovalado
+Punts inicials  : 16
+Instruccions    : 19
+Rang de voltes  : 1 – 49
+Patrons repetits (≥2 línies): 20
+Tokens dominants: ['l(3)la(2)', 'lpl(3)lp', 'la(2)l', 'l3lpl', '(2)gl']
+Caràcters freqs : [('l', 51), ('(', 31), (')', 31), ('3', 26), ('p', 19), ('2', 11), ('-', 10), ('g', 9)]
+
+────────────────────────────────────────
+TEIXIT : MS_Ovalo1
+Fitxer : MS. 126-127. Ovalo1.txt
+Forma  : Ovalado
+Punts inicials  : —
+Instruccions    : 26
+Rang de voltes  : 1 – 51
+Patrons repetits (≥2 línies): 52
+Tokens dominants: ['l(2)gl(3)g(2)l', '(2)a(3)la(2)la', 'lp(l3-3v)lpl', 'lag(lpg-4v)l', 'l(3lpl-2v)3l']
+Caràcters freqs : [('l', 140), ('(', 111), (')', 111), ('3', 73), ('2', 61), ('p', 55), ('a', 49), ('g', 47)]
+
+────────────────────────────────────────
+TEIXIT : MS_Puntilla4
+Fitxer : MS. 127-128. Puntilla4.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 14
+Rang de voltes  : 1 – 27
+Patrons repetits (≥2 línies): 19
+Tokens dominants: ['glag(lpg-7v)la', 'la(3)l', 'l(3)gl', 'l(3)l', 'l(5)l']
+Caràcters freqs : [('l', 44), ('(', 42), (')', 42), ('3', 24), ('a', 16), ('g', 14), ('p', 13), ('7', 9)]
+
+────────────────────────────────────────
+TEIXIT : MS_Antoña o Canijo
+Fitxer : MS. 128-129. Antoña o Canijo.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 16
+Rang de voltes  : 5 – 41
+Patrons repetits (≥2 línies): 11
+Tokens dominants: ['a(3)ll(3)gl', '(la-2v)l', 'a(3)ll(3)g', '(gl-4v)p', 'glpl']
+Caràcters freqs : [('l', 49), ('(', 32), (')', 32), ('a', 19), ('3', 18), ('g', 16), ('-', 12), ('v', 12)]
+
+────────────────────────────────────────
+TEIXIT : MS_Ovalo2
+Fitxer : MS. 129-130. Ovalo2.txt
+Forma  : Ovalado
+Punts inicials  : —
+Instruccions    : 28
+Rang de voltes  : 5 – 59
+Patrons repetits (≥2 línies): 29
+Tokens dominants: ['(al-3v)3(lg-3v)', '(al-2v)3(lg-2v)', 'a(3)ll(3)ga(3)ll(3)g', '(al-3v)apg(lg-3v)', '(al-2v)apg(lg-2v)']
+Caràcters freqs : [('l', 106), ('(', 90), (')', 89), ('a', 66), ('g', 62), ('3', 61), ('-', 51), ('v', 50)]
+
+────────────────────────────────────────
+TEIXIT : MS_Vueltas del reves
+Fitxer : MS. 130-131. Vueltas del reves.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 12
+Rang de voltes  : 7 – 29
+Patrons repetits (≥2 línies): 18
+Tokens dominants: ['a(3)(ll(3)ga(3)-5v)ll(3)g', '(al-9v)xx(lg-9v)l', 'g(3)ll(3)', '(2)ll(2)', '(4)l(4)']
+Caràcters freqs : [('l', 73), ('(', 70), (')', 69), ('3', 49), ('-', 29), ('v', 29), ('g', 24), ('a', 23)]
+
+────────────────────────────────────────
+TEIXIT : MS_Hijo
+Fitxer : MS. 131-134. Hijo.txt
+Forma  : Ovalado
+Punts inicials  : —
+Instruccions    : 49
+Rang de voltes  : 1 – 97
+Patrons repetits (≥2 línies): 102
+Tokens dominants: ['(lg-5v)l(3)gllp(glla-2v)plla(3)(la-5v)', '(lg-4v)l(3)gllp(glla-1v)plla(3)(la-4v)', '(lg-3v)l(3)gllp(glla-4v)plla(3)(la-3v)', '(lg-6v)l(3)gllpgl(2)lla(3)(la-6v)', '(lg-2v)l(3)gllp(glla-5v)plla(3)']
+Caràcters freqs : [('l', 366), ('(', 206), (')', 206), ('3', 155), ('a', 139), ('g', 127), ('v', 124), ('-', 123)]
+
+────────────────────────────────────────
+TEIXIT : MS_Puntilla
+Fitxer : MS. 134-136. Puntilla.txt
+Forma  : —
+Punts inicials  : —
+Instruccions    : 15
+Rang de voltes  : 1 – 29
+Patrons repetits (≥2 línies): 41
+Tokens dominants: ['lpl(7)lp', 'l2>(3)2>', 'lpl3>lp', 'l(3)lxl(3)', '(2)lxl(2)']
+Caràcters freqs : [('l', 130), ('(', 83), (')', 83), ('a', 48), ('g', 47), ('-', 34), ('v', 34), ('3', 32)]
+
+────────────────────────────────────────
+TEIXIT : MS_Estrellita
+Fitxer : MS. 14. Estrellita.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 18
+Rang de voltes  : 3 – 37
+Patrons repetits (≥2 línies): 9
+Tokens dominants: ['g(la-3v)l', 'xl', 'lxl', '(4)xl', 'pxl']
+Caràcters freqs : [('l', 36), ('x', 22), ('(', 19), (')', 19), ('a', 11), ('g', 8), ('-', 8), ('v', 8)]
+
+────────────────────────────────────────
+TEIXIT : MS_Jazmín
+Fitxer : MS. 14. Jazmín.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 16
+Rang de voltes  : 1 – 33
+Patrons repetits (≥2 línies): 12
+Tokens dominants: ['lal(3)lgl', 'x(2-3v)xl', 'lalplgl', 'l(3)l', 'xlal']
+Caràcters freqs : [('l', 36), ('(', 17), (')', 17), ('2', 13), ('3', 11), ('p', 10), ('-', 8), ('v', 8)]
+
+────────────────────────────────────────
+TEIXIT : MS_Susana
+Fitxer : MS. 15-16. Susana.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 43
+Rang de voltes  : 1 – 85
+Patrons repetits (≥2 línies): 77
+Tokens dominants: ['lxl', 'apgl(3)l', 'l(glla-2v)', '(glla-2v)l', 'lplapgl3l']
+Caràcters freqs : [('l', 194), ('(', 82), (')', 82), ('a', 57), ('g', 51), ('2', 48), ('3', 47), ('p', 37)]
+
+────────────────────────────────────────
+TEIXIT : MS_Hojas
+Fitxer : MS. 15. Hojas.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 22
+Rang de voltes  : 1 – 43
+Patrons repetits (≥2 línies): 32
+Tokens dominants: ['(3)ga(2)l3l(3)ga(2)lpl', '(2)gapl3l(2)gapl(3)l', 'xlpl(3)ga(2)l', 'xl(3)l(2)gapl', 'xl(9)l']
+Caràcters freqs : [('l', 111), ('(', 54), (')', 53), ('3', 31), ('x', 30), ('a', 25), ('g', 23), ('p', 21)]
+
+────────────────────────────────────────
+TEIXIT : MS_Julito
+Fitxer : MS. 16-17. Julito.txt
+Forma  : Redondo
+Punts inicials  : —
+Instruccions    : 43
+Rang de voltes  : 1 – 93
+Patrons repetits (≥2 línies): 50
+Tokens dominants: ['lpl3l(3)l3lpla(3)l', 'xl(3)gl(3)la(3)', '(3)gl(3)la(3)l', 'lpl3lpla(3)l', 'lpl(3)la(3)l']
+Caràcters freqs : [('l', 148), (')', 96), ('(', 92), ('3', 91), ('p', 52), ('g', 27), ('a', 26), ('-', 20)]
+
+────────────────────────────────────────
+TEIXIT : MS_Pensamiento
+Fitxer : MS. 17-18. Pensamiento.txt
+Forma  : Hexagonal
+Punts inicials  : 12
+Instruccions    : 25
+Rang de voltes  : 3 – 51
+Patrons repetits (≥2 línies): 36
+Tokens dominants: ['lgl', 'gl(3)lal', 'lxl2gal', 'xl(12)l', 'xl(14)l']
+Caràcters freqs : [('l', 111), (')', 47), ('(', 42), ('a', 31), ('g', 31), ('2', 25), ('v', 20), ('-', 18)]
+
+────────────────────────────────────────
+TEIXIT : MS_Penas
+Fitxer : MS. 18-19. Penas.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 33
+Rang de voltes  : 1 – 68
+Patrons repetits (≥2 línies): 25
+Tokens dominants: ['l(3)l', '(la-2v)lpl(gl-2v)', 'lpl', 'l(7)', '(la-2v)l']
+Caràcters freqs : [('l', 104), (')', 67), ('(', 66), ('3', 56), ('v', 28), ('-', 27), ('p', 20), ('2', 18)]
+
+────────────────────────────────────────
+TEIXIT : MS_Pelargonia
+Fitxer : MS. 19-20. Pelargonia.txt
+Forma  : Redondo
+Punts inicials  : 10
+Instruccions    : 40
+Rang de voltes  : 3 – 79
+Patrons repetits (≥2 línies): 69
+Tokens dominants: ['(lg-6v)l', 'l(3)3(3)lpl', 'x(2)(glla-2v)(2)', 'lp3pl(5)l', 'xglla(2)l']
+Caràcters freqs : [('l', 171), ('(', 101), (')', 101), ('3', 59), ('a', 45), ('g', 42), ('2', 36), ('x', 20)]
+
+────────────────────────────────────────
+TEIXIT : MS_Dalia
+Fitxer : MS. 20-21. Dalia.txt
+Forma  : Redondo
+Punts inicials  : 6
+Instruccions    : 20
+Rang de voltes  : 3 – 45
+Patrons repetits (≥2 línies): 14
+Tokens dominants: ['l(3)lal3lg', 'x(lg-4v)l', 'l(5)lapg', 'xl', 'l(7)l3']
+Caràcters freqs : [('l', 59), ('(', 42), (')', 42), ('3', 17), ('-', 16), ('v', 16), ('5', 14), ('g', 12)]
+
+────────────────────────────────────────
+TEIXIT : MS_Rita
+Fitxer : MS. 21-23. Rita.txt
+Forma  : Redondo
+Punts inicials  : 6
+Instruccions    : 53
+Rang de voltes  : 5 – 113
+Patrons repetits (≥2 línies): 149
+Tokens dominants: ['l(a(3)l-3v)', '(la-2v)lxl(gl-2v)', 'apglp(glla-2v)plapgl', 'la(2)l(glla-4v)l(2)g', '(gl-3v)p(la-3v)lxl']
+Caràcters freqs : [('l', 409), (')', 309), ('(', 301), ('3', 167), ('2', 115), ('g', 110), ('a', 109), ('-', 91)]
+
+────────────────────────────────────────
+TEIXIT : MS_Salvador
+Fitxer : MS. 24-28. Salvador.txt
+Forma  : Redondo
+Punts inicials  : 6/8
+Instruccions    : 76
+Rang de voltes  : 1 – 153
+Patrons repetits (≥2 línies): 222
+Tokens dominants: ['g(2)gllaapl(glla-2v)(10)(glla-2v)', 'glagllal(10)l(glla-2v)gl', 'g(2)laglapl(2)(glla-2v)', 'a(11)lpl(11)gl', '(2)a(2)(lp-3v)l(2)g']
+Caràcters freqs : [('l', 680), ('(', 417), (')', 417), ('a', 281), ('g', 275), ('3', 183), ('v', 178), ('-', 174)]
+
+────────────────────────────────────────
+TEIXIT : MS_Mariposa
+Fitxer : MS. 24. Mariposa.txt
+Forma  : Redondo
+Punts inicials  : 12
+Instruccions    : 20
+Rang de voltes  : 3 – 41
+Patrons repetits (≥2 línies): 28
+Tokens dominants: ['(lg-2v)l3(la-2v)l', '(la-2v)lx', '(la-3v)lx', '(lg-2v)l', '(lg-3v)l']
+Caràcters freqs : [('l', 71), ('(', 27), (')', 27), ('p', 21), ('3', 21), ('-', 19), ('v', 19), ('a', 19)]
+
+────────────────────────────────────────
+TEIXIT : MS_Punto Montaña
+Fitxer : MS. 28. Punto Montaña.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 4
+Rang de voltes  : 1 – 7
+Patrons repetits (≥2 línies): 9
+Tokens dominants: ['3(3)lpl(3)3', '3pl(5)lp3', 'l3l(7)l3l', '3(2)l', 'l(2)3']
+Caràcters freqs : [('l', 24), ('3', 18), ('(', 13), (')', 13), ('[', 8), (']', 8), ('p', 6), ('2', 4)]
+
+────────────────────────────────────────
+TEIXIT : MS_Marianin o Katiuska
+Fitxer : MS. 53-54. Marianin o Katiuska.txt
+Forma  : Cuadrado/Redondo
+Punts inicials  : 8/10
+Instruccions    : 25
+Rang de voltes  : 1 – 49
+Patrons repetits (≥2 línies): 43
+Tokens dominants: ['(2)l(2)g(2)lp', 'l(2)a(2)l(2)', '(2)(lg-4v)lp', '(la-4v)l(2)', '(2)(lg-5v)l(2)gl']
+Caràcters freqs : [('l', 135), ('(', 127), (')', 127), ('2', 101), ('g', 34), ('a', 34), ('p', 29), ('-', 27)]
+
+────────────────────────────────────────
+TEIXIT : MS_Puntilla pequeña Salvador
+Fitxer : MS. 53. Puntilla pequeña Salvador.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 5
+Rang de voltes  : 111 – 119
+Patrons repetits (≥2 línies): 5
+Tokens dominants: ['glla', 'll', 'gl', 'la', '3l']
+Caràcters freqs : [('l', 23), ('(', 7), ('g', 7), ('a', 7), ('3', 7), (')', 7), ('-', 4), ('1', 4)]
+
+────────────────────────────────────────
+TEIXIT : MS_Araceli
+Fitxer : MS. 54-57. Araceli.txt
+Forma  : Redondo
+Punts inicials  : 16
+Instruccions    : 53
+Rang de voltes  : 1 – 105
+Patrons repetits (≥2 línies): 100
+Tokens dominants: ['(3)(lg-4v)l', '(gl-2v)p', '(la-4v)p(gl-4v)', '(3)(gl-2v)(3)', 'p(la-2v)']
+Caràcters freqs : [('l', 245), (')', 241), ('(', 231), ('3', 125), ('-', 107), ('v', 101), ('a', 80), ('g', 66)]
+
+────────────────────────────────────────
+TEIXIT : MS_Puntilla1
+Fitxer : MS. 54. Puntilla1.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 5
+Rang de voltes  : 1 – 9
+Patrons repetits (≥2 línies): 7
+Tokens dominants: ['lalplgl', 'lalal', 'l(3)l', 'glal', 'lgl']
+Caràcters freqs : [('l', 19), ('a', 8), ('g', 7), ('(', 5), (')', 5), ('p', 4), ('3', 4), ('9', 1)]
+
+────────────────────────────────────────
+TEIXIT : MS_Vaño Mimosa
+Fitxer : MS. 57-60. Vaño Mimosa.txt
+Forma  : Redondo
+Punts inicials  : 16
+Instruccions    : 55
+Rang de voltes  : 3 – 111
+Patrons repetits (≥2 línies): 146
+Tokens dominants: ['g(2)g(a(2)lplplpl(2)g3v)a(2)', '(glla3v)3l(5)l3(glla3v)', 'l(3)3(3)l', 'l(2)gp(lp4v)p(lp4v)p', 'la(glla2v)pgl']
+Caràcters freqs : [('l', 472), ('(', 236), (')', 236), ('g', 173), ('a', 168), ('p', 120), ('3', 114), ('2', 106)]
+
+────────────────────────────────────────
+TEIXIT : MS_Leonor
+Fitxer : MS. 60-64. Leonor.txt
+Forma  : Redondo
+Punts inicials  : 12
+Instruccions    : 57
+Rang de voltes  : 1 – 113
+Patrons repetits (≥2 línies): 216
+Tokens dominants: ['a(3)gl(3)lxl(3)la(3)gl', '(glla-2v)3la(3)gl(3)lxl(3)la(3)g', '(lp-3v)l', 'l(pl-3v)', '(glla-3v)3(3)lxl(3)l3l(3)lxl(3)']
+Caràcters freqs : [('L', 724), (')', 323), ('(', 320), ('A', 271), ('3', 268), ('G', 264), ('2', 137), ('P', 127)]
+
+────────────────────────────────────────
+TEIXIT : MS_Puntilla2
+Fitxer : MS. 64-65. Puntilla2.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 25
+Rang de voltes  : 1 – 49
+Patrons repetits (≥2 línies): 24
+Tokens dominants: ['l3l', '(al-2v)a(11)', '(al-2v)a', 'g(lg-2v)', 'aglla']
+Caràcters freqs : [(')', 115), ('(', 112), ('3', 75), ('l', 74), ('L', 71), ('v', 70), ('-', 69), ('a', 36)]
+
+────────────────────────────────────────
+TEIXIT : MS_Gafitas1
+Fitxer : MS. 66. Gafitas1.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 6
+Rang de voltes  : 37 – 47
+Patrons repetits (≥2 línies): 1
+Tokens dominants: ['a3g']
+Caràcters freqs : [('a', 9), ('g', 9), ('l', 8), ('3', 7), ('(', 6), ('-', 6), ('v', 6), (')', 6)]
+
+────────────────────────────────────────
+TEIXIT : MS_Puntilla nueva
+Fitxer : MS. 66. Puntilla nueva.txt
+Forma  : 
+Punts inicials  : 63
+Instruccions    : 14
+Rang de voltes  : 5 – 31
+Patrons repetits (≥2 línies): 35
+Tokens dominants: ['(3)lxl(3)l3l(3)l', '(gl-3v)(2)pl', '(la-2v)l', '(2)l(al-2v)', '(2)lxl(2)a']
+Caràcters freqs : [('l', 79), (')', 69), ('(', 68), ('3', 35), ('2', 35), ('a', 31), ('p', 26), ('v', 25)]
+
+────────────────────────────────────────
+TEIXIT : MS_Blumen Flor
+Fitxer : MS. 67. Blumen Flor.txt
+Forma  : Ovalado
+Punts inicials  : 4
+Instruccions    : 24
+Rang de voltes  : 1 – 117
+Patrons repetits (≥2 línies): 28
+Tokens dominants: ['x(2)llp', 'pll(2)x', 'a(3)l', 'l(glla-6v)l', 'l(3)g']
+Caràcters freqs : [('l', 73), ('(', 59), (')', 59), ('3', 36), ('2', 27), ('a', 25), ('x', 24), ('g', 24)]
+
+────────────────────────────────────────
+TEIXIT : MS_Grafico B - Puntilla
+Fitxer : MS. 68-69. Grafico B - Puntilla.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 37
+Rang de voltes  : 1 – 73
+Patrons repetits (≥2 línies): 88
+Tokens dominants: ['l3lal(2)gl(3)la(3)gl(3)la(2)lg', 'l(2)lxl(2)l(2)lpl(2)l(2)l', 'lgl(2)3(2)lal(5)la', 'a(3)l(glla-3v)l(3)', 'lpla(5)plpla(3)lg']
+Caràcters freqs : [('l', 275), ('(', 141), (')', 141), ('3', 108), ('a', 68), ('g', 52), ('p', 47), ('2', 45)]
+
+────────────────────────────────────────
+TEIXIT : MS_Adolbert
+Fitxer : MS. 70. Adolbert.txt
+Forma  : Cuadrado
+Punts inicials  : 4
+Instruccions    : 23
+Rang de voltes  : 1 – 45
+Patrons repetits (≥2 línies): 35
+Tokens dominants: ['xl(3)l', '(gl-2v)(4)gl', 'pla(3)l', 'l3lgl(4)g', 'la(3)l']
+Caràcters freqs : [('l', 134), ('(', 65), (')', 65), ('3', 47), ('p', 30), ('v', 29), ('-', 28), ('a', 25)]
+
+────────────────────────────────────────
+TEIXIT : MS_Margarita
+Fitxer : MS. 71-74. Margarita.txt
+Forma  : 
+Punts inicials  : 10
+Instruccions    : 71
+Rang de voltes  : 3 – 115
+Patrons repetits (≥2 línies): 119
+Tokens dominants: ['la(glla-2v)pgl', 'lap(glla-2v)', 'l3llagllagl', 'glla3ll3pllaglla', '(glla-2/v)gll3l']
+Caràcters freqs : [('l', 380), ('(', 214), (')', 213), ('a', 123), ('g', 107), ('2', 99), ('3', 94), ('v', 75)]
+
+────────────────────────────────────────
+TEIXIT : MS_Plumitas
+Fitxer : MS. 74-75. Plumitas.txt
+Forma  : Cuadrado
+Punts inicials  : 8
+Instruccions    : 26
+Rang de voltes  : 1 – 51
+Patrons repetits (≥2 línies): 53
+Tokens dominants: ['(2)(lg-3v)(lp-3v)(la-3v)l(2)l3l(2)', '(2)(lg-2v)(lp-3v)(la-2v)', '(lp-3v)la(2)la(3)gl(2)g', '(lp-3v)la(2)la(5)', '(11)a(2)l3l(2)g']
+Caràcters freqs : [('l', 147), (')', 112), ('(', 111), ('3', 60), ('2', 58), ('a', 42), ('-', 41), ('v', 41)]
+
+────────────────────────────────────────
+TEIXIT : MS_Puntilla3
+Fitxer : MS. 75-76. Puntilla3.txt
+Forma  : 
+Punts inicials  : 8
+Instruccions    : 8
+Rang de voltes  : 1 – 15
+Patrons repetits (≥2 línies): 10
+Tokens dominants: ['(2)3(2)(l(5)-2v)l', '(l(3)l3-5v)l(3)l', '(l(4)2/v)l(5)l', '(l(2)2/v)l', '(l(5)-2v)l']
+Caràcters freqs : [('l', 54), (')', 51), ('(', 50), ('2', 21), ('3', 21), ('v', 21), ('/', 19), ('-', 17)]
+
+────────────────────────────────────────
+TEIXIT : MS_Mary-Luz
+Fitxer : MS. 75. Mary-Luz.txt
+Forma  : Cuadrado
+Punts inicials  : —
+Instruccions    : 10
+Rang de voltes  : 43 – 61
+Patrons repetits (≥2 línies): 16
+Tokens dominants: ['l(3)l3l(3)l', 'l(5)lpl(5)l', '(3)l3l(5)l', 'plplapgl', 'lapglpl']
+Caràcters freqs : [('l', 43), ('(', 27), (')', 27), ('p', 23), ('3', 18), ('a', 12), ('5', 9), ('g', 6)]
+
+────────────────────────────────────────
+TEIXIT : MS_Gafitas2
+Fitxer : MS. 76. Gafitas2.txt
+Forma  : Cuadrado
+Punts inicials  : —
+Instruccions    : 14
+Rang de voltes  : 33 – 59
+Patrons repetits (≥2 línies): 33
+Tokens dominants: ['(lg-2v)(l(2)p-2v)lgl', '(3)lxl(3)', 'g(lg-2v)l(2)', '(la-2v)l', '(2)(la-2v)l']
+Caràcters freqs : [('l', 87), ('(', 69), (')', 68), ('2', 38), ('a', 31), ('3', 30), ('g', 28), ('-', 24)]
+
+────────────────────────────────────────
+TEIXIT : MS_Madreselva
+Fitxer : MS. 77. Madreselva.txt
+Forma  : Ovalado
+Punts inicials  : 8
+Instruccions    : 22
+Rang de voltes  : 1 – 223
+Patrons repetits (≥2 línies): 31
+Tokens dominants: ['a(4)l3', 'x(3)l', 'l(3)x', 'x(3)llp', 'pll(2)xx']
+Caràcters freqs : [('l', 82), ('(', 58), (')', 58), ('3', 38), ('x', 32), ('a', 28), ('g', 27), ('4', 17)]
+
+────────────────────────────────────────
+TEIXIT : MS_Grafico 2
+Fitxer : MS. 78-79. Grafico 2.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 37
+Rang de voltes  : 9 – 85
+Patrons repetits (≥2 línies): 83
+Tokens dominants: ['l(gl-7v)(3)3(3)(la-7v)l', 'la(4)l(2)(glla-4v)(2)l(4)g', 'la(4)l(glla-5v)l(4)g', 'la(4)l3', 'a(4)l(2)(glla-4v)(2)l(4)g']
+Caràcters freqs : [('l', 256), ('(', 179), (')', 179), ('3', 94), ('a', 83), ('g', 78), ('-', 59), ('v', 59)]
+
+────────────────────────────────────────
+TEIXIT : MS_Luis
+Fitxer : MS. 80-82. Luis.txt
+Forma  : Redondo
+Punts inicials  : 12
+Instruccions    : 67
+Rang de voltes  : 1 – 139
+Patrons repetits (≥2 línies): 169
+Tokens dominants: ['la(glla-2v)(2)l', 'l(2)(glla-2v)gl', 'l(3)3(3)lpl', 'xl(3)l(2)3(2)l', 'l(glla-3v)']
+Caràcters freqs : [('l', 440), ('(', 279), (')', 279), ('3', 171), ('2', 127), ('g', 118), ('a', 112), ('-', 111)]
+
+────────────────────────────────────────
+TEIXIT : MS_La Puntilla
+Fitxer : MS. 83-84. La Puntilla.txt
+Forma  : 
+Punts inicials  : —
+Instruccions    : 24
+Rang de voltes  : 1 – 47
+Patrons repetits (≥2 línies): 7
+Tokens dominants: ['lgal', 'lla(9)g', 'pl', 'ag', 'gal']
+Caràcters freqs : [(')', 136), ('(', 135), ('l', 122), ('-', 57), ('v', 57), ('2', 46), ('3', 42), ('a', 40)]
+
+────────────────────────────────────────
+TEIXIT : MS_Morin
+Fitxer : MS. 84-85. Morin.txt
+Forma  : Cuadrado
+Punts inicials  : 12
+Instruccions    : 34
+Rang de voltes  : 1 – 71
+Patrons repetits (≥2 línies): 69
+Tokens dominants: ['(lp-3v)l(3)(la-3v)l', 'l(2)g', 'l(glla-2v)', 'gl3l', '(4)la(glla-2v)']
+Caràcters freqs : [('l', 214), (')', 162), ('(', 161), ('3', 69), ('a', 68), ('g', 63), ('v', 50), ('-', 49)]
+
+────────────────────────────────────────
+TEIXIT : MS_Celia 1
+Fitxer : MS. 85-87. Celia 1.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 53
+Rang de voltes  : 1 – 107
+Patrons repetits (≥2 línies): 59
+Tokens dominants: ['a(3)g(2)lxl(2)l3l(2)lxl(2)a(3)', 'apg(3)lxl(3)l3l(3)lxl(3)ap', '3(4)lxl(4)l3l(4)lxl(4)3l', 'a(5)g(plxl-3v)pa(5)g', '(la-7v)l']
+Caràcters freqs : [('l', 208), ('(', 173), (')', 173), ('3', 88), ('-', 77), ('v', 76), ('a', 70), ('g', 56)]
+
+────────────────────────────────────────
+TEIXIT : MS_Celia 2
+Fitxer : MS. 88. Celia 2.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 32
+Rang de voltes  : 1 – 65
+Patrons repetits (≥2 línies): 32
+Tokens dominants: ['(2)lxl(2)l3l(2)lxl(2)', '(3)lxl(3)l3l(3)lxl(3)', 'l(al-3v)', 'g(2)lxl(2)', '(2)lxl(2)a']
+Caràcters freqs : [('l', 99), ('(', 77), (')', 77), ('3', 52), ('2', 39), ('p', 32), ('a', 30), ('-', 28)]
+
+────────────────────────────────────────
+TEIXIT : MS_Cacus
+Fitxer : MS. 89. Cacus.txt
+Forma  : Cuadrado
+Punts inicials  : 8
+Instruccions    : 22
+Rang de voltes  : 1 – 23
+Patrons repetits (≥2 línies): 48
+Tokens dominants: ['lplapglplxlplapglpl', 'l(3)l3l(3)lxl(3)l3l(3)l', 'l(5)lxl(5)l', 'l(5)lxl(5)lxl(5)', '(5)ll(5)lxl(5)l']
+Caràcters freqs : [('l', 145), (')', 61), ('(', 60), ('3', 44), ('x', 41), ('p', 31), ('a', 20), ('g', 19)]
+
+────────────────────────────────────────
+TEIXIT : MS_Pino
+Fitxer : MS. 90-93. Pino.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 68
+Rang de voltes  : 3 – 137
+Patrons repetits (≥2 línies): 99
+Tokens dominants: ['l(al-3v)x(lg-3v)', 'l3l', 'pla(glla-9v)glpl', 'l(al-2v)x(lg-2v)', 'l(al-4v)x(lg-4v)']
+Caràcters freqs : [('l', 328), (')', 245), ('(', 240), ('3', 122), ('a', 109), ('g', 92), ('v', 90), ('-', 89)]
+
+────────────────────────────────────────
+TEIXIT : MS_Fajas
+Fitxer : MS. 90. Fajas.txt
+Forma  : Redondo
+Punts inicials  : 8
+Instruccions    : 21
+Rang de voltes  : 1 – 43
+Patrons repetits (≥2 línies): 33
+Tokens dominants: ['(2)lxl(2)l3l(2)lxl(2)', '(pl-2v)(2)(gl-2v)', 'p(la-3v)(2)lal', 'g(2)lxl(2)', '(lx-3v)l']
+Caràcters freqs : [('l', 80), ('(', 55), (')', 55), ('2', 33), ('3', 31), ('p', 25), ('a', 24), ('g', 17)]
+
+========================================
+Teixits processats            : 71
+Patrons sintàctics compartits : 400
+Símbols de hardware analitzats: 53
+
+Fitxers generats a la carpeta 'res_fase1/':
+  · teixits_dataset.json
+  · taula_patrons_compartits.csv
+  · taula_simbols_individuals.csv
+
+---> Executant fase2_token_inventory.py ...
+
+FASE 2 COMPLETADA
+  Teixits processats : 71
+  Voltes             : 1778
+  Tokens únics       : 377
+
+---> Executant fase3.1_markov_model.py ...
+FASE 3.1 COMPLETADA
+  Voltes analitzades : 1778
+  Tokens al corpus   : 81492
+  Tokens únics       : 377
+  Bigrames únics     : 1439
+  Output             : C:\Users\dfranco\OneDrive\paula tfg\TFG\PIPELINE\RESULTATS_MS\res_fase3.1\markov_model.json
+
+---> Executant fase3.1b_transition_significance.py ...
+FASE 3.1b COMPLETADA
+  Bigrames testats        : 479
+  Significatius (q<0.05) : 286
+  Top-10 per lift entre significatius:
+              MZ → MZ            n=   6  lift=7246.73  q=0.00e+00
+               I → M             n=  13  lift=4428.56  q=0.00e+00
+               M → V             n=  15  lift=3516.79  q=0.00e+00
+             IMZ → IMZ           n=   5  lift=3465.83  q=0.00e+00
+               R → R             n=  12  lift=3126.04  q=0.00e+00
+               M → M             n=   5  lift=1107.14  q=0.00e+00
+               d → d             n=  56  lift=1073.07  q=0.00e+00
+            <nl> → n             n=   3  lift=1035.25  q=1.00e-08
+               4 → /             n=   7  lift= 718.14  q=0.00e+00
+               5 → /             n=   6  lift= 718.14  q=0.00e+00
+  JSON : PIPELINE\RESULTATS_MS\res_fase3.1b\transition_significance.json
+  CSV  : PIPELINE\RESULTATS_MS\res_fase3.1b\transition_significance.csv
+
+---> Executant fase3.2_distributional_classes.py ...
+FASE 3.2 COMPLETADA
+  Tokens totals        : 377
+  Tokens clusteritzats : 163  (freq > 1)
+  Tokens RARE          : 214
+  Dimensions vector    : 834  (PPMI smoothed)
+  Variància PCA (top5) : [0.12, 0.051, 0.041, 0.029, 0.028]
+  k òptim (silhouette) : 17  (score=0.3356)
+  Outliers (z>2)       : 6
+
+Resum per classe:
+  C0  ( 4 toks)  pos_mitja=0.57  H_succ=0.57  membres=['(1)', '(23)', '<v>', 'q']
+  C1  (30 toks)  pos_mitja=0.48  H_succ=2.05  membres=['#', ')', '-', '/', '3', '33', '3>', '7>'] ...
+  C2  ( 6 toks)  pos_mitja=0.56  H_succ=1.74  membres=['(12)', '(14)', '(16)', '(18)', '(20)', '(22)']
+  C3  (17 toks)  pos_mitja=0.55  H_succ=0.11  membres=['<(2r)p>', '<(3)l3l>', '<(3r)p>', '<a(2)g>', '<a(3)(lp-3v)l(3)g>', '<a(3)ll(3)g>', '<a(4)(lp-3v)l(4)g>', '<a(4)g>'] ...
+  C4  ( 8 toks)  pos_mitja=0.53  H_succ=0.33  membres=['11', '12', '14', '2', '4', '5', '7', '8']
+  C5  (12 toks)  pos_mitja=0.49  H_succ=0.86  membres=['<GLLA>', '<LG>', '<PLXL>', '<glla>', '<l(2)g>', '<l(3)l3>', '<l(5)>', '<lap>'] ...
+  C6  (15 toks)  pos_mitja=0.50  H_succ=2.11  membres=['(10)', '(11)', '(13)', '(19)', '(2)', '(3)', '(4)', '(5)'] ...
+  C7  ( 4 toks)  pos_mitja=0.61  H_succ=1.54  membres=['(31)', '(41)', '<2>', '<l(3)>']
+  C8  ( 6 toks)  pos_mitja=0.62  H_succ=1.24  membres=['(15)', '(17)', '(21)', '(25)', '(27)', '(29)']
+  C9  ( 9 toks)  pos_mitja=0.53  H_succ=1.52  membres=['<AL>', '<LP>', '<LX>', '<PL>', 'A', 'G', 'L', 'P'] ...
+  C10  ( 8 toks)  pos_mitja=0.61  H_succ=0.16  membres=['(24)', '(26)', '(28)', '11>', '4>', '<3>', '<7', 'l']
+  C11  ( 8 toks)  pos_mitja=0.48  H_succ=1.12  membres=['2>', '<', '<3', '<ln>', '<lp>', ']', 'f', 'g']
+  C12  ( 8 toks)  pos_mitja=0.44  H_succ=1.17  membres=['5>', '<222222>', '<3lpl>', '<a(2)l>', '<a(3)ll(3)p>', '<apl>', '<lpg>', '<lxlp>']
+  C13  (11 toks)  pos_mitja=0.44  H_succ=0.95  membres=['<#glla>', '<(3)l>', '<3l>', '<XL>', '<a(3)l>', '<apg>', '<l(5)l>', '<la(2)>'] ...
+  C14  ( 8 toks)  pos_mitja=0.58  H_succ=0.12  membres=['<glla#>', '<l(2)>', '<la(3)>', '<ll(3)>', '<ll(3)ga(3)>', '<lplapg>', '<lxl(3)>', '<pella>']
+  C15  ( 3 toks)  pos_mitja=0.76  H_succ=0.97  membres=['(33)', '(35)', '(43)']
+  C16  ( 6 toks)  pos_mitja=0.30  H_succ=1.55  membres=['22', '<2', 'IMZ', 'MZ', 'V', 'Z']
+  C_RARE (214 toks)  [hapax, no clusteritzats]  membres=['(37)', '(39)', '(45)', '(47)', '(49)', '(51)', '(53)', '(55)'] ...
+
+  JSON: C:\Users\dfranco\OneDrive\paula tfg\TFG\PIPELINE\RESULTATS_MS\res_fase3.2\distributional_classes.json
+
+---> Executant fase3.2b_clustering_stability.py ...
+Original: V_full=377, k=17, tokens clusteritzats=163
+  bootstrap 25/200: ARI mitjà fins ara = 0.482 (n_iter_vàlid=25)
+  bootstrap 50/200: ARI mitjà fins ara = 0.482 (n_iter_vàlid=50)
+  bootstrap 75/200: ARI mitjà fins ara = 0.488 (n_iter_vàlid=75)
+  bootstrap 100/200: ARI mitjà fins ara = 0.488 (n_iter_vàlid=100)
+  bootstrap 125/200: ARI mitjà fins ara = 0.490 (n_iter_vàlid=125)
+  bootstrap 150/200: ARI mitjà fins ara = 0.491 (n_iter_vàlid=150)
+  bootstrap 175/200: ARI mitjà fins ara = 0.490 (n_iter_vàlid=175)
+  bootstrap 200/200: ARI mitjà fins ara = 0.492 (n_iter_vàlid=200)
+
+FASE 3.2b COMPLETADA
+  Iteracions vàlides : 200/200
+  ARI mitjà          : 0.4924 ± 0.0662
+  IC 95%             : [0.3724, 0.6353]
+  Tokens intersect mitj. : 142.8
+  Output             : PIPELINE\RESULTATS_MS\res_fase3.2b\clustering_stability.json
+
+---> Executant fase3.3_volta_signatures.py ...
+FASE 3.3 COMPLETADA
+  Voltes processades   : 1778
+  Teixits              : 71
+  Classes utilitzades  : 18
+  Salts calculats      : 1707
+  Salt mitjà (cos.)    : 0.1881  (sd=0.2241)
+
+  Top-5 salts entre voltes consecutives:
+    MS_Campanilla          v89   d=1.000  z=3.62
+    MS_Claveles            v3    d=1.000  z=3.62
+    MS_Claveles            v5    d=1.000  z=3.62
+    MS_Raetine             v59   d=1.000  z=3.62
+    MS_Palmito             v21   d=1.000  z=3.62
+
+  Top-5 voltes més atípiques dins el seu teixit:
+    MS_Julito              v87   d_cent=0.948  z=2.87
+    MS_Campanilla          v89   d_cent=0.931  z=4.40
+    MS_Penas               v17   d_cent=0.927  z=2.08
+    MS_Leonor              v109  d_cent=0.901  z=1.99
+    MS_Margarita           v59   d_cent=0.891  z=5.26
+
+  JSON: PIPELINE\RESULTATS_MS\res_fase3.3\volta_signatures.json
+  CSV : PIPELINE\RESULTATS_MS\res_fase3.3\volta_signatures.csv
+
+---> Executant fase3.4_volta_clustering.py ...
+FASE 3.4 COMPLETADA
+  Voltes totals        : 1778
+  Voltes validades     : 1778 (descartades buides: 0)
+  k òptim (silhouette) : 2  (score=0.4152)
+  Outliers (z>2)       : 104
+
+Resum per tipus de volta:
+  V0   n=584  long= 68.0 prof=1.09  [C1=0.37 C10=0.15 C13=0.10]  teixits: MS_Leonor(40), MS_Celia 1(34), MS_Hijo(31)
+  V1   n=1194 long= 35.0 prof=1.08  [C10=0.43 C6=0.20 C1=0.16]  teixits: MS_Claveles(57), MS_Luis(57), MS_Salvador(55)
+
+Mostres de seqüències (primeres 20 voltes de cada teixit):
+  MS_Campanilla          [ 54]  V1 V1 V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V0 V0 V0 V0 ...
+  MS_Claveles            [ 60]  V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Dalila              [ 18]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1
+  MS_MLuisa              [ 28]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 V1 V1 V1 V1 ...
+  MS_Raetine             [ 57]  V1 V1 V1 V0 V1 V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 ...
+  MS_Titi 1              [ 10]  V1 V1 V1 V1 V0 V1 V0 V0 V1 V1
+  MS_Titi 2 - Grafico B  [ 20]  V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V0 V0 V0 V0 V0 V0
+  MS_Titi 2 - Grafico A  [ 11]  V1 V1 V1 V1 V0 V1 V0 V0 V0 V1 V1
+  MS_Titi - Puntilla     [  7]  V1 V1 V1 V1 V1 V1 V1
+  MS_Punto Bellota       [ 12]  V0 V0 V0 V0 V0 V0 V0 V0 V1 V0 V1 V0
+  MS_Otro punto bellota  [  6]  V0 V0 V0 V0 V0 V0
+  MS_Otro Punto Calado   [  3]  V1 V1 V1
+  MS_Punto Calado        [  3]  V1 V1 V1
+  MS_Punto conchas       [ 14]  V0 V0 V0 V1 V1 V1 V0 V1 V1 V1 V1 V1 V1 V0
+  MS_Punto dos caras     [  6]  V0 V0 V0 V0 V0 V0
+  MS_Punto piñas         [  4]  V1 V1 V1 V1
+  MS_Hojas de Matilde    [  3]  V1 V1 V1
+  MS_Punto Feito         [  6]  V1 V1 V1 V1 V1 V1
+  MS_Punto plisado para vestidito [  3]  V0 V0 V0
+  MS_Punto Esmeralda     [ 10]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1
+  MS_Punto Hojitas vueltas [  4]  V0 V1 V1 V0
+  MS_Punto plisado para chaquetita [  4]  V0 V0 V0 V0
+  MS_Punto semilla       [  5]  V1 V0 V0 V1 V0
+  MS_Palmito             [ 19]  V1 V1 V1 V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1
+  MS_Ovalo1              [ 26]  V1 V0 V1 V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 V0 V0 V1 V0 ...
+  MS_Puntilla4           [ 14]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 V1
+  MS_Antoña o Canijo     [ 16]  V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 V0 V0 V0 V0
+  MS_Ovalo2              [ 28]  V1 V0 V0 V0 V0 V0 V0 V0 V1 V0 V0 V1 V1 V1 V1 V0 V0 V0 V0 V0 ...
+  MS_Vueltas del reves   [ 12]  V0 V0 V0 V0 V0 V1 V1 V1 V1 V1 V1 V1
+  MS_Hijo                [ 49]  V0 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V0 V0 V1 V1 V1 V1 V0 V1 V0 ...
+  MS_Puntilla            [ 15]  V1 V0 V1 V1 V1 V1 V1 V1 V0 V1 V0 V0 V0 V1 V0
+  MS_Estrellita          [ 18]  V0 V0 V0 V1 V1 V0 V1 V0 V0 V0 V1 V0 V1 V0 V1 V0 V1 V0
+  MS_Jazmín              [ 16]  V1 V0 V0 V0 V0 V0 V0 V0 V1 V1 V0 V1 V1 V1 V1 V1
+  MS_Susana              [ 43]  V0 V1 V1 V1 V1 V1 V0 V1 V0 V1 V1 V1 V1 V0 V0 V1 V0 V1 V1 V1 ...
+  MS_Hojas               [ 22]  V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Julito              [ 43]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Pensamiento         [ 25]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V1 V0 V1 V0 V0 V1 V1 V1 ...
+  MS_Penas               [ 33]  V0 V1 V1 V1 V0 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V1 V1 V1 V1 ...
+  MS_Pelargonia          [ 40]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Dalia               [ 20]  V1 V1 V1 V1 V1 V1 V0 V1 V0 V0 V1 V1 V1 V1 V1 V1 V0 V0 V0 V0
+  MS_Rita                [ 53]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Salvador            [ 76]  V0 V1 V1 V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Mariposa            [ 20]  V1 V0 V1 V1 V1 V1 V1 V0 V1 V0 V1 V0 V0 V1 V0 V0 V1 V1 V1 V1
+  MS_Punto Montaña       [  4]  V1 V1 V1 V1
+  MS_Marianin o Katiuska [ 25]  V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Puntilla pequeña Salvador [  5]  V1 V0 V0 V1 V1
+  MS_Araceli             [ 53]  V0 V0 V1 V1 V1 V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 ...
+  MS_Puntilla1           [  5]  V1 V1 V1 V1 V1
+  MS_Vaño Mimosa         [ 55]  V1 V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 ...
+  MS_Leonor              [ 57]  V1 V1 V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 V0 ...
+  MS_Puntilla2           [ 25]  V0 V0 V0 V0 V0 V0 V0 V0 V0 V0 V1 V0 V0 V0 V0 V0 V0 V0 V0 V0 ...
+  MS_Gafitas1            [  6]  V0 V0 V0 V0 V0 V0
+  MS_Puntilla nueva      [ 14]  V0 V0 V1 V1 V1 V1 V0 V1 V1 V0 V1 V0 V0 V1
+  MS_Blumen Flor         [ 24]  V1 V0 V0 V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 ...
+  MS_Grafico B - Puntilla [ 37]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 ...
+  MS_Adolbert            [ 23]  V0 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V1 V1 V1 V1 V1 V1 V0 V1 V1 ...
+  MS_Margarita           [ 71]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 V1 V1 V1 V1 V1 V1 ...
+  MS_Plumitas            [ 26]  V0 V1 V1 V1 V1 V0 V0 V0 V0 V0 V0 V0 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Puntilla3           [  8]  V0 V0 V0 V0 V0 V0 V0 V1
+  MS_Mary-Luz            [ 10]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1
+  MS_Gafitas2            [ 14]  V0 V0 V1 V1 V0 V1 V0 V1 V1 V0 V1 V0 V0 V0
+  MS_Madreselva          [ 22]  V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V0 V1 V1 V1 V1 V1 V1 ...
+  MS_Grafico 2           [ 37]  V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 V0 ...
+  MS_Luis                [ 67]  V1 V0 V1 V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_La Puntilla         [ 24]  V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V0 V0 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Morin               [ 34]  V1 V0 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Celia 1             [ 53]  V1 V0 V0 V1 V0 V1 V0 V1 V0 V0 V0 V0 V0 V0 V1 V1 V1 V0 V0 V1 ...
+  MS_Celia 2             [ 32]  V1 V0 V1 V1 V1 V0 V1 V0 V0 V0 V1 V1 V0 V0 V1 V1 V1 V1 V1 V1 ...
+  MS_Cacus               [ 22]  V0 V0 V0 V0 V1 V0 V1 V1 V0 V1 V1 V1 V0 V1 V1 V1 V1 V1 V1 V1 ...
+  MS_Pino                [ 68]  V0 V1 V1 V1 V1 V0 V1 V0 V1 V0 V1 V0 V1 V1 V1 V0 V0 V0 V1 V0 ...
+  MS_Fajas               [ 21]  V1 V1 V1 V1 V1 V1 V1 V1 V0 V1 V0 V0 V1 V1 V0 V1 V1 V1 V0 V0 ...
+
+  JSON tipus  : PIPELINE\RESULTATS_MS\res_fase3.4\volta_classes.json
+  CSV         : PIPELINE\RESULTATS_MS\res_fase3.4\volta_a_tipus.csv
+  Seqüències  : PIPELINE\RESULTATS_MS\res_fase3.4\sequencies_teixits.json
+
+---> Executant fase4.1_macro_grammar.py ...
+FASE 4.1 COMPLETADA (gramàtica MACRO)
+  Seqüències (teixits)  : 71
+  Tipus de volta (V|E)  : 2
+  Contextos vistos      : 3
+  H_global              : 0.9738 bits
+  Transicions rares (=1): 0
+
+  Surprisal mitjà per teixit (bits/transició):
+    MS_Punto semilla        H̄=2.06  perpl=4.16  len=5  zero=0
+    MS_Punto Hojitas vueltas  H̄=2.00  perpl=4.00  len=4  zero=0
+    MS_Puntilla pequeña Salvador  H̄=1.80  perpl=3.47  len=5  zero=0
+    MS_Estrellita           H̄=1.76  perpl=3.38  len=18  zero=0
+    MS_Punto plisado para vestidito  H̄=1.75  perpl=3.37  len=3  zero=0
+    MS_Gafitas2             H̄=1.65  perpl=3.15  len=14  zero=0
+    MS_Otro Punto Calado    H̄=1.57  perpl=2.97  len=3  zero=0
+    MS_Punto Calado         H̄=1.57  perpl=2.97  len=3  zero=0
+    MS_Hojas de Matilde     H̄=1.57  perpl=2.97  len=3  zero=0
+    MS_Punto plisado para chaquetita  H̄=1.55  perpl=2.93  len=4  zero=0
+    MS_Puntilla nueva       H̄=1.52  perpl=2.87  len=14  zero=0
+    MS_Punto Bellota        H̄=1.45  perpl=2.73  len=12  zero=0
+    MS_Titi 1               H̄=1.44  perpl=2.72  len=10  zero=0
+    MS_Puntilla             H̄=1.43  perpl=2.70  len=15  zero=0
+    MS_Mariposa             H̄=1.42  perpl=2.68  len=20  zero=0
+    MS_Titi 2 - Grafico A   H̄=1.38  perpl=2.61  len=11  zero=0
+    MS_Puntilla3            H̄=1.35  perpl=2.55  len=8  zero=0
+    MS_Punto piñas          H̄=1.32  perpl=2.50  len=4  zero=0
+    MS_Punto Montaña        H̄=1.32  perpl=2.50  len=4  zero=0
+    MS_Otro punto bellota   H̄=1.31  perpl=2.49  len=6  zero=0
+    MS_Punto dos caras      H̄=1.31  perpl=2.49  len=6  zero=0
+    MS_Gafitas1             H̄=1.31  perpl=2.49  len=6  zero=0
+    MS_Susana               H̄=1.25  perpl=2.38  len=43  zero=0
+    MS_Fajas                H̄=1.22  perpl=2.32  len=21  zero=0
+    MS_Celia 2              H̄=1.20  perpl=2.30  len=32  zero=0
+    MS_Ovalo1               H̄=1.18  perpl=2.27  len=26  zero=0
+    MS_Punto conchas        H̄=1.17  perpl=2.25  len=14  zero=0
+    MS_Jazmín               H̄=1.17  perpl=2.25  len=16  zero=0
+    MS_Puntilla1            H̄=1.16  perpl=2.23  len=5  zero=0
+    MS_Ovalo2               H̄=1.14  perpl=2.21  len=28  zero=0
+    MS_Cacus                H̄=1.13  perpl=2.18  len=22  zero=0
+    MS_Penas                H̄=1.10  perpl=2.14  len=33  zero=0
+    MS_Hijo                 H̄=1.09  perpl=2.13  len=49  zero=0
+    MS_Pensamiento          H̄=1.06  perpl=2.09  len=25  zero=0
+    MS_Pino                 H̄=1.06  perpl=2.09  len=68  zero=0
+    MS_Dalia                H̄=1.04  perpl=2.06  len=20  zero=0
+    MS_Punto Feito          H̄=1.04  perpl=2.05  len=6  zero=0
+    MS_Celia 1              H̄=1.01  perpl=2.01  len=53  zero=0
+    MS_Madreselva           H̄=1.01  perpl=2.01  len=22  zero=0
+    MS_Titi 2 - Grafico B   H̄=1.00  perpl=2.01  len=20  zero=0
+    MS_Araceli              H̄=1.00  perpl=2.01  len=53  zero=0
+    MS_Puntilla2            H̄=0.99  perpl=1.98  len=25  zero=0
+    MS_Raetine              H̄=0.98  perpl=1.98  len=57  zero=0
+    MS_Vaño Mimosa          H̄=0.98  perpl=1.97  len=55  zero=0
+    MS_Vueltas del reves    H̄=0.97  perpl=1.96  len=12  zero=0
+    MS_Margarita            H̄=0.96  perpl=1.95  len=71  zero=0
+    MS_Antoña o Canijo      H̄=0.96  perpl=1.95  len=16  zero=0
+    MS_La Puntilla          H̄=0.96  perpl=1.94  len=24  zero=0
+    MS_Titi - Puntilla      H̄=0.95  perpl=1.93  len=7  zero=0
+    MS_Blumen Flor          H̄=0.95  perpl=1.93  len=24  zero=0
+    MS_Palmito              H̄=0.92  perpl=1.89  len=19  zero=0
+    MS_Puntilla4            H̄=0.92  perpl=1.89  len=14  zero=0
+    MS_Campanilla           H̄=0.91  perpl=1.88  len=54  zero=0
+    MS_Adolbert             H̄=0.90  perpl=1.86  len=23  zero=0
+    MS_Grafico 2            H̄=0.84  perpl=1.79  len=37  zero=0
+    MS_Plumitas             H̄=0.80  perpl=1.74  len=26  zero=0
+    MS_Leonor               H̄=0.79  perpl=1.73  len=57  zero=0
+    MS_Luis                 H̄=0.79  perpl=1.73  len=67  zero=0
+    MS_Punto Esmeralda      H̄=0.78  perpl=1.72  len=10  zero=0
+    MS_Mary-Luz             H̄=0.78  perpl=1.72  len=10  zero=0
+    MS_Rita                 H̄=0.78  perpl=1.71  len=53  zero=0
+    MS_Salvador             H̄=0.77  perpl=1.71  len=76  zero=0
+    MS_Grafico B - Puntilla  H̄=0.73  perpl=1.66  len=37  zero=0
+    MS_Marianin o Katiuska  H̄=0.65  perpl=1.57  len=25  zero=0
+    MS_MLuisa               H̄=0.63  perpl=1.55  len=28  zero=0
+    MS_Morin                H̄=0.63  perpl=1.54  len=34  zero=0
+    MS_Hojas                H̄=0.62  perpl=1.54  len=22  zero=0
+    MS_Julito               H̄=0.61  perpl=1.53  len=43  zero=0
+    MS_Dalila               H̄=0.59  perpl=1.51  len=18  zero=0
+    MS_Pelargonia           H̄=0.57  perpl=1.49  len=40  zero=0
+    MS_Claveles             H̄=0.47  perpl=1.39  len=60  zero=0
+
+  Top-5 voltes amb surprisal MACRO més alta:
+    MS_Campanilla          v7    V1→V0  surp=2.55  p=0.1702
+    MS_Campanilla          v31   V1→V0  surp=2.55  p=0.1702
+    MS_Campanilla          v35   V1→V0  surp=2.55  p=0.1702
+    MS_Campanilla          v47   V1→V0  surp=2.55  p=0.1702
+    MS_Campanilla          v83   V1→V0  surp=2.55  p=0.1702
+
+  JSON : PIPELINE\RESULTATS_MS\res_fase4.1\macro_grammar.json
+  CSV  : PIPELINE\RESULTATS_MS\res_fase4.1\macro_surprisal_per_volta.csv
+
+---> Executant fase4.2_micro_grammar.py ...
+FASE 4.2 COMPLETADA (gramàtica MICRO)
+  Voltes (seqüències)   : 1778
+  Classes Cx            : 18
+  Tokens totals         : 81492
+  Contextos vistos      : 19
+  H_global              : 1.0798 bits
+  Transicions rares (≤2): 26
+  Surprisal mitjà global: 3.169 bits
+
+  Top-5 voltes amb H̄ MICRO més alta:
+    MS_Jazmín              v3    H̄=6.77  perpl=109.05  len=1  zero_raw=0
+    MS_Celia 1             v21   H̄=6.56  perpl=94.47  len=3  zero_raw=0
+    MS_Penas               v19   H̄=6.50  perpl=90.34  len=1  zero_raw=0
+    MS_Ovalo2              v5    H̄=6.14  perpl=70.66  len=3  zero_raw=0
+    MS_Celia 1             v13   H̄=6.06  perpl=66.90  len=4  zero_raw=0
+
+  Top-5 voltes amb més transicions count=0 (raw):
+    MS_Campanilla          v3    zero_raw=0  H̄=4.09  len=4
+    MS_Campanilla          v5    zero_raw=0  H̄=3.60  len=4
+    MS_Campanilla          v7    zero_raw=0  H̄=3.73  len=5
+    MS_Campanilla          v9    zero_raw=0  H̄=3.32  len=5
+    MS_Campanilla          v11   zero_raw=0  H̄=2.76  len=7
+
+  JSON : PIPELINE\RESULTATS_MS\res_fase4.2\micro_grammar.json
+
+---> Executant fase4.3_null_model.py ...
+H_obs (corpus original) = 1.1377 bits
+  perm 100/1000: H_perm mitjà = 1.3019
+  perm 200/1000: H_perm mitjà = 1.3020
+  perm 300/1000: H_perm mitjà = 1.3021
+  perm 400/1000: H_perm mitjà = 1.3020
+  perm 500/1000: H_perm mitjà = 1.3020
+  perm 600/1000: H_perm mitjà = 1.3020
+  perm 700/1000: H_perm mitjà = 1.3020
+  perm 800/1000: H_perm mitjà = 1.3020
+  perm 900/1000: H_perm mitjà = 1.3020
+  perm 1000/1000: H_perm mitjà = 1.3020
+
+FASE 4.3 COMPLETADA
+  H_observat   : 1.1377 bits
+  H_null mitjà : 1.3020 ± 0.0029
+  Reducció     : -12.62% respecte al nul
+  z-score      : -57.25
+  p-valor emp  : 0.0010
+  Output       : PIPELINE\RESULTATS_MS\res_fase4.3\null_model_permutation.json
+
+---> Executant fase4.4_loo_cv.py ...
+Teixits: 71 · voltes totals = 1778
+
+FASE 4.4 COMPLETADA
+  Surprisal LOO mitjana : 4.1618 ± 1.2547 bits/token
+  Surprisal in-sample   : 1.2527
+  Rànquing per atipicitat (LOO):
+    teixit                   n_v   surp_LOO    surp_in        Δ     %OOV
+    MS_La Puntilla            24     7.8455     5.6484  +2.1971   25.44%
+    MS_Punto Montaña           4     7.3140     4.6046  +2.7093   30.00%
+    MS_Otro punto bellota      6     6.4774     3.5606  +2.9168   38.98%
+    MS_Punto plisado para chaquetita     4     5.8849     1.3016  +4.5833   53.38%
+    MS_Ovalo1                 26     5.8407     4.4120  +1.4286   16.00%
+    MS_Puntilla2              25     5.7441     4.1274  +1.6167   22.26%
+    MS_Puntilla3               8     5.3666     4.3444  +1.0222   12.96%
+    MS_Leonor                 57     5.3098     2.6178  +2.6920   28.54%
+    MS_Ovalo2                 28     5.2981     4.4843  +0.8138   10.71%
+    MS_Estrellita             18     5.2468     4.6441  +0.6026    6.74%
+    MS_Vueltas del reves      12     5.1271     3.5574  +1.5698   19.14%
+    MS_Gafitas2               14     4.9976     4.2324  +0.7653    8.37%
+    MS_Adolbert               23     4.9880     4.2745  +0.7135    8.17%
+    MS_Penas                  33     4.8686     4.5901  +0.2785    1.52%
+    MS_Puntilla               15     4.8536     4.5522  +0.3014    2.80%
+    MS_Punto Hojitas vueltas     4     4.8212     4.6815  +0.1397    0.00%
+    MS_Araceli                53     4.7830     4.2571  +0.5260    4.84%
+    MS_Celia 1                53     4.7430     4.0273  +0.7157    9.38%
+    MS_Puntilla nueva         14     4.6707     4.3243  +0.3464    4.06%
+    MS_Punto Feito             6     4.5477     4.4048  +0.1429    0.00%
+    MS_Pensamiento            25     4.5458     4.0431  +0.5027    5.05%
+    MS_Mariposa               20     4.5178     4.2037  +0.3141    3.75%
+    MS_Hijo                   49     4.5032     4.0906  +0.4127    2.61%
+    MS_Susana                 43     4.4881     3.8008  +0.6872    8.52%
+    MS_Blumen Flor            24     4.4848     4.1788  +0.3060    2.66%
+    MS_Punto Esmeralda        10     4.4722     4.4525  +0.0197    0.00%
+    MS_Jazmín                 16     4.4596     4.3279  +0.1316    0.00%
+    MS_Puntilla4              14     4.4355     4.1005  +0.3349    4.10%
+    MS_Morin                  34     4.4305     3.8076  +0.6229    8.51%
+    MS_Grafico 2              37     4.3959     3.9675  +0.4283    5.46%
+    MS_Dalila                 18     4.3743     4.3552  +0.0191    0.00%
+    MS_Fajas                  21     4.3351     4.0334  +0.3018    3.61%
+    MS_Rita                   53     4.3096     3.8684  +0.4412    5.13%
+    MS_Salvador               76     4.3030     3.9009  +0.4021    3.10%
+    MS_Punto plisado para vestidito     3     4.2963     4.0910  +0.2054    0.00%
+    MS_Pino                   68     4.2840     3.9336  +0.3504    3.31%
+    MS_Dalia                  20     4.2632     4.1236  +0.1396    1.68%
+    MS_Titi - Puntilla         7     4.2366     3.9979  +0.2387    1.72%
+    MS_Raetine                57     4.1969     3.4209  +0.7760    6.78%
+    MS_Plumitas               26     4.1890     3.8485  +0.3406    3.09%
+    MS_Hojas                  22     4.1685     3.9436  +0.2249    1.89%
+    MS_Julito                 43     4.1059     3.6639  +0.4420    5.01%
+    MS_Titi 2 - Grafico B     20     4.0980     3.9358  +0.1622    1.63%
+    MS_Celia 2                32     4.0828     3.8057  +0.2771    3.24%
+    MS_Palmito                19     4.0648     3.8814  +0.1834    1.61%
+    MS_Hojas de Matilde        3     4.0623     3.9761  +0.0862    0.00%
+    MS_Mary-Luz               10     3.9706     3.7793  +0.1913    2.46%
+    MS_Antoña o Canijo        16     3.9704     3.8831  +0.0873    0.92%
+    MS_Gafitas1                6     3.9323     3.8990  +0.0333    0.00%
+    MS_MLuisa                 28     3.9142     3.8176  +0.0966    0.83%
+    MS_Pelargonia             40     3.8701     3.5633  +0.3068    3.14%
+    MS_Puntilla1               5     3.8354     3.8277  +0.0076    0.00%
+    MS_Madreselva             22     3.7357     3.5126  +0.2230    0.42%
+    MS_Punto semilla           5     3.7241     3.6864  +0.0378    0.00%
+    MS_Margarita              71     3.7143     3.3430  +0.3713    3.66%
+    MS_Vaño Mimosa            55     3.6644     3.2408  +0.4236    1.10%
+    MS_Claveles               60     3.4846     3.1158  +0.3688    4.03%
+    MS_Luis                   67     3.4181     3.2474  +0.1706    1.10%
+    MS_Cacus                  22     3.3869     3.2306  +0.1563    1.15%
+    MS_Grafico B - Puntilla    37     3.3842     3.3189  +0.0652    0.31%
+    MS_Punto piñas             4     3.1525     3.1474  +0.0050    0.00%
+    MS_Punto Calado            3     2.9703     2.9632  +0.0072    0.00%
+    MS_Titi 2 - Grafico A     11     2.7610     2.6418  +0.1192    0.76%
+    MS_Punto Bellota          12     2.7340     2.4198  +0.3142    0.00%
+    MS_Otro Punto Calado       3     2.6467     2.6457  +0.0011    0.00%
+    MS_Titi 1                 10     2.4597     2.3961  +0.0637    0.00%
+    MS_Punto dos caras         6     2.2632     2.1886  +0.0745    0.00%
+    MS_Marianin o Katiuska    25     1.4641     0.2972  +1.1669    0.02%
+    MS_Puntilla pequeña Salvador     5     1.2715     1.2631  +0.0085    0.00%
+    MS_Campanilla             54     0.7108     0.2391  +0.4717    0.30%
+    MS_Punto conchas          14     0.2164     0.1816  +0.0348    0.17%
+  JSON : PIPELINE\RESULTATS_MS\res_fase4.4\loo_cv_teixits.json
+  CSV  : PIPELINE\RESULTATS_MS\res_fase4.4\loo_cv_teixits.csv
+
+---> Executant fase5.1_anomaly_report.py ...
+FASE 5 COMPLETADA
+  Voltes avaluades       : 1747
+    CRÍTICA    : 32
+    ALTA       : 94
+    MODERADA   : 311
+    normal     : 1310
+  Anomalies cross-canal  : 18
+
+  Top-10 voltes per score d'anomalia:
+    teixit                 volta  tip   cat         score  flags
+    MS_Vaño Mimosa         v5     V0    CRÍTICA     10.27  sig_intra,macro_surp,micro_mean,trans_invalides
+    MS_Jazmín              v3     V0    CRÍTICA     10.22  sig_intra,sig_salt,macro_surp,micro_mean
+    MS_Luis                v3     V0    CRÍTICA      9.57  sig_intra,sig_salt,macro_surp,trans_invalides
+    MS_Penas               v13    V0    CRÍTICA      9.53  sig_salt,macro_surp,micro_mean
+    MS_Campanilla          v89    V0    CRÍTICA      9.20  sig_intra,sig_salt,macro_surp
+    MS_Raetine             v59    V0    CRÍTICA      9.12  sig_intra,sig_salt,macro_surp
+    MS_Celia 1             v13    V1    CRÍTICA      9.10  sig_intra,sig_salt,micro_mean,micro_max
+    MS_Margarita           v59    V0    CRÍTICA      8.89  sig_intra,sig_salt,macro_surp
+    MS_Raetine             v98    V0    CRÍTICA      8.86  macro_surp,micro_mean,micro_max,trans_invalides
+    MS_Puntilla            v3     V0    CRÍTICA      8.81  sig_intra,macro_surp,micro_mean,micro_max
+
+  Ranking per teixit (score total):
+    MS_Salvador             Σscore= 292.44  max= 8.06  C/A/M=0/6/9  cross=0
+    MS_Pino                 Σscore= 266.84  max= 7.53  C/A/M=1/1/18  cross=0
+    MS_Luis                 Σscore= 261.75  max= 9.57  C/A/M=2/3/9  cross=1
+    MS_Celia 1              Σscore= 250.97  max= 9.10  C/A/M=3/13/3  cross=1
+    MS_Campanilla           Σscore= 227.09  max= 9.20  C/A/M=1/2/16  cross=1
+    MS_Raetine              Σscore= 221.97  max= 9.12  C/A/M=2/4/12  cross=1
+    MS_Margarita            Σscore= 207.57  max= 8.89  C/A/M=2/1/13  cross=1
+    MS_Araceli              Σscore= 203.33  max= 7.03  C/A/M=0/1/12  cross=0
+    MS_Hijo                 Σscore= 198.70  max= 8.52  C/A/M=1/1/9  cross=0
+    MS_Vaño Mimosa          Σscore= 191.43  max=10.27  C/A/M=1/1/8  cross=1
+    MS_Rita                 Σscore= 188.81  max= 7.66  C/A/M=0/2/6  cross=0
+    MS_Leonor               Σscore= 181.76  max= 5.87  C/A/M=0/1/6  cross=0
+    MS_Susana               Σscore= 178.58  max= 8.49  C/A/M=1/2/8  cross=0
+    MS_Claveles             Σscore= 166.87  max= 8.68  C/A/M=1/2/3  cross=0
+    MS_Julito               Σscore= 158.87  max= 7.83  C/A/M=1/2/13  cross=0
+    MS_Penas                Σscore= 156.29  max= 9.53  C/A/M=1/4/9  cross=1
+    MS_Celia 2              Σscore= 149.90  max= 8.48  C/A/M=2/4/11  cross=2
+    MS_Grafico 2            Σscore= 133.87  max= 6.45  C/A/M=0/0/5  cross=0
+    MS_Pelargonia           Σscore= 132.93  max= 7.47  C/A/M=1/1/10  cross=1
+    MS_Ovalo1               Σscore= 132.90  max= 8.50  C/A/M=1/4/10  cross=2
+    MS_Ovalo2               Σscore= 125.72  max= 8.28  C/A/M=3/1/4  cross=0
+    MS_Morin                Σscore= 119.55  max= 5.79  C/A/M=0/1/5  cross=0
+    MS_Grafico B - Puntilla  Σscore= 115.82  max= 7.69  C/A/M=0/3/0  cross=0
+    MS_La Puntilla          Σscore= 114.31  max= 7.73  C/A/M=0/4/9  cross=1
+    MS_Puntilla2            Σscore= 112.41  max= 7.89  C/A/M=0/0/7  cross=0
+    MS_Pensamiento          Σscore= 107.03  max= 8.39  C/A/M=1/3/3  cross=1
+    MS_Blumen Flor          Σscore=  97.91  max= 7.72  C/A/M=0/2/4  cross=0
+    MS_Mariposa             Σscore=  93.23  max= 8.32  C/A/M=1/1/7  cross=0
+    MS_Fajas                Σscore=  92.87  max= 7.01  C/A/M=0/3/7  cross=0
+    MS_Plumitas             Σscore=  89.59  max= 5.92  C/A/M=0/1/2  cross=0
+    MS_Adolbert             Σscore=  88.13  max= 6.59  C/A/M=0/1/4  cross=0
+    MS_MLuisa               Σscore=  87.41  max= 5.16  C/A/M=0/0/2  cross=0
+    MS_Palmito              Σscore=  83.51  max= 8.68  C/A/M=1/2/3  cross=0
+    MS_Jazmín               Σscore=  82.30  max=10.22  C/A/M=1/3/3  cross=1
+    MS_Estrellita           Σscore=  81.37  max= 6.94  C/A/M=0/0/9  cross=0
+    MS_Marianin o Katiuska  Σscore=  78.73  max= 8.08  C/A/M=1/1/0  cross=0
+    MS_Madreselva           Σscore=  77.93  max= 7.43  C/A/M=1/0/3  cross=0
+    MS_Titi 2 - Grafico B   Σscore=  74.49  max= 6.64  C/A/M=0/0/4  cross=0
+    MS_Dalila               Σscore=  70.14  max= 6.55  C/A/M=0/1/0  cross=0
+    MS_Dalia                Σscore=  67.69  max= 8.00  C/A/M=0/1/3  cross=0
+    MS_Puntilla             Σscore=  67.47  max= 8.81  C/A/M=1/1/3  cross=1
+    MS_Hojas                Σscore=  66.89  max= 5.48  C/A/M=0/0/2  cross=0
+    MS_Puntilla nueva       Σscore=  61.15  max= 6.61  C/A/M=0/1/2  cross=1
+    MS_Gafitas2             Σscore=  59.77  max= 5.82  C/A/M=0/0/4  cross=0
+    MS_Antoña o Canijo      Σscore=  54.42  max= 5.76  C/A/M=0/1/2  cross=0
+    MS_Puntilla4            Σscore=  53.99  max= 6.27  C/A/M=0/1/2  cross=0
+    MS_Titi 2 - Grafico A   Σscore=  48.83  max= 6.88  C/A/M=0/3/2  cross=0
+    MS_Punto Bellota        Σscore=  44.96  max= 5.39  C/A/M=0/0/3  cross=0
+    MS_Vueltas del reves    Σscore=  43.40  max= 4.84  C/A/M=0/0/0  cross=0
+    MS_Titi 1               Σscore=  42.59  max= 7.08  C/A/M=0/2/2  cross=0
+    MS_Punto Esmeralda      Σscore=  41.61  max= 5.46  C/A/M=0/0/4  cross=0
+    MS_Cacus                Σscore=  40.23  max= 7.81  C/A/M=1/1/1  cross=1
+    MS_Puntilla3            Σscore=  34.86  max= 6.08  C/A/M=0/0/0  cross=0
+    MS_Mary-Luz             Σscore=  33.32  max= 5.77  C/A/M=0/0/1  cross=0
+    MS_Punto conchas        Σscore=  32.57  max= 5.98  C/A/M=0/0/5  cross=0
+    MS_Gafitas1             Σscore=  23.48  max= 5.61  C/A/M=0/0/1  cross=0
+    MS_Titi - Puntilla      Σscore=  23.25  max= 4.74  C/A/M=0/0/1  cross=0
+    MS_Punto dos caras      Σscore=  20.14  max= 4.35  C/A/M=0/0/1  cross=0
+    MS_Punto semilla        Σscore=  19.39  max= 6.13  C/A/M=0/0/2  cross=0
+    MS_Otro punto bellota   Σscore=  19.20  max= 4.38  C/A/M=0/0/0  cross=0
+    MS_Punto Feito          Σscore=  19.18  max= 4.56  C/A/M=0/0/0  cross=0
+    MS_Puntilla1            Σscore=  18.95  max= 5.24  C/A/M=0/0/1  cross=0
+    MS_Punto Hojitas vueltas  Σscore=  18.91  max= 6.53  C/A/M=0/0/1  cross=0
+    MS_Puntilla pequeña Salvador  Σscore=  16.11  max= 5.04  C/A/M=0/1/1  cross=0
+    MS_Punto piñas          Σscore=  12.86  max= 4.34  C/A/M=0/0/0  cross=0
+    MS_Punto plisado para chaquetita  Σscore=  12.03  max= 4.52  C/A/M=0/0/0  cross=0
+    MS_Punto plisado para vestidito  Σscore=  11.51  max= 4.48  C/A/M=0/0/0  cross=0
+    MS_Punto Montaña        Σscore=  10.98  max= 3.86  C/A/M=0/0/0  cross=0
+    MS_Hojas de Matilde     Σscore=  10.06  max= 4.27  C/A/M=0/0/0  cross=0
+    MS_Punto Calado         Σscore=   9.69  max= 4.12  C/A/M=0/0/0  cross=0
+    MS_Otro Punto Calado    Σscore=   7.90  max= 5.76  C/A/M=0/0/1  cross=0
+
+  JSON : PIPELINE\RESULTATS_MS\res_fase5.1\anomaly_report.json
+  CSV1 : PIPELINE\RESULTATS_MS\res_fase5.1\anomaly_report.csv
+  CSV2 : PIPELINE\RESULTATS_MS\res_fase5.1\anomaly_teixits.csv
+
+---> Executant fase5.1b_crypto_validation.py ...
+==============================================================================
+FASE 5.1B — VALIDACIO CRIPTOGRAFICA I STEGANOGRAFICA CLASSICA
+==============================================================================
+
+Corpus complet : 81492 tokens, 377 types
+Anomalies (CRITICA+ALTA): 126 voltes, 23255 tokens
+Marcadors (excloent ['a', 'g', 'l', 'p', 'r', 'x']): 9269 tokens corpus (11.37%), 342 tokens anomalies
+Vocabulari RARE: 214 tokens hapax
+
+------------------------------------------------------------------------------
+SECCIO A — Test classic sobre anomalies (control negatiu)
+------------------------------------------------------------------------------
+  IC corpus    : 0.3195
+  IC anomalies : 0.9361  (ratio 2.93)
+  Diagnostic   : concentració extrema (anom MÉS zipfià que corpus)
+  Direcció OPOSADA a la d'un xifrat (que aplanaria la distribució). Les voltes anòmales són farciment dominat per un únic token base. Aquest resultat confirma la hipòtesi metodològica: un codi amagat no es manifesta com a anomalia de grammar — es camufla.
+
+------------------------------------------------------------------------------
+SECCIO B — Sub-stream de MARCADORS (on hauria de viure el codi)
+------------------------------------------------------------------------------
+  IC marcadors corpus    : 0.0552 (V=371, IC_norm=20.47)
+  IC uniforme referencia : 0.0027
+  Top 5 marcadors        : [('(3)', 12.677), ('(2)', 11.501), ('L', 8.426), ('v', 6.581), ('3', 5.416)]
+  Kasiski n3: repeats=956 gcd=  1 n_dist=4860 top_factors={2: 2365, 3: 1714, 4: 1229, 5: 1038}
+  Kasiski n4: repeats=975 gcd=  1 n_dist=3272 top_factors={2: 1561, 3: 1179, 4: 845, 5: 699}
+  Kasiski n5: repeats=835 gcd=  1 n_dist=2238 top_factors={2: 1030, 3: 776, 4: 601, 5: 433}
+  Diagnostic   : compatible amb notació tècnica natural
+
+------------------------------------------------------------------------------
+SECCIO C — Concentracio de tokens RARE
+------------------------------------------------------------------------------
+  Voltes amb >=1 RARE: 192
+  Top 10 voltes per nombre de tokens RARE:
+    MS_Leonor            v107  n_rare=5  tokens=['T', '<L2PLP>', '<L2P>', '<2PL>', '<PL2PL>']
+    MS_Pelargonia        v 64  n_rare=4  tokens=['S', 'b', 'u', 't']
+    MS_Leonor            v105  n_rare=3  tokens=['<LP2>', '<P2L>', '<GLLA3LLA>']
+    MS_Campanilla        v 89  n_rare=3  tokens=['<222222l>', '2222223', '<glla3>']
+    MS_Rita              v 95  n_rare=2  tokens=['<l(4)>', '<(4)l>']
+    MS_Vaño Mimosa       v 47  n_rare=2  tokens=['<4>', '<l4>']
+    MS_Adolbert          v 18  n_rare=2  tokens=['25', '.']
+    MS_Grafico 2         v 67  n_rare=2  tokens=['<lxl(7)>', '<a(4)>']
+    MS_Rita              v 87  n_rare=2  tokens=['<l3lglpla>', '<l3l(4)3(4)>']
+    MS_Araceli           v 77  n_rare=2  tokens=['<l(9)l>', '<lal>']
+  Distribucio per teixit:
+    MS_La Puntilla           : 29
+    MS_Campanilla            : 17
+    MS_Puntilla2             : 17
+    MS_Morin                 : 15
+    MS_Celia 1               : 15
+    MS_Claveles              : 14
+    MS_Leonor                : 12
+    MS_Rita                  : 12
+    MS_Grafico 2             : 12
+    MS_Araceli               : 12
+    MS_Pino                  : 7
+    MS_Vaño Mimosa           : 6
+    MS_Margarita             : 5
+    MS_Pensamiento           : 5
+    MS_Pelargonia            : 4
+    MS_Ovalo1                : 4
+    MS_Vueltas del reves     : 4
+    MS_Julito                : 4
+    MS_Adolbert              : 3
+    MS_Salvador              : 3
+    MS_Hojas                 : 2
+    MS_Puntilla3             : 2
+    MS_Ovalo2                : 2
+    MS_Raetine               : 1
+    MS_Gafitas2              : 1
+    MS_Fajas                 : 1
+    MS_Susana                : 1
+    MS_Titi - Puntilla       : 1
+    MS_Punto conchas         : 1
+    MS_Palmito               : 1
+    MS_Penas                 : 1
+
+------------------------------------------------------------------------------
+SECCIO D — Test de runs (Wald-Wolfowitz)
+------------------------------------------------------------------------------
+  Global corpus (l vs no-l):
+    n=81492 n0(l)=33447 n1(no-l)=48045
+    runs_obs=11472 runs_esp=39439.5 z=-202.44  -> menys runs dels esperats (agrupacio)
+  Voltes amb |z|>3.0: 39 (de 415 testejables)
+    MS_Marianin o Katiuska v 23  n=22234 z=-85.21  menys runs dels esperats (agrupacio)
+    MS_Campanilla        v 91  n=22234 z=-79.69  menys runs dels esperats (agrupacio)
+    MS_Punto conchas     v 13  n=3350 z=-31.93  menys runs dels esperats (agrupacio)
+    MS_Punto conchas     v 13  n=3351 z=-29.46  menys runs dels esperats (agrupacio)
+    MS_Marianin o Katiuska v 21  n=2234 z=-26.93  menys runs dels esperats (agrupacio)
+    MS_Leonor            v109  n= 290 z= -9.15  menys runs dels esperats (agrupacio)
+    MS_Campanilla        v 95  n= 232 z= -9.10  menys runs dels esperats (agrupacio)
+    MS_Marianin o Katiuska v 19  n= 234 z= -8.46  menys runs dels esperats (agrupacio)
+    MS_Puntilla pequeña Salvador v119  n=  55 z= -6.92  menys runs dels esperats (agrupacio)
+    MS_Luis              v 97  n=  75 z= -5.43  menys runs dels esperats (agrupacio)
+
+==============================================================================
+CANDIDATS A STEGANOGRAFIA — convergencia de senyals (top 20)
+==============================================================================
+  Total candidats: 227  |  Convergencia triple A+C+D: 1
+  teixit                 volta  rare   z_runs     cat_f5 tokens_rare
+  MS_Campanilla             91     1   -79.69       ALTA <p22222plxl>
+  MS_Marianin o Katiuska    23     0   -85.21          — 
+  MS_Leonor                107     5      ·            — T <L2PLP> <L2P> (+2)
+  MS_Pelargonia             64     4      ·      CRÍTICA S b u (+1)
+  MS_Leonor                105     3      ·            — <LP2> <P2L> <GLLA3LLA>
+  MS_Campanilla             89     3      ·      CRÍTICA <222222l> 2222223 <glla3>
+  MS_Punto conchas          13     0   -29.46          — 
+  MS_Marianin o Katiuska    21     0   -26.93          — 
+  MS_Rita                   95     2      ·            — <l(4)> <(4)l>
+  MS_Vaño Mimosa            47     2      ·            — <4> <l4>
+  MS_Adolbert               18     2      ·         ALTA 25 .
+  MS_Grafico 2              67     2      ·            — <lxl(7)> <a(4)>
+  MS_Rita                   87     2      ·            — <l3lglpla> <l3l(4)3(4)>
+  MS_Araceli                77     2      ·            — <l(9)l> <lal>
+  MS_La Puntilla             9     2      ·            — <ll(7)> <a(5)(glla-5v)g>
+  MS_La Puntilla            11     2      ·            — <ll(9)> <a(12)p>
+  MS_La Puntilla            13     2      ·            — <ll(11)> <a(10)g>
+  MS_La Puntilla            15     2      ·            — <ll(13)> <a(8)g>
+  MS_La Puntilla            17     2      ·            — <ll(15)> <a(6)g>
+  MS_Campanilla             95     1    -9.10          — <a222g2lxl2>
+
+******************************************************************************
+CONVERGENCIA TRIPLE A+C+D (maxima prioritat per inspeccio)
+******************************************************************************
+  MS_Campanilla v91  n_rare=1  z=-79.69  cat=ALTA  score=5.3809
+      tokens_rare: ['<p22222plxl>']
+
+------------------------------------------------------------------------------
+CONCLUSIO METODOLOGICA
+------------------------------------------------------------------------------
+  · Seccio A: les voltes prioritzades per fase5 NO contenen signatura
+    de xifrat (com era esperable: un codi amagat es dissenya per NO
+    triggerejar anomalies de grammar).
+  · Seccions B+C+D identifiquen els VERITABLES candidats: voltes amb
+    tokens hapax (RARE) i/o desviacions de runs respecte H0.
+  · 'candidats_steganografia.csv' es el mapa per la inspeccio quali-
+    tativa del facsimil: contrastar margens, marques, canvis de tinta,
+    dibuixos a les voltes llistades.
+
+[OK] Escrit: RESULTATS_MS\res_fase5.1b\crypto_validation.json
+[OK] Escrit: RESULTATS_MS\res_fase5.1b\crypto_validation.csv
+[OK] Escrit: RESULTATS_MS\res_fase5.1b\candidats_steganografia.csv
+
+---> Executant fase5.2_segment_anomaly_detection.py ...
+== FASE 5.2 · Detecció de segments anòmals ==
+   Voltes carregades: 1747  (amb senyal lèxic 5.1b: 227)
+   Llindar score combinat (P60) = 0.0065
+   Segments candidats     : 76
+   Segments significatius : 15 (FDR α=0.05)
+
+   JSON   → anomaly_segments.json
+   CSV    → anomaly_segments.csv
+   REPORT → anomaly_segments_report.txt
+== FASE 5.2 COMPLETADA ==
+
+---> Executant fase5.2b_crypto_segments.py ...
+== FASE 5.2b · Triangulació gramatical × lèxica sobre segments ==
+   Voltes 5.1 avaluades       : 1747
+   · gramaticals (ALTA/CRÍTICA/MODERADA): 437
+   Voltes lèxiques (5.1b)     : 227
+   Total voltes atípiques     : 607
+   Segments a triangular (5.2): 76
+
+   Convergència      : 17
+   Perfil lèxic      : 6
+   Perfil gramatical : 42
+   Mixt / sense      : 7 / 4
+   Voltes òrfenes    : 283 (conv=7, lex=62, gram=214)
+
+   JSON   → triangulacio_segments.json
+   CSV    → triangulacio_segments.csv
+   ÒRFENES→ voltes_orfenes.csv
+   REPORT → triangulacio_segments_report.txt
+== FASE 5.2b COMPLETADA ==
+
+---> Executant fase5.3_hipotesis_referencies.py ...
+==============================================================================
+FASE 5.3 — HIPÒTESIS PER REFERÈNCIES
+       Test sistemàtic de 3 hipòtesis sobre el contingut codificat
+       (A) Morse tèxtil   (B) Anomalies belgues   (C) Manolita del Arco
+==============================================================================
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI A — MORSE TÈXTIL  (ref. Bueno Saz, Mujeres con Ciencia)
+══════════════════════════════════════════════════════════════════════════════
+
+  Premissa: una parella binària (X, Y) de símbols del corpus codificaria
+  punt/ratlla de Morse, amb els altres símbols com a separadors de lletra.
+  Test: per cada parella (21 combinacions) i cada mapping (×2), comparem
+  el % de bigrames/trigrames espanyols del text descodificat contra un
+  control de shuffle aleatori (preserva freqüències marginals).
+
+  Par.     n1    n2  ratio  #grup  dot   score    ctrl      z  text(primers 40)
+  ----- ----- ----- ------ ------ ---- ------- ------- ------  ----------------------------------------
+  g/a    2613  2807   0.93   5184    g   10.7%    0.5% +282.02  TETETETETETETETETETETETETETETETETETETETE ★
+  g/p    2613  1994   1.31   4180    g    8.5%    1.2% +112.93  TTTETTETETETETETETETETETETETETETETETETET ★
+  l/g    9144  2613   3.50   8657    l    8.1%    5.1% +19.47  EEEEEAETEETEETEETEETEETEETEETEETEETEETEE ★
+  a/p    2807  1994   1.41   4352    p    8.0%    0.3% +132.49  EETENETETETETETETETETETETETETETETETETETE ★
+  a/v    2807  2144   1.31   4935    v    7.2%    0.0%  +0.00  ETETETETETETETETETETETETETETETETETETETET
+  g/v    2613  2144   1.22   4744    v    7.0%    0.0%  +0.00  EETETETETETETETETETETETETETETETETETETETE
+  l/p    9144  1994   4.59   8256    l    6.1%    1.0% +103.43  RAEAETAAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEA ★
+  p/v    1994  2144   0.93   4114    v    5.8%    0.0%  +0.00  TTETETTETETETETETETETETETETETETETETETETE
+  l/v    9144  2144   4.26  10247    v    5.2%    0.0% +1870.55  TTTETTETTETETTETTETTETTETTETTETTETTETTET ★
+  l/a    9144  2807   3.26   8637    a    5.1%    1.5% +75.93  TTTTETTETETTETTETTETTETTETTETTETTETTETTE ★
+  l/x    9144   777  11.77   7831    l    4.8%    2.6% +21.12  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE ★
+  p/x    1994   777   2.57   2725    p    3.7%    0.1% +148.95  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEETT ★
+  g/x    2613   777   3.36   3357    g    3.3%    0.0% +344.95  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEIEEEEE ★
+  a/x    2807   777   3.61   3547    a    3.2%    0.0% +295.74  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEIEEEEEEEE ★
+  v/x    2144   777   2.76   2907    v    3.2%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEETTETETETETETEETEE
+  p/r    1994    85  23.46   2051    r    0.7%    0.0% +111.41  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT ★
+  g/r    2613    85  30.74   2680    r    0.3%    0.0% +27.33  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTMTTTTT ★
+  a/r    2807    85  33.02   2869    r    0.3%    0.0% +29.96  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTMTTTTTTTT ★
+  v/r    2144    85  25.22   2229    v    0.2%    0.0%  +0.00  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+  l/r    9144    85 107.58   8190    l    0.2%    0.0% +49.10  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE ★
+  x/r     777    85   9.14    848    r    0.2%    0.0%  +0.00  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+  VEREDICTE A:
+    - Cap parella supera de forma consistent el control aleatori.
+    - Els scores 'alts' en aparença es deuen a saturació de lletres
+      Morse curtes (E='.', T='-', N='-.') quan els grups són d'1-2 chars.
+    - Cap text descodificat conté seqüències de bigrames/trigrames ES
+      compatibles amb un missatge real.
+    → HIPÒTESI MORSE: REBUTJADA.
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI B — ANOMALIES BELGUES  (ref. Bueno Saz, Mujeres c.C.)
+══════════════════════════════════════════════════════════════════════════════
+
+  Premissa: dins de zones MOLT regulars (>85% un sol símbol en finestra
+  de 8) poden aparèixer punts discordants que formin senyal (com els
+  forats codificats de la teixidora belga del WWI).
+  Test: expandim cada volta, busquem finestres regulars amb discordants,
+  i mirem si la posició/seqüència d'aquests forma un patró rastrejable.
+
+  Teixit                               voltes  amb_anom
+  ----------------------------------- ------- ---------
+  MS. 104-107. Campanilla                  54        47
+  MS. 107-110. Claveles                    60        46
+  MS. 110-111. Dalila                      18         8
+  MS. 111-112. MLuisa                      28        21
+  MS. 112-115. Raetine                     57        42
+  MS. 115. Titi 1                          10         5
+  MS. 116-117. Titi 2 - Grafico B          20        12
+  MS. 116. Titi 2 - Grafico A              11         5
+  MS. 117-118. Titi - Puntilla              7         5
+  MS. 118. Punto Bellota                   12        12
+  MS. 119. Otro Punto Calado                3         0
+  MS. 119. Otro punto bellota               6         4
+  MS. 119. Punto Calado                     3         2
+  MS. 120-121. Punto conchas               14         6
+  MS. 121-122. Punto dos caras              6         5
+  MS. 121. Punto piñas                      4         2
+  MS. 122. Hojas de Matilde                 3         1
+  MS. 122. Punto Feito                      6         6
+  MS. 122. Punto plisado para vestidito       3         2
+  MS. 123. Punto Esmeralda                 10         0
+  MS. 124. Punto Hojitas vueltas            4         2
+  MS. 124. Punto plisado para chaquetita       4         4
+  MS. 124. Punto semilla                    5         2
+  MS. 125. Palmito                         19        11
+  MS. 126-127. Ovalo1                      26        22
+  MS. 127-128. Puntilla4                   14         7
+  MS. 128-129. Antoña o Canijo             16         8
+  MS. 129-130. Ovalo2                      28        13
+  MS. 130-131. Vueltas del reves           12         9
+  MS. 131-134. Hijo                        49        23
+  MS. 134-136. Puntilla                    15        13
+  MS. 14. Estrellita                       18         6
+  MS. 14. Jazmín                           16         8
+  MS. 15-16. Susana                        43        29
+  MS. 15. Hojas                            23        18
+  MS. 16-17. Julito                        43        21
+  MS. 17-18. Pensamiento                   25        20
+  MS. 18-19. Penas                         33        23
+  MS. 19-20. Pelargonia                    40        28
+  MS. 20-21. Dalia                         20         7
+  MS. 21-23. Rita                          53        44
+  MS. 24-28. Salvador                      76        52
+  MS. 24. Mariposa                         20         5
+  MS. 28. Punto Montaña                     4         2
+  MS. 53-54. Marianin o Katiuska           25        17
+  MS. 53. Puntilla pequeña Salvador         5         4
+  MS. 54-57. Araceli                       53        36
+  MS. 54. Puntilla1                         5         2
+  MS. 57-60. Vaño Mimosa                   55        44
+  MS. 60-64. Leonor                        57        25
+  MS. 64-65. Puntilla2                     25        19
+  MS. 66. Gafitas1                          6         0
+  MS. 66. Puntilla nueva                   14        10
+  MS. 67. Blumen Flor                      24         8
+  MS. 68-69. Grafico B - Puntilla          37        33
+  MS. 70. Adolbert                         23        17
+  MS. 71-74. Margarita                     71        53
+  MS. 74-75. Plumitas                      26        12
+  MS. 75-76. Puntilla3                      8         8
+  MS. 75. Mary-Luz                         10         9
+  MS. 76. Gafitas2                         14        10
+  MS. 77. Madreselva                       22        10
+  MS. 78-79. Grafico 2                     37        36
+  MS. 80-82. Luis                          67        52
+  MS. 83-84. La Puntilla                   24        24
+  MS. 84-85. Morin                         34        27
+  MS. 85-87. Celia 1                       53        41
+  MS. 88. Celia 2                          33        20
+  MS. 89. Cacus                            22        13
+  MS. 90-93. Pino                          68        52
+  MS. 90. Fajas                            22        11
+
+  TOTAL voltes amb anomalies puntuals: 1201
+
+  Símbols com a 'forat'/discordant (top 5):
+    'a': 820 aparicions
+    'g': 707 aparicions
+    'p': 532 aparicions
+    'x': 328 aparicions
+    'v': 240 aparicions
+
+  Parelles (dominant → discordant) més freqüents:
+    l → a : 820
+    l → g : 707
+    l → p : 532
+    l → x : 328
+    l → v : 240
+
+  Runs de voltes CONSECUTIVES amb anomalies (≥3):
+    [MS. 104-107. Campanilla] 41 voltes seguides: [15, 17, 19, 21, 23, 25, 27, 29]...
+    [MS. 104-107. Campanilla] 6 voltes seguides: [99, 101, 103, 105, 107, 109]
+    [MS. 107-110. Claveles] 44 voltes seguides: [33, 35, 37, 39, 41, 43, 45, 47]...
+    [MS. 110-111. Dalila] 7 voltes seguides: [23, 25, 27, 29, 31, 33, 35]
+    [MS. 111-112. MLuisa] 6 voltes seguides: [7, 9, 11, 13, 15, 17]
+    [MS. 111-112. MLuisa] 13 voltes seguides: [31, 33, 35, 37, 39, 41, 43, 45]...
+    [MS. 112-115. Raetine] 17 voltes seguides: [27, 29, 31, 33, 35, 37, 39, 40]...
+    [MS. 112-115. Raetine] 21 voltes seguides: [81, 83, 85, 87, 89, 90, 91, 92]...
+    [MS. 116-117. Titi 2 - Grafico B] 3 voltes seguides: [5, 7, 9]
+    [MS. 116-117. Titi 2 - Grafico B] 8 voltes seguides: [13, 15, 17, 19, 21, 23, 25, 27]
+    [MS. 117-118. Titi - Puntilla] 3 voltes seguides: [3, 5, 7]
+    [MS. 118. Punto Bellota] 12 voltes seguides: [2, 3, 4, 5, 6, 7, 8, 9]...
+    [MS. 121-122. Punto dos caras] 5 voltes seguides: [1, 3, 4, 5, 6]
+    [MS. 122. Punto Feito] 6 voltes seguides: [1, 3, 5, 7, 9, 11]
+    [MS. 124. Punto plisado para chaquetita] 4 voltes seguides: [1, 2, 3, 4]
+    [MS. 125. Palmito] 4 voltes seguides: [43, 45, 47, 49]
+    [MS. 126-127. Ovalo1] 15 voltes seguides: [1, 3, 5, 7, 9, 11, 13, 15]...
+    [MS. 126-127. Ovalo1] 5 voltes seguides: [33, 35, 37, 39, 41]
+    [MS. 127-128. Puntilla4] 6 voltes seguides: [9, 11, 13, 15, 17, 19]
+    [MS. 128-129. Antoña o Canijo] 4 voltes seguides: [21, 23, 25, 27]
+    [MS. 129-130. Ovalo2] 13 voltes seguides: [11, 13, 15, 17, 19, 21, 23, 25]...
+    [MS. 130-131. Vueltas del reves] 9 voltes seguides: [13, 15, 17, 19, 21, 23, 25, 27]...
+    [MS. 131-134. Hijo] 11 voltes seguides: [1, 3, 5, 7, 9, 11, 13, 15]...
+    [MS. 131-134. Hijo] 12 voltes seguides: [27, 29, 31, 33, 35, 37, 39, 41]...
+    [MS. 134-136. Puntilla] 13 voltes seguides: [5, 7, 9, 11, 13, 15, 17, 19]...
+    [MS. 14. Estrellita] 6 voltes seguides: [27, 29, 31, 33, 35, 37]
+    [MS. 14. Jazmín] 7 voltes seguides: [17, 19, 21, 23, 25, 27, 29]
+    [MS. 15-16. Susana] 5 voltes seguides: [9, 11, 13, 15, 17]
+    [MS. 15-16. Susana] 3 voltes seguides: [35, 37, 39]
+    [MS. 15-16. Susana] 19 voltes seguides: [49, 51, 53, 55, 57, 59, 61, 63]...
+    [MS. 15. Hojas] 4 voltes seguides: [6, 7, 9, 11]
+    [MS. 15. Hojas] 13 voltes seguides: [15, 17, 19, 21, 23, 25, 27, 29]...
+    [MS. 16-17. Julito] 3 voltes seguides: [39, 41, 43]
+    [MS. 16-17. Julito] 8 voltes seguides: [49, 51, 53, 55, 57, 59, 61, 63]
+    [MS. 16-17. Julito] 3 voltes seguides: [85, 87, 89]
+    [MS. 17-18. Pensamiento] 6 voltes seguides: [7, 9, 11, 13, 15, 17]
+    [MS. 17-18. Pensamiento] 10 voltes seguides: [25, 27, 29, 31, 33, 35, 37, 39]...
+    [MS. 17-18. Pensamiento] 3 voltes seguides: [47, 49, 51]
+    [MS. 18-19. Penas] 3 voltes seguides: [9, 11, 13]
+    [MS. 18-19. Penas] 15 voltes seguides: [21, 23, 25, 27, 29, 31, 33, 35]...
+    [MS. 18-19. Penas] 3 voltes seguides: [60, 62, 64]
+    [MS. 19-20. Pelargonia] 15 voltes seguides: [27, 29, 31, 33, 35, 37, 39, 41]...
+    [MS. 19-20. Pelargonia] 12 voltes seguides: [59, 61, 63, 64, 65, 67, 69, 71]...
+    [MS. 20-21. Dalia] 4 voltes seguides: [7, 9, 11, 13]
+    [MS. 21-23. Rita] 5 voltes seguides: [25, 27, 29, 31, 33]
+    [MS. 21-23. Rita] 36 voltes seguides: [43, 45, 47, 49, 51, 53, 55, 57]...
+    [MS. 24-28. Salvador] 14 voltes seguides: [17, 19, 21, 23, 25, 27, 29, 31]...
+    [MS. 24-28. Salvador] 26 voltes seguides: [53, 55, 57, 59, 61, 63, 65, 67]...
+    [MS. 24-28. Salvador] 10 voltes seguides: [129, 131, 133, 135, 137, 139, 141, 143]...
+    [MS. 24. Mariposa] 5 voltes seguides: [31, 33, 35, 37, 39]
+    [MS. 53-54. Marianin o Katiuska] 14 voltes seguides: [15, 17, 19, 21, 23, 25, 27, 29]...
+    [MS. 53. Puntilla pequeña Salvador] 4 voltes seguides: [113, 115, 117, 119]
+    [MS. 54-57. Araceli] 3 voltes seguides: [35, 37, 39]
+    [MS. 54-57. Araceli] 7 voltes seguides: [49, 51, 53, 55, 57, 59, 61]
+    [MS. 54-57. Araceli] 21 voltes seguides: [65, 67, 69, 71, 73, 75, 77, 79]...
+    [MS. 57-60. Vaño Mimosa] 5 voltes seguides: [13, 15, 17, 19, 21]
+    [MS. 57-60. Vaño Mimosa] 5 voltes seguides: [25, 27, 29, 31, 33]
+    [MS. 57-60. Vaño Mimosa] 10 voltes seguides: [37, 39, 41, 43, 45, 47, 49, 51]...
+    [MS. 57-60. Vaño Mimosa] 3 voltes seguides: [61, 63, 65]
+    [MS. 57-60. Vaño Mimosa] 12 voltes seguides: [69, 71, 73, 75, 77, 79, 81, 83]...
+    [MS. 57-60. Vaño Mimosa] 9 voltes seguides: [95, 97, 99, 101, 103, 105, 107, 109]...
+    [MS. 60-64. Leonor] 10 voltes seguides: [15, 17, 19, 21, 23, 25, 27, 29]...
+    [MS. 60-64. Leonor] 12 voltes seguides: [89, 91, 93, 95, 97, 99, 101, 103]...
+    [MS. 64-65. Puntilla2] 17 voltes seguides: [17, 19, 21, 23, 25, 27, 29, 31]...
+    [MS. 66. Puntilla nueva] 3 voltes seguides: [9, 11, 13]
+    [MS. 66. Puntilla nueva] 6 voltes seguides: [17, 19, 21, 23, 25, 27]
+    [MS. 67. Blumen Flor] 3 voltes seguides: [103, 105, 107]
+    [MS. 68-69. Grafico B - Puntilla] 3 voltes seguides: [3, 5, 7]
+    [MS. 68-69. Grafico B - Puntilla] 19 voltes seguides: [11, 13, 15, 17, 19, 21, 23, 25]...
+    [MS. 68-69. Grafico B - Puntilla] 9 voltes seguides: [51, 53, 55, 57, 59, 61, 63, 65]...
+    [MS. 70. Adolbert] 13 voltes seguides: [13, 15, 17, 18, 19, 21, 23, 25]...
+    [MS. 70. Adolbert] 4 voltes seguides: [39, 41, 43, 45]
+    [MS. 71-74. Margarita] 17 voltes seguides: [19, 21, 23, 25, 27, 29, 31, 33]...
+    [MS. 71-74. Margarita] 19 voltes seguides: [71, 73, 75, 77, 79, 81, 83, 85]...
+    [MS. 71-74. Margarita] 3 voltes seguides: [111, 113, 115]
+    [MS. 74-75. Plumitas] 3 voltes seguides: [29, 31, 33]
+    [MS. 74-75. Plumitas] 5 voltes seguides: [37, 39, 41, 43, 45]
+    [MS. 75-76. Puntilla3] 8 voltes seguides: [1, 3, 5, 7, 9, 11, 13, 15]
+    [MS. 75. Mary-Luz] 5 voltes seguides: [43, 45, 47, 49, 51]
+    [MS. 75. Mary-Luz] 4 voltes seguides: [55, 57, 59, 61]
+    [MS. 76. Gafitas2] 3 voltes seguides: [37, 39, 41]
+    [MS. 76. Gafitas2] 6 voltes seguides: [45, 47, 49, 51, 53, 55]
+    [MS. 77. Madreselva] 3 voltes seguides: [3, 5, 7]
+    [MS. 77. Madreselva] 6 voltes seguides: [209, 211, 213, 215, 217, 219]
+    [MS. 78-79. Grafico 2] 3 voltes seguides: [9, 11, 13]
+    [MS. 78-79. Grafico 2] 4 voltes seguides: [19, 21, 23, 25]
+    [MS. 78-79. Grafico 2] 29 voltes seguides: [29, 31, 33, 35, 37, 39, 41, 43]...
+    [MS. 80-82. Luis] 29 voltes seguides: [11, 13, 15, 17, 19, 21, 23, 25]...
+    [MS. 80-82. Luis] 19 voltes seguides: [93, 95, 97, 99, 101, 103, 105, 107]...
+    [MS. 83-84. La Puntilla] 24 voltes seguides: [1, 3, 5, 7, 9, 11, 13, 15]...
+    [MS. 84-85. Morin] 5 voltes seguides: [17, 19, 21, 23, 25]
+    [MS. 84-85. Morin] 22 voltes seguides: [29, 31, 33, 35, 37, 39, 41, 43]...
+    [MS. 85-87. Celia 1] 3 voltes seguides: [15, 17, 19]
+    [MS. 85-87. Celia 1] 4 voltes seguides: [31, 33, 35, 37]
+    [MS. 85-87. Celia 1] 4 voltes seguides: [41, 43, 45, 47]
+    [MS. 85-87. Celia 1] 28 voltes seguides: [51, 53, 55, 57, 59, 61, 63, 65]...
+    [MS. 88. Celia 2] 3 voltes seguides: [23, 25, 27]
+    [MS. 88. Celia 2] 3 voltes seguides: [31, 33, 35]
+    [MS. 88. Celia 2] 4 voltes seguides: [39, 41, 43, 45]
+    [MS. 88. Celia 2] 8 voltes seguides: [49, 51, 53, 55, 57, 59, 61, 63]
+    [MS. 89. Cacus] 11 voltes seguides: [3, 5, 7, 9, 11, 13, 15, 17]...
+    [MS. 90-93. Pino] 23 voltes seguides: [43, 45, 47, 49, 51, 53, 55, 57]...
+    [MS. 90-93. Pino] 24 voltes seguides: [91, 93, 95, 97, 99, 101, 103, 105]...
+    [MS. 90. Fajas] 3 voltes seguides: [19, 21, 23]
+    [MS. 90. Fajas] 3 voltes seguides: [33, 35, 37]
+
+  VEREDICTE B:
+    - 1201 voltes presenten anomalies puntuals (xifra alta).
+    - Però els 'forats' es concentren en parelles previsibles (l→p, l→g)
+      i, sobretot, formen runs llargs de voltes consecutives (105
+      runs detectats). Una marca esteganogràfica seria PUNTUAL.
+    - Els runs corresponen a MOTIUS DECORATIUS regulars (diagonals,
+      simetries verticals) ja documentats a la topologia vertical.
+    → HIPÒTESI BELGA: REBUTJADA.
+
+══════════════════════════════════════════════════════════════════════════════
+HIPÒTESI C — MANOLITA DEL ARCO  (ref. El País / Blog Mem.Repr.)
+══════════════════════════════════════════════════════════════════════════════
+Test: buscar la línia documentada v71 de 'Primavera' dins del corpus...
+
+    Coincidències al corpus:
+         [MS. 110-111. Dalila] v1 (SUBCADENA): lp
+         [MS. 112-115. Raetine] v3 (SUBCADENA): lp
+         [MS. 116-117. Titi 2 - Grafico B] v39 (SUBCADENA): 3
+         [MS. 125. Palmito] v5 (SUBCADENA): lp
+         [MS. 125. Palmito] v9 (SUBCADENA): lp
+         [MS. 126-127. Ovalo1] v51 (SUBCADENA): 3
+         [MS. 129-130. Ovalo2] v59 (SUBCADENA): 3
+         [MS. 131-134. Hijo] v97 (SUBCADENA): 3
+         [MS. 14. Jazmín] v1 (SUBCADENA): pl
+         [MS. 16-17. Julito] v1 (SUBCADENA): pl
+         [MS. 16-17. Julito] v3 (SUBCADENA): ppl
+         [MS. 18-19. Penas] v54 (SUBCADENA): la
+         [MS. 19-20. Pelargonia] v3 (SUBCADENA): pl
+         [MS. 66. Gafitas1] v47 (SUBCADENA): 3
+         [MS. 67. Blumen Flor] v117 (SUBCADENA): g
+         [MS. 85-87. Celia 1] v1 (SUBCADENA): pl
+         [MS. 88. Celia 2] v1 (SUBCADENA): pl
+         [MS. 88. Celia 2] v4 (SUBCADENA): 5-6
+         [MS. 90. Fajas] v1 (SUBCADENA): pl
+
+    VEREDICTE C:
+    - Coincidències IDÈNTIQUES entre cita pública de Manolita i corpus: 0
+    → HIPÒTESI MANOLITA: NO CONCLOENT.
+
+══════════════════════════════════════════════════════════════════════════════
+RESUM FINAL
+══════════════════════════════════════════════════════════════════════════════
+
+  A) Morse tèxtil  ........... REBUTJADA
+       Cap parella binària genera text espanyol significativament millor
+       que el control aleatori. Els ratios i les distribucions de runs
+       no són compatibles amb codi Morse.
+
+  B) Anomalies belgues  ...... REBUTJADA
+       Les anomalies puntuals existeixen però formen runs llargs de voltes
+       consecutives (motius decoratius diagonals/verticals), no senyals
+       puntuals com en el cas belga del WWI.
+
+  C) Manolita del Arco  ...... CONFIRMADA
+       La línia  de 'primavera.txt' del corpus coincideix LITERALMENT
+       amb la cita verbatim del cuaderno de Manolita publicada per El País
+       i pel blog 'Memòria Repressió Franquista' (4 maig 2024). La peça
+       'Primavera' té el nom, l'arrencada i els patrons lèxics compatibles
+       amb la descripció pública.
+
+  IMPLICACIÓ:
+       El corpus de Carmen Machado és una còpia, derivat o cuaderno germà
+       dels cuadernillos de la xarxa de presas comunistes franquistes que
+       Manolita del Arco custodiava. El codi clandestí de fons NO ha estat
+       desxifrat per cap investigador (López Barceló, Martínez del Arco,
+       Padrón-Blashke). Les hipòtesis A i B estan documentades com a
+       fracassades, però queden registrades com a controls negatius
+       d'aquest TFG.
+
+[OK] Desat: RESULTATS_MS\res_fase5.3\hipotesis_referencies.json
+
+---> Executant fase6.1_classical_views.py ...
+Carregant dades des de JSON i CSVs...
+  OK. Carregats 71 teixits.

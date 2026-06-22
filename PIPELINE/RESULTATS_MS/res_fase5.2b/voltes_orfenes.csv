@@ -1,0 +1,284 @@
+teixit,volta,classe,categoria_5_1,score_5_1,n_rare,tokens_rare,z_runs,flags_5_1
+MS_Adolbert,18,CONVERGENT,ALTA,6.588,2,25|.,,flag_sig_intra|flag_macro_surp
+MS_Claveles,119,CONVERGENT,ALTA,6.0228,1,<l(3)lxl(3)lxl(3)lxl(3)l>,,flag_sig_intra|flag_macro_surp
+MS_Ovalo1,49,CONVERGENT,CRÍTICA,8.502,1,333,,flag_sig_intra|flag_sig_salt|flag_macro_surp
+MS_Pelargonia,64,CONVERGENT,CRÍTICA,7.4671,4,S|b|u|t,,flag_sig_intra|flag_macro_surp|flag_micro_max
+MS_Rita,107,CONVERGENT,MODERADA,5.3026,1,<gll3l(2)ll(2)l3lla>,,flag_macro_surp
+MS_Titi 1,15,CONVERGENT,MODERADA,2.7095,0,,-4.0899,flag_sig_salt
+MS_Titi 2 - Grafico A,15,CONVERGENT,MODERADA,2.7994,0,,-4.0899,flag_sig_salt
+MS_Adolbert,35,LEXICA,normal,4.0751,1,<pl3l>,,
+MS_Araceli,47,LEXICA,normal,3.7596,1,<lplx>,,
+MS_Cacus,15,LEXICA,normal,4.5262,0,,3.1952,
+MS_Campanilla,69,LEXICA,normal,3.453,1,<xll>,,
+MS_Celia 1,55,LEXICA,normal,2.6467,0,,3.379,
+MS_Celia 1,75,LEXICA,normal,3.2842,1,(37),,
+MS_Celia 1,77,LEXICA,normal,4.4653,1,(39),,
+MS_Claveles,111,LEXICA,normal,2.6118,0,,4.0828,
+MS_Claveles,115,LEXICA,normal,2.3981,0,,5.391,
+MS_Claveles,117,LEXICA,normal,4.6027,1,<lpl3l3l3l3l3lplp3p>,,
+MS_Fajas,37,LEXICA,normal,3.5285,1,<l>,,
+MS_Gafitas2,57,LEXICA,normal,5.6117,1,<l(2)la>,,
+MS_Grafico 2,31,LEXICA,normal,2.3433,1,<l(3)lx>,,
+MS_Grafico B - Puntilla,73,LEXICA,normal,3.0921,0,,5.391,
+MS_Hijo,31,LEXICA,normal,3.0279,0,,3.1261,
+MS_Hijo,33,LEXICA,normal,3.0863,0,,3.5832,
+MS_Hojas,37,LEXICA,normal,3.0236,1,<xlpl>,,
+MS_Hojas,41,LEXICA,normal,4.601,1,<xlgl3>lal>,,
+MS_Hojas,43,LEXICA,normal,3.2579,0,,5.0745,
+MS_Julito,45,LEXICA,normal,3.2415,1,<apgl>,,
+MS_Leonor,45,LEXICA,normal,2.9692,1,<LXLP>,,
+MS_Leonor,49,LEXICA,normal,2.8765,1,<LPL(2)>,,
+MS_Leonor,65,LEXICA,normal,2.4552,1,C,,
+MS_Leonor,83,LEXICA,normal,2.2588,1,<L(2)>,,
+MS_Luis,97,LEXICA,normal,1.5406,0,,-5.4322,
+MS_Luis,99,LEXICA,normal,3.1705,0,,-5.3706,
+MS_Madreselva,219,LEXICA,normal,1.5981,0,,-4.7257,
+MS_Margarita,107,LEXICA,normal,3.3085,0,,3.1527,
+MS_Margarita,109,LEXICA,normal,2.9415,0,,3.1527,
+MS_Marianin o Katiuska,19,LEXICA,normal,0.1776,0,,-8.4568,
+MS_Marianin o Katiuska,47,LEXICA,normal,3.8333,0,,3.1261,
+MS_Morin,37,LEXICA,normal,2.4541,1,<ll2>>,,
+MS_Morin,39,LEXICA,normal,2.0673,1,<ll(4)>,,
+MS_Ovalo1,23,LEXICA,normal,3.8653,1,<pgl>,,
+MS_Ovalo2,11,LEXICA,normal,4.5653,1,<7>,,
+MS_Ovalo2,13,LEXICA,normal,3.3286,1,<ll-8r>,,
+MS_Ovalo2,33,LEXICA,normal,3.7737,0,,3.2605,
+MS_Pensamiento,27,LEXICA,normal,3.7422,1,<6>lal3lgl>,,
+MS_Pino,109,LEXICA,normal,3.7106,1,<a(4)lxl(4)g>,,
+MS_Pino,137,LEXICA,normal,3.2376,1,<apgl(2)la(3)pl(3)lappgl(2)3(2)l>,,
+MS_Puntilla,7,LEXICA,normal,3.2497,0,,3.0702,
+MS_Puntilla,9,LEXICA,normal,3.3629,0,,3.5826,
+MS_Puntilla,11,LEXICA,normal,3.1851,0,,3.0146,
+MS_Puntilla pequeña Salvador,119,LEXICA,normal,0.5233,0,,-6.9169,
+MS_Puntilla2,5,LEXICA,normal,3.3311,1,10,,
+MS_Puntilla2,7,LEXICA,normal,3.6463,1,9,,
+MS_Puntilla3,1,LEXICA,normal,5.1658,1,<a(13)pl3>>,,
+MS_Raetine,113,LEXICA,normal,4.9827,1,<#-glla>,,
+MS_Rita,9,LEXICA,normal,2.8178,1,13,,
+MS_Rita,81,LEXICA,normal,2.3915,1,<l(8)>,,
+MS_Rita,83,LEXICA,normal,3.936,1,<glpla(3)>,,
+MS_Rita,87,LEXICA,normal,3.2652,2,<l3lglpla>|<l3l(4)3(4)>,,
+MS_Rita,89,LEXICA,normal,2.8039,0,,3.0737,
+MS_Salvador,69,LEXICA,normal,4.125,1,<l2>,,
+MS_Salvador,101,LEXICA,normal,3.064,1,<6,,
+MS_Susana,41,LEXICA,normal,4.3909,1,<apglpl>,,
+MS_Titi - Puntilla,11,LEXICA,normal,3.5095,1,<l(3)lxl>,,
+MS_Vaño Mimosa,47,LEXICA,normal,3.8041,2,<4>|<l4>,,
+MS_Vaño Mimosa,49,LEXICA,normal,3.9906,1,<5>,,
+MS_Vaño Mimosa,71,LEXICA,normal,1.5084,0,,-5.1815,
+MS_Vueltas del reves,27,LEXICA,normal,2.3015,0,,-3.9076,
+MS_Vueltas del reves,29,LEXICA,normal,4.8211,1,<l(3)ga(3)>,,
+MS_Adolbert,33,GRAMATICAL,MODERADA,5.7479,0,,,flag_macro_surp
+MS_Antoña o Canijo,7,GRAMATICAL,MODERADA,4.8947,0,,,flag_sig_intra
+MS_Antoña o Canijo,9,GRAMATICAL,ALTA,5.7575,0,,,flag_sig_intra|flag_sig_salt
+MS_Antoña o Canijo,31,GRAMATICAL,MODERADA,5.3269,0,,,flag_macro_surp
+MS_Araceli,5,GRAMATICAL,MODERADA,7.033,0,,,flag_sig_intra
+MS_Araceli,13,GRAMATICAL,ALTA,5.2781,0,,,flag_sig_salt|flag_macro_surp
+MS_Araceli,19,GRAMATICAL,MODERADA,3.7425,0,,,flag_micro_max
+MS_Araceli,37,GRAMATICAL,MODERADA,4.6974,0,,,flag_macro_surp
+MS_Araceli,45,GRAMATICAL,MODERADA,4.2804,0,,,flag_macro_surp
+MS_Araceli,53,GRAMATICAL,MODERADA,3.5603,0,,,flag_macro_surp
+MS_Araceli,59,GRAMATICAL,MODERADA,5.5344,0,,,flag_macro_surp
+MS_Araceli,63,GRAMATICAL,MODERADA,6.471,0,,,flag_macro_surp
+MS_Araceli,89,GRAMATICAL,MODERADA,4.3466,0,,,flag_macro_surp
+MS_Blumen Flor,9,GRAMATICAL,MODERADA,4.382,0,,,flag_macro_surp
+MS_Blumen Flor,19,GRAMATICAL,MODERADA,4.668,0,,,flag_trans_invalides
+MS_Blumen Flor,117,GRAMATICAL,ALTA,7.7241,0,,,flag_sig_intra|flag_sig_salt
+MS_Cacus,1,GRAMATICAL,CRÍTICA,7.8085,0,,,flag_macro_surp|flag_micro_mean|flag_trans_invalides
+MS_Cacus,3,GRAMATICAL,ALTA,6.2354,0,,,flag_micro_mean|flag_trans_invalides
+MS_Cacus,9,GRAMATICAL,MODERADA,4.6784,0,,,flag_micro_max
+MS_Campanilla,3,GRAMATICAL,MODERADA,4.9251,0,,,flag_trans_invalides
+MS_Campanilla,7,GRAMATICAL,MODERADA,4.6405,0,,,flag_macro_surp
+MS_Campanilla,31,GRAMATICAL,MODERADA,6.371,0,,,flag_macro_surp
+MS_Campanilla,57,GRAMATICAL,MODERADA,4.1287,0,,,flag_micro_max
+MS_Campanilla,59,GRAMATICAL,MODERADA,3.997,0,,,flag_micro_max
+MS_Campanilla,61,GRAMATICAL,MODERADA,4.0068,0,,,flag_micro_max
+MS_Campanilla,63,GRAMATICAL,MODERADA,3.1923,0,,,flag_micro_max
+MS_Campanilla,71,GRAMATICAL,MODERADA,3.1469,0,,,flag_micro_max
+MS_Campanilla,83,GRAMATICAL,ALTA,7.7621,0,,,flag_macro_surp|flag_micro_mean
+MS_Celia 1,1,GRAMATICAL,ALTA,6.1258,0,,,flag_micro_mean|flag_trans_invalides
+MS_Celia 1,3,GRAMATICAL,ALTA,6.2859,0,,,flag_sig_salt|flag_macro_surp
+MS_Celia 1,31,GRAMATICAL,MODERADA,4.1956,0,,,flag_sig_salt
+MS_Celia 1,37,GRAMATICAL,MODERADA,4.8081,0,,,flag_macro_surp
+MS_Celia 1,59,GRAMATICAL,MODERADA,3.9149,0,,,flag_macro_surp
+MS_Celia 2,23,GRAMATICAL,MODERADA,4.0237,0,,,flag_sig_salt
+MS_Celia 2,27,GRAMATICAL,MODERADA,4.5866,0,,,flag_macro_surp
+MS_Celia 2,29,GRAMATICAL,MODERADA,5.4131,0,,,flag_micro_max
+MS_Celia 2,45,GRAMATICAL,MODERADA,5.6009,0,,,flag_macro_surp
+MS_Claveles,103,GRAMATICAL,MODERADA,4.1076,0,,,flag_micro_max
+MS_Dalia,15,GRAMATICAL,MODERADA,5.544,0,,,flag_macro_surp
+MS_Dalia,19,GRAMATICAL,MODERADA,4.8181,0,,,flag_macro_surp
+MS_Dalia,39,GRAMATICAL,MODERADA,6.8324,0,,,flag_macro_surp
+MS_Dalia,43,GRAMATICAL,ALTA,8.003,0,,,flag_sig_intra|flag_trans_invalides
+MS_Dalila,1,GRAMATICAL,ALTA,6.5459,0,,,flag_micro_mean|flag_trans_invalides
+MS_Estrellita,13,GRAMATICAL,MODERADA,5.3347,0,,,flag_macro_surp
+MS_Estrellita,17,GRAMATICAL,MODERADA,4.2349,0,,,flag_macro_surp
+MS_Estrellita,25,GRAMATICAL,MODERADA,4.4018,0,,,flag_macro_surp
+MS_Estrellita,29,GRAMATICAL,MODERADA,3.9171,0,,,flag_macro_surp
+MS_Fajas,17,GRAMATICAL,MODERADA,5.6754,0,,,flag_micro_mean
+MS_Fajas,19,GRAMATICAL,ALTA,7.0056,0,,,flag_sig_intra|flag_macro_surp
+MS_Fajas,21,GRAMATICAL,MODERADA,4.2793,0,,,flag_sig_salt
+MS_Fajas,23,GRAMATICAL,MODERADA,5.614,0,,,flag_macro_surp
+MS_Fajas,27,GRAMATICAL,MODERADA,3.8681,0,,,flag_sig_salt
+MS_Fajas,31,GRAMATICAL,MODERADA,5.1046,0,,,flag_macro_surp
+MS_Fajas,39,GRAMATICAL,MODERADA,5.267,0,,,flag_macro_surp
+MS_Gafitas1,47,GRAMATICAL,MODERADA,5.6051,0,,,flag_sig_salt
+MS_Gafitas2,41,GRAMATICAL,MODERADA,5.8229,0,,,flag_macro_surp
+MS_Gafitas2,45,GRAMATICAL,MODERADA,5.2307,0,,,flag_macro_surp
+MS_Gafitas2,51,GRAMATICAL,MODERADA,5.5882,0,,,flag_macro_surp
+MS_Gafitas2,55,GRAMATICAL,MODERADA,4.8304,0,,,flag_macro_surp
+MS_Grafico 2,47,GRAMATICAL,MODERADA,5.0323,0,,,flag_macro_surp
+MS_Grafico 2,53,GRAMATICAL,MODERADA,6.4466,0,,,flag_sig_intra
+MS_Grafico B - Puntilla,39,GRAMATICAL,ALTA,7.6905,0,,,flag_sig_intra|flag_macro_surp
+MS_Grafico B - Puntilla,49,GRAMATICAL,ALTA,6.1191,0,,,flag_sig_intra|flag_macro_surp
+MS_Grafico B - Puntilla,69,GRAMATICAL,ALTA,7.2673,0,,,flag_sig_intra|flag_macro_surp
+MS_Hijo,1,GRAMATICAL,MODERADA,5.6862,0,,,flag_sig_intra
+MS_Hijo,19,GRAMATICAL,MODERADA,7.72,0,,,flag_macro_surp
+MS_Hijo,35,GRAMATICAL,MODERADA,4.1929,0,,,flag_macro_surp
+MS_Hijo,39,GRAMATICAL,MODERADA,4.9299,0,,,flag_macro_surp
+MS_Hijo,43,GRAMATICAL,MODERADA,5.1547,0,,,flag_micro_max
+MS_Hijo,51,GRAMATICAL,MODERADA,5.0769,0,,,flag_macro_surp
+MS_Hijo,91,GRAMATICAL,MODERADA,5.7626,0,,,flag_macro_surp
+MS_Hijo,95,GRAMATICAL,CRÍTICA,8.5175,0,,,flag_sig_intra|flag_sig_salt|flag_macro_surp|flag_trans_invalides
+MS_Hojas,1,GRAMATICAL,MODERADA,4.3956,0,,,flag_sig_intra
+MS_Hojas,3,GRAMATICAL,MODERADA,5.4803,0,,,flag_sig_intra
+MS_Jazmín,23,GRAMATICAL,MODERADA,4.2454,0,,,flag_macro_surp
+MS_Julito,1,GRAMATICAL,ALTA,5.4772,0,,,flag_micro_mean|flag_trans_invalides
+MS_Julito,5,GRAMATICAL,MODERADA,3.5454,0,,,flag_sig_salt
+MS_Julito,7,GRAMATICAL,MODERADA,3.5287,0,,,flag_trans_invalides
+MS_Julito,11,GRAMATICAL,MODERADA,3.5287,0,,,flag_trans_invalides
+MS_Julito,15,GRAMATICAL,MODERADA,3.5287,0,,,flag_trans_invalides
+MS_Julito,17,GRAMATICAL,MODERADA,3.5287,0,,,flag_trans_invalides
+MS_Julito,19,GRAMATICAL,MODERADA,3.5287,0,,,flag_trans_invalides
+MS_Julito,49,GRAMATICAL,MODERADA,5.0697,0,,,flag_macro_surp
+MS_Julito,59,GRAMATICAL,MODERADA,3.7204,0,,,flag_micro_max
+MS_Julito,67,GRAMATICAL,MODERADA,4.2724,0,,,flag_micro_max
+MS_Leonor,31,GRAMATICAL,MODERADA,4.9719,0,,,flag_micro_max
+MS_Leonor,35,GRAMATICAL,ALTA,4.6956,0,,,flag_sig_salt|flag_macro_surp
+MS_Leonor,71,GRAMATICAL,MODERADA,3.5088,0,,,flag_micro_max
+MS_Luis,9,GRAMATICAL,MODERADA,4.8605,0,,,flag_macro_surp
+MS_Luis,47,GRAMATICAL,MODERADA,3.9565,0,,,flag_macro_surp
+MS_Luis,79,GRAMATICAL,MODERADA,6.6656,0,,,flag_trans_invalides
+MS_Luis,95,GRAMATICAL,ALTA,6.9709,0,,,flag_micro_mean|flag_trans_invalides
+MS_Luis,101,GRAMATICAL,MODERADA,6.0272,0,,,flag_micro_max
+MS_Luis,103,GRAMATICAL,MODERADA,4.2051,0,,,flag_micro_max
+MS_MLuisa,29,GRAMATICAL,MODERADA,4.7894,0,,,flag_macro_surp
+MS_MLuisa,31,GRAMATICAL,MODERADA,5.0612,0,,,flag_sig_intra
+MS_Madreselva,23,GRAMATICAL,MODERADA,5.7788,0,,,flag_macro_surp
+MS_Madreselva,207,GRAMATICAL,MODERADA,4.4693,0,,,flag_macro_surp
+MS_Madreselva,221,GRAMATICAL,CRÍTICA,7.4295,0,,,flag_sig_intra|flag_sig_salt|flag_macro_surp
+MS_Madreselva,223,GRAMATICAL,MODERADA,3.6387,0,,,flag_sig_intra
+MS_Margarita,27,GRAMATICAL,MODERADA,5.4315,0,,,flag_macro_surp
+MS_Margarita,35,GRAMATICAL,MODERADA,3.3653,0,,,flag_micro_max
+MS_Margarita,41,GRAMATICAL,MODERADA,3.8306,0,,,flag_micro_max
+MS_Margarita,83,GRAMATICAL,MODERADA,5.4013,0,,,flag_macro_surp
+MS_Margarita,111,GRAMATICAL,MODERADA,4.8207,0,,,flag_macro_surp
+MS_Margarita,115,GRAMATICAL,MODERADA,4.9044,0,,,flag_macro_surp
+MS_Mariposa,17,GRAMATICAL,MODERADA,5.0758,0,,,flag_macro_surp
+MS_Mariposa,21,GRAMATICAL,MODERADA,4.9033,0,,,flag_macro_surp
+MS_Mariposa,25,GRAMATICAL,MODERADA,4.9033,0,,,flag_macro_surp
+MS_Mary-Luz,47,GRAMATICAL,MODERADA,5.7742,0,,,flag_sig_intra
+MS_Morin,19,GRAMATICAL,MODERADA,4.2232,0,,,flag_micro_max
+MS_Morin,21,GRAMATICAL,MODERADA,5.1593,0,,,flag_sig_intra
+MS_Morin,27,GRAMATICAL,MODERADA,5.7867,0,,,flag_sig_intra
+MS_Morin,41,GRAMATICAL,MODERADA,3.9712,0,,,flag_micro_max
+MS_Otro Punto Calado,1,GRAMATICAL,MODERADA,5.7637,0,,,flag_trans_invalides
+MS_Ovalo1,13,GRAMATICAL,MODERADA,3.5081,0,,,flag_micro_max
+MS_Ovalo1,15,GRAMATICAL,MODERADA,4.3314,0,,,flag_micro_max
+MS_Ovalo1,17,GRAMATICAL,MODERADA,3.9128,0,,,flag_micro_max
+MS_Ovalo1,21,GRAMATICAL,MODERADA,4.2763,0,,,flag_micro_max
+MS_Ovalo1,25,GRAMATICAL,MODERADA,3.7722,0,,,flag_micro_max
+MS_Ovalo1,51,GRAMATICAL,MODERADA,5.9464,0,,,flag_sig_salt
+MS_Ovalo2,5,GRAMATICAL,CRÍTICA,8.1336,0,,,flag_sig_intra|flag_micro_mean|flag_trans_invalides
+MS_Ovalo2,7,GRAMATICAL,ALTA,6.3613,0,,,flag_sig_salt|flag_macro_surp
+MS_Ovalo2,35,GRAMATICAL,MODERADA,4.5396,0,,,flag_macro_surp
+MS_Ovalo2,57,GRAMATICAL,CRÍTICA,6.3513,0,,,flag_sig_intra|flag_sig_salt|flag_macro_surp
+MS_Ovalo2,59,GRAMATICAL,MODERADA,5.2066,0,,,flag_sig_salt
+MS_Palmito,47,GRAMATICAL,MODERADA,6.1733,0,,,flag_macro_surp
+MS_Pelargonia,3,GRAMATICAL,ALTA,6.1144,0,,,flag_micro_mean|flag_trans_invalides
+MS_Pelargonia,5,GRAMATICAL,MODERADA,4.4913,0,,,flag_trans_invalides
+MS_Pelargonia,9,GRAMATICAL,MODERADA,3.5429,0,,,flag_trans_invalides
+MS_Pelargonia,13,GRAMATICAL,MODERADA,3.5429,0,,,flag_trans_invalides
+MS_Pelargonia,17,GRAMATICAL,MODERADA,3.5429,0,,,flag_trans_invalides
+MS_Pelargonia,19,GRAMATICAL,MODERADA,3.5429,0,,,flag_trans_invalides
+MS_Pelargonia,21,GRAMATICAL,MODERADA,3.5429,0,,,flag_trans_invalides
+MS_Pelargonia,57,GRAMATICAL,MODERADA,4.2686,0,,,flag_micro_max
+MS_Pelargonia,69,GRAMATICAL,MODERADA,3.4,0,,,flag_micro_max
+MS_Pelargonia,71,GRAMATICAL,MODERADA,5.5286,0,,,flag_sig_intra
+MS_Pelargonia,79,GRAMATICAL,MODERADA,5.9322,0,,,flag_macro_surp
+MS_Penas,33,GRAMATICAL,MODERADA,4.0391,0,,,flag_sig_salt
+MS_Penas,49,GRAMATICAL,MODERADA,5.3443,0,,,flag_macro_surp
+MS_Penas,56,GRAMATICAL,MODERADA,5.37,0,,,flag_trans_invalides
+MS_Penas,64,GRAMATICAL,MODERADA,4.6499,0,,,flag_macro_surp
+MS_Penas,68,GRAMATICAL,MODERADA,6.1452,0,,,flag_macro_surp
+MS_Pensamiento,29,GRAMATICAL,MODERADA,5.9345,0,,,flag_macro_surp
+MS_Pensamiento,49,GRAMATICAL,ALTA,5.0414,0,,,flag_macro_surp|flag_micro_max
+MS_Pino,13,GRAMATICAL,MODERADA,4.7615,0,,,flag_macro_surp
+MS_Pino,17,GRAMATICAL,MODERADA,4.589,0,,,flag_macro_surp
+MS_Pino,21,GRAMATICAL,MODERADA,4.4844,0,,,flag_macro_surp
+MS_Pino,25,GRAMATICAL,MODERADA,4.4897,0,,,flag_macro_surp
+MS_Pino,33,GRAMATICAL,MODERADA,4.3371,0,,,flag_macro_surp
+MS_Pino,41,GRAMATICAL,MODERADA,5.5606,0,,,flag_macro_surp
+MS_Pino,45,GRAMATICAL,MODERADA,5.3982,0,,,flag_macro_surp
+MS_Pino,49,GRAMATICAL,MODERADA,4.9645,0,,,flag_macro_surp
+MS_Pino,53,GRAMATICAL,MODERADA,5.6748,0,,,flag_macro_surp
+MS_Pino,67,GRAMATICAL,MODERADA,6.6926,0,,,flag_sig_salt
+MS_Pino,89,GRAMATICAL,MODERADA,4.0136,0,,,flag_trans_invalides
+MS_Pino,101,GRAMATICAL,MODERADA,3.4881,0,,,flag_macro_surp
+MS_Plumitas,11,GRAMATICAL,MODERADA,5.5943,0,,,flag_macro_surp
+MS_Plumitas,43,GRAMATICAL,MODERADA,5.918,0,,,flag_micro_max
+MS_Plumitas,51,GRAMATICAL,ALTA,4.0729,0,,,flag_sig_intra|flag_micro_max
+MS_Puntilla,29,GRAMATICAL,MODERADA,4.5966,0,,,flag_macro_surp
+MS_Puntilla nueva,17,GRAMATICAL,MODERADA,5.3206,0,,,flag_macro_surp
+MS_Puntilla nueva,23,GRAMATICAL,MODERADA,5.9634,0,,,flag_macro_surp
+MS_Puntilla pequeña Salvador,113,GRAMATICAL,ALTA,4.8133,0,,,flag_sig_salt|flag_macro_surp
+MS_Puntilla pequeña Salvador,117,GRAMATICAL,MODERADA,5.0421,0,,,flag_sig_salt
+MS_Puntilla1,1,GRAMATICAL,MODERADA,5.2427,0,,,flag_trans_invalides
+MS_Puntilla4,1,GRAMATICAL,ALTA,6.2742,0,,,flag_sig_intra|flag_micro_mean
+MS_Puntilla4,17,GRAMATICAL,MODERADA,4.1703,0,,,flag_micro_max
+MS_Punto Esmeralda,2,GRAMATICAL,MODERADA,5.4556,0,,,flag_micro_mean
+MS_Punto Esmeralda,4,GRAMATICAL,MODERADA,5.3815,0,,,flag_micro_mean
+MS_Punto Esmeralda,5,GRAMATICAL,MODERADA,3.9832,0,,,flag_trans_invalides
+MS_Punto Esmeralda,6,GRAMATICAL,MODERADA,5.1021,0,,,flag_trans_invalides
+MS_Punto Hojitas vueltas,7,GRAMATICAL,MODERADA,6.5326,0,,,flag_macro_surp
+MS_Punto dos caras,5,GRAMATICAL,MODERADA,4.3473,0,,,flag_sig_intra
+MS_Punto semilla,3,GRAMATICAL,MODERADA,6.1325,0,,,flag_macro_surp
+MS_Punto semilla,9,GRAMATICAL,MODERADA,4.1023,0,,,flag_macro_surp
+MS_Raetine,3,GRAMATICAL,ALTA,6.0234,0,,,flag_micro_mean|flag_trans_invalides
+MS_Raetine,5,GRAMATICAL,ALTA,5.465,0,,,flag_micro_mean|flag_trans_invalides
+MS_Raetine,9,GRAMATICAL,MODERADA,5.6976,0,,,flag_macro_surp
+MS_Raetine,13,GRAMATICAL,MODERADA,6.0905,0,,,flag_macro_surp
+MS_Raetine,40,GRAMATICAL,ALTA,7.2467,0,,,flag_sig_salt|flag_macro_surp
+MS_Raetine,92,GRAMATICAL,MODERADA,6.462,0,,,flag_macro_surp
+MS_Raetine,94,GRAMATICAL,MODERADA,6.462,0,,,flag_macro_surp
+MS_Raetine,99,GRAMATICAL,MODERADA,3.052,0,,,flag_sig_salt
+MS_Raetine,109,GRAMATICAL,MODERADA,5.7465,0,,,flag_macro_surp
+MS_Rita,21,GRAMATICAL,MODERADA,5.6017,0,,,flag_sig_intra
+MS_Rita,69,GRAMATICAL,ALTA,7.4128,0,,,flag_sig_intra|flag_macro_surp
+MS_Rita,113,GRAMATICAL,ALTA,7.6599,0,,,flag_sig_intra|flag_macro_surp
+MS_Salvador,9,GRAMATICAL,MODERADA,3.764,0,,,flag_sig_intra
+MS_Salvador,11,GRAMATICAL,MODERADA,6.4912,0,,,flag_macro_surp
+MS_Salvador,47,GRAMATICAL,MODERADA,5.5797,0,,,flag_macro_surp
+MS_Salvador,67,GRAMATICAL,MODERADA,3.8589,0,,,flag_micro_max
+MS_Salvador,83,GRAMATICAL,MODERADA,4.7946,0,,,flag_macro_surp
+MS_Salvador,85,GRAMATICAL,MODERADA,4.1584,0,,,flag_micro_max
+MS_Salvador,87,GRAMATICAL,MODERADA,4.9877,0,,,flag_macro_surp
+MS_Salvador,149,GRAMATICAL,ALTA,5.392,0,,,flag_sig_salt|flag_macro_surp
+MS_Susana,51,GRAMATICAL,MODERADA,4.2449,0,,,flag_macro_surp
+MS_Susana,63,GRAMATICAL,MODERADA,4.9759,0,,,flag_macro_surp
+MS_Susana,67,GRAMATICAL,MODERADA,4.8817,0,,,flag_macro_surp
+MS_Titi - Puntilla,9,GRAMATICAL,MODERADA,4.1583,0,,,flag_sig_intra
+MS_Titi 1,3,GRAMATICAL,MODERADA,4.7836,0,,,flag_trans_invalides
+MS_Titi 1,13,GRAMATICAL,ALTA,7.0822,0,,,flag_sig_salt|flag_macro_surp
+MS_Titi 1,17,GRAMATICAL,ALTA,5.9736,0,,,flag_sig_salt|flag_macro_surp
+MS_Titi 2 - Grafico A,3,GRAMATICAL,ALTA,5.2837,0,,,flag_micro_mean|flag_trans_invalides
+MS_Titi 2 - Grafico A,13,GRAMATICAL,ALTA,6.8839,0,,,flag_sig_salt|flag_macro_surp
+MS_Titi 2 - Grafico A,23,GRAMATICAL,MODERADA,3.3319,0,,,flag_sig_salt
+MS_Titi 2 - Grafico B,25,GRAMATICAL,MODERADA,3.9997,0,,,flag_macro_surp
+MS_Titi 2 - Grafico B,29,GRAMATICAL,MODERADA,6.643,0,,,flag_macro_surp
+MS_Titi 2 - Grafico B,37,GRAMATICAL,MODERADA,4.0845,0,,,flag_sig_intra
+MS_Titi 2 - Grafico B,39,GRAMATICAL,MODERADA,5.2457,0,,,flag_sig_salt
+MS_Vaño Mimosa,39,GRAMATICAL,MODERADA,3.6933,0,,,flag_macro_surp
+MS_Vaño Mimosa,45,GRAMATICAL,MODERADA,3.7144,0,,,flag_macro_surp
+MS_Vaño Mimosa,59,GRAMATICAL,MODERADA,4.05,0,,,flag_macro_surp
+MS_Vaño Mimosa,73,GRAMATICAL,MODERADA,3.6798,0,,,flag_macro_surp

@@ -1,0 +1,88 @@
+teixit,volta,classe,categoria_5_1,score_5_1,n_rare,tokens_rare,z_runs,flags_5_1
+ND_Isabelet,131,CONVERGENT,MODERADA,2.809,1,21,,flag_micro_max
+ND_Maria,171,CONVERGENT,MODERADA,1.9085,1,19,,flag_sig_intra
+ND_Anelise,39,LEXICA,normal,1.6345,1,6>,,
+ND_Anelise,73,LEXICA,normal,2.2469,1,12>,,
+ND_Coco liso,101,LEXICA,normal,1.7175,1,311,,
+ND_Coco liso,105,LEXICA,normal,1.2734,1,39,,
+ND_Dolores,71,LEXICA,normal,2.9271,1,(35),,
+ND_Dolores,73,LEXICA,normal,1.8791,1,(37),,
+ND_Maria,149,LEXICA,normal,2.5164,1,S,,
+ND_Maria,195,LEXICA,normal,2.3884,1,J,,
+ND_Tara,31,LEXICA,normal,3.11,1,А,,
+ND_Vilno (Hijo),105,LEXICA,normal,2.0898,1,<8,,
+ND_Aurea,1,GRAMATICAL,MODERADA,2.5729,0,,,flag_sig_intra
+ND_Aurea,3,GRAMATICAL,ALTA,4.6516,0,,,flag_sig_intra|flag_trans_invalides
+ND_Aurea,7,GRAMATICAL,ALTA,3.632,0,,,flag_sig_intra|flag_trans_invalides
+ND_Aurea,13,GRAMATICAL,MODERADA,2.5701,0,,,flag_sig_intra
+ND_Aurea,27,GRAMATICAL,ALTA,5.1066,0,,,flag_sig_intra|flag_trans_invalides
+ND_Campesina,29,GRAMATICAL,MODERADA,4.1728,0,,,flag_trans_invalides
+ND_Chechee,9,GRAMATICAL,MODERADA,2.5619,0,,,flag_trans_invalides
+ND_Chechee,15,GRAMATICAL,CRÍTICA,4.7422,0,,,flag_sig_intra|flag_sig_salt|flag_micro_mean
+ND_Chechee,17,GRAMATICAL,MODERADA,4.0437,0,,,flag_micro_mean
+ND_Chistrofe Rosa de Navidad,60,GRAMATICAL,MODERADA,2.6664,0,,,flag_sig_salt
+ND_Coco liso,1,GRAMATICAL,MODERADA,2.2258,0,,,flag_sig_intra
+ND_Coco liso,3,GRAMATICAL,ALTA,4.1904,0,,,flag_sig_intra|flag_trans_invalides
+ND_Coco liso,7,GRAMATICAL,MODERADA,3.6609,0,,,flag_sig_intra
+ND_Conchita Romero,15,GRAMATICAL,ALTA,4.4252,0,,,flag_sig_intra|flag_macro_surp
+ND_Conchita Romero,43,GRAMATICAL,MODERADA,3.9741,0,,,flag_macro_surp
+ND_Conchita Romero,117,GRAMATICAL,MODERADA,4.214,0,,,flag_macro_surp
+ND_Conchita Romero,173,GRAMATICAL,MODERADA,3.2499,0,,,flag_micro_max
+ND_Conchita Romero,177,GRAMATICAL,MODERADA,4.4571,0,,,flag_macro_surp
+ND_Demetri pequeño,1,GRAMATICAL,ALTA,5.382,0,,,flag_micro_mean|flag_trans_invalides
+ND_Demetri pequeño,25,GRAMATICAL,MODERADA,4.5577,0,,,flag_trans_invalides
+ND_Dolores,23,GRAMATICAL,MODERADA,2.8423,0,,,flag_micro_max
+ND_Dolores,37,GRAMATICAL,ALTA,4.2592,0,,,flag_micro_mean|flag_micro_max
+ND_Dolores,63,GRAMATICAL,MODERADA,4.2522,0,,,flag_micro_mean
+ND_Isabelet,87,GRAMATICAL,MODERADA,5.4029,0,,,flag_macro_surp
+ND_Isabelet,193,GRAMATICAL,MODERADA,2.7424,0,,,flag_sig_intra
+ND_Maria,21,GRAMATICAL,MODERADA,1.14,0,,,flag_sig_intra
+ND_Maria,23,GRAMATICAL,MODERADA,0.6153,0,,,flag_sig_intra
+ND_Maria,25,GRAMATICAL,ALTA,1.2411,0,,,flag_sig_intra|flag_micro_max
+ND_Maria,27,GRAMATICAL,MODERADA,1.1341,0,,,flag_sig_intra
+ND_Maria,29,GRAMATICAL,MODERADA,0.7349,0,,,flag_sig_intra
+ND_Maria,33,GRAMATICAL,MODERADA,3.5568,0,,,flag_sig_salt
+ND_Maria,169,GRAMATICAL,CRÍTICA,5.3347,0,,,flag_sig_intra|flag_sig_salt|flag_macro_surp
+ND_Maria,173,GRAMATICAL,MODERADA,1.6342,0,,,flag_sig_intra
+ND_Maria,175,GRAMATICAL,MODERADA,1.111,0,,,flag_sig_intra
+ND_Maria,177,GRAMATICAL,MODERADA,0.9421,0,,,flag_sig_intra
+ND_Maria,179,GRAMATICAL,MODERADA,1.0314,0,,,flag_sig_intra
+ND_Merche,43,GRAMATICAL,MODERADA,4.0794,0,,,flag_micro_mean
+ND_Merche,101,GRAMATICAL,MODERADA,3.3064,0,,,flag_trans_invalides
+ND_Modelo Ros Mari,3,GRAMATICAL,ALTA,6.2265,0,,,flag_micro_mean|flag_trans_invalides
+ND_Modelo Ros Mari,45,GRAMATICAL,MODERADA,4.4389,0,,,flag_sig_salt
+ND_Modelo Ros Mari,47,GRAMATICAL,MODERADA,3.5068,0,,,flag_macro_surp
+ND_Modelo Ros Mari,97,GRAMATICAL,MODERADA,1.6742,0,,,flag_sig_salt
+ND_Modelo Ros Mari,105,GRAMATICAL,ALTA,4.2897,0,,,flag_sig_intra|flag_sig_salt
+ND_Modelo Ros Mari,107,GRAMATICAL,MODERADA,2.3713,0,,,flag_sig_salt
+ND_Rosario,3,GRAMATICAL,MODERADA,3.322,0,,,flag_trans_invalides
+ND_Rosario,31,GRAMATICAL,ALTA,4.8379,0,,,flag_sig_intra|flag_sig_salt
+ND_Rosario,33,GRAMATICAL,ALTA,5.9326,0,,,flag_sig_salt|flag_macro_surp
+ND_Rosario,63,GRAMATICAL,MODERADA,3.8143,0,,,flag_macro_surp
+ND_Rosario,103,GRAMATICAL,MODERADA,3.871,0,,,flag_macro_surp
+ND_Rosario,117,GRAMATICAL,MODERADA,3.6259,0,,,flag_macro_surp
+ND_Rosario,127,GRAMATICAL,MODERADA,2.5711,0,,,flag_sig_intra
+ND_Rosario,129,GRAMATICAL,MODERADA,2.0742,0,,,flag_sig_intra
+ND_Ruth,43,GRAMATICAL,MODERADA,2.7235,0,,,flag_micro_max
+ND_Ruth,61,GRAMATICAL,MODERADA,2.4482,0,,,flag_micro_max
+ND_Ruth,63,GRAMATICAL,MODERADA,2.6604,0,,,flag_micro_max
+ND_Ruth,69,GRAMATICAL,MODERADA,3.0191,0,,,flag_micro_max
+ND_Ruth,71,GRAMATICAL,MODERADA,2.5351,0,,,flag_micro_max
+ND_Ruth,75,GRAMATICAL,ALTA,5.4083,0,,,flag_macro_surp|flag_micro_max
+ND_Ruth,83,GRAMATICAL,MODERADA,2.5411,0,,,flag_micro_max
+ND_Ruth,89,GRAMATICAL,MODERADA,2.4163,0,,,flag_sig_salt
+ND_Tara,3,GRAMATICAL,MODERADA,3.3132,0,,,flag_trans_invalides
+ND_Tara,7,GRAMATICAL,MODERADA,2.568,0,,,flag_trans_invalides
+ND_Tara,97,GRAMATICAL,MODERADA,2.6528,0,,,flag_micro_max
+ND_Tara,115,GRAMATICAL,MODERADA,5.2264,0,,,flag_sig_intra
+ND_Vilno (Hijo),3,GRAMATICAL,MODERADA,3.8735,0,,,flag_trans_invalides
+ND_Vilno (Hijo),15,GRAMATICAL,MODERADA,4.6423,0,,,flag_trans_invalides
+ND_Vilno (Hijo),19,GRAMATICAL,MODERADA,2.9005,0,,,flag_sig_intra
+ND_Vilno (Hijo),63,GRAMATICAL,MODERADA,2.0256,0,,,flag_micro_max
+ND_Vilno (Hijo),75,GRAMATICAL,MODERADA,2.2724,0,,,flag_micro_max
+ND_Vilno (Hijo),81,GRAMATICAL,MODERADA,2.1563,0,,,flag_micro_max
+ND_Vilno (Hijo),87,GRAMATICAL,MODERADA,1.9615,0,,,flag_micro_max
+ND_Vilno (Hijo),93,GRAMATICAL,MODERADA,1.9943,0,,,flag_micro_max
+ND_Vilno (Hijo),99,GRAMATICAL,MODERADA,2.3433,0,,,flag_micro_max
+ND_Vilno (Hijo),141,GRAMATICAL,MODERADA,5.0679,0,,,flag_sig_intra
+ND_Vilno (Hijo),143,GRAMATICAL,MODERADA,3.2841,0,,,flag_sig_salt
