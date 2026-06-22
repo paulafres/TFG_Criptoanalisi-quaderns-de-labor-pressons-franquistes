@@ -319,13 +319,20 @@ def viz_anomalies():
     crit = [per_teixit[t]["n_CRITICA"] for t in teixits]
     alta = [per_teixit[t]["n_ALTA"] for t in teixits]
     mod  = [per_teixit[t]["n_MODERADA"] for t in teixits]
-    fig, ax = plt.subplots(figsize=(11, 5.5))
+    
+    # CALCUL DINÀMIC: L'amplada creix amb el núm de teixits
+    amplada = max(12, len(teixits) * 0.25)
+    fig, ax = plt.subplots(figsize=(amplada, 6.5))
+    
     x = np.arange(len(teixits))
     ax.bar(x, crit, color="#cc0000", label="CRÍTICA")
     ax.bar(x, alta, bottom=crit, color="#ee9900", label="ALTA")
     ax.bar(x, mod, bottom=np.array(crit) + np.array(alta),
            color="#dddd55", label="MODERADA")
-    ax.set_xticks(x); ax.set_xticklabels(teixits, rotation=30, ha="right")
+           
+    ax.set_xticks(x)
+    # Girem més les etiquetes (60 graus) i fem la lletra més petita
+    ax.set_xticklabels(teixits, rotation=60, ha="right", fontsize=7)
     ax.set_title("Anomalies per teixit (recompte)")
     ax.set_ylabel("# voltes anòmales")
     ax.legend()

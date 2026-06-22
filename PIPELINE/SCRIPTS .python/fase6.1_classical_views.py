@@ -36,8 +36,6 @@ from config import (
 
 _PNG_BASE = RES_FASE_6
 
-# Canvi de directori actiu perquè totes les rutes relatives heretades segueixin
-# resolent-se respecte a "CUADERNO CARMEN MACHADO .txt"
 os.chdir(str(_BASE))
 
 DATASET_FILE    = str(F1_TEIXITS_DATASET)
@@ -408,17 +406,25 @@ def generar_globals(dataset, simbols_csv, compartits_csv):
         df_norm = df_sim.div(instr_s, axis=0).round(3)
         mask0 = df_norm == 0 # Mascara per pintar els zeros de blanc pur
         
-        fig, ax = plt.subplots(figsize=(18, 7))
-        # Pintem valors > 0
+        # CALCUL DINÀMIC: L'alçada creix segons els teixits, l'amplada segons els símbols
+        h = max(8, len(df_norm.index) * 0.25)
+        w = max(18, len(df_norm.columns) * 0.35)
+        fig, ax = plt.subplots(figsize=(w, h))
+        
+        # Pintem valors > 0 (Afegim annot_kws={"size": 6} per fer els números petits)
         sns.heatmap(df_norm, annot=True, fmt=".2f", cmap=NDap_wb, mask=mask0,
-                    linewidths=0.4, linecolor="#eeeeee", ax=ax, cbar_kws={"label": "freq / instrucció", "shrink": 0.7})
-        # Pintem valors = 0 (text gris fluix)
+                    linewidths=0.4, linecolor="#eeeeee", ax=ax, 
+                    cbar_kws={"label": "freq / instrucció", "shrink": 0.7},
+                    annot_kws={"size": 6})
+                    
+        # Pintem valors = 0 (Fem el text més clar encara "#e0e0e0" i petit)
         sns.heatmap(df_norm, annot=True, fmt=".2f", cmap=["#ffffff"], mask=~mask0,
-                    linewidths=0.4, linecolor="#eeeeee", ax=ax, cbar=False, annot_kws={"color": "#cccccc"})
+                    linewidths=0.4, linecolor="#eeeeee", ax=ax, cbar=False, 
+                    annot_kws={"color": "#e0e0e0", "size": 5})
         
         ax.set_title("Ús relatiu de caràcters Hardware per teixit\n(Normalitzat per núm. instruccions)", fontsize=13, fontweight="bold", pad=12)
-        ax.tick_params(axis="y", labelsize=9, rotation=0)
-        ax.tick_params(axis="x", labelsize=9, rotation=30)
+        ax.tick_params(axis="y", labelsize=7, rotation=0) # Text de l'eix Y més petit
+        ax.tick_params(axis="x", labelsize=8, rotation=45) # Més rotació eix X
         plt.setp(ax.get_xticklabels(), ha="right")
         plt.tight_layout()
         plt.savefig(f"{out_dir}/Globals/Heatmap_simbols.png", dpi=DPI_GLOBALS, bbox_inches="tight")
@@ -524,14 +530,19 @@ def generar_globals(dataset, simbols_csv, compartits_csv):
                                       index=df_met_global.index, 
                                       columns=df_met_global.columns)
         
-        fig, ax = plt.subplots(figsize=(16, 7))
-        # Use RdBu_r palette (Vermell alt, Blau baix, Blanc mitjana)
+        # CALCUL DINÀMIC: Donem oxigen vertical
+        h_met = max(8, len(df_met_zglobal.index) * 0.25)
+        fig, ax = plt.subplots(figsize=(16, h_met))
+        
+        # Afegim annot_kws={"size": 7} per fer el text de la cel·la més net
         sns.heatmap(df_met_zglobal, annot=True, fmt=".2f", cmap="RdBu_r", center=0, 
-                    linewidths=0.5, linecolor="#eeeeee", ax=ax, cbar_kws={"label": "Z-score Global"})
+                    linewidths=0.5, linecolor="#eeeeee", ax=ax, 
+                    cbar_kws={"label": "Z-score Global", "shrink": 0.7},
+                    annot_kws={"size": 7})
         
         ax.set_title("Mapa comparatiu de perfils de informació (Z-score Global)\nVermell = Valor molt superior a la mitjana | Blau = Molt inferior", fontsize=13, fontweight="bold", pad=12)
-        ax.tick_params(axis="y", labelsize=9, rotation=0)
-        ax.tick_params(axis="x", labelsize=9, rotation=30)
+        ax.tick_params(axis="y", labelsize=7, rotation=0) # Noms teixits lletra 7
+        ax.tick_params(axis="x", labelsize=9, rotation=45)
         plt.setp(ax.get_xticklabels(), ha="right")
         plt.tight_layout()
         plt.savefig(f"{out_dir}/Globals/Heatmap_metriques_global.png", dpi=DPI_GLOBALS, bbox_inches="tight")
