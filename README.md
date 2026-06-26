@@ -44,3 +44,27 @@ A l'arxiu `config.py`, defineix quin quadern (o conjunt de quaderns) vols analit
 ```python
 # Opcions: "CM", "MS", "ND", "P", "TOTS"
 CORPUS_ACTIU = "P"
+
+### 2. Executar el Pipeline Complet (`0_run_pipeline.py)
+Simplement executa l'script mestre des de l'arrel dels scripts:
+```python
+python 0_run_pipeline.py
+```
+Aquest procés generarà una carpeta `RESULTATS_[CORPUS_ACTIU]` amb tots els datasets generats, els JSONs intermedis i una carpeta `res_fase6` amb els gràfics generats.
+
+### 3. Generar el Resum Global
+Un cop completat el pipeline, pots generar un arxiu de text amb la síntesi interpretada de tots els resultats executant:
+```python resum_global.py```
+Això et donarà un output per consola i crearà l'arxiu `resum_global.txt` a l'arrel del projecte.
+
+## Requisits
+Assegura't de comptar amb un entorn Python 3.12+ i les següents llibreries instal·lades:
+```
+- numpy
+- pandas
+- scikit-learn
+- scipy
+- matplotlib
+- seaborn
+- networkx
+```
