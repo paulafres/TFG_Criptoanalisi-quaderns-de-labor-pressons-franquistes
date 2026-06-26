@@ -41,13 +41,14 @@ L'orquestrador principal executa totes les fases en l'ordre correcte i s'atura a
 
 ### 1. Configuració (`config.py`)
 A l'arxiu `config.py`, defineix quin quadern (o conjunt de quaderns) vols analitzar canviant la variable `CORPUS_ACTIU`:
-```python
+```
 # Opcions: "CM", "MS", "ND", "P", "TOTS"
 CORPUS_ACTIU = "P"
+```
 
 ### 2. Executar el Pipeline Complet (`0_run_pipeline.py)
 Simplement executa l'script mestre des de l'arrel dels scripts:
-```python
+```
 python 0_run_pipeline.py
 ```
 Aquest procés generarà una carpeta `RESULTATS_[CORPUS_ACTIU]` amb tots els datasets generats, els JSONs intermedis i una carpeta `res_fase6` amb els gràfics generats.
